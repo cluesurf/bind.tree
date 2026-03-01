@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form incoming-message
   take form native-boolean
@@ -12,12 +12,12 @@ load @termsurf/base/code/javascript
   take form readonly-array
   take form socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
   take form tuple
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form outgoing-http-headers
 
 form outgoing-message, name <OutgoingMessage>

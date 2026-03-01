@@ -1,20 +1,20 @@
 
-bear @termsurf/base/code/javascript/node/worker-threads/message-channel
-bear @termsurf/base/code/javascript/node/worker-threads/worker-performance
-bear @termsurf/base/code/javascript/node/worker-threads/transfer-list-item
-bear @termsurf/base/code/javascript/node/worker-threads/message-port
-bear @termsurf/base/code/javascript/node/worker-threads/worker-options
-bear @termsurf/base/code/javascript/node/worker-threads/resource-limits
-bear @termsurf/base/code/javascript/node/worker-threads/worker
-bear @termsurf/base/code/javascript/node/worker-threads/broadcast-channel
-bear @termsurf/base/code/javascript/node/worker-threads/serializable
+bear @cluesurf/base/code/javascript/node/worker-threads/message-channel
+bear @cluesurf/base/code/javascript/node/worker-threads/worker-performance
+bear @cluesurf/base/code/javascript/node/worker-threads/transfer-list-item
+bear @cluesurf/base/code/javascript/node/worker-threads/message-port
+bear @cluesurf/base/code/javascript/node/worker-threads/worker-options
+bear @cluesurf/base/code/javascript/node/worker-threads/resource-limits
+bear @cluesurf/base/code/javascript/node/worker-threads/worker
+bear @cluesurf/base/code/javascript/node/worker-threads/broadcast-channel
+bear @cluesurf/base/code/javascript/node/worker-threads/serializable
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form form
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form message-port
   take form native-boolean
   take form native-null
@@ -24,10 +24,10 @@ load @termsurf/base/code/javascript
   take form native-undefined
   take form native-void
 
-load @termsurf/base/code/node/vm
+load @cluesurf/base/code/node/vm
   take form context
 
-load @termsurf/base/code/node/worker-threads
+load @cluesurf/base/code/node/worker-threads
   take form resource-limits
   take form serializable
 

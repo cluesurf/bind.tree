@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-string
 
 form any-ptr-record, name <AnyPtrRecord>

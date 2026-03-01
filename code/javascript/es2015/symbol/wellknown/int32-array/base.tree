@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript/es2015/iterable/int32-array
+load @cluesurf/base/code/javascript/es2015/iterable/int32-array
   take form int32-array
 
 form int32-array, name <Int32Array>

@@ -1,11 +1,11 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form path-like
 
 form path-or-file-descriptor, name <PathOrFileDescriptor>

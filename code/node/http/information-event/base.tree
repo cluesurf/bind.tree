@@ -1,10 +1,10 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-number
   take form native-string
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form incoming-http-headers
 
 form information-event, name <InformationEvent>

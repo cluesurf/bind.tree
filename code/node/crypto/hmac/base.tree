@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form hmac
   take form native-string
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/crypto
+load @cluesurf/base/code/node/crypto
   take form binary-like
   take form binary-to-text-encoding
   take form encoding

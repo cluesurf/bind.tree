@@ -1,11 +1,11 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-null
 
-load @termsurf/base/code/node/child-process
+load @cluesurf/base/code/node/child-process
   take form exec-file-options
 
 form exec-file-options-with-buffer-encoding, name <ExecFileOptionsWithBufferEncoding>

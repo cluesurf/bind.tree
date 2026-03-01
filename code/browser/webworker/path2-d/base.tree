@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-void
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form canvas-path
   take form dom-matrix2-d-init
 
-load @termsurf/base/code/browser/dom/path2-d
+load @cluesurf/base/code/browser/dom/path2-d
   take form path2-d
 
 form path2-d, name <Path2D>

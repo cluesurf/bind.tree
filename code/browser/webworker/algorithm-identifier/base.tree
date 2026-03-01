@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form algorithm
 
 form algorithm-identifier, name <AlgorithmIdentifier>

@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form event-emitter
   take form native-boolean
@@ -14,12 +14,12 @@ load @termsurf/base/code/javascript
   take form node-js-dict
   take form worker
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
   take form task
 
-load @termsurf/base/code/node/cluster
+load @cluesurf/base/code/node/cluster
   take form address
   take form cluster-settings
 

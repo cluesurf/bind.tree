@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form iterable
   take form iterable-iterator
@@ -11,13 +11,13 @@ load @termsurf/base/code/javascript
   take form readonly-array
   take form record
 
-load @termsurf/moon
+load @cluesurf/moon
   take form like
   take form or
   take form task
   take form tuple
 
-load @termsurf/base/code/node/url
+load @cluesurf/base/code/node/url
   take form url-search-params
 
 form url-search-params, name <URLSearchParams>

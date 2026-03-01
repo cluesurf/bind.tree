@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form dirent
   take form native-null
@@ -7,16 +7,16 @@ load @termsurf/base/code/javascript
   take form native-undefined
   take form promise
 
-load @termsurf/moon
+load @cluesurf/moon
   take form and
   take form form
   take form or
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form object-encoding-options
   take form path-like
 

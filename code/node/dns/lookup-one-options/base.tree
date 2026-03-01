@@ -1,11 +1,11 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-undefined
 
-load @termsurf/base/code/node/dns
+load @cluesurf/base/code/node/dns
   take form lookup-options
 
 form lookup-one-options, name <LookupOneOptions>

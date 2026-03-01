@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/es2015/iterable
+load @cluesurf/base/code/javascript/es2015/iterable
   take form iterable
   take form iterable-iterator
 
-load @termsurf/base/code/javascript/es2015/collection/map
+load @cluesurf/base/code/javascript/es2015/collection/map
   take form map
 
-load @termsurf/base/code/javascript/es2015/iterable/map
+load @cluesurf/base/code/javascript/es2015/iterable/map
   take form map
 
 form map, name <Map>

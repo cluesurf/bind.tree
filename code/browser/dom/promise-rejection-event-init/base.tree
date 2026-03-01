@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form event-init
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
 
 form promise-rejection-event-init, name <PromiseRejectionEventInit>

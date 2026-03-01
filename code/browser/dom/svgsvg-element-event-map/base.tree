@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form svg-element-event-map
   take form window-event-handlers-event-map
 

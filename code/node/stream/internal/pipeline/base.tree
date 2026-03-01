@@ -1,10 +1,10 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form like
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-void
   take form node-js-read-write-stream
   take form node-js-readable-stream
@@ -12,10 +12,10 @@ load @termsurf/base/code/javascript
   take form promise
   take form readonly-array
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form array
 
-load @termsurf/base/code/node/stream/internal
+load @cluesurf/base/code/node/stream/internal
   take form pipeline-destination
   take form pipeline-options
   take form pipeline-promise

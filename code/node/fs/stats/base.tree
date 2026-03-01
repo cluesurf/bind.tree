@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form stats-base
 
 form stats, name <Stats>

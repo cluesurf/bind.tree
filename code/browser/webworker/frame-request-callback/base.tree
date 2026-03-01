@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom/frame-request-callback
+load @cluesurf/base/code/browser/dom/frame-request-callback
   take form frame-request-callback
 
 form frame-request-callback, name <FrameRequestCallback>

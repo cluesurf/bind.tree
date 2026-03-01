@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
   take form native-string
 
-load @termsurf/base/code/javascript/es5/function
+load @cluesurf/base/code/javascript/es5/function
   take form function
 
 form function, name <Function>

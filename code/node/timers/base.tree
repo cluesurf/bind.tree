@@ -1,7 +1,7 @@
 
-bear @termsurf/base/code/javascript/node/timers/timer-options
+bear @cluesurf/base/code/javascript/node/timers/timer-options
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-number
   take form native-void
@@ -9,7 +9,7 @@ load @termsurf/base/code/javascript
   take form node-js-timeout
   take form node-js-timer
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form like
   take form task

@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form extendable-event
 
 form sync-event, name <SyncEvent>

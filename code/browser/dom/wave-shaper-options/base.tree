@@ -1,15 +1,15 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form audio-node-options
   take form over-sample-type
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form float32-array
 
 form wave-shaper-options, name <WaveShaperOptions>

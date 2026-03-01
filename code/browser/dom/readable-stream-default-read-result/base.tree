@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form readable-stream-default-read-done-result
   take form readable-stream-default-read-value-result
 

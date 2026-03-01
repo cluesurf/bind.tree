@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form abort-signal
 
 form pipeline-options, name <PipelineOptions>

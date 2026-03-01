@@ -1,10 +1,10 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form like
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form error
   take form native-boolean
   take form native-null
@@ -13,10 +13,10 @@ load @termsurf/base/code/javascript
   take form native-void
   take form stream
 
-load @termsurf/base/code/node/events/event-emitter
+load @cluesurf/base/code/node/events/event-emitter
   take form abortable
 
-load @termsurf/base/code/node/fs/stream-options
+load @cluesurf/base/code/node/fs/stream-options
   take form stream-options
 
 form stream-options, name <StreamOptions>

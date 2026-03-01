@@ -1,14 +1,14 @@
 
-bear @termsurf/base/code/javascript/node/os/cpu-info
-bear @termsurf/base/code/javascript/node/os/network-interface-base
-bear @termsurf/base/code/javascript/node/os/network-interface-info-i-pv4
-bear @termsurf/base/code/javascript/node/os/network-interface-info-i-pv6
-bear @termsurf/base/code/javascript/node/os/user-info
-bear @termsurf/base/code/javascript/node/os/network-interface-info
-bear @termsurf/base/code/javascript/node/os/signal-constants
-bear @termsurf/base/code/javascript/node/os/constants
+bear @cluesurf/base/code/javascript/node/os/cpu-info
+bear @cluesurf/base/code/javascript/node/os/network-interface-base
+bear @cluesurf/base/code/javascript/node/os/network-interface-info-i-pv4
+bear @cluesurf/base/code/javascript/node/os/network-interface-info-i-pv6
+bear @cluesurf/base/code/javascript/node/os/user-info
+bear @cluesurf/base/code/javascript/node/os/network-interface-info
+bear @cluesurf/base/code/javascript/node/os/signal-constants
+bear @cluesurf/base/code/javascript/node/os/constants
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-number
   take form native-string
@@ -16,15 +16,15 @@ load @termsurf/base/code/javascript
   take form node-js-dict
   take form node-js-platform
 
-load @termsurf/moon
+load @cluesurf/moon
   take form form
   take form or
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/os
+load @cluesurf/base/code/node/os
   take form cpu-info
   take form network-interface-info
   take form user-info

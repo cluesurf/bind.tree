@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-boolean
 
-load @termsurf/base/code/node/util
+load @cluesurf/base/code/node/util
   take form debug-logger-function
 
 form debug-logger, name <DebugLogger>

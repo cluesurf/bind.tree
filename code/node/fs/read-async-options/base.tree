@@ -1,11 +1,11 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form like
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form node-js-array-buffer-view
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form read-sync-options
 
 form read-async-options, name <ReadAsyncOptions>

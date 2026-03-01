@@ -1,13 +1,13 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-null
   take form native-number
   take form native-undefined
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form read-position
 
 form read-sync-options, name <ReadSyncOptions>

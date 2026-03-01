@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form like
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form function
 
-load @termsurf/base/code/node/util
+load @cluesurf/base/code/node/util
   take form custom-promisify-legacy
   take form custom-promisify-symbol
 

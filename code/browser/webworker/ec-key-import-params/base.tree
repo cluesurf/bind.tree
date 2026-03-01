@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form algorithm
   take form named-curve
 
-load @termsurf/base/code/browser/dom/ec-key-import-params
+load @cluesurf/base/code/browser/dom/ec-key-import-params
   take form ec-key-import-params
 
 form ec-key-import-params, name <EcKeyImportParams>

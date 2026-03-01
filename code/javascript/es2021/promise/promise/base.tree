@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/es2015/iterable
+load @cluesurf/base/code/javascript/es2015/iterable
   take form iterable
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise-like
 
 form promise

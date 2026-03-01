@@ -1,15 +1,15 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form like
   take form test
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-void
   take form p
   take form promise
 
-load @termsurf/base/code/node/stream/internal
+load @cluesurf/base/code/node/stream/internal
   take form pipeline-destination
   take form pipeline-destination-promise-function
 

@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form canvas-rendering-context2-d
   take form image-bitmap-rendering-context
   take form web-gl-rendering-context

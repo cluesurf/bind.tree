@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form form-data-entry-value
 
-load @termsurf/base/code/browser/webworker/form-data
+load @cluesurf/base/code/browser/webworker/form-data
   take form form-data
 
 form form-data, name <FormData>

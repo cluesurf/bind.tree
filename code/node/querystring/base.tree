@@ -1,13 +1,13 @@
 
-bear @termsurf/base/code/javascript/node/querystring/stringify-options
-bear @termsurf/base/code/javascript/node/querystring/parse-options
-bear @termsurf/base/code/javascript/node/querystring/parsed-url-query
-bear @termsurf/base/code/javascript/node/querystring/parsed-url-query-input
+bear @cluesurf/base/code/javascript/node/querystring/stringify-options
+bear @cluesurf/base/code/javascript/node/querystring/parse-options
+bear @cluesurf/base/code/javascript/node/querystring/parsed-url-query
+bear @cluesurf/base/code/javascript/node/querystring/parsed-url-query-input
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-string
 
-load @termsurf/base/code/node/querystring
+load @cluesurf/base/code/node/querystring
   take form parse-options
   take form parsed-url-query
   take form parsed-url-query-input

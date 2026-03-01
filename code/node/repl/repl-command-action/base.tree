@@ -1,8 +1,8 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-string
   take form native-void
   take form repl-server

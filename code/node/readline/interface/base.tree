@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form async-iterable-iterator
   take form native-boolean
@@ -13,18 +13,18 @@ load @termsurf/base/code/javascript
   take form node-js-readable-stream
   take form node-js-writable-stream
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
   take form task
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/events/event-emitter
+load @cluesurf/base/code/node/events/event-emitter
   take form abortable
 
-load @termsurf/base/code/node/readline
+load @cluesurf/base/code/node/readline
   take form async-completer
   take form completer
   take form cursor-pos

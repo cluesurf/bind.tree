@@ -1,10 +1,10 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form global
   take form memory
   take form table
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form function
 
 form export-value, name <ExportValue>

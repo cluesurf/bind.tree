@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript/es2016/array/include/int16-array
+load @cluesurf/base/code/javascript/es2016/array/include/int16-array
   take form int16-array
 
 form int16-array

@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/dns
+load @cluesurf/base/code/node/dns
   take form srv-record
 
 form any-srv-record, name <AnySrvRecord>

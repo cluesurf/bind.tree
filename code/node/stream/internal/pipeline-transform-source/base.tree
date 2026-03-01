@@ -1,10 +1,10 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form like
   take form or
 
-load @termsurf/base/code/node/stream/internal
+load @cluesurf/base/code/node/stream/internal
   take form pipeline-source
   take form pipeline-transform
 

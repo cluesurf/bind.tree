@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form css-rule
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
 
-load @termsurf/base/code/browser/dom/css-rule-list
+load @cluesurf/base/code/browser/dom/css-rule-list
   take form css-rule-list
 
 form css-rule-list, name <CSSRuleList>

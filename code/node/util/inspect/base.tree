@@ -1,14 +1,14 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form tuple
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form native-string
   take form native-symbol
   take form node-js-dict
 
-load @termsurf/base/code/node/util
+load @cluesurf/base/code/node/util
   take form inspect-options
   take form style
 

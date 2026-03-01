@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-undefined
   take form runtime-stack-trace
   take form runtime-stack-trace-id
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/node/inspector/debugger
+load @cluesurf/base/code/node/inspector/debugger
   take form call-frame
 
 form restart-frame-return-type, name <RestartFrameReturnType>

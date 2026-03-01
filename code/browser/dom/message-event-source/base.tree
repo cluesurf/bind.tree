@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form message-port
   take form service-worker
   take form window-proxy

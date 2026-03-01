@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-boolean
   take form native-undefined
 
-load @termsurf/base/code/node/inspector/runtime
+load @cluesurf/base/code/node/inspector/runtime
   take form remote-object-id
 
 form get-properties-parameter-type, name <GetPropertiesParameterType>

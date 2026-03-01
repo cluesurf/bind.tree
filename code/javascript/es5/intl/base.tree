@@ -1,21 +1,21 @@
 
-bear @termsurf/base/code/javascript/es5/intl/collator-options
-bear @termsurf/base/code/javascript/es5/intl/resolved-collator-options
-bear @termsurf/base/code/javascript/es5/intl/collator
-bear @termsurf/base/code/javascript/es5/intl/number-format-options
-bear @termsurf/base/code/javascript/es5/intl/resolved-number-format-options
-bear @termsurf/base/code/javascript/es5/intl/number-format
-bear @termsurf/base/code/javascript/es5/intl/date-time-format-options
-bear @termsurf/base/code/javascript/es5/intl/resolved-date-time-format-options
-bear @termsurf/base/code/javascript/es5/intl/date-time-format
+bear @cluesurf/base/code/javascript/es5/intl/collator-options
+bear @cluesurf/base/code/javascript/es5/intl/resolved-collator-options
+bear @cluesurf/base/code/javascript/es5/intl/collator
+bear @cluesurf/base/code/javascript/es5/intl/number-format-options
+bear @cluesurf/base/code/javascript/es5/intl/resolved-number-format-options
+bear @cluesurf/base/code/javascript/es5/intl/number-format
+bear @cluesurf/base/code/javascript/es5/intl/date-time-format-options
+bear @cluesurf/base/code/javascript/es5/intl/resolved-date-time-format-options
+bear @cluesurf/base/code/javascript/es5/intl/date-time-format
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form collator
   take form collator-options
   take form date-time-format

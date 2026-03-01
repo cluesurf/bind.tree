@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-null
   take form native-void
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form credential
   take form credential-creation-options
   take form credential-request-options
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
 
 form credentials-container, name <CredentialsContainer>

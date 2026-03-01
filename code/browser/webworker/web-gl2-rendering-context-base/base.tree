@@ -1,13 +1,13 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-null
   take form native-string
   take form native-void
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form float32-list
   take form g-lbitfield
   take form g-lboolean
@@ -34,10 +34,10 @@ load @termsurf/base/code/browser/webworker
   take form web-gl-uniform-location
   take form web-gl-vertex-array-object
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form array-buffer-view
 
-load @termsurf/base/code/browser/dom/iterable/web-gl2-rendering-context-base
+load @cluesurf/base/code/browser/dom/iterable/web-gl2-rendering-context-base
   take form web-gl2-rendering-context-base
 
 form web-gl2-rendering-context-base, name <WebGL2RenderingContextBase>

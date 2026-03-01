@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form algorithm
   take form crypto-key
 
-load @termsurf/base/code/browser/dom/ecdh-key-derive-params
+load @cluesurf/base/code/browser/dom/ecdh-key-derive-params
   take form ecdh-key-derive-params
 
 form ecdh-key-derive-params, name <EcdhKeyDeriveParams>

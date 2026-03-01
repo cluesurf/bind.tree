@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form console-message-added-event-data-type
   take form debugger-breakpoint-resolved-event-data-type
@@ -104,13 +104,13 @@ load @termsurf/base/code/javascript
   take form runtime-set-custom-object-formatter-enabled-parameter-type
   take form schema-get-domains-return-type
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form form
   take form or
   take form task
 
-load @termsurf/base/code/node/inspector
+load @cluesurf/base/code/node/inspector
   take form inspector-notification
 
 form session, name <Session>

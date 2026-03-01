@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript/es2015/iterable
+load @cluesurf/base/code/javascript/es2015/iterable
   take form iterator
 
 form iterable-iterator, name <IterableIterator>

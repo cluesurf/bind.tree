@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-null
   take form native-string
   take form native-undefined
   take form native-void
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form add-event-listener-options
   take form event
   take form event-listener-options
@@ -19,7 +19,7 @@ load @termsurf/base/code/browser/dom
   take form service-worker-registration
   take form url
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
   take form readonly-array
 

@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-string
 
-load @termsurf/moon
+load @cluesurf/moon
   take form tuple
 
 form completer-result, name <CompleterResult>

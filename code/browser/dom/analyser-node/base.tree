@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
   take form native-void
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form audio-node
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form float32-array
   take form uint8-array
 

@@ -1,9 +1,9 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form form
   take form tuple
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
 
 form memory-measurement, name <MemoryMeasurement>

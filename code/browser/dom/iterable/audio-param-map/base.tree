@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form readonly-map
 
-load @termsurf/base/code/browser/dom/audio-param-map
+load @cluesurf/base/code/browser/dom/audio-param-map
   take form audio-param-map
 
 form audio-param-map, name <AudioParamMap>

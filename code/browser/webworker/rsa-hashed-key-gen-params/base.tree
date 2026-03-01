@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form hash-algorithm-identifier
   take form rsa-key-gen-params
 
-load @termsurf/base/code/browser/dom/rsa-hashed-key-gen-params
+load @cluesurf/base/code/browser/dom/rsa-hashed-key-gen-params
   take form rsa-hashed-key-gen-params
 
 form rsa-hashed-key-gen-params, name <RsaHashedKeyGenParams>

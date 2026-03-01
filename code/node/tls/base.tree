@@ -1,24 +1,24 @@
 
-bear @termsurf/base/code/javascript/node/tls/certificate
-bear @termsurf/base/code/javascript/node/tls/peer-certificate
-bear @termsurf/base/code/javascript/node/tls/detailed-peer-certificate
-bear @termsurf/base/code/javascript/node/tls/cipher-name-and-protocol
-bear @termsurf/base/code/javascript/node/tls/ephemeral-key-info
-bear @termsurf/base/code/javascript/node/tls/key-object
-bear @termsurf/base/code/javascript/node/tls/pxf-object
-bear @termsurf/base/code/javascript/node/tls/tls-socket-options
-bear @termsurf/base/code/javascript/node/tls/tls-socket
-bear @termsurf/base/code/javascript/node/tls/common-connection-options
-bear @termsurf/base/code/javascript/node/tls/tls-options
-bear @termsurf/base/code/javascript/node/tls/psk-callback-negotation
-bear @termsurf/base/code/javascript/node/tls/connection-options
-bear @termsurf/base/code/javascript/node/tls/server
-bear @termsurf/base/code/javascript/node/tls/secure-pair
-bear @termsurf/base/code/javascript/node/tls/secure-version
-bear @termsurf/base/code/javascript/node/tls/secure-context-options
-bear @termsurf/base/code/javascript/node/tls/secure-context
+bear @cluesurf/base/code/javascript/node/tls/certificate
+bear @cluesurf/base/code/javascript/node/tls/peer-certificate
+bear @cluesurf/base/code/javascript/node/tls/detailed-peer-certificate
+bear @cluesurf/base/code/javascript/node/tls/cipher-name-and-protocol
+bear @cluesurf/base/code/javascript/node/tls/ephemeral-key-info
+bear @cluesurf/base/code/javascript/node/tls/key-object
+bear @cluesurf/base/code/javascript/node/tls/pxf-object
+bear @cluesurf/base/code/javascript/node/tls/tls-socket-options
+bear @cluesurf/base/code/javascript/node/tls/tls-socket
+bear @cluesurf/base/code/javascript/node/tls/common-connection-options
+bear @cluesurf/base/code/javascript/node/tls/tls-options
+bear @cluesurf/base/code/javascript/node/tls/psk-callback-negotation
+bear @cluesurf/base/code/javascript/node/tls/connection-options
+bear @cluesurf/base/code/javascript/node/tls/server
+bear @cluesurf/base/code/javascript/node/tls/secure-pair
+bear @cluesurf/base/code/javascript/node/tls/secure-version
+bear @cluesurf/base/code/javascript/node/tls/secure-context-options
+bear @cluesurf/base/code/javascript/node/tls/secure-context
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form error
   take form native-boolean
@@ -29,14 +29,14 @@ load @termsurf/base/code/javascript
   take form readonly-array
   take form tls-socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/node/https
+load @cluesurf/base/code/node/https
   take form server
 
-load @termsurf/base/code/node/tls
+load @cluesurf/base/code/node/tls
   take form connection-options
   take form peer-certificate
   take form secure-context

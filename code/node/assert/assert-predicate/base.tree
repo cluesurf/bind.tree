@@ -1,10 +1,10 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
   take form unknown
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form error
   take form native-boolean
   take form native-object

@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-undefined
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form underlying-sink-abort-callback
   take form underlying-sink-close-callback
   take form underlying-sink-start-callback
   take form underlying-sink-write-callback
 
-load @termsurf/base/code/browser/dom/underlying-sink
+load @cluesurf/base/code/browser/dom/underlying-sink
   take form underlying-sink
 
 form underlying-sink, name <UnderlyingSink>

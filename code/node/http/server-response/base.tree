@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form incoming-message
   take form native-number
@@ -8,11 +8,11 @@ load @termsurf/base/code/javascript
   take form native-void
   take form socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form outgoing-http-header
   take form outgoing-http-headers
 

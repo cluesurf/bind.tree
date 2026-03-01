@@ -1,21 +1,21 @@
 
-bear @termsurf/base/code/javascript/node/util/inspect-options
-bear @termsurf/base/code/javascript/node/util/style
-bear @termsurf/base/code/javascript/node/util/custom-inspect-function
-bear @termsurf/base/code/javascript/node/util/inspect-options-stylized
-bear @termsurf/base/code/javascript/node/util/inspect
-bear @termsurf/base/code/javascript/node/util/debug-logger-function
-bear @termsurf/base/code/javascript/node/util/debug-logger
-bear @termsurf/base/code/javascript/node/util/custom-promisify-legacy
-bear @termsurf/base/code/javascript/node/util/custom-promisify-symbol
-bear @termsurf/base/code/javascript/node/util/custom-promisify
-bear @termsurf/base/code/javascript/node/util/promisify
-bear @termsurf/base/code/javascript/node/util/text-decoder
-bear @termsurf/base/code/javascript/node/util/encode-into-result
-bear @termsurf/base/code/javascript/node/util/text-encoder
-bear @termsurf/base/code/javascript/node/util/util-types
+bear @cluesurf/base/code/javascript/node/util/inspect-options
+bear @cluesurf/base/code/javascript/node/util/style
+bear @cluesurf/base/code/javascript/node/util/custom-inspect-function
+bear @cluesurf/base/code/javascript/node/util/inspect-options-stylized
+bear @cluesurf/base/code/javascript/node/util/inspect
+bear @cluesurf/base/code/javascript/node/util/debug-logger-function
+bear @cluesurf/base/code/javascript/node/util/debug-logger
+bear @cluesurf/base/code/javascript/node/util/custom-promisify-legacy
+bear @cluesurf/base/code/javascript/node/util/custom-promisify-symbol
+bear @cluesurf/base/code/javascript/node/util/custom-promisify
+bear @cluesurf/base/code/javascript/node/util/promisify
+bear @cluesurf/base/code/javascript/node/util/text-decoder
+bear @cluesurf/base/code/javascript/node/util/encode-into-result
+bear @cluesurf/base/code/javascript/node/util/text-encoder
+bear @cluesurf/base/code/javascript/node/util/util-types
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form date
   take form error
@@ -32,7 +32,7 @@ load @termsurf/base/code/javascript
   take form promise
   take form reg-exp
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form like
   take form or
@@ -40,10 +40,10 @@ load @termsurf/moon
   take form tuple
   take form unknown
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/util
+load @cluesurf/base/code/node/util
   take form custom-promisify
   take form debug-logger
   take form debug-logger-function

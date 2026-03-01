@@ -1,21 +1,21 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form and
   take form form
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-null
   take form native-string
   take form native-undefined
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/events/event-emitter
+load @cluesurf/base/code/node/events/event-emitter
   take form abortable
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form mode
   take form object-encoding-options
 

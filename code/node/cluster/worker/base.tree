@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form child-child-process
   take form child-message-options
@@ -16,12 +16,12 @@ load @termsurf/base/code/javascript
   take form net-server
   take form net-socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
   take form task
 
-load @termsurf/base/code/node/cluster
+load @cluesurf/base/code/node/cluster
   take form address
 
 form worker, name <Worker>

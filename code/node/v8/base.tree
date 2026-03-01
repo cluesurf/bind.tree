@@ -1,14 +1,14 @@
 
-bear @termsurf/base/code/javascript/node/v8/heap-space-info
-bear @termsurf/base/code/javascript/node/v8/does-zap-code-space-flag
-bear @termsurf/base/code/javascript/node/v8/heap-info
-bear @termsurf/base/code/javascript/node/v8/heap-code-statistics
-bear @termsurf/base/code/javascript/node/v8/serializer
-bear @termsurf/base/code/javascript/node/v8/default-serializer
-bear @termsurf/base/code/javascript/node/v8/deserializer
-bear @termsurf/base/code/javascript/node/v8/default-deserializer
+bear @cluesurf/base/code/javascript/node/v8/heap-space-info
+bear @cluesurf/base/code/javascript/node/v8/does-zap-code-space-flag
+bear @cluesurf/base/code/javascript/node/v8/heap-info
+bear @cluesurf/base/code/javascript/node/v8/heap-code-statistics
+bear @cluesurf/base/code/javascript/node/v8/serializer
+bear @cluesurf/base/code/javascript/node/v8/default-serializer
+bear @cluesurf/base/code/javascript/node/v8/deserializer
+bear @cluesurf/base/code/javascript/node/v8/default-deserializer
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-number
   take form native-string
@@ -16,13 +16,13 @@ load @termsurf/base/code/javascript
   take form node-js-typed-array
   take form readable
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/v8
+load @cluesurf/base/code/node/v8
   take form heap-code-statistics
   take form heap-info
   take form heap-space-info

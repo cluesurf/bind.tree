@@ -1,5 +1,5 @@
 
-bear @termsurf/base/code/javascript/es2020
-bear @termsurf/base/code/javascript/esnext/asynciterable
-bear @termsurf/base/code/javascript/esnext/intl
-bear @termsurf/base/code/javascript/esnext/bigint
+bear @cluesurf/base/code/javascript/es2020
+bear @cluesurf/base/code/javascript/esnext/asynciterable
+bear @cluesurf/base/code/javascript/esnext/intl
+bear @cluesurf/base/code/javascript/esnext/bigint

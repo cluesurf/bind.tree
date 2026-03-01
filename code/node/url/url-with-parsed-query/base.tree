@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/node/querystring
+load @cluesurf/base/code/node/querystring
   take form parsed-url-query
 
-load @termsurf/base/code/node/url
+load @cluesurf/base/code/node/url
   take form url
 
 form url-with-parsed-query, name <UrlWithParsedQuery>

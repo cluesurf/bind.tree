@@ -1,15 +1,15 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-void
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form readable-stream-default-read-result
   take form readable-stream-generic-reader
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
 
-load @termsurf/base/code/browser/dom/readable-stream-default-reader
+load @cluesurf/base/code/browser/dom/readable-stream-default-reader
   take form readable-stream-default-reader
 
 form readable-stream-default-reader, name <ReadableStreamDefaultReader>

@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form g-lenum
 
-load @termsurf/base/code/browser/dom/oes-standard-derivatives
+load @cluesurf/base/code/browser/dom/oes-standard-derivatives
   take form oes-standard-derivatives
 
 form oes-standard-derivatives, name <OES_standard_derivatives>

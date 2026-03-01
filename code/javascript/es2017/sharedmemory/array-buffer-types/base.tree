@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript/es2017/sharedmemory
+load @cluesurf/base/code/javascript/es2017/sharedmemory
   take form shared-array-buffer
 
-load @termsurf/base/code/javascript/es5/array-buffer-types
+load @cluesurf/base/code/javascript/es5/array-buffer-types
   take form array-buffer-types
 
 form array-buffer-types, name <ArrayBufferTypes>

@@ -1,15 +1,15 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-null
   take form native-undefined
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form object-encoding-options
 
 form encoding-option, name <EncodingOption>

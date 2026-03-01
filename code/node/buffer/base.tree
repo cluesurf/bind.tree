@@ -1,25 +1,25 @@
 
-bear @termsurf/base/code/javascript/node/buffer/transcode-encoding
-bear @termsurf/base/code/javascript/node/buffer/blob-options
-bear @termsurf/base/code/javascript/node/buffer/blob
-bear @termsurf/base/code/javascript/node/buffer/buffer-encoding
-bear @termsurf/base/code/javascript/node/buffer/with-implicit-coercion
-bear @termsurf/base/code/javascript/node/buffer/buffer-constructor
-bear @termsurf/base/code/javascript/node/buffer/buffer
+bear @cluesurf/base/code/javascript/node/buffer/transcode-encoding
+bear @cluesurf/base/code/javascript/node/buffer/blob-options
+bear @cluesurf/base/code/javascript/node/buffer/blob
+bear @cluesurf/base/code/javascript/node/buffer/buffer-encoding
+bear @cluesurf/base/code/javascript/node/buffer/with-implicit-coercion
+bear @cluesurf/base/code/javascript/node/buffer/buffer-constructor
+bear @cluesurf/base/code/javascript/node/buffer/buffer
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form blob
   take form native-number
   take form native-string
   take form native-undefined
   take form uint8-array
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
   take form buffer-constructor
   take form transcode-encoding
 
-load @termsurf/moon
+load @cluesurf/moon
   take form form
   take form or
 

@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/inspector/console
+load @cluesurf/base/code/node/inspector/console
   take form console-message
 
 form message-added-event-data-type, name <MessageAddedEventDataType>

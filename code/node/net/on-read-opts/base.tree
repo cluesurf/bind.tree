@@ -1,13 +1,13 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-boolean
   take form native-number
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form uint8-array
 
 form on-read-opts, name <OnReadOpts>

@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/javascript/es2015/iterable/map
+load @cluesurf/base/code/javascript/es2015/iterable/map
   take form map
 
-load @termsurf/base/code/javascript/es2015/symbol/wellknown
+load @cluesurf/base/code/javascript/es2015/symbol/wellknown
   take form map-constructor
 
-load @termsurf/base/code/javascript/es2015/symbol/wellknown/map
+load @cluesurf/base/code/javascript/es2015/symbol/wellknown/map
   take form map
 
 form map, name <Map>

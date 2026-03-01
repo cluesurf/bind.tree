@@ -1,9 +1,9 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form error
   take form fs-promises-file-handle
   take form native-boolean
@@ -12,10 +12,10 @@ load @termsurf/base/code/javascript
   take form native-string
   take form native-void
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form outgoing-http-headers
 
-load @termsurf/base/code/node/http2
+load @cluesurf/base/code/node/http2
   take form http2-stream
   take form server-stream-file-response-options
   take form server-stream-file-response-options-with-error

@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-object
   take form native-string
 
-load @termsurf/base/code/javascript/es2015/iterable/weak-map
+load @cluesurf/base/code/javascript/es2015/iterable/weak-map
   take form weak-map
 
 form weak-map, name <WeakMap>

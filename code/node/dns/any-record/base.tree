@@ -1,8 +1,8 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/node/dns
+load @cluesurf/base/code/node/dns
   take form any-a-record
   take form any-aaaa-record
   take form any-cname-record

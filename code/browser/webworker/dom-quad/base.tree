@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form dom-point
   take form dom-rect
 
-load @termsurf/base/code/browser/dom/dom-quad
+load @cluesurf/base/code/browser/dom/dom-quad
   take form dom-quad
 
 form dom-quad, name <DOMQuad>

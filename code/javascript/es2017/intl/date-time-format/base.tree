@@ -1,17 +1,17 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
 
-load @termsurf/base/code/javascript/es2015/symbol/wellknown
+load @cluesurf/base/code/javascript/es2015/symbol/wellknown
   take form date
 
-load @termsurf/base/code/javascript/es2017/intl
+load @cluesurf/base/code/javascript/es2017/intl
   take form date-time-format-part
 
-load @termsurf/base/code/javascript/es5/date-time-format
+load @cluesurf/base/code/javascript/es5/date-time-format
   take form date-time-format
 
 form date-time-format, name <DateTimeFormat>

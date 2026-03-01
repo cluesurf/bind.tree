@@ -1,9 +1,9 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form agent
   take form error
   take form lookup-function
@@ -15,10 +15,10 @@ load @termsurf/base/code/javascript
   take form native-void
   take form socket
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form abort-signal
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form outgoing-http-headers
 
 form client-request-args, name <ClientRequestArgs>

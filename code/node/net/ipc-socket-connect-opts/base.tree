@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-string
 
-load @termsurf/base/code/node/net
+load @cluesurf/base/code/node/net
   take form connect-opts
 
 form ipc-socket-connect-opts, name <IpcSocketConnectOpts>

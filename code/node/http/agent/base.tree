@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form incoming-message
   take form native-number
@@ -7,7 +7,7 @@ load @termsurf/base/code/javascript
   take form node-js-read-only-dict
   take form socket
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form agent-options
 
 form agent, name <Agent>

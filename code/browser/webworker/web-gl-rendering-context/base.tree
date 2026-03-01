@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form web-gl-rendering-context-base
   take form web-gl-rendering-context-overloads
 
-load @termsurf/base/code/browser/dom/web-gl-rendering-context
+load @cluesurf/base/code/browser/dom/web-gl-rendering-context
   take form web-gl-rendering-context
 
 form web-gl-rendering-context, name <WebGLRenderingContext>

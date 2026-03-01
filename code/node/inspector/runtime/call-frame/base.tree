@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form native-string
 
-load @termsurf/base/code/node/inspector/runtime
+load @cluesurf/base/code/node/inspector/runtime
   take form script-id
 
 form call-frame, name <CallFrame>

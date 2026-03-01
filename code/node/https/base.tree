@@ -1,15 +1,15 @@
 
-bear @termsurf/base/code/javascript/node/https/server-options
-bear @termsurf/base/code/javascript/node/https/request-options
-bear @termsurf/base/code/javascript/node/https/agent-options
-bear @termsurf/base/code/javascript/node/https/agent
-bear @termsurf/base/code/javascript/node/https/server
+bear @cluesurf/base/code/javascript/node/https/server-options
+bear @cluesurf/base/code/javascript/node/https/request-options
+bear @cluesurf/base/code/javascript/node/https/agent-options
+bear @cluesurf/base/code/javascript/node/https/agent
+bear @cluesurf/base/code/javascript/node/https/server
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form agent
   take form http-client-request
   take form http-incoming-message
@@ -18,7 +18,7 @@ load @termsurf/base/code/javascript
   take form native-void
   take form url
 
-load @termsurf/base/code/node/https
+load @cluesurf/base/code/node/https
   take form request-options
   take form server
   take form server-options

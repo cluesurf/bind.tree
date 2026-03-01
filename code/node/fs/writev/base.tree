@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form node-js-array-buffer-view
   take form promise
   take form readonly-array
 
-load @termsurf/base/code/node/fs
+load @cluesurf/base/code/node/fs
   take form write-v-result
 
 task promisify, name <__promisify__>

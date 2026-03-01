@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-undefined
 
-load @termsurf/base/code/node/inspector/runtime
+load @cluesurf/base/code/node/inspector/runtime
   take form remote-object-id
   take form unserializable-value
 

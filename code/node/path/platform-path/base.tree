@@ -1,10 +1,10 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-boolean
   take form native-string
 
-load @termsurf/base/code/node/path
+load @cluesurf/base/code/node/path
   take form format-input-path-object
   take form parsed-path
 

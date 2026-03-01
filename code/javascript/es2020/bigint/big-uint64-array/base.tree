@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-bigint
   take form native-boolean
   take form native-number
@@ -8,18 +8,18 @@ load @termsurf/base/code/javascript/native
   take form native-undefined
   take form native-void
 
-load @termsurf/base/code/javascript/es2015/iterable
+load @cluesurf/base/code/javascript/es2015/iterable
   take form iterable
   take form iterable-iterator
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form array-buffer-like
   take form array-like
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/es2020/bigint/big-uint64-array
+load @cluesurf/base/code/javascript/es2020/bigint/big-uint64-array
   take form big-uint64-array
 
 form big-uint64-array, name <BigUint64Array>

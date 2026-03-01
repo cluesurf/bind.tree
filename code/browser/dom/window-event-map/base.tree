@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form device-motion-event
   take form device-orientation-event
   take form event

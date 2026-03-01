@@ -1,13 +1,13 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-string
   take form native-void
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form event
 
-load @termsurf/base/code/browser/dom/custom-event
+load @cluesurf/base/code/browser/dom/custom-event
   take form custom-event
 
 form custom-event, name <CustomEvent>

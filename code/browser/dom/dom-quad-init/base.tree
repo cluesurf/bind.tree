@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form dom-point-init
 
 form dom-quad-init, name <DOMQuadInit>

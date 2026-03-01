@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/child-process
+load @cluesurf/base/code/node/child-process
   take form spawn-sync-options
 
 form spawn-sync-options-with-string-encoding, name <SpawnSyncOptionsWithStringEncoding>

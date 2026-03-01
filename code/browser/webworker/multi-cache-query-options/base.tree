@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form cache-query-options
 
-load @termsurf/base/code/browser/dom/multi-cache-query-options
+load @cluesurf/base/code/browser/dom/multi-cache-query-options
   take form multi-cache-query-options
 
 form multi-cache-query-options, name <MultiCacheQueryOptions>

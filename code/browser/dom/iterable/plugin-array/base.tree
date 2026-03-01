@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
 
-load @termsurf/base/code/browser/dom/plugin-array
+load @cluesurf/base/code/browser/dom/plugin-array
   take form plugin-array
 
 form plugin-array, name <PluginArray>

@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form error-event
 
-load @termsurf/base/code/browser/dom/abstract-worker-event-map
+load @cluesurf/base/code/browser/dom/abstract-worker-event-map
   take form abstract-worker-event-map
 
 form abstract-worker-event-map, name <AbstractWorkerEventMap>

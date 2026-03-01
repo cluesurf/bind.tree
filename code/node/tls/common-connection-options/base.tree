@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form error
   take form native-boolean
@@ -8,14 +8,14 @@ load @termsurf/base/code/javascript
   take form native-undefined
   take form native-void
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form uint8-array
 
-load @termsurf/base/code/node/tls
+load @cluesurf/base/code/node/tls
   take form secure-context
 
 form common-connection-options, name <CommonConnectionOptions>

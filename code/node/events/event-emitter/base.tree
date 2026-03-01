@@ -1,11 +1,11 @@
 
-bear @termsurf/base/code/javascript/node/events/event-emitter/abortable
+bear @cluesurf/base/code/javascript/node/events/event-emitter/abortable
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form async-iterable-iterator
   take form function
@@ -17,7 +17,7 @@ load @termsurf/base/code/javascript
   take form node-js-event-emitter
   take form promise
 
-load @termsurf/base/code/node/events
+load @cluesurf/base/code/node/events
   take form dom-event-target
   take form event-emitter-options
   take form node-event-target

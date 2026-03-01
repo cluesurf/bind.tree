@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form queuing-strategy
   take form queuing-strategy-size
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form array-buffer-view
 
 form byte-length-queuing-strategy, name <ByteLengthQueuingStrategy>

@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-string
 
-load @termsurf/base/code/node/crypto/certificate
+load @cluesurf/base/code/node/crypto/certificate
   take form certificate
 
 form certificate, name <Certificate>

@@ -1,35 +1,35 @@
 
-bear @termsurf/base/code/javascript/dom/web-assembly/compile-error
-bear @termsurf/base/code/javascript/dom/web-assembly/global
-bear @termsurf/base/code/javascript/dom/web-assembly/instance
-bear @termsurf/base/code/javascript/dom/web-assembly/link-error
-bear @termsurf/base/code/javascript/dom/web-assembly/memory
-bear @termsurf/base/code/javascript/dom/web-assembly/module
-bear @termsurf/base/code/javascript/dom/web-assembly/runtime-error
-bear @termsurf/base/code/javascript/dom/web-assembly/table
-bear @termsurf/base/code/javascript/dom/web-assembly/global-descriptor
-bear @termsurf/base/code/javascript/dom/web-assembly/memory-descriptor
-bear @termsurf/base/code/javascript/dom/web-assembly/module-export-descriptor
-bear @termsurf/base/code/javascript/dom/web-assembly/module-import-descriptor
-bear @termsurf/base/code/javascript/dom/web-assembly/table-descriptor
-bear @termsurf/base/code/javascript/dom/web-assembly/web-assembly-instantiated-source
-bear @termsurf/base/code/javascript/dom/web-assembly/import-export-kind
-bear @termsurf/base/code/javascript/dom/web-assembly/table-kind
-bear @termsurf/base/code/javascript/dom/web-assembly/value-type
-bear @termsurf/base/code/javascript/dom/web-assembly/export-value
-bear @termsurf/base/code/javascript/dom/web-assembly/exports
-bear @termsurf/base/code/javascript/dom/web-assembly/import-value
-bear @termsurf/base/code/javascript/dom/web-assembly/imports
-bear @termsurf/base/code/javascript/dom/web-assembly/module-imports
+bear @cluesurf/base/code/javascript/dom/web-assembly/compile-error
+bear @cluesurf/base/code/javascript/dom/web-assembly/global
+bear @cluesurf/base/code/javascript/dom/web-assembly/instance
+bear @cluesurf/base/code/javascript/dom/web-assembly/link-error
+bear @cluesurf/base/code/javascript/dom/web-assembly/memory
+bear @cluesurf/base/code/javascript/dom/web-assembly/module
+bear @cluesurf/base/code/javascript/dom/web-assembly/runtime-error
+bear @cluesurf/base/code/javascript/dom/web-assembly/table
+bear @cluesurf/base/code/javascript/dom/web-assembly/global-descriptor
+bear @cluesurf/base/code/javascript/dom/web-assembly/memory-descriptor
+bear @cluesurf/base/code/javascript/dom/web-assembly/module-export-descriptor
+bear @cluesurf/base/code/javascript/dom/web-assembly/module-import-descriptor
+bear @cluesurf/base/code/javascript/dom/web-assembly/table-descriptor
+bear @cluesurf/base/code/javascript/dom/web-assembly/web-assembly-instantiated-source
+bear @cluesurf/base/code/javascript/dom/web-assembly/import-export-kind
+bear @cluesurf/base/code/javascript/dom/web-assembly/table-kind
+bear @cluesurf/base/code/javascript/dom/web-assembly/value-type
+bear @cluesurf/base/code/javascript/dom/web-assembly/export-value
+bear @cluesurf/base/code/javascript/dom/web-assembly/exports
+bear @cluesurf/base/code/javascript/dom/web-assembly/import-value
+bear @cluesurf/base/code/javascript/dom/web-assembly/imports
+bear @cluesurf/base/code/javascript/dom/web-assembly/module-imports
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-string
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form buffer-source
   take form compile-error
   take form global
@@ -48,7 +48,7 @@ load @termsurf/base/code/browser/dom
   take form table-descriptor
   take form web-assembly-instantiated-source
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form array-buffer
   take form promise
   take form promise-like

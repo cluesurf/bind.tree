@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/node/http2
+load @cluesurf/base/code/node/http2
   take form server-session-options
 
-load @termsurf/base/code/node/http/server-options
+load @cluesurf/base/code/node/http/server-options
   take form server-options
 
 form server-options, name <ServerOptions>

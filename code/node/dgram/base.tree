@@ -1,21 +1,21 @@
 
-bear @termsurf/base/code/javascript/node/dgram/remote-info
-bear @termsurf/base/code/javascript/node/dgram/bind-options
-bear @termsurf/base/code/javascript/node/dgram/socket-type
-bear @termsurf/base/code/javascript/node/dgram/socket-options
-bear @termsurf/base/code/javascript/node/dgram/socket
+bear @cluesurf/base/code/javascript/node/dgram/remote-info
+bear @cluesurf/base/code/javascript/node/dgram/bind-options
+bear @cluesurf/base/code/javascript/node/dgram/socket-type
+bear @cluesurf/base/code/javascript/node/dgram/socket-options
+bear @cluesurf/base/code/javascript/node/dgram/socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-void
   take form socket
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/dgram
+load @cluesurf/base/code/node/dgram
   take form remote-info
   take form socket-options
   take form socket-type

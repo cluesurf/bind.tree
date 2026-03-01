@@ -1,8 +1,8 @@
 
-bear @termsurf/base/code/javascript/node/diagnostics-channel/channel-listener
-bear @termsurf/base/code/javascript/node/diagnostics-channel/channel
+bear @cluesurf/base/code/javascript/node/diagnostics-channel/channel-listener
+bear @cluesurf/base/code/javascript/node/diagnostics-channel/channel
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form channel
   take form native-boolean
   take form native-string

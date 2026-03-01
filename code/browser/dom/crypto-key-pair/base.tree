@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form crypto-key
 
 form crypto-key-pair, name <CryptoKeyPair>

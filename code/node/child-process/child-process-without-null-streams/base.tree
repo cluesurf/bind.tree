@@ -1,9 +1,9 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form tuple
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form child-process
   take form native-null
   take form native-undefined

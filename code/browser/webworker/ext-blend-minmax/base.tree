@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form g-lenum
 
-load @termsurf/base/code/browser/dom/ext-blend-minmax
+load @cluesurf/base/code/browser/dom/ext-blend-minmax
   take form ext-blend-minmax
 
 form ext-blend-minmax, name <EXT_blend_minmax>

@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form abstract-worker-event-map
   take form message-event
 
-load @termsurf/base/code/browser/dom/worker-event-map
+load @cluesurf/base/code/browser/dom/worker-event-map
   take form worker-event-map
 
 form worker-event-map, name <WorkerEventMap>

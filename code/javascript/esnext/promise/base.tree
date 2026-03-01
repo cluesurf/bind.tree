@@ -1,8 +1,8 @@
 
-bear @termsurf/base/code/javascript/esnext/promise/aggregate-error
-bear @termsurf/base/code/javascript/esnext/promise/promise
+bear @cluesurf/base/code/javascript/esnext/promise/aggregate-error
+bear @cluesurf/base/code/javascript/esnext/promise/promise
 
-load @termsurf/base/code/javascript/esnext/promise
+load @cluesurf/base/code/javascript/esnext/promise
   take form aggregate-error-constructor
 
 host aggregate-error, name <AggregateError>

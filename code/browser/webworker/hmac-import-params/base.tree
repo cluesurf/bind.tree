@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form algorithm
   take form hash-algorithm-identifier
 
-load @termsurf/base/code/browser/dom/hmac-import-params
+load @cluesurf/base/code/browser/dom/hmac-import-params
   take form hmac-import-params
 
 form hmac-import-params, name <HmacImportParams>

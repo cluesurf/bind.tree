@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form algorithm-identifier
 
 form hash-algorithm-identifier, name <HashAlgorithmIdentifier>

@@ -1,10 +1,10 @@
 
-bear @termsurf/base/code/javascript/node/cluster/cluster-settings
-bear @termsurf/base/code/javascript/node/cluster/address
-bear @termsurf/base/code/javascript/node/cluster/worker
-bear @termsurf/base/code/javascript/node/cluster/cluster
+bear @cluesurf/base/code/javascript/node/cluster/cluster-settings
+bear @cluesurf/base/code/javascript/node/cluster/address
+bear @cluesurf/base/code/javascript/node/cluster/worker
+bear @cluesurf/base/code/javascript/node/cluster/cluster
 
-load @termsurf/base/code/node/cluster
+load @cluesurf/base/code/node/cluster
   take form cluster
 
 host cluster, name <cluster>

@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form event-init
   take form font-face
 

@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript/es2015/iterable
+load @cluesurf/base/code/javascript/es2015/iterable
   take form iterable-iterator
 
-load @termsurf/base/code/javascript/es5/i-arguments
+load @cluesurf/base/code/javascript/es5/i-arguments
   take form i-arguments
 
 form i-arguments, name <IArguments>

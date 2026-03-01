@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form event
   take form idb-version-change-event
 
-load @termsurf/base/code/browser/dom/idb-database-event-map
+load @cluesurf/base/code/browser/dom/idb-database-event-map
   take form idb-database-event-map
 
 form idb-database-event-map, name <IDBDatabaseEventMap>

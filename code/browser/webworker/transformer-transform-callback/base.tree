@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom/transformer-transform-callback
+load @cluesurf/base/code/browser/dom/transformer-transform-callback
   take form transformer-transform-callback
 
 form transformer-transform-callback, name <TransformerTransformCallback>

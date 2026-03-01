@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom/void-function
+load @cluesurf/base/code/browser/dom/void-function
   take form void-function
 
 form void-function, name <VoidFunction>

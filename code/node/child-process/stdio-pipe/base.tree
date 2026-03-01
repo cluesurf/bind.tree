@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-null
   take form native-undefined
 
-load @termsurf/base/code/node/child-process
+load @cluesurf/base/code/node/child-process
   take form stdio-pipe-named
 
 form stdio-pipe, name <StdioPipe>

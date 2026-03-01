@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/stream/internal
+load @cluesurf/base/code/node/stream/internal
   take form readable-options
 
 form stream, name <Stream>

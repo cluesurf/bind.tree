@@ -1,11 +1,11 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form form
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array-buffer
   take form async-generator-function
   take form async-iterable
@@ -24,13 +24,13 @@ load @termsurf/base/code/javascript
   take form promise
   take form stream
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form array
 
-load @termsurf/base/code/node/stream/internal
+load @cluesurf/base/code/node/stream/internal
   take form duplex-options
 
 form duplex, name <Duplex>

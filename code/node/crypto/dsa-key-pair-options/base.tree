@@ -1,13 +1,13 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form and
   take form form
   take form like
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
 
-load @termsurf/base/code/node/crypto
+load @cluesurf/base/code/node/crypto
   take form base-private-key-encoding-options
   take form key-format
 

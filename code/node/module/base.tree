@@ -1,11 +1,11 @@
 
-bear @termsurf/base/code/javascript/node/module/source-map-payload
-bear @termsurf/base/code/javascript/node/module/source-mapping
-bear @termsurf/base/code/javascript/node/module/source-map
-bear @termsurf/base/code/javascript/node/module/module
-bear @termsurf/base/code/javascript/node/module/import-meta
+bear @cluesurf/base/code/javascript/node/module/source-map-payload
+bear @cluesurf/base/code/javascript/node/module/source-mapping
+bear @cluesurf/base/code/javascript/node/module/source-map
+bear @cluesurf/base/code/javascript/node/module/module
+bear @cluesurf/base/code/javascript/node/module/import-meta
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form error
   take form native-string
   take form native-void

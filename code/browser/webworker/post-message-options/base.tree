@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/browser/dom/post-message-options
+load @cluesurf/base/code/browser/dom/post-message-options
   take form post-message-options
 
 form post-message-options, name <PostMessageOptions>

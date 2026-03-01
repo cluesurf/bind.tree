@@ -1,18 +1,18 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form key-object
   take form native-number
   take form native-string
   take form native-undefined
   take form webcrypto-crypto-key
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/crypto
+load @cluesurf/base/code/node/crypto
   take form asymmetric-key-details
   take form json-web-key
   take form jwk-key-export-options

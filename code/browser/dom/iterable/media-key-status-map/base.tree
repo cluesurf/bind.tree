@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form buffer-source
   take form media-key-status
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
 
-load @termsurf/base/code/browser/dom/media-key-status-map
+load @cluesurf/base/code/browser/dom/media-key-status-map
   take form media-key-status-map
 
 form media-key-status-map, name <MediaKeyStatusMap>

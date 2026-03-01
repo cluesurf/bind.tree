@@ -1,9 +1,9 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form like
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form native-undefined
 

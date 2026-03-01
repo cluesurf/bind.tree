@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form native-boolean
   take form native-undefined
@@ -7,10 +7,10 @@ load @termsurf/base/code/javascript
   take form runtime-stack-trace
   take form runtime-stack-trace-id
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/node/inspector/debugger
+load @cluesurf/base/code/node/inspector/debugger
   take form call-frame
 
 form set-script-source-return-type, name <SetScriptSourceReturnType>

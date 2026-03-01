@@ -1,9 +1,9 @@
 
-bear @termsurf/base/code/javascript/node/tty/read-stream
-bear @termsurf/base/code/javascript/node/tty/direction
-bear @termsurf/base/code/javascript/node/tty/write-stream
+bear @cluesurf/base/code/javascript/node/tty/read-stream
+bear @cluesurf/base/code/javascript/node/tty/direction
+bear @cluesurf/base/code/javascript/node/tty/write-stream
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-boolean
   take form native-number
 

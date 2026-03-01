@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/dns
+load @cluesurf/base/code/node/dns
   take form record-with-ttl
 
 form any-aaaa-record, name <AnyAaaaRecord>

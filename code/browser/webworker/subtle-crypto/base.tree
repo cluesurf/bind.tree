@@ -1,13 +1,13 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-number
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form aes-cbc-params
   take form aes-cfb-params
   take form aes-cmac-params
@@ -38,7 +38,7 @@ load @termsurf/base/code/browser/webworker
   take form rsa-oaep-params
   take form rsa-pss-params
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form array-buffer
   take form data-view
   take form float32-array
@@ -52,7 +52,7 @@ load @termsurf/base/code/javascript/es5
   take form uint8-array
   take form uint8-clamped-array
 
-load @termsurf/base/code/browser/dom/iterable/subtle-crypto
+load @cluesurf/base/code/browser/dom/iterable/subtle-crypto
   take form subtle-crypto
 
 form subtle-crypto, name <SubtleCrypto>

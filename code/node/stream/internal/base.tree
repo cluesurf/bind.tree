@@ -1,32 +1,32 @@
 
-bear @termsurf/base/code/javascript/node/stream/internal/stream
-bear @termsurf/base/code/javascript/node/stream/internal/stream-options
-bear @termsurf/base/code/javascript/node/stream/internal/readable-options
-bear @termsurf/base/code/javascript/node/stream/internal/readable
-bear @termsurf/base/code/javascript/node/stream/internal/writable-options
-bear @termsurf/base/code/javascript/node/stream/internal/writable
-bear @termsurf/base/code/javascript/node/stream/internal/duplex-options
-bear @termsurf/base/code/javascript/node/stream/internal/duplex
-bear @termsurf/base/code/javascript/node/stream/internal/transform-callback
-bear @termsurf/base/code/javascript/node/stream/internal/transform-options
-bear @termsurf/base/code/javascript/node/stream/internal/transform
-bear @termsurf/base/code/javascript/node/stream/internal/pass-through
-bear @termsurf/base/code/javascript/node/stream/internal/finished-options
-bear @termsurf/base/code/javascript/node/stream/internal/finished
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-source-function
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-source
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-transform
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-transform-source
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-destination-iterable-function
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-destination-promise-function
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-destination
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-callback
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-promise
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline-options
-bear @termsurf/base/code/javascript/node/stream/internal/pipeline
-bear @termsurf/base/code/javascript/node/stream/internal/pipe
+bear @cluesurf/base/code/javascript/node/stream/internal/stream
+bear @cluesurf/base/code/javascript/node/stream/internal/stream-options
+bear @cluesurf/base/code/javascript/node/stream/internal/readable-options
+bear @cluesurf/base/code/javascript/node/stream/internal/readable
+bear @cluesurf/base/code/javascript/node/stream/internal/writable-options
+bear @cluesurf/base/code/javascript/node/stream/internal/writable
+bear @cluesurf/base/code/javascript/node/stream/internal/duplex-options
+bear @cluesurf/base/code/javascript/node/stream/internal/duplex
+bear @cluesurf/base/code/javascript/node/stream/internal/transform-callback
+bear @cluesurf/base/code/javascript/node/stream/internal/transform-options
+bear @cluesurf/base/code/javascript/node/stream/internal/transform
+bear @cluesurf/base/code/javascript/node/stream/internal/pass-through
+bear @cluesurf/base/code/javascript/node/stream/internal/finished-options
+bear @cluesurf/base/code/javascript/node/stream/internal/finished
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-source-function
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-source
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-transform
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-transform-source
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-destination-iterable-function
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-destination-promise-function
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-destination
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-callback
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-promise
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-options
+bear @cluesurf/base/code/javascript/node/stream/internal/pipeline
+bear @cluesurf/base/code/javascript/node/stream/internal/pipe
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form form
   take form like
@@ -34,7 +34,7 @@ load @termsurf/moon
   take form task
   take form test
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-boolean
   take form native-null
   take form native-undefined
@@ -46,11 +46,11 @@ load @termsurf/base/code/javascript
   take form readonly-array
   take form stream
 
-load @termsurf/base/code/node/globals
+load @cluesurf/base/code/node/globals
   take form abort-signal
   take form array
 
-load @termsurf/base/code/node/stream/internal
+load @cluesurf/base/code/node/stream/internal
   take form finished-options
   take form pipeline-callback
   take form pipeline-destination

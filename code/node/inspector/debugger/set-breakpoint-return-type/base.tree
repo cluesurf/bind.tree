@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/inspector/debugger
+load @cluesurf/base/code/node/inspector/debugger
   take form breakpoint-id
   take form location
 

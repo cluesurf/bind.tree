@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form presentation-style
 
 form clipboard-item-options, name <ClipboardItemOptions>

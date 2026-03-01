@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/perf-hooks
+load @cluesurf/base/code/node/perf-hooks
   take form event-loop-utility-function
 
 form worker-performance, name <WorkerPerformance>

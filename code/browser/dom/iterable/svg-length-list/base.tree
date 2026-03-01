@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form svg-length
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
 
-load @termsurf/base/code/browser/dom/svg-length-list
+load @cluesurf/base/code/browser/dom/svg-length-list
   take form svg-length-list
 
 form svg-length-list, name <SVGLengthList>

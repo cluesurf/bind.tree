@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form readable-stream
   take form writable-stream
 
-load @termsurf/base/code/browser/dom/transform-stream
+load @cluesurf/base/code/browser/dom/transform-stream
   take form transform-stream
 
 form transform-stream, name <TransformStream>

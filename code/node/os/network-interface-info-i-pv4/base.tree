@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/os
+load @cluesurf/base/code/node/os
   take form network-interface-base
 
 form network-interface-info-i-pv4, name <NetworkInterfaceInfoIPv4>

@@ -1,5 +1,5 @@
 
-deck @termsurf/case
+deck @cluesurf/case
   mark <0.0.1>
   bear code
   head <The TextTree Platform Binding Library>

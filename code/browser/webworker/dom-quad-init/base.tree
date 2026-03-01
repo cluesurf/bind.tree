@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form dom-point-init
 
-load @termsurf/base/code/browser/dom/dom-quad-init
+load @cluesurf/base/code/browser/dom/dom-quad-init
   take form dom-quad-init
 
 form dom-quad-init, name <DOMQuadInit>

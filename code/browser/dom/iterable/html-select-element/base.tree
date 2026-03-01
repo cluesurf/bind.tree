@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form element
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
 
-load @termsurf/base/code/browser/dom/html-select-element
+load @cluesurf/base/code/browser/dom/html-select-element
   take form html-select-element
 
 form html-select-element, name <HTMLSelectElement>

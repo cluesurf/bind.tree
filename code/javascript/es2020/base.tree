@@ -1,9 +1,9 @@
 
-bear @termsurf/base/code/javascript/es2019
-bear @termsurf/base/code/javascript/es2020/bigint
-bear @termsurf/base/code/javascript/es2020/promise
-bear @termsurf/base/code/javascript/es2020/sharedmemory
-bear @termsurf/base/code/javascript/es2020/string
-bear @termsurf/base/code/javascript/es2020/symbol/wellknown
-bear @termsurf/base/code/javascript/es2020/intl
-bear @termsurf/base/code/javascript/es2020/full
+bear @cluesurf/base/code/javascript/es2019
+bear @cluesurf/base/code/javascript/es2020/bigint
+bear @cluesurf/base/code/javascript/es2020/promise
+bear @cluesurf/base/code/javascript/es2020/sharedmemory
+bear @cluesurf/base/code/javascript/es2020/string
+bear @cluesurf/base/code/javascript/es2020/symbol/wellknown
+bear @cluesurf/base/code/javascript/es2020/intl
+bear @cluesurf/base/code/javascript/es2020/full

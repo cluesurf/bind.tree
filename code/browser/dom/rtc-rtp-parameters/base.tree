@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form rtc-rtcp-parameters
   take form rtc-rtp-codec-parameters
   take form rtc-rtp-header-extension-parameters

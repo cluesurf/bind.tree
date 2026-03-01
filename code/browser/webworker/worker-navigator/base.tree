@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form navigator-concurrent-hardware
   take form navigator-id
   take form navigator-language

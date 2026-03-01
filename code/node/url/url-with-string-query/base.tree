@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-null
   take form native-string
 
-load @termsurf/base/code/node/url
+load @cluesurf/base/code/node/url
   take form url
 
 form url-with-string-query, name <UrlWithStringQuery>

@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form runtime-script-id
 
-load @termsurf/base/code/node/inspector/debugger
+load @cluesurf/base/code/node/inspector/debugger
   take form script-position
 
 form set-blackboxed-ranges-parameter-type, name <SetBlackboxedRangesParameterType>

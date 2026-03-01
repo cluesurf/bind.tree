@@ -1,13 +1,13 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form buffer-source
   take form media-key-session
   take form media-key-session-type
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
 
 form media-keys, name <MediaKeys>

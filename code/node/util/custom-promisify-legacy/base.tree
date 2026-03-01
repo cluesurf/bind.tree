@@ -1,8 +1,8 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form like
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form function
 
 form custom-promisify-legacy, name <CustomPromisifyLegacy>

@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-null
   take form native-number
   take form native-string
   take form native-void
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form add-event-listener-options
   take form body-init
   take form event
@@ -17,7 +17,7 @@ load @termsurf/base/code/browser/webworker
   take form xml-http-request-response-type
   take form xml-http-request-upload
 
-load @termsurf/base/code/browser/dom/xml-http-request
+load @cluesurf/base/code/browser/dom/xml-http-request
   take form xml-http-request
 
 form xml-http-request, name <XMLHttpRequest>

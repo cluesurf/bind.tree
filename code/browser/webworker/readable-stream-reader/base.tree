@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form readable-stream-default-reader
 
 form readable-stream-reader, name <ReadableStreamReader>

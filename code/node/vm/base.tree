@@ -1,27 +1,27 @@
 
-bear @termsurf/base/code/javascript/node/vm/context
-bear @termsurf/base/code/javascript/node/vm/base-options
-bear @termsurf/base/code/javascript/node/vm/script-options
-bear @termsurf/base/code/javascript/node/vm/running-script-options
-bear @termsurf/base/code/javascript/node/vm/compile-function-options
-bear @termsurf/base/code/javascript/node/vm/create-context-options
-bear @termsurf/base/code/javascript/node/vm/measure-memory-mode
-bear @termsurf/base/code/javascript/node/vm/measure-memory-options
-bear @termsurf/base/code/javascript/node/vm/memory-measurement
-bear @termsurf/base/code/javascript/node/vm/script
+bear @cluesurf/base/code/javascript/node/vm/context
+bear @cluesurf/base/code/javascript/node/vm/base-options
+bear @cluesurf/base/code/javascript/node/vm/script-options
+bear @cluesurf/base/code/javascript/node/vm/running-script-options
+bear @cluesurf/base/code/javascript/node/vm/compile-function-options
+bear @cluesurf/base/code/javascript/node/vm/create-context-options
+bear @cluesurf/base/code/javascript/node/vm/measure-memory-mode
+bear @cluesurf/base/code/javascript/node/vm/measure-memory-options
+bear @cluesurf/base/code/javascript/node/vm/memory-measurement
+bear @cluesurf/base/code/javascript/node/vm/script
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form function
   take form native-boolean
   take form native-string
   take form promise
   take form readonly-array
 
-load @termsurf/base/code/node/vm
+load @cluesurf/base/code/node/vm
   take form compile-function-options
   take form context
   take form create-context-options

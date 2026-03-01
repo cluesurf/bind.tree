@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form algorithm
 
-load @termsurf/base/code/browser/dom/rsa-pss-params
+load @cluesurf/base/code/browser/dom/rsa-pss-params
   take form rsa-pss-params
 
 form rsa-pss-params, name <RsaPssParams>

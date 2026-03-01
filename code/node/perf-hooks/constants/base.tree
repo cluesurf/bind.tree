@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
 
 host node-performance-gc-major, name <NODE_PERFORMANCE_GC_MAJOR>

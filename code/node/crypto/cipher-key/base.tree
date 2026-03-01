@@ -1,11 +1,11 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form key-object
 
-load @termsurf/base/code/node/crypto
+load @cluesurf/base/code/node/crypto
   take form binary-like
 
 form cipher-key, name <CipherKey>

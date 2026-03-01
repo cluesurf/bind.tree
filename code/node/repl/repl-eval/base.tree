@@ -1,10 +1,10 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form context
   take form error
   take form native-null

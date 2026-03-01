@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-number
   take form native-void
 
-load @termsurf/base/code/browser/dom/canvas-rect
+load @cluesurf/base/code/browser/dom/canvas-rect
   take form canvas-rect
 
 form canvas-rect, name <CanvasRect>

@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-null
   take form native-void
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form g-lboolean
   take form g-lenum
   take form web-gl-vertex-array-object-oes
 
-load @termsurf/base/code/browser/dom/oes-vertex-array-object
+load @cluesurf/base/code/browser/dom/oes-vertex-array-object
   take form oes-vertex-array-object
 
 form oes-vertex-array-object, name <OES_vertex_array_object>

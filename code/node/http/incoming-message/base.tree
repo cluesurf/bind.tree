@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form error
   take form native-boolean
@@ -11,11 +11,11 @@ load @termsurf/base/code/javascript
   take form node-js-dict
   take form socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/node/http
+load @cluesurf/base/code/node/http
   take form incoming-http-headers
 
 form incoming-message, name <IncomingMessage>

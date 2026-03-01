@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom/global
+load @cluesurf/base/code/browser/dom/global
   take form global
 
 form global, name <Global>

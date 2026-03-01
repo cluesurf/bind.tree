@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-this
 
-load @termsurf/base/code/node/events
+load @cluesurf/base/code/node/events
   take form event-emitter
 
 form stat-watcher, name <StatWatcher>

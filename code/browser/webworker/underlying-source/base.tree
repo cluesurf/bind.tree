@@ -1,13 +1,13 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-undefined
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form underlying-source-cancel-callback
   take form underlying-source-pull-callback
   take form underlying-source-start-callback
 
-load @termsurf/base/code/browser/dom/underlying-source
+load @cluesurf/base/code/browser/dom/underlying-source
   take form underlying-source
 
 form underlying-source, name <UnderlyingSource>

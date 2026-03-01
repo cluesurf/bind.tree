@@ -1,8 +1,8 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/node/net
+load @cluesurf/base/code/node/net
   take form ipc-socket-connect-opts
   take form tcp-socket-connect-opts
 

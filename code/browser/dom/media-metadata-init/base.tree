@@ -1,11 +1,11 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form media-image
 
 form media-metadata-init, name <MediaMetadataInit>

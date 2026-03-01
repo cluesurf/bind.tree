@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-null
   take form native-number
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form device-motion-event-acceleration
   take form device-motion-event-rotation-rate
   take form event

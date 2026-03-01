@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form exports
 
-load @termsurf/base/code/browser/dom/instance
+load @cluesurf/base/code/browser/dom/instance
   take form instance
 
 form instance, name <Instance>

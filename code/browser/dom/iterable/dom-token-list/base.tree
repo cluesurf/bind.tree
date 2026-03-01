@@ -1,10 +1,10 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form iterable-iterator
   take form native-number
   take form native-string
 
-load @termsurf/base/code/browser/dom/dom-token-list
+load @cluesurf/base/code/browser/dom/dom-token-list
   take form dom-token-list
 
 form dom-token-list, name <DOMTokenList>

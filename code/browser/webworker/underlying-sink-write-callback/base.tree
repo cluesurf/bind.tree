@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom/underlying-sink-write-callback
+load @cluesurf/base/code/browser/dom/underlying-sink-write-callback
   take form underlying-sink-write-callback
 
 form underlying-sink-write-callback, name <UnderlyingSinkWriteCallback>

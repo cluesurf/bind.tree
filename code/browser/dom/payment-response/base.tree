@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
   take form native-void
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form event-target
   take form payment-complete
   take form payment-validation-errors
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
 
 form payment-response, name <PaymentResponse>

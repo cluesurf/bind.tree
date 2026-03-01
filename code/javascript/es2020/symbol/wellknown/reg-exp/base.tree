@@ -1,14 +1,14 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/javascript/es2015/iterable
+load @cluesurf/base/code/javascript/es2015/iterable
   take form iterable-iterator
 
-load @termsurf/base/code/javascript/es2018/regexp
+load @cluesurf/base/code/javascript/es2018/regexp
   take form reg-exp-match-array
 
-load @termsurf/base/code/javascript/es2018/regexp/reg-exp
+load @cluesurf/base/code/javascript/es2018/regexp/reg-exp
   take form reg-exp
 
 form reg-exp, name <RegExp>

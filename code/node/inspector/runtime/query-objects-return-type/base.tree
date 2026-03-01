@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/node/inspector/runtime
+load @cluesurf/base/code/node/inspector/runtime
   take form remote-object
 
 form query-objects-return-type, name <QueryObjectsReturnType>

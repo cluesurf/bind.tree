@@ -1,18 +1,18 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-number
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form notification-action
   take form notification-direction
   take form vibrate-pattern
 
-load @termsurf/base/code/browser/dom/notification-options
+load @cluesurf/base/code/browser/dom/notification-options
   take form notification-options
 
 form notification-options, name <NotificationOptions>

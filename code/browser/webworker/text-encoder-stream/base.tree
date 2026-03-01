@@ -1,17 +1,17 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form generic-transform-stream
   take form readable-stream
   take form text-encoder-common
   take form writable-stream
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form uint8-array
 
-load @termsurf/base/code/browser/dom/text-encoder-stream
+load @cluesurf/base/code/browser/dom/text-encoder-stream
   take form text-encoder-stream
 
 form text-encoder-stream, name <TextEncoderStream>

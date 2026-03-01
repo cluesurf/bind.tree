@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
 
-load @termsurf/base/code/node/inspector/schema
+load @cluesurf/base/code/node/inspector/schema
   take form domain
 
 form get-domains-return-type, name <GetDomainsReturnType>

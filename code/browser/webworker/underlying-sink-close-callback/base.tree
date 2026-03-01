@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom/underlying-sink-close-callback
+load @cluesurf/base/code/browser/dom/underlying-sink-close-callback
   take form underlying-sink-close-callback
 
 form underlying-sink-close-callback, name <UnderlyingSinkCloseCallback>

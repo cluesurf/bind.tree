@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form array
   take form duplex
   take form error
@@ -13,15 +13,15 @@ load @termsurf/base/code/javascript
   take form native-void
   take form tls-tls-socket
 
-load @termsurf/moon
+load @cluesurf/moon
   take form any
   take form or
   take form task
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
 
-load @termsurf/base/code/node/https
+load @cluesurf/base/code/node/https
   take form server-options
 
 form server, name <Server>

@@ -1,14 +1,14 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form native-undefined
   take form stream-duplex
   take form url-url
 
-load @termsurf/base/code/node/http2
+load @cluesurf/base/code/node/http2
   take form settings
 
 form session-options, name <SessionOptions>

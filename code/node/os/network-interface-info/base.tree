@@ -1,8 +1,8 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
 
-load @termsurf/base/code/node/os
+load @cluesurf/base/code/node/os
   take form network-interface-info-i-pv4
   take form network-interface-info-i-pv6
 

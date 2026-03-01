@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form native-string
 
-load @termsurf/base/code/node/util
+load @cluesurf/base/code/node/util
   take form inspect-options-stylized
 
 form custom-inspect-function, name <CustomInspectFunction>

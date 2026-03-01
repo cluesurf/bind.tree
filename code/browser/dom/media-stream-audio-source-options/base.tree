@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form media-stream
 
 form media-stream-audio-source-options, name <MediaStreamAudioSourceOptions>

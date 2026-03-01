@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form event
 
-load @termsurf/base/code/browser/dom/performance-event-map
+load @cluesurf/base/code/browser/dom/performance-event-map
   take form performance-event-map
 
 form performance-event-map, name <PerformanceEventMap>

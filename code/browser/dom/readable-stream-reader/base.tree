@@ -1,5 +1,5 @@
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form readable-stream-default-reader
 
 form readable-stream-reader, name <ReadableStreamReader>

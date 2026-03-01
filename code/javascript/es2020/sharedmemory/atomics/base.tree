@@ -1,13 +1,13 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-bigint
   take form native-number
 
-load @termsurf/base/code/javascript/es2020/bigint
+load @cluesurf/base/code/javascript/es2020/bigint
   take form big-int64-array
   take form big-uint64-array
 
-load @termsurf/base/code/javascript/es2017/sharedmemory/atomics
+load @cluesurf/base/code/javascript/es2017/sharedmemory/atomics
   take form atomics
 
 form atomics, name <Atomics>

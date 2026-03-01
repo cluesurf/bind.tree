@@ -1,8 +1,8 @@
 
-bear @termsurf/base/code/javascript/es2015/proxy/proxy-handler
-bear @termsurf/base/code/javascript/es2015/proxy/proxy
+bear @cluesurf/base/code/javascript/es2015/proxy/proxy-handler
+bear @cluesurf/base/code/javascript/es2015/proxy/proxy
 
-load @termsurf/base/code/javascript/es2015/proxy
+load @cluesurf/base/code/javascript/es2015/proxy
   take form proxy-constructor
 
 host proxy, name <Proxy>

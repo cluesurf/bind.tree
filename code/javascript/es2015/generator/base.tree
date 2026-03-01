@@ -1,4 +1,4 @@
 
-bear @termsurf/base/code/javascript/es2015/iterable
-bear @termsurf/base/code/javascript/es2015/generator/generator
-bear @termsurf/base/code/javascript/es2015/generator/generator-function
+bear @cluesurf/base/code/javascript/es2015/iterable
+bear @cluesurf/base/code/javascript/es2015/generator/generator
+bear @cluesurf/base/code/javascript/es2015/generator/generator-function

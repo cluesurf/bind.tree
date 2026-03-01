@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-boolean
   take form native-null
   take form native-number
   take form native-string
   take form native-void
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form add-event-listener-options
   take form animation-effect
   take form animation-event-map
@@ -19,7 +19,7 @@ load @termsurf/base/code/browser/dom
   take form event-listener-or-event-listener-object
   take form event-target
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form promise
 
 form animation, name <Animation>

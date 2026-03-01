@@ -1,15 +1,15 @@
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-number
   take form native-string
   take form native-void
   take form node-js-array-buffer-view
 
-load @termsurf/base/code/node/buffer
+load @cluesurf/base/code/node/buffer
   take form buffer
   take form buffer-encoding
 
-load @termsurf/base/code/node/crypto
+load @cluesurf/base/code/node/crypto
   take form binary-to-text-encoding
 
 form diffie-hellman, name <DiffieHellman>

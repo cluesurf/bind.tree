@@ -1,9 +1,9 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form file-reader
   take form progress-event
 
-load @termsurf/base/code/browser/dom/file-reader-event-map
+load @cluesurf/base/code/browser/dom/file-reader-event-map
   take form file-reader-event-map
 
 form file-reader-event-map, name <FileReaderEventMap>

@@ -1,12 +1,12 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/browser/dom
+load @cluesurf/base/code/browser/dom
   take form text-encoder-common
   take form text-encoder-encode-into-result
 
-load @termsurf/base/code/javascript/es5
+load @cluesurf/base/code/javascript/es5
   take form uint8-array
 
 form text-encoder, name <TextEncoder>

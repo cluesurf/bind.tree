@@ -1,12 +1,12 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-void
   take form performance-observer
 
-load @termsurf/base/code/node/perf-hooks
+load @cluesurf/base/code/node/perf-hooks
   take form performance-observer-entry-list
 
 form performance-observer-callback, name <PerformanceObserverCallback>

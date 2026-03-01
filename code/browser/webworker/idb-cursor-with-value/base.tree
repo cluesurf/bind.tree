@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form idb-cursor
 
-load @termsurf/base/code/browser/dom/idb-cursor-with-value
+load @cluesurf/base/code/browser/dom/idb-cursor-with-value
   take form idb-cursor-with-value
 
 form idb-cursor-with-value, name <IDBCursorWithValue>

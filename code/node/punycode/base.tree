@@ -1,10 +1,10 @@
 
-bear @termsurf/base/code/javascript/node/punycode/ucs2
+bear @cluesurf/base/code/javascript/node/punycode/ucs2
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form native-string
 
-load @termsurf/base/code/node/punycode
+load @cluesurf/base/code/node/punycode
   take form ucs2
 
 host ucs2, name <ucs2>

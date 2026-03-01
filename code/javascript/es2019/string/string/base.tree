@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/javascript/native
+load @cluesurf/base/code/javascript/native
   take form native-string
 
-load @termsurf/base/code/javascript/es2017/string/string
+load @cluesurf/base/code/javascript/es2017/string/string
   take form string
 
 form string, name <String>

@@ -1,9 +1,9 @@
 
-load @termsurf/moon
+load @cluesurf/moon
   take form or
   take form task
 
-load @termsurf/base/code/javascript
+load @cluesurf/base/code/javascript
   take form abortable
   take form dns-lookup-one-options
   take form native-boolean
@@ -14,7 +14,7 @@ load @termsurf/base/code/javascript
   take form native-void
   take form node-js-errno-exception
 
-load @termsurf/base/code/node/dgram
+load @cluesurf/base/code/node/dgram
   take form socket-type
 
 form socket-options, name <SocketOptions>

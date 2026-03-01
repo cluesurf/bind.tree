@@ -1,8 +1,8 @@
 
-load @termsurf/base/code/browser/webworker
+load @cluesurf/base/code/browser/webworker
   take form event-init
 
-load @termsurf/base/code/browser/dom/custom-event-init
+load @cluesurf/base/code/browser/dom/custom-event-init
   take form custom-event-init
 
 form custom-event-init, name <CustomEventInit>
