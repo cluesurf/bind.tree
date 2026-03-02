@@ -1,3 +1,0 @@
-[submodule "hack/typescript/TypeScript"]
-	path = hack/typescript/TypeScript
-	url = https://github.com/microsoft/TypeScript
