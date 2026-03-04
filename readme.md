@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>case.tree</h3>
+<h3 align='center'>bind.tree</h3>
 <p align='center'>
   The TermTree Environment Binding Library
 </p>
@@ -17,7 +17,7 @@
 
 ## Welcome
 
-This `case.tree` project is a "wrapper" or "case" around the runtime
+This `bind.tree` project is a "wrapper" or "binding" around the runtime
 environment. It is simply all the type definitions for the runtime
 environment.
 

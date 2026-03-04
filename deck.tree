@@ -1,8 +1,8 @@
 
-deck @cluesurf/case
+deck @cluesurf/bind
   mark <0.0.1>
   bear code
-  head <The TextTree Platform Binding Library>
+  head <The Seed Platform Binding Library>
   term <information>
   term <computation>
   term <library>
