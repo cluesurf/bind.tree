@@ -1,21 +1,21 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form add-event-listener-options
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form progress-event
-  take form xml-http-request
-  take form xml-http-request-event-target-event-map
+load @cluesurf/bind/code/browser/webworker
+  find add-event-listener-options
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find progress-event
+  find xml-http-request
+  find xml-http-request-event-target-event-map
 
-load @cluesurf/base/code/browser/dom/xml-http-request-event-target
-  take form xml-http-request-event-target
+load @cluesurf/bind/code/browser/dom/xml-http-request-event-target
+  find xml-http-request-event-target
 
 form xml-http-request-event-target, name <XMLHttpRequestEventTarget>
   base event-target

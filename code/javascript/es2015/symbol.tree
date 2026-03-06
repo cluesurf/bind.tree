@@ -1,9 +1,9 @@
 
-bear @cluesurf/base/code/javascript/es2015/symbol/symbol
-bear @cluesurf/base/code/javascript/es2015/symbol/wellknown
+bear @cluesurf/bind/code/javascript/es2015/symbol/symbol
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown
 
-load @cluesurf/base/code/javascript/es2015/symbol
-  take form symbol-constructor
+load @cluesurf/bind/code/javascript/es2015/symbol
+  find symbol-constructor
 
 host symbol, name <Symbol>
   like symbol-constructor

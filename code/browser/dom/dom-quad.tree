@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-point
-  take form dom-rect
+load @cluesurf/bind/code/browser/dom
+  find dom-point
+  find dom-rect
 
 form dom-quad, name <DOMQuad>
   link p1, name <p1>

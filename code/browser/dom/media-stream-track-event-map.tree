@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form media-stream-track-event-map, name <MediaStreamTrackEventMap>
   link ended, name <ended>

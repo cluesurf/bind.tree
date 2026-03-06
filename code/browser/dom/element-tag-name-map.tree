@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/browser/dom
-  take form html-element-tag-name-map
-  take form svg-element-tag-name-map
+load @cluesurf/bind/code/browser/dom
+  find html-element-tag-name-map
+  find svg-element-tag-name-map
 
-load @cluesurf/base/code/javascript/es5
-  take form exclude
-  take form pick
+load @cluesurf/bind/code/javascript/es5
+  find exclude
+  find pick
 
 form element-tag-name-map, name <ElementTagNameMap>
   like and

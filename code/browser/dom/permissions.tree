@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/dom
-  take form permission-descriptor
-  take form permission-status
+load @cluesurf/bind/code/browser/dom
+  find permission-descriptor
+  find permission-status
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form permissions, name <Permissions>
   task query, name <query>

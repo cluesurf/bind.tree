@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-rect
-  take form dom-rect-read-only
+load @cluesurf/bind/code/browser/dom
+  find dom-rect
+  find dom-rect-read-only
 
 form svg-animated-rect, name <SVGAnimatedRect>
   link anim-val, name <animVal>

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/inspector/console
-  take form console-message
+load @cluesurf/bind/code/node/inspector/console
+  find console-message
 
 form message-added-event-data-type, name <MessageAddedEventDataType>
   link message, name <message>

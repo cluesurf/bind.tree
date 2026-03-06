@@ -1,16 +1,16 @@
 
 load @cluesurf/moon
-  take form tuple
+  find tuple
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-symbol
-  take form node-js-dict
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-symbol
+  find node-js-dict
 
-load @cluesurf/base/code/node/util
-  take form inspect-options
-  take form style
+load @cluesurf/bind/code/node/util
+  find inspect-options
+  find style
 
 host colors, name <colors>
   like node-js-dict

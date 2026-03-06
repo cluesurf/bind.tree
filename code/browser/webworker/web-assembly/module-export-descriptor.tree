@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form import-export-kind
+load @cluesurf/bind/code/browser/webworker
+  find import-export-kind
 
-load @cluesurf/base/code/browser/dom/module-export-descriptor
-  take form module-export-descriptor
+load @cluesurf/bind/code/browser/dom/module-export-descriptor
+  find module-export-descriptor
 
 form module-export-descriptor, name <ModuleExportDescriptor>
   link kind, name <kind>

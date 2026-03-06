@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom/transform-stream-default-controller
-  take form transform-stream-default-controller
+load @cluesurf/bind/code/browser/dom/transform-stream-default-controller
+  find transform-stream-default-controller
 
 form transform-stream-default-controller, name <TransformStreamDefaultController>
   head o

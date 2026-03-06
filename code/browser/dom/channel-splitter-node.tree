@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form audio-node
+load @cluesurf/bind/code/browser/dom
+  find audio-node
 
 form channel-splitter-node, name <ChannelSplitterNode>
   base audio-node

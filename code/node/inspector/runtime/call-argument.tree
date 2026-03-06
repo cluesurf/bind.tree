@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form any
-  take form or
+  find any
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-undefined
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form remote-object-id
-  take form unserializable-value
+load @cluesurf/bind/code/node/inspector/runtime
+  find remote-object-id
+  find unserializable-value
 
 form call-argument, name <CallArgument>
   link value, name <value>

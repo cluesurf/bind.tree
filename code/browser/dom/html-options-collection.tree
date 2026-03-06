@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form html-collection-of
-  take form html-element
-  take form html-opt-group-element
-  take form html-option-element
+load @cluesurf/bind/code/browser/dom
+  find html-collection-of
+  find html-element
+  find html-opt-group-element
+  find html-option-element
 
 form html-options-collection, name <HTMLOptionsCollection>
   base html-collection-of

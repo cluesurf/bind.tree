@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/es2020/promise
-  take form promise-fulfilled-result
-  take form promise-rejected-result
+load @cluesurf/bind/code/javascript/es2020/promise
+  find promise-fulfilled-result
+  find promise-rejected-result
 
 form promise-settled-result, name <PromiseSettledResult>
   head t

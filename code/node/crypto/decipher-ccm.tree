@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form form
+  find form
 
-load @cluesurf/base/code/javascript
-  take form decipher
-  take form native-number
-  take form native-this
-  take form node-js-array-buffer-view
+load @cluesurf/bind/code/javascript
+  find decipher
+  find native-number
+  find native-this
+  find node-js-array-buffer-view
 
 form decipher-ccm, name <DecipherCCM>
   base decipher

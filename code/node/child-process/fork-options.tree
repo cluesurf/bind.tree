@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript
-  take form abortable
-  take form array
-  take form native-boolean
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find abortable
+  find array
+  find native-boolean
+  find native-string
+  find native-undefined
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/child-process
-  take form messaging-options
-  take form process-env-options
-  take form stdio-options
+load @cluesurf/bind/code/node/child-process
+  find messaging-options
+  find process-env-options
+  find stdio-options
 
 form fork-options, name <ForkOptions>
   base process-env-options

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/http
-  take form client-request-args
+load @cluesurf/bind/code/node/http
+  find client-request-args
 
 form request-options, name <RequestOptions>
   base client-request-args

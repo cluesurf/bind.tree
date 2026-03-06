@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom/queuing-strategy-size
-  take form queuing-strategy-size
+load @cluesurf/bind/code/browser/dom/queuing-strategy-size
+  find queuing-strategy-size
 
 form queuing-strategy-size, name <QueuingStrategySize>
   head t

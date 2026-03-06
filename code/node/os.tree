@@ -1,33 +1,33 @@
 
-bear @cluesurf/base/code/javascript/node/os/cpu-info
-bear @cluesurf/base/code/javascript/node/os/network-interface-base
-bear @cluesurf/base/code/javascript/node/os/network-interface-info-i-pv4
-bear @cluesurf/base/code/javascript/node/os/network-interface-info-i-pv6
-bear @cluesurf/base/code/javascript/node/os/user-info
-bear @cluesurf/base/code/javascript/node/os/network-interface-info
-bear @cluesurf/base/code/javascript/node/os/signal-constants
-bear @cluesurf/base/code/javascript/node/os/constants
+bear @cluesurf/bind/code/javascript/node/os/cpu-info
+bear @cluesurf/bind/code/javascript/node/os/network-interface-base
+bear @cluesurf/bind/code/javascript/node/os/network-interface-info-i-pv4
+bear @cluesurf/bind/code/javascript/node/os/network-interface-info-i-pv6
+bear @cluesurf/bind/code/javascript/node/os/user-info
+bear @cluesurf/bind/code/javascript/node/os/network-interface-info
+bear @cluesurf/bind/code/javascript/node/os/signal-constants
+bear @cluesurf/bind/code/javascript/node/os/constants
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-string
-  take form native-void
-  take form node-js-dict
-  take form node-js-platform
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-string
+  find native-void
+  find node-js-dict
+  find node-js-platform
 
 load @cluesurf/moon
-  take form form
-  take form or
+  find form
+  find or
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/os
-  take form cpu-info
-  take form network-interface-info
-  take form user-info
+load @cluesurf/bind/code/node/os
+  find cpu-info
+  find network-interface-info
+  find user-info
 
 host dev-null, name <devNull>
   like native-string

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form dom-matrix-init
-  take form dom-point
+load @cluesurf/bind/code/browser/dom
+  find dom-matrix-init
+  find dom-point
 
 form dom-point-read-only, name <DOMPointReadOnly>
   link w, name <w>

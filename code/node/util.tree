@@ -1,53 +1,53 @@
 
-bear @cluesurf/base/code/javascript/node/util/inspect-options
-bear @cluesurf/base/code/javascript/node/util/style
-bear @cluesurf/base/code/javascript/node/util/custom-inspect-function
-bear @cluesurf/base/code/javascript/node/util/inspect-options-stylized
-bear @cluesurf/base/code/javascript/node/util/inspect
-bear @cluesurf/base/code/javascript/node/util/debug-logger-function
-bear @cluesurf/base/code/javascript/node/util/debug-logger
-bear @cluesurf/base/code/javascript/node/util/custom-promisify-legacy
-bear @cluesurf/base/code/javascript/node/util/custom-promisify-symbol
-bear @cluesurf/base/code/javascript/node/util/custom-promisify
-bear @cluesurf/base/code/javascript/node/util/promisify
-bear @cluesurf/base/code/javascript/node/util/text-decoder
-bear @cluesurf/base/code/javascript/node/util/encode-into-result
-bear @cluesurf/base/code/javascript/node/util/text-encoder
-bear @cluesurf/base/code/javascript/node/util/util-types
+bear @cluesurf/bind/code/javascript/node/util/inspect-options
+bear @cluesurf/bind/code/javascript/node/util/style
+bear @cluesurf/bind/code/javascript/node/util/custom-inspect-function
+bear @cluesurf/bind/code/javascript/node/util/inspect-options-stylized
+bear @cluesurf/bind/code/javascript/node/util/inspect
+bear @cluesurf/bind/code/javascript/node/util/debug-logger-function
+bear @cluesurf/bind/code/javascript/node/util/debug-logger
+bear @cluesurf/bind/code/javascript/node/util/custom-promisify-legacy
+bear @cluesurf/bind/code/javascript/node/util/custom-promisify-symbol
+bear @cluesurf/bind/code/javascript/node/util/custom-promisify
+bear @cluesurf/bind/code/javascript/node/util/promisify
+bear @cluesurf/bind/code/javascript/node/util/text-decoder
+bear @cluesurf/bind/code/javascript/node/util/encode-into-result
+bear @cluesurf/bind/code/javascript/node/util/text-encoder
+bear @cluesurf/bind/code/javascript/node/util/util-types
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form date
-  take form error
-  take form function
-  take form map
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-symbol
-  take form native-undefined
-  take form native-void
-  take form node-js-errno-exception
-  take form promise
-  take form reg-exp
+load @cluesurf/bind/code/javascript
+  find array
+  find date
+  find error
+  find function
+  find map
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-symbol
+  find native-undefined
+  find native-void
+  find node-js-errno-exception
+  find promise
+  find reg-exp
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form or
-  take form task
-  take form tuple
-  take form unknown
+  find any
+  find like
+  find or
+  find task
+  find tuple
+  find unknown
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/util
-  take form custom-promisify
-  take form debug-logger
-  take form debug-logger-function
-  take form inspect-options
+load @cluesurf/bind/code/node/util
+  find custom-promisify
+  find debug-logger
+  find debug-logger-function
+  find inspect-options
 
 host debug, name <debug>
   like debuglog

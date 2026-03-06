@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2020/intl
-  take form relative-time-format-unit
+load @cluesurf/bind/code/javascript/es2020/intl
+  find relative-time-format-unit
 
 form relative-time-format-part, name <RelativeTimeFormatPart>
   link type, name <type>

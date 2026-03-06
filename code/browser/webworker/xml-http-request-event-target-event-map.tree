@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form progress-event
-  take form xml-http-request-event-target
+load @cluesurf/bind/code/browser/webworker
+  find progress-event
+  find xml-http-request-event-target
 
-load @cluesurf/base/code/browser/dom/xml-http-request-event-target-event-map
-  take form xml-http-request-event-target-event-map
+load @cluesurf/bind/code/browser/dom/xml-http-request-event-target-event-map
+  find xml-http-request-event-target-event-map
 
 form xml-http-request-event-target-event-map, name <XMLHttpRequestEventTargetEventMap>
   link abort, name <abort>

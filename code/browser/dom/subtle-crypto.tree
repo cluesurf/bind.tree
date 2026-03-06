@@ -1,42 +1,42 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form aes-cbc-params
-  take form aes-ctr-params
-  take form aes-derived-key-params
-  take form aes-gcm-params
-  take form aes-key-algorithm
-  take form aes-key-gen-params
-  take form algorithm-identifier
-  take form buffer-source
-  take form crypto-key
-  take form crypto-key-pair
-  take form ec-key-gen-params
-  take form ec-key-import-params
-  take form ecdh-key-derive-params
-  take form ecdsa-params
-  take form hkdf-params
-  take form hmac-import-params
-  take form hmac-key-gen-params
-  take form json-web-key
-  take form key-format
-  take form key-usage
-  take form pbkdf2-params
-  take form rsa-hashed-import-params
-  take form rsa-hashed-key-gen-params
-  take form rsa-oaep-params
-  take form rsa-pss-params
+load @cluesurf/bind/code/browser/dom
+  find aes-cbc-params
+  find aes-ctr-params
+  find aes-derived-key-params
+  find aes-gcm-params
+  find aes-key-algorithm
+  find aes-key-gen-params
+  find algorithm-identifier
+  find buffer-source
+  find crypto-key
+  find crypto-key-pair
+  find ec-key-gen-params
+  find ec-key-import-params
+  find ecdh-key-derive-params
+  find ecdsa-params
+  find hkdf-params
+  find hmac-import-params
+  find hmac-key-gen-params
+  find json-web-key
+  find key-format
+  find key-usage
+  find pbkdf2-params
+  find rsa-hashed-import-params
+  find rsa-hashed-key-gen-params
+  find rsa-oaep-params
+  find rsa-pss-params
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form exclude
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find exclude
+  find promise
 
 form subtle-crypto, name <SubtleCrypto>
   task decrypt, name <decrypt>

@@ -1,43 +1,43 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form body-init
-  take form clipboard
-  take form credentials-container
-  take form gamepad
-  take form geolocation
-  take form media-capabilities
-  take form media-devices
-  take form media-key-system-access
-  take form media-key-system-configuration
-  take form media-session
-  take form navigator-automation-information
-  take form navigator-concurrent-hardware
-  take form navigator-content-utils
-  take form navigator-cookies
-  take form navigator-id
-  take form navigator-language
-  take form navigator-network-information
-  take form navigator-on-line
-  take form navigator-plugins
-  take form navigator-storage
-  take form permissions
-  take form service-worker-container
-  take form share-data
-  take form url
-  take form vibrate-pattern
+load @cluesurf/bind/code/browser/dom
+  find body-init
+  find clipboard
+  find credentials-container
+  find gamepad
+  find geolocation
+  find media-capabilities
+  find media-devices
+  find media-key-system-access
+  find media-key-system-configuration
+  find media-session
+  find navigator-automation-information
+  find navigator-concurrent-hardware
+  find navigator-content-utils
+  find navigator-cookies
+  find navigator-id
+  find navigator-language
+  find navigator-network-information
+  find navigator-on-line
+  find navigator-plugins
+  find navigator-storage
+  find permissions
+  find service-worker-container
+  find share-data
+  find url
+  find vibrate-pattern
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form navigator, name <Navigator>
   base navigator-automation-information

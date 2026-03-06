@@ -1,21 +1,21 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/es5
-  take form error
+load @cluesurf/bind/code/javascript/es5
+  find error
 
-load @cluesurf/base/code/javascript/es2021/promise/aggregate-error
-  take form aggregate-error
+load @cluesurf/bind/code/javascript/es2021/promise/aggregate-error
+  find aggregate-error
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable
 
-load @cluesurf/base/code/javascript/esnext/promise/aggregate-error
-  take form aggregate-error
+load @cluesurf/bind/code/javascript/esnext/promise/aggregate-error
+  find aggregate-error
 
 form aggregate-error, name <AggregateError>
   base error

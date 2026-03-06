@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-undefined
 
-load @cluesurf/base/code/node/vm
-  take form context
-  take form measure-memory-mode
+load @cluesurf/bind/code/node/vm
+  find context
+  find measure-memory-mode
 
 form measure-memory-options, name <MeasureMemoryOptions>
   link mode, name <mode>

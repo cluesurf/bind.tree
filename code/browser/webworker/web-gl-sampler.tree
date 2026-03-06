@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/web-gl-sampler
-  take form web-gl-sampler
+load @cluesurf/bind/code/browser/dom/web-gl-sampler
+  find web-gl-sampler
 
 form web-gl-sampler, name <WebGLSampler>

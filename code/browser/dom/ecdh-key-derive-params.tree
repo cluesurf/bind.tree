@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form algorithm
-  take form crypto-key
+load @cluesurf/bind/code/browser/dom
+  find algorithm
+  find crypto-key
 
 form ecdh-key-derive-params, name <EcdhKeyDeriveParams>
   base algorithm

@@ -1,19 +1,19 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-boolean
-  take form native-undefined
-  take form object
+load @cluesurf/bind/code/javascript
+  find array
+  find native-boolean
+  find native-undefined
+  find object
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/vm
-  take form base-options
-  take form context
+load @cluesurf/bind/code/node/vm
+  find base-options
+  find context
 
 form compile-function-options, name <CompileFunctionOptions>
   base base-options

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form dom-high-res-time-stamp
-  take form navigation-type
-  take form performance-resource-timing
+load @cluesurf/bind/code/browser/dom
+  find dom-high-res-time-stamp
+  find navigation-type
+  find performance-resource-timing
 
 form performance-navigation-timing, name <PerformanceNavigationTiming>
   base performance-resource-timing

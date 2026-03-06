@@ -1,28 +1,28 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form file-list
-  take form file-system-entry
-  take form html-element
-  take form html-element-event-map
-  take form html-form-element
-  take form html-label-element
-  take form node-list-of
-  take form selection-mode
-  take form validity-state
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find file-list
+  find file-system-entry
+  find html-element
+  find html-element-event-map
+  find html-form-element
+  find html-label-element
+  find node-list-of
+  find selection-mode
+  find validity-state
 
-load @cluesurf/base/code/javascript/es5
-  take form date
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find date
+  find readonly-array
 
 form html-input-element, name <HTMLInputElement>
   base html-element

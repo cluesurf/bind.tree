@@ -1,9 +1,9 @@
 
 load @cluesurf/moon
-  take form and
+  find and
 
-load @cluesurf/base/code/javascript
-  take form signal-constants
+load @cluesurf/bind/code/javascript
+  find signal-constants
 
 host exp, name <exp>
   like and

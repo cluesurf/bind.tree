@@ -1,3 +1,3 @@
 
-bear @cluesurf/base/code/javascript/node/inspector/console/console-message
-bear @cluesurf/base/code/javascript/node/inspector/console/message-added-event-data-type
+bear @cluesurf/bind/code/javascript/node/inspector/console/console-message
+bear @cluesurf/bind/code/javascript/node/inspector/console/message-added-event-data-type

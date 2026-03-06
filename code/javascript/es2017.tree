@@ -1,8 +1,8 @@
 
-bear @cluesurf/base/code/javascript/es2016
-bear @cluesurf/base/code/javascript/es2017/object
-bear @cluesurf/base/code/javascript/es2017/sharedmemory
-bear @cluesurf/base/code/javascript/es2017/string
-bear @cluesurf/base/code/javascript/es2017/intl
-bear @cluesurf/base/code/javascript/es2017/typedarrays
-bear @cluesurf/base/code/javascript/es2017/full
+bear @cluesurf/bind/code/javascript/es2016
+bear @cluesurf/bind/code/javascript/es2017/object
+bear @cluesurf/bind/code/javascript/es2017/sharedmemory
+bear @cluesurf/bind/code/javascript/es2017/string
+bear @cluesurf/bind/code/javascript/es2017/intl
+bear @cluesurf/bind/code/javascript/es2017/typedarrays
+bear @cluesurf/bind/code/javascript/es2017/full

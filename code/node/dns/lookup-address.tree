@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
 
 form lookup-address, name <LookupAddress>
   link address, name <address>

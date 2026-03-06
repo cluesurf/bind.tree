@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/es5
-  take form array
+load @cluesurf/bind/code/javascript/es5
+  find array
 
 form idb-array-key, name <IDBArrayKey>
   base array

@@ -1,26 +1,26 @@
 
 load @cluesurf/moon
-  take form any
-  take form form
-  take form or
-  take form task
+  find any
+  find form
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form error
-  take form native-null
-  take form native-number
-  take form native-void
-  take form transform
+load @cluesurf/bind/code/javascript
+  find error
+  find native-null
+  find native-number
+  find native-void
+  find transform
 
-load @cluesurf/base/code/node/buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/globals
-  take form array
+load @cluesurf/bind/code/node/globals
+  find array
 
-load @cluesurf/base/code/node/stream/internal
-  take form duplex-options
-  take form transform-callback
+load @cluesurf/bind/code/node/stream/internal
+  find duplex-options
+  find transform-callback
 
 form transform-options, name <TransformOptions>
   base duplex-options

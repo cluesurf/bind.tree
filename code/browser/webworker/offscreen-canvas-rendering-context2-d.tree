@@ -1,24 +1,24 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form canvas-compositing
-  take form canvas-draw-image
-  take form canvas-draw-path
-  take form canvas-fill-stroke-styles
-  take form canvas-filters
-  take form canvas-image-data
-  take form canvas-image-smoothing
-  take form canvas-path
-  take form canvas-path-drawing-styles
-  take form canvas-rect
-  take form canvas-shadow-styles
-  take form canvas-state
-  take form canvas-text
-  take form canvas-text-drawing-styles
-  take form canvas-transform
-  take form offscreen-canvas
+load @cluesurf/bind/code/browser/webworker
+  find canvas-compositing
+  find canvas-draw-image
+  find canvas-draw-path
+  find canvas-fill-stroke-styles
+  find canvas-filters
+  find canvas-image-data
+  find canvas-image-smoothing
+  find canvas-path
+  find canvas-path-drawing-styles
+  find canvas-rect
+  find canvas-shadow-styles
+  find canvas-state
+  find canvas-text
+  find canvas-text-drawing-styles
+  find canvas-transform
+  find offscreen-canvas
 
 form offscreen-canvas-rendering-context2-d, name <OffscreenCanvasRenderingContext2D>
   base canvas-compositing

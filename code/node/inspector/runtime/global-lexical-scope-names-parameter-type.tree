@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-undefined
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form execution-context-id
+load @cluesurf/bind/code/node/inspector/runtime
+  find execution-context-id
 
 form global-lexical-scope-names-parameter-type, name <GlobalLexicalScopeNamesParameterType>
   link execution-context-id, name <executionContextId>

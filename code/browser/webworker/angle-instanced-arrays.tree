@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form g-lenum
-  take form g-lint
-  take form g-lintptr
-  take form g-lsizei
-  take form g-luint
+load @cluesurf/bind/code/browser/webworker
+  find g-lenum
+  find g-lint
+  find g-lintptr
+  find g-lsizei
+  find g-luint
 
-load @cluesurf/base/code/browser/dom/angle-instanced-arrays
-  take form angle-instanced-arrays
+load @cluesurf/bind/code/browser/dom/angle-instanced-arrays
+  find angle-instanced-arrays
 
 form angle-instanced-arrays, name <ANGLE_instanced_arrays>
   link vertex-attrib-array-divisor-angle, name <VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE>

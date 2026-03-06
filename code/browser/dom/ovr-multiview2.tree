@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
-  take form g-lint
-  take form g-lsizei
-  take form web-gl-texture
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
+  find g-lint
+  find g-lsizei
+  find web-gl-texture
 
 form ovr-multiview2, name <OVR_multiview2>
   link framebuffer-attachment-texture-base-view-index-ovr

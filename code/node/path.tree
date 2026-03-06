@@ -1,12 +1,12 @@
 
-bear @cluesurf/base/code/javascript/node/path/path-posix
-bear @cluesurf/base/code/javascript/node/path/path-win32
-bear @cluesurf/base/code/javascript/node/path/parsed-path
-bear @cluesurf/base/code/javascript/node/path/format-input-path-object
-bear @cluesurf/base/code/javascript/node/path/platform-path
+bear @cluesurf/bind/code/javascript/node/path/path-posix
+bear @cluesurf/bind/code/javascript/node/path/path-win32
+bear @cluesurf/bind/code/javascript/node/path/parsed-path
+bear @cluesurf/bind/code/javascript/node/path/format-input-path-object
+bear @cluesurf/bind/code/javascript/node/path/platform-path
 
-load @cluesurf/base/code/javascript
-  take form path-platform-path
+load @cluesurf/bind/code/javascript
+  find path-platform-path
 
 host path, name <path>
   like path-platform-path

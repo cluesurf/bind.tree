@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form ext-s-rgb, name <EXT_sRGB>
   link framebuffer-attachment-color-encoding-ext

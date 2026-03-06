@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form like
-  take form or
+  find like
+  find or
 
-load @cluesurf/base/code/javascript
-  take form function
+load @cluesurf/bind/code/javascript
+  find function
 
-load @cluesurf/base/code/node/util
-  take form custom-promisify-legacy
-  take form custom-promisify-symbol
+load @cluesurf/bind/code/node/util
+  find custom-promisify-legacy
+  find custom-promisify-symbol
 
 form custom-promisify, name <CustomPromisify>
   head t-custom

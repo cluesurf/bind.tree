@@ -1,11 +1,11 @@
 
-bear @cluesurf/base/code/javascript/node/tty/read-stream
-bear @cluesurf/base/code/javascript/node/tty/direction
-bear @cluesurf/base/code/javascript/node/tty/write-stream
+bear @cluesurf/bind/code/javascript/node/tty/read-stream
+bear @cluesurf/bind/code/javascript/node/tty/direction
+bear @cluesurf/bind/code/javascript/node/tty/write-stream
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-number
 
 task isatty, name <isatty>
   like native-boolean

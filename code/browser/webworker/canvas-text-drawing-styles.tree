@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form canvas-direction
-  take form canvas-text-align
-  take form canvas-text-baseline
+load @cluesurf/bind/code/browser/webworker
+  find canvas-direction
+  find canvas-text-align
+  find canvas-text-baseline
 
-load @cluesurf/base/code/browser/dom/canvas-text-drawing-styles
-  take form canvas-text-drawing-styles
+load @cluesurf/bind/code/browser/dom/canvas-text-drawing-styles
+  find canvas-text-drawing-styles
 
 form canvas-text-drawing-styles, name <CanvasTextDrawingStyles>
   link direction, name <direction>

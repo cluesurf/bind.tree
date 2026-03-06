@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form idb-request-event-map, name <IDBRequestEventMap>
   link error, name <error>

@@ -1,12 +1,12 @@
 
-bear @cluesurf/base/code/javascript/es2016/array/include/array
-bear @cluesurf/base/code/javascript/es2016/array/include/readonly-array
-bear @cluesurf/base/code/javascript/es2016/array/include/int8-array
-bear @cluesurf/base/code/javascript/es2016/array/include/uint8-array
-bear @cluesurf/base/code/javascript/es2016/array/include/uint8-clamped-array
-bear @cluesurf/base/code/javascript/es2016/array/include/int16-array
-bear @cluesurf/base/code/javascript/es2016/array/include/uint16-array
-bear @cluesurf/base/code/javascript/es2016/array/include/int32-array
-bear @cluesurf/base/code/javascript/es2016/array/include/uint32-array
-bear @cluesurf/base/code/javascript/es2016/array/include/float32-array
-bear @cluesurf/base/code/javascript/es2016/array/include/float64-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/array
+bear @cluesurf/bind/code/javascript/es2016/array/include/readonly-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/int8-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/uint8-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/uint8-clamped-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/int16-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/uint16-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/int32-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/uint32-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/float32-array
+bear @cluesurf/bind/code/javascript/es2016/array/include/float64-array

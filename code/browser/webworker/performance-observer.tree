@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form performance-entry-list
-  take form performance-observer-init
+load @cluesurf/bind/code/browser/webworker
+  find performance-entry-list
+  find performance-observer-init
 
-load @cluesurf/base/code/browser/dom/performance-observer
-  take form performance-observer
+load @cluesurf/bind/code/browser/dom/performance-observer
+  find performance-observer
 
 form performance-observer, name <PerformanceObserver>
   task disconnect, name <disconnect>

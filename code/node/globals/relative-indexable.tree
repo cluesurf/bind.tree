@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form like
-  take form or
+  find like
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
 
 form relative-indexable, name <RelativeIndexable>
   head t

@@ -1,21 +1,21 @@
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form or
+  find and
+  find form
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-string
-  take form object-encoding-options
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-string
+  find object-encoding-options
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/child-process
-  take form exec-options
-  take form promise-with-child
+load @cluesurf/bind/code/node/child-process
+  find exec-options
+  find promise-with-child
 
 task promisify, name <__promisify__>
   like promise-with-child

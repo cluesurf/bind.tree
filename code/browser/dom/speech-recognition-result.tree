@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form speech-recognition-alternative
+load @cluesurf/bind/code/browser/dom
+  find speech-recognition-alternative
 
 form speech-recognition-result, name <SpeechRecognitionResult>
   link is-final, name <isFinal>

@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form element
+load @cluesurf/bind/code/browser/dom
+  find element
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/html-collection-of
-  take form html-collection-of
+load @cluesurf/bind/code/browser/dom/html-collection-of
+  find html-collection-of
 
 form html-collection-of, name <HTMLCollectionOf>
   head t

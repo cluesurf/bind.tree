@@ -1,34 +1,34 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form add-event-listener-options
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form get-notification-options
-  take form navigation-preload-manager
-  take form notification
-  take form notification-options
-  take form push-manager
-  take form service-worker
-  take form service-worker-registration-event-map
-  take form service-worker-update-via-cache
-  take form sync-manager
+load @cluesurf/bind/code/browser/webworker
+  find add-event-listener-options
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find get-notification-options
+  find navigation-preload-manager
+  find notification
+  find notification-options
+  find push-manager
+  find service-worker
+  find service-worker-registration-event-map
+  find service-worker-update-via-cache
+  find sync-manager
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
-load @cluesurf/base/code/browser/dom/service-worker-registration
-  take form service-worker-registration
+load @cluesurf/bind/code/browser/dom/service-worker-registration
+  find service-worker-registration
 
 form service-worker-registration, name <ServiceWorkerRegistration>
   base event-target

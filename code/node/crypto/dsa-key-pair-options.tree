@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form like
+  find and
+  find form
+  find like
 
-load @cluesurf/base/code/javascript
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find native-number
 
-load @cluesurf/base/code/node/crypto
-  take form base-private-key-encoding-options
-  take form key-format
+load @cluesurf/bind/code/node/crypto
+  find base-private-key-encoding-options
+  find key-format
 
 form dsa-key-pair-options, name <DSAKeyPairOptions>
   head pub-f

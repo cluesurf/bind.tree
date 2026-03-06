@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form web-gl-rendering-context-base
-  take form web-gl-rendering-context-overloads
+load @cluesurf/bind/code/browser/dom
+  find web-gl-rendering-context-base
+  find web-gl-rendering-context-overloads
 
 form web-gl-rendering-context, name <WebGLRenderingContext>
   base web-gl-rendering-context-base

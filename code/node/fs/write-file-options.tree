@@ -1,23 +1,23 @@
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form or
+  find and
+  find form
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/events/event-emitter
-  take form abortable
+load @cluesurf/bind/code/node/events/event-emitter
+  find abortable
 
-load @cluesurf/base/code/node/fs
-  take form mode
-  take form object-encoding-options
+load @cluesurf/bind/code/node/fs
+  find mode
+  find object-encoding-options
 
 form write-file-options, name <WriteFileOptions>
   like or

@@ -1,9 +1,9 @@
 
 load @cluesurf/moon
-  take form like
+  find like
 
-load @cluesurf/base/code/javascript
-  take form function
+load @cluesurf/bind/code/javascript
+  find function
 
 form custom-promisify-legacy, name <CustomPromisifyLegacy>
   base function

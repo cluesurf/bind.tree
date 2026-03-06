@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form form
+  find form
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form promise
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find promise
 
 task promisify, name <__promisify__>
   like promise

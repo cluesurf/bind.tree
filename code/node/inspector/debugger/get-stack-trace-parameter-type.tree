@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form runtime-stack-trace-id
+load @cluesurf/bind/code/javascript
+  find runtime-stack-trace-id
 
 form get-stack-trace-parameter-type, name <GetStackTraceParameterType>
   link stack-trace-id, name <stackTraceId>

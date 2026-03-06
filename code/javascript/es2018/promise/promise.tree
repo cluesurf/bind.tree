@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown/promise
-  take form promise
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/promise
+  find promise
 
 form promise, name <Promise>
   head t

@@ -1,22 +1,22 @@
 
-load @cluesurf/base/code/browser/dom
-  take form animation-event
-  take form composition-event
-  take form drag-event
-  take form error-event
-  take form event
-  take form focus-event
-  take form form-data-event
-  take form input-event
-  take form keyboard-event
-  take form mouse-event
-  take form pointer-event
-  take form progress-event
-  take form security-policy-violation-event
-  take form touch-event
-  take form transition-event
-  take form ui-event
-  take form wheel-event
+load @cluesurf/bind/code/browser/dom
+  find animation-event
+  find composition-event
+  find drag-event
+  find error-event
+  find event
+  find focus-event
+  find form-data-event
+  find input-event
+  find keyboard-event
+  find mouse-event
+  find pointer-event
+  find progress-event
+  find security-policy-violation-event
+  find touch-event
+  find transition-event
+  find ui-event
+  find wheel-event
 
 form global-event-handlers-event-map, name <GlobalEventHandlersEventMap>
   link abort, name <abort>

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/dom
-  take form canvas-rendering-context2-d
-  take form image-bitmap-rendering-context
-  take form web-gl-rendering-context
-  take form web-gl2-rendering-context
+load @cluesurf/bind/code/browser/dom
+  find canvas-rendering-context2-d
+  find image-bitmap-rendering-context
+  find web-gl-rendering-context
+  find web-gl2-rendering-context
 
 form rendering-context, name <RenderingContext>
   like or

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form webgl-compressed-texture-s3tc-srgb, name <WEBGL_compressed_texture_s3tc_srgb>
   link compressed-srgb-alpha-s3-tc-dxt1-ext, name <COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT>

@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
-  take form runtime-script-id
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
+  find runtime-script-id
 
 form location, name <Location>
   link script-id, name <scriptId>

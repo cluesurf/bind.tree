@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/node/zlib
-  take form brotli-options
-  take form input-type
-  take form zlib
+load @cluesurf/bind/code/node/zlib
+  find brotli-options
+  find input-type
+  find zlib
 
-load @cluesurf/base/code/javascript
-  take form promise
+load @cluesurf/bind/code/javascript
+  find promise
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
 form brotli-decompress, name <BrotliDecompress>
   base stream-transform

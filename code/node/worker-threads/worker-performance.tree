@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/perf-hooks
-  take form event-loop-utility-function
+load @cluesurf/bind/code/node/perf-hooks
+  find event-loop-utility-function
 
 form worker-performance, name <WorkerPerformance>
   link event-loop-utilization, name <eventLoopUtilization>

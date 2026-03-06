@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form keyframe-effect-options
+load @cluesurf/bind/code/browser/dom
+  find keyframe-effect-options
 
 form keyframe-animation-options, name <KeyframeAnimationOptions>
   base keyframe-effect-options

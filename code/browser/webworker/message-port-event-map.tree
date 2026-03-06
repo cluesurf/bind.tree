@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form message-event
+load @cluesurf/bind/code/browser/webworker
+  find message-event
 
-load @cluesurf/base/code/browser/dom/message-port-event-map
-  take form message-port-event-map
+load @cluesurf/bind/code/browser/dom/message-port-event-map
+  find message-port-event-map
 
 form message-port-event-map, name <MessagePortEventMap>
   link message, name <message>

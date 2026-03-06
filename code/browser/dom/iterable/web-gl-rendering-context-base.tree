@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form g-lfloat
-  take form g-luint
+load @cluesurf/bind/code/browser/dom
+  find g-lfloat
+  find g-luint
 
-load @cluesurf/base/code/browser/dom/web-gl-rendering-context-base
-  take form web-gl-rendering-context-base
+load @cluesurf/bind/code/browser/dom/web-gl-rendering-context-base
+  find web-gl-rendering-context-base
 
 form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
   task vertex-attrib1fv, name <vertexAttrib1fv>

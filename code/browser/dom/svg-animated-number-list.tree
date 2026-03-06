@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-number-list
+load @cluesurf/bind/code/browser/dom
+  find svg-number-list
 
 form svg-animated-number-list, name <SVGAnimatedNumberList>
   link anim-val, name <animVal>

@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-undefined
 
-load @cluesurf/base/code/node/fs
-  take form mode
+load @cluesurf/bind/code/node/fs
+  find mode
 
 form make-directory-options, name <MakeDirectoryOptions>
   link recursive, name <recursive>

@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-undefined
 
 form non-nullable, name <NonNullable>
   head t

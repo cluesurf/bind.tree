@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form node
-  take form non-element-parent-node
-  take form parent-node
+load @cluesurf/bind/code/browser/dom
+  find node
+  find non-element-parent-node
+  find parent-node
 
 form document-fragment, name <DocumentFragment>
   base node

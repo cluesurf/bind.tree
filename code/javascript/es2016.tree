@@ -1,4 +1,4 @@
 
-bear @cluesurf/base/code/javascript/es2015
-bear @cluesurf/base/code/javascript/es2016/array/include
-bear @cluesurf/base/code/javascript/es2016/full
+bear @cluesurf/bind/code/javascript/es2015
+bear @cluesurf/bind/code/javascript/es2016/array/include
+bear @cluesurf/bind/code/javascript/es2016/full

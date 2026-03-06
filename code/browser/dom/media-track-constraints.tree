@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form media-track-constraint-set
+load @cluesurf/bind/code/browser/dom
+  find media-track-constraint-set
 
 form media-track-constraints, name <MediaTrackConstraints>
   base media-track-constraint-set

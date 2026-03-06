@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form webgl-compressed-texture-etc, name <WEBGL_compressed_texture_etc>
   link compressed-r11-eac, name <COMPRESSED_R11_EAC>

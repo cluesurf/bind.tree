@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown
-  take form promise-constructor
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
+  find promise-constructor
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown/promise
-  take form promise
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/promise
+  find promise
 
 form promise, name <Promise>
   head t

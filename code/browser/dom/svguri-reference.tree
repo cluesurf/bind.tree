@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-animated-string
+load @cluesurf/bind/code/browser/dom
+  find svg-animated-string
 
 form svguri-reference, name <SVGURIReference>
   link href, name <href>

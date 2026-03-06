@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form event-listener-object, name <EventListenerObject>
   task handle-event, name <handleEvent>

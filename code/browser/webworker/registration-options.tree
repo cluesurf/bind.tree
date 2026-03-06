@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form service-worker-update-via-cache
-  take form worker-type
+load @cluesurf/bind/code/browser/webworker
+  find service-worker-update-via-cache
+  find worker-type
 
-load @cluesurf/base/code/browser/dom/registration-options
-  take form registration-options
+load @cluesurf/bind/code/browser/dom/registration-options
+  find registration-options
 
 form registration-options, name <RegistrationOptions>
   link scope, name <scope>

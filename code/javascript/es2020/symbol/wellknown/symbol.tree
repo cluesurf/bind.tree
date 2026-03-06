@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-symbol
+load @cluesurf/bind/code/javascript/native
+  find native-symbol
 
-load @cluesurf/base/code/javascript/es2019/symbol/symbol
-  take form symbol
+load @cluesurf/bind/code/javascript/es2019/symbol/symbol
+  find symbol
 
 form symbol
   hook self

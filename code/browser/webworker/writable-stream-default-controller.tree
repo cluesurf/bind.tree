@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom/writable-stream-default-controller
-  take form writable-stream-default-controller
+load @cluesurf/bind/code/browser/dom/writable-stream-default-controller
+  find writable-stream-default-controller
 
 form writable-stream-default-controller, name <WritableStreamDefaultController>
   task error, name <error>

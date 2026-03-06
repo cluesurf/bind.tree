@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form big-integer
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find big-integer
 
-load @cluesurf/base/code/browser/dom/rsa-key-gen-params
-  take form rsa-key-gen-params
+load @cluesurf/bind/code/browser/dom/rsa-key-gen-params
+  find rsa-key-gen-params
 
 form rsa-key-gen-params, name <RsaKeyGenParams>
   base algorithm

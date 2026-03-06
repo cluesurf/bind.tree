@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es2020/intl
-  take form relative-time-format-part
-  take form relative-time-format-unit
-  take form resolved-relative-time-format-options
+load @cluesurf/bind/code/javascript/es2020/intl
+  find relative-time-format-part
+  find relative-time-format-unit
+  find resolved-relative-time-format-options
 
 form relative-time-format, name <RelativeTimeFormat>
   task format, name <format>

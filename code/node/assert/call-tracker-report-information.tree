@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-object
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-object
+  find native-string
 
 form call-tracker-report-information, name <CallTrackerReportInformation>
   link message, name <message>

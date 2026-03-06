@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-undefined
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form exception-details
-  take form remote-object
+load @cluesurf/bind/code/node/inspector/runtime
+  find exception-details
+  find remote-object
 
 form evaluate-return-type, name <EvaluateReturnType>
   link result, name <result>

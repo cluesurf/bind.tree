@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom/algorithm
-  take form algorithm
+load @cluesurf/bind/code/browser/dom/algorithm
+  find algorithm
 
 form algorithm, name <Algorithm>
   link name, name <name>

@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form blob
-  take form media-source
-  take form media-stream
+load @cluesurf/bind/code/browser/dom
+  find blob
+  find media-source
+  find media-stream
 
 form media-provider, name <MediaProvider>
   like or

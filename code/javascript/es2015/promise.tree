@@ -1,8 +1,8 @@
 
-bear @cluesurf/base/code/javascript/es2015/promise/promise
+bear @cluesurf/bind/code/javascript/es2015/promise/promise
 
-load @cluesurf/base/code/javascript/es2015/promise
-  take form promise-constructor
+load @cluesurf/bind/code/javascript/es2015/promise
+  find promise-constructor
 
 host promise, name <Promise>
   like promise-constructor

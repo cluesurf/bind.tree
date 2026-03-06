@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom/underlying-source-start-callback
-  take form underlying-source-start-callback
+load @cluesurf/bind/code/browser/dom/underlying-source-start-callback
+  find underlying-source-start-callback
 
 form underlying-source-start-callback, name <UnderlyingSourceStartCallback>
   head r

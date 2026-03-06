@@ -1,19 +1,19 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form child-node
-  take form document
-  take form event-target
-  take form get-root-node-options
-  take form html-element
-  take form node-list-of
-  take form parent-node
+load @cluesurf/bind/code/browser/dom
+  find child-node
+  find document
+  find event-target
+  find get-root-node-options
+  find html-element
+  find node-list-of
+  find parent-node
 
 form node, name <Node>
   base event-target

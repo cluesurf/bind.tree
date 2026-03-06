@@ -1,26 +1,26 @@
 
-bear @cluesurf/base/code/javascript/node/repl/repl-options
-bear @cluesurf/base/code/javascript/node/repl/repl-eval
-bear @cluesurf/base/code/javascript/node/repl/repl-writer
-bear @cluesurf/base/code/javascript/node/repl/repl-command-action
-bear @cluesurf/base/code/javascript/node/repl/repl-command
-bear @cluesurf/base/code/javascript/node/repl/repl-server
-bear @cluesurf/base/code/javascript/node/repl/recoverable
+bear @cluesurf/bind/code/javascript/node/repl/repl-options
+bear @cluesurf/bind/code/javascript/node/repl/repl-eval
+bear @cluesurf/bind/code/javascript/node/repl/repl-writer
+bear @cluesurf/bind/code/javascript/node/repl/repl-command-action
+bear @cluesurf/bind/code/javascript/node/repl/repl-command
+bear @cluesurf/bind/code/javascript/node/repl/repl-server
+bear @cluesurf/bind/code/javascript/node/repl/recoverable
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form or
+  find and
+  find form
+  find or
 
-load @cluesurf/base/code/javascript
-  take form inspect-options
-  take form native-string
-  take form native-symbol
-  take form repl-server
+load @cluesurf/bind/code/javascript
+  find inspect-options
+  find native-string
+  find native-symbol
+  find repl-server
 
-load @cluesurf/base/code/node/repl
-  take form repl-options
-  take form repl-writer
+load @cluesurf/bind/code/node/repl
+  find repl-options
+  find repl-writer
 
 host writer, name <writer>
   like and

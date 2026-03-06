@@ -1,6 +1,6 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
 form ecdh-key-format, name <ECDHKeyFormat>
   like or

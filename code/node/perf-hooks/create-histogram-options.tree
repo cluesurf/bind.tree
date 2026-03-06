@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-bigint
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-bigint
+  find native-number
+  find native-undefined
 
 form create-histogram-options, name <CreateHistogramOptions>
   link min, name <min>

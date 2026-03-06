@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form dom-time-stamp
+load @cluesurf/bind/code/browser/dom
+  find dom-time-stamp
 
-load @cluesurf/base/code/javascript/es5
-  take form record
+load @cluesurf/bind/code/javascript/es5
+  find record
 
 form push-subscription-json, name <PushSubscriptionJSON>
   link endpoint, name <endpoint>

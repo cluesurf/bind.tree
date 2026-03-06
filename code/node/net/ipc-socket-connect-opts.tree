@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-string
 
-load @cluesurf/base/code/node/net
-  take form connect-opts
+load @cluesurf/bind/code/node/net
+  find connect-opts
 
 form ipc-socket-connect-opts, name <IpcSocketConnectOpts>
   base connect-opts

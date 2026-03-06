@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-bigint
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-bigint
+  find native-number
+  find native-string
+  find native-undefined
 
 form asymmetric-key-details, name <AsymmetricKeyDetails>
   link modulus-length, name <modulusLength>

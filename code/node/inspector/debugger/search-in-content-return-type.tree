@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/node/inspector/debugger
-  take form search-match
+load @cluesurf/bind/code/node/inspector/debugger
+  find search-match
 
 form search-in-content-return-type, name <SearchInContentReturnType>
   link result, name <result>

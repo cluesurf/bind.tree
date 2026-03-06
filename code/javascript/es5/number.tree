@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form intl-number-format-options
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find intl-number-format-options
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es5/number
-  take form number
+load @cluesurf/bind/code/javascript/es5/number
+  find number
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
 form number, name <Number>
   task to-string, name <toString>

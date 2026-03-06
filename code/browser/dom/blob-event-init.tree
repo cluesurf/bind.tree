@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form blob
-  take form dom-high-res-time-stamp
+load @cluesurf/bind/code/browser/dom
+  find blob
+  find dom-high-res-time-stamp
 
 form blob-event-init, name <BlobEventInit>
   link data, name <data>

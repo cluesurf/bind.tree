@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form css-rule
-  take form css-style-declaration
+load @cluesurf/bind/code/browser/dom
+  find css-rule
+  find css-style-declaration
 
 form css-style-rule, name <CSSStyleRule>
   base css-rule

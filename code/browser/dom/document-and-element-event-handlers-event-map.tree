@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form clipboard-event
+load @cluesurf/bind/code/browser/dom
+  find clipboard-event
 
 form document-and-element-event-handlers-event-map
   name <DocumentAndElementEventHandlersEventMap>

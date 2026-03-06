@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/fs
-  take form stats-base
+load @cluesurf/bind/code/node/fs
+  find stats-base
 
 form stats, name <Stats>
   base stats-base

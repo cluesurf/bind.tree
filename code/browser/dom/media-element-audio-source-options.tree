@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form html-media-element
+load @cluesurf/bind/code/browser/dom
+  find html-media-element
 
 form media-element-audio-source-options, name <MediaElementAudioSourceOptions>
   link media-element, name <mediaElement>

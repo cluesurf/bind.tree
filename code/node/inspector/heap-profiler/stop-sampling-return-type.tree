@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/inspector/heap-profiler
-  take form sampling-heap-profile
+load @cluesurf/bind/code/node/inspector/heap-profiler
+  find sampling-heap-profile
 
 form stop-sampling-return-type, name <StopSamplingReturnType>
   link profile, name <profile>

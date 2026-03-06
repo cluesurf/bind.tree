@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form text-track-cue-event-map, name <TextTrackCueEventMap>
   link enter, name <enter>

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form css-style-declaration
+load @cluesurf/bind/code/browser/dom
+  find css-style-declaration
 
 form element-css-inline-style, name <ElementCSSInlineStyle>
   link style, name <style>

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-rtp-parameters
+load @cluesurf/bind/code/browser/dom
+  find rtc-rtp-parameters
 
 form rtc-rtp-receive-parameters, name <RTCRtpReceiveParameters>
   base rtc-rtp-parameters

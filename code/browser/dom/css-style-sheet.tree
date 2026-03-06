@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form css-rule
-  take form css-rule-list
-  take form style-sheet
+load @cluesurf/bind/code/browser/dom
+  find css-rule
+  find css-rule-list
+  find style-sheet
 
 form css-style-sheet, name <CSSStyleSheet>
   base style-sheet

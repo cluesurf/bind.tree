@@ -1,31 +1,31 @@
 
-bear @cluesurf/base/code/javascript/node/readline/key
-bear @cluesurf/base/code/javascript/node/readline/interface
-bear @cluesurf/base/code/javascript/node/readline/read-line
-bear @cluesurf/base/code/javascript/node/readline/completer
-bear @cluesurf/base/code/javascript/node/readline/async-completer
-bear @cluesurf/base/code/javascript/node/readline/completer-result
-bear @cluesurf/base/code/javascript/node/readline/read-line-options
-bear @cluesurf/base/code/javascript/node/readline/direction
-bear @cluesurf/base/code/javascript/node/readline/cursor-pos
+bear @cluesurf/bind/code/javascript/node/readline/key
+bear @cluesurf/bind/code/javascript/node/readline/interface
+bear @cluesurf/bind/code/javascript/node/readline/read-line
+bear @cluesurf/bind/code/javascript/node/readline/completer
+bear @cluesurf/bind/code/javascript/node/readline/async-completer
+bear @cluesurf/bind/code/javascript/node/readline/completer-result
+bear @cluesurf/bind/code/javascript/node/readline/read-line-options
+bear @cluesurf/bind/code/javascript/node/readline/direction
+bear @cluesurf/bind/code/javascript/node/readline/cursor-pos
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form interface
-  take form native-boolean
-  take form native-number
-  take form native-void
-  take form node-js-readable-stream
-  take form node-js-writable-stream
+load @cluesurf/bind/code/javascript
+  find interface
+  find native-boolean
+  find native-number
+  find native-void
+  find node-js-readable-stream
+  find node-js-writable-stream
 
-load @cluesurf/base/code/node/readline
-  take form async-completer
-  take form completer
-  take form direction
-  take form read-line-options
+load @cluesurf/bind/code/node/readline
+  find async-completer
+  find completer
+  find direction
+  find read-line-options
 
 task create-interface, name <createInterface>
   like interface

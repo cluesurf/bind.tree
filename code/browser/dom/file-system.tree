@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form file-system-directory-entry
+load @cluesurf/bind/code/browser/dom
+  find file-system-directory-entry
 
 form file-system, name <FileSystem>
   link name, name <name>

@@ -1,6 +1,6 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
 form does-zap-code-space-flag, name <DoesZapCodeSpaceFlag>
   like or

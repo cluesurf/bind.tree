@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form payment-request-event-map, name <PaymentRequestEventMap>
   link paymentmethodchange, name <paymentmethodchange>

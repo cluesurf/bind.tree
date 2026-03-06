@@ -1,17 +1,17 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form idb-database-info
-  take form idb-open-db-request
+load @cluesurf/bind/code/browser/dom
+  find idb-database-info
+  find idb-open-db-request
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form idb-factory, name <IDBFactory>
   task cmp, name <cmp>

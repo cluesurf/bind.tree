@@ -1,7 +1,7 @@
 
 load @cluesurf/moon
-  take form form
-  take form or
+  find form
+  find or
 
 form buffer-encoding-option, name <BufferEncodingOption>
   like or

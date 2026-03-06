@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-void
-  take form promise
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-void
+  find promise
 
-load @cluesurf/base/code/node/fs
-  take form time-like
+load @cluesurf/bind/code/node/fs
+  find time-like
 
 task promisify, name <__promisify__>
   like promise

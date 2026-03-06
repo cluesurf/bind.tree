@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form text-track-cue
+load @cluesurf/bind/code/browser/dom
+  find text-track-cue
 
 form text-track-cue-list, name <TextTrackCueList>
   link length, name <length>

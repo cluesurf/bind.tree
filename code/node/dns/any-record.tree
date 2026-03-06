@@ -1,18 +1,18 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/dns
-  take form any-a-record
-  take form any-aaaa-record
-  take form any-cname-record
-  take form any-mx-record
-  take form any-naptr-record
-  take form any-ns-record
-  take form any-ptr-record
-  take form any-soa-record
-  take form any-srv-record
-  take form any-txt-record
+load @cluesurf/bind/code/node/dns
+  find any-a-record
+  find any-aaaa-record
+  find any-cname-record
+  find any-mx-record
+  find any-naptr-record
+  find any-ns-record
+  find any-ptr-record
+  find any-soa-record
+  find any-srv-record
+  find any-txt-record
 
 form any-record, name <AnyRecord>
   like or

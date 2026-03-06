@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/web-gl-renderbuffer
-  take form web-gl-renderbuffer
+load @cluesurf/bind/code/browser/dom/web-gl-renderbuffer
+  find web-gl-renderbuffer
 
 form web-gl-renderbuffer, name <WebGLRenderbuffer>

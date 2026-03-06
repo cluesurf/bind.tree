@@ -1,11 +1,11 @@
 
-bear @cluesurf/base/code/javascript/node/diagnostics-channel/channel-listener
-bear @cluesurf/base/code/javascript/node/diagnostics-channel/channel
+bear @cluesurf/bind/code/javascript/node/diagnostics-channel/channel-listener
+bear @cluesurf/bind/code/javascript/node/diagnostics-channel/channel
 
-load @cluesurf/base/code/javascript
-  take form channel
-  take form native-boolean
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find channel
+  find native-boolean
+  find native-string
 
 task has-subscribers, name <hasSubscribers>
   like native-boolean

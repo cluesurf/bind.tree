@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form element
-  take form html-collection
+load @cluesurf/bind/code/browser/dom
+  find element
+  find html-collection
 
 form html-all-collection, name <HTMLAllCollection>
   link length, name <length>

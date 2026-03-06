@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form rtc-dtls-transport-event-map, name <RTCDtlsTransportEventMap>
   link statechange, name <statechange>

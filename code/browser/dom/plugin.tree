@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
+  find native-undefined
+  find native-void
 
 form plugin, name <Plugin>
   link description, name <description>

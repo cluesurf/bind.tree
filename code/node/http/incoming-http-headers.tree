@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find array
+  find native-string
+  find native-undefined
 
 load @cluesurf/moon
-  take form or
+  find or
 
 form incoming-http-headers, name <IncomingHttpHeaders>
   base node-js-dict

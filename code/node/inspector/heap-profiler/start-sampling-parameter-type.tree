@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
 
 form start-sampling-parameter-type, name <StartSamplingParameterType>
   link sampling-interval, name <samplingInterval>

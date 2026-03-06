@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form message-event
+load @cluesurf/bind/code/browser/webworker
+  find message-event
 
-load @cluesurf/base/code/browser/dom/broadcast-channel-event-map
-  take form broadcast-channel-event-map
+load @cluesurf/bind/code/browser/dom/broadcast-channel-event-map
+  find broadcast-channel-event-map
 
 form broadcast-channel-event-map, name <BroadcastChannelEventMap>
   link message, name <message>

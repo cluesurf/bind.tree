@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-point-read-only
+load @cluesurf/bind/code/browser/webworker
+  find dom-point-read-only
 
-load @cluesurf/base/code/browser/dom/dom-point
-  take form dom-point
+load @cluesurf/bind/code/browser/dom/dom-point
+  find dom-point
 
 form dom-point, name <DOMPoint>
   base dom-point-read-only

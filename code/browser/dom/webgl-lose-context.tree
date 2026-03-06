@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form webgl-lose-context, name <WEBGL_lose_context>
   task lose-context, name <loseContext>

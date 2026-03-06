@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/webworker
-  take form g-luint
+load @cluesurf/bind/code/browser/webworker
+  find g-luint
 
-load @cluesurf/base/code/javascript/es5
-  take form uint32-array
+load @cluesurf/bind/code/javascript/es5
+  find uint32-array
 
 form uint32-list, name <Uint32List>
   like or

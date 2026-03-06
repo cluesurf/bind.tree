@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form storage-manager
+load @cluesurf/bind/code/browser/webworker
+  find storage-manager
 
-load @cluesurf/base/code/browser/dom/navigator-storage
-  take form navigator-storage
+load @cluesurf/bind/code/browser/dom/navigator-storage
+  find navigator-storage
 
 form navigator-storage, name <NavigatorStorage>
   link storage, name <storage>

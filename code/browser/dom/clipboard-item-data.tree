@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/dom
-  take form clipboard-item-data-type
+load @cluesurf/bind/code/browser/dom
+  find clipboard-item-data-type
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form clipboard-item-data, name <ClipboardItemData>
   like promise

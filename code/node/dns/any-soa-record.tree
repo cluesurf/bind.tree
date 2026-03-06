@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/dns
-  take form soa-record
+load @cluesurf/bind/code/node/dns
+  find soa-record
 
 form any-soa-record, name <AnySoaRecord>
   base soa-record

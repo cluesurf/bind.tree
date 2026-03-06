@@ -1,6 +1,6 @@
 
-bear @cluesurf/base/code/javascript/node/events/event-emitter-options
-bear @cluesurf/base/code/javascript/node/events/node-event-target
-bear @cluesurf/base/code/javascript/node/events/dom-event-target
-bear @cluesurf/base/code/javascript/node/events/static-event-emitter-options
-bear @cluesurf/base/code/javascript/node/events/event-emitter
+bear @cluesurf/bind/code/javascript/node/events/event-emitter-options
+bear @cluesurf/bind/code/javascript/node/events/node-event-target
+bear @cluesurf/bind/code/javascript/node/events/dom-event-target
+bear @cluesurf/bind/code/javascript/node/events/static-event-emitter-options
+bear @cluesurf/bind/code/javascript/node/events/event-emitter

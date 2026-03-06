@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-point-list
+load @cluesurf/bind/code/browser/dom
+  find svg-point-list
 
 form svg-animated-points, name <SVGAnimatedPoints>
   link animated-points, name <animatedPoints>

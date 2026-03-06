@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form native-this
+load @cluesurf/bind/code/javascript
+  find native-this
 
 form async-hook, name <AsyncHook>
   task enable, name <enable>

@@ -1,17 +1,17 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form push-encryption-key-name
-  take form push-subscription-json
-  take form push-subscription-options
+load @cluesurf/bind/code/browser/dom
+  find push-encryption-key-name
+  find push-subscription-json
+  find push-subscription-options
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find promise
 
 form push-subscription, name <PushSubscription>
   link endpoint, name <endpoint>

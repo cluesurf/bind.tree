@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form audio-node
+load @cluesurf/bind/code/browser/dom
+  find audio-node
 
-load @cluesurf/base/code/javascript/es5
-  take form float32-array
-  take form uint8-array
+load @cluesurf/bind/code/javascript/es5
+  find float32-array
+  find uint8-array
 
 form analyser-node, name <AnalyserNode>
   base audio-node

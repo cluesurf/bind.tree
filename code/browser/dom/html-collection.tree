@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form element
-  take form html-collection-base
+load @cluesurf/bind/code/browser/dom
+  find element
+  find html-collection-base
 
 form html-collection, name <HTMLCollection>
   base html-collection-base

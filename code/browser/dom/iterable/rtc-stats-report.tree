@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form readonly-map
+load @cluesurf/bind/code/javascript/native
+  find readonly-map
 
-load @cluesurf/base/code/browser/dom/rtc-stats-report
-  take form rtc-stats-report
+load @cluesurf/bind/code/browser/dom/rtc-stats-report
+  find rtc-stats-report
 
 form rtc-stats-report, name <RTCStatsReport>
   base readonly-map

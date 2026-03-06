@@ -1,25 +1,25 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form data-view
-  take form float32-array
-  take form float64-array
-  take form int16-array
-  take form int32-array
-  take form int8-array
-  take form uint16-array
-  take form uint32-array
-  take form uint8-array
-  take form uint8-clamped-array
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find data-view
+  find float32-array
+  find float64-array
+  find int16-array
+  find int32-array
+  find int8-array
+  find uint16-array
+  find uint32-array
+  find uint8-array
+  find uint8-clamped-array
 
-load @cluesurf/base/code/browser/dom/aes-ctr-params
-  take form aes-ctr-params
+load @cluesurf/bind/code/browser/dom/aes-ctr-params
+  find aes-ctr-params
 
 form aes-ctr-params, name <AesCtrParams>
   base algorithm

@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form key-object
+load @cluesurf/bind/code/javascript
+  find key-object
 
-load @cluesurf/base/code/node/crypto
-  take form binary-like
+load @cluesurf/bind/code/node/crypto
+  find binary-like
 
 form cipher-key, name <CipherKey>
   like or

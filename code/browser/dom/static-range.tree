@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form abstract-range
+load @cluesurf/bind/code/browser/dom
+  find abstract-range
 
 form static-range, name <StaticRange>
   base abstract-range

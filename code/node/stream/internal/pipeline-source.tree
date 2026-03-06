@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form like
-  take form or
+  find like
+  find or
 
-load @cluesurf/base/code/javascript
-  take form async-iterable
-  take form iterable
-  take form node-js-readable-stream
+load @cluesurf/bind/code/javascript
+  find async-iterable
+  find iterable
+  find node-js-readable-stream
 
-load @cluesurf/base/code/node/stream/internal
-  take form pipeline-source-function
+load @cluesurf/bind/code/node/stream/internal
+  find pipeline-source-function
 
 form pipeline-source, name <PipelineSource>
   head t

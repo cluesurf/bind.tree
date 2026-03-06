@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form buffer-source
-  take form idb-array-key
+load @cluesurf/bind/code/browser/webworker
+  find buffer-source
+  find idb-array-key
 
-load @cluesurf/base/code/javascript/es5
-  take form date
+load @cluesurf/bind/code/javascript/es5
+  find date
 
 form idb-valid-key, name <IDBValidKey>
   like or

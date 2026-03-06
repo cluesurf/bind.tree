@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form resize-observer-box-options
+load @cluesurf/bind/code/browser/dom
+  find resize-observer-box-options
 
 form resize-observer-options, name <ResizeObserverOptions>
   link box, name <box>

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form media-image, name <MediaImage>
   link sizes, name <sizes>

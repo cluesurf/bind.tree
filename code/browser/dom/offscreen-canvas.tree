@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event-target
+load @cluesurf/bind/code/browser/dom
+  find event-target
 
 form offscreen-canvas, name <OffscreenCanvas>
   base event-target

@@ -1,6 +1,6 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
 form entry-type, name <EntryType>
   like or

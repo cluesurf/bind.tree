@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form text
+load @cluesurf/bind/code/browser/dom
+  find text
 
 form cdata-section, name <CDATASection>
   base text

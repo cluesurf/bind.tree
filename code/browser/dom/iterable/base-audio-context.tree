@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form iir-filter-node
-  take form periodic-wave
-  take form periodic-wave-constraints
+load @cluesurf/bind/code/browser/dom
+  find iir-filter-node
+  find periodic-wave
+  find periodic-wave-constraints
 
-load @cluesurf/base/code/browser/dom/base-audio-context
-  take form base-audio-context
+load @cluesurf/bind/code/browser/dom/base-audio-context
+  find base-audio-context
 
 form base-audio-context, name <BaseAudioContext>
   task create-iir-filter, name <createIIRFilter>

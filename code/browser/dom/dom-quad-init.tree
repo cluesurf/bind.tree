@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-point-init
+load @cluesurf/bind/code/browser/dom
+  find dom-point-init
 
 form dom-quad-init, name <DOMQuadInit>
   link p1, name <p1>

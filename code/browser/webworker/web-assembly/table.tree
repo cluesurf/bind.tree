@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/javascript/es5
-  take form function
+load @cluesurf/bind/code/javascript/es5
+  find function
 
-load @cluesurf/base/code/browser/dom/table
-  take form table
+load @cluesurf/bind/code/browser/dom/table
+  find table
 
 form table, name <Table>
   link length, name <length>

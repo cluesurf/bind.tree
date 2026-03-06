@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es2015/generator
-  take form generator
+load @cluesurf/bind/code/javascript/es2015/generator
+  find generator
 
-load @cluesurf/base/code/javascript/es2015/generator/generator-function
-  take form generator-function
+load @cluesurf/bind/code/javascript/es2015/generator/generator-function
+  find generator-function
 
 form generator-function, name <GeneratorFunction>
   link length, name <length>

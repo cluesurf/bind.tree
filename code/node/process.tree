@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form node-js-process
+load @cluesurf/bind/code/javascript
+  find node-js-process
 
 host process, name <process>
   home true

@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-bigint
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-bigint
+  find native-number
 
-load @cluesurf/base/code/javascript/esnext/intl
-  take form number-format-part
+load @cluesurf/bind/code/javascript/esnext/intl
+  find number-format-part
 
-load @cluesurf/base/code/javascript/es2020/bigint/number-format
-  take form number-format
+load @cluesurf/bind/code/javascript/es2020/bigint/number-format
+  find number-format
 
 form number-format, name <NumberFormat>
   task format-to-parts, name <formatToParts>

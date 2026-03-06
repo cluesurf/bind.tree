@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form dom-high-res-time-stamp
-  take form rtc-stats-type
+load @cluesurf/bind/code/browser/dom
+  find dom-high-res-time-stamp
+  find rtc-stats-type
 
 form rtc-stats, name <RTCStats>
   link id, name <id>

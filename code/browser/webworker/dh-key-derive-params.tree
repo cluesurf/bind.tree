@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form crypto-key
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find crypto-key
 
 form dh-key-derive-params, name <DhKeyDeriveParams>
   base algorithm

@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom/iterable
-  take form speech-recognition-result
+load @cluesurf/bind/code/browser/dom/iterable
+  find speech-recognition-result
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/speech-recognition-result-list
-  take form speech-recognition-result-list
+load @cluesurf/bind/code/browser/dom/speech-recognition-result-list
+  find speech-recognition-result-list
 
 form speech-recognition-result-list, name <SpeechRecognitionResultList>
   task {symbol/iterator}

@@ -1,24 +1,24 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form align-setting
-  take form direction-setting
-  take form document-fragment
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form line-align-setting
-  take form line-and-position-setting
-  take form position-align-setting
-  take form text-track-cue
-  take form text-track-cue-event-map
-  take form vtt-region
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find align-setting
+  find direction-setting
+  find document-fragment
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find line-align-setting
+  find line-and-position-setting
+  find position-align-setting
+  find text-track-cue
+  find text-track-cue-event-map
+  find vtt-region
 
 form vtt-cue, name <VTTCue>
   base text-track-cue

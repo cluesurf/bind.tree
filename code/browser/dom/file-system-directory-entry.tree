@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form error-callback
-  take form file-system-directory-reader
-  take form file-system-entry
-  take form file-system-entry-callback
-  take form file-system-flags
+load @cluesurf/bind/code/browser/dom
+  find error-callback
+  find file-system-directory-reader
+  find file-system-entry
+  find file-system-entry-callback
+  find file-system-flags
 
 form file-system-directory-entry, name <FileSystemDirectoryEntry>
   base file-system-entry

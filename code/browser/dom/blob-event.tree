@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form blob
-  take form dom-high-res-time-stamp
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find blob
+  find dom-high-res-time-stamp
+  find event
 
 form blob-event, name <BlobEvent>
   base event

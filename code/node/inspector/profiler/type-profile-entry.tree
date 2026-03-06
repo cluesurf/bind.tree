@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
 
-load @cluesurf/base/code/node/inspector/profiler
-  take form type-object
+load @cluesurf/bind/code/node/inspector/profiler
+  find type-object
 
 form type-profile-entry, name <TypeProfileEntry>
   link offset, name <offset>

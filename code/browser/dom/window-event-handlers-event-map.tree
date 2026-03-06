@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form before-unload-event
-  take form event
-  take form message-event
-  take form page-transition-event
-  take form pop-state-event
-  take form promise-rejection-event
-  take form storage-event
+load @cluesurf/bind/code/browser/dom
+  find before-unload-event
+  find event
+  find message-event
+  find page-transition-event
+  find pop-state-event
+  find promise-rejection-event
+  find storage-event
 
 form window-event-handlers-event-map, name <WindowEventHandlersEventMap>
   link afterprint, name <afterprint>

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form g-lenum
+load @cluesurf/bind/code/browser/webworker
+  find g-lenum
 
-load @cluesurf/base/code/browser/dom/webgl-depth-texture
-  take form webgl-depth-texture
+load @cluesurf/bind/code/browser/dom/webgl-depth-texture
+  find webgl-depth-texture
 
 form webgl-depth-texture, name <WEBGL_depth_texture>
   link unsigned-int-24-8-webgl, name <UNSIGNED_INT_24_8_WEBGL>

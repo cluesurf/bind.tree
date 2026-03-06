@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form speech-recognition-error-code
+load @cluesurf/bind/code/browser/dom
+  find event
+  find speech-recognition-error-code
 
 form speech-recognition-error-event, name <SpeechRecognitionErrorEvent>
   base event

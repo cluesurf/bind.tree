@@ -1,19 +1,19 @@
 
-bear @cluesurf/base/code/javascript/es2018/intl/ldml-plural-rule
-bear @cluesurf/base/code/javascript/es2018/intl/plural-rule-type
-bear @cluesurf/base/code/javascript/es2018/intl/plural-rules-options
-bear @cluesurf/base/code/javascript/es2018/intl/resolved-plural-rules-options
-bear @cluesurf/base/code/javascript/es2018/intl/plural-rules
+bear @cluesurf/bind/code/javascript/es2018/intl/ldml-plural-rule
+bear @cluesurf/bind/code/javascript/es2018/intl/plural-rule-type
+bear @cluesurf/bind/code/javascript/es2018/intl/plural-rules-options
+bear @cluesurf/bind/code/javascript/es2018/intl/resolved-plural-rules-options
+bear @cluesurf/bind/code/javascript/es2018/intl/plural-rules
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2018/intl
-  take form plural-rules
-  take form plural-rules-options
+load @cluesurf/bind/code/javascript/es2018/intl
+  find plural-rules
+  find plural-rules-options
 
 host plural-rules, name <PluralRules>
   like form

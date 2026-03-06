@@ -1,25 +1,25 @@
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form agent
-  take form error
-  take form lookup-function
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form native-void
-  take form socket
+load @cluesurf/bind/code/javascript
+  find agent
+  find error
+  find lookup-function
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-undefined
+  find native-void
+  find socket
 
-load @cluesurf/base/code/node/globals
-  take form abort-signal
+load @cluesurf/bind/code/node/globals
+  find abort-signal
 
-load @cluesurf/base/code/node/http
-  take form outgoing-http-headers
+load @cluesurf/bind/code/node/http
+  find outgoing-http-headers
 
 form client-request-args, name <ClientRequestArgs>
   link signal, name <signal>

@@ -1,19 +1,19 @@
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form async-iterable-iterator
-  take form dirent
-  take form native-null
-  take form native-string
-  take form native-void
-  take form node-js-errno-exception
-  take form promise
+load @cluesurf/bind/code/javascript
+  find async-iterable-iterator
+  find dirent
+  find native-null
+  find native-string
+  find native-void
+  find node-js-errno-exception
+  find promise
 
-load @cluesurf/base/code/node/fs
-  take form no-param-callback
+load @cluesurf/bind/code/node/fs
+  find no-param-callback
 
 form dir, name <Dir>
   link path, name <path>, like native-string

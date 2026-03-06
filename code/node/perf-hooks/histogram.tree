@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript
-  take form map
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find map
+  find native-number
+  find native-void
 
 form histogram, name <Histogram>
   link percentiles, name <percentiles>

@@ -1,59 +1,59 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form aes-cbc-params
-  take form aes-cfb-params
-  take form aes-cmac-params
-  take form aes-ctr-params
-  take form aes-derived-key-params
-  take form aes-gcm-params
-  take form aes-key-algorithm
-  take form aes-key-gen-params
-  take form algorithm-identifier
-  take form concat-params
-  take form crypto-key
-  take form crypto-key-pair
-  take form dh-import-key-params
-  take form dh-key-derive-params
-  take form dh-key-gen-params
-  take form ec-key-gen-params
-  take form ec-key-import-params
-  take form ecdh-key-derive-params
-  take form ecdsa-params
-  take form hkdf-params
-  take form hmac-import-params
-  take form hmac-key-gen-params
-  take form json-web-key
-  take form key-usage
-  take form pbkdf2-params
-  take form rsa-hashed-import-params
-  take form rsa-hashed-key-gen-params
-  take form rsa-oaep-params
-  take form rsa-pss-params
+load @cluesurf/bind/code/browser/webworker
+  find aes-cbc-params
+  find aes-cfb-params
+  find aes-cmac-params
+  find aes-ctr-params
+  find aes-derived-key-params
+  find aes-gcm-params
+  find aes-key-algorithm
+  find aes-key-gen-params
+  find algorithm-identifier
+  find concat-params
+  find crypto-key
+  find crypto-key-pair
+  find dh-import-key-params
+  find dh-key-derive-params
+  find dh-key-gen-params
+  find ec-key-gen-params
+  find ec-key-import-params
+  find ecdh-key-derive-params
+  find ecdsa-params
+  find hkdf-params
+  find hmac-import-params
+  find hmac-key-gen-params
+  find json-web-key
+  find key-usage
+  find pbkdf2-params
+  find rsa-hashed-import-params
+  find rsa-hashed-key-gen-params
+  find rsa-oaep-params
+  find rsa-pss-params
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form data-view
-  take form float32-array
-  take form float64-array
-  take form int16-array
-  take form int32-array
-  take form int8-array
-  take form promise
-  take form uint16-array
-  take form uint32-array
-  take form uint8-array
-  take form uint8-clamped-array
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find data-view
+  find float32-array
+  find float64-array
+  find int16-array
+  find int32-array
+  find int8-array
+  find promise
+  find uint16-array
+  find uint32-array
+  find uint8-array
+  find uint8-clamped-array
 
-load @cluesurf/base/code/browser/dom/iterable/subtle-crypto
-  take form subtle-crypto
+load @cluesurf/bind/code/browser/dom/iterable/subtle-crypto
+  find subtle-crypto
 
 form subtle-crypto, name <SubtleCrypto>
   task decrypt, name <decrypt>

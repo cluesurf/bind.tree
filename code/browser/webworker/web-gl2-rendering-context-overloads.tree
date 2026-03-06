@@ -1,27 +1,27 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form buffer-source
-  take form float32-list
-  take form g-lboolean
-  take form g-lenum
-  take form g-lint
-  take form g-lintptr
-  take form g-lsizei
-  take form g-lsizeiptr
-  take form g-luint
-  take form int32-list
-  take form tex-image-source
-  take form web-gl-uniform-location
+load @cluesurf/bind/code/browser/webworker
+  find buffer-source
+  find float32-list
+  find g-lboolean
+  find g-lenum
+  find g-lint
+  find g-lintptr
+  find g-lsizei
+  find g-lsizeiptr
+  find g-luint
+  find int32-list
+  find tex-image-source
+  find web-gl-uniform-location
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer-view
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer-view
 
-load @cluesurf/base/code/browser/dom/iterable/web-gl2-rendering-context-overloads
-  take form web-gl2-rendering-context-overloads
+load @cluesurf/bind/code/browser/dom/iterable/web-gl2-rendering-context-overloads
+  find web-gl2-rendering-context-overloads
 
 form web-gl2-rendering-context-overloads, name <WebGL2RenderingContextOverloads>
   task buffer-data, name <bufferData>

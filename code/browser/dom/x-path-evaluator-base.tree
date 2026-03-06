@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form node
-  take form x-path-expression
-  take form x-path-ns-resolver
-  take form x-path-result
+load @cluesurf/bind/code/browser/dom
+  find node
+  find x-path-expression
+  find x-path-ns-resolver
+  find x-path-result
 
 form x-path-evaluator-base, name <XPathEvaluatorBase>
   task create-expression, name <createExpression>

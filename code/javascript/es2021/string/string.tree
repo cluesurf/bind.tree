@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2020/symbol/wellknown
-  take form reg-exp
+load @cluesurf/bind/code/javascript/es2020/symbol/wellknown
+  find reg-exp
 
-load @cluesurf/base/code/javascript/es2020/string/string
-  take form string
+load @cluesurf/bind/code/javascript/es2020/string/string
+  find string
 
 form string, name <String>
   task replace-all, name <replaceAll>

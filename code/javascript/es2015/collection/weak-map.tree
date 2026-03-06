@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-object
-  take form native-this
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-object
+  find native-this
+  find native-undefined
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/es2015/collection/weak-map
-  take form weak-map
+load @cluesurf/bind/code/javascript/es2015/collection/weak-map
+  find weak-map
 
 form weak-map, name <WeakMap>
   head k

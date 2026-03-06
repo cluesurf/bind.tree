@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/net
-  take form connect-opts
-  take form lookup-function
+load @cluesurf/bind/code/node/net
+  find connect-opts
+  find lookup-function
 
 form tcp-socket-connect-opts, name <TcpSocketConnectOpts>
   base connect-opts

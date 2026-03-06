@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form runtime-stack-trace-id
+load @cluesurf/bind/code/javascript
+  find runtime-stack-trace-id
 
 form pause-on-async-call-parameter-type, name <PauseOnAsyncCallParameterType>
   link parent-stack-trace-id, name <parentStackTraceId>

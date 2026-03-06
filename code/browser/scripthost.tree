@@ -1,27 +1,27 @@
 
-bear @cluesurf/base/code/javascript/scripthost/active-x-object
-bear @cluesurf/base/code/javascript/scripthost/i-text-writer
-bear @cluesurf/base/code/javascript/scripthost/text-stream-base
-bear @cluesurf/base/code/javascript/scripthost/text-stream-writer
-bear @cluesurf/base/code/javascript/scripthost/text-stream-reader
-bear @cluesurf/base/code/javascript/scripthost/safe-array
-bear @cluesurf/base/code/javascript/scripthost/enumerator
-bear @cluesurf/base/code/javascript/scripthost/vb-array
-bear @cluesurf/base/code/javascript/scripthost/var-date
-bear @cluesurf/base/code/javascript/scripthost/date
+bear @cluesurf/bind/code/javascript/scripthost/active-x-object
+bear @cluesurf/bind/code/javascript/scripthost/i-text-writer
+bear @cluesurf/bind/code/javascript/scripthost/text-stream-base
+bear @cluesurf/bind/code/javascript/scripthost/text-stream-writer
+bear @cluesurf/bind/code/javascript/scripthost/text-stream-reader
+bear @cluesurf/bind/code/javascript/scripthost/safe-array
+bear @cluesurf/bind/code/javascript/scripthost/enumerator
+bear @cluesurf/bind/code/javascript/scripthost/vb-array
+bear @cluesurf/bind/code/javascript/scripthost/var-date
+bear @cluesurf/bind/code/javascript/scripthost/date
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/scripthost
-  take form active-x-object
-  take form enumerator-constructor
-  take form text-stream-reader
-  take form text-stream-writer
-  take form vb-array-constructor
+load @cluesurf/bind/code/browser/scripthost
+  find active-x-object
+  find enumerator-constructor
+  find text-stream-reader
+  find text-stream-writer
+  find vb-array-constructor
 
 host active-x-object, name <ActiveXObject>
   like active-x-object

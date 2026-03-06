@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form text-encoder-common
-  take form text-encoder-encode-into-result
+load @cluesurf/bind/code/browser/webworker
+  find text-encoder-common
+  find text-encoder-encode-into-result
 
-load @cluesurf/base/code/javascript/es5
-  take form uint8-array
+load @cluesurf/bind/code/javascript/es5
+  find uint8-array
 
-load @cluesurf/base/code/browser/dom/text-encoder
-  take form text-encoder
+load @cluesurf/bind/code/browser/dom/text-encoder
+  find text-encoder
 
 form text-encoder, name <TextEncoder>
   base text-encoder-common

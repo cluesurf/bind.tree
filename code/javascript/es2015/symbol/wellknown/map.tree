@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2015/iterable/map
-  take form map
+load @cluesurf/bind/code/javascript/es2015/iterable/map
+  find map
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown
-  take form map-constructor
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
+  find map-constructor
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown/map
-  take form map
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/map
+  find map
 
 form map, name <Map>
   head k

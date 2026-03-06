@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-matrix2-d-init
+load @cluesurf/bind/code/browser/webworker
+  find dom-matrix2-d-init
 
-load @cluesurf/base/code/browser/dom/canvas-pattern
-  take form canvas-pattern
+load @cluesurf/bind/code/browser/dom/canvas-pattern
+  find canvas-pattern
 
 form canvas-pattern, name <CanvasPattern>
   task set-transform, name <setTransform>

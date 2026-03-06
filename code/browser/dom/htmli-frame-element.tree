@@ -1,20 +1,20 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form document
-  take form dom-token-list
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form html-element
-  take form html-element-event-map
-  take form referrer-policy
-  take form window-proxy
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find document
+  find dom-token-list
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find html-element
+  find html-element-event-map
+  find referrer-policy
+  find window-proxy
 
 form htmli-frame-element, name <HTMLIFrameElement>
   base html-element

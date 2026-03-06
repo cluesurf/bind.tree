@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form subtle-crypto
+load @cluesurf/bind/code/browser/dom
+  find subtle-crypto
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer-view
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer-view
 
 form crypto, name <Crypto>
   link subtle, name <subtle>

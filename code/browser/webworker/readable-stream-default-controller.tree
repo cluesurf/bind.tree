@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom/readable-stream-default-controller
-  take form readable-stream-default-controller
+load @cluesurf/bind/code/browser/dom/readable-stream-default-controller
+  find readable-stream-default-controller
 
 form readable-stream-default-controller, name <ReadableStreamDefaultController>
   head r

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/webworker/canvas-path-drawing-styles
-  take form canvas-path-drawing-styles
+load @cluesurf/bind/code/browser/webworker/canvas-path-drawing-styles
+  find canvas-path-drawing-styles
 
 form canvas-path-drawing-styles, name <CanvasPathDrawingStyles>
   task set-line-dash, name <setLineDash>

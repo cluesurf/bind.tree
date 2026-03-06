@@ -1,4 +1,4 @@
 
-bear @cluesurf/base/code/javascript/es2019/array/flat-array
-bear @cluesurf/base/code/javascript/es2019/array/readonly-array
-bear @cluesurf/base/code/javascript/es2019/array/array
+bear @cluesurf/bind/code/javascript/es2019/array/flat-array
+bear @cluesurf/bind/code/javascript/es2019/array/readonly-array
+bear @cluesurf/bind/code/javascript/es2019/array/array

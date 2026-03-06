@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form rtc-data-channel-event
-  take form rtc-peer-connection-ice-event
-  take form rtc-track-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find rtc-data-channel-event
+  find rtc-peer-connection-ice-event
+  find rtc-track-event
 
 form rtc-peer-connection-event-map, name <RTCPeerConnectionEventMap>
   link connectionstatechange, name <connectionstatechange>

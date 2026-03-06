@@ -1,16 +1,16 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form abort-signal
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form node-js-signals
+load @cluesurf/bind/code/javascript
+  find abort-signal
+  find native-number
+  find native-string
+  find native-undefined
+  find node-js-signals
 
-load @cluesurf/base/code/node/child-process
-  take form common-options
+load @cluesurf/bind/code/node/child-process
+  find common-options
 
 form exec-options, name <ExecOptions>
   base common-options

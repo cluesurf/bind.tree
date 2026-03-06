@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event-target
-  take form rtc-ice-gatherer-state
-  take form rtc-ice-transport-state
+load @cluesurf/bind/code/browser/dom
+  find event-target
+  find rtc-ice-gatherer-state
+  find rtc-ice-transport-state
 
 form rtc-ice-transport, name <RTCIceTransport>
   base event-target

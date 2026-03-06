@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form array-buffer
-  take form native-bigint
-  take form node-js-array-buffer-view
-  take form shared-array-buffer
+load @cluesurf/bind/code/javascript
+  find array-buffer
+  find native-bigint
+  find node-js-array-buffer-view
+  find shared-array-buffer
 
 form large-number-like, name <LargeNumberLike>
   like or

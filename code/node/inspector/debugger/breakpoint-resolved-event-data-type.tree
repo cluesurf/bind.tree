@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/node/inspector/debugger
-  take form breakpoint-id
-  take form location
+load @cluesurf/bind/code/node/inspector/debugger
+  find breakpoint-id
+  find location
 
 form breakpoint-resolved-event-data-type, name <BreakpointResolvedEventDataType>
   link breakpoint-id, name <breakpointId>

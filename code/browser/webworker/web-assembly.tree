@@ -1,51 +1,51 @@
 
-bear @cluesurf/base/code/javascript/webworker/web-assembly/global
-bear @cluesurf/base/code/javascript/webworker/web-assembly/instance
-bear @cluesurf/base/code/javascript/webworker/web-assembly/memory
-bear @cluesurf/base/code/javascript/webworker/web-assembly/module
-bear @cluesurf/base/code/javascript/webworker/web-assembly/table
-bear @cluesurf/base/code/javascript/webworker/web-assembly/global-descriptor
-bear @cluesurf/base/code/javascript/webworker/web-assembly/memory-descriptor
-bear @cluesurf/base/code/javascript/webworker/web-assembly/module-export-descriptor
-bear @cluesurf/base/code/javascript/webworker/web-assembly/module-import-descriptor
-bear @cluesurf/base/code/javascript/webworker/web-assembly/table-descriptor
-bear @cluesurf/base/code/javascript/webworker/web-assembly/web-assembly-instantiated-source
-bear @cluesurf/base/code/javascript/webworker/web-assembly/import-export-kind
-bear @cluesurf/base/code/javascript/webworker/web-assembly/table-kind
-bear @cluesurf/base/code/javascript/webworker/web-assembly/value-type
-bear @cluesurf/base/code/javascript/webworker/web-assembly/export-value
-bear @cluesurf/base/code/javascript/webworker/web-assembly/exports
-bear @cluesurf/base/code/javascript/webworker/web-assembly/import-value
-bear @cluesurf/base/code/javascript/webworker/web-assembly/module-imports
-bear @cluesurf/base/code/javascript/webworker/web-assembly/imports
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/global
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/instance
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/memory
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/module
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/table
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/global-descriptor
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/memory-descriptor
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/module-export-descriptor
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/module-import-descriptor
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/table-descriptor
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/web-assembly-instantiated-source
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/import-export-kind
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/table-kind
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/value-type
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/export-value
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/exports
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/import-value
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/module-imports
+bear @cluesurf/bind/code/javascript/webworker/web-assembly/imports
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form buffer-source
-  take form global
-  take form global-descriptor
-  take form imports
-  take form instance
-  take form memory
-  take form memory-descriptor
-  take form module
-  take form module-export-descriptor
-  take form module-import-descriptor
-  take form response
-  take form table
-  take form table-descriptor
-  take form web-assembly-instantiated-source
+load @cluesurf/bind/code/browser/webworker
+  find buffer-source
+  find global
+  find global-descriptor
+  find imports
+  find instance
+  find memory
+  find memory-descriptor
+  find module
+  find module-export-descriptor
+  find module-import-descriptor
+  find response
+  find table
+  find table-descriptor
+  find web-assembly-instantiated-source
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form promise
-  take form promise-like
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find promise
+  find promise-like
 
 host global, name <Global>
   like form

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
-load @cluesurf/base/code/browser/dom/text-decoder-options
-  take form text-decoder-options
+load @cluesurf/bind/code/browser/dom/text-decoder-options
+  find text-decoder-options
 
 form text-decoder-options, name <TextDecoderOptions>
   link fatal, name <fatal>

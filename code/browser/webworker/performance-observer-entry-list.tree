@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form performance-entry-list
+load @cluesurf/bind/code/browser/webworker
+  find performance-entry-list
 
-load @cluesurf/base/code/browser/dom/performance-observer-entry-list
-  take form performance-observer-entry-list
+load @cluesurf/bind/code/browser/dom/performance-observer-entry-list
+  find performance-observer-entry-list
 
 form performance-observer-entry-list, name <PerformanceObserverEntryList>
   task get-entries, name <getEntries>

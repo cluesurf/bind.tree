@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form runtime-call-frame
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find runtime-call-frame
 
 form sampling-heap-profile-node, name <SamplingHeapProfileNode>
   link call-frame, name <callFrame>

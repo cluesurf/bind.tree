@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form interface
+load @cluesurf/bind/code/javascript
+  find interface
 
 form read-line, name <ReadLine>
   like interface

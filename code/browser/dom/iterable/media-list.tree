@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-string
 
-load @cluesurf/base/code/browser/dom/media-list
-  take form media-list
+load @cluesurf/bind/code/browser/dom/media-list
+  find media-list
 
 form media-list, name <MediaList>
   task {symbol/iterator}

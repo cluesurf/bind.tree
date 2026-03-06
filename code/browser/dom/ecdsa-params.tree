@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form algorithm
-  take form hash-algorithm-identifier
+load @cluesurf/bind/code/browser/dom
+  find algorithm
+  find hash-algorithm-identifier
 
 form ecdsa-params, name <EcdsaParams>
   base algorithm

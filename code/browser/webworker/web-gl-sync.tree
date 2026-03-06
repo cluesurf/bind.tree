@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/web-gl-sync
-  take form web-gl-sync
+load @cluesurf/bind/code/browser/dom/web-gl-sync
+  find web-gl-sync
 
 form web-gl-sync, name <WebGLSync>

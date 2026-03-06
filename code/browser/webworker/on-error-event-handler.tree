@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/webworker
-  take form on-error-event-handler-non-null
+load @cluesurf/bind/code/browser/webworker
+  find on-error-event-handler-non-null
 
 form on-error-event-handler, name <OnErrorEventHandler>
   like or

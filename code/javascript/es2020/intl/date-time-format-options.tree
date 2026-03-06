@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es5/date-time-format-options
-  take form date-time-format-options
+load @cluesurf/bind/code/javascript/es5/date-time-format-options
+  find date-time-format-options
 
 form date-time-format-options, name <DateTimeFormatOptions>
   link date-style, name <dateStyle>

@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form color-gamut
-  take form hdr-metadata-type
-  take form transfer-function
+load @cluesurf/bind/code/browser/dom
+  find color-gamut
+  find hdr-metadata-type
+  find transfer-function
 
 form video-configuration, name <VideoConfiguration>
   link bitrate, name <bitrate>

@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form readable-stream-default-read-result
-  take form readable-stream-generic-reader
+load @cluesurf/bind/code/browser/dom
+  find readable-stream-default-read-result
+  find readable-stream-generic-reader
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form readable-stream-default-reader, name <ReadableStreamDefaultReader>
   base readable-stream-generic-reader

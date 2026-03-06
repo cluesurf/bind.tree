@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/idb-request-event-map
-  take form idb-request-event-map
+load @cluesurf/bind/code/browser/dom/idb-request-event-map
+  find idb-request-event-map
 
 form idb-request-event-map, name <IDBRequestEventMap>
   link error, name <error>

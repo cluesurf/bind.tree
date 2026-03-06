@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterator
-  take form iterator-result
+load @cluesurf/bind/code/javascript/native
+  find iterator
+  find iterator-result
 
 form generator, name <Generator>
   base iterator

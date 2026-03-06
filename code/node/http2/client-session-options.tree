@@ -1,16 +1,16 @@
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
-  take form stream-duplex
-  take form url-url
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
+  find stream-duplex
+  find url-url
 
-load @cluesurf/base/code/node/http2
-  take form session-options
+load @cluesurf/bind/code/node/http2
+  find session-options
 
 form client-session-options, name <ClientSessionOptions>
   base session-options

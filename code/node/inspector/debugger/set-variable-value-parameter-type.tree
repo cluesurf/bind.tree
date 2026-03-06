@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form runtime-call-argument
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find runtime-call-argument
 
-load @cluesurf/base/code/node/inspector/debugger
-  take form call-frame-id
+load @cluesurf/bind/code/node/inspector/debugger
+  find call-frame-id
 
 form set-variable-value-parameter-type, name <SetVariableValueParameterType>
   link scope-number, name <scopeNumber>

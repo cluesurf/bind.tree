@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form task
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-this
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-this
+  find native-void
 
-load @cluesurf/base/code/node/http2
-  take form settings
+load @cluesurf/bind/code/node/http2
+  find settings
 
 form http2-server-common, name <HTTP2ServerCommon>
   task set-timeout, name <setTimeout>

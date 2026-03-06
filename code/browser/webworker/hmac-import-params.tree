@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form hash-algorithm-identifier
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find hash-algorithm-identifier
 
-load @cluesurf/base/code/browser/dom/hmac-import-params
-  take form hmac-import-params
+load @cluesurf/bind/code/browser/dom/hmac-import-params
+  find hmac-import-params
 
 form hmac-import-params, name <HmacImportParams>
   base algorithm

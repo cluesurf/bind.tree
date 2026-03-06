@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form worklet
+load @cluesurf/bind/code/browser/dom
+  find worklet
 
 form audio-worklet, name <AudioWorklet>
   base worklet

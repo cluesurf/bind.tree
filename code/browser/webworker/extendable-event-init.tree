@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event-init
+load @cluesurf/bind/code/browser/webworker
+  find event-init
 
 form extendable-event-init, name <ExtendableEventInit>
   base event-init

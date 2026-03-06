@@ -1,24 +1,24 @@
 
-bear @cluesurf/base/code/javascript/es2020/intl/unicode-bcp47-locale-identifier
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format-unit
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format-locale-matcher
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format-numeric
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format-style
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format-options
-bear @cluesurf/base/code/javascript/es2020/intl/resolved-relative-time-format-options
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format-part
-bear @cluesurf/base/code/javascript/es2020/intl/relative-time-format
-bear @cluesurf/base/code/javascript/es2020/intl/number-format-options
-bear @cluesurf/base/code/javascript/es2020/intl/resolved-number-format-options
-bear @cluesurf/base/code/javascript/es2020/intl/date-time-format-options
+bear @cluesurf/bind/code/javascript/es2020/intl/unicode-bcp47-locale-identifier
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-unit
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-locale-matcher
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-numeric
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-style
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-options
+bear @cluesurf/bind/code/javascript/es2020/intl/resolved-relative-time-format-options
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-part
+bear @cluesurf/bind/code/javascript/es2020/intl/relative-time-format
+bear @cluesurf/bind/code/javascript/es2020/intl/number-format-options
+bear @cluesurf/bind/code/javascript/es2020/intl/resolved-number-format-options
+bear @cluesurf/bind/code/javascript/es2020/intl/date-time-format-options
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/es2020/intl
-  take form relative-time-format
-  take form relative-time-format-options
-  take form unicode-bcp47-locale-identifier
+load @cluesurf/bind/code/javascript/es2020/intl
+  find relative-time-format
+  find relative-time-format-options
+  find unicode-bcp47-locale-identifier
 
 host relative-time-format, name <RelativeTimeFormat>
   like form

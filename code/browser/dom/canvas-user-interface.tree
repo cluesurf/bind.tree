@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form element
-  take form path2-d
+load @cluesurf/bind/code/browser/dom
+  find element
+  find path2-d
 
 form canvas-user-interface, name <CanvasUserInterface>
   task draw-focus-if-needed, name <drawFocusIfNeeded>

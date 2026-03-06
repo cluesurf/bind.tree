@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-number
-  take form native-void
-  take form promise
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-number
+  find native-void
+  find promise
 
-load @cluesurf/base/code/node/fs
-  take form path-like
+load @cluesurf/bind/code/node/fs
+  find path-like
 
 task promisify, name <__promisify__>
   like promise

@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/close-event
-  take form close-event
+load @cluesurf/bind/code/browser/dom/close-event
+  find close-event
 
 form close-event, name <CloseEvent>
   base event

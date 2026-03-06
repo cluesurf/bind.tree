@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/service-worker-registration-event-map
-  take form service-worker-registration-event-map
+load @cluesurf/bind/code/browser/dom/service-worker-registration-event-map
+  find service-worker-registration-event-map
 
 form service-worker-registration-event-map, name <ServiceWorkerRegistrationEventMap>
   link updatefound, name <updatefound>

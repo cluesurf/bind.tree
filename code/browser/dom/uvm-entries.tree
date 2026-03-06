@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form uvm-entry
+load @cluesurf/bind/code/browser/dom
+  find uvm-entry
 
 form uvm-entries, name <UvmEntries>
   like array

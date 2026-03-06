@@ -1,48 +1,48 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form animatable
-  take form aria-mixin
-  take form attr
-  take form child-node
-  take form document
-  take form dom-rect
-  take form dom-rect-list
-  take form dom-token-list
-  take form element-event-map
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form fullscreen-options
-  take form html-collection-of
-  take form html-element
-  take form html-element-tag-name-map
-  take form inner-html
-  take form insert-position
-  take form named-node-map
-  take form node
-  take form non-document-type-child-node
-  take form parent-node
-  take form scroll-into-view-options
-  take form scroll-to-options
-  take form shadow-root
-  take form shadow-root-init
-  take form slottable
-  take form svg-element
-  take form svg-element-tag-name-map
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find animatable
+  find aria-mixin
+  find attr
+  find child-node
+  find document
+  find dom-rect
+  find dom-rect-list
+  find dom-token-list
+  find element-event-map
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find fullscreen-options
+  find html-collection-of
+  find html-element
+  find html-element-tag-name-map
+  find inner-html
+  find insert-position
+  find named-node-map
+  find node
+  find non-document-type-child-node
+  find parent-node
+  find scroll-into-view-options
+  find scroll-to-options
+  find shadow-root
+  find shadow-root-init
+  find slottable
+  find svg-element
+  find svg-element-tag-name-map
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form element, name <Element>
   base node

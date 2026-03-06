@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form audio-buffer
+load @cluesurf/bind/code/browser/dom
+  find audio-buffer
 
 form audio-buffer-source-options, name <AudioBufferSourceOptions>
   link buffer, name <buffer>

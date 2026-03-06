@@ -1,11 +1,11 @@
 
-bear @cluesurf/base/code/javascript/es5
-bear @cluesurf/base/code/javascript/es2015/core
-bear @cluesurf/base/code/javascript/es2015/collection
-bear @cluesurf/base/code/javascript/es2015/iterable
-bear @cluesurf/base/code/javascript/es2015/generator
-bear @cluesurf/base/code/javascript/es2015/promise
-bear @cluesurf/base/code/javascript/es2015/proxy
-bear @cluesurf/base/code/javascript/es2015/reflect
-bear @cluesurf/base/code/javascript/es2015/symbol
-bear @cluesurf/base/code/javascript/es2015/symbol/wellknown
+bear @cluesurf/bind/code/javascript/es5
+bear @cluesurf/bind/code/javascript/es2015/core
+bear @cluesurf/bind/code/javascript/es2015/collection
+bear @cluesurf/bind/code/javascript/es2015/iterable
+bear @cluesurf/bind/code/javascript/es2015/generator
+bear @cluesurf/bind/code/javascript/es2015/promise
+bear @cluesurf/bind/code/javascript/es2015/proxy
+bear @cluesurf/bind/code/javascript/es2015/reflect
+bear @cluesurf/bind/code/javascript/es2015/symbol
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown

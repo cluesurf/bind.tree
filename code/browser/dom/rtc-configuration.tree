@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-bundle-policy
-  take form rtc-certificate
-  take form rtc-ice-server
-  take form rtc-ice-transport-policy
-  take form rtc-rtcp-mux-policy
+load @cluesurf/bind/code/browser/dom
+  find rtc-bundle-policy
+  find rtc-certificate
+  find rtc-ice-server
+  find rtc-ice-transport-policy
+  find rtc-rtcp-mux-policy
 
 form rtc-configuration, name <RTCConfiguration>
   link bundle-policy, name <bundlePolicy>

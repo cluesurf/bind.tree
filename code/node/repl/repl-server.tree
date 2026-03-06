@@ -1,32 +1,32 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form context
-  take form error
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-symbol
-  take form native-this
-  take form native-void
-  take form node-js-read-only-dict
-  take form node-js-readable-stream
-  take form node-js-writable-stream
+load @cluesurf/bind/code/javascript
+  find array
+  find context
+  find error
+  find native-boolean
+  find native-null
+  find native-string
+  find native-symbol
+  find native-this
+  find native-void
+  find node-js-read-only-dict
+  find node-js-readable-stream
+  find node-js-writable-stream
 
 load @cluesurf/moon
-  take form any
-  take form or
-  take form task
+  find any
+  find or
+  find task
 
-load @cluesurf/base/code/node/readline
-  take form async-completer
-  take form completer
+load @cluesurf/bind/code/node/readline
+  find async-completer
+  find completer
 
-load @cluesurf/base/code/node/repl
-  take form repl-command
-  take form repl-command-action
-  take form repl-eval
-  take form repl-writer
+load @cluesurf/bind/code/node/repl
+  find repl-command
+  find repl-command-action
+  find repl-eval
+  find repl-writer
 
 form repl-server, name <REPLServer>
   base interface

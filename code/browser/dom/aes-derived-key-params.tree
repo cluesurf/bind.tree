@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form algorithm
+load @cluesurf/bind/code/browser/dom
+  find algorithm
 
 form aes-derived-key-params, name <AesDerivedKeyParams>
   base algorithm

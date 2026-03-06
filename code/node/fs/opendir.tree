@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form dir
-  take form promise
+load @cluesurf/bind/code/javascript
+  find dir
+  find promise
 
-load @cluesurf/base/code/node/fs
-  take form open-dir-options
-  take form path-like
+load @cluesurf/bind/code/node/fs
+  find open-dir-options
+  find path-like
 
 task promisify, name <__promisify__>
   like promise

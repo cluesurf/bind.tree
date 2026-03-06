@@ -1,16 +1,16 @@
 
 load @cluesurf/moon
-  take form or
-  take form unknown
+  find or
+  find unknown
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/perf-hooks
-  take form entry-type
-  take form node-gc-performance-detail
+load @cluesurf/bind/code/node/perf-hooks
+  find entry-type
+  find node-gc-performance-detail
 
 form performance-entry, name <PerformanceEntry>
   link duration, name <duration>, like native-number

@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form idb-request-event-map
-  take form idb-version-change-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find idb-request-event-map
+  find idb-version-change-event
 
 form idb-open-db-request-event-map, name <IDBOpenDBRequestEventMap>
   base idb-request-event-map

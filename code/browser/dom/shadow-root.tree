@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/dom
-  take form document-fragment
-  take form document-or-shadow-root
-  take form element
-  take form inner-html
-  take form shadow-root-mode
+load @cluesurf/bind/code/browser/dom
+  find document-fragment
+  find document-or-shadow-root
+  find element
+  find inner-html
+  find shadow-root-mode
 
 form shadow-root, name <ShadowRoot>
   base document-fragment

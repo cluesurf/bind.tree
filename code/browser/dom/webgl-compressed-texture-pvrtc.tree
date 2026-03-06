@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form webgl-compressed-texture-pvrtc, name <WEBGL_compressed_texture_pvrtc>
   link compressed-rgba-pvrtc-2-bppv1-img, name <COMPRESSED_RGBA_PVRTC_2BPPV1_IMG>

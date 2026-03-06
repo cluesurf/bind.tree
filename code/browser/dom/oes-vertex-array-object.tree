@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form g-lboolean
-  take form g-lenum
-  take form web-gl-vertex-array-object-oes
+load @cluesurf/bind/code/browser/dom
+  find g-lboolean
+  find g-lenum
+  find web-gl-vertex-array-object-oes
 
 form oes-vertex-array-object, name <OES_vertex_array_object>
   link vertex-array-binding-oes, name <VERTEX_ARRAY_BINDING_OES>

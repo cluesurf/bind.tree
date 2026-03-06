@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form css-style-sheet
+load @cluesurf/bind/code/browser/dom
+  find css-style-sheet
 
 form link-style, name <LinkStyle>
   link sheet, name <sheet>

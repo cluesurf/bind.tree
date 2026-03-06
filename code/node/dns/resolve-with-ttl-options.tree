@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/dns
-  take form resolve-options
+load @cluesurf/bind/code/node/dns
+  find resolve-options
 
 form resolve-with-ttl-options, name <ResolveWithTtlOptions>
   base resolve-options

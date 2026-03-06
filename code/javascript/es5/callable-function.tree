@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/es5
-  take form function
-  take form omit-this-parameter
-  take form this-parameter-type
+load @cluesurf/bind/code/javascript/es5
+  find function
+  find omit-this-parameter
+  find this-parameter-type
 
 form callable-function, name <CallableFunction>
   base function

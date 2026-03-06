@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form ext-color-buffer-half-float, name <EXT_color_buffer_half_float>
   link framebuffer-attachment-component-type-ext

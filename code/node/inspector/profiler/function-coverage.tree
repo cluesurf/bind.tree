@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-boolean
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find array
+  find native-boolean
+  find native-string
 
-load @cluesurf/base/code/node/inspector/profiler
-  take form coverage-range
+load @cluesurf/bind/code/node/inspector/profiler
+  find coverage-range
 
 form function-coverage, name <FunctionCoverage>
   link function-name, name <functionName>

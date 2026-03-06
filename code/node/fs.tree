@@ -3,150 +3,150 @@ dock load
   load <node:fs/promises>, name fs-promise
   load <node:fs>, name fs
 
-bear @cluesurf/base/code/javascript/node/fs/path-like
-bear @cluesurf/base/code/javascript/node/fs/path-or-file-descriptor
-bear @cluesurf/base/code/javascript/node/fs/time-like
-bear @cluesurf/base/code/javascript/node/fs/no-param-callback
-bear @cluesurf/base/code/javascript/node/fs/buffer-encoding-option
-bear @cluesurf/base/code/javascript/node/fs/object-encoding-options
-bear @cluesurf/base/code/javascript/node/fs/encoding-option
-bear @cluesurf/base/code/javascript/node/fs/open-mode
-bear @cluesurf/base/code/javascript/node/fs/mode
-bear @cluesurf/base/code/javascript/node/fs/stats-base
-bear @cluesurf/base/code/javascript/node/fs/stats
-bear @cluesurf/base/code/javascript/node/fs/dirent
-bear @cluesurf/base/code/javascript/node/fs/dir
-bear @cluesurf/base/code/javascript/node/fs/stat-watcher
-bear @cluesurf/base/code/javascript/node/fs/fs-watcher
-bear @cluesurf/base/code/javascript/node/fs/read-stream
-bear @cluesurf/base/code/javascript/node/fs/write-stream
-bear @cluesurf/base/code/javascript/node/fs/rename
-bear @cluesurf/base/code/javascript/node/fs/truncate
-bear @cluesurf/base/code/javascript/node/fs/ftruncate
-bear @cluesurf/base/code/javascript/node/fs/chown
-bear @cluesurf/base/code/javascript/node/fs/fchown
-bear @cluesurf/base/code/javascript/node/fs/lchown
-bear @cluesurf/base/code/javascript/node/fs/lutimes
-bear @cluesurf/base/code/javascript/node/fs/chmod
-bear @cluesurf/base/code/javascript/node/fs/fchmod
-bear @cluesurf/base/code/javascript/node/fs/lchmod
-bear @cluesurf/base/code/javascript/node/fs/stat
-bear @cluesurf/base/code/javascript/node/fs/stat-sync-fn
-bear @cluesurf/base/code/javascript/node/fs/fstat
-bear @cluesurf/base/code/javascript/node/fs/lstat
-bear @cluesurf/base/code/javascript/node/fs/link
-bear @cluesurf/base/code/javascript/node/fs/symlink
-bear @cluesurf/base/code/javascript/node/fs/readlink
-bear @cluesurf/base/code/javascript/node/fs/realpath
-bear @cluesurf/base/code/javascript/node/fs/realpath-sync
-bear @cluesurf/base/code/javascript/node/fs/unlink
-bear @cluesurf/base/code/javascript/node/fs/rm-dir-options
-bear @cluesurf/base/code/javascript/node/fs/rmdir
-bear @cluesurf/base/code/javascript/node/fs/rm-options
-bear @cluesurf/base/code/javascript/node/fs/rm
-bear @cluesurf/base/code/javascript/node/fs/make-directory-options
-bear @cluesurf/base/code/javascript/node/fs/mkdir
-bear @cluesurf/base/code/javascript/node/fs/mkdtemp
-bear @cluesurf/base/code/javascript/node/fs/readdir
-bear @cluesurf/base/code/javascript/node/fs/close
-bear @cluesurf/base/code/javascript/node/fs/open
-bear @cluesurf/base/code/javascript/node/fs/utimes
-bear @cluesurf/base/code/javascript/node/fs/futimes
-bear @cluesurf/base/code/javascript/node/fs/fsync
-bear @cluesurf/base/code/javascript/node/fs/write
-bear @cluesurf/base/code/javascript/node/fs/read-position
-bear @cluesurf/base/code/javascript/node/fs/read-sync-options
-bear @cluesurf/base/code/javascript/node/fs/read-async-options
-bear @cluesurf/base/code/javascript/node/fs/read
-bear @cluesurf/base/code/javascript/node/fs/read-file
-bear @cluesurf/base/code/javascript/node/fs/write-file-options
-bear @cluesurf/base/code/javascript/node/fs/write-file
-bear @cluesurf/base/code/javascript/node/fs/append-file
-bear @cluesurf/base/code/javascript/node/fs/watch-file-options
-bear @cluesurf/base/code/javascript/node/fs/watch-options
-bear @cluesurf/base/code/javascript/node/fs/watch-event-type
-bear @cluesurf/base/code/javascript/node/fs/watch-listener
-bear @cluesurf/base/code/javascript/node/fs/exists
-bear @cluesurf/base/code/javascript/node/fs/constants
-bear @cluesurf/base/code/javascript/node/fs/access
-bear @cluesurf/base/code/javascript/node/fs/stream-options
-bear @cluesurf/base/code/javascript/node/fs/read-stream-options
-bear @cluesurf/base/code/javascript/node/fs/fdatasync
-bear @cluesurf/base/code/javascript/node/fs/copy-file
-bear @cluesurf/base/code/javascript/node/fs/write-v-result
-bear @cluesurf/base/code/javascript/node/fs/writev
-bear @cluesurf/base/code/javascript/node/fs/read-v-result
-bear @cluesurf/base/code/javascript/node/fs/readv
-bear @cluesurf/base/code/javascript/node/fs/open-dir-options
-bear @cluesurf/base/code/javascript/node/fs/opendir
-bear @cluesurf/base/code/javascript/node/fs/big-int-stats
-bear @cluesurf/base/code/javascript/node/fs/big-int-options
-bear @cluesurf/base/code/javascript/node/fs/stat-options
-bear @cluesurf/base/code/javascript/node/fs/stat-sync-options
-bear @cluesurf/base/code/javascript/node/fs/copy-options
+bear @cluesurf/bind/code/javascript/node/fs/path-like
+bear @cluesurf/bind/code/javascript/node/fs/path-or-file-descriptor
+bear @cluesurf/bind/code/javascript/node/fs/time-like
+bear @cluesurf/bind/code/javascript/node/fs/no-param-callback
+bear @cluesurf/bind/code/javascript/node/fs/buffer-encoding-option
+bear @cluesurf/bind/code/javascript/node/fs/object-encoding-options
+bear @cluesurf/bind/code/javascript/node/fs/encoding-option
+bear @cluesurf/bind/code/javascript/node/fs/open-mode
+bear @cluesurf/bind/code/javascript/node/fs/mode
+bear @cluesurf/bind/code/javascript/node/fs/stats-base
+bear @cluesurf/bind/code/javascript/node/fs/stats
+bear @cluesurf/bind/code/javascript/node/fs/dirent
+bear @cluesurf/bind/code/javascript/node/fs/dir
+bear @cluesurf/bind/code/javascript/node/fs/stat-watcher
+bear @cluesurf/bind/code/javascript/node/fs/fs-watcher
+bear @cluesurf/bind/code/javascript/node/fs/read-stream
+bear @cluesurf/bind/code/javascript/node/fs/write-stream
+bear @cluesurf/bind/code/javascript/node/fs/rename
+bear @cluesurf/bind/code/javascript/node/fs/truncate
+bear @cluesurf/bind/code/javascript/node/fs/ftruncate
+bear @cluesurf/bind/code/javascript/node/fs/chown
+bear @cluesurf/bind/code/javascript/node/fs/fchown
+bear @cluesurf/bind/code/javascript/node/fs/lchown
+bear @cluesurf/bind/code/javascript/node/fs/lutimes
+bear @cluesurf/bind/code/javascript/node/fs/chmod
+bear @cluesurf/bind/code/javascript/node/fs/fchmod
+bear @cluesurf/bind/code/javascript/node/fs/lchmod
+bear @cluesurf/bind/code/javascript/node/fs/stat
+bear @cluesurf/bind/code/javascript/node/fs/stat-sync-fn
+bear @cluesurf/bind/code/javascript/node/fs/fstat
+bear @cluesurf/bind/code/javascript/node/fs/lstat
+bear @cluesurf/bind/code/javascript/node/fs/link
+bear @cluesurf/bind/code/javascript/node/fs/symlink
+bear @cluesurf/bind/code/javascript/node/fs/readlink
+bear @cluesurf/bind/code/javascript/node/fs/realpath
+bear @cluesurf/bind/code/javascript/node/fs/realpath-sync
+bear @cluesurf/bind/code/javascript/node/fs/unlink
+bear @cluesurf/bind/code/javascript/node/fs/rm-dir-options
+bear @cluesurf/bind/code/javascript/node/fs/rmdir
+bear @cluesurf/bind/code/javascript/node/fs/rm-options
+bear @cluesurf/bind/code/javascript/node/fs/rm
+bear @cluesurf/bind/code/javascript/node/fs/make-directory-options
+bear @cluesurf/bind/code/javascript/node/fs/mkdir
+bear @cluesurf/bind/code/javascript/node/fs/mkdtemp
+bear @cluesurf/bind/code/javascript/node/fs/readdir
+bear @cluesurf/bind/code/javascript/node/fs/close
+bear @cluesurf/bind/code/javascript/node/fs/open
+bear @cluesurf/bind/code/javascript/node/fs/utimes
+bear @cluesurf/bind/code/javascript/node/fs/futimes
+bear @cluesurf/bind/code/javascript/node/fs/fsync
+bear @cluesurf/bind/code/javascript/node/fs/write
+bear @cluesurf/bind/code/javascript/node/fs/read-position
+bear @cluesurf/bind/code/javascript/node/fs/read-sync-options
+bear @cluesurf/bind/code/javascript/node/fs/read-async-options
+bear @cluesurf/bind/code/javascript/node/fs/read
+bear @cluesurf/bind/code/javascript/node/fs/read-file
+bear @cluesurf/bind/code/javascript/node/fs/write-file-options
+bear @cluesurf/bind/code/javascript/node/fs/write-file
+bear @cluesurf/bind/code/javascript/node/fs/append-file
+bear @cluesurf/bind/code/javascript/node/fs/watch-file-options
+bear @cluesurf/bind/code/javascript/node/fs/watch-options
+bear @cluesurf/bind/code/javascript/node/fs/watch-event-type
+bear @cluesurf/bind/code/javascript/node/fs/watch-listener
+bear @cluesurf/bind/code/javascript/node/fs/exists
+bear @cluesurf/bind/code/javascript/node/fs/constants
+bear @cluesurf/bind/code/javascript/node/fs/access
+bear @cluesurf/bind/code/javascript/node/fs/stream-options
+bear @cluesurf/bind/code/javascript/node/fs/read-stream-options
+bear @cluesurf/bind/code/javascript/node/fs/fdatasync
+bear @cluesurf/bind/code/javascript/node/fs/copy-file
+bear @cluesurf/bind/code/javascript/node/fs/write-v-result
+bear @cluesurf/bind/code/javascript/node/fs/writev
+bear @cluesurf/bind/code/javascript/node/fs/read-v-result
+bear @cluesurf/bind/code/javascript/node/fs/readv
+bear @cluesurf/bind/code/javascript/node/fs/open-dir-options
+bear @cluesurf/bind/code/javascript/node/fs/opendir
+bear @cluesurf/bind/code/javascript/node/fs/big-int-stats
+bear @cluesurf/bind/code/javascript/node/fs/big-int-options
+bear @cluesurf/bind/code/javascript/node/fs/stat-options
+bear @cluesurf/bind/code/javascript/node/fs/stat-sync-options
+bear @cluesurf/bind/code/javascript/node/fs/copy-options
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form dir
-  take form dirent
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form native-void
-  take form node-js-array-buffer-view
-  take form node-js-errno-exception
-  take form read-stream
-  take form readonly-array
-  take form symlink-type
-  take form uint8-array
-  take form write-stream
+load @cluesurf/bind/code/javascript
+  find array
+  find dir
+  find dirent
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-undefined
+  find native-void
+  find node-js-array-buffer-view
+  find node-js-errno-exception
+  find read-stream
+  find readonly-array
+  find symlink-type
+  find uint8-array
+  find write-stream
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form like
-  take form or
-  take form task
+  find and
+  find form
+  find like
+  find or
+  find task
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/events/event-emitter
-  take form abortable
+load @cluesurf/bind/code/node/events/event-emitter
+  find abortable
 
-load @cluesurf/base/code/node/fs
-  take form big-int-stats
-  take form buffer-encoding-option
-  take form copy-options
-  take form encoding-option
-  take form fs-watcher
-  take form make-directory-options
-  take form mode
-  take form no-param-callback
-  take form object-encoding-options
-  take form open-dir-options
-  take form open-mode
-  take form path-like
-  take form path-or-file-descriptor
-  take form read-async-options
-  take form read-position
-  take form read-stream-options
-  take form read-sync-options
-  take form rm-dir-options
-  take form rm-options
-  take form stat-options
-  take form stat-sync-fn
-  take form stat-watcher
-  take form stats
-  take form stream-options
-  take form time-like
-  take form watch-file-options
-  take form watch-listener
-  take form watch-options
-  take form write-file-options
+load @cluesurf/bind/code/node/fs
+  find big-int-stats
+  find buffer-encoding-option
+  find copy-options
+  find encoding-option
+  find fs-watcher
+  find make-directory-options
+  find mode
+  find no-param-callback
+  find object-encoding-options
+  find open-dir-options
+  find open-mode
+  find path-like
+  find path-or-file-descriptor
+  find read-async-options
+  find read-position
+  find read-stream-options
+  find read-sync-options
+  find rm-dir-options
+  find rm-options
+  find stat-options
+  find stat-sync-fn
+  find stat-watcher
+  find stats
+  find stream-options
+  find time-like
+  find watch-file-options
+  find watch-listener
+  find watch-options
+  find write-file-options
 
 host stat-sync, name <statSync>
   like stat-sync-fn

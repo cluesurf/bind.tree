@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form node-js-array-buffer-view
-  take form promise
-  take form readonly-array
+load @cluesurf/bind/code/javascript
+  find native-number
+  find node-js-array-buffer-view
+  find promise
+  find readonly-array
 
-load @cluesurf/base/code/node/fs
-  take form read-v-result
+load @cluesurf/bind/code/node/fs
+  find read-v-result
 
 task promisify, name <__promisify__>
   like promise

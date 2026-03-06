@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form font-face
+load @cluesurf/bind/code/browser/dom
+  find event
+  find font-face
 
-load @cluesurf/base/code/javascript/es5
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find readonly-array
 
 form font-face-set-load-event, name <FontFaceSetLoadEvent>
   base event

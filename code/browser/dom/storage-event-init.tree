@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
-  take form storage
+load @cluesurf/bind/code/browser/dom
+  find event-init
+  find storage
 
 form storage-event-init, name <StorageEventInit>
   base event-init

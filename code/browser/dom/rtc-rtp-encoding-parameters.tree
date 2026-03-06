@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-priority-type
-  take form rtc-rtp-coding-parameters
+load @cluesurf/bind/code/browser/dom
+  find rtc-priority-type
+  find rtc-rtp-coding-parameters
 
 form rtc-rtp-encoding-parameters, name <RTCRtpEncodingParameters>
   base rtc-rtp-coding-parameters

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-string-list
+load @cluesurf/bind/code/browser/dom
+  find svg-string-list
 
 form svg-tests, name <SVGTests>
   link required-extensions, name <requiredExtensions>

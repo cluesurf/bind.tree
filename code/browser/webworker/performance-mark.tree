@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form performance-entry
+load @cluesurf/bind/code/browser/webworker
+  find performance-entry
 
-load @cluesurf/base/code/browser/dom/performance-mark
-  take form performance-mark
+load @cluesurf/bind/code/browser/dom/performance-mark
+  find performance-mark
 
 form performance-mark, name <PerformanceMark>
   base performance-entry

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/notification-event-map
-  take form notification-event-map
+load @cluesurf/bind/code/browser/dom/notification-event-map
+  find notification-event-map
 
 form notification-event-map, name <NotificationEventMap>
   link click, name <click>

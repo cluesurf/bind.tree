@@ -1,40 +1,40 @@
 
-bear @cluesurf/base/code/javascript/node/net/lookup-function
-bear @cluesurf/base/code/javascript/node/net/address-info
-bear @cluesurf/base/code/javascript/node/net/socket-constructor-opts
-bear @cluesurf/base/code/javascript/node/net/on-read-opts
-bear @cluesurf/base/code/javascript/node/net/connect-opts
-bear @cluesurf/base/code/javascript/node/net/tcp-socket-connect-opts
-bear @cluesurf/base/code/javascript/node/net/ipc-socket-connect-opts
-bear @cluesurf/base/code/javascript/node/net/socket-connect-opts
-bear @cluesurf/base/code/javascript/node/net/socket
-bear @cluesurf/base/code/javascript/node/net/listen-options
-bear @cluesurf/base/code/javascript/node/net/server-opts
-bear @cluesurf/base/code/javascript/node/net/server
-bear @cluesurf/base/code/javascript/node/net/ip-version
-bear @cluesurf/base/code/javascript/node/net/block-list
-bear @cluesurf/base/code/javascript/node/net/tcp-net-connect-opts
-bear @cluesurf/base/code/javascript/node/net/ipc-net-connect-opts
-bear @cluesurf/base/code/javascript/node/net/net-connect-opts
-bear @cluesurf/base/code/javascript/node/net/socket-address-init-options
-bear @cluesurf/base/code/javascript/node/net/socket-address
+bear @cluesurf/bind/code/javascript/node/net/lookup-function
+bear @cluesurf/bind/code/javascript/node/net/address-info
+bear @cluesurf/bind/code/javascript/node/net/socket-constructor-opts
+bear @cluesurf/bind/code/javascript/node/net/on-read-opts
+bear @cluesurf/bind/code/javascript/node/net/connect-opts
+bear @cluesurf/bind/code/javascript/node/net/tcp-socket-connect-opts
+bear @cluesurf/bind/code/javascript/node/net/ipc-socket-connect-opts
+bear @cluesurf/bind/code/javascript/node/net/socket-connect-opts
+bear @cluesurf/bind/code/javascript/node/net/socket
+bear @cluesurf/bind/code/javascript/node/net/listen-options
+bear @cluesurf/bind/code/javascript/node/net/server-opts
+bear @cluesurf/bind/code/javascript/node/net/server
+bear @cluesurf/bind/code/javascript/node/net/ip-version
+bear @cluesurf/bind/code/javascript/node/net/block-list
+bear @cluesurf/bind/code/javascript/node/net/tcp-net-connect-opts
+bear @cluesurf/bind/code/javascript/node/net/ipc-net-connect-opts
+bear @cluesurf/bind/code/javascript/node/net/net-connect-opts
+bear @cluesurf/bind/code/javascript/node/net/socket-address-init-options
+bear @cluesurf/bind/code/javascript/node/net/socket-address
 
 load @cluesurf/moon
-  take form task
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-number
-  take form native-string
-  take form native-void
-  take form socket
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-number
+  find native-string
+  find native-void
+  find socket
 
-load @cluesurf/base/code/node/https
-  take form server
+load @cluesurf/bind/code/node/https
+  find server
 
-load @cluesurf/base/code/node/net
-  take form net-connect-opts
-  take form server-opts
+load @cluesurf/bind/code/node/net
+  find net-connect-opts
+  find server-opts
 
 task create-server, name <createServer>
   like server

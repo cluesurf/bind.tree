@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form media-devices-event-map, name <MediaDevicesEventMap>
   link devicechange, name <devicechange>

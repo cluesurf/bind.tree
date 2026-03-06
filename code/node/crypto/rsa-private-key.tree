@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form node-js-typed-array
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-undefined
+  find node-js-typed-array
 
-load @cluesurf/base/code/node/crypto
-  take form key-like
+load @cluesurf/bind/code/node/crypto
+  find key-like
 
 form rsa-private-key, name <RsaPrivateKey>
   link key, name <key>

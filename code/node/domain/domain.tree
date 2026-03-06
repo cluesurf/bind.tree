@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form event-emitter
-  take form function
-  take form native-void
-  take form node-js-timer
+load @cluesurf/bind/code/javascript
+  find array
+  find event-emitter
+  find function
+  find native-void
+  find node-js-timer
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form or
-  take form task
+  find any
+  find like
+  find or
+  find task
 
 form domain, name <Domain>
   base event-emitter

@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/es5
-  take form error
-  take form error-constructor
+load @cluesurf/bind/code/javascript/es5
+  find error
+  find error-constructor
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es5/eval-error
-  take form eval-error
+load @cluesurf/bind/code/javascript/es5/eval-error
+  find eval-error
 
 form eval-error, name <EvalError>
   base error

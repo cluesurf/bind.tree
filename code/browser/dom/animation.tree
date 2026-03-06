@@ -1,26 +1,26 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form animation-effect
-  take form animation-event-map
-  take form animation-play-state
-  take form animation-playback-event
-  take form animation-replace-state
-  take form animation-timeline
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find animation-effect
+  find animation-event-map
+  find animation-play-state
+  find animation-playback-event
+  find animation-replace-state
+  find animation-timeline
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form animation, name <Animation>
   base event-target

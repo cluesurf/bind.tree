@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form canvas-gradient
-  take form canvas-image-source
-  take form canvas-pattern
+load @cluesurf/bind/code/browser/webworker
+  find canvas-gradient
+  find canvas-image-source
+  find canvas-pattern
 
-load @cluesurf/base/code/browser/dom/canvas-fill-stroke-styles
-  take form canvas-fill-stroke-styles
+load @cluesurf/bind/code/browser/dom/canvas-fill-stroke-styles
+  find canvas-fill-stroke-styles
 
 form canvas-fill-stroke-styles, name <CanvasFillStrokeStyles>
   link fill-style, name <fillStyle>

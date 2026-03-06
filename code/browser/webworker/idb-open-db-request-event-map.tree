@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
-  take form idb-request-event-map
-  take form idb-version-change-event
+load @cluesurf/bind/code/browser/webworker
+  find event
+  find idb-request-event-map
+  find idb-version-change-event
 
-load @cluesurf/base/code/browser/dom/idb-open-db-request-event-map
-  take form idb-open-db-request-event-map
+load @cluesurf/bind/code/browser/dom/idb-open-db-request-event-map
+  find idb-open-db-request-event-map
 
 form idb-open-db-request-event-map, name <IDBOpenDBRequestEventMap>
   base idb-request-event-map

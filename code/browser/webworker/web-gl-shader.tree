@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/web-gl-shader
-  take form web-gl-shader
+load @cluesurf/bind/code/browser/dom/web-gl-shader
+  find web-gl-shader
 
 form web-gl-shader, name <WebGLShader>

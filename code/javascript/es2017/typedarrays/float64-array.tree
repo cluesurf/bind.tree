@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/es2016/array/include/float64-array
-  take form float64-array
+load @cluesurf/bind/code/javascript/es2016/array/include/float64-array
+  find float64-array
 
 form float64-array
   hook self

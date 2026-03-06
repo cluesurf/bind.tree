@@ -1,20 +1,20 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form media-stream-track
-  take form rtc-dtls-transport
-  take form rtc-rtp-contributing-source
-  take form rtc-rtp-receive-parameters
-  take form rtc-rtp-synchronization-source
-  take form rtc-stats-report
+load @cluesurf/bind/code/browser/dom
+  find media-stream-track
+  find rtc-dtls-transport
+  find rtc-rtp-contributing-source
+  find rtc-rtp-receive-parameters
+  find rtc-rtp-synchronization-source
+  find rtc-stats-report
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form rtc-rtp-receiver, name <RTCRtpReceiver>
   link track, name <track>

@@ -1,19 +1,19 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-boolean
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-boolean
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form media-key-system-access
-  take form media-key-system-configuration
+load @cluesurf/bind/code/browser/dom
+  find media-key-system-access
+  find media-key-system-configuration
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
-load @cluesurf/base/code/browser/dom/navigator
-  take form navigator
+load @cluesurf/bind/code/browser/dom/navigator
+  find navigator
 
 form navigator, name <Navigator>
   task request-media-key-system-access, name <requestMediaKeySystemAccess>

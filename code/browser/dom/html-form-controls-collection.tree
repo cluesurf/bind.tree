@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form element
-  take form html-collection-base
-  take form radio-node-list
+load @cluesurf/bind/code/browser/dom
+  find element
+  find html-collection-base
+  find radio-node-list
 
 form html-form-controls-collection, name <HTMLFormControlsCollection>
   base html-collection-base

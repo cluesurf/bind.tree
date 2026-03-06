@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom/dom-matrix2-d-init
-  take form dom-matrix2-d-init
+load @cluesurf/bind/code/browser/dom/dom-matrix2-d-init
+  find dom-matrix2-d-init
 
 form dom-matrix2-d-init, name <DOMMatrix2DInit>
   link a, name <a>

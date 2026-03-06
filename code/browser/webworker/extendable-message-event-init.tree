@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form client
-  take form extendable-event-init
-  take form message-port
-  take form service-worker
+load @cluesurf/bind/code/browser/webworker
+  find client
+  find extendable-event-init
+  find message-port
+  find service-worker
 
 form extendable-message-event-init, name <ExtendableMessageEventInit>
   base extendable-event-init

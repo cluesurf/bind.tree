@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-string
+  find native-undefined
 
 form symbol, name <Symbol>
   link description, name <description>

@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/void-function
-  take form void-function
+load @cluesurf/bind/code/browser/dom/void-function
+  find void-function
 
 form void-function, name <VoidFunction>

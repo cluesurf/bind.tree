@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form mutation-record-type
-  take form node
-  take form node-list
+load @cluesurf/bind/code/browser/dom
+  find mutation-record-type
+  find node
+  find node-list
 
 form mutation-record, name <MutationRecord>
   link added-nodes, name <addedNodes>

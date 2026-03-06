@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form ext-blend-minmax, name <EXT_blend_minmax>
   link max-ext, name <MAX_EXT>

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-string
 
-load @cluesurf/base/code/browser/webworker/headers
-  take form headers
+load @cluesurf/bind/code/browser/webworker/headers
+  find headers
 
 form headers, name <Headers>
   task {symbol/iterator}

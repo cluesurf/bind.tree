@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form storage-manager
+load @cluesurf/bind/code/browser/dom
+  find storage-manager
 
 form navigator-storage, name <NavigatorStorage>
   link storage, name <storage>

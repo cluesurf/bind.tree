@@ -1,34 +1,34 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form error
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-object
-  take form native-string
-  take form native-symbol
-  take form native-this
-  take form native-undefined
-  take form native-void
-  take form net-socket
-  take form x509-certificate
+load @cluesurf/bind/code/javascript
+  find array
+  find error
+  find native-boolean
+  find native-null
+  find native-number
+  find native-object
+  find native-string
+  find native-symbol
+  find native-this
+  find native-undefined
+  find native-void
+  find net-socket
+  find x509-certificate
 
 load @cluesurf/moon
-  take form any
-  take form form
-  take form or
-  take form task
+  find any
+  find form
+  find or
+  find task
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/tls
-  take form cipher-name-and-protocol
-  take form detailed-peer-certificate
-  take form ephemeral-key-info
-  take form peer-certificate
-  take form tls-socket-options
+load @cluesurf/bind/code/node/tls
+  find cipher-name-and-protocol
+  find detailed-peer-certificate
+  find ephemeral-key-info
+  find peer-certificate
+  find tls-socket-options
 
 form tls-socket, name <TLSSocket>
   base net-socket

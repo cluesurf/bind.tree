@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form html-script-element
-  take form svg-script-element
+load @cluesurf/bind/code/browser/dom
+  find html-script-element
+  find svg-script-element
 
 form html-or-svg-script-element, name <HTMLOrSVGScriptElement>
   like or

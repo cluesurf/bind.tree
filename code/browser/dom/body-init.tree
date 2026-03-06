@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form readable-stream
-  take form xml-http-request-body-init
+load @cluesurf/bind/code/browser/dom
+  find readable-stream
+  find xml-http-request-body-init
 
 form body-init, name <BodyInit>
   like or

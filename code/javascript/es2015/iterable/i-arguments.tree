@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable-iterator
 
-load @cluesurf/base/code/javascript/es5/i-arguments
-  take form i-arguments
+load @cluesurf/bind/code/javascript/es5/i-arguments
+  find i-arguments
 
 form i-arguments, name <IArguments>
   task {symbol/iterator}

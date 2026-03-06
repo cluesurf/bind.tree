@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form crypto-key
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find crypto-key
 
-load @cluesurf/base/code/browser/dom/ecdh-key-derive-params
-  take form ecdh-key-derive-params
+load @cluesurf/bind/code/browser/dom/ecdh-key-derive-params
+  find ecdh-key-derive-params
 
 form ecdh-key-derive-params, name <EcdhKeyDeriveParams>
   base algorithm

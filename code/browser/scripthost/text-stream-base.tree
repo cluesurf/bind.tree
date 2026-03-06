@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
 form text-stream-base, name <TextStreamBase>
   link column, name <Column>

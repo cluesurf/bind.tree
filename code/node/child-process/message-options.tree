@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-undefined
 
 form message-options, name <MessageOptions>
   link keep-open, name <keepOpen>

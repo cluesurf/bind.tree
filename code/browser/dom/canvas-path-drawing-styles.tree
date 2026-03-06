@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form canvas-line-cap
-  take form canvas-line-join
+load @cluesurf/bind/code/browser/dom
+  find canvas-line-cap
+  find canvas-line-join
 
 form canvas-path-drawing-styles, name <CanvasPathDrawingStyles>
   link line-cap, name <lineCap>

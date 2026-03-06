@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/globals
-  take form relative-indexable
+load @cluesurf/bind/code/node/globals
+  find relative-indexable
 
 form int32-array, name <Int32Array>
   base relative-indexable

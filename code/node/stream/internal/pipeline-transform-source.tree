@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form or
+  find any
+  find like
+  find or
 
-load @cluesurf/base/code/node/stream/internal
-  take form pipeline-source
-  take form pipeline-transform
+load @cluesurf/bind/code/node/stream/internal
+  find pipeline-source
+  find pipeline-transform
 
 form pipeline-transform-source, name <PipelineTransformSource>
   head t

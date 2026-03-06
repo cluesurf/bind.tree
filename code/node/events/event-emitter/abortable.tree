@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form abort-signal
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find abort-signal
+  find native-undefined
 
 form abortable, name <Abortable>
   link signal, name <signal>

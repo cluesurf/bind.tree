@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form web-gl-shader
+load @cluesurf/bind/code/browser/webworker
+  find web-gl-shader
 
-load @cluesurf/base/code/browser/dom/webgl-debug-shaders
-  take form webgl-debug-shaders
+load @cluesurf/bind/code/browser/dom/webgl-debug-shaders
+  find webgl-debug-shaders
 
 form webgl-debug-shaders, name <WEBGL_debug_shaders>
   task get-translated-shader-source, name <getTranslatedShaderSource>

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event-init
+load @cluesurf/bind/code/browser/webworker
+  find event-init
 
-load @cluesurf/base/code/browser/dom/custom-event-init
-  take form custom-event-init
+load @cluesurf/bind/code/browser/dom/custom-event-init
+  find custom-event-init
 
 form custom-event-init, name <CustomEventInit>
   base event-init

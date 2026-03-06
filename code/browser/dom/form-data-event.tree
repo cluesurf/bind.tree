@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form form-data
+load @cluesurf/bind/code/browser/dom
+  find event
+  find form-data
 
 form form-data-event, name <FormDataEvent>
   base event

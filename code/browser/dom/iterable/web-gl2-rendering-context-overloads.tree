@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-null
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-null
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form g-lboolean
-  take form g-lfloat
-  take form g-lint
-  take form g-luint
-  take form web-gl-uniform-location
+load @cluesurf/bind/code/browser/dom
+  find g-lboolean
+  find g-lfloat
+  find g-lint
+  find g-luint
+  find web-gl-uniform-location
 
-load @cluesurf/base/code/browser/dom/web-gl2-rendering-context-overloads
-  take form web-gl2-rendering-context-overloads
+load @cluesurf/bind/code/browser/dom/web-gl2-rendering-context-overloads
+  find web-gl2-rendering-context-overloads
 
 form web-gl2-rendering-context-overloads, name <WebGL2RenderingContextOverloads>
   task uniform1fv, name <uniform1fv>

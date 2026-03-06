@@ -1,20 +1,20 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form abort-signal-event-map
-  take form add-event-listener-options
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
+load @cluesurf/bind/code/browser/webworker
+  find abort-signal-event-map
+  find add-event-listener-options
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
 
-load @cluesurf/base/code/browser/dom/abort-signal
-  take form abort-signal
+load @cluesurf/bind/code/browser/dom/abort-signal
+  find abort-signal
 
 form abort-signal, name <AbortSignal>
   base event-target

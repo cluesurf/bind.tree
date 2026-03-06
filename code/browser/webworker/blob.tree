@@ -1,17 +1,17 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form readable-stream
+load @cluesurf/bind/code/browser/webworker
+  find readable-stream
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find promise
 
-load @cluesurf/base/code/browser/dom/blob
-  take form blob
+load @cluesurf/bind/code/browser/dom/blob
+  find blob
 
 form blob, name <Blob>
   link size, name <size>

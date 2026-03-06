@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/node/http2
-  take form server-session-options
+load @cluesurf/bind/code/node/http2
+  find server-session-options
 
-load @cluesurf/base/code/node/http/server-options
-  take form server-options
+load @cluesurf/bind/code/node/http/server-options
+  find server-options
 
 form server-options, name <ServerOptions>
   base server-session-options

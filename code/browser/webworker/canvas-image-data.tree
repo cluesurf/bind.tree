@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form image-data
+load @cluesurf/bind/code/browser/webworker
+  find image-data
 
-load @cluesurf/base/code/browser/dom/canvas-image-data
-  take form canvas-image-data
+load @cluesurf/bind/code/browser/dom/canvas-image-data
+  find canvas-image-data
 
 form canvas-image-data, name <CanvasImageData>
   task create-image-data, name <createImageData>

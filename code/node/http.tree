@@ -1,41 +1,41 @@
 
-bear @cluesurf/base/code/javascript/node/http/incoming-http-headers
-bear @cluesurf/base/code/javascript/node/http/outgoing-http-header
-bear @cluesurf/base/code/javascript/node/http/outgoing-http-headers
-bear @cluesurf/base/code/javascript/node/http/client-request-args
-bear @cluesurf/base/code/javascript/node/http/server-options
-bear @cluesurf/base/code/javascript/node/http/request-listener
-bear @cluesurf/base/code/javascript/node/http/server
-bear @cluesurf/base/code/javascript/node/http/outgoing-message
-bear @cluesurf/base/code/javascript/node/http/server-response
-bear @cluesurf/base/code/javascript/node/http/information-event
-bear @cluesurf/base/code/javascript/node/http/client-request
-bear @cluesurf/base/code/javascript/node/http/incoming-message
-bear @cluesurf/base/code/javascript/node/http/agent-options
-bear @cluesurf/base/code/javascript/node/http/agent
-bear @cluesurf/base/code/javascript/node/http/request-options
+bear @cluesurf/bind/code/javascript/node/http/incoming-http-headers
+bear @cluesurf/bind/code/javascript/node/http/outgoing-http-header
+bear @cluesurf/bind/code/javascript/node/http/outgoing-http-headers
+bear @cluesurf/bind/code/javascript/node/http/client-request-args
+bear @cluesurf/bind/code/javascript/node/http/server-options
+bear @cluesurf/bind/code/javascript/node/http/request-listener
+bear @cluesurf/bind/code/javascript/node/http/server
+bear @cluesurf/bind/code/javascript/node/http/outgoing-message
+bear @cluesurf/bind/code/javascript/node/http/server-response
+bear @cluesurf/bind/code/javascript/node/http/information-event
+bear @cluesurf/bind/code/javascript/node/http/client-request
+bear @cluesurf/bind/code/javascript/node/http/incoming-message
+bear @cluesurf/bind/code/javascript/node/http/agent-options
+bear @cluesurf/bind/code/javascript/node/http/agent
+bear @cluesurf/bind/code/javascript/node/http/request-options
 
-load @cluesurf/base/code/javascript
-  take form agent
-  take form array
-  take form client-request
-  take form incoming-message
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form native-void
-  take form server
-  take form url
+load @cluesurf/bind/code/javascript
+  find agent
+  find array
+  find client-request
+  find incoming-message
+  find native-number
+  find native-string
+  find native-undefined
+  find native-void
+  find server
+  find url
 
 load @cluesurf/moon
-  take form form
-  take form or
-  take form task
+  find form
+  find or
+  find task
 
-load @cluesurf/base/code/node/http
-  take form request-listener
-  take form request-options
-  take form server-options
+load @cluesurf/bind/code/node/http
+  find request-listener
+  find request-options
+  find server-options
 
 host methods, name <METHODS>
   like array

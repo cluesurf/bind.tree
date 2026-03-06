@@ -1,24 +1,24 @@
 
-bear @cluesurf/base/code/javascript/node/dgram/remote-info
-bear @cluesurf/base/code/javascript/node/dgram/bind-options
-bear @cluesurf/base/code/javascript/node/dgram/socket-type
-bear @cluesurf/base/code/javascript/node/dgram/socket-options
-bear @cluesurf/base/code/javascript/node/dgram/socket
+bear @cluesurf/bind/code/javascript/node/dgram/remote-info
+bear @cluesurf/bind/code/javascript/node/dgram/bind-options
+bear @cluesurf/bind/code/javascript/node/dgram/socket-type
+bear @cluesurf/bind/code/javascript/node/dgram/socket-options
+bear @cluesurf/bind/code/javascript/node/dgram/socket
 
 load @cluesurf/moon
-  take form task
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-void
-  take form socket
+load @cluesurf/bind/code/javascript
+  find native-void
+  find socket
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/dgram
-  take form remote-info
-  take form socket-options
-  take form socket-type
+load @cluesurf/bind/code/node/dgram
+  find remote-info
+  find socket-options
+  find socket-type
 
 task create-socket, name <createSocket>
   like socket

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es5
-  take form array
+load @cluesurf/bind/code/javascript/es5
+  find array
 
 form reg-exp-match-array, name <RegExpMatchArray>
   base array

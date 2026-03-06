@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form p
+load @cluesurf/bind/code/javascript/native
+  find p
 
 form parameters, name <Parameters>
   head t

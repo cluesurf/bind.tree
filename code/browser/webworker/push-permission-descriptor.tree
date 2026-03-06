@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
-load @cluesurf/base/code/browser/webworker
-  take form permission-descriptor
+load @cluesurf/bind/code/browser/webworker
+  find permission-descriptor
 
 form push-permission-descriptor, name <PushPermissionDescriptor>
   base permission-descriptor

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form idb-cursor
+load @cluesurf/bind/code/browser/dom
+  find idb-cursor
 
 form idb-cursor-with-value, name <IDBCursorWithValue>
   base idb-cursor

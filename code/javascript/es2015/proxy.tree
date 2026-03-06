@@ -1,9 +1,9 @@
 
-bear @cluesurf/base/code/javascript/es2015/proxy/proxy-handler
-bear @cluesurf/base/code/javascript/es2015/proxy/proxy
+bear @cluesurf/bind/code/javascript/es2015/proxy/proxy-handler
+bear @cluesurf/bind/code/javascript/es2015/proxy/proxy
 
-load @cluesurf/base/code/javascript/es2015/proxy
-  take form proxy-constructor
+load @cluesurf/bind/code/javascript/es2015/proxy
+  find proxy-constructor
 
 host proxy, name <Proxy>
   like proxy-constructor

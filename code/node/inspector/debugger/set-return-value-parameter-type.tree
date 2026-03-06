@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form runtime-call-argument
+load @cluesurf/bind/code/javascript
+  find runtime-call-argument
 
 form set-return-value-parameter-type, name <SetReturnValueParameterType>
   link new-value, name <newValue>

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-sdp-type
+load @cluesurf/bind/code/browser/dom
+  find rtc-sdp-type
 
 form rtc-session-description, name <RTCSessionDescription>
   link sdp, name <sdp>

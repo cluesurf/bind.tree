@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form css-rule
-  take form css-rule-list
+load @cluesurf/bind/code/browser/dom
+  find css-rule
+  find css-rule-list
 
 form css-grouping-rule, name <CSSGroupingRule>
   base css-rule

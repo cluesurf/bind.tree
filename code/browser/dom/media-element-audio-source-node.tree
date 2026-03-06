@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form audio-node
-  take form html-media-element
+load @cluesurf/bind/code/browser/dom
+  find audio-node
+  find html-media-element
 
 form media-element-audio-source-node, name <MediaElementAudioSourceNode>
   base audio-node

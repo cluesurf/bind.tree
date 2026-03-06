@@ -1,35 +1,35 @@
 
-bear @cluesurf/base/code/javascript/node/worker-threads/message-channel
-bear @cluesurf/base/code/javascript/node/worker-threads/worker-performance
-bear @cluesurf/base/code/javascript/node/worker-threads/transfer-list-item
-bear @cluesurf/base/code/javascript/node/worker-threads/message-port
-bear @cluesurf/base/code/javascript/node/worker-threads/worker-options
-bear @cluesurf/base/code/javascript/node/worker-threads/resource-limits
-bear @cluesurf/base/code/javascript/node/worker-threads/worker
-bear @cluesurf/base/code/javascript/node/worker-threads/broadcast-channel
-bear @cluesurf/base/code/javascript/node/worker-threads/serializable
+bear @cluesurf/bind/code/javascript/node/worker-threads/message-channel
+bear @cluesurf/bind/code/javascript/node/worker-threads/worker-performance
+bear @cluesurf/bind/code/javascript/node/worker-threads/transfer-list-item
+bear @cluesurf/bind/code/javascript/node/worker-threads/message-port
+bear @cluesurf/bind/code/javascript/node/worker-threads/worker-options
+bear @cluesurf/bind/code/javascript/node/worker-threads/resource-limits
+bear @cluesurf/bind/code/javascript/node/worker-threads/worker
+bear @cluesurf/bind/code/javascript/node/worker-threads/broadcast-channel
+bear @cluesurf/bind/code/javascript/node/worker-threads/serializable
 
 load @cluesurf/moon
-  take form any
-  take form form
-  take form or
+  find any
+  find form
+  find or
 
-load @cluesurf/base/code/javascript
-  take form message-port
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-object
-  take form native-symbol
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find message-port
+  find native-boolean
+  find native-null
+  find native-number
+  find native-object
+  find native-symbol
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/node/vm
-  take form context
+load @cluesurf/bind/code/node/vm
+  find context
 
-load @cluesurf/base/code/node/worker-threads
-  take form resource-limits
-  take form serializable
+load @cluesurf/bind/code/node/worker-threads
+  find resource-limits
+  find serializable
 
 host is-main-thread, name <isMainThread>
   like native-boolean

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form message-port
+load @cluesurf/bind/code/browser/webworker
+  find message-port
 
-load @cluesurf/base/code/browser/dom/message-channel
-  take form message-channel
+load @cluesurf/bind/code/browser/dom/message-channel
+  find message-channel
 
 form message-channel, name <MessageChannel>
   link port1, name <port1>

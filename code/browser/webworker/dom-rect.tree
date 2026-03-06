@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-rect-read-only
+load @cluesurf/bind/code/browser/webworker
+  find dom-rect-read-only
 
-load @cluesurf/base/code/browser/dom/dom-rect
-  take form dom-rect
+load @cluesurf/bind/code/browser/dom/dom-rect
+  find dom-rect
 
 form dom-rect, name <DOMRect>
   base dom-rect-read-only

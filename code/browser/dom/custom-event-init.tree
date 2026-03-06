@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
+load @cluesurf/bind/code/browser/dom
+  find event-init
 
 form custom-event-init, name <CustomEventInit>
   base event-init

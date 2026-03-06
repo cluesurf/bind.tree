@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/performance-event-map
-  take form performance-event-map
+load @cluesurf/bind/code/browser/dom/performance-event-map
+  find performance-event-map
 
 form performance-event-map, name <PerformanceEventMap>
   link resourcetimingbufferfull, name <resourcetimingbufferfull>

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form performance-entry
+load @cluesurf/bind/code/browser/dom
+  find performance-entry
 
 form performance-measure, name <PerformanceMeasure>
   base performance-entry

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/dom
-  take form html-canvas-element
-  take form html-or-svg-image-element
-  take form html-video-element
-  take form image-bitmap
-  take form offscreen-canvas
+load @cluesurf/bind/code/browser/dom
+  find html-canvas-element
+  find html-or-svg-image-element
+  find html-video-element
+  find image-bitmap
+  find offscreen-canvas
 
 form canvas-image-source, name <CanvasImageSource>
   like or

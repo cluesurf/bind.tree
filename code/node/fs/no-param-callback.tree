@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-void
-  take form node-js-errno-exception
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-void
+  find node-js-errno-exception
 
 form no-param-callback, name <NoParamCallback>
   like task

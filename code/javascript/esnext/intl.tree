@@ -1,4 +1,4 @@
 
-bear @cluesurf/base/code/javascript/esnext/intl/number-format-part-types
-bear @cluesurf/base/code/javascript/esnext/intl/number-format-part
-bear @cluesurf/base/code/javascript/esnext/intl/number-format
+bear @cluesurf/bind/code/javascript/esnext/intl/number-format-part-types
+bear @cluesurf/bind/code/javascript/esnext/intl/number-format-part
+bear @cluesurf/bind/code/javascript/esnext/intl/number-format

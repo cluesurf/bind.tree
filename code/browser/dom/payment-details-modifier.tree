@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form payment-item
+load @cluesurf/bind/code/browser/dom
+  find payment-item
 
 form payment-details-modifier, name <PaymentDetailsModifier>
   link additional-display-items, name <additionalDisplayItems>

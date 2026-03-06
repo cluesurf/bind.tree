@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
-  take form stream-duplex
-  take form url-url
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
+  find stream-duplex
+  find url-url
 
-load @cluesurf/base/code/node/http2
-  take form settings
+load @cluesurf/bind/code/node/http2
+  find settings
 
 form session-options, name <SessionOptions>
   link max-deflate-dynamic-table-size, name <maxDeflateDynamicTableSize>

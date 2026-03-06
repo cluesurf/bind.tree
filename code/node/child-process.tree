@@ -1,95 +1,95 @@
 
-bear @cluesurf/base/code/javascript/node/child-process/serializable
-bear @cluesurf/base/code/javascript/node/child-process/send-handle
-bear @cluesurf/base/code/javascript/node/child-process/child-process
-bear @cluesurf/base/code/javascript/node/child-process/child-process-without-null-streams
-bear @cluesurf/base/code/javascript/node/child-process/child-process-by-stdio
-bear @cluesurf/base/code/javascript/node/child-process/message-options
-bear @cluesurf/base/code/javascript/node/child-process/io-type
-bear @cluesurf/base/code/javascript/node/child-process/stdio-options
-bear @cluesurf/base/code/javascript/node/child-process/serialization-type
-bear @cluesurf/base/code/javascript/node/child-process/messaging-options
-bear @cluesurf/base/code/javascript/node/child-process/process-env-options
-bear @cluesurf/base/code/javascript/node/child-process/common-options
-bear @cluesurf/base/code/javascript/node/child-process/common-spawn-options
-bear @cluesurf/base/code/javascript/node/child-process/spawn-options
-bear @cluesurf/base/code/javascript/node/child-process/spawn-options-without-stdio
-bear @cluesurf/base/code/javascript/node/child-process/stdio-null
-bear @cluesurf/base/code/javascript/node/child-process/stdio-pipe-named
-bear @cluesurf/base/code/javascript/node/child-process/stdio-pipe
-bear @cluesurf/base/code/javascript/node/child-process/spawn-options-with-stdio-tuple
-bear @cluesurf/base/code/javascript/node/child-process/exec-options
-bear @cluesurf/base/code/javascript/node/child-process/exec-options-with-string-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-options-with-buffer-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-exception
-bear @cluesurf/base/code/javascript/node/child-process/promise-with-child
-bear @cluesurf/base/code/javascript/node/child-process/exec
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-options
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-options-with-string-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-options-with-buffer-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-options-with-other-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-exception
-bear @cluesurf/base/code/javascript/node/child-process/exec-file
-bear @cluesurf/base/code/javascript/node/child-process/fork-options
-bear @cluesurf/base/code/javascript/node/child-process/spawn-sync-options
-bear @cluesurf/base/code/javascript/node/child-process/spawn-sync-options-with-string-encoding
-bear @cluesurf/base/code/javascript/node/child-process/spawn-sync-options-with-buffer-encoding
-bear @cluesurf/base/code/javascript/node/child-process/spawn-sync-returns
-bear @cluesurf/base/code/javascript/node/child-process/common-exec-options
-bear @cluesurf/base/code/javascript/node/child-process/exec-sync-options
-bear @cluesurf/base/code/javascript/node/child-process/exec-sync-options-with-string-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-sync-options-with-buffer-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-sync-options
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-sync-options-with-string-encoding
-bear @cluesurf/base/code/javascript/node/child-process/exec-file-sync-options-with-buffer-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/serializable
+bear @cluesurf/bind/code/javascript/node/child-process/send-handle
+bear @cluesurf/bind/code/javascript/node/child-process/child-process
+bear @cluesurf/bind/code/javascript/node/child-process/child-process-without-null-streams
+bear @cluesurf/bind/code/javascript/node/child-process/child-process-by-stdio
+bear @cluesurf/bind/code/javascript/node/child-process/message-options
+bear @cluesurf/bind/code/javascript/node/child-process/io-type
+bear @cluesurf/bind/code/javascript/node/child-process/stdio-options
+bear @cluesurf/bind/code/javascript/node/child-process/serialization-type
+bear @cluesurf/bind/code/javascript/node/child-process/messaging-options
+bear @cluesurf/bind/code/javascript/node/child-process/process-env-options
+bear @cluesurf/bind/code/javascript/node/child-process/common-options
+bear @cluesurf/bind/code/javascript/node/child-process/common-spawn-options
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-options
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-options-without-stdio
+bear @cluesurf/bind/code/javascript/node/child-process/stdio-null
+bear @cluesurf/bind/code/javascript/node/child-process/stdio-pipe-named
+bear @cluesurf/bind/code/javascript/node/child-process/stdio-pipe
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-options-with-stdio-tuple
+bear @cluesurf/bind/code/javascript/node/child-process/exec-options
+bear @cluesurf/bind/code/javascript/node/child-process/exec-options-with-string-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-options-with-buffer-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-exception
+bear @cluesurf/bind/code/javascript/node/child-process/promise-with-child
+bear @cluesurf/bind/code/javascript/node/child-process/exec
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-options
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-options-with-string-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-options-with-buffer-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-options-with-other-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-exception
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file
+bear @cluesurf/bind/code/javascript/node/child-process/fork-options
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-sync-options
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-sync-options-with-string-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-sync-options-with-buffer-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/spawn-sync-returns
+bear @cluesurf/bind/code/javascript/node/child-process/common-exec-options
+bear @cluesurf/bind/code/javascript/node/child-process/exec-sync-options
+bear @cluesurf/bind/code/javascript/node/child-process/exec-sync-options-with-string-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-sync-options-with-buffer-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-sync-options
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-sync-options-with-string-encoding
+bear @cluesurf/bind/code/javascript/node/child-process/exec-file-sync-options-with-buffer-encoding
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form or
-  take form task
+  find and
+  find form
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form child-process
-  take form native-null
-  take form native-string
-  take form native-undefined
-  take form native-void
-  take form object-encoding-options
-  take form readable
-  take form readonly-array
-  take form writable
+load @cluesurf/bind/code/javascript
+  find child-process
+  find native-null
+  find native-string
+  find native-undefined
+  find native-void
+  find object-encoding-options
+  find readable
+  find readonly-array
+  find writable
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/child-process
-  take form child-process-by-stdio
-  take form child-process-without-null-streams
-  take form exec-exception
-  take form exec-file-exception
-  take form exec-file-options
-  take form exec-file-options-with-buffer-encoding
-  take form exec-file-options-with-other-encoding
-  take form exec-file-options-with-string-encoding
-  take form exec-file-sync-options
-  take form exec-file-sync-options-with-buffer-encoding
-  take form exec-file-sync-options-with-string-encoding
-  take form exec-options
-  take form exec-sync-options
-  take form exec-sync-options-with-buffer-encoding
-  take form exec-sync-options-with-string-encoding
-  take form fork-options
-  take form spawn-options
-  take form spawn-options-with-stdio-tuple
-  take form spawn-options-without-stdio
-  take form spawn-sync-options
-  take form spawn-sync-options-with-buffer-encoding
-  take form spawn-sync-options-with-string-encoding
-  take form spawn-sync-returns
-  take form stdio-null
-  take form stdio-pipe
+load @cluesurf/bind/code/node/child-process
+  find child-process-by-stdio
+  find child-process-without-null-streams
+  find exec-exception
+  find exec-file-exception
+  find exec-file-options
+  find exec-file-options-with-buffer-encoding
+  find exec-file-options-with-other-encoding
+  find exec-file-options-with-string-encoding
+  find exec-file-sync-options
+  find exec-file-sync-options-with-buffer-encoding
+  find exec-file-sync-options-with-string-encoding
+  find exec-options
+  find exec-sync-options
+  find exec-sync-options-with-buffer-encoding
+  find exec-sync-options-with-string-encoding
+  find fork-options
+  find spawn-options
+  find spawn-options-with-stdio-tuple
+  find spawn-options-without-stdio
+  find spawn-sync-options
+  find spawn-sync-options-with-buffer-encoding
+  find spawn-sync-options-with-string-encoding
+  find spawn-sync-returns
+  find stdio-null
+  find stdio-pipe
 
 task spawn, name <spawn>
   like child-process-without-null-streams

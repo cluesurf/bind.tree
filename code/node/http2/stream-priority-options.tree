@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-number
+  find native-undefined
 
 form stream-priority-options, name <StreamPriorityOptions>
   link exclusive, name <exclusive>

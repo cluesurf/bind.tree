@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form client-types
-  take form frame-type
-  take form transferable
+load @cluesurf/bind/code/browser/webworker
+  find client-types
+  find frame-type
+  find transferable
 
 form client, name <Client>
   link frame-type, name <frameType>

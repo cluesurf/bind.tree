@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form media-stream
+load @cluesurf/bind/code/browser/dom
+  find media-stream
 
 form media-stream-audio-source-options, name <MediaStreamAudioSourceOptions>
   link media-stream, name <mediaStream>

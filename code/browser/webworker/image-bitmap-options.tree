@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form color-space-conversion
-  take form image-orientation
-  take form premultiply-alpha
-  take form resize-quality
+load @cluesurf/bind/code/browser/webworker
+  find color-space-conversion
+  find image-orientation
+  find premultiply-alpha
+  find resize-quality
 
-load @cluesurf/base/code/browser/dom/image-bitmap-options
-  take form image-bitmap-options
+load @cluesurf/bind/code/browser/dom/image-bitmap-options
+  find image-bitmap-options
 
 form image-bitmap-options, name <ImageBitmapOptions>
   link color-space-conversion, name <colorSpaceConversion>

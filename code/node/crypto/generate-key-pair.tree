@@ -1,32 +1,32 @@
 
 load @cluesurf/moon
-  take form form
+  find form
 
-load @cluesurf/base/code/javascript
-  take form native-string
-  take form promise
+load @cluesurf/bind/code/javascript
+  find native-string
+  find promise
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/crypto
-  take form dsa-key-pair-key-object-options
-  take form dsa-key-pair-options
-  take form ec-key-pair-key-object-options
-  take form ec-key-pair-options
-  take form ed25519-key-pair-key-object-options
-  take form ed25519-key-pair-options
-  take form ed448-key-pair-key-object-options
-  take form ed448-key-pair-options
-  take form key-pair-key-object-result
-  take form rsa-key-pair-key-object-options
-  take form rsa-key-pair-options
-  take form rsapss-key-pair-key-object-options
-  take form rsapss-key-pair-options
-  take form x25519-key-pair-key-object-options
-  take form x25519-key-pair-options
-  take form x448-key-pair-key-object-options
-  take form x448-key-pair-options
+load @cluesurf/bind/code/node/crypto
+  find dsa-key-pair-key-object-options
+  find dsa-key-pair-options
+  find ec-key-pair-key-object-options
+  find ec-key-pair-options
+  find ed25519-key-pair-key-object-options
+  find ed25519-key-pair-options
+  find ed448-key-pair-key-object-options
+  find ed448-key-pair-options
+  find key-pair-key-object-result
+  find rsa-key-pair-key-object-options
+  find rsa-key-pair-options
+  find rsapss-key-pair-key-object-options
+  find rsapss-key-pair-options
+  find x25519-key-pair-key-object-options
+  find x25519-key-pair-options
+  find x448-key-pair-key-object-options
+  find x448-key-pair-options
 
 task promisify, name <__promisify__>
   like promise

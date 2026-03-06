@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
 
-load @cluesurf/base/code/node/net
-  take form ipc-socket-connect-opts
-  take form socket-constructor-opts
+load @cluesurf/bind/code/node/net
+  find ipc-socket-connect-opts
+  find socket-constructor-opts
 
 form ipc-net-connect-opts, name <IpcNetConnectOpts>
   base ipc-socket-connect-opts

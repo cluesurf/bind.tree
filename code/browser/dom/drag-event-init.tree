@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form data-transfer
-  take form mouse-event-init
+load @cluesurf/bind/code/browser/dom
+  find data-transfer
+  find mouse-event-init
 
 form drag-event-init, name <DragEventInit>
   base mouse-event-init

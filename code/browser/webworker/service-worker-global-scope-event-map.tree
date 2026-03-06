@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form extendable-event
-  take form extendable-message-event
-  take form fetch-event
-  take form message-event
-  take form notification-event
-  take form push-event
-  take form sync-event
-  take form worker-global-scope-event-map
+load @cluesurf/bind/code/browser/webworker
+  find extendable-event
+  find extendable-message-event
+  find fetch-event
+  find message-event
+  find notification-event
+  find push-event
+  find sync-event
+  find worker-global-scope-event-map
 
 form service-worker-global-scope-event-map, name <ServiceWorkerGlobalScopeEventMap>
   base worker-global-scope-event-map

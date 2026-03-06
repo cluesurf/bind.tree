@@ -1,15 +1,15 @@
 
-bear @cluesurf/base/code/javascript/es2020/bigint/big-int-to-locale-string-options
-bear @cluesurf/base/code/javascript/es2020/bigint/big-int
-bear @cluesurf/base/code/javascript/es2020/bigint/big-int64-array
-bear @cluesurf/base/code/javascript/es2020/bigint/big-uint64-array
-bear @cluesurf/base/code/javascript/es2020/bigint/data-view
-bear @cluesurf/base/code/javascript/es2020/bigint/intl
+bear @cluesurf/bind/code/javascript/es2020/bigint/big-int-to-locale-string-options
+bear @cluesurf/bind/code/javascript/es2020/bigint/big-int
+bear @cluesurf/bind/code/javascript/es2020/bigint/big-int64-array
+bear @cluesurf/bind/code/javascript/es2020/bigint/big-uint64-array
+bear @cluesurf/bind/code/javascript/es2020/bigint/data-view
+bear @cluesurf/bind/code/javascript/es2020/bigint/intl
 
-load @cluesurf/base/code/javascript/es2020/bigint
-  take form big-int-constructor
-  take form big-int64-array-constructor
-  take form big-uint64-array-constructor
+load @cluesurf/bind/code/javascript/es2020/bigint
+  find big-int-constructor
+  find big-int64-array-constructor
+  find big-uint64-array-constructor
 
 host big-int, name <BigInt>
   like big-int-constructor

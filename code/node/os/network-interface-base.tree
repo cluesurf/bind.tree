@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-null
+  find native-string
 
 form network-interface-base, name <NetworkInterfaceBase>
   link address, name <address>

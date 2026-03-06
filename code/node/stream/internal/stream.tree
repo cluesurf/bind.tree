@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/stream/internal
-  take form readable-options
+load @cluesurf/bind/code/node/stream/internal
+  find readable-options
 
 form stream, name <Stream>
   base internal

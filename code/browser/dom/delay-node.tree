@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form audio-node
-  take form audio-param
+load @cluesurf/bind/code/browser/dom
+  find audio-node
+  find audio-param
 
 form delay-node, name <DelayNode>
   base audio-node

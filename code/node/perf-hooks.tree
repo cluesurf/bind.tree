@@ -1,30 +1,30 @@
 
-bear @cluesurf/base/code/javascript/node/perf-hooks/entry-type
-bear @cluesurf/base/code/javascript/node/perf-hooks/node-gc-performance-detail
-bear @cluesurf/base/code/javascript/node/perf-hooks/performance-entry
-bear @cluesurf/base/code/javascript/node/perf-hooks/performance-node-timing
-bear @cluesurf/base/code/javascript/node/perf-hooks/event-loop-utilization
-bear @cluesurf/base/code/javascript/node/perf-hooks/event-loop-utility-function
-bear @cluesurf/base/code/javascript/node/perf-hooks/mark-options
-bear @cluesurf/base/code/javascript/node/perf-hooks/measure-options
-bear @cluesurf/base/code/javascript/node/perf-hooks/timerify-options
-bear @cluesurf/base/code/javascript/node/perf-hooks/performance
-bear @cluesurf/base/code/javascript/node/perf-hooks/performance-observer-entry-list
-bear @cluesurf/base/code/javascript/node/perf-hooks/performance-observer-callback
-bear @cluesurf/base/code/javascript/node/perf-hooks/performance-observer
-bear @cluesurf/base/code/javascript/node/perf-hooks/constants
-bear @cluesurf/base/code/javascript/node/perf-hooks/event-loop-monitor-options
-bear @cluesurf/base/code/javascript/node/perf-hooks/histogram
-bear @cluesurf/base/code/javascript/node/perf-hooks/interval-histogram
-bear @cluesurf/base/code/javascript/node/perf-hooks/recordable-histogram
-bear @cluesurf/base/code/javascript/node/perf-hooks/create-histogram-options
+bear @cluesurf/bind/code/javascript/node/perf-hooks/entry-type
+bear @cluesurf/bind/code/javascript/node/perf-hooks/node-gc-performance-detail
+bear @cluesurf/bind/code/javascript/node/perf-hooks/performance-entry
+bear @cluesurf/bind/code/javascript/node/perf-hooks/performance-node-timing
+bear @cluesurf/bind/code/javascript/node/perf-hooks/event-loop-utilization
+bear @cluesurf/bind/code/javascript/node/perf-hooks/event-loop-utility-function
+bear @cluesurf/bind/code/javascript/node/perf-hooks/mark-options
+bear @cluesurf/bind/code/javascript/node/perf-hooks/measure-options
+bear @cluesurf/bind/code/javascript/node/perf-hooks/timerify-options
+bear @cluesurf/bind/code/javascript/node/perf-hooks/performance
+bear @cluesurf/bind/code/javascript/node/perf-hooks/performance-observer-entry-list
+bear @cluesurf/bind/code/javascript/node/perf-hooks/performance-observer-callback
+bear @cluesurf/bind/code/javascript/node/perf-hooks/performance-observer
+bear @cluesurf/bind/code/javascript/node/perf-hooks/constants
+bear @cluesurf/bind/code/javascript/node/perf-hooks/event-loop-monitor-options
+bear @cluesurf/bind/code/javascript/node/perf-hooks/histogram
+bear @cluesurf/bind/code/javascript/node/perf-hooks/interval-histogram
+bear @cluesurf/bind/code/javascript/node/perf-hooks/recordable-histogram
+bear @cluesurf/bind/code/javascript/node/perf-hooks/create-histogram-options
 
-load @cluesurf/base/code/node/perf-hooks
-  take form create-histogram-options
-  take form event-loop-monitor-options
-  take form interval-histogram
-  take form performance
-  take form recordable-histogram
+load @cluesurf/bind/code/node/perf-hooks
+  find create-histogram-options
+  find event-loop-monitor-options
+  find interval-histogram
+  find performance
+  find recordable-histogram
 
 host performance, name <performance>
   like performance

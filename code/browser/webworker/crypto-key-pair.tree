@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form crypto-key
+load @cluesurf/bind/code/browser/webworker
+  find crypto-key
 
-load @cluesurf/base/code/browser/dom/crypto-key-pair
-  take form crypto-key-pair
+load @cluesurf/bind/code/browser/dom/crypto-key-pair
+  find crypto-key-pair
 
 form crypto-key-pair, name <CryptoKeyPair>
   link private-key, name <privateKey>

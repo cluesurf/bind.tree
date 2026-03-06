@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
 
-load @cluesurf/base/code/browser/dom/memory
-  take form memory
+load @cluesurf/bind/code/browser/dom/memory
+  find memory
 
 form memory, name <Memory>
   link buffer, name <buffer>

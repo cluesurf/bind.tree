@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form blob
+load @cluesurf/bind/code/browser/dom
+  find blob
 
 form clipboard-item-data-type, name <ClipboardItemDataType>
   like or

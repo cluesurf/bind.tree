@@ -1,4 +1,4 @@
 
-bear @cluesurf/base/code/javascript/es2018/asynciterable
-bear @cluesurf/base/code/javascript/es2018/asyncgenerator/async-generator
-bear @cluesurf/base/code/javascript/es2018/asyncgenerator/async-generator-function
+bear @cluesurf/bind/code/javascript/es2018/asynciterable
+bear @cluesurf/bind/code/javascript/es2018/asyncgenerator/async-generator
+bear @cluesurf/bind/code/javascript/es2018/asyncgenerator/async-generator-function

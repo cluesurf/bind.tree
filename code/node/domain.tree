@@ -1,8 +1,8 @@
 
-bear @cluesurf/base/code/javascript/node/domain/domain
+bear @cluesurf/bind/code/javascript/node/domain/domain
 
-load @cluesurf/base/code/javascript
-  take form domain
+load @cluesurf/bind/code/javascript
+  find domain
 
 task create, name <create>
   like domain

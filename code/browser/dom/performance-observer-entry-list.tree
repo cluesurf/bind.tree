@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form performance-entry-list
+load @cluesurf/bind/code/browser/dom
+  find performance-entry-list
 
 form performance-observer-entry-list, name <PerformanceObserverEntryList>
   task get-entries, name <getEntries>

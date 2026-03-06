@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2017/intl
-  take form date-time-format-part-types
+load @cluesurf/bind/code/javascript/es2017/intl
+  find date-time-format-part-types
 
 form date-time-format-part, name <DateTimeFormatPart>
   link type, name <type>

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-string
 
-load @cluesurf/base/code/browser/webworker/dom-string-list
-  take form dom-string-list
+load @cluesurf/bind/code/browser/webworker/dom-string-list
+  find dom-string-list
 
 form dom-string-list, name <DOMStringList>
   task {symbol/iterator}

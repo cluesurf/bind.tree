@@ -1,8 +1,8 @@
 
 load @cluesurf/moon
-  take form form
-  take form like
-  take form or
+  find form
+  find like
+  find or
 
 form with-implicit-coercion, name <WithImplicitCoercion>
   home true

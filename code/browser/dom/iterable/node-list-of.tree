@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form node
+load @cluesurf/bind/code/browser/dom
+  find node
 
-load @cluesurf/base/code/browser/dom/node-list-of
-  take form node-list-of
+load @cluesurf/bind/code/browser/dom/node-list-of
+  find node-list-of
 
 form node-list-of, name <NodeListOf>
   head t-node

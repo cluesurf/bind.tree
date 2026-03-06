@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form html-slot-element
+load @cluesurf/bind/code/browser/dom
+  find html-slot-element
 
 form slottable, name <Slottable>
   link assigned-slot, name <assignedSlot>

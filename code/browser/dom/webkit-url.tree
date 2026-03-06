@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form url
+load @cluesurf/bind/code/browser/dom
+  find url
 
 form webkit-url, name <webkitURL>
   like url

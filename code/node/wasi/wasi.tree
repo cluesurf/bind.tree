@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form any
+  find any
 
-load @cluesurf/base/code/javascript
-  take form native-object
-  take form native-void
-  take form node-js-dict
+load @cluesurf/bind/code/javascript
+  find native-object
+  find native-void
+  find node-js-dict
 
-load @cluesurf/base/code/node/wasi
-  take form wasi-options
+load @cluesurf/bind/code/node/wasi
+  find wasi-options
 
 form wasi, name <WASI>
   link wasi-import, name <wasiImport>

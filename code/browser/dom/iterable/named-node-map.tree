@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form attr
+load @cluesurf/bind/code/browser/dom
+  find attr
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/named-node-map
-  take form named-node-map
+load @cluesurf/bind/code/browser/dom/named-node-map
+  find named-node-map
 
 form named-node-map, name <NamedNodeMap>
   task {symbol/iterator}

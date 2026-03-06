@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-undefined
 
-load @cluesurf/base/code/node/events/event-emitter
-  take form abortable
+load @cluesurf/bind/code/node/events/event-emitter
+  find abortable
 
 form finished-options, name <FinishedOptions>
   base abortable

@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
-load @cluesurf/base/code/browser/dom/writable-stream-default-writer
-  take form writable-stream-default-writer
+load @cluesurf/bind/code/browser/dom/writable-stream-default-writer
+  find writable-stream-default-writer
 
 form writable-stream-default-writer, name <WritableStreamDefaultWriter>
   head w

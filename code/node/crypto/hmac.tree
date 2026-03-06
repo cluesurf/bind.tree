@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form hmac
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find hmac
+  find native-string
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/crypto
-  take form binary-like
-  take form binary-to-text-encoding
-  take form encoding
+load @cluesurf/bind/code/node/crypto
+  find binary-like
+  find binary-to-text-encoding
+  find encoding
 
 form hmac, name <Hmac>
   base stream-transform

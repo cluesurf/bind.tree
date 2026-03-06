@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form audio-node
-  take form audio-param
-  take form distance-model-type
-  take form panning-model-type
+load @cluesurf/bind/code/browser/dom
+  find audio-node
+  find audio-param
+  find distance-model-type
+  find panning-model-type
 
 form panner-node, name <PannerNode>
   base audio-node

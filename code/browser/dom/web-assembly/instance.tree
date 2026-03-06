@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form exports
+load @cluesurf/bind/code/browser/dom
+  find exports
 
 form instance, name <Instance>
   link exports, name <exports>

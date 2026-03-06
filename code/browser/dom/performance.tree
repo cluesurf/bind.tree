@@ -1,26 +1,26 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form dom-high-res-time-stamp
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form performance-entry-list
-  take form performance-event-map
-  take form performance-mark
-  take form performance-mark-options
-  take form performance-measure
-  take form performance-measure-options
-  take form performance-navigation
-  take form performance-timing
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find dom-high-res-time-stamp
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find performance-entry-list
+  find performance-event-map
+  find performance-mark
+  find performance-mark-options
+  find performance-measure
+  find performance-measure-options
+  find performance-navigation
+  find performance-timing
 
 form performance, name <Performance>
   base event-target

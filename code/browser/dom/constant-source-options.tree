@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form constant-source-options, name <ConstantSourceOptions>
   link offset, name <offset>

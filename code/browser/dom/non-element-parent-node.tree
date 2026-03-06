@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form element
+load @cluesurf/bind/code/browser/dom
+  find element
 
 form non-element-parent-node, name <NonElementParentNode>
   task get-element-by-id, name <getElementById>

@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
-  take form unknown
+  find or
+  find unknown
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
 
 form mark-options, name <MarkOptions>
   link detail, name <detail>

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form node
-  take form node-filter
+load @cluesurf/bind/code/browser/dom
+  find node
+  find node-filter
 
 form tree-walker, name <TreeWalker>
   link current-node, name <currentNode>

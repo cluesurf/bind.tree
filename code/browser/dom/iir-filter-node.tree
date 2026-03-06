@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form audio-node
+load @cluesurf/bind/code/browser/dom
+  find audio-node
 
-load @cluesurf/base/code/javascript/es5
-  take form float32-array
+load @cluesurf/bind/code/javascript/es5
+  find float32-array
 
 form iir-filter-node, name <IIRFilterNode>
   base audio-node

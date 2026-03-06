@@ -1,17 +1,17 @@
 
-bear @cluesurf/base/code/javascript/node/fs/symlink/type
+bear @cluesurf/bind/code/javascript/node/fs/symlink/type
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-string
-  take form native-void
-  take form promise
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-string
+  find native-void
+  find promise
 
-load @cluesurf/base/code/node/fs
-  take form path-like
+load @cluesurf/bind/code/node/fs
+  find path-like
 
 task promisify, name <__promisify__>
   like promise

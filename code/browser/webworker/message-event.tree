@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form event
-  take form message-event-source
-  take form message-port
+load @cluesurf/bind/code/browser/webworker
+  find event
+  find message-event-source
+  find message-port
 
-load @cluesurf/base/code/javascript/es5
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find readonly-array
 
-load @cluesurf/base/code/browser/dom/iterable/message-event
-  take form message-event
+load @cluesurf/bind/code/browser/dom/iterable/message-event
+  find message-event
 
 form message-event, name <MessageEvent>
   base event

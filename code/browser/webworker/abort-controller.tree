@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form abort-signal
+load @cluesurf/bind/code/browser/webworker
+  find abort-signal
 
-load @cluesurf/base/code/browser/dom/abort-controller
-  take form abort-controller
+load @cluesurf/bind/code/browser/dom/abort-controller
+  find abort-controller
 
 form abort-controller, name <AbortController>
   link signal, name <signal>

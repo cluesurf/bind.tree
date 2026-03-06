@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/dns
-  take form lookup-options
+load @cluesurf/bind/code/node/dns
+  find lookup-options
 
 form lookup-all-options, name <LookupAllOptions>
   base lookup-options

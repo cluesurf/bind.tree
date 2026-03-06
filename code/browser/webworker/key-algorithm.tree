@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom/key-algorithm
-  take form key-algorithm
+load @cluesurf/bind/code/browser/dom/key-algorithm
+  find key-algorithm
 
 form key-algorithm, name <KeyAlgorithm>
   link name, name <name>

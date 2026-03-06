@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form device-motion-event-acceleration-init
-  take form device-motion-event-rotation-rate-init
-  take form event-init
+load @cluesurf/bind/code/browser/dom
+  find device-motion-event-acceleration-init
+  find device-motion-event-rotation-rate-init
+  find event-init
 
 form device-motion-event-init, name <DeviceMotionEventInit>
   base event-init

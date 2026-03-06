@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form table-kind
+load @cluesurf/bind/code/browser/dom
+  find table-kind
 
 form table-descriptor, name <TableDescriptor>
   link element, name <element>

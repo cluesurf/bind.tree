@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form css-grouping-rule
+load @cluesurf/bind/code/browser/dom
+  find css-grouping-rule
 
 form css-condition-rule, name <CSSConditionRule>
   base css-grouping-rule

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form ext-texture-compression-rgtc, name <EXT_texture_compression_rgtc>
   link compressed-red-green-rgtc2-ext, name <COMPRESSED_RED_GREEN_RGTC2_EXT>

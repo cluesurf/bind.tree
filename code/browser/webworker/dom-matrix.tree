@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-matrix-init
-  take form dom-matrix-read-only
+load @cluesurf/bind/code/browser/webworker
+  find dom-matrix-init
+  find dom-matrix-read-only
 
-load @cluesurf/base/code/browser/dom/dom-matrix
-  take form dom-matrix
+load @cluesurf/bind/code/browser/dom/dom-matrix
+  find dom-matrix
 
 form dom-matrix, name <DOMMatrix>
   base dom-matrix-read-only

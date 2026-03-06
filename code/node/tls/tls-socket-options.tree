@@ -1,18 +1,18 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-undefined
-  take form net-server
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-undefined
+  find net-server
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/tls
-  take form common-connection-options
-  take form secure-context-options
+load @cluesurf/bind/code/node/tls
+  find common-connection-options
+  find secure-context-options
 
 form tls-socket-options, name <TLSSocketOptions>
   base secure-context-options

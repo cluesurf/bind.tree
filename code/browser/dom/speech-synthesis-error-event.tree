@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form speech-synthesis-error-code
-  take form speech-synthesis-event
+load @cluesurf/bind/code/browser/dom
+  find speech-synthesis-error-code
+  find speech-synthesis-event
 
 form speech-synthesis-error-event, name <SpeechSynthesisErrorEvent>
   base speech-synthesis-event

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form oes-standard-derivatives, name <OES_standard_derivatives>
   link fragment-shader-derivative-hint-oes, name <FRAGMENT_SHADER_DERIVATIVE_HINT_OES>

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form character-data
-  take form document
-  take form link-style
+load @cluesurf/bind/code/browser/dom
+  find character-data
+  find document
+  find link-style
 
 form processing-instruction, name <ProcessingInstruction>
   base character-data

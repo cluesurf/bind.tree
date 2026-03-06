@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
-  take form media-key-message-type
+load @cluesurf/bind/code/browser/dom
+  find event-init
+  find media-key-message-type
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
 
 form media-key-message-event-init, name <MediaKeyMessageEventInit>
   base event-init

@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-rect
+load @cluesurf/bind/code/browser/dom
+  find dom-rect
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/dom-rect-list
-  take form dom-rect-list
+load @cluesurf/bind/code/browser/dom/dom-rect-list
+  find dom-rect-list
 
 form dom-rect-list, name <DOMRectList>
   task {symbol/iterator}

@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
 
-load @cluesurf/base/code/browser/webworker
-  take form underlying-source-cancel-callback
-  take form underlying-source-pull-callback
-  take form underlying-source-start-callback
+load @cluesurf/bind/code/browser/webworker
+  find underlying-source-cancel-callback
+  find underlying-source-pull-callback
+  find underlying-source-start-callback
 
-load @cluesurf/base/code/browser/dom/underlying-source
-  take form underlying-source
+load @cluesurf/bind/code/browser/dom/underlying-source
+  find underlying-source
 
 form underlying-source, name <UnderlyingSource>
   head r

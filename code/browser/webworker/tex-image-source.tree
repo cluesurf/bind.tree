@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form image-bitmap
-  take form image-data
-  take form offscreen-canvas
+load @cluesurf/bind/code/browser/webworker
+  find image-bitmap
+  find image-data
+  find offscreen-canvas
 
 form tex-image-source, name <TexImageSource>
   like or

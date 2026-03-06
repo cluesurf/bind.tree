@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/frame-request-callback
-  take form frame-request-callback
+load @cluesurf/bind/code/browser/dom/frame-request-callback
+  find frame-request-callback
 
 form frame-request-callback, name <FrameRequestCallback>

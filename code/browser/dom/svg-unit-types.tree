@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form svg-unit-types, name <SVGUnitTypes>
   link svg-unit-type-objectboundingbox, name <SVG_UNIT_TYPE_OBJECTBOUNDINGBOX>

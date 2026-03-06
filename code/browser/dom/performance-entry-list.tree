@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form performance-entry
+load @cluesurf/bind/code/browser/dom
+  find performance-entry
 
 form performance-entry-list, name <PerformanceEntryList>
   like array

@@ -1,10 +1,10 @@
 
-bear @cluesurf/base/code/javascript/esnext/weakref/weak-ref
-bear @cluesurf/base/code/javascript/esnext/weakref/finalization-registry
+bear @cluesurf/bind/code/javascript/esnext/weakref/weak-ref
+bear @cluesurf/bind/code/javascript/esnext/weakref/finalization-registry
 
-load @cluesurf/base/code/javascript/esnext/weakref
-  take form finalization-registry-constructor
-  take form weak-ref-constructor
+load @cluesurf/bind/code/javascript/esnext/weakref
+  find finalization-registry-constructor
+  find weak-ref-constructor
 
 host weak-ref, name <WeakRef>
   like weak-ref-constructor

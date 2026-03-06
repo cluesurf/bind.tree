@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown
-  take form date
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
+  find date
 
-load @cluesurf/base/code/javascript/es2017/intl
-  take form date-time-format-part
+load @cluesurf/bind/code/javascript/es2017/intl
+  find date-time-format-part
 
-load @cluesurf/base/code/javascript/es5/date-time-format
-  take form date-time-format
+load @cluesurf/bind/code/javascript/es5/date-time-format
+  find date-time-format
 
 form date-time-format, name <DateTimeFormat>
   task format-to-parts, name <formatToParts>

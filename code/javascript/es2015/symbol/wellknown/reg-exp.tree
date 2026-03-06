@@ -1,23 +1,23 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es5
-  take form reg-exp-match-array
+load @cluesurf/bind/code/javascript/es5
+  find reg-exp-match-array
 
-load @cluesurf/base/code/javascript/es2015/core/reg-exp
-  take form reg-exp
+load @cluesurf/bind/code/javascript/es2015/core/reg-exp
+  find reg-exp
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown
-  take form reg-exp-constructor
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
+  find reg-exp-constructor
 
-load @cluesurf/base/code/javascript/es2015/symbol/wellknown/reg-exp
-  take form reg-exp
+load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/reg-exp
+  find reg-exp
 
 form reg-exp, name <RegExp>
   task {symbol/match}

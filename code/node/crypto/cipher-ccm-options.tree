@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find native-number
 
 form cipher-ccm-options, name <CipherCCMOptions>
   base stream-transform-options

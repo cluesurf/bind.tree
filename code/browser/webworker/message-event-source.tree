@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form message-port
-  take form service-worker
+load @cluesurf/bind/code/browser/webworker
+  find message-port
+  find service-worker
 
 form message-event-source, name <MessageEventSource>
   like or

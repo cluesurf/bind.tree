@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-number
+  find native-undefined
 
-load @cluesurf/base/code/node/fs
-  take form read-position
+load @cluesurf/bind/code/node/fs
+  find read-position
 
 form read-sync-options, name <ReadSyncOptions>
   link offset, name <offset>

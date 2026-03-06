@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-point-init
+load @cluesurf/bind/code/browser/webworker
+  find dom-point-init
 
-load @cluesurf/base/code/browser/dom/dom-quad-init
-  take form dom-quad-init
+load @cluesurf/bind/code/browser/dom/dom-quad-init
+  find dom-quad-init
 
 form dom-quad-init, name <DOMQuadInit>
   link p1, name <p1>

@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
+  find native-void
 
 form svg-length, name <SVGLength>
   link unit-type, name <unitType>

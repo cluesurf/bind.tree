@@ -1,20 +1,20 @@
 
 load @cluesurf/moon
-  take form any
-  take form or
+  find any
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/vm
-  take form context
-  take form running-script-options
-  take form script-options
+load @cluesurf/bind/code/node/vm
+  find context
+  find running-script-options
+  find script-options
 
 form script, name <Script>
   link cached-data-produced, name <cachedDataProduced>

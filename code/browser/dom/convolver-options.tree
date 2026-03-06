@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form audio-buffer
-  take form audio-node-options
+load @cluesurf/bind/code/browser/dom
+  find audio-buffer
+  find audio-node-options
 
 form convolver-options, name <ConvolverOptions>
   base audio-node-options

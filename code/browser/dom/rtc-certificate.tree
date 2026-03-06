@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form dom-time-stamp
-  take form rtc-dtls-fingerprint
+load @cluesurf/bind/code/browser/dom
+  find dom-time-stamp
+  find rtc-dtls-fingerprint
 
 form rtc-certificate, name <RTCCertificate>
   link expires, name <expires>

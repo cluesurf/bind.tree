@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
-  take form media-stream
-  take form media-stream-track
-  take form rtc-rtp-receiver
-  take form rtc-rtp-transceiver
+load @cluesurf/bind/code/browser/dom
+  find event-init
+  find media-stream
+  find media-stream-track
+  find rtc-rtp-receiver
+  find rtc-rtp-transceiver
 
 form rtc-track-event-init, name <RTCTrackEventInit>
   base event-init

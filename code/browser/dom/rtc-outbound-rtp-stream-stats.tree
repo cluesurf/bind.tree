@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-sent-rtp-stream-stats
+load @cluesurf/bind/code/browser/dom
+  find rtc-sent-rtp-stream-stats
 
 form rtc-outbound-rtp-stream-stats, name <RTCOutboundRtpStreamStats>
   base rtc-sent-rtp-stream-stats

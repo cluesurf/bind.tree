@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-undefined
 
-load @cluesurf/base/code/browser/dom/plugin
-  take form plugin
+load @cluesurf/bind/code/browser/dom/plugin
+  find plugin
 
 form plugin, name <Plugin>
   task {symbol/iterator}

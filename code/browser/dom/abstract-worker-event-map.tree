@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form error-event
+load @cluesurf/bind/code/browser/dom
+  find error-event
 
 form abstract-worker-event-map, name <AbstractWorkerEventMap>
   link error, name <error>

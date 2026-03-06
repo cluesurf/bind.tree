@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer-types
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer-types
 
 form array-buffer-like, name <ArrayBufferLike>
   like index

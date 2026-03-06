@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form document
-  take form document-type
-  take form xml-document
+load @cluesurf/bind/code/browser/dom
+  find document
+  find document-type
+  find xml-document
 
 form dom-implementation, name <DOMImplementation>
   task create-document, name <createDocument>

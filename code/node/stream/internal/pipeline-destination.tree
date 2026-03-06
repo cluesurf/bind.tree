@@ -1,19 +1,19 @@
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form never
-  take form or
-  take form test
+  find any
+  find like
+  find never
+  find or
+  find test
 
-load @cluesurf/base/code/javascript
-  take form node-js-writable-stream
-  take form st
+load @cluesurf/bind/code/javascript
+  find node-js-writable-stream
+  find st
 
-load @cluesurf/base/code/node/stream/internal
-  take form pipeline-destination-iterable-function
-  take form pipeline-destination-promise-function
-  take form pipeline-transform-source
+load @cluesurf/bind/code/node/stream/internal
+  find pipeline-destination-iterable-function
+  find pipeline-destination-promise-function
+  find pipeline-transform-source
 
 form pipeline-destination, name <PipelineDestination>
   head s

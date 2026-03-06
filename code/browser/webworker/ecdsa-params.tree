@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form hash-algorithm-identifier
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find hash-algorithm-identifier
 
-load @cluesurf/base/code/browser/dom/ecdsa-params
-  take form ecdsa-params
+load @cluesurf/bind/code/browser/dom/ecdsa-params
+  find ecdsa-params
 
 form ecdsa-params, name <EcdsaParams>
   base algorithm

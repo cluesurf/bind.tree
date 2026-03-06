@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find native-void
 
 form zlib-reset, name <ZlibReset>
   task reset, name <reset>

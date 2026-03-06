@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/underlying-sink-abort-callback
-  take form underlying-sink-abort-callback
+load @cluesurf/bind/code/browser/dom/underlying-sink-abort-callback
+  find underlying-sink-abort-callback
 
 form underlying-sink-abort-callback, name <UnderlyingSinkAbortCallback>

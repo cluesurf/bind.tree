@@ -1,9 +1,9 @@
 
 load @cluesurf/moon
-  take form like
+  find like
 
-load @cluesurf/base/code/node/globals
-  take form relative-indexable
+load @cluesurf/bind/code/node/globals
+  find relative-indexable
 
 form array, name <Array>
   base relative-indexable

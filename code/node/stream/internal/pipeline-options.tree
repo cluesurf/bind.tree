@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/globals
-  take form abort-signal
+load @cluesurf/bind/code/node/globals
+  find abort-signal
 
 form pipeline-options, name <PipelineOptions>
   link signal, name <signal>

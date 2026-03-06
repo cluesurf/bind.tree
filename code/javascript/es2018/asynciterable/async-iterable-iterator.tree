@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/es2018/asynciterable
-  take form async-iterator
+load @cluesurf/bind/code/javascript/es2018/asynciterable
+  find async-iterator
 
 form async-iterable-iterator, name <AsyncIterableIterator>
   base async-iterator

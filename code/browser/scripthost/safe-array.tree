@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/native
-  take form safe-array
-  take form t
+load @cluesurf/bind/code/javascript/native
+  find safe-array
+  find t
 
 form safe-array, name <SafeArray>
   link safe-array-typekey, name <SafeArray_typekey>

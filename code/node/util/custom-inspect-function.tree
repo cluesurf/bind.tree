@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form task
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/node/util
-  take form inspect-options-stylized
+load @cluesurf/bind/code/node/util
+  find inspect-options-stylized
 
 form custom-inspect-function, name <CustomInspectFunction>
   like task

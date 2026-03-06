@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form window
+load @cluesurf/bind/code/browser/dom
+  find window
 
 form window-proxy, name <WindowProxy>
   like window

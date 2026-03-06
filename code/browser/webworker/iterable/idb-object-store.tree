@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form idb-index
-  take form idb-index-parameters
+load @cluesurf/bind/code/browser/webworker
+  find idb-index
+  find idb-index-parameters
 
-load @cluesurf/base/code/browser/webworker/idb-object-store
-  take form idb-object-store
+load @cluesurf/bind/code/browser/webworker/idb-object-store
+  find idb-object-store
 
 form idb-object-store, name <IDBObjectStore>
   task create-index, name <createIndex>

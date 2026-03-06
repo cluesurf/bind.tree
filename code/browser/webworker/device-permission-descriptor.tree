@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form permission-descriptor
+load @cluesurf/bind/code/browser/webworker
+  find permission-descriptor
 
 form device-permission-descriptor, name <DevicePermissionDescriptor>
   base permission-descriptor

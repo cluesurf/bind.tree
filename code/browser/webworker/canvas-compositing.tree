@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom/canvas-compositing
-  take form canvas-compositing
+load @cluesurf/bind/code/browser/dom/canvas-compositing
+  find canvas-compositing
 
 form canvas-compositing, name <CanvasCompositing>
   link global-alpha, name <globalAlpha>

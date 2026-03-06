@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form css-rule
-  take form css-style-sheet
-  take form media-list
+load @cluesurf/bind/code/browser/dom
+  find css-rule
+  find css-style-sheet
+  find media-list
 
 form css-import-rule, name <CSSImportRule>
   base css-rule

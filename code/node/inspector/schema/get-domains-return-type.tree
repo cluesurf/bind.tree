@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/node/inspector/schema
-  take form domain
+load @cluesurf/bind/code/node/inspector/schema
+  find domain
 
 form get-domains-return-type, name <GetDomainsReturnType>
   link domains, name <domains>

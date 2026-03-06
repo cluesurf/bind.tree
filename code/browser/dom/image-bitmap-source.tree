@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form blob
-  take form canvas-image-source
-  take form image-data
+load @cluesurf/bind/code/browser/dom
+  find blob
+  find canvas-image-source
+  find image-data
 
 form image-bitmap-source, name <ImageBitmapSource>
   like or

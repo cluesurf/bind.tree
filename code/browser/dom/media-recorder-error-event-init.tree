@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-exception
-  take form event-init
+load @cluesurf/bind/code/browser/dom
+  find dom-exception
+  find event-init
 
 form media-recorder-error-event-init, name <MediaRecorderErrorEventInit>
   base event-init

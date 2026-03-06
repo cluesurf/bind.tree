@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form execution-context-id
+load @cluesurf/bind/code/node/inspector/runtime
+  find execution-context-id
 
 form execution-context-destroyed-event-data-type, name <ExecutionContextDestroyedEventDataType>
   link execution-context-id, name <executionContextId>

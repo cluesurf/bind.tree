@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form font-face-set
+load @cluesurf/bind/code/browser/dom
+  find font-face-set
 
 form font-face-source, name <FontFaceSource>
   link fonts, name <fonts>

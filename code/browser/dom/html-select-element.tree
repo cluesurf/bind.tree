@@ -1,26 +1,26 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form element
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form html-collection-of
-  take form html-element
-  take form html-element-event-map
-  take form html-form-element
-  take form html-label-element
-  take form html-opt-group-element
-  take form html-option-element
-  take form html-options-collection
-  take form node-list-of
-  take form validity-state
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find element
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find html-collection-of
+  find html-element
+  find html-element-event-map
+  find html-form-element
+  find html-label-element
+  find html-opt-group-element
+  find html-option-element
+  find html-options-collection
+  find node-list-of
+  find validity-state
 
 form html-select-element, name <HTMLSelectElement>
   base html-element

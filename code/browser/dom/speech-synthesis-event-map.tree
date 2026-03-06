@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form speech-synthesis-event-map, name <SpeechSynthesisEventMap>
   link voiceschanged, name <voiceschanged>

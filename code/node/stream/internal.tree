@@ -1,61 +1,61 @@
 
-bear @cluesurf/base/code/javascript/node/stream/internal/stream
-bear @cluesurf/base/code/javascript/node/stream/internal/stream-options
-bear @cluesurf/base/code/javascript/node/stream/internal/readable-options
-bear @cluesurf/base/code/javascript/node/stream/internal/readable
-bear @cluesurf/base/code/javascript/node/stream/internal/writable-options
-bear @cluesurf/base/code/javascript/node/stream/internal/writable
-bear @cluesurf/base/code/javascript/node/stream/internal/duplex-options
-bear @cluesurf/base/code/javascript/node/stream/internal/duplex
-bear @cluesurf/base/code/javascript/node/stream/internal/transform-callback
-bear @cluesurf/base/code/javascript/node/stream/internal/transform-options
-bear @cluesurf/base/code/javascript/node/stream/internal/transform
-bear @cluesurf/base/code/javascript/node/stream/internal/pass-through
-bear @cluesurf/base/code/javascript/node/stream/internal/finished-options
-bear @cluesurf/base/code/javascript/node/stream/internal/finished
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-source-function
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-source
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-transform
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-transform-source
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-destination-iterable-function
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-destination-promise-function
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-destination
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-callback
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-promise
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline-options
-bear @cluesurf/base/code/javascript/node/stream/internal/pipeline
-bear @cluesurf/base/code/javascript/node/stream/internal/pipe
+bear @cluesurf/bind/code/javascript/node/stream/internal/stream
+bear @cluesurf/bind/code/javascript/node/stream/internal/stream-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/readable-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/readable
+bear @cluesurf/bind/code/javascript/node/stream/internal/writable-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/writable
+bear @cluesurf/bind/code/javascript/node/stream/internal/duplex-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/duplex
+bear @cluesurf/bind/code/javascript/node/stream/internal/transform-callback
+bear @cluesurf/bind/code/javascript/node/stream/internal/transform-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/transform
+bear @cluesurf/bind/code/javascript/node/stream/internal/pass-through
+bear @cluesurf/bind/code/javascript/node/stream/internal/finished-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/finished
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-source-function
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-source
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-transform
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-transform-source
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-destination-iterable-function
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-destination-promise-function
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-destination
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-callback
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-promise
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-options
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline
+bear @cluesurf/bind/code/javascript/node/stream/internal/pipe
 
 load @cluesurf/moon
-  take form any
-  take form form
-  take form like
-  take form or
-  take form task
-  take form test
+  find any
+  find form
+  find like
+  find or
+  find task
+  find test
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-null
-  take form native-undefined
-  take form native-void
-  take form node-js-errno-exception
-  take form node-js-read-write-stream
-  take form node-js-readable-stream
-  take form node-js-writable-stream
-  take form readonly-array
-  take form stream
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-null
+  find native-undefined
+  find native-void
+  find node-js-errno-exception
+  find node-js-read-write-stream
+  find node-js-readable-stream
+  find node-js-writable-stream
+  find readonly-array
+  find stream
 
-load @cluesurf/base/code/node/globals
-  take form abort-signal
-  take form array
+load @cluesurf/bind/code/node/globals
+  find abort-signal
+  find array
 
-load @cluesurf/base/code/node/stream/internal
-  take form finished-options
-  take form pipeline-callback
-  take form pipeline-destination
-  take form pipeline-source
-  take form pipeline-transform
+load @cluesurf/bind/code/node/stream/internal
+  find finished-options
+  find pipeline-callback
+  find pipeline-destination
+  find pipeline-source
+  find pipeline-transform
 
 form internal, name <internal>
   base event-emitter

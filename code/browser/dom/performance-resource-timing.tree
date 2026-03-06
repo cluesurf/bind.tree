@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form dom-high-res-time-stamp
-  take form performance-entry
-  take form performance-server-timing
+load @cluesurf/bind/code/browser/dom
+  find dom-high-res-time-stamp
+  find performance-entry
+  find performance-server-timing
 
-load @cluesurf/base/code/javascript/es5
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find readonly-array
 
 form performance-resource-timing, name <PerformanceResourceTiming>
   base performance-entry

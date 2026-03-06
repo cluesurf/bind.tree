@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form task
+  find task
 
-load @cluesurf/base/code/javascript
-  take form incoming-message
-  take form native-void
-  take form server-response
+load @cluesurf/bind/code/javascript
+  find incoming-message
+  find native-void
+  find server-response
 
 form request-listener, name <RequestListener>
   like task

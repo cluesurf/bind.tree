@@ -1,17 +1,17 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form execution-context-id
-  take form remote-object
-  take form script-id
-  take form stack-trace
+load @cluesurf/bind/code/node/inspector/runtime
+  find execution-context-id
+  find remote-object
+  find script-id
+  find stack-trace
 
 form exception-details, name <ExceptionDetails>
   link exception-id, name <exceptionId>

@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-animated-length
-  take form svg-animated-string
+load @cluesurf/bind/code/browser/dom
+  find svg-animated-length
+  find svg-animated-string
 
 form svg-filter-primitive-standard-attributes, name <SVGFilterPrimitiveStandardAttributes>
   link height, name <height>

@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form http1-incoming-http-headers
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find http1-incoming-http-headers
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/http/incoming-http-headers
-  take form incoming-http-headers
+load @cluesurf/bind/code/node/http/incoming-http-headers
+  find incoming-http-headers
 
 form incoming-http-headers, name <IncomingHttpHeaders>
   base http1-incoming-http-headers

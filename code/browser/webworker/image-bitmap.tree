@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom/image-bitmap
-  take form image-bitmap
+load @cluesurf/bind/code/browser/dom/image-bitmap
+  find image-bitmap
 
 form image-bitmap, name <ImageBitmap>
   link height, name <height>

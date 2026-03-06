@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/es2017/sharedmemory
-  take form shared-array-buffer
+load @cluesurf/bind/code/javascript/es2017/sharedmemory
+  find shared-array-buffer
 
-load @cluesurf/base/code/javascript/es5/array-buffer-types
-  take form array-buffer-types
+load @cluesurf/bind/code/javascript/es5/array-buffer-types
+  find array-buffer-types
 
 form array-buffer-types, name <ArrayBufferTypes>
   link shared-array-buffer, name <SharedArrayBuffer>

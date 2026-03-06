@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form message-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find message-event
 
 form event-source-event-map, name <EventSourceEventMap>
   link error, name <error>

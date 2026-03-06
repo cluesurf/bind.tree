@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2015/generator/generator-function
-  take form generator-function
+load @cluesurf/bind/code/javascript/es2015/generator/generator-function
+  find generator-function
 
 form generator-function, name <GeneratorFunction>
   link {symbol/to-string-tag}

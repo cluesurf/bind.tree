@@ -1,18 +1,18 @@
 
-bear @cluesurf/base/code/javascript/node/timers/timer-options
+bear @cluesurf/bind/code/javascript/node/timers/timer-options
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-void
-  take form node-js-immediate
-  take form node-js-timeout
-  take form node-js-timer
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-void
+  find node-js-immediate
+  find node-js-timeout
+  find node-js-timer
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form task
+  find any
+  find like
+  find task
 
 host promisify, name <__promisify__>
   home true

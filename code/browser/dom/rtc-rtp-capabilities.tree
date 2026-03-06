@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-rtp-codec-capability
-  take form rtc-rtp-header-extension-capability
+load @cluesurf/bind/code/browser/dom
+  find rtc-rtp-codec-capability
+  find rtc-rtp-header-extension-capability
 
 form rtc-rtp-capabilities, name <RTCRtpCapabilities>
   link codecs, name <codecs>

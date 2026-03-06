@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form track-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find track-event
 
 form text-track-list-event-map, name <TextTrackListEventMap>
   link addtrack, name <addtrack>

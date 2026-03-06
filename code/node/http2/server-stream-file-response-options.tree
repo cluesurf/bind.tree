@@ -1,19 +1,19 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form fs-stats
-  take form native-boolean
-  take form native-number
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find fs-stats
+  find native-boolean
+  find native-number
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/node/http
-  take form outgoing-http-headers
+load @cluesurf/bind/code/node/http
+  find outgoing-http-headers
 
-load @cluesurf/base/code/node/http2
-  take form stat-options
+load @cluesurf/bind/code/node/http2
+  find stat-options
 
 form server-stream-file-response-options, name <ServerStreamFileResponseOptions>
   link wait-for-trailers, name <waitForTrailers>

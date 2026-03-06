@@ -1,113 +1,113 @@
 
-bear @cluesurf/base/code/javascript/es5/symbol
-bear @cluesurf/base/code/javascript/es5/property-key
-bear @cluesurf/base/code/javascript/es5/property-descriptor
-bear @cluesurf/base/code/javascript/es5/property-descriptor-map
-bear @cluesurf/base/code/javascript/es5/object
-bear @cluesurf/base/code/javascript/es5/function
-bear @cluesurf/base/code/javascript/es5/this-parameter-type
-bear @cluesurf/base/code/javascript/es5/omit-this-parameter
-bear @cluesurf/base/code/javascript/es5/callable-function
-bear @cluesurf/base/code/javascript/es5/newable-function
-bear @cluesurf/base/code/javascript/es5/i-arguments
-bear @cluesurf/base/code/javascript/es5/string
-bear @cluesurf/base/code/javascript/es5/boolean
-bear @cluesurf/base/code/javascript/es5/number
-bear @cluesurf/base/code/javascript/es5/template-strings-array
-bear @cluesurf/base/code/javascript/es5/import-meta
-bear @cluesurf/base/code/javascript/es5/math
-bear @cluesurf/base/code/javascript/es5/date
-bear @cluesurf/base/code/javascript/es5/reg-exp-match-array
-bear @cluesurf/base/code/javascript/es5/reg-exp-exec-array
-bear @cluesurf/base/code/javascript/es5/reg-exp
-bear @cluesurf/base/code/javascript/es5/error
-bear @cluesurf/base/code/javascript/es5/eval-error
-bear @cluesurf/base/code/javascript/es5/range-error
-bear @cluesurf/base/code/javascript/es5/reference-error
-bear @cluesurf/base/code/javascript/es5/syntax-error
-bear @cluesurf/base/code/javascript/es5/type-error
-bear @cluesurf/base/code/javascript/es5/uri-error
-bear @cluesurf/base/code/javascript/es5/json
-bear @cluesurf/base/code/javascript/es5/readonly-array
-bear @cluesurf/base/code/javascript/es5/concat-array
-bear @cluesurf/base/code/javascript/es5/array
-bear @cluesurf/base/code/javascript/es5/typed-property-descriptor
-bear @cluesurf/base/code/javascript/es5/class-decorator
-bear @cluesurf/base/code/javascript/es5/property-decorator
-bear @cluesurf/base/code/javascript/es5/method-decorator
-bear @cluesurf/base/code/javascript/es5/parameter-decorator
-bear @cluesurf/base/code/javascript/es5/promise-constructor-like
-bear @cluesurf/base/code/javascript/es5/promise-like
-bear @cluesurf/base/code/javascript/es5/promise
-bear @cluesurf/base/code/javascript/es5/array-like
-bear @cluesurf/base/code/javascript/es5/partial
-bear @cluesurf/base/code/javascript/es5/required
-bear @cluesurf/base/code/javascript/es5/readonly
-bear @cluesurf/base/code/javascript/es5/pick
-bear @cluesurf/base/code/javascript/es5/record
-bear @cluesurf/base/code/javascript/es5/exclude
-bear @cluesurf/base/code/javascript/es5/extract
-bear @cluesurf/base/code/javascript/es5/omit
-bear @cluesurf/base/code/javascript/es5/non-nullable
-bear @cluesurf/base/code/javascript/es5/parameters
-bear @cluesurf/base/code/javascript/es5/constructor-parameters
-bear @cluesurf/base/code/javascript/es5/return-type
-bear @cluesurf/base/code/javascript/es5/instance-type
-bear @cluesurf/base/code/javascript/es5/uppercase
-bear @cluesurf/base/code/javascript/es5/lowercase
-bear @cluesurf/base/code/javascript/es5/capitalize
-bear @cluesurf/base/code/javascript/es5/uncapitalize
-bear @cluesurf/base/code/javascript/es5/this-type
-bear @cluesurf/base/code/javascript/es5/array-buffer
-bear @cluesurf/base/code/javascript/es5/array-buffer-types
-bear @cluesurf/base/code/javascript/es5/array-buffer-like
-bear @cluesurf/base/code/javascript/es5/array-buffer-view
-bear @cluesurf/base/code/javascript/es5/data-view
-bear @cluesurf/base/code/javascript/es5/int8-array
-bear @cluesurf/base/code/javascript/es5/uint8-array
-bear @cluesurf/base/code/javascript/es5/uint8-clamped-array
-bear @cluesurf/base/code/javascript/es5/int16-array
-bear @cluesurf/base/code/javascript/es5/uint16-array
-bear @cluesurf/base/code/javascript/es5/int32-array
-bear @cluesurf/base/code/javascript/es5/uint32-array
-bear @cluesurf/base/code/javascript/es5/float32-array
-bear @cluesurf/base/code/javascript/es5/float64-array
-bear @cluesurf/base/code/javascript/es5/intl
+bear @cluesurf/bind/code/javascript/es5/symbol
+bear @cluesurf/bind/code/javascript/es5/property-key
+bear @cluesurf/bind/code/javascript/es5/property-descriptor
+bear @cluesurf/bind/code/javascript/es5/property-descriptor-map
+bear @cluesurf/bind/code/javascript/es5/object
+bear @cluesurf/bind/code/javascript/es5/function
+bear @cluesurf/bind/code/javascript/es5/this-parameter-type
+bear @cluesurf/bind/code/javascript/es5/omit-this-parameter
+bear @cluesurf/bind/code/javascript/es5/callable-function
+bear @cluesurf/bind/code/javascript/es5/newable-function
+bear @cluesurf/bind/code/javascript/es5/i-arguments
+bear @cluesurf/bind/code/javascript/es5/string
+bear @cluesurf/bind/code/javascript/es5/boolean
+bear @cluesurf/bind/code/javascript/es5/number
+bear @cluesurf/bind/code/javascript/es5/template-strings-array
+bear @cluesurf/bind/code/javascript/es5/import-meta
+bear @cluesurf/bind/code/javascript/es5/math
+bear @cluesurf/bind/code/javascript/es5/date
+bear @cluesurf/bind/code/javascript/es5/reg-exp-match-array
+bear @cluesurf/bind/code/javascript/es5/reg-exp-exec-array
+bear @cluesurf/bind/code/javascript/es5/reg-exp
+bear @cluesurf/bind/code/javascript/es5/error
+bear @cluesurf/bind/code/javascript/es5/eval-error
+bear @cluesurf/bind/code/javascript/es5/range-error
+bear @cluesurf/bind/code/javascript/es5/reference-error
+bear @cluesurf/bind/code/javascript/es5/syntax-error
+bear @cluesurf/bind/code/javascript/es5/type-error
+bear @cluesurf/bind/code/javascript/es5/uri-error
+bear @cluesurf/bind/code/javascript/es5/json
+bear @cluesurf/bind/code/javascript/es5/readonly-array
+bear @cluesurf/bind/code/javascript/es5/concat-array
+bear @cluesurf/bind/code/javascript/es5/array
+bear @cluesurf/bind/code/javascript/es5/typed-property-descriptor
+bear @cluesurf/bind/code/javascript/es5/class-decorator
+bear @cluesurf/bind/code/javascript/es5/property-decorator
+bear @cluesurf/bind/code/javascript/es5/method-decorator
+bear @cluesurf/bind/code/javascript/es5/parameter-decorator
+bear @cluesurf/bind/code/javascript/es5/promise-constructor-like
+bear @cluesurf/bind/code/javascript/es5/promise-like
+bear @cluesurf/bind/code/javascript/es5/promise
+bear @cluesurf/bind/code/javascript/es5/array-like
+bear @cluesurf/bind/code/javascript/es5/partial
+bear @cluesurf/bind/code/javascript/es5/required
+bear @cluesurf/bind/code/javascript/es5/readonly
+bear @cluesurf/bind/code/javascript/es5/pick
+bear @cluesurf/bind/code/javascript/es5/record
+bear @cluesurf/bind/code/javascript/es5/exclude
+bear @cluesurf/bind/code/javascript/es5/extract
+bear @cluesurf/bind/code/javascript/es5/omit
+bear @cluesurf/bind/code/javascript/es5/non-nullable
+bear @cluesurf/bind/code/javascript/es5/parameters
+bear @cluesurf/bind/code/javascript/es5/constructor-parameters
+bear @cluesurf/bind/code/javascript/es5/return-type
+bear @cluesurf/bind/code/javascript/es5/instance-type
+bear @cluesurf/bind/code/javascript/es5/uppercase
+bear @cluesurf/bind/code/javascript/es5/lowercase
+bear @cluesurf/bind/code/javascript/es5/capitalize
+bear @cluesurf/bind/code/javascript/es5/uncapitalize
+bear @cluesurf/bind/code/javascript/es5/this-type
+bear @cluesurf/bind/code/javascript/es5/array-buffer
+bear @cluesurf/bind/code/javascript/es5/array-buffer-types
+bear @cluesurf/bind/code/javascript/es5/array-buffer-like
+bear @cluesurf/bind/code/javascript/es5/array-buffer-view
+bear @cluesurf/bind/code/javascript/es5/data-view
+bear @cluesurf/bind/code/javascript/es5/int8-array
+bear @cluesurf/bind/code/javascript/es5/uint8-array
+bear @cluesurf/bind/code/javascript/es5/uint8-clamped-array
+bear @cluesurf/bind/code/javascript/es5/int16-array
+bear @cluesurf/bind/code/javascript/es5/uint16-array
+bear @cluesurf/bind/code/javascript/es5/int32-array
+bear @cluesurf/bind/code/javascript/es5/uint32-array
+bear @cluesurf/bind/code/javascript/es5/float32-array
+bear @cluesurf/bind/code/javascript/es5/float64-array
+bear @cluesurf/bind/code/javascript/es5/intl
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer-constructor
-  take form array-constructor
-  take form boolean-constructor
-  take form data-view-constructor
-  take form date-constructor
-  take form error-constructor
-  take form eval-error-constructor
-  take form float32-array-constructor
-  take form float64-array-constructor
-  take form function-constructor
-  take form int16-array-constructor
-  take form int32-array-constructor
-  take form int8-array-constructor
-  take form json
-  take form math
-  take form number-constructor
-  take form object-constructor
-  take form range-error-constructor
-  take form reference-error-constructor
-  take form reg-exp-constructor
-  take form string-constructor
-  take form syntax-error-constructor
-  take form type-error-constructor
-  take form uint16-array-constructor
-  take form uint32-array-constructor
-  take form uint8-array-constructor
-  take form uint8-clamped-array-constructor
-  take form uri-error-constructor
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer-constructor
+  find array-constructor
+  find boolean-constructor
+  find data-view-constructor
+  find date-constructor
+  find error-constructor
+  find eval-error-constructor
+  find float32-array-constructor
+  find float64-array-constructor
+  find function-constructor
+  find int16-array-constructor
+  find int32-array-constructor
+  find int8-array-constructor
+  find json
+  find math
+  find number-constructor
+  find object-constructor
+  find range-error-constructor
+  find reference-error-constructor
+  find reg-exp-constructor
+  find string-constructor
+  find syntax-error-constructor
+  find type-error-constructor
+  find uint16-array-constructor
+  find uint32-array-constructor
+  find uint8-array-constructor
+  find uint8-clamped-array-constructor
+  find uri-error-constructor
 
 host na-n, name <NaN>
   like native-number

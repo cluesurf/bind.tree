@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form text-encoder-common
-  take form text-encoder-encode-into-result
+load @cluesurf/bind/code/browser/dom
+  find text-encoder-common
+  find text-encoder-encode-into-result
 
-load @cluesurf/base/code/javascript/es5
-  take form uint8-array
+load @cluesurf/bind/code/javascript/es5
+  find uint8-array
 
 form text-encoder, name <TextEncoder>
   base text-encoder-common

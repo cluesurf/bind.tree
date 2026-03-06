@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form khr-parallel-shader-compile, name <KHR_parallel_shader_compile>
   link completion-status-khr, name <COMPLETION_STATUS_KHR>

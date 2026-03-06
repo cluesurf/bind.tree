@@ -1,18 +1,18 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-undefined
-  take form native-void
-  take form readable
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-undefined
+  find native-void
+  find readable
 
-load @cluesurf/base/code/node/buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/stream/internal
-  take form stream-options
+load @cluesurf/bind/code/node/stream/internal
+  find stream-options
 
 form readable-options, name <ReadableOptions>
   base stream-options

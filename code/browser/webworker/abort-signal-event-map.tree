@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/abort-signal-event-map
-  take form abort-signal-event-map
+load @cluesurf/bind/code/browser/dom/abort-signal-event-map
+  find abort-signal-event-map
 
 form abort-signal-event-map, name <AbortSignalEventMap>
   link abort, name <abort>

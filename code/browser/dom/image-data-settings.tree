@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form predefined-color-space
+load @cluesurf/bind/code/browser/dom
+  find predefined-color-space
 
 form image-data-settings, name <ImageDataSettings>
   link color-space, name <colorSpace>

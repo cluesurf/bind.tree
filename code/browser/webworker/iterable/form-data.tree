@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form form-data-entry-value
+load @cluesurf/bind/code/browser/webworker
+  find form-data-entry-value
 
-load @cluesurf/base/code/browser/webworker/form-data
-  take form form-data
+load @cluesurf/bind/code/browser/webworker/form-data
+  find form-data
 
 form form-data, name <FormData>
   task {symbol/iterator}

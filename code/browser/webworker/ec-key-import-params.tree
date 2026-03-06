@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form named-curve
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find named-curve
 
-load @cluesurf/base/code/browser/dom/ec-key-import-params
-  take form ec-key-import-params
+load @cluesurf/bind/code/browser/dom/ec-key-import-params
+  find ec-key-import-params
 
 form ec-key-import-params, name <EcKeyImportParams>
   base algorithm

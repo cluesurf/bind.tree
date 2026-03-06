@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable-iterator
 
-load @cluesurf/base/code/javascript/es2015/collection/readonly-set
-  take form readonly-set
+load @cluesurf/bind/code/javascript/es2015/collection/readonly-set
+  find readonly-set
 
 form readonly-set, name <ReadonlySet>
   head t

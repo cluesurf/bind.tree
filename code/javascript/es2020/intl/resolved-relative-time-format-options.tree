@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2020/intl
-  take form relative-time-format-numeric
-  take form relative-time-format-style
-  take form unicode-bcp47-locale-identifier
+load @cluesurf/bind/code/javascript/es2020/intl
+  find relative-time-format-numeric
+  find relative-time-format-style
+  find unicode-bcp47-locale-identifier
 
 form resolved-relative-time-format-options, name <ResolvedRelativeTimeFormatOptions>
   link locale, name <locale>

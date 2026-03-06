@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-number
+load @cluesurf/bind/code/browser/dom
+  find svg-number
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/svg-number-list
-  take form svg-number-list
+load @cluesurf/bind/code/browser/dom/svg-number-list
+  find svg-number-list
 
 form svg-number-list, name <SVGNumberList>
   task {symbol/iterator}

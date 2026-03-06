@@ -1,1928 +1,1928 @@
 
-bear @cluesurf/base/code/javascript/dom/add-event-listener-options
-bear @cluesurf/base/code/javascript/dom/aes-cbc-params
-bear @cluesurf/base/code/javascript/dom/aes-ctr-params
-bear @cluesurf/base/code/javascript/dom/aes-derived-key-params
-bear @cluesurf/base/code/javascript/dom/aes-gcm-params
-bear @cluesurf/base/code/javascript/dom/aes-key-algorithm
-bear @cluesurf/base/code/javascript/dom/aes-key-gen-params
-bear @cluesurf/base/code/javascript/dom/algorithm
-bear @cluesurf/base/code/javascript/dom/analyser-options
-bear @cluesurf/base/code/javascript/dom/animation-event-init
-bear @cluesurf/base/code/javascript/dom/animation-playback-event-init
-bear @cluesurf/base/code/javascript/dom/assigned-nodes-options
-bear @cluesurf/base/code/javascript/dom/audio-buffer-options
-bear @cluesurf/base/code/javascript/dom/audio-buffer-source-options
-bear @cluesurf/base/code/javascript/dom/audio-configuration
-bear @cluesurf/base/code/javascript/dom/audio-context-options
-bear @cluesurf/base/code/javascript/dom/audio-node-options
-bear @cluesurf/base/code/javascript/dom/audio-processing-event-init
-bear @cluesurf/base/code/javascript/dom/audio-timestamp
-bear @cluesurf/base/code/javascript/dom/audio-worklet-node-options
-bear @cluesurf/base/code/javascript/dom/authentication-extensions-client-inputs
-bear @cluesurf/base/code/javascript/dom/authentication-extensions-client-outputs
-bear @cluesurf/base/code/javascript/dom/authenticator-selection-criteria
-bear @cluesurf/base/code/javascript/dom/biquad-filter-options
-bear @cluesurf/base/code/javascript/dom/blob-event-init
-bear @cluesurf/base/code/javascript/dom/blob-property-bag
-bear @cluesurf/base/code/javascript/dom/cache-query-options
-bear @cluesurf/base/code/javascript/dom/canvas-rendering-context2-d-settings
-bear @cluesurf/base/code/javascript/dom/channel-merger-options
-bear @cluesurf/base/code/javascript/dom/channel-splitter-options
-bear @cluesurf/base/code/javascript/dom/client-query-options
-bear @cluesurf/base/code/javascript/dom/clipboard-event-init
-bear @cluesurf/base/code/javascript/dom/clipboard-item-options
-bear @cluesurf/base/code/javascript/dom/close-event-init
-bear @cluesurf/base/code/javascript/dom/composition-event-init
-bear @cluesurf/base/code/javascript/dom/computed-effect-timing
-bear @cluesurf/base/code/javascript/dom/computed-keyframe
-bear @cluesurf/base/code/javascript/dom/constant-source-options
-bear @cluesurf/base/code/javascript/dom/constrain-boolean-parameters
-bear @cluesurf/base/code/javascript/dom/constrain-dom-string-parameters
-bear @cluesurf/base/code/javascript/dom/constrain-double-range
-bear @cluesurf/base/code/javascript/dom/constrain-u-long-range
-bear @cluesurf/base/code/javascript/dom/convolver-options
-bear @cluesurf/base/code/javascript/dom/credential-creation-options
-bear @cluesurf/base/code/javascript/dom/credential-properties-output
-bear @cluesurf/base/code/javascript/dom/credential-request-options
-bear @cluesurf/base/code/javascript/dom/crypto-key-pair
-bear @cluesurf/base/code/javascript/dom/custom-event-init
-bear @cluesurf/base/code/javascript/dom/dom-matrix2-d-init
-bear @cluesurf/base/code/javascript/dom/dom-matrix-init
-bear @cluesurf/base/code/javascript/dom/dom-point-init
-bear @cluesurf/base/code/javascript/dom/dom-quad-init
-bear @cluesurf/base/code/javascript/dom/dom-rect-init
-bear @cluesurf/base/code/javascript/dom/delay-options
-bear @cluesurf/base/code/javascript/dom/device-motion-event-acceleration-init
-bear @cluesurf/base/code/javascript/dom/device-motion-event-init
-bear @cluesurf/base/code/javascript/dom/device-motion-event-rotation-rate-init
-bear @cluesurf/base/code/javascript/dom/device-orientation-event-init
-bear @cluesurf/base/code/javascript/dom/display-media-stream-constraints
-bear @cluesurf/base/code/javascript/dom/document-timeline-options
-bear @cluesurf/base/code/javascript/dom/double-range
-bear @cluesurf/base/code/javascript/dom/drag-event-init
-bear @cluesurf/base/code/javascript/dom/dynamics-compressor-options
-bear @cluesurf/base/code/javascript/dom/ec-key-algorithm
-bear @cluesurf/base/code/javascript/dom/ec-key-gen-params
-bear @cluesurf/base/code/javascript/dom/ec-key-import-params
-bear @cluesurf/base/code/javascript/dom/ecdh-key-derive-params
-bear @cluesurf/base/code/javascript/dom/ecdsa-params
-bear @cluesurf/base/code/javascript/dom/effect-timing
-bear @cluesurf/base/code/javascript/dom/element-creation-options
-bear @cluesurf/base/code/javascript/dom/element-definition-options
-bear @cluesurf/base/code/javascript/dom/error-event-init
-bear @cluesurf/base/code/javascript/dom/event-init
-bear @cluesurf/base/code/javascript/dom/event-listener-options
-bear @cluesurf/base/code/javascript/dom/event-modifier-init
-bear @cluesurf/base/code/javascript/dom/event-source-init
-bear @cluesurf/base/code/javascript/dom/file-property-bag
-bear @cluesurf/base/code/javascript/dom/file-system-flags
-bear @cluesurf/base/code/javascript/dom/focus-event-init
-bear @cluesurf/base/code/javascript/dom/focus-options
-bear @cluesurf/base/code/javascript/dom/font-face-descriptors
-bear @cluesurf/base/code/javascript/dom/font-face-set-load-event-init
-bear @cluesurf/base/code/javascript/dom/form-data-event-init
-bear @cluesurf/base/code/javascript/dom/fullscreen-options
-bear @cluesurf/base/code/javascript/dom/gain-options
-bear @cluesurf/base/code/javascript/dom/gamepad-event-init
-bear @cluesurf/base/code/javascript/dom/get-animations-options
-bear @cluesurf/base/code/javascript/dom/get-notification-options
-bear @cluesurf/base/code/javascript/dom/get-root-node-options
-bear @cluesurf/base/code/javascript/dom/hash-change-event-init
-bear @cluesurf/base/code/javascript/dom/hkdf-params
-bear @cluesurf/base/code/javascript/dom/hmac-import-params
-bear @cluesurf/base/code/javascript/dom/hmac-key-algorithm
-bear @cluesurf/base/code/javascript/dom/hmac-key-gen-params
-bear @cluesurf/base/code/javascript/dom/idb-database-info
-bear @cluesurf/base/code/javascript/dom/idb-index-parameters
-bear @cluesurf/base/code/javascript/dom/idb-object-store-parameters
-bear @cluesurf/base/code/javascript/dom/idb-version-change-event-init
-bear @cluesurf/base/code/javascript/dom/iir-filter-options
-bear @cluesurf/base/code/javascript/dom/idle-request-options
-bear @cluesurf/base/code/javascript/dom/image-bitmap-options
-bear @cluesurf/base/code/javascript/dom/image-bitmap-rendering-context-settings
-bear @cluesurf/base/code/javascript/dom/image-data-settings
-bear @cluesurf/base/code/javascript/dom/import-meta
-bear @cluesurf/base/code/javascript/dom/input-event-init
-bear @cluesurf/base/code/javascript/dom/intersection-observer-entry-init
-bear @cluesurf/base/code/javascript/dom/intersection-observer-init
-bear @cluesurf/base/code/javascript/dom/json-web-key
-bear @cluesurf/base/code/javascript/dom/key-algorithm
-bear @cluesurf/base/code/javascript/dom/keyboard-event-init
-bear @cluesurf/base/code/javascript/dom/keyframe
-bear @cluesurf/base/code/javascript/dom/keyframe-animation-options
-bear @cluesurf/base/code/javascript/dom/keyframe-effect-options
-bear @cluesurf/base/code/javascript/dom/media-capabilities-decoding-info
-bear @cluesurf/base/code/javascript/dom/media-capabilities-encoding-info
-bear @cluesurf/base/code/javascript/dom/media-capabilities-info
-bear @cluesurf/base/code/javascript/dom/media-configuration
-bear @cluesurf/base/code/javascript/dom/media-decoding-configuration
-bear @cluesurf/base/code/javascript/dom/media-element-audio-source-options
-bear @cluesurf/base/code/javascript/dom/media-encoding-configuration
-bear @cluesurf/base/code/javascript/dom/media-encrypted-event-init
-bear @cluesurf/base/code/javascript/dom/media-image
-bear @cluesurf/base/code/javascript/dom/media-key-message-event-init
-bear @cluesurf/base/code/javascript/dom/media-key-system-configuration
-bear @cluesurf/base/code/javascript/dom/media-key-system-media-capability
-bear @cluesurf/base/code/javascript/dom/media-metadata-init
-bear @cluesurf/base/code/javascript/dom/media-position-state
-bear @cluesurf/base/code/javascript/dom/media-query-list-event-init
-bear @cluesurf/base/code/javascript/dom/media-recorder-error-event-init
-bear @cluesurf/base/code/javascript/dom/media-recorder-options
-bear @cluesurf/base/code/javascript/dom/media-session-action-details
-bear @cluesurf/base/code/javascript/dom/media-stream-audio-source-options
-bear @cluesurf/base/code/javascript/dom/media-stream-constraints
-bear @cluesurf/base/code/javascript/dom/media-stream-track-event-init
-bear @cluesurf/base/code/javascript/dom/media-track-capabilities
-bear @cluesurf/base/code/javascript/dom/media-track-constraint-set
-bear @cluesurf/base/code/javascript/dom/media-track-constraints
-bear @cluesurf/base/code/javascript/dom/media-track-settings
-bear @cluesurf/base/code/javascript/dom/media-track-supported-constraints
-bear @cluesurf/base/code/javascript/dom/message-event-init
-bear @cluesurf/base/code/javascript/dom/mouse-event-init
-bear @cluesurf/base/code/javascript/dom/multi-cache-query-options
-bear @cluesurf/base/code/javascript/dom/mutation-observer-init
-bear @cluesurf/base/code/javascript/dom/notification-action
-bear @cluesurf/base/code/javascript/dom/notification-options
-bear @cluesurf/base/code/javascript/dom/offline-audio-completion-event-init
-bear @cluesurf/base/code/javascript/dom/offline-audio-context-options
-bear @cluesurf/base/code/javascript/dom/optional-effect-timing
-bear @cluesurf/base/code/javascript/dom/oscillator-options
-bear @cluesurf/base/code/javascript/dom/page-transition-event-init
-bear @cluesurf/base/code/javascript/dom/panner-options
-bear @cluesurf/base/code/javascript/dom/payment-currency-amount
-bear @cluesurf/base/code/javascript/dom/payment-details-base
-bear @cluesurf/base/code/javascript/dom/payment-details-init
-bear @cluesurf/base/code/javascript/dom/payment-details-modifier
-bear @cluesurf/base/code/javascript/dom/payment-details-update
-bear @cluesurf/base/code/javascript/dom/payment-item
-bear @cluesurf/base/code/javascript/dom/payment-method-change-event-init
-bear @cluesurf/base/code/javascript/dom/payment-method-data
-bear @cluesurf/base/code/javascript/dom/payment-request-update-event-init
-bear @cluesurf/base/code/javascript/dom/payment-validation-errors
-bear @cluesurf/base/code/javascript/dom/pbkdf2-params
-bear @cluesurf/base/code/javascript/dom/performance-mark-options
-bear @cluesurf/base/code/javascript/dom/performance-measure-options
-bear @cluesurf/base/code/javascript/dom/performance-observer-init
-bear @cluesurf/base/code/javascript/dom/periodic-wave-constraints
-bear @cluesurf/base/code/javascript/dom/periodic-wave-options
-bear @cluesurf/base/code/javascript/dom/permission-descriptor
-bear @cluesurf/base/code/javascript/dom/pointer-event-init
-bear @cluesurf/base/code/javascript/dom/pop-state-event-init
-bear @cluesurf/base/code/javascript/dom/position-options
-bear @cluesurf/base/code/javascript/dom/post-message-options
-bear @cluesurf/base/code/javascript/dom/progress-event-init
-bear @cluesurf/base/code/javascript/dom/promise-rejection-event-init
-bear @cluesurf/base/code/javascript/dom/property-indexed-keyframes
-bear @cluesurf/base/code/javascript/dom/public-key-credential-creation-options
-bear @cluesurf/base/code/javascript/dom/public-key-credential-descriptor
-bear @cluesurf/base/code/javascript/dom/public-key-credential-entity
-bear @cluesurf/base/code/javascript/dom/public-key-credential-parameters
-bear @cluesurf/base/code/javascript/dom/public-key-credential-request-options
-bear @cluesurf/base/code/javascript/dom/public-key-credential-rp-entity
-bear @cluesurf/base/code/javascript/dom/public-key-credential-user-entity
-bear @cluesurf/base/code/javascript/dom/push-subscription-json
-bear @cluesurf/base/code/javascript/dom/push-subscription-options-init
-bear @cluesurf/base/code/javascript/dom/queuing-strategy
-bear @cluesurf/base/code/javascript/dom/queuing-strategy-init
-bear @cluesurf/base/code/javascript/dom/rtc-answer-options
-bear @cluesurf/base/code/javascript/dom/rtc-certificate-expiration
-bear @cluesurf/base/code/javascript/dom/rtc-configuration
-bear @cluesurf/base/code/javascript/dom/rtcdtmf-tone-change-event-init
-bear @cluesurf/base/code/javascript/dom/rtc-data-channel-event-init
-bear @cluesurf/base/code/javascript/dom/rtc-data-channel-init
-bear @cluesurf/base/code/javascript/dom/rtc-dtls-fingerprint
-bear @cluesurf/base/code/javascript/dom/rtc-ice-candidate-init
-bear @cluesurf/base/code/javascript/dom/rtc-ice-candidate-pair-stats
-bear @cluesurf/base/code/javascript/dom/rtc-ice-server
-bear @cluesurf/base/code/javascript/dom/rtc-inbound-rtp-stream-stats
-bear @cluesurf/base/code/javascript/dom/rtc-local-session-description-init
-bear @cluesurf/base/code/javascript/dom/rtc-offer-answer-options
-bear @cluesurf/base/code/javascript/dom/rtc-offer-options
-bear @cluesurf/base/code/javascript/dom/rtc-outbound-rtp-stream-stats
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-ice-error-event-init
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-ice-event-init
-bear @cluesurf/base/code/javascript/dom/rtc-received-rtp-stream-stats
-bear @cluesurf/base/code/javascript/dom/rtc-rtcp-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-capabilities
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-codec-capability
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-codec-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-coding-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-contributing-source
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-encoding-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-header-extension-capability
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-header-extension-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-receive-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-send-parameters
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-stream-stats
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-synchronization-source
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-transceiver-init
-bear @cluesurf/base/code/javascript/dom/rtc-sent-rtp-stream-stats
-bear @cluesurf/base/code/javascript/dom/rtc-session-description-init
-bear @cluesurf/base/code/javascript/dom/rtc-stats
-bear @cluesurf/base/code/javascript/dom/rtc-track-event-init
-bear @cluesurf/base/code/javascript/dom/rtc-transport-stats
-bear @cluesurf/base/code/javascript/dom/readable-stream-default-read-done-result
-bear @cluesurf/base/code/javascript/dom/readable-stream-default-read-value-result
-bear @cluesurf/base/code/javascript/dom/readable-writable-pair
-bear @cluesurf/base/code/javascript/dom/registration-options
-bear @cluesurf/base/code/javascript/dom/request-init
-bear @cluesurf/base/code/javascript/dom/resize-observer-options
-bear @cluesurf/base/code/javascript/dom/response-init
-bear @cluesurf/base/code/javascript/dom/rsa-hashed-import-params
-bear @cluesurf/base/code/javascript/dom/rsa-hashed-key-algorithm
-bear @cluesurf/base/code/javascript/dom/rsa-hashed-key-gen-params
-bear @cluesurf/base/code/javascript/dom/rsa-key-algorithm
-bear @cluesurf/base/code/javascript/dom/rsa-key-gen-params
-bear @cluesurf/base/code/javascript/dom/rsa-oaep-params
-bear @cluesurf/base/code/javascript/dom/rsa-other-primes-info
-bear @cluesurf/base/code/javascript/dom/rsa-pss-params
-bear @cluesurf/base/code/javascript/dom/svg-bounding-box-options
-bear @cluesurf/base/code/javascript/dom/scroll-into-view-options
-bear @cluesurf/base/code/javascript/dom/scroll-options
-bear @cluesurf/base/code/javascript/dom/scroll-to-options
-bear @cluesurf/base/code/javascript/dom/security-policy-violation-event-init
-bear @cluesurf/base/code/javascript/dom/shadow-root-init
-bear @cluesurf/base/code/javascript/dom/share-data
-bear @cluesurf/base/code/javascript/dom/speech-recognition-error-event-init
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-error-event-init
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-event-init
-bear @cluesurf/base/code/javascript/dom/static-range-init
-bear @cluesurf/base/code/javascript/dom/stereo-panner-options
-bear @cluesurf/base/code/javascript/dom/storage-estimate
-bear @cluesurf/base/code/javascript/dom/storage-event-init
-bear @cluesurf/base/code/javascript/dom/stream-pipe-options
-bear @cluesurf/base/code/javascript/dom/submit-event-init
-bear @cluesurf/base/code/javascript/dom/text-decode-options
-bear @cluesurf/base/code/javascript/dom/text-decoder-options
-bear @cluesurf/base/code/javascript/dom/text-encoder-encode-into-result
-bear @cluesurf/base/code/javascript/dom/touch-event-init
-bear @cluesurf/base/code/javascript/dom/touch-init
-bear @cluesurf/base/code/javascript/dom/track-event-init
-bear @cluesurf/base/code/javascript/dom/transformer
-bear @cluesurf/base/code/javascript/dom/transition-event-init
-bear @cluesurf/base/code/javascript/dom/ui-event-init
-bear @cluesurf/base/code/javascript/dom/u-long-range
-bear @cluesurf/base/code/javascript/dom/underlying-sink
-bear @cluesurf/base/code/javascript/dom/underlying-source
-bear @cluesurf/base/code/javascript/dom/video-configuration
-bear @cluesurf/base/code/javascript/dom/wave-shaper-options
-bear @cluesurf/base/code/javascript/dom/web-gl-context-attributes
-bear @cluesurf/base/code/javascript/dom/web-gl-context-event-init
-bear @cluesurf/base/code/javascript/dom/wheel-event-init
-bear @cluesurf/base/code/javascript/dom/window-post-message-options
-bear @cluesurf/base/code/javascript/dom/worker-options
-bear @cluesurf/base/code/javascript/dom/worklet-options
-bear @cluesurf/base/code/javascript/dom/node-filter
-bear @cluesurf/base/code/javascript/dom/x-path-ns-resolver
-bear @cluesurf/base/code/javascript/dom/angle-instanced-arrays
-bear @cluesurf/base/code/javascript/dom/aria-mixin
-bear @cluesurf/base/code/javascript/dom/abort-controller
-bear @cluesurf/base/code/javascript/dom/abort-signal-event-map
-bear @cluesurf/base/code/javascript/dom/abort-signal
-bear @cluesurf/base/code/javascript/dom/abstract-range
-bear @cluesurf/base/code/javascript/dom/abstract-worker-event-map
-bear @cluesurf/base/code/javascript/dom/abstract-worker
-bear @cluesurf/base/code/javascript/dom/analyser-node
-bear @cluesurf/base/code/javascript/dom/animatable
-bear @cluesurf/base/code/javascript/dom/animation-event-map
-bear @cluesurf/base/code/javascript/dom/animation
-bear @cluesurf/base/code/javascript/dom/animation-effect
-bear @cluesurf/base/code/javascript/dom/animation-event
-bear @cluesurf/base/code/javascript/dom/animation-frame-provider
-bear @cluesurf/base/code/javascript/dom/animation-playback-event
-bear @cluesurf/base/code/javascript/dom/animation-timeline
-bear @cluesurf/base/code/javascript/dom/attr
-bear @cluesurf/base/code/javascript/dom/audio-buffer
-bear @cluesurf/base/code/javascript/dom/audio-buffer-source-node
-bear @cluesurf/base/code/javascript/dom/audio-context
-bear @cluesurf/base/code/javascript/dom/audio-destination-node
-bear @cluesurf/base/code/javascript/dom/audio-listener
-bear @cluesurf/base/code/javascript/dom/audio-node
-bear @cluesurf/base/code/javascript/dom/audio-param
-bear @cluesurf/base/code/javascript/dom/audio-param-map
-bear @cluesurf/base/code/javascript/dom/audio-processing-event
-bear @cluesurf/base/code/javascript/dom/audio-scheduled-source-node-event-map
-bear @cluesurf/base/code/javascript/dom/audio-scheduled-source-node
-bear @cluesurf/base/code/javascript/dom/audio-worklet
-bear @cluesurf/base/code/javascript/dom/audio-worklet-node-event-map
-bear @cluesurf/base/code/javascript/dom/audio-worklet-node
-bear @cluesurf/base/code/javascript/dom/authenticator-assertion-response
-bear @cluesurf/base/code/javascript/dom/authenticator-attestation-response
-bear @cluesurf/base/code/javascript/dom/authenticator-response
-bear @cluesurf/base/code/javascript/dom/bar-prop
-bear @cluesurf/base/code/javascript/dom/base-audio-context-event-map
-bear @cluesurf/base/code/javascript/dom/base-audio-context
-bear @cluesurf/base/code/javascript/dom/before-unload-event
-bear @cluesurf/base/code/javascript/dom/biquad-filter-node
-bear @cluesurf/base/code/javascript/dom/blob
-bear @cluesurf/base/code/javascript/dom/blob-event
-bear @cluesurf/base/code/javascript/dom/body
-bear @cluesurf/base/code/javascript/dom/broadcast-channel-event-map
-bear @cluesurf/base/code/javascript/dom/broadcast-channel
-bear @cluesurf/base/code/javascript/dom/byte-length-queuing-strategy
-bear @cluesurf/base/code/javascript/dom/cdata-section
-bear @cluesurf/base/code/javascript/dom/css-animation
-bear @cluesurf/base/code/javascript/dom/css-condition-rule
-bear @cluesurf/base/code/javascript/dom/css-counter-style-rule
-bear @cluesurf/base/code/javascript/dom/css-font-face-rule
-bear @cluesurf/base/code/javascript/dom/css-grouping-rule
-bear @cluesurf/base/code/javascript/dom/css-import-rule
-bear @cluesurf/base/code/javascript/dom/css-keyframe-rule
-bear @cluesurf/base/code/javascript/dom/css-keyframes-rule
-bear @cluesurf/base/code/javascript/dom/css-media-rule
-bear @cluesurf/base/code/javascript/dom/css-namespace-rule
-bear @cluesurf/base/code/javascript/dom/css-page-rule
-bear @cluesurf/base/code/javascript/dom/css-rule
-bear @cluesurf/base/code/javascript/dom/css-rule-list
-bear @cluesurf/base/code/javascript/dom/css-style-declaration
-bear @cluesurf/base/code/javascript/dom/css-style-rule
-bear @cluesurf/base/code/javascript/dom/css-style-sheet
-bear @cluesurf/base/code/javascript/dom/css-supports-rule
-bear @cluesurf/base/code/javascript/dom/css-transition
-bear @cluesurf/base/code/javascript/dom/cache
-bear @cluesurf/base/code/javascript/dom/cache-storage
-bear @cluesurf/base/code/javascript/dom/canvas-compositing
-bear @cluesurf/base/code/javascript/dom/canvas-draw-image
-bear @cluesurf/base/code/javascript/dom/canvas-draw-path
-bear @cluesurf/base/code/javascript/dom/canvas-fill-stroke-styles
-bear @cluesurf/base/code/javascript/dom/canvas-filters
-bear @cluesurf/base/code/javascript/dom/canvas-gradient
-bear @cluesurf/base/code/javascript/dom/canvas-image-data
-bear @cluesurf/base/code/javascript/dom/canvas-image-smoothing
-bear @cluesurf/base/code/javascript/dom/canvas-path
-bear @cluesurf/base/code/javascript/dom/canvas-path-drawing-styles
-bear @cluesurf/base/code/javascript/dom/canvas-pattern
-bear @cluesurf/base/code/javascript/dom/canvas-rect
-bear @cluesurf/base/code/javascript/dom/canvas-rendering-context2-d
-bear @cluesurf/base/code/javascript/dom/canvas-shadow-styles
-bear @cluesurf/base/code/javascript/dom/canvas-state
-bear @cluesurf/base/code/javascript/dom/canvas-text
-bear @cluesurf/base/code/javascript/dom/canvas-text-drawing-styles
-bear @cluesurf/base/code/javascript/dom/canvas-transform
-bear @cluesurf/base/code/javascript/dom/canvas-user-interface
-bear @cluesurf/base/code/javascript/dom/channel-merger-node
-bear @cluesurf/base/code/javascript/dom/channel-splitter-node
-bear @cluesurf/base/code/javascript/dom/character-data
-bear @cluesurf/base/code/javascript/dom/child-node
-bear @cluesurf/base/code/javascript/dom/client-rect
-bear @cluesurf/base/code/javascript/dom/clipboard
-bear @cluesurf/base/code/javascript/dom/clipboard-event
-bear @cluesurf/base/code/javascript/dom/clipboard-item
-bear @cluesurf/base/code/javascript/dom/close-event
-bear @cluesurf/base/code/javascript/dom/comment
-bear @cluesurf/base/code/javascript/dom/composition-event
-bear @cluesurf/base/code/javascript/dom/constant-source-node
-bear @cluesurf/base/code/javascript/dom/convolver-node
-bear @cluesurf/base/code/javascript/dom/count-queuing-strategy
-bear @cluesurf/base/code/javascript/dom/credential
-bear @cluesurf/base/code/javascript/dom/credentials-container
-bear @cluesurf/base/code/javascript/dom/crypto
-bear @cluesurf/base/code/javascript/dom/crypto-key
-bear @cluesurf/base/code/javascript/dom/custom-element-registry
-bear @cluesurf/base/code/javascript/dom/custom-event
-bear @cluesurf/base/code/javascript/dom/dom-exception
-bear @cluesurf/base/code/javascript/dom/dom-implementation
-bear @cluesurf/base/code/javascript/dom/dom-matrix
-bear @cluesurf/base/code/javascript/dom/svg-matrix
-bear @cluesurf/base/code/javascript/dom/web-kit-css-matrix
-bear @cluesurf/base/code/javascript/dom/dom-matrix-read-only
-bear @cluesurf/base/code/javascript/dom/dom-parser
-bear @cluesurf/base/code/javascript/dom/dom-point
-bear @cluesurf/base/code/javascript/dom/svg-point
-bear @cluesurf/base/code/javascript/dom/dom-point-read-only
-bear @cluesurf/base/code/javascript/dom/dom-quad
-bear @cluesurf/base/code/javascript/dom/dom-rect
-bear @cluesurf/base/code/javascript/dom/svg-rect
-bear @cluesurf/base/code/javascript/dom/dom-rect-list
-bear @cluesurf/base/code/javascript/dom/dom-rect-read-only
-bear @cluesurf/base/code/javascript/dom/dom-string-list
-bear @cluesurf/base/code/javascript/dom/dom-string-map
-bear @cluesurf/base/code/javascript/dom/dom-token-list
-bear @cluesurf/base/code/javascript/dom/data-transfer
-bear @cluesurf/base/code/javascript/dom/data-transfer-item
-bear @cluesurf/base/code/javascript/dom/data-transfer-item-list
-bear @cluesurf/base/code/javascript/dom/delay-node
-bear @cluesurf/base/code/javascript/dom/device-motion-event
-bear @cluesurf/base/code/javascript/dom/device-motion-event-acceleration
-bear @cluesurf/base/code/javascript/dom/device-motion-event-rotation-rate
-bear @cluesurf/base/code/javascript/dom/device-orientation-event
-bear @cluesurf/base/code/javascript/dom/document-event-map
-bear @cluesurf/base/code/javascript/dom/document
-bear @cluesurf/base/code/javascript/dom/document-and-element-event-handlers-event-map
-bear @cluesurf/base/code/javascript/dom/document-and-element-event-handlers
-bear @cluesurf/base/code/javascript/dom/document-fragment
-bear @cluesurf/base/code/javascript/dom/document-or-shadow-root
-bear @cluesurf/base/code/javascript/dom/document-timeline
-bear @cluesurf/base/code/javascript/dom/document-type
-bear @cluesurf/base/code/javascript/dom/drag-event
-bear @cluesurf/base/code/javascript/dom/dynamics-compressor-node
-bear @cluesurf/base/code/javascript/dom/ext-blend-minmax
-bear @cluesurf/base/code/javascript/dom/ext-color-buffer-float
-bear @cluesurf/base/code/javascript/dom/ext-color-buffer-half-float
-bear @cluesurf/base/code/javascript/dom/ext-float-blend
-bear @cluesurf/base/code/javascript/dom/ext-frag-depth
-bear @cluesurf/base/code/javascript/dom/ext-s-rgb
-bear @cluesurf/base/code/javascript/dom/ext-shader-texture-lod
-bear @cluesurf/base/code/javascript/dom/ext-texture-compression-rgtc
-bear @cluesurf/base/code/javascript/dom/ext-texture-filter-anisotropic
-bear @cluesurf/base/code/javascript/dom/element-event-map
-bear @cluesurf/base/code/javascript/dom/element
-bear @cluesurf/base/code/javascript/dom/element-css-inline-style
-bear @cluesurf/base/code/javascript/dom/element-content-editable
-bear @cluesurf/base/code/javascript/dom/error-event
-bear @cluesurf/base/code/javascript/dom/event
-bear @cluesurf/base/code/javascript/dom/event-listener
-bear @cluesurf/base/code/javascript/dom/event-listener-object
-bear @cluesurf/base/code/javascript/dom/event-source-event-map
-bear @cluesurf/base/code/javascript/dom/event-source
-bear @cluesurf/base/code/javascript/dom/event-target
-bear @cluesurf/base/code/javascript/dom/external
-bear @cluesurf/base/code/javascript/dom/file
-bear @cluesurf/base/code/javascript/dom/file-list
-bear @cluesurf/base/code/javascript/dom/file-reader-event-map
-bear @cluesurf/base/code/javascript/dom/file-reader
-bear @cluesurf/base/code/javascript/dom/file-system
-bear @cluesurf/base/code/javascript/dom/file-system-directory-entry
-bear @cluesurf/base/code/javascript/dom/file-system-directory-reader
-bear @cluesurf/base/code/javascript/dom/file-system-entry
-bear @cluesurf/base/code/javascript/dom/file-system-file-entry
-bear @cluesurf/base/code/javascript/dom/focus-event
-bear @cluesurf/base/code/javascript/dom/font-face
-bear @cluesurf/base/code/javascript/dom/font-face-set-event-map
-bear @cluesurf/base/code/javascript/dom/font-face-set
-bear @cluesurf/base/code/javascript/dom/font-face-set-load-event
-bear @cluesurf/base/code/javascript/dom/font-face-source
-bear @cluesurf/base/code/javascript/dom/form-data
-bear @cluesurf/base/code/javascript/dom/form-data-event
-bear @cluesurf/base/code/javascript/dom/gain-node
-bear @cluesurf/base/code/javascript/dom/gamepad
-bear @cluesurf/base/code/javascript/dom/gamepad-button
-bear @cluesurf/base/code/javascript/dom/gamepad-event
-bear @cluesurf/base/code/javascript/dom/gamepad-haptic-actuator
-bear @cluesurf/base/code/javascript/dom/generic-transform-stream
-bear @cluesurf/base/code/javascript/dom/geolocation
-bear @cluesurf/base/code/javascript/dom/geolocation-coordinates
-bear @cluesurf/base/code/javascript/dom/geolocation-position
-bear @cluesurf/base/code/javascript/dom/geolocation-position-error
-bear @cluesurf/base/code/javascript/dom/global-event-handlers-event-map
-bear @cluesurf/base/code/javascript/dom/global-event-handlers
-bear @cluesurf/base/code/javascript/dom/html-all-collection
-bear @cluesurf/base/code/javascript/dom/html-anchor-element
-bear @cluesurf/base/code/javascript/dom/html-area-element
-bear @cluesurf/base/code/javascript/dom/html-audio-element
-bear @cluesurf/base/code/javascript/dom/htmlbr-element
-bear @cluesurf/base/code/javascript/dom/html-base-element
-bear @cluesurf/base/code/javascript/dom/html-body-element-event-map
-bear @cluesurf/base/code/javascript/dom/html-body-element
-bear @cluesurf/base/code/javascript/dom/html-button-element
-bear @cluesurf/base/code/javascript/dom/html-canvas-element
-bear @cluesurf/base/code/javascript/dom/html-collection-base
-bear @cluesurf/base/code/javascript/dom/html-collection
-bear @cluesurf/base/code/javascript/dom/html-collection-of
-bear @cluesurf/base/code/javascript/dom/htmld-list-element
-bear @cluesurf/base/code/javascript/dom/html-data-element
-bear @cluesurf/base/code/javascript/dom/html-data-list-element
-bear @cluesurf/base/code/javascript/dom/html-details-element
-bear @cluesurf/base/code/javascript/dom/html-dialog-element
-bear @cluesurf/base/code/javascript/dom/html-directory-element
-bear @cluesurf/base/code/javascript/dom/html-div-element
-bear @cluesurf/base/code/javascript/dom/html-document
-bear @cluesurf/base/code/javascript/dom/html-element-event-map
-bear @cluesurf/base/code/javascript/dom/html-element
-bear @cluesurf/base/code/javascript/dom/html-embed-element
-bear @cluesurf/base/code/javascript/dom/html-field-set-element
-bear @cluesurf/base/code/javascript/dom/html-font-element
-bear @cluesurf/base/code/javascript/dom/html-form-controls-collection
-bear @cluesurf/base/code/javascript/dom/html-form-element
-bear @cluesurf/base/code/javascript/dom/html-frame-element
-bear @cluesurf/base/code/javascript/dom/html-frame-set-element-event-map
-bear @cluesurf/base/code/javascript/dom/html-frame-set-element
-bear @cluesurf/base/code/javascript/dom/htmlhr-element
-bear @cluesurf/base/code/javascript/dom/html-head-element
-bear @cluesurf/base/code/javascript/dom/html-heading-element
-bear @cluesurf/base/code/javascript/dom/html-html-element
-bear @cluesurf/base/code/javascript/dom/html-hyperlink-element-utils
-bear @cluesurf/base/code/javascript/dom/htmli-frame-element
-bear @cluesurf/base/code/javascript/dom/html-image-element
-bear @cluesurf/base/code/javascript/dom/html-input-element
-bear @cluesurf/base/code/javascript/dom/htmlli-element
-bear @cluesurf/base/code/javascript/dom/html-label-element
-bear @cluesurf/base/code/javascript/dom/html-legend-element
-bear @cluesurf/base/code/javascript/dom/html-link-element
-bear @cluesurf/base/code/javascript/dom/html-map-element
-bear @cluesurf/base/code/javascript/dom/html-marquee-element
-bear @cluesurf/base/code/javascript/dom/html-media-element-event-map
-bear @cluesurf/base/code/javascript/dom/html-media-element
-bear @cluesurf/base/code/javascript/dom/html-menu-element
-bear @cluesurf/base/code/javascript/dom/html-meta-element
-bear @cluesurf/base/code/javascript/dom/html-meter-element
-bear @cluesurf/base/code/javascript/dom/html-mod-element
-bear @cluesurf/base/code/javascript/dom/htmlo-list-element
-bear @cluesurf/base/code/javascript/dom/html-object-element
-bear @cluesurf/base/code/javascript/dom/html-opt-group-element
-bear @cluesurf/base/code/javascript/dom/html-option-element
-bear @cluesurf/base/code/javascript/dom/html-options-collection
-bear @cluesurf/base/code/javascript/dom/html-or-svg-element
-bear @cluesurf/base/code/javascript/dom/html-output-element
-bear @cluesurf/base/code/javascript/dom/html-paragraph-element
-bear @cluesurf/base/code/javascript/dom/html-param-element
-bear @cluesurf/base/code/javascript/dom/html-picture-element
-bear @cluesurf/base/code/javascript/dom/html-pre-element
-bear @cluesurf/base/code/javascript/dom/html-progress-element
-bear @cluesurf/base/code/javascript/dom/html-quote-element
-bear @cluesurf/base/code/javascript/dom/html-script-element
-bear @cluesurf/base/code/javascript/dom/html-select-element
-bear @cluesurf/base/code/javascript/dom/html-slot-element
-bear @cluesurf/base/code/javascript/dom/html-source-element
-bear @cluesurf/base/code/javascript/dom/html-span-element
-bear @cluesurf/base/code/javascript/dom/html-style-element
-bear @cluesurf/base/code/javascript/dom/html-table-caption-element
-bear @cluesurf/base/code/javascript/dom/html-table-cell-element
-bear @cluesurf/base/code/javascript/dom/html-table-col-element
-bear @cluesurf/base/code/javascript/dom/html-table-data-cell-element
-bear @cluesurf/base/code/javascript/dom/html-table-element
-bear @cluesurf/base/code/javascript/dom/html-table-header-cell-element
-bear @cluesurf/base/code/javascript/dom/html-table-row-element
-bear @cluesurf/base/code/javascript/dom/html-table-section-element
-bear @cluesurf/base/code/javascript/dom/html-template-element
-bear @cluesurf/base/code/javascript/dom/html-text-area-element
-bear @cluesurf/base/code/javascript/dom/html-time-element
-bear @cluesurf/base/code/javascript/dom/html-title-element
-bear @cluesurf/base/code/javascript/dom/html-track-element
-bear @cluesurf/base/code/javascript/dom/htmlu-list-element
-bear @cluesurf/base/code/javascript/dom/html-unknown-element
-bear @cluesurf/base/code/javascript/dom/html-video-element-event-map
-bear @cluesurf/base/code/javascript/dom/html-video-element
-bear @cluesurf/base/code/javascript/dom/hash-change-event
-bear @cluesurf/base/code/javascript/dom/headers
-bear @cluesurf/base/code/javascript/dom/history
-bear @cluesurf/base/code/javascript/dom/idb-cursor
-bear @cluesurf/base/code/javascript/dom/idb-cursor-with-value
-bear @cluesurf/base/code/javascript/dom/idb-database-event-map
-bear @cluesurf/base/code/javascript/dom/idb-database
-bear @cluesurf/base/code/javascript/dom/idb-factory
-bear @cluesurf/base/code/javascript/dom/idb-index
-bear @cluesurf/base/code/javascript/dom/idb-key-range
-bear @cluesurf/base/code/javascript/dom/idb-object-store
-bear @cluesurf/base/code/javascript/dom/idb-open-db-request-event-map
-bear @cluesurf/base/code/javascript/dom/idb-open-db-request
-bear @cluesurf/base/code/javascript/dom/idb-request-event-map
-bear @cluesurf/base/code/javascript/dom/idb-request
-bear @cluesurf/base/code/javascript/dom/idb-transaction-event-map
-bear @cluesurf/base/code/javascript/dom/idb-transaction
-bear @cluesurf/base/code/javascript/dom/idb-version-change-event
-bear @cluesurf/base/code/javascript/dom/iir-filter-node
-bear @cluesurf/base/code/javascript/dom/idle-deadline
-bear @cluesurf/base/code/javascript/dom/image-bitmap
-bear @cluesurf/base/code/javascript/dom/image-bitmap-rendering-context
-bear @cluesurf/base/code/javascript/dom/image-data
-bear @cluesurf/base/code/javascript/dom/inner-html
-bear @cluesurf/base/code/javascript/dom/input-event
-bear @cluesurf/base/code/javascript/dom/intersection-observer
-bear @cluesurf/base/code/javascript/dom/intersection-observer-entry
-bear @cluesurf/base/code/javascript/dom/khr-parallel-shader-compile
-bear @cluesurf/base/code/javascript/dom/keyboard-event
-bear @cluesurf/base/code/javascript/dom/keyframe-effect
-bear @cluesurf/base/code/javascript/dom/link-style
-bear @cluesurf/base/code/javascript/dom/location
-bear @cluesurf/base/code/javascript/dom/math-ml-element-event-map
-bear @cluesurf/base/code/javascript/dom/math-ml-element
-bear @cluesurf/base/code/javascript/dom/media-capabilities
-bear @cluesurf/base/code/javascript/dom/media-device-info
-bear @cluesurf/base/code/javascript/dom/media-devices-event-map
-bear @cluesurf/base/code/javascript/dom/media-devices
-bear @cluesurf/base/code/javascript/dom/media-element-audio-source-node
-bear @cluesurf/base/code/javascript/dom/media-encrypted-event
-bear @cluesurf/base/code/javascript/dom/media-error
-bear @cluesurf/base/code/javascript/dom/media-key-message-event
-bear @cluesurf/base/code/javascript/dom/media-key-session-event-map
-bear @cluesurf/base/code/javascript/dom/media-key-session
-bear @cluesurf/base/code/javascript/dom/media-key-status-map
-bear @cluesurf/base/code/javascript/dom/media-key-system-access
-bear @cluesurf/base/code/javascript/dom/media-keys
-bear @cluesurf/base/code/javascript/dom/media-list
-bear @cluesurf/base/code/javascript/dom/media-metadata
-bear @cluesurf/base/code/javascript/dom/media-query-list-event-map
-bear @cluesurf/base/code/javascript/dom/media-query-list
-bear @cluesurf/base/code/javascript/dom/media-query-list-event
-bear @cluesurf/base/code/javascript/dom/media-recorder-event-map
-bear @cluesurf/base/code/javascript/dom/media-recorder
-bear @cluesurf/base/code/javascript/dom/media-recorder-error-event
-bear @cluesurf/base/code/javascript/dom/media-session
-bear @cluesurf/base/code/javascript/dom/media-source-event-map
-bear @cluesurf/base/code/javascript/dom/media-source
-bear @cluesurf/base/code/javascript/dom/media-stream-event-map
-bear @cluesurf/base/code/javascript/dom/media-stream
-bear @cluesurf/base/code/javascript/dom/media-stream-audio-destination-node
-bear @cluesurf/base/code/javascript/dom/media-stream-audio-source-node
-bear @cluesurf/base/code/javascript/dom/media-stream-track-event-map
-bear @cluesurf/base/code/javascript/dom/media-stream-track
-bear @cluesurf/base/code/javascript/dom/media-stream-track-event
-bear @cluesurf/base/code/javascript/dom/message-channel
-bear @cluesurf/base/code/javascript/dom/message-event
-bear @cluesurf/base/code/javascript/dom/message-port-event-map
-bear @cluesurf/base/code/javascript/dom/message-port
-bear @cluesurf/base/code/javascript/dom/mime-type
-bear @cluesurf/base/code/javascript/dom/mime-type-array
-bear @cluesurf/base/code/javascript/dom/mouse-event
-bear @cluesurf/base/code/javascript/dom/mutation-event
-bear @cluesurf/base/code/javascript/dom/mutation-observer
-bear @cluesurf/base/code/javascript/dom/mutation-record
-bear @cluesurf/base/code/javascript/dom/named-node-map
-bear @cluesurf/base/code/javascript/dom/navigator
-bear @cluesurf/base/code/javascript/dom/navigator-automation-information
-bear @cluesurf/base/code/javascript/dom/navigator-concurrent-hardware
-bear @cluesurf/base/code/javascript/dom/navigator-content-utils
-bear @cluesurf/base/code/javascript/dom/navigator-cookies
-bear @cluesurf/base/code/javascript/dom/navigator-id
-bear @cluesurf/base/code/javascript/dom/navigator-language
-bear @cluesurf/base/code/javascript/dom/navigator-network-information
-bear @cluesurf/base/code/javascript/dom/navigator-on-line
-bear @cluesurf/base/code/javascript/dom/navigator-plugins
-bear @cluesurf/base/code/javascript/dom/navigator-storage
-bear @cluesurf/base/code/javascript/dom/network-information
-bear @cluesurf/base/code/javascript/dom/node
-bear @cluesurf/base/code/javascript/dom/node-iterator
-bear @cluesurf/base/code/javascript/dom/node-list
-bear @cluesurf/base/code/javascript/dom/node-list-of
-bear @cluesurf/base/code/javascript/dom/non-document-type-child-node
-bear @cluesurf/base/code/javascript/dom/non-element-parent-node
-bear @cluesurf/base/code/javascript/dom/notification-event-map
-bear @cluesurf/base/code/javascript/dom/notification
-bear @cluesurf/base/code/javascript/dom/oes-element-index-uint
-bear @cluesurf/base/code/javascript/dom/oes-fbo-render-mipmap
-bear @cluesurf/base/code/javascript/dom/oes-standard-derivatives
-bear @cluesurf/base/code/javascript/dom/oes-texture-float
-bear @cluesurf/base/code/javascript/dom/oes-texture-float-linear
-bear @cluesurf/base/code/javascript/dom/oes-texture-half-float
-bear @cluesurf/base/code/javascript/dom/oes-texture-half-float-linear
-bear @cluesurf/base/code/javascript/dom/oes-vertex-array-object
-bear @cluesurf/base/code/javascript/dom/ovr-multiview2
-bear @cluesurf/base/code/javascript/dom/offline-audio-completion-event
-bear @cluesurf/base/code/javascript/dom/offline-audio-context-event-map
-bear @cluesurf/base/code/javascript/dom/offline-audio-context
-bear @cluesurf/base/code/javascript/dom/offscreen-canvas
-bear @cluesurf/base/code/javascript/dom/oscillator-node
-bear @cluesurf/base/code/javascript/dom/overconstrained-error
-bear @cluesurf/base/code/javascript/dom/page-transition-event
-bear @cluesurf/base/code/javascript/dom/panner-node
-bear @cluesurf/base/code/javascript/dom/parent-node
-bear @cluesurf/base/code/javascript/dom/path2-d
-bear @cluesurf/base/code/javascript/dom/payment-address
-bear @cluesurf/base/code/javascript/dom/payment-method-change-event
-bear @cluesurf/base/code/javascript/dom/payment-request-event-map
-bear @cluesurf/base/code/javascript/dom/payment-request
-bear @cluesurf/base/code/javascript/dom/payment-request-update-event
-bear @cluesurf/base/code/javascript/dom/payment-response
-bear @cluesurf/base/code/javascript/dom/performance-event-map
-bear @cluesurf/base/code/javascript/dom/performance
-bear @cluesurf/base/code/javascript/dom/performance-entry
-bear @cluesurf/base/code/javascript/dom/performance-event-timing
-bear @cluesurf/base/code/javascript/dom/performance-mark
-bear @cluesurf/base/code/javascript/dom/performance-measure
-bear @cluesurf/base/code/javascript/dom/performance-navigation
-bear @cluesurf/base/code/javascript/dom/performance-navigation-timing
-bear @cluesurf/base/code/javascript/dom/performance-observer
-bear @cluesurf/base/code/javascript/dom/performance-observer-entry-list
-bear @cluesurf/base/code/javascript/dom/performance-paint-timing
-bear @cluesurf/base/code/javascript/dom/performance-resource-timing
-bear @cluesurf/base/code/javascript/dom/performance-server-timing
-bear @cluesurf/base/code/javascript/dom/performance-timing
-bear @cluesurf/base/code/javascript/dom/periodic-wave
-bear @cluesurf/base/code/javascript/dom/permission-status-event-map
-bear @cluesurf/base/code/javascript/dom/permission-status
-bear @cluesurf/base/code/javascript/dom/permissions
-bear @cluesurf/base/code/javascript/dom/picture-in-picture-window-event-map
-bear @cluesurf/base/code/javascript/dom/picture-in-picture-window
-bear @cluesurf/base/code/javascript/dom/plugin
-bear @cluesurf/base/code/javascript/dom/plugin-array
-bear @cluesurf/base/code/javascript/dom/pointer-event
-bear @cluesurf/base/code/javascript/dom/pop-state-event
-bear @cluesurf/base/code/javascript/dom/processing-instruction
-bear @cluesurf/base/code/javascript/dom/progress-event
-bear @cluesurf/base/code/javascript/dom/promise-rejection-event
-bear @cluesurf/base/code/javascript/dom/public-key-credential
-bear @cluesurf/base/code/javascript/dom/push-manager
-bear @cluesurf/base/code/javascript/dom/push-subscription
-bear @cluesurf/base/code/javascript/dom/push-subscription-options
-bear @cluesurf/base/code/javascript/dom/rtc-certificate
-bear @cluesurf/base/code/javascript/dom/rtcdtmf-sender-event-map
-bear @cluesurf/base/code/javascript/dom/rtcdtmf-sender
-bear @cluesurf/base/code/javascript/dom/rtcdtmf-tone-change-event
-bear @cluesurf/base/code/javascript/dom/rtc-data-channel-event-map
-bear @cluesurf/base/code/javascript/dom/rtc-data-channel
-bear @cluesurf/base/code/javascript/dom/rtc-data-channel-event
-bear @cluesurf/base/code/javascript/dom/rtc-dtls-transport-event-map
-bear @cluesurf/base/code/javascript/dom/rtc-dtls-transport
-bear @cluesurf/base/code/javascript/dom/rtc-ice-candidate
-bear @cluesurf/base/code/javascript/dom/rtc-ice-transport
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-event-map
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-ice-error-event
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-ice-event
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-receiver
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-sender
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-transceiver
-bear @cluesurf/base/code/javascript/dom/rtc-session-description
-bear @cluesurf/base/code/javascript/dom/rtc-stats-report
-bear @cluesurf/base/code/javascript/dom/rtc-track-event
-bear @cluesurf/base/code/javascript/dom/radio-node-list
-bear @cluesurf/base/code/javascript/dom/range
-bear @cluesurf/base/code/javascript/dom/readable-stream
-bear @cluesurf/base/code/javascript/dom/readable-stream-default-controller
-bear @cluesurf/base/code/javascript/dom/readable-stream-default-reader
-bear @cluesurf/base/code/javascript/dom/readable-stream-generic-reader
-bear @cluesurf/base/code/javascript/dom/remote-playback-event-map
-bear @cluesurf/base/code/javascript/dom/remote-playback
-bear @cluesurf/base/code/javascript/dom/request
-bear @cluesurf/base/code/javascript/dom/resize-observer
-bear @cluesurf/base/code/javascript/dom/resize-observer-entry
-bear @cluesurf/base/code/javascript/dom/resize-observer-size
-bear @cluesurf/base/code/javascript/dom/response
-bear @cluesurf/base/code/javascript/dom/svga-element
-bear @cluesurf/base/code/javascript/dom/svg-angle
-bear @cluesurf/base/code/javascript/dom/svg-animate-element
-bear @cluesurf/base/code/javascript/dom/svg-animate-motion-element
-bear @cluesurf/base/code/javascript/dom/svg-animate-transform-element
-bear @cluesurf/base/code/javascript/dom/svg-animated-angle
-bear @cluesurf/base/code/javascript/dom/svg-animated-boolean
-bear @cluesurf/base/code/javascript/dom/svg-animated-enumeration
-bear @cluesurf/base/code/javascript/dom/svg-animated-integer
-bear @cluesurf/base/code/javascript/dom/svg-animated-length
-bear @cluesurf/base/code/javascript/dom/svg-animated-length-list
-bear @cluesurf/base/code/javascript/dom/svg-animated-number
-bear @cluesurf/base/code/javascript/dom/svg-animated-number-list
-bear @cluesurf/base/code/javascript/dom/svg-animated-points
-bear @cluesurf/base/code/javascript/dom/svg-animated-preserve-aspect-ratio
-bear @cluesurf/base/code/javascript/dom/svg-animated-rect
-bear @cluesurf/base/code/javascript/dom/svg-animated-string
-bear @cluesurf/base/code/javascript/dom/svg-animated-transform-list
-bear @cluesurf/base/code/javascript/dom/svg-animation-element
-bear @cluesurf/base/code/javascript/dom/svg-circle-element
-bear @cluesurf/base/code/javascript/dom/svg-clip-path-element
-bear @cluesurf/base/code/javascript/dom/svg-component-transfer-function-element
-bear @cluesurf/base/code/javascript/dom/svg-cursor-element
-bear @cluesurf/base/code/javascript/dom/svg-defs-element
-bear @cluesurf/base/code/javascript/dom/svg-desc-element
-bear @cluesurf/base/code/javascript/dom/svg-element-event-map
-bear @cluesurf/base/code/javascript/dom/svg-element
-bear @cluesurf/base/code/javascript/dom/svg-ellipse-element
-bear @cluesurf/base/code/javascript/dom/svgfe-blend-element
-bear @cluesurf/base/code/javascript/dom/svgfe-color-matrix-element
-bear @cluesurf/base/code/javascript/dom/svgfe-component-transfer-element
-bear @cluesurf/base/code/javascript/dom/svgfe-composite-element
-bear @cluesurf/base/code/javascript/dom/svgfe-convolve-matrix-element
-bear @cluesurf/base/code/javascript/dom/svgfe-diffuse-lighting-element
-bear @cluesurf/base/code/javascript/dom/svgfe-displacement-map-element
-bear @cluesurf/base/code/javascript/dom/svgfe-distant-light-element
-bear @cluesurf/base/code/javascript/dom/svgfe-drop-shadow-element
-bear @cluesurf/base/code/javascript/dom/svgfe-flood-element
-bear @cluesurf/base/code/javascript/dom/svgfe-func-a-element
-bear @cluesurf/base/code/javascript/dom/svgfe-func-b-element
-bear @cluesurf/base/code/javascript/dom/svgfe-func-g-element
-bear @cluesurf/base/code/javascript/dom/svgfe-func-r-element
-bear @cluesurf/base/code/javascript/dom/svgfe-gaussian-blur-element
-bear @cluesurf/base/code/javascript/dom/svgfe-image-element
-bear @cluesurf/base/code/javascript/dom/svgfe-merge-element
-bear @cluesurf/base/code/javascript/dom/svgfe-merge-node-element
-bear @cluesurf/base/code/javascript/dom/svgfe-morphology-element
-bear @cluesurf/base/code/javascript/dom/svgfe-offset-element
-bear @cluesurf/base/code/javascript/dom/svgfe-point-light-element
-bear @cluesurf/base/code/javascript/dom/svgfe-specular-lighting-element
-bear @cluesurf/base/code/javascript/dom/svgfe-spot-light-element
-bear @cluesurf/base/code/javascript/dom/svgfe-tile-element
-bear @cluesurf/base/code/javascript/dom/svgfe-turbulence-element
-bear @cluesurf/base/code/javascript/dom/svg-filter-element
-bear @cluesurf/base/code/javascript/dom/svg-filter-primitive-standard-attributes
-bear @cluesurf/base/code/javascript/dom/svg-fit-to-view-box
-bear @cluesurf/base/code/javascript/dom/svg-foreign-object-element
-bear @cluesurf/base/code/javascript/dom/svgg-element
-bear @cluesurf/base/code/javascript/dom/svg-geometry-element
-bear @cluesurf/base/code/javascript/dom/svg-gradient-element
-bear @cluesurf/base/code/javascript/dom/svg-graphics-element
-bear @cluesurf/base/code/javascript/dom/svg-image-element
-bear @cluesurf/base/code/javascript/dom/svg-length
-bear @cluesurf/base/code/javascript/dom/svg-length-list
-bear @cluesurf/base/code/javascript/dom/svg-line-element
-bear @cluesurf/base/code/javascript/dom/svg-linear-gradient-element
-bear @cluesurf/base/code/javascript/dom/svgm-path-element
-bear @cluesurf/base/code/javascript/dom/svg-marker-element
-bear @cluesurf/base/code/javascript/dom/svg-mask-element
-bear @cluesurf/base/code/javascript/dom/svg-metadata-element
-bear @cluesurf/base/code/javascript/dom/svg-number
-bear @cluesurf/base/code/javascript/dom/svg-number-list
-bear @cluesurf/base/code/javascript/dom/svg-path-element
-bear @cluesurf/base/code/javascript/dom/svg-pattern-element
-bear @cluesurf/base/code/javascript/dom/svg-point-list
-bear @cluesurf/base/code/javascript/dom/svg-polygon-element
-bear @cluesurf/base/code/javascript/dom/svg-polyline-element
-bear @cluesurf/base/code/javascript/dom/svg-preserve-aspect-ratio
-bear @cluesurf/base/code/javascript/dom/svg-radial-gradient-element
-bear @cluesurf/base/code/javascript/dom/svg-rect-element
-bear @cluesurf/base/code/javascript/dom/svgsvg-element-event-map
-bear @cluesurf/base/code/javascript/dom/svgsvg-element
-bear @cluesurf/base/code/javascript/dom/svg-script-element
-bear @cluesurf/base/code/javascript/dom/svg-set-element
-bear @cluesurf/base/code/javascript/dom/svg-stop-element
-bear @cluesurf/base/code/javascript/dom/svg-string-list
-bear @cluesurf/base/code/javascript/dom/svg-style-element
-bear @cluesurf/base/code/javascript/dom/svg-switch-element
-bear @cluesurf/base/code/javascript/dom/svg-symbol-element
-bear @cluesurf/base/code/javascript/dom/svgt-span-element
-bear @cluesurf/base/code/javascript/dom/svg-tests
-bear @cluesurf/base/code/javascript/dom/svg-text-content-element
-bear @cluesurf/base/code/javascript/dom/svg-text-element
-bear @cluesurf/base/code/javascript/dom/svg-text-path-element
-bear @cluesurf/base/code/javascript/dom/svg-text-positioning-element
-bear @cluesurf/base/code/javascript/dom/svg-title-element
-bear @cluesurf/base/code/javascript/dom/svg-transform
-bear @cluesurf/base/code/javascript/dom/svg-transform-list
-bear @cluesurf/base/code/javascript/dom/svguri-reference
-bear @cluesurf/base/code/javascript/dom/svg-unit-types
-bear @cluesurf/base/code/javascript/dom/svg-use-element
-bear @cluesurf/base/code/javascript/dom/svg-view-element
-bear @cluesurf/base/code/javascript/dom/screen
-bear @cluesurf/base/code/javascript/dom/screen-orientation-event-map
-bear @cluesurf/base/code/javascript/dom/screen-orientation
-bear @cluesurf/base/code/javascript/dom/script-processor-node-event-map
-bear @cluesurf/base/code/javascript/dom/script-processor-node
-bear @cluesurf/base/code/javascript/dom/security-policy-violation-event
-bear @cluesurf/base/code/javascript/dom/selection
-bear @cluesurf/base/code/javascript/dom/service-worker-event-map
-bear @cluesurf/base/code/javascript/dom/service-worker
-bear @cluesurf/base/code/javascript/dom/service-worker-container-event-map
-bear @cluesurf/base/code/javascript/dom/service-worker-container
-bear @cluesurf/base/code/javascript/dom/service-worker-registration-event-map
-bear @cluesurf/base/code/javascript/dom/service-worker-registration
-bear @cluesurf/base/code/javascript/dom/shadow-root
-bear @cluesurf/base/code/javascript/dom/shared-worker
-bear @cluesurf/base/code/javascript/dom/slottable
-bear @cluesurf/base/code/javascript/dom/source-buffer-event-map
-bear @cluesurf/base/code/javascript/dom/source-buffer
-bear @cluesurf/base/code/javascript/dom/source-buffer-list-event-map
-bear @cluesurf/base/code/javascript/dom/source-buffer-list
-bear @cluesurf/base/code/javascript/dom/speech-recognition-alternative
-bear @cluesurf/base/code/javascript/dom/speech-recognition-error-event
-bear @cluesurf/base/code/javascript/dom/speech-recognition-result
-bear @cluesurf/base/code/javascript/dom/speech-recognition-result-list
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-event-map
-bear @cluesurf/base/code/javascript/dom/speech-synthesis
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-error-event
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-event
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-utterance-event-map
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-utterance
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-voice
-bear @cluesurf/base/code/javascript/dom/static-range
-bear @cluesurf/base/code/javascript/dom/stereo-panner-node
-bear @cluesurf/base/code/javascript/dom/storage
-bear @cluesurf/base/code/javascript/dom/storage-event
-bear @cluesurf/base/code/javascript/dom/storage-manager
-bear @cluesurf/base/code/javascript/dom/style-media
-bear @cluesurf/base/code/javascript/dom/style-sheet
-bear @cluesurf/base/code/javascript/dom/style-sheet-list
-bear @cluesurf/base/code/javascript/dom/submit-event
-bear @cluesurf/base/code/javascript/dom/subtle-crypto
-bear @cluesurf/base/code/javascript/dom/text
-bear @cluesurf/base/code/javascript/dom/text-decoder
-bear @cluesurf/base/code/javascript/dom/text-decoder-common
-bear @cluesurf/base/code/javascript/dom/text-decoder-stream
-bear @cluesurf/base/code/javascript/dom/text-encoder
-bear @cluesurf/base/code/javascript/dom/text-encoder-common
-bear @cluesurf/base/code/javascript/dom/text-encoder-stream
-bear @cluesurf/base/code/javascript/dom/text-metrics
-bear @cluesurf/base/code/javascript/dom/text-track-event-map
-bear @cluesurf/base/code/javascript/dom/text-track
-bear @cluesurf/base/code/javascript/dom/text-track-cue-event-map
-bear @cluesurf/base/code/javascript/dom/text-track-cue
-bear @cluesurf/base/code/javascript/dom/text-track-cue-list
-bear @cluesurf/base/code/javascript/dom/text-track-list-event-map
-bear @cluesurf/base/code/javascript/dom/text-track-list
-bear @cluesurf/base/code/javascript/dom/time-ranges
-bear @cluesurf/base/code/javascript/dom/touch
-bear @cluesurf/base/code/javascript/dom/touch-event
-bear @cluesurf/base/code/javascript/dom/touch-list
-bear @cluesurf/base/code/javascript/dom/track-event
-bear @cluesurf/base/code/javascript/dom/transform-stream
-bear @cluesurf/base/code/javascript/dom/transform-stream-default-controller
-bear @cluesurf/base/code/javascript/dom/transition-event
-bear @cluesurf/base/code/javascript/dom/tree-walker
-bear @cluesurf/base/code/javascript/dom/ui-event
-bear @cluesurf/base/code/javascript/dom/url
-bear @cluesurf/base/code/javascript/dom/webkit-url
-bear @cluesurf/base/code/javascript/dom/url-search-params
-bear @cluesurf/base/code/javascript/dom/vtt-cue
-bear @cluesurf/base/code/javascript/dom/vtt-region
-bear @cluesurf/base/code/javascript/dom/validity-state
-bear @cluesurf/base/code/javascript/dom/video-playback-quality
-bear @cluesurf/base/code/javascript/dom/visual-viewport-event-map
-bear @cluesurf/base/code/javascript/dom/visual-viewport
-bear @cluesurf/base/code/javascript/dom/webgl-color-buffer-float
-bear @cluesurf/base/code/javascript/dom/webgl-compressed-texture-astc
-bear @cluesurf/base/code/javascript/dom/webgl-compressed-texture-etc
-bear @cluesurf/base/code/javascript/dom/webgl-compressed-texture-etc1
-bear @cluesurf/base/code/javascript/dom/webgl-compressed-texture-pvrtc
-bear @cluesurf/base/code/javascript/dom/webgl-compressed-texture-s3tc
-bear @cluesurf/base/code/javascript/dom/webgl-compressed-texture-s3tc-srgb
-bear @cluesurf/base/code/javascript/dom/webgl-debug-renderer-info
-bear @cluesurf/base/code/javascript/dom/webgl-debug-shaders
-bear @cluesurf/base/code/javascript/dom/webgl-depth-texture
-bear @cluesurf/base/code/javascript/dom/webgl-draw-buffers
-bear @cluesurf/base/code/javascript/dom/webgl-lose-context
-bear @cluesurf/base/code/javascript/dom/wave-shaper-node
-bear @cluesurf/base/code/javascript/dom/web-gl2-rendering-context
-bear @cluesurf/base/code/javascript/dom/web-gl2-rendering-context-base
-bear @cluesurf/base/code/javascript/dom/web-gl2-rendering-context-overloads
-bear @cluesurf/base/code/javascript/dom/web-gl-active-info
-bear @cluesurf/base/code/javascript/dom/web-gl-buffer
-bear @cluesurf/base/code/javascript/dom/web-gl-context-event
-bear @cluesurf/base/code/javascript/dom/web-gl-framebuffer
-bear @cluesurf/base/code/javascript/dom/web-gl-program
-bear @cluesurf/base/code/javascript/dom/web-gl-query
-bear @cluesurf/base/code/javascript/dom/web-gl-renderbuffer
-bear @cluesurf/base/code/javascript/dom/web-gl-rendering-context
-bear @cluesurf/base/code/javascript/dom/web-gl-rendering-context-base
-bear @cluesurf/base/code/javascript/dom/web-gl-rendering-context-overloads
-bear @cluesurf/base/code/javascript/dom/web-gl-sampler
-bear @cluesurf/base/code/javascript/dom/web-gl-shader
-bear @cluesurf/base/code/javascript/dom/web-gl-shader-precision-format
-bear @cluesurf/base/code/javascript/dom/web-gl-sync
-bear @cluesurf/base/code/javascript/dom/web-gl-texture
-bear @cluesurf/base/code/javascript/dom/web-gl-transform-feedback
-bear @cluesurf/base/code/javascript/dom/web-gl-uniform-location
-bear @cluesurf/base/code/javascript/dom/web-gl-vertex-array-object
-bear @cluesurf/base/code/javascript/dom/web-gl-vertex-array-object-oes
-bear @cluesurf/base/code/javascript/dom/web-socket-event-map
-bear @cluesurf/base/code/javascript/dom/web-socket
-bear @cluesurf/base/code/javascript/dom/wheel-event
-bear @cluesurf/base/code/javascript/dom/window-event-map
-bear @cluesurf/base/code/javascript/dom/window
-bear @cluesurf/base/code/javascript/dom/window-event-handlers-event-map
-bear @cluesurf/base/code/javascript/dom/window-event-handlers
-bear @cluesurf/base/code/javascript/dom/window-local-storage
-bear @cluesurf/base/code/javascript/dom/window-or-worker-global-scope
-bear @cluesurf/base/code/javascript/dom/window-session-storage
-bear @cluesurf/base/code/javascript/dom/worker-event-map
-bear @cluesurf/base/code/javascript/dom/worker
-bear @cluesurf/base/code/javascript/dom/worklet
-bear @cluesurf/base/code/javascript/dom/writable-stream
-bear @cluesurf/base/code/javascript/dom/writable-stream-default-controller
-bear @cluesurf/base/code/javascript/dom/writable-stream-default-writer
-bear @cluesurf/base/code/javascript/dom/xml-document
-bear @cluesurf/base/code/javascript/dom/xml-http-request-event-map
-bear @cluesurf/base/code/javascript/dom/xml-http-request
-bear @cluesurf/base/code/javascript/dom/xml-http-request-event-target-event-map
-bear @cluesurf/base/code/javascript/dom/xml-http-request-event-target
-bear @cluesurf/base/code/javascript/dom/xml-http-request-upload
-bear @cluesurf/base/code/javascript/dom/xml-serializer
-bear @cluesurf/base/code/javascript/dom/x-path-evaluator
-bear @cluesurf/base/code/javascript/dom/x-path-evaluator-base
-bear @cluesurf/base/code/javascript/dom/x-path-expression
-bear @cluesurf/base/code/javascript/dom/x-path-result
-bear @cluesurf/base/code/javascript/dom/xslt-processor
-bear @cluesurf/base/code/javascript/dom/console
-bear @cluesurf/base/code/javascript/dom/css
-bear @cluesurf/base/code/javascript/dom/web-assembly
-bear @cluesurf/base/code/javascript/dom/blob-callback
-bear @cluesurf/base/code/javascript/dom/custom-element
-bear @cluesurf/base/code/javascript/dom/decode-error-callback
-bear @cluesurf/base/code/javascript/dom/decode-success-callback
-bear @cluesurf/base/code/javascript/dom/error-callback
-bear @cluesurf/base/code/javascript/dom/file-callback
-bear @cluesurf/base/code/javascript/dom/file-system-entries-callback
-bear @cluesurf/base/code/javascript/dom/file-system-entry-callback
-bear @cluesurf/base/code/javascript/dom/frame-request-callback
-bear @cluesurf/base/code/javascript/dom/function-string-callback
-bear @cluesurf/base/code/javascript/dom/idle-request-callback
-bear @cluesurf/base/code/javascript/dom/intersection-observer-callback
-bear @cluesurf/base/code/javascript/dom/media-session-action-handler
-bear @cluesurf/base/code/javascript/dom/mutation-callback
-bear @cluesurf/base/code/javascript/dom/notification-permission-callback
-bear @cluesurf/base/code/javascript/dom/on-before-unload-event-handler-non-null
-bear @cluesurf/base/code/javascript/dom/on-error-event-handler-non-null
-bear @cluesurf/base/code/javascript/dom/performance-observer-callback
-bear @cluesurf/base/code/javascript/dom/position-callback
-bear @cluesurf/base/code/javascript/dom/position-error-callback
-bear @cluesurf/base/code/javascript/dom/queuing-strategy-size
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-error-callback
-bear @cluesurf/base/code/javascript/dom/rtc-session-description-callback
-bear @cluesurf/base/code/javascript/dom/remote-playback-availability-callback
-bear @cluesurf/base/code/javascript/dom/resize-observer-callback
-bear @cluesurf/base/code/javascript/dom/transformer-flush-callback
-bear @cluesurf/base/code/javascript/dom/transformer-start-callback
-bear @cluesurf/base/code/javascript/dom/transformer-transform-callback
-bear @cluesurf/base/code/javascript/dom/underlying-sink-abort-callback
-bear @cluesurf/base/code/javascript/dom/underlying-sink-close-callback
-bear @cluesurf/base/code/javascript/dom/underlying-sink-start-callback
-bear @cluesurf/base/code/javascript/dom/underlying-sink-write-callback
-bear @cluesurf/base/code/javascript/dom/underlying-source-cancel-callback
-bear @cluesurf/base/code/javascript/dom/underlying-source-pull-callback
-bear @cluesurf/base/code/javascript/dom/underlying-source-start-callback
-bear @cluesurf/base/code/javascript/dom/void-function
-bear @cluesurf/base/code/javascript/dom/html-element-tag-name-map
-bear @cluesurf/base/code/javascript/dom/html-element-deprecated-tag-name-map
-bear @cluesurf/base/code/javascript/dom/svg-element-tag-name-map
-bear @cluesurf/base/code/javascript/dom/element-tag-name-map
-bear @cluesurf/base/code/javascript/dom/algorithm-identifier
-bear @cluesurf/base/code/javascript/dom/big-integer
-bear @cluesurf/base/code/javascript/dom/binary-data
-bear @cluesurf/base/code/javascript/dom/blob-part
-bear @cluesurf/base/code/javascript/dom/body-init
-bear @cluesurf/base/code/javascript/dom/buffer-source
-bear @cluesurf/base/code/javascript/dom/cose-algorithm-identifier
-bear @cluesurf/base/code/javascript/dom/canvas-image-source
-bear @cluesurf/base/code/javascript/dom/clipboard-item-data
-bear @cluesurf/base/code/javascript/dom/clipboard-item-data-type
-bear @cluesurf/base/code/javascript/dom/clipboard-items
-bear @cluesurf/base/code/javascript/dom/constrain-boolean
-bear @cluesurf/base/code/javascript/dom/constrain-dom-string
-bear @cluesurf/base/code/javascript/dom/constrain-double
-bear @cluesurf/base/code/javascript/dom/constrain-u-long
-bear @cluesurf/base/code/javascript/dom/dom-high-res-time-stamp
-bear @cluesurf/base/code/javascript/dom/dom-time-stamp
-bear @cluesurf/base/code/javascript/dom/event-listener-or-event-listener-object
-bear @cluesurf/base/code/javascript/dom/float32-list
-bear @cluesurf/base/code/javascript/dom/form-data-entry-value
-bear @cluesurf/base/code/javascript/dom/g-lbitfield
-bear @cluesurf/base/code/javascript/dom/g-lboolean
-bear @cluesurf/base/code/javascript/dom/g-lclampf
-bear @cluesurf/base/code/javascript/dom/g-lenum
-bear @cluesurf/base/code/javascript/dom/g-lfloat
-bear @cluesurf/base/code/javascript/dom/g-lint
-bear @cluesurf/base/code/javascript/dom/g-lint64
-bear @cluesurf/base/code/javascript/dom/g-lintptr
-bear @cluesurf/base/code/javascript/dom/g-lsizei
-bear @cluesurf/base/code/javascript/dom/g-lsizeiptr
-bear @cluesurf/base/code/javascript/dom/g-luint
-bear @cluesurf/base/code/javascript/dom/g-luint64
-bear @cluesurf/base/code/javascript/dom/html-or-svg-image-element
-bear @cluesurf/base/code/javascript/dom/html-or-svg-script-element
-bear @cluesurf/base/code/javascript/dom/hash-algorithm-identifier
-bear @cluesurf/base/code/javascript/dom/headers-init
-bear @cluesurf/base/code/javascript/dom/idb-valid-key
-bear @cluesurf/base/code/javascript/dom/image-bitmap-source
-bear @cluesurf/base/code/javascript/dom/insert-position
-bear @cluesurf/base/code/javascript/dom/int32-list
-bear @cluesurf/base/code/javascript/dom/line-and-position-setting
-bear @cluesurf/base/code/javascript/dom/media-provider
-bear @cluesurf/base/code/javascript/dom/message-event-source
-bear @cluesurf/base/code/javascript/dom/mutation-record-type
-bear @cluesurf/base/code/javascript/dom/named-curve
-bear @cluesurf/base/code/javascript/dom/on-before-unload-event-handler
-bear @cluesurf/base/code/javascript/dom/on-error-event-handler
-bear @cluesurf/base/code/javascript/dom/performance-entry-list
-bear @cluesurf/base/code/javascript/dom/readable-stream-controller
-bear @cluesurf/base/code/javascript/dom/readable-stream-default-read-result
-bear @cluesurf/base/code/javascript/dom/readable-stream-reader
-bear @cluesurf/base/code/javascript/dom/rendering-context
-bear @cluesurf/base/code/javascript/dom/request-info
-bear @cluesurf/base/code/javascript/dom/tex-image-source
-bear @cluesurf/base/code/javascript/dom/timer-handler
-bear @cluesurf/base/code/javascript/dom/transferable
-bear @cluesurf/base/code/javascript/dom/uint32-list
-bear @cluesurf/base/code/javascript/dom/uvm-entries
-bear @cluesurf/base/code/javascript/dom/uvm-entry
-bear @cluesurf/base/code/javascript/dom/vibrate-pattern
-bear @cluesurf/base/code/javascript/dom/window-proxy
-bear @cluesurf/base/code/javascript/dom/xml-http-request-body-init
-bear @cluesurf/base/code/javascript/dom/align-setting
-bear @cluesurf/base/code/javascript/dom/animation-play-state
-bear @cluesurf/base/code/javascript/dom/animation-replace-state
-bear @cluesurf/base/code/javascript/dom/append-mode
-bear @cluesurf/base/code/javascript/dom/attestation-conveyance-preference
-bear @cluesurf/base/code/javascript/dom/audio-context-latency-category
-bear @cluesurf/base/code/javascript/dom/audio-context-state
-bear @cluesurf/base/code/javascript/dom/authenticator-attachment
-bear @cluesurf/base/code/javascript/dom/authenticator-transport
-bear @cluesurf/base/code/javascript/dom/auto-keyword
-bear @cluesurf/base/code/javascript/dom/automation-rate
-bear @cluesurf/base/code/javascript/dom/binary-type
-bear @cluesurf/base/code/javascript/dom/biquad-filter-type
-bear @cluesurf/base/code/javascript/dom/can-play-type-result
-bear @cluesurf/base/code/javascript/dom/canvas-direction
-bear @cluesurf/base/code/javascript/dom/canvas-fill-rule
-bear @cluesurf/base/code/javascript/dom/canvas-font-kerning
-bear @cluesurf/base/code/javascript/dom/canvas-font-stretch
-bear @cluesurf/base/code/javascript/dom/canvas-font-variant-caps
-bear @cluesurf/base/code/javascript/dom/canvas-line-cap
-bear @cluesurf/base/code/javascript/dom/canvas-line-join
-bear @cluesurf/base/code/javascript/dom/canvas-text-align
-bear @cluesurf/base/code/javascript/dom/canvas-text-baseline
-bear @cluesurf/base/code/javascript/dom/canvas-text-rendering
-bear @cluesurf/base/code/javascript/dom/channel-count-mode
-bear @cluesurf/base/code/javascript/dom/channel-interpretation
-bear @cluesurf/base/code/javascript/dom/client-types
-bear @cluesurf/base/code/javascript/dom/color-gamut
-bear @cluesurf/base/code/javascript/dom/color-space-conversion
-bear @cluesurf/base/code/javascript/dom/composite-operation
-bear @cluesurf/base/code/javascript/dom/composite-operation-or-auto
-bear @cluesurf/base/code/javascript/dom/connection-type
-bear @cluesurf/base/code/javascript/dom/credential-mediation-requirement
-bear @cluesurf/base/code/javascript/dom/dom-parser-supported-type
-bear @cluesurf/base/code/javascript/dom/direction-setting
-bear @cluesurf/base/code/javascript/dom/display-capture-surface-type
-bear @cluesurf/base/code/javascript/dom/distance-model-type
-bear @cluesurf/base/code/javascript/dom/document-ready-state
-bear @cluesurf/base/code/javascript/dom/end-of-stream-error
-bear @cluesurf/base/code/javascript/dom/ending-type
-bear @cluesurf/base/code/javascript/dom/fill-mode
-bear @cluesurf/base/code/javascript/dom/font-face-load-status
-bear @cluesurf/base/code/javascript/dom/font-face-set-load-status
-bear @cluesurf/base/code/javascript/dom/fullscreen-navigation-ui
-bear @cluesurf/base/code/javascript/dom/gamepad-haptic-actuator-type
-bear @cluesurf/base/code/javascript/dom/gamepad-mapping-type
-bear @cluesurf/base/code/javascript/dom/hdr-metadata-type
-bear @cluesurf/base/code/javascript/dom/idb-cursor-direction
-bear @cluesurf/base/code/javascript/dom/idb-request-ready-state
-bear @cluesurf/base/code/javascript/dom/idb-transaction-mode
-bear @cluesurf/base/code/javascript/dom/image-orientation
-bear @cluesurf/base/code/javascript/dom/image-smoothing-quality
-bear @cluesurf/base/code/javascript/dom/iteration-composite-operation
-bear @cluesurf/base/code/javascript/dom/key-format
-bear @cluesurf/base/code/javascript/dom/key-type
-bear @cluesurf/base/code/javascript/dom/key-usage
-bear @cluesurf/base/code/javascript/dom/line-align-setting
-bear @cluesurf/base/code/javascript/dom/media-decoding-type
-bear @cluesurf/base/code/javascript/dom/media-device-kind
-bear @cluesurf/base/code/javascript/dom/media-encoding-type
-bear @cluesurf/base/code/javascript/dom/media-key-message-type
-bear @cluesurf/base/code/javascript/dom/media-key-session-type
-bear @cluesurf/base/code/javascript/dom/media-key-status
-bear @cluesurf/base/code/javascript/dom/media-keys-requirement
-bear @cluesurf/base/code/javascript/dom/media-session-action
-bear @cluesurf/base/code/javascript/dom/media-session-playback-state
-bear @cluesurf/base/code/javascript/dom/media-stream-track-state
-bear @cluesurf/base/code/javascript/dom/navigation-type
-bear @cluesurf/base/code/javascript/dom/notification-direction
-bear @cluesurf/base/code/javascript/dom/notification-permission
-bear @cluesurf/base/code/javascript/dom/orientation-lock-type
-bear @cluesurf/base/code/javascript/dom/orientation-type
-bear @cluesurf/base/code/javascript/dom/oscillator-type
-bear @cluesurf/base/code/javascript/dom/over-sample-type
-bear @cluesurf/base/code/javascript/dom/panning-model-type
-bear @cluesurf/base/code/javascript/dom/payment-complete
-bear @cluesurf/base/code/javascript/dom/permission-name
-bear @cluesurf/base/code/javascript/dom/permission-state
-bear @cluesurf/base/code/javascript/dom/playback-direction
-bear @cluesurf/base/code/javascript/dom/position-align-setting
-bear @cluesurf/base/code/javascript/dom/predefined-color-space
-bear @cluesurf/base/code/javascript/dom/premultiply-alpha
-bear @cluesurf/base/code/javascript/dom/presentation-style
-bear @cluesurf/base/code/javascript/dom/public-key-credential-type
-bear @cluesurf/base/code/javascript/dom/push-encryption-key-name
-bear @cluesurf/base/code/javascript/dom/push-permission-state
-bear @cluesurf/base/code/javascript/dom/rtc-bundle-policy
-bear @cluesurf/base/code/javascript/dom/rtc-data-channel-state
-bear @cluesurf/base/code/javascript/dom/rtc-degradation-preference
-bear @cluesurf/base/code/javascript/dom/rtc-dtls-transport-state
-bear @cluesurf/base/code/javascript/dom/rtc-ice-candidate-type
-bear @cluesurf/base/code/javascript/dom/rtc-ice-component
-bear @cluesurf/base/code/javascript/dom/rtc-ice-connection-state
-bear @cluesurf/base/code/javascript/dom/rtc-ice-credential-type
-bear @cluesurf/base/code/javascript/dom/rtc-ice-gatherer-state
-bear @cluesurf/base/code/javascript/dom/rtc-ice-gathering-state
-bear @cluesurf/base/code/javascript/dom/rtc-ice-protocol
-bear @cluesurf/base/code/javascript/dom/rtc-ice-tcp-candidate-type
-bear @cluesurf/base/code/javascript/dom/rtc-ice-transport-policy
-bear @cluesurf/base/code/javascript/dom/rtc-ice-transport-state
-bear @cluesurf/base/code/javascript/dom/rtc-peer-connection-state
-bear @cluesurf/base/code/javascript/dom/rtc-priority-type
-bear @cluesurf/base/code/javascript/dom/rtc-rtcp-mux-policy
-bear @cluesurf/base/code/javascript/dom/rtc-rtp-transceiver-direction
-bear @cluesurf/base/code/javascript/dom/rtc-sdp-type
-bear @cluesurf/base/code/javascript/dom/rtc-signaling-state
-bear @cluesurf/base/code/javascript/dom/rtc-stats-ice-candidate-pair-state
-bear @cluesurf/base/code/javascript/dom/rtc-stats-type
-bear @cluesurf/base/code/javascript/dom/ready-state
-bear @cluesurf/base/code/javascript/dom/recording-state
-bear @cluesurf/base/code/javascript/dom/referrer-policy
-bear @cluesurf/base/code/javascript/dom/remote-playback-state
-bear @cluesurf/base/code/javascript/dom/request-cache
-bear @cluesurf/base/code/javascript/dom/request-credentials
-bear @cluesurf/base/code/javascript/dom/request-destination
-bear @cluesurf/base/code/javascript/dom/request-mode
-bear @cluesurf/base/code/javascript/dom/request-redirect
-bear @cluesurf/base/code/javascript/dom/resident-key-requirement
-bear @cluesurf/base/code/javascript/dom/resize-observer-box-options
-bear @cluesurf/base/code/javascript/dom/resize-quality
-bear @cluesurf/base/code/javascript/dom/response-type
-bear @cluesurf/base/code/javascript/dom/scroll-behavior
-bear @cluesurf/base/code/javascript/dom/scroll-logical-position
-bear @cluesurf/base/code/javascript/dom/scroll-restoration
-bear @cluesurf/base/code/javascript/dom/scroll-setting
-bear @cluesurf/base/code/javascript/dom/security-policy-violation-event-disposition
-bear @cluesurf/base/code/javascript/dom/selection-mode
-bear @cluesurf/base/code/javascript/dom/service-worker-state
-bear @cluesurf/base/code/javascript/dom/service-worker-update-via-cache
-bear @cluesurf/base/code/javascript/dom/shadow-root-mode
-bear @cluesurf/base/code/javascript/dom/slot-assignment-mode
-bear @cluesurf/base/code/javascript/dom/speech-recognition-error-code
-bear @cluesurf/base/code/javascript/dom/speech-synthesis-error-code
-bear @cluesurf/base/code/javascript/dom/text-track-kind
-bear @cluesurf/base/code/javascript/dom/text-track-mode
-bear @cluesurf/base/code/javascript/dom/touch-type
-bear @cluesurf/base/code/javascript/dom/transfer-function
-bear @cluesurf/base/code/javascript/dom/user-verification-requirement
-bear @cluesurf/base/code/javascript/dom/video-facing-mode-enum
-bear @cluesurf/base/code/javascript/dom/visibility-state
-bear @cluesurf/base/code/javascript/dom/web-gl-power-preference
-bear @cluesurf/base/code/javascript/dom/worker-type
-bear @cluesurf/base/code/javascript/dom/xml-http-request-response-type
-bear @cluesurf/base/code/javascript/dom/iterable
+bear @cluesurf/bind/code/javascript/dom/add-event-listener-options
+bear @cluesurf/bind/code/javascript/dom/aes-cbc-params
+bear @cluesurf/bind/code/javascript/dom/aes-ctr-params
+bear @cluesurf/bind/code/javascript/dom/aes-derived-key-params
+bear @cluesurf/bind/code/javascript/dom/aes-gcm-params
+bear @cluesurf/bind/code/javascript/dom/aes-key-algorithm
+bear @cluesurf/bind/code/javascript/dom/aes-key-gen-params
+bear @cluesurf/bind/code/javascript/dom/algorithm
+bear @cluesurf/bind/code/javascript/dom/analyser-options
+bear @cluesurf/bind/code/javascript/dom/animation-event-init
+bear @cluesurf/bind/code/javascript/dom/animation-playback-event-init
+bear @cluesurf/bind/code/javascript/dom/assigned-nodes-options
+bear @cluesurf/bind/code/javascript/dom/audio-buffer-options
+bear @cluesurf/bind/code/javascript/dom/audio-buffer-source-options
+bear @cluesurf/bind/code/javascript/dom/audio-configuration
+bear @cluesurf/bind/code/javascript/dom/audio-context-options
+bear @cluesurf/bind/code/javascript/dom/audio-node-options
+bear @cluesurf/bind/code/javascript/dom/audio-processing-event-init
+bear @cluesurf/bind/code/javascript/dom/audio-timestamp
+bear @cluesurf/bind/code/javascript/dom/audio-worklet-node-options
+bear @cluesurf/bind/code/javascript/dom/authentication-extensions-client-inputs
+bear @cluesurf/bind/code/javascript/dom/authentication-extensions-client-outputs
+bear @cluesurf/bind/code/javascript/dom/authenticator-selection-criteria
+bear @cluesurf/bind/code/javascript/dom/biquad-filter-options
+bear @cluesurf/bind/code/javascript/dom/blob-event-init
+bear @cluesurf/bind/code/javascript/dom/blob-property-bag
+bear @cluesurf/bind/code/javascript/dom/cache-query-options
+bear @cluesurf/bind/code/javascript/dom/canvas-rendering-context2-d-settings
+bear @cluesurf/bind/code/javascript/dom/channel-merger-options
+bear @cluesurf/bind/code/javascript/dom/channel-splitter-options
+bear @cluesurf/bind/code/javascript/dom/client-query-options
+bear @cluesurf/bind/code/javascript/dom/clipboard-event-init
+bear @cluesurf/bind/code/javascript/dom/clipboard-item-options
+bear @cluesurf/bind/code/javascript/dom/close-event-init
+bear @cluesurf/bind/code/javascript/dom/composition-event-init
+bear @cluesurf/bind/code/javascript/dom/computed-effect-timing
+bear @cluesurf/bind/code/javascript/dom/computed-keyframe
+bear @cluesurf/bind/code/javascript/dom/constant-source-options
+bear @cluesurf/bind/code/javascript/dom/constrain-boolean-parameters
+bear @cluesurf/bind/code/javascript/dom/constrain-dom-string-parameters
+bear @cluesurf/bind/code/javascript/dom/constrain-double-range
+bear @cluesurf/bind/code/javascript/dom/constrain-u-long-range
+bear @cluesurf/bind/code/javascript/dom/convolver-options
+bear @cluesurf/bind/code/javascript/dom/credential-creation-options
+bear @cluesurf/bind/code/javascript/dom/credential-properties-output
+bear @cluesurf/bind/code/javascript/dom/credential-request-options
+bear @cluesurf/bind/code/javascript/dom/crypto-key-pair
+bear @cluesurf/bind/code/javascript/dom/custom-event-init
+bear @cluesurf/bind/code/javascript/dom/dom-matrix2-d-init
+bear @cluesurf/bind/code/javascript/dom/dom-matrix-init
+bear @cluesurf/bind/code/javascript/dom/dom-point-init
+bear @cluesurf/bind/code/javascript/dom/dom-quad-init
+bear @cluesurf/bind/code/javascript/dom/dom-rect-init
+bear @cluesurf/bind/code/javascript/dom/delay-options
+bear @cluesurf/bind/code/javascript/dom/device-motion-event-acceleration-init
+bear @cluesurf/bind/code/javascript/dom/device-motion-event-init
+bear @cluesurf/bind/code/javascript/dom/device-motion-event-rotation-rate-init
+bear @cluesurf/bind/code/javascript/dom/device-orientation-event-init
+bear @cluesurf/bind/code/javascript/dom/display-media-stream-constraints
+bear @cluesurf/bind/code/javascript/dom/document-timeline-options
+bear @cluesurf/bind/code/javascript/dom/double-range
+bear @cluesurf/bind/code/javascript/dom/drag-event-init
+bear @cluesurf/bind/code/javascript/dom/dynamics-compressor-options
+bear @cluesurf/bind/code/javascript/dom/ec-key-algorithm
+bear @cluesurf/bind/code/javascript/dom/ec-key-gen-params
+bear @cluesurf/bind/code/javascript/dom/ec-key-import-params
+bear @cluesurf/bind/code/javascript/dom/ecdh-key-derive-params
+bear @cluesurf/bind/code/javascript/dom/ecdsa-params
+bear @cluesurf/bind/code/javascript/dom/effect-timing
+bear @cluesurf/bind/code/javascript/dom/element-creation-options
+bear @cluesurf/bind/code/javascript/dom/element-definition-options
+bear @cluesurf/bind/code/javascript/dom/error-event-init
+bear @cluesurf/bind/code/javascript/dom/event-init
+bear @cluesurf/bind/code/javascript/dom/event-listener-options
+bear @cluesurf/bind/code/javascript/dom/event-modifier-init
+bear @cluesurf/bind/code/javascript/dom/event-source-init
+bear @cluesurf/bind/code/javascript/dom/file-property-bag
+bear @cluesurf/bind/code/javascript/dom/file-system-flags
+bear @cluesurf/bind/code/javascript/dom/focus-event-init
+bear @cluesurf/bind/code/javascript/dom/focus-options
+bear @cluesurf/bind/code/javascript/dom/font-face-descriptors
+bear @cluesurf/bind/code/javascript/dom/font-face-set-load-event-init
+bear @cluesurf/bind/code/javascript/dom/form-data-event-init
+bear @cluesurf/bind/code/javascript/dom/fullscreen-options
+bear @cluesurf/bind/code/javascript/dom/gain-options
+bear @cluesurf/bind/code/javascript/dom/gamepad-event-init
+bear @cluesurf/bind/code/javascript/dom/get-animations-options
+bear @cluesurf/bind/code/javascript/dom/get-notification-options
+bear @cluesurf/bind/code/javascript/dom/get-root-node-options
+bear @cluesurf/bind/code/javascript/dom/hash-change-event-init
+bear @cluesurf/bind/code/javascript/dom/hkdf-params
+bear @cluesurf/bind/code/javascript/dom/hmac-import-params
+bear @cluesurf/bind/code/javascript/dom/hmac-key-algorithm
+bear @cluesurf/bind/code/javascript/dom/hmac-key-gen-params
+bear @cluesurf/bind/code/javascript/dom/idb-database-info
+bear @cluesurf/bind/code/javascript/dom/idb-index-parameters
+bear @cluesurf/bind/code/javascript/dom/idb-object-store-parameters
+bear @cluesurf/bind/code/javascript/dom/idb-version-change-event-init
+bear @cluesurf/bind/code/javascript/dom/iir-filter-options
+bear @cluesurf/bind/code/javascript/dom/idle-request-options
+bear @cluesurf/bind/code/javascript/dom/image-bitmap-options
+bear @cluesurf/bind/code/javascript/dom/image-bitmap-rendering-context-settings
+bear @cluesurf/bind/code/javascript/dom/image-data-settings
+bear @cluesurf/bind/code/javascript/dom/import-meta
+bear @cluesurf/bind/code/javascript/dom/input-event-init
+bear @cluesurf/bind/code/javascript/dom/intersection-observer-entry-init
+bear @cluesurf/bind/code/javascript/dom/intersection-observer-init
+bear @cluesurf/bind/code/javascript/dom/json-web-key
+bear @cluesurf/bind/code/javascript/dom/key-algorithm
+bear @cluesurf/bind/code/javascript/dom/keyboard-event-init
+bear @cluesurf/bind/code/javascript/dom/keyframe
+bear @cluesurf/bind/code/javascript/dom/keyframe-animation-options
+bear @cluesurf/bind/code/javascript/dom/keyframe-effect-options
+bear @cluesurf/bind/code/javascript/dom/media-capabilities-decoding-info
+bear @cluesurf/bind/code/javascript/dom/media-capabilities-encoding-info
+bear @cluesurf/bind/code/javascript/dom/media-capabilities-info
+bear @cluesurf/bind/code/javascript/dom/media-configuration
+bear @cluesurf/bind/code/javascript/dom/media-decoding-configuration
+bear @cluesurf/bind/code/javascript/dom/media-element-audio-source-options
+bear @cluesurf/bind/code/javascript/dom/media-encoding-configuration
+bear @cluesurf/bind/code/javascript/dom/media-encrypted-event-init
+bear @cluesurf/bind/code/javascript/dom/media-image
+bear @cluesurf/bind/code/javascript/dom/media-key-message-event-init
+bear @cluesurf/bind/code/javascript/dom/media-key-system-configuration
+bear @cluesurf/bind/code/javascript/dom/media-key-system-media-capability
+bear @cluesurf/bind/code/javascript/dom/media-metadata-init
+bear @cluesurf/bind/code/javascript/dom/media-position-state
+bear @cluesurf/bind/code/javascript/dom/media-query-list-event-init
+bear @cluesurf/bind/code/javascript/dom/media-recorder-error-event-init
+bear @cluesurf/bind/code/javascript/dom/media-recorder-options
+bear @cluesurf/bind/code/javascript/dom/media-session-action-details
+bear @cluesurf/bind/code/javascript/dom/media-stream-audio-source-options
+bear @cluesurf/bind/code/javascript/dom/media-stream-constraints
+bear @cluesurf/bind/code/javascript/dom/media-stream-track-event-init
+bear @cluesurf/bind/code/javascript/dom/media-track-capabilities
+bear @cluesurf/bind/code/javascript/dom/media-track-constraint-set
+bear @cluesurf/bind/code/javascript/dom/media-track-constraints
+bear @cluesurf/bind/code/javascript/dom/media-track-settings
+bear @cluesurf/bind/code/javascript/dom/media-track-supported-constraints
+bear @cluesurf/bind/code/javascript/dom/message-event-init
+bear @cluesurf/bind/code/javascript/dom/mouse-event-init
+bear @cluesurf/bind/code/javascript/dom/multi-cache-query-options
+bear @cluesurf/bind/code/javascript/dom/mutation-observer-init
+bear @cluesurf/bind/code/javascript/dom/notification-action
+bear @cluesurf/bind/code/javascript/dom/notification-options
+bear @cluesurf/bind/code/javascript/dom/offline-audio-completion-event-init
+bear @cluesurf/bind/code/javascript/dom/offline-audio-context-options
+bear @cluesurf/bind/code/javascript/dom/optional-effect-timing
+bear @cluesurf/bind/code/javascript/dom/oscillator-options
+bear @cluesurf/bind/code/javascript/dom/page-transition-event-init
+bear @cluesurf/bind/code/javascript/dom/panner-options
+bear @cluesurf/bind/code/javascript/dom/payment-currency-amount
+bear @cluesurf/bind/code/javascript/dom/payment-details-base
+bear @cluesurf/bind/code/javascript/dom/payment-details-init
+bear @cluesurf/bind/code/javascript/dom/payment-details-modifier
+bear @cluesurf/bind/code/javascript/dom/payment-details-update
+bear @cluesurf/bind/code/javascript/dom/payment-item
+bear @cluesurf/bind/code/javascript/dom/payment-method-change-event-init
+bear @cluesurf/bind/code/javascript/dom/payment-method-data
+bear @cluesurf/bind/code/javascript/dom/payment-request-update-event-init
+bear @cluesurf/bind/code/javascript/dom/payment-validation-errors
+bear @cluesurf/bind/code/javascript/dom/pbkdf2-params
+bear @cluesurf/bind/code/javascript/dom/performance-mark-options
+bear @cluesurf/bind/code/javascript/dom/performance-measure-options
+bear @cluesurf/bind/code/javascript/dom/performance-observer-init
+bear @cluesurf/bind/code/javascript/dom/periodic-wave-constraints
+bear @cluesurf/bind/code/javascript/dom/periodic-wave-options
+bear @cluesurf/bind/code/javascript/dom/permission-descriptor
+bear @cluesurf/bind/code/javascript/dom/pointer-event-init
+bear @cluesurf/bind/code/javascript/dom/pop-state-event-init
+bear @cluesurf/bind/code/javascript/dom/position-options
+bear @cluesurf/bind/code/javascript/dom/post-message-options
+bear @cluesurf/bind/code/javascript/dom/progress-event-init
+bear @cluesurf/bind/code/javascript/dom/promise-rejection-event-init
+bear @cluesurf/bind/code/javascript/dom/property-indexed-keyframes
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-creation-options
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-descriptor
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-entity
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-parameters
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-request-options
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-rp-entity
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-user-entity
+bear @cluesurf/bind/code/javascript/dom/push-subscription-json
+bear @cluesurf/bind/code/javascript/dom/push-subscription-options-init
+bear @cluesurf/bind/code/javascript/dom/queuing-strategy
+bear @cluesurf/bind/code/javascript/dom/queuing-strategy-init
+bear @cluesurf/bind/code/javascript/dom/rtc-answer-options
+bear @cluesurf/bind/code/javascript/dom/rtc-certificate-expiration
+bear @cluesurf/bind/code/javascript/dom/rtc-configuration
+bear @cluesurf/bind/code/javascript/dom/rtcdtmf-tone-change-event-init
+bear @cluesurf/bind/code/javascript/dom/rtc-data-channel-event-init
+bear @cluesurf/bind/code/javascript/dom/rtc-data-channel-init
+bear @cluesurf/bind/code/javascript/dom/rtc-dtls-fingerprint
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-candidate-init
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-candidate-pair-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-server
+bear @cluesurf/bind/code/javascript/dom/rtc-inbound-rtp-stream-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-local-session-description-init
+bear @cluesurf/bind/code/javascript/dom/rtc-offer-answer-options
+bear @cluesurf/bind/code/javascript/dom/rtc-offer-options
+bear @cluesurf/bind/code/javascript/dom/rtc-outbound-rtp-stream-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-ice-error-event-init
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-ice-event-init
+bear @cluesurf/bind/code/javascript/dom/rtc-received-rtp-stream-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-rtcp-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-capabilities
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-codec-capability
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-codec-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-coding-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-contributing-source
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-encoding-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-header-extension-capability
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-header-extension-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-receive-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-send-parameters
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-stream-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-synchronization-source
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-transceiver-init
+bear @cluesurf/bind/code/javascript/dom/rtc-sent-rtp-stream-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-session-description-init
+bear @cluesurf/bind/code/javascript/dom/rtc-stats
+bear @cluesurf/bind/code/javascript/dom/rtc-track-event-init
+bear @cluesurf/bind/code/javascript/dom/rtc-transport-stats
+bear @cluesurf/bind/code/javascript/dom/readable-stream-default-read-done-result
+bear @cluesurf/bind/code/javascript/dom/readable-stream-default-read-value-result
+bear @cluesurf/bind/code/javascript/dom/readable-writable-pair
+bear @cluesurf/bind/code/javascript/dom/registration-options
+bear @cluesurf/bind/code/javascript/dom/request-init
+bear @cluesurf/bind/code/javascript/dom/resize-observer-options
+bear @cluesurf/bind/code/javascript/dom/response-init
+bear @cluesurf/bind/code/javascript/dom/rsa-hashed-import-params
+bear @cluesurf/bind/code/javascript/dom/rsa-hashed-key-algorithm
+bear @cluesurf/bind/code/javascript/dom/rsa-hashed-key-gen-params
+bear @cluesurf/bind/code/javascript/dom/rsa-key-algorithm
+bear @cluesurf/bind/code/javascript/dom/rsa-key-gen-params
+bear @cluesurf/bind/code/javascript/dom/rsa-oaep-params
+bear @cluesurf/bind/code/javascript/dom/rsa-other-primes-info
+bear @cluesurf/bind/code/javascript/dom/rsa-pss-params
+bear @cluesurf/bind/code/javascript/dom/svg-bounding-box-options
+bear @cluesurf/bind/code/javascript/dom/scroll-into-view-options
+bear @cluesurf/bind/code/javascript/dom/scroll-options
+bear @cluesurf/bind/code/javascript/dom/scroll-to-options
+bear @cluesurf/bind/code/javascript/dom/security-policy-violation-event-init
+bear @cluesurf/bind/code/javascript/dom/shadow-root-init
+bear @cluesurf/bind/code/javascript/dom/share-data
+bear @cluesurf/bind/code/javascript/dom/speech-recognition-error-event-init
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-error-event-init
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-event-init
+bear @cluesurf/bind/code/javascript/dom/static-range-init
+bear @cluesurf/bind/code/javascript/dom/stereo-panner-options
+bear @cluesurf/bind/code/javascript/dom/storage-estimate
+bear @cluesurf/bind/code/javascript/dom/storage-event-init
+bear @cluesurf/bind/code/javascript/dom/stream-pipe-options
+bear @cluesurf/bind/code/javascript/dom/submit-event-init
+bear @cluesurf/bind/code/javascript/dom/text-decode-options
+bear @cluesurf/bind/code/javascript/dom/text-decoder-options
+bear @cluesurf/bind/code/javascript/dom/text-encoder-encode-into-result
+bear @cluesurf/bind/code/javascript/dom/touch-event-init
+bear @cluesurf/bind/code/javascript/dom/touch-init
+bear @cluesurf/bind/code/javascript/dom/track-event-init
+bear @cluesurf/bind/code/javascript/dom/transformer
+bear @cluesurf/bind/code/javascript/dom/transition-event-init
+bear @cluesurf/bind/code/javascript/dom/ui-event-init
+bear @cluesurf/bind/code/javascript/dom/u-long-range
+bear @cluesurf/bind/code/javascript/dom/underlying-sink
+bear @cluesurf/bind/code/javascript/dom/underlying-source
+bear @cluesurf/bind/code/javascript/dom/video-configuration
+bear @cluesurf/bind/code/javascript/dom/wave-shaper-options
+bear @cluesurf/bind/code/javascript/dom/web-gl-context-attributes
+bear @cluesurf/bind/code/javascript/dom/web-gl-context-event-init
+bear @cluesurf/bind/code/javascript/dom/wheel-event-init
+bear @cluesurf/bind/code/javascript/dom/window-post-message-options
+bear @cluesurf/bind/code/javascript/dom/worker-options
+bear @cluesurf/bind/code/javascript/dom/worklet-options
+bear @cluesurf/bind/code/javascript/dom/node-filter
+bear @cluesurf/bind/code/javascript/dom/x-path-ns-resolver
+bear @cluesurf/bind/code/javascript/dom/angle-instanced-arrays
+bear @cluesurf/bind/code/javascript/dom/aria-mixin
+bear @cluesurf/bind/code/javascript/dom/abort-controller
+bear @cluesurf/bind/code/javascript/dom/abort-signal-event-map
+bear @cluesurf/bind/code/javascript/dom/abort-signal
+bear @cluesurf/bind/code/javascript/dom/abstract-range
+bear @cluesurf/bind/code/javascript/dom/abstract-worker-event-map
+bear @cluesurf/bind/code/javascript/dom/abstract-worker
+bear @cluesurf/bind/code/javascript/dom/analyser-node
+bear @cluesurf/bind/code/javascript/dom/animatable
+bear @cluesurf/bind/code/javascript/dom/animation-event-map
+bear @cluesurf/bind/code/javascript/dom/animation
+bear @cluesurf/bind/code/javascript/dom/animation-effect
+bear @cluesurf/bind/code/javascript/dom/animation-event
+bear @cluesurf/bind/code/javascript/dom/animation-frame-provider
+bear @cluesurf/bind/code/javascript/dom/animation-playback-event
+bear @cluesurf/bind/code/javascript/dom/animation-timeline
+bear @cluesurf/bind/code/javascript/dom/attr
+bear @cluesurf/bind/code/javascript/dom/audio-buffer
+bear @cluesurf/bind/code/javascript/dom/audio-buffer-source-node
+bear @cluesurf/bind/code/javascript/dom/audio-context
+bear @cluesurf/bind/code/javascript/dom/audio-destination-node
+bear @cluesurf/bind/code/javascript/dom/audio-listener
+bear @cluesurf/bind/code/javascript/dom/audio-node
+bear @cluesurf/bind/code/javascript/dom/audio-param
+bear @cluesurf/bind/code/javascript/dom/audio-param-map
+bear @cluesurf/bind/code/javascript/dom/audio-processing-event
+bear @cluesurf/bind/code/javascript/dom/audio-scheduled-source-node-event-map
+bear @cluesurf/bind/code/javascript/dom/audio-scheduled-source-node
+bear @cluesurf/bind/code/javascript/dom/audio-worklet
+bear @cluesurf/bind/code/javascript/dom/audio-worklet-node-event-map
+bear @cluesurf/bind/code/javascript/dom/audio-worklet-node
+bear @cluesurf/bind/code/javascript/dom/authenticator-assertion-response
+bear @cluesurf/bind/code/javascript/dom/authenticator-attestation-response
+bear @cluesurf/bind/code/javascript/dom/authenticator-response
+bear @cluesurf/bind/code/javascript/dom/bar-prop
+bear @cluesurf/bind/code/javascript/dom/base-audio-context-event-map
+bear @cluesurf/bind/code/javascript/dom/base-audio-context
+bear @cluesurf/bind/code/javascript/dom/before-unload-event
+bear @cluesurf/bind/code/javascript/dom/biquad-filter-node
+bear @cluesurf/bind/code/javascript/dom/blob
+bear @cluesurf/bind/code/javascript/dom/blob-event
+bear @cluesurf/bind/code/javascript/dom/body
+bear @cluesurf/bind/code/javascript/dom/broadcast-channel-event-map
+bear @cluesurf/bind/code/javascript/dom/broadcast-channel
+bear @cluesurf/bind/code/javascript/dom/byte-length-queuing-strategy
+bear @cluesurf/bind/code/javascript/dom/cdata-section
+bear @cluesurf/bind/code/javascript/dom/css-animation
+bear @cluesurf/bind/code/javascript/dom/css-condition-rule
+bear @cluesurf/bind/code/javascript/dom/css-counter-style-rule
+bear @cluesurf/bind/code/javascript/dom/css-font-face-rule
+bear @cluesurf/bind/code/javascript/dom/css-grouping-rule
+bear @cluesurf/bind/code/javascript/dom/css-import-rule
+bear @cluesurf/bind/code/javascript/dom/css-keyframe-rule
+bear @cluesurf/bind/code/javascript/dom/css-keyframes-rule
+bear @cluesurf/bind/code/javascript/dom/css-media-rule
+bear @cluesurf/bind/code/javascript/dom/css-namespace-rule
+bear @cluesurf/bind/code/javascript/dom/css-page-rule
+bear @cluesurf/bind/code/javascript/dom/css-rule
+bear @cluesurf/bind/code/javascript/dom/css-rule-list
+bear @cluesurf/bind/code/javascript/dom/css-style-declaration
+bear @cluesurf/bind/code/javascript/dom/css-style-rule
+bear @cluesurf/bind/code/javascript/dom/css-style-sheet
+bear @cluesurf/bind/code/javascript/dom/css-supports-rule
+bear @cluesurf/bind/code/javascript/dom/css-transition
+bear @cluesurf/bind/code/javascript/dom/cache
+bear @cluesurf/bind/code/javascript/dom/cache-storage
+bear @cluesurf/bind/code/javascript/dom/canvas-compositing
+bear @cluesurf/bind/code/javascript/dom/canvas-draw-image
+bear @cluesurf/bind/code/javascript/dom/canvas-draw-path
+bear @cluesurf/bind/code/javascript/dom/canvas-fill-stroke-styles
+bear @cluesurf/bind/code/javascript/dom/canvas-filters
+bear @cluesurf/bind/code/javascript/dom/canvas-gradient
+bear @cluesurf/bind/code/javascript/dom/canvas-image-data
+bear @cluesurf/bind/code/javascript/dom/canvas-image-smoothing
+bear @cluesurf/bind/code/javascript/dom/canvas-path
+bear @cluesurf/bind/code/javascript/dom/canvas-path-drawing-styles
+bear @cluesurf/bind/code/javascript/dom/canvas-pattern
+bear @cluesurf/bind/code/javascript/dom/canvas-rect
+bear @cluesurf/bind/code/javascript/dom/canvas-rendering-context2-d
+bear @cluesurf/bind/code/javascript/dom/canvas-shadow-styles
+bear @cluesurf/bind/code/javascript/dom/canvas-state
+bear @cluesurf/bind/code/javascript/dom/canvas-text
+bear @cluesurf/bind/code/javascript/dom/canvas-text-drawing-styles
+bear @cluesurf/bind/code/javascript/dom/canvas-transform
+bear @cluesurf/bind/code/javascript/dom/canvas-user-interface
+bear @cluesurf/bind/code/javascript/dom/channel-merger-node
+bear @cluesurf/bind/code/javascript/dom/channel-splitter-node
+bear @cluesurf/bind/code/javascript/dom/character-data
+bear @cluesurf/bind/code/javascript/dom/child-node
+bear @cluesurf/bind/code/javascript/dom/client-rect
+bear @cluesurf/bind/code/javascript/dom/clipboard
+bear @cluesurf/bind/code/javascript/dom/clipboard-event
+bear @cluesurf/bind/code/javascript/dom/clipboard-item
+bear @cluesurf/bind/code/javascript/dom/close-event
+bear @cluesurf/bind/code/javascript/dom/comment
+bear @cluesurf/bind/code/javascript/dom/composition-event
+bear @cluesurf/bind/code/javascript/dom/constant-source-node
+bear @cluesurf/bind/code/javascript/dom/convolver-node
+bear @cluesurf/bind/code/javascript/dom/count-queuing-strategy
+bear @cluesurf/bind/code/javascript/dom/credential
+bear @cluesurf/bind/code/javascript/dom/credentials-container
+bear @cluesurf/bind/code/javascript/dom/crypto
+bear @cluesurf/bind/code/javascript/dom/crypto-key
+bear @cluesurf/bind/code/javascript/dom/custom-element-registry
+bear @cluesurf/bind/code/javascript/dom/custom-event
+bear @cluesurf/bind/code/javascript/dom/dom-exception
+bear @cluesurf/bind/code/javascript/dom/dom-implementation
+bear @cluesurf/bind/code/javascript/dom/dom-matrix
+bear @cluesurf/bind/code/javascript/dom/svg-matrix
+bear @cluesurf/bind/code/javascript/dom/web-kit-css-matrix
+bear @cluesurf/bind/code/javascript/dom/dom-matrix-read-only
+bear @cluesurf/bind/code/javascript/dom/dom-parser
+bear @cluesurf/bind/code/javascript/dom/dom-point
+bear @cluesurf/bind/code/javascript/dom/svg-point
+bear @cluesurf/bind/code/javascript/dom/dom-point-read-only
+bear @cluesurf/bind/code/javascript/dom/dom-quad
+bear @cluesurf/bind/code/javascript/dom/dom-rect
+bear @cluesurf/bind/code/javascript/dom/svg-rect
+bear @cluesurf/bind/code/javascript/dom/dom-rect-list
+bear @cluesurf/bind/code/javascript/dom/dom-rect-read-only
+bear @cluesurf/bind/code/javascript/dom/dom-string-list
+bear @cluesurf/bind/code/javascript/dom/dom-string-map
+bear @cluesurf/bind/code/javascript/dom/dom-token-list
+bear @cluesurf/bind/code/javascript/dom/data-transfer
+bear @cluesurf/bind/code/javascript/dom/data-transfer-item
+bear @cluesurf/bind/code/javascript/dom/data-transfer-item-list
+bear @cluesurf/bind/code/javascript/dom/delay-node
+bear @cluesurf/bind/code/javascript/dom/device-motion-event
+bear @cluesurf/bind/code/javascript/dom/device-motion-event-acceleration
+bear @cluesurf/bind/code/javascript/dom/device-motion-event-rotation-rate
+bear @cluesurf/bind/code/javascript/dom/device-orientation-event
+bear @cluesurf/bind/code/javascript/dom/document-event-map
+bear @cluesurf/bind/code/javascript/dom/document
+bear @cluesurf/bind/code/javascript/dom/document-and-element-event-handlers-event-map
+bear @cluesurf/bind/code/javascript/dom/document-and-element-event-handlers
+bear @cluesurf/bind/code/javascript/dom/document-fragment
+bear @cluesurf/bind/code/javascript/dom/document-or-shadow-root
+bear @cluesurf/bind/code/javascript/dom/document-timeline
+bear @cluesurf/bind/code/javascript/dom/document-type
+bear @cluesurf/bind/code/javascript/dom/drag-event
+bear @cluesurf/bind/code/javascript/dom/dynamics-compressor-node
+bear @cluesurf/bind/code/javascript/dom/ext-blend-minmax
+bear @cluesurf/bind/code/javascript/dom/ext-color-buffer-float
+bear @cluesurf/bind/code/javascript/dom/ext-color-buffer-half-float
+bear @cluesurf/bind/code/javascript/dom/ext-float-blend
+bear @cluesurf/bind/code/javascript/dom/ext-frag-depth
+bear @cluesurf/bind/code/javascript/dom/ext-s-rgb
+bear @cluesurf/bind/code/javascript/dom/ext-shader-texture-lod
+bear @cluesurf/bind/code/javascript/dom/ext-texture-compression-rgtc
+bear @cluesurf/bind/code/javascript/dom/ext-texture-filter-anisotropic
+bear @cluesurf/bind/code/javascript/dom/element-event-map
+bear @cluesurf/bind/code/javascript/dom/element
+bear @cluesurf/bind/code/javascript/dom/element-css-inline-style
+bear @cluesurf/bind/code/javascript/dom/element-content-editable
+bear @cluesurf/bind/code/javascript/dom/error-event
+bear @cluesurf/bind/code/javascript/dom/event
+bear @cluesurf/bind/code/javascript/dom/event-listener
+bear @cluesurf/bind/code/javascript/dom/event-listener-object
+bear @cluesurf/bind/code/javascript/dom/event-source-event-map
+bear @cluesurf/bind/code/javascript/dom/event-source
+bear @cluesurf/bind/code/javascript/dom/event-target
+bear @cluesurf/bind/code/javascript/dom/external
+bear @cluesurf/bind/code/javascript/dom/file
+bear @cluesurf/bind/code/javascript/dom/file-list
+bear @cluesurf/bind/code/javascript/dom/file-reader-event-map
+bear @cluesurf/bind/code/javascript/dom/file-reader
+bear @cluesurf/bind/code/javascript/dom/file-system
+bear @cluesurf/bind/code/javascript/dom/file-system-directory-entry
+bear @cluesurf/bind/code/javascript/dom/file-system-directory-reader
+bear @cluesurf/bind/code/javascript/dom/file-system-entry
+bear @cluesurf/bind/code/javascript/dom/file-system-file-entry
+bear @cluesurf/bind/code/javascript/dom/focus-event
+bear @cluesurf/bind/code/javascript/dom/font-face
+bear @cluesurf/bind/code/javascript/dom/font-face-set-event-map
+bear @cluesurf/bind/code/javascript/dom/font-face-set
+bear @cluesurf/bind/code/javascript/dom/font-face-set-load-event
+bear @cluesurf/bind/code/javascript/dom/font-face-source
+bear @cluesurf/bind/code/javascript/dom/form-data
+bear @cluesurf/bind/code/javascript/dom/form-data-event
+bear @cluesurf/bind/code/javascript/dom/gain-node
+bear @cluesurf/bind/code/javascript/dom/gamepad
+bear @cluesurf/bind/code/javascript/dom/gamepad-button
+bear @cluesurf/bind/code/javascript/dom/gamepad-event
+bear @cluesurf/bind/code/javascript/dom/gamepad-haptic-actuator
+bear @cluesurf/bind/code/javascript/dom/generic-transform-stream
+bear @cluesurf/bind/code/javascript/dom/geolocation
+bear @cluesurf/bind/code/javascript/dom/geolocation-coordinates
+bear @cluesurf/bind/code/javascript/dom/geolocation-position
+bear @cluesurf/bind/code/javascript/dom/geolocation-position-error
+bear @cluesurf/bind/code/javascript/dom/global-event-handlers-event-map
+bear @cluesurf/bind/code/javascript/dom/global-event-handlers
+bear @cluesurf/bind/code/javascript/dom/html-all-collection
+bear @cluesurf/bind/code/javascript/dom/html-anchor-element
+bear @cluesurf/bind/code/javascript/dom/html-area-element
+bear @cluesurf/bind/code/javascript/dom/html-audio-element
+bear @cluesurf/bind/code/javascript/dom/htmlbr-element
+bear @cluesurf/bind/code/javascript/dom/html-base-element
+bear @cluesurf/bind/code/javascript/dom/html-body-element-event-map
+bear @cluesurf/bind/code/javascript/dom/html-body-element
+bear @cluesurf/bind/code/javascript/dom/html-button-element
+bear @cluesurf/bind/code/javascript/dom/html-canvas-element
+bear @cluesurf/bind/code/javascript/dom/html-collection-base
+bear @cluesurf/bind/code/javascript/dom/html-collection
+bear @cluesurf/bind/code/javascript/dom/html-collection-of
+bear @cluesurf/bind/code/javascript/dom/htmld-list-element
+bear @cluesurf/bind/code/javascript/dom/html-data-element
+bear @cluesurf/bind/code/javascript/dom/html-data-list-element
+bear @cluesurf/bind/code/javascript/dom/html-details-element
+bear @cluesurf/bind/code/javascript/dom/html-dialog-element
+bear @cluesurf/bind/code/javascript/dom/html-directory-element
+bear @cluesurf/bind/code/javascript/dom/html-div-element
+bear @cluesurf/bind/code/javascript/dom/html-document
+bear @cluesurf/bind/code/javascript/dom/html-element-event-map
+bear @cluesurf/bind/code/javascript/dom/html-element
+bear @cluesurf/bind/code/javascript/dom/html-embed-element
+bear @cluesurf/bind/code/javascript/dom/html-field-set-element
+bear @cluesurf/bind/code/javascript/dom/html-font-element
+bear @cluesurf/bind/code/javascript/dom/html-form-controls-collection
+bear @cluesurf/bind/code/javascript/dom/html-form-element
+bear @cluesurf/bind/code/javascript/dom/html-frame-element
+bear @cluesurf/bind/code/javascript/dom/html-frame-set-element-event-map
+bear @cluesurf/bind/code/javascript/dom/html-frame-set-element
+bear @cluesurf/bind/code/javascript/dom/htmlhr-element
+bear @cluesurf/bind/code/javascript/dom/html-head-element
+bear @cluesurf/bind/code/javascript/dom/html-heading-element
+bear @cluesurf/bind/code/javascript/dom/html-html-element
+bear @cluesurf/bind/code/javascript/dom/html-hyperlink-element-utils
+bear @cluesurf/bind/code/javascript/dom/htmli-frame-element
+bear @cluesurf/bind/code/javascript/dom/html-image-element
+bear @cluesurf/bind/code/javascript/dom/html-input-element
+bear @cluesurf/bind/code/javascript/dom/htmlli-element
+bear @cluesurf/bind/code/javascript/dom/html-label-element
+bear @cluesurf/bind/code/javascript/dom/html-legend-element
+bear @cluesurf/bind/code/javascript/dom/html-link-element
+bear @cluesurf/bind/code/javascript/dom/html-map-element
+bear @cluesurf/bind/code/javascript/dom/html-marquee-element
+bear @cluesurf/bind/code/javascript/dom/html-media-element-event-map
+bear @cluesurf/bind/code/javascript/dom/html-media-element
+bear @cluesurf/bind/code/javascript/dom/html-menu-element
+bear @cluesurf/bind/code/javascript/dom/html-meta-element
+bear @cluesurf/bind/code/javascript/dom/html-meter-element
+bear @cluesurf/bind/code/javascript/dom/html-mod-element
+bear @cluesurf/bind/code/javascript/dom/htmlo-list-element
+bear @cluesurf/bind/code/javascript/dom/html-object-element
+bear @cluesurf/bind/code/javascript/dom/html-opt-group-element
+bear @cluesurf/bind/code/javascript/dom/html-option-element
+bear @cluesurf/bind/code/javascript/dom/html-options-collection
+bear @cluesurf/bind/code/javascript/dom/html-or-svg-element
+bear @cluesurf/bind/code/javascript/dom/html-output-element
+bear @cluesurf/bind/code/javascript/dom/html-paragraph-element
+bear @cluesurf/bind/code/javascript/dom/html-param-element
+bear @cluesurf/bind/code/javascript/dom/html-picture-element
+bear @cluesurf/bind/code/javascript/dom/html-pre-element
+bear @cluesurf/bind/code/javascript/dom/html-progress-element
+bear @cluesurf/bind/code/javascript/dom/html-quote-element
+bear @cluesurf/bind/code/javascript/dom/html-script-element
+bear @cluesurf/bind/code/javascript/dom/html-select-element
+bear @cluesurf/bind/code/javascript/dom/html-slot-element
+bear @cluesurf/bind/code/javascript/dom/html-source-element
+bear @cluesurf/bind/code/javascript/dom/html-span-element
+bear @cluesurf/bind/code/javascript/dom/html-style-element
+bear @cluesurf/bind/code/javascript/dom/html-table-caption-element
+bear @cluesurf/bind/code/javascript/dom/html-table-cell-element
+bear @cluesurf/bind/code/javascript/dom/html-table-col-element
+bear @cluesurf/bind/code/javascript/dom/html-table-data-cell-element
+bear @cluesurf/bind/code/javascript/dom/html-table-element
+bear @cluesurf/bind/code/javascript/dom/html-table-header-cell-element
+bear @cluesurf/bind/code/javascript/dom/html-table-row-element
+bear @cluesurf/bind/code/javascript/dom/html-table-section-element
+bear @cluesurf/bind/code/javascript/dom/html-template-element
+bear @cluesurf/bind/code/javascript/dom/html-text-area-element
+bear @cluesurf/bind/code/javascript/dom/html-time-element
+bear @cluesurf/bind/code/javascript/dom/html-title-element
+bear @cluesurf/bind/code/javascript/dom/html-track-element
+bear @cluesurf/bind/code/javascript/dom/htmlu-list-element
+bear @cluesurf/bind/code/javascript/dom/html-unknown-element
+bear @cluesurf/bind/code/javascript/dom/html-video-element-event-map
+bear @cluesurf/bind/code/javascript/dom/html-video-element
+bear @cluesurf/bind/code/javascript/dom/hash-change-event
+bear @cluesurf/bind/code/javascript/dom/headers
+bear @cluesurf/bind/code/javascript/dom/history
+bear @cluesurf/bind/code/javascript/dom/idb-cursor
+bear @cluesurf/bind/code/javascript/dom/idb-cursor-with-value
+bear @cluesurf/bind/code/javascript/dom/idb-database-event-map
+bear @cluesurf/bind/code/javascript/dom/idb-database
+bear @cluesurf/bind/code/javascript/dom/idb-factory
+bear @cluesurf/bind/code/javascript/dom/idb-index
+bear @cluesurf/bind/code/javascript/dom/idb-key-range
+bear @cluesurf/bind/code/javascript/dom/idb-object-store
+bear @cluesurf/bind/code/javascript/dom/idb-open-db-request-event-map
+bear @cluesurf/bind/code/javascript/dom/idb-open-db-request
+bear @cluesurf/bind/code/javascript/dom/idb-request-event-map
+bear @cluesurf/bind/code/javascript/dom/idb-request
+bear @cluesurf/bind/code/javascript/dom/idb-transaction-event-map
+bear @cluesurf/bind/code/javascript/dom/idb-transaction
+bear @cluesurf/bind/code/javascript/dom/idb-version-change-event
+bear @cluesurf/bind/code/javascript/dom/iir-filter-node
+bear @cluesurf/bind/code/javascript/dom/idle-deadline
+bear @cluesurf/bind/code/javascript/dom/image-bitmap
+bear @cluesurf/bind/code/javascript/dom/image-bitmap-rendering-context
+bear @cluesurf/bind/code/javascript/dom/image-data
+bear @cluesurf/bind/code/javascript/dom/inner-html
+bear @cluesurf/bind/code/javascript/dom/input-event
+bear @cluesurf/bind/code/javascript/dom/intersection-observer
+bear @cluesurf/bind/code/javascript/dom/intersection-observer-entry
+bear @cluesurf/bind/code/javascript/dom/khr-parallel-shader-compile
+bear @cluesurf/bind/code/javascript/dom/keyboard-event
+bear @cluesurf/bind/code/javascript/dom/keyframe-effect
+bear @cluesurf/bind/code/javascript/dom/link-style
+bear @cluesurf/bind/code/javascript/dom/location
+bear @cluesurf/bind/code/javascript/dom/math-ml-element-event-map
+bear @cluesurf/bind/code/javascript/dom/math-ml-element
+bear @cluesurf/bind/code/javascript/dom/media-capabilities
+bear @cluesurf/bind/code/javascript/dom/media-device-info
+bear @cluesurf/bind/code/javascript/dom/media-devices-event-map
+bear @cluesurf/bind/code/javascript/dom/media-devices
+bear @cluesurf/bind/code/javascript/dom/media-element-audio-source-node
+bear @cluesurf/bind/code/javascript/dom/media-encrypted-event
+bear @cluesurf/bind/code/javascript/dom/media-error
+bear @cluesurf/bind/code/javascript/dom/media-key-message-event
+bear @cluesurf/bind/code/javascript/dom/media-key-session-event-map
+bear @cluesurf/bind/code/javascript/dom/media-key-session
+bear @cluesurf/bind/code/javascript/dom/media-key-status-map
+bear @cluesurf/bind/code/javascript/dom/media-key-system-access
+bear @cluesurf/bind/code/javascript/dom/media-keys
+bear @cluesurf/bind/code/javascript/dom/media-list
+bear @cluesurf/bind/code/javascript/dom/media-metadata
+bear @cluesurf/bind/code/javascript/dom/media-query-list-event-map
+bear @cluesurf/bind/code/javascript/dom/media-query-list
+bear @cluesurf/bind/code/javascript/dom/media-query-list-event
+bear @cluesurf/bind/code/javascript/dom/media-recorder-event-map
+bear @cluesurf/bind/code/javascript/dom/media-recorder
+bear @cluesurf/bind/code/javascript/dom/media-recorder-error-event
+bear @cluesurf/bind/code/javascript/dom/media-session
+bear @cluesurf/bind/code/javascript/dom/media-source-event-map
+bear @cluesurf/bind/code/javascript/dom/media-source
+bear @cluesurf/bind/code/javascript/dom/media-stream-event-map
+bear @cluesurf/bind/code/javascript/dom/media-stream
+bear @cluesurf/bind/code/javascript/dom/media-stream-audio-destination-node
+bear @cluesurf/bind/code/javascript/dom/media-stream-audio-source-node
+bear @cluesurf/bind/code/javascript/dom/media-stream-track-event-map
+bear @cluesurf/bind/code/javascript/dom/media-stream-track
+bear @cluesurf/bind/code/javascript/dom/media-stream-track-event
+bear @cluesurf/bind/code/javascript/dom/message-channel
+bear @cluesurf/bind/code/javascript/dom/message-event
+bear @cluesurf/bind/code/javascript/dom/message-port-event-map
+bear @cluesurf/bind/code/javascript/dom/message-port
+bear @cluesurf/bind/code/javascript/dom/mime-type
+bear @cluesurf/bind/code/javascript/dom/mime-type-array
+bear @cluesurf/bind/code/javascript/dom/mouse-event
+bear @cluesurf/bind/code/javascript/dom/mutation-event
+bear @cluesurf/bind/code/javascript/dom/mutation-observer
+bear @cluesurf/bind/code/javascript/dom/mutation-record
+bear @cluesurf/bind/code/javascript/dom/named-node-map
+bear @cluesurf/bind/code/javascript/dom/navigator
+bear @cluesurf/bind/code/javascript/dom/navigator-automation-information
+bear @cluesurf/bind/code/javascript/dom/navigator-concurrent-hardware
+bear @cluesurf/bind/code/javascript/dom/navigator-content-utils
+bear @cluesurf/bind/code/javascript/dom/navigator-cookies
+bear @cluesurf/bind/code/javascript/dom/navigator-id
+bear @cluesurf/bind/code/javascript/dom/navigator-language
+bear @cluesurf/bind/code/javascript/dom/navigator-network-information
+bear @cluesurf/bind/code/javascript/dom/navigator-on-line
+bear @cluesurf/bind/code/javascript/dom/navigator-plugins
+bear @cluesurf/bind/code/javascript/dom/navigator-storage
+bear @cluesurf/bind/code/javascript/dom/network-information
+bear @cluesurf/bind/code/javascript/dom/node
+bear @cluesurf/bind/code/javascript/dom/node-iterator
+bear @cluesurf/bind/code/javascript/dom/node-list
+bear @cluesurf/bind/code/javascript/dom/node-list-of
+bear @cluesurf/bind/code/javascript/dom/non-document-type-child-node
+bear @cluesurf/bind/code/javascript/dom/non-element-parent-node
+bear @cluesurf/bind/code/javascript/dom/notification-event-map
+bear @cluesurf/bind/code/javascript/dom/notification
+bear @cluesurf/bind/code/javascript/dom/oes-element-index-uint
+bear @cluesurf/bind/code/javascript/dom/oes-fbo-render-mipmap
+bear @cluesurf/bind/code/javascript/dom/oes-standard-derivatives
+bear @cluesurf/bind/code/javascript/dom/oes-texture-float
+bear @cluesurf/bind/code/javascript/dom/oes-texture-float-linear
+bear @cluesurf/bind/code/javascript/dom/oes-texture-half-float
+bear @cluesurf/bind/code/javascript/dom/oes-texture-half-float-linear
+bear @cluesurf/bind/code/javascript/dom/oes-vertex-array-object
+bear @cluesurf/bind/code/javascript/dom/ovr-multiview2
+bear @cluesurf/bind/code/javascript/dom/offline-audio-completion-event
+bear @cluesurf/bind/code/javascript/dom/offline-audio-context-event-map
+bear @cluesurf/bind/code/javascript/dom/offline-audio-context
+bear @cluesurf/bind/code/javascript/dom/offscreen-canvas
+bear @cluesurf/bind/code/javascript/dom/oscillator-node
+bear @cluesurf/bind/code/javascript/dom/overconstrained-error
+bear @cluesurf/bind/code/javascript/dom/page-transition-event
+bear @cluesurf/bind/code/javascript/dom/panner-node
+bear @cluesurf/bind/code/javascript/dom/parent-node
+bear @cluesurf/bind/code/javascript/dom/path2-d
+bear @cluesurf/bind/code/javascript/dom/payment-address
+bear @cluesurf/bind/code/javascript/dom/payment-method-change-event
+bear @cluesurf/bind/code/javascript/dom/payment-request-event-map
+bear @cluesurf/bind/code/javascript/dom/payment-request
+bear @cluesurf/bind/code/javascript/dom/payment-request-update-event
+bear @cluesurf/bind/code/javascript/dom/payment-response
+bear @cluesurf/bind/code/javascript/dom/performance-event-map
+bear @cluesurf/bind/code/javascript/dom/performance
+bear @cluesurf/bind/code/javascript/dom/performance-entry
+bear @cluesurf/bind/code/javascript/dom/performance-event-timing
+bear @cluesurf/bind/code/javascript/dom/performance-mark
+bear @cluesurf/bind/code/javascript/dom/performance-measure
+bear @cluesurf/bind/code/javascript/dom/performance-navigation
+bear @cluesurf/bind/code/javascript/dom/performance-navigation-timing
+bear @cluesurf/bind/code/javascript/dom/performance-observer
+bear @cluesurf/bind/code/javascript/dom/performance-observer-entry-list
+bear @cluesurf/bind/code/javascript/dom/performance-paint-timing
+bear @cluesurf/bind/code/javascript/dom/performance-resource-timing
+bear @cluesurf/bind/code/javascript/dom/performance-server-timing
+bear @cluesurf/bind/code/javascript/dom/performance-timing
+bear @cluesurf/bind/code/javascript/dom/periodic-wave
+bear @cluesurf/bind/code/javascript/dom/permission-status-event-map
+bear @cluesurf/bind/code/javascript/dom/permission-status
+bear @cluesurf/bind/code/javascript/dom/permissions
+bear @cluesurf/bind/code/javascript/dom/picture-in-picture-window-event-map
+bear @cluesurf/bind/code/javascript/dom/picture-in-picture-window
+bear @cluesurf/bind/code/javascript/dom/plugin
+bear @cluesurf/bind/code/javascript/dom/plugin-array
+bear @cluesurf/bind/code/javascript/dom/pointer-event
+bear @cluesurf/bind/code/javascript/dom/pop-state-event
+bear @cluesurf/bind/code/javascript/dom/processing-instruction
+bear @cluesurf/bind/code/javascript/dom/progress-event
+bear @cluesurf/bind/code/javascript/dom/promise-rejection-event
+bear @cluesurf/bind/code/javascript/dom/public-key-credential
+bear @cluesurf/bind/code/javascript/dom/push-manager
+bear @cluesurf/bind/code/javascript/dom/push-subscription
+bear @cluesurf/bind/code/javascript/dom/push-subscription-options
+bear @cluesurf/bind/code/javascript/dom/rtc-certificate
+bear @cluesurf/bind/code/javascript/dom/rtcdtmf-sender-event-map
+bear @cluesurf/bind/code/javascript/dom/rtcdtmf-sender
+bear @cluesurf/bind/code/javascript/dom/rtcdtmf-tone-change-event
+bear @cluesurf/bind/code/javascript/dom/rtc-data-channel-event-map
+bear @cluesurf/bind/code/javascript/dom/rtc-data-channel
+bear @cluesurf/bind/code/javascript/dom/rtc-data-channel-event
+bear @cluesurf/bind/code/javascript/dom/rtc-dtls-transport-event-map
+bear @cluesurf/bind/code/javascript/dom/rtc-dtls-transport
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-candidate
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-transport
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-event-map
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-ice-error-event
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-ice-event
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-receiver
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-sender
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-transceiver
+bear @cluesurf/bind/code/javascript/dom/rtc-session-description
+bear @cluesurf/bind/code/javascript/dom/rtc-stats-report
+bear @cluesurf/bind/code/javascript/dom/rtc-track-event
+bear @cluesurf/bind/code/javascript/dom/radio-node-list
+bear @cluesurf/bind/code/javascript/dom/range
+bear @cluesurf/bind/code/javascript/dom/readable-stream
+bear @cluesurf/bind/code/javascript/dom/readable-stream-default-controller
+bear @cluesurf/bind/code/javascript/dom/readable-stream-default-reader
+bear @cluesurf/bind/code/javascript/dom/readable-stream-generic-reader
+bear @cluesurf/bind/code/javascript/dom/remote-playback-event-map
+bear @cluesurf/bind/code/javascript/dom/remote-playback
+bear @cluesurf/bind/code/javascript/dom/request
+bear @cluesurf/bind/code/javascript/dom/resize-observer
+bear @cluesurf/bind/code/javascript/dom/resize-observer-entry
+bear @cluesurf/bind/code/javascript/dom/resize-observer-size
+bear @cluesurf/bind/code/javascript/dom/response
+bear @cluesurf/bind/code/javascript/dom/svga-element
+bear @cluesurf/bind/code/javascript/dom/svg-angle
+bear @cluesurf/bind/code/javascript/dom/svg-animate-element
+bear @cluesurf/bind/code/javascript/dom/svg-animate-motion-element
+bear @cluesurf/bind/code/javascript/dom/svg-animate-transform-element
+bear @cluesurf/bind/code/javascript/dom/svg-animated-angle
+bear @cluesurf/bind/code/javascript/dom/svg-animated-boolean
+bear @cluesurf/bind/code/javascript/dom/svg-animated-enumeration
+bear @cluesurf/bind/code/javascript/dom/svg-animated-integer
+bear @cluesurf/bind/code/javascript/dom/svg-animated-length
+bear @cluesurf/bind/code/javascript/dom/svg-animated-length-list
+bear @cluesurf/bind/code/javascript/dom/svg-animated-number
+bear @cluesurf/bind/code/javascript/dom/svg-animated-number-list
+bear @cluesurf/bind/code/javascript/dom/svg-animated-points
+bear @cluesurf/bind/code/javascript/dom/svg-animated-preserve-aspect-ratio
+bear @cluesurf/bind/code/javascript/dom/svg-animated-rect
+bear @cluesurf/bind/code/javascript/dom/svg-animated-string
+bear @cluesurf/bind/code/javascript/dom/svg-animated-transform-list
+bear @cluesurf/bind/code/javascript/dom/svg-animation-element
+bear @cluesurf/bind/code/javascript/dom/svg-circle-element
+bear @cluesurf/bind/code/javascript/dom/svg-clip-path-element
+bear @cluesurf/bind/code/javascript/dom/svg-component-transfer-function-element
+bear @cluesurf/bind/code/javascript/dom/svg-cursor-element
+bear @cluesurf/bind/code/javascript/dom/svg-defs-element
+bear @cluesurf/bind/code/javascript/dom/svg-desc-element
+bear @cluesurf/bind/code/javascript/dom/svg-element-event-map
+bear @cluesurf/bind/code/javascript/dom/svg-element
+bear @cluesurf/bind/code/javascript/dom/svg-ellipse-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-blend-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-color-matrix-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-component-transfer-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-composite-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-convolve-matrix-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-diffuse-lighting-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-displacement-map-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-distant-light-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-drop-shadow-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-flood-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-func-a-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-func-b-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-func-g-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-func-r-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-gaussian-blur-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-image-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-merge-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-merge-node-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-morphology-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-offset-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-point-light-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-specular-lighting-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-spot-light-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-tile-element
+bear @cluesurf/bind/code/javascript/dom/svgfe-turbulence-element
+bear @cluesurf/bind/code/javascript/dom/svg-filter-element
+bear @cluesurf/bind/code/javascript/dom/svg-filter-primitive-standard-attributes
+bear @cluesurf/bind/code/javascript/dom/svg-fit-to-view-box
+bear @cluesurf/bind/code/javascript/dom/svg-foreign-object-element
+bear @cluesurf/bind/code/javascript/dom/svgg-element
+bear @cluesurf/bind/code/javascript/dom/svg-geometry-element
+bear @cluesurf/bind/code/javascript/dom/svg-gradient-element
+bear @cluesurf/bind/code/javascript/dom/svg-graphics-element
+bear @cluesurf/bind/code/javascript/dom/svg-image-element
+bear @cluesurf/bind/code/javascript/dom/svg-length
+bear @cluesurf/bind/code/javascript/dom/svg-length-list
+bear @cluesurf/bind/code/javascript/dom/svg-line-element
+bear @cluesurf/bind/code/javascript/dom/svg-linear-gradient-element
+bear @cluesurf/bind/code/javascript/dom/svgm-path-element
+bear @cluesurf/bind/code/javascript/dom/svg-marker-element
+bear @cluesurf/bind/code/javascript/dom/svg-mask-element
+bear @cluesurf/bind/code/javascript/dom/svg-metadata-element
+bear @cluesurf/bind/code/javascript/dom/svg-number
+bear @cluesurf/bind/code/javascript/dom/svg-number-list
+bear @cluesurf/bind/code/javascript/dom/svg-path-element
+bear @cluesurf/bind/code/javascript/dom/svg-pattern-element
+bear @cluesurf/bind/code/javascript/dom/svg-point-list
+bear @cluesurf/bind/code/javascript/dom/svg-polygon-element
+bear @cluesurf/bind/code/javascript/dom/svg-polyline-element
+bear @cluesurf/bind/code/javascript/dom/svg-preserve-aspect-ratio
+bear @cluesurf/bind/code/javascript/dom/svg-radial-gradient-element
+bear @cluesurf/bind/code/javascript/dom/svg-rect-element
+bear @cluesurf/bind/code/javascript/dom/svgsvg-element-event-map
+bear @cluesurf/bind/code/javascript/dom/svgsvg-element
+bear @cluesurf/bind/code/javascript/dom/svg-script-element
+bear @cluesurf/bind/code/javascript/dom/svg-set-element
+bear @cluesurf/bind/code/javascript/dom/svg-stop-element
+bear @cluesurf/bind/code/javascript/dom/svg-string-list
+bear @cluesurf/bind/code/javascript/dom/svg-style-element
+bear @cluesurf/bind/code/javascript/dom/svg-switch-element
+bear @cluesurf/bind/code/javascript/dom/svg-symbol-element
+bear @cluesurf/bind/code/javascript/dom/svgt-span-element
+bear @cluesurf/bind/code/javascript/dom/svg-tests
+bear @cluesurf/bind/code/javascript/dom/svg-text-content-element
+bear @cluesurf/bind/code/javascript/dom/svg-text-element
+bear @cluesurf/bind/code/javascript/dom/svg-text-path-element
+bear @cluesurf/bind/code/javascript/dom/svg-text-positioning-element
+bear @cluesurf/bind/code/javascript/dom/svg-title-element
+bear @cluesurf/bind/code/javascript/dom/svg-transform
+bear @cluesurf/bind/code/javascript/dom/svg-transform-list
+bear @cluesurf/bind/code/javascript/dom/svguri-reference
+bear @cluesurf/bind/code/javascript/dom/svg-unit-types
+bear @cluesurf/bind/code/javascript/dom/svg-use-element
+bear @cluesurf/bind/code/javascript/dom/svg-view-element
+bear @cluesurf/bind/code/javascript/dom/screen
+bear @cluesurf/bind/code/javascript/dom/screen-orientation-event-map
+bear @cluesurf/bind/code/javascript/dom/screen-orientation
+bear @cluesurf/bind/code/javascript/dom/script-processor-node-event-map
+bear @cluesurf/bind/code/javascript/dom/script-processor-node
+bear @cluesurf/bind/code/javascript/dom/security-policy-violation-event
+bear @cluesurf/bind/code/javascript/dom/selection
+bear @cluesurf/bind/code/javascript/dom/service-worker-event-map
+bear @cluesurf/bind/code/javascript/dom/service-worker
+bear @cluesurf/bind/code/javascript/dom/service-worker-container-event-map
+bear @cluesurf/bind/code/javascript/dom/service-worker-container
+bear @cluesurf/bind/code/javascript/dom/service-worker-registration-event-map
+bear @cluesurf/bind/code/javascript/dom/service-worker-registration
+bear @cluesurf/bind/code/javascript/dom/shadow-root
+bear @cluesurf/bind/code/javascript/dom/shared-worker
+bear @cluesurf/bind/code/javascript/dom/slottable
+bear @cluesurf/bind/code/javascript/dom/source-buffer-event-map
+bear @cluesurf/bind/code/javascript/dom/source-buffer
+bear @cluesurf/bind/code/javascript/dom/source-buffer-list-event-map
+bear @cluesurf/bind/code/javascript/dom/source-buffer-list
+bear @cluesurf/bind/code/javascript/dom/speech-recognition-alternative
+bear @cluesurf/bind/code/javascript/dom/speech-recognition-error-event
+bear @cluesurf/bind/code/javascript/dom/speech-recognition-result
+bear @cluesurf/bind/code/javascript/dom/speech-recognition-result-list
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-event-map
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-error-event
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-event
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-utterance-event-map
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-utterance
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-voice
+bear @cluesurf/bind/code/javascript/dom/static-range
+bear @cluesurf/bind/code/javascript/dom/stereo-panner-node
+bear @cluesurf/bind/code/javascript/dom/storage
+bear @cluesurf/bind/code/javascript/dom/storage-event
+bear @cluesurf/bind/code/javascript/dom/storage-manager
+bear @cluesurf/bind/code/javascript/dom/style-media
+bear @cluesurf/bind/code/javascript/dom/style-sheet
+bear @cluesurf/bind/code/javascript/dom/style-sheet-list
+bear @cluesurf/bind/code/javascript/dom/submit-event
+bear @cluesurf/bind/code/javascript/dom/subtle-crypto
+bear @cluesurf/bind/code/javascript/dom/text
+bear @cluesurf/bind/code/javascript/dom/text-decoder
+bear @cluesurf/bind/code/javascript/dom/text-decoder-common
+bear @cluesurf/bind/code/javascript/dom/text-decoder-stream
+bear @cluesurf/bind/code/javascript/dom/text-encoder
+bear @cluesurf/bind/code/javascript/dom/text-encoder-common
+bear @cluesurf/bind/code/javascript/dom/text-encoder-stream
+bear @cluesurf/bind/code/javascript/dom/text-metrics
+bear @cluesurf/bind/code/javascript/dom/text-track-event-map
+bear @cluesurf/bind/code/javascript/dom/text-track
+bear @cluesurf/bind/code/javascript/dom/text-track-cue-event-map
+bear @cluesurf/bind/code/javascript/dom/text-track-cue
+bear @cluesurf/bind/code/javascript/dom/text-track-cue-list
+bear @cluesurf/bind/code/javascript/dom/text-track-list-event-map
+bear @cluesurf/bind/code/javascript/dom/text-track-list
+bear @cluesurf/bind/code/javascript/dom/time-ranges
+bear @cluesurf/bind/code/javascript/dom/touch
+bear @cluesurf/bind/code/javascript/dom/touch-event
+bear @cluesurf/bind/code/javascript/dom/touch-list
+bear @cluesurf/bind/code/javascript/dom/track-event
+bear @cluesurf/bind/code/javascript/dom/transform-stream
+bear @cluesurf/bind/code/javascript/dom/transform-stream-default-controller
+bear @cluesurf/bind/code/javascript/dom/transition-event
+bear @cluesurf/bind/code/javascript/dom/tree-walker
+bear @cluesurf/bind/code/javascript/dom/ui-event
+bear @cluesurf/bind/code/javascript/dom/url
+bear @cluesurf/bind/code/javascript/dom/webkit-url
+bear @cluesurf/bind/code/javascript/dom/url-search-params
+bear @cluesurf/bind/code/javascript/dom/vtt-cue
+bear @cluesurf/bind/code/javascript/dom/vtt-region
+bear @cluesurf/bind/code/javascript/dom/validity-state
+bear @cluesurf/bind/code/javascript/dom/video-playback-quality
+bear @cluesurf/bind/code/javascript/dom/visual-viewport-event-map
+bear @cluesurf/bind/code/javascript/dom/visual-viewport
+bear @cluesurf/bind/code/javascript/dom/webgl-color-buffer-float
+bear @cluesurf/bind/code/javascript/dom/webgl-compressed-texture-astc
+bear @cluesurf/bind/code/javascript/dom/webgl-compressed-texture-etc
+bear @cluesurf/bind/code/javascript/dom/webgl-compressed-texture-etc1
+bear @cluesurf/bind/code/javascript/dom/webgl-compressed-texture-pvrtc
+bear @cluesurf/bind/code/javascript/dom/webgl-compressed-texture-s3tc
+bear @cluesurf/bind/code/javascript/dom/webgl-compressed-texture-s3tc-srgb
+bear @cluesurf/bind/code/javascript/dom/webgl-debug-renderer-info
+bear @cluesurf/bind/code/javascript/dom/webgl-debug-shaders
+bear @cluesurf/bind/code/javascript/dom/webgl-depth-texture
+bear @cluesurf/bind/code/javascript/dom/webgl-draw-buffers
+bear @cluesurf/bind/code/javascript/dom/webgl-lose-context
+bear @cluesurf/bind/code/javascript/dom/wave-shaper-node
+bear @cluesurf/bind/code/javascript/dom/web-gl2-rendering-context
+bear @cluesurf/bind/code/javascript/dom/web-gl2-rendering-context-base
+bear @cluesurf/bind/code/javascript/dom/web-gl2-rendering-context-overloads
+bear @cluesurf/bind/code/javascript/dom/web-gl-active-info
+bear @cluesurf/bind/code/javascript/dom/web-gl-buffer
+bear @cluesurf/bind/code/javascript/dom/web-gl-context-event
+bear @cluesurf/bind/code/javascript/dom/web-gl-framebuffer
+bear @cluesurf/bind/code/javascript/dom/web-gl-program
+bear @cluesurf/bind/code/javascript/dom/web-gl-query
+bear @cluesurf/bind/code/javascript/dom/web-gl-renderbuffer
+bear @cluesurf/bind/code/javascript/dom/web-gl-rendering-context
+bear @cluesurf/bind/code/javascript/dom/web-gl-rendering-context-base
+bear @cluesurf/bind/code/javascript/dom/web-gl-rendering-context-overloads
+bear @cluesurf/bind/code/javascript/dom/web-gl-sampler
+bear @cluesurf/bind/code/javascript/dom/web-gl-shader
+bear @cluesurf/bind/code/javascript/dom/web-gl-shader-precision-format
+bear @cluesurf/bind/code/javascript/dom/web-gl-sync
+bear @cluesurf/bind/code/javascript/dom/web-gl-texture
+bear @cluesurf/bind/code/javascript/dom/web-gl-transform-feedback
+bear @cluesurf/bind/code/javascript/dom/web-gl-uniform-location
+bear @cluesurf/bind/code/javascript/dom/web-gl-vertex-array-object
+bear @cluesurf/bind/code/javascript/dom/web-gl-vertex-array-object-oes
+bear @cluesurf/bind/code/javascript/dom/web-socket-event-map
+bear @cluesurf/bind/code/javascript/dom/web-socket
+bear @cluesurf/bind/code/javascript/dom/wheel-event
+bear @cluesurf/bind/code/javascript/dom/window-event-map
+bear @cluesurf/bind/code/javascript/dom/window
+bear @cluesurf/bind/code/javascript/dom/window-event-handlers-event-map
+bear @cluesurf/bind/code/javascript/dom/window-event-handlers
+bear @cluesurf/bind/code/javascript/dom/window-local-storage
+bear @cluesurf/bind/code/javascript/dom/window-or-worker-global-scope
+bear @cluesurf/bind/code/javascript/dom/window-session-storage
+bear @cluesurf/bind/code/javascript/dom/worker-event-map
+bear @cluesurf/bind/code/javascript/dom/worker
+bear @cluesurf/bind/code/javascript/dom/worklet
+bear @cluesurf/bind/code/javascript/dom/writable-stream
+bear @cluesurf/bind/code/javascript/dom/writable-stream-default-controller
+bear @cluesurf/bind/code/javascript/dom/writable-stream-default-writer
+bear @cluesurf/bind/code/javascript/dom/xml-document
+bear @cluesurf/bind/code/javascript/dom/xml-http-request-event-map
+bear @cluesurf/bind/code/javascript/dom/xml-http-request
+bear @cluesurf/bind/code/javascript/dom/xml-http-request-event-target-event-map
+bear @cluesurf/bind/code/javascript/dom/xml-http-request-event-target
+bear @cluesurf/bind/code/javascript/dom/xml-http-request-upload
+bear @cluesurf/bind/code/javascript/dom/xml-serializer
+bear @cluesurf/bind/code/javascript/dom/x-path-evaluator
+bear @cluesurf/bind/code/javascript/dom/x-path-evaluator-base
+bear @cluesurf/bind/code/javascript/dom/x-path-expression
+bear @cluesurf/bind/code/javascript/dom/x-path-result
+bear @cluesurf/bind/code/javascript/dom/xslt-processor
+bear @cluesurf/bind/code/javascript/dom/console
+bear @cluesurf/bind/code/javascript/dom/css
+bear @cluesurf/bind/code/javascript/dom/web-assembly
+bear @cluesurf/bind/code/javascript/dom/blob-callback
+bear @cluesurf/bind/code/javascript/dom/custom-element
+bear @cluesurf/bind/code/javascript/dom/decode-error-callback
+bear @cluesurf/bind/code/javascript/dom/decode-success-callback
+bear @cluesurf/bind/code/javascript/dom/error-callback
+bear @cluesurf/bind/code/javascript/dom/file-callback
+bear @cluesurf/bind/code/javascript/dom/file-system-entries-callback
+bear @cluesurf/bind/code/javascript/dom/file-system-entry-callback
+bear @cluesurf/bind/code/javascript/dom/frame-request-callback
+bear @cluesurf/bind/code/javascript/dom/function-string-callback
+bear @cluesurf/bind/code/javascript/dom/idle-request-callback
+bear @cluesurf/bind/code/javascript/dom/intersection-observer-callback
+bear @cluesurf/bind/code/javascript/dom/media-session-action-handler
+bear @cluesurf/bind/code/javascript/dom/mutation-callback
+bear @cluesurf/bind/code/javascript/dom/notification-permission-callback
+bear @cluesurf/bind/code/javascript/dom/on-before-unload-event-handler-non-null
+bear @cluesurf/bind/code/javascript/dom/on-error-event-handler-non-null
+bear @cluesurf/bind/code/javascript/dom/performance-observer-callback
+bear @cluesurf/bind/code/javascript/dom/position-callback
+bear @cluesurf/bind/code/javascript/dom/position-error-callback
+bear @cluesurf/bind/code/javascript/dom/queuing-strategy-size
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-error-callback
+bear @cluesurf/bind/code/javascript/dom/rtc-session-description-callback
+bear @cluesurf/bind/code/javascript/dom/remote-playback-availability-callback
+bear @cluesurf/bind/code/javascript/dom/resize-observer-callback
+bear @cluesurf/bind/code/javascript/dom/transformer-flush-callback
+bear @cluesurf/bind/code/javascript/dom/transformer-start-callback
+bear @cluesurf/bind/code/javascript/dom/transformer-transform-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-sink-abort-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-sink-close-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-sink-start-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-sink-write-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-source-cancel-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-source-pull-callback
+bear @cluesurf/bind/code/javascript/dom/underlying-source-start-callback
+bear @cluesurf/bind/code/javascript/dom/void-function
+bear @cluesurf/bind/code/javascript/dom/html-element-tag-name-map
+bear @cluesurf/bind/code/javascript/dom/html-element-deprecated-tag-name-map
+bear @cluesurf/bind/code/javascript/dom/svg-element-tag-name-map
+bear @cluesurf/bind/code/javascript/dom/element-tag-name-map
+bear @cluesurf/bind/code/javascript/dom/algorithm-identifier
+bear @cluesurf/bind/code/javascript/dom/big-integer
+bear @cluesurf/bind/code/javascript/dom/binary-data
+bear @cluesurf/bind/code/javascript/dom/blob-part
+bear @cluesurf/bind/code/javascript/dom/body-init
+bear @cluesurf/bind/code/javascript/dom/buffer-source
+bear @cluesurf/bind/code/javascript/dom/cose-algorithm-identifier
+bear @cluesurf/bind/code/javascript/dom/canvas-image-source
+bear @cluesurf/bind/code/javascript/dom/clipboard-item-data
+bear @cluesurf/bind/code/javascript/dom/clipboard-item-data-type
+bear @cluesurf/bind/code/javascript/dom/clipboard-items
+bear @cluesurf/bind/code/javascript/dom/constrain-boolean
+bear @cluesurf/bind/code/javascript/dom/constrain-dom-string
+bear @cluesurf/bind/code/javascript/dom/constrain-double
+bear @cluesurf/bind/code/javascript/dom/constrain-u-long
+bear @cluesurf/bind/code/javascript/dom/dom-high-res-time-stamp
+bear @cluesurf/bind/code/javascript/dom/dom-time-stamp
+bear @cluesurf/bind/code/javascript/dom/event-listener-or-event-listener-object
+bear @cluesurf/bind/code/javascript/dom/float32-list
+bear @cluesurf/bind/code/javascript/dom/form-data-entry-value
+bear @cluesurf/bind/code/javascript/dom/g-lbitfield
+bear @cluesurf/bind/code/javascript/dom/g-lboolean
+bear @cluesurf/bind/code/javascript/dom/g-lclampf
+bear @cluesurf/bind/code/javascript/dom/g-lenum
+bear @cluesurf/bind/code/javascript/dom/g-lfloat
+bear @cluesurf/bind/code/javascript/dom/g-lint
+bear @cluesurf/bind/code/javascript/dom/g-lint64
+bear @cluesurf/bind/code/javascript/dom/g-lintptr
+bear @cluesurf/bind/code/javascript/dom/g-lsizei
+bear @cluesurf/bind/code/javascript/dom/g-lsizeiptr
+bear @cluesurf/bind/code/javascript/dom/g-luint
+bear @cluesurf/bind/code/javascript/dom/g-luint64
+bear @cluesurf/bind/code/javascript/dom/html-or-svg-image-element
+bear @cluesurf/bind/code/javascript/dom/html-or-svg-script-element
+bear @cluesurf/bind/code/javascript/dom/hash-algorithm-identifier
+bear @cluesurf/bind/code/javascript/dom/headers-init
+bear @cluesurf/bind/code/javascript/dom/idb-valid-key
+bear @cluesurf/bind/code/javascript/dom/image-bitmap-source
+bear @cluesurf/bind/code/javascript/dom/insert-position
+bear @cluesurf/bind/code/javascript/dom/int32-list
+bear @cluesurf/bind/code/javascript/dom/line-and-position-setting
+bear @cluesurf/bind/code/javascript/dom/media-provider
+bear @cluesurf/bind/code/javascript/dom/message-event-source
+bear @cluesurf/bind/code/javascript/dom/mutation-record-type
+bear @cluesurf/bind/code/javascript/dom/named-curve
+bear @cluesurf/bind/code/javascript/dom/on-before-unload-event-handler
+bear @cluesurf/bind/code/javascript/dom/on-error-event-handler
+bear @cluesurf/bind/code/javascript/dom/performance-entry-list
+bear @cluesurf/bind/code/javascript/dom/readable-stream-controller
+bear @cluesurf/bind/code/javascript/dom/readable-stream-default-read-result
+bear @cluesurf/bind/code/javascript/dom/readable-stream-reader
+bear @cluesurf/bind/code/javascript/dom/rendering-context
+bear @cluesurf/bind/code/javascript/dom/request-info
+bear @cluesurf/bind/code/javascript/dom/tex-image-source
+bear @cluesurf/bind/code/javascript/dom/timer-handler
+bear @cluesurf/bind/code/javascript/dom/transferable
+bear @cluesurf/bind/code/javascript/dom/uint32-list
+bear @cluesurf/bind/code/javascript/dom/uvm-entries
+bear @cluesurf/bind/code/javascript/dom/uvm-entry
+bear @cluesurf/bind/code/javascript/dom/vibrate-pattern
+bear @cluesurf/bind/code/javascript/dom/window-proxy
+bear @cluesurf/bind/code/javascript/dom/xml-http-request-body-init
+bear @cluesurf/bind/code/javascript/dom/align-setting
+bear @cluesurf/bind/code/javascript/dom/animation-play-state
+bear @cluesurf/bind/code/javascript/dom/animation-replace-state
+bear @cluesurf/bind/code/javascript/dom/append-mode
+bear @cluesurf/bind/code/javascript/dom/attestation-conveyance-preference
+bear @cluesurf/bind/code/javascript/dom/audio-context-latency-category
+bear @cluesurf/bind/code/javascript/dom/audio-context-state
+bear @cluesurf/bind/code/javascript/dom/authenticator-attachment
+bear @cluesurf/bind/code/javascript/dom/authenticator-transport
+bear @cluesurf/bind/code/javascript/dom/auto-keyword
+bear @cluesurf/bind/code/javascript/dom/automation-rate
+bear @cluesurf/bind/code/javascript/dom/binary-type
+bear @cluesurf/bind/code/javascript/dom/biquad-filter-type
+bear @cluesurf/bind/code/javascript/dom/can-play-type-result
+bear @cluesurf/bind/code/javascript/dom/canvas-direction
+bear @cluesurf/bind/code/javascript/dom/canvas-fill-rule
+bear @cluesurf/bind/code/javascript/dom/canvas-font-kerning
+bear @cluesurf/bind/code/javascript/dom/canvas-font-stretch
+bear @cluesurf/bind/code/javascript/dom/canvas-font-variant-caps
+bear @cluesurf/bind/code/javascript/dom/canvas-line-cap
+bear @cluesurf/bind/code/javascript/dom/canvas-line-join
+bear @cluesurf/bind/code/javascript/dom/canvas-text-align
+bear @cluesurf/bind/code/javascript/dom/canvas-text-baseline
+bear @cluesurf/bind/code/javascript/dom/canvas-text-rendering
+bear @cluesurf/bind/code/javascript/dom/channel-count-mode
+bear @cluesurf/bind/code/javascript/dom/channel-interpretation
+bear @cluesurf/bind/code/javascript/dom/client-types
+bear @cluesurf/bind/code/javascript/dom/color-gamut
+bear @cluesurf/bind/code/javascript/dom/color-space-conversion
+bear @cluesurf/bind/code/javascript/dom/composite-operation
+bear @cluesurf/bind/code/javascript/dom/composite-operation-or-auto
+bear @cluesurf/bind/code/javascript/dom/connection-type
+bear @cluesurf/bind/code/javascript/dom/credential-mediation-requirement
+bear @cluesurf/bind/code/javascript/dom/dom-parser-supported-type
+bear @cluesurf/bind/code/javascript/dom/direction-setting
+bear @cluesurf/bind/code/javascript/dom/display-capture-surface-type
+bear @cluesurf/bind/code/javascript/dom/distance-model-type
+bear @cluesurf/bind/code/javascript/dom/document-ready-state
+bear @cluesurf/bind/code/javascript/dom/end-of-stream-error
+bear @cluesurf/bind/code/javascript/dom/ending-type
+bear @cluesurf/bind/code/javascript/dom/fill-mode
+bear @cluesurf/bind/code/javascript/dom/font-face-load-status
+bear @cluesurf/bind/code/javascript/dom/font-face-set-load-status
+bear @cluesurf/bind/code/javascript/dom/fullscreen-navigation-ui
+bear @cluesurf/bind/code/javascript/dom/gamepad-haptic-actuator-type
+bear @cluesurf/bind/code/javascript/dom/gamepad-mapping-type
+bear @cluesurf/bind/code/javascript/dom/hdr-metadata-type
+bear @cluesurf/bind/code/javascript/dom/idb-cursor-direction
+bear @cluesurf/bind/code/javascript/dom/idb-request-ready-state
+bear @cluesurf/bind/code/javascript/dom/idb-transaction-mode
+bear @cluesurf/bind/code/javascript/dom/image-orientation
+bear @cluesurf/bind/code/javascript/dom/image-smoothing-quality
+bear @cluesurf/bind/code/javascript/dom/iteration-composite-operation
+bear @cluesurf/bind/code/javascript/dom/key-format
+bear @cluesurf/bind/code/javascript/dom/key-type
+bear @cluesurf/bind/code/javascript/dom/key-usage
+bear @cluesurf/bind/code/javascript/dom/line-align-setting
+bear @cluesurf/bind/code/javascript/dom/media-decoding-type
+bear @cluesurf/bind/code/javascript/dom/media-device-kind
+bear @cluesurf/bind/code/javascript/dom/media-encoding-type
+bear @cluesurf/bind/code/javascript/dom/media-key-message-type
+bear @cluesurf/bind/code/javascript/dom/media-key-session-type
+bear @cluesurf/bind/code/javascript/dom/media-key-status
+bear @cluesurf/bind/code/javascript/dom/media-keys-requirement
+bear @cluesurf/bind/code/javascript/dom/media-session-action
+bear @cluesurf/bind/code/javascript/dom/media-session-playback-state
+bear @cluesurf/bind/code/javascript/dom/media-stream-track-state
+bear @cluesurf/bind/code/javascript/dom/navigation-type
+bear @cluesurf/bind/code/javascript/dom/notification-direction
+bear @cluesurf/bind/code/javascript/dom/notification-permission
+bear @cluesurf/bind/code/javascript/dom/orientation-lock-type
+bear @cluesurf/bind/code/javascript/dom/orientation-type
+bear @cluesurf/bind/code/javascript/dom/oscillator-type
+bear @cluesurf/bind/code/javascript/dom/over-sample-type
+bear @cluesurf/bind/code/javascript/dom/panning-model-type
+bear @cluesurf/bind/code/javascript/dom/payment-complete
+bear @cluesurf/bind/code/javascript/dom/permission-name
+bear @cluesurf/bind/code/javascript/dom/permission-state
+bear @cluesurf/bind/code/javascript/dom/playback-direction
+bear @cluesurf/bind/code/javascript/dom/position-align-setting
+bear @cluesurf/bind/code/javascript/dom/predefined-color-space
+bear @cluesurf/bind/code/javascript/dom/premultiply-alpha
+bear @cluesurf/bind/code/javascript/dom/presentation-style
+bear @cluesurf/bind/code/javascript/dom/public-key-credential-type
+bear @cluesurf/bind/code/javascript/dom/push-encryption-key-name
+bear @cluesurf/bind/code/javascript/dom/push-permission-state
+bear @cluesurf/bind/code/javascript/dom/rtc-bundle-policy
+bear @cluesurf/bind/code/javascript/dom/rtc-data-channel-state
+bear @cluesurf/bind/code/javascript/dom/rtc-degradation-preference
+bear @cluesurf/bind/code/javascript/dom/rtc-dtls-transport-state
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-candidate-type
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-component
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-connection-state
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-credential-type
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-gatherer-state
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-gathering-state
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-protocol
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-tcp-candidate-type
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-transport-policy
+bear @cluesurf/bind/code/javascript/dom/rtc-ice-transport-state
+bear @cluesurf/bind/code/javascript/dom/rtc-peer-connection-state
+bear @cluesurf/bind/code/javascript/dom/rtc-priority-type
+bear @cluesurf/bind/code/javascript/dom/rtc-rtcp-mux-policy
+bear @cluesurf/bind/code/javascript/dom/rtc-rtp-transceiver-direction
+bear @cluesurf/bind/code/javascript/dom/rtc-sdp-type
+bear @cluesurf/bind/code/javascript/dom/rtc-signaling-state
+bear @cluesurf/bind/code/javascript/dom/rtc-stats-ice-candidate-pair-state
+bear @cluesurf/bind/code/javascript/dom/rtc-stats-type
+bear @cluesurf/bind/code/javascript/dom/ready-state
+bear @cluesurf/bind/code/javascript/dom/recording-state
+bear @cluesurf/bind/code/javascript/dom/referrer-policy
+bear @cluesurf/bind/code/javascript/dom/remote-playback-state
+bear @cluesurf/bind/code/javascript/dom/request-cache
+bear @cluesurf/bind/code/javascript/dom/request-credentials
+bear @cluesurf/bind/code/javascript/dom/request-destination
+bear @cluesurf/bind/code/javascript/dom/request-mode
+bear @cluesurf/bind/code/javascript/dom/request-redirect
+bear @cluesurf/bind/code/javascript/dom/resident-key-requirement
+bear @cluesurf/bind/code/javascript/dom/resize-observer-box-options
+bear @cluesurf/bind/code/javascript/dom/resize-quality
+bear @cluesurf/bind/code/javascript/dom/response-type
+bear @cluesurf/bind/code/javascript/dom/scroll-behavior
+bear @cluesurf/bind/code/javascript/dom/scroll-logical-position
+bear @cluesurf/bind/code/javascript/dom/scroll-restoration
+bear @cluesurf/bind/code/javascript/dom/scroll-setting
+bear @cluesurf/bind/code/javascript/dom/security-policy-violation-event-disposition
+bear @cluesurf/bind/code/javascript/dom/selection-mode
+bear @cluesurf/bind/code/javascript/dom/service-worker-state
+bear @cluesurf/bind/code/javascript/dom/service-worker-update-via-cache
+bear @cluesurf/bind/code/javascript/dom/shadow-root-mode
+bear @cluesurf/bind/code/javascript/dom/slot-assignment-mode
+bear @cluesurf/bind/code/javascript/dom/speech-recognition-error-code
+bear @cluesurf/bind/code/javascript/dom/speech-synthesis-error-code
+bear @cluesurf/bind/code/javascript/dom/text-track-kind
+bear @cluesurf/bind/code/javascript/dom/text-track-mode
+bear @cluesurf/bind/code/javascript/dom/touch-type
+bear @cluesurf/bind/code/javascript/dom/transfer-function
+bear @cluesurf/bind/code/javascript/dom/user-verification-requirement
+bear @cluesurf/bind/code/javascript/dom/video-facing-mode-enum
+bear @cluesurf/bind/code/javascript/dom/visibility-state
+bear @cluesurf/bind/code/javascript/dom/web-gl-power-preference
+bear @cluesurf/bind/code/javascript/dom/worker-type
+bear @cluesurf/bind/code/javascript/dom/xml-http-request-response-type
+bear @cluesurf/bind/code/javascript/dom/iterable
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form abort-controller
-  take form abort-signal
-  take form abstract-range
-  take form add-event-listener-options
-  take form algorithm-identifier
-  take form analyser-node
-  take form analyser-options
-  take form animation
-  take form animation-effect
-  take form animation-event
-  take form animation-event-init
-  take form animation-playback-event
-  take form animation-playback-event-init
-  take form animation-timeline
-  take form attr
-  take form audio-buffer
-  take form audio-buffer-options
-  take form audio-buffer-source-node
-  take form audio-buffer-source-options
-  take form audio-context
-  take form audio-context-options
-  take form audio-destination-node
-  take form audio-listener
-  take form audio-node
-  take form audio-node-options
-  take form audio-param
-  take form audio-param-map
-  take form audio-processing-event
-  take form audio-processing-event-init
-  take form audio-scheduled-source-node
-  take form audio-worklet
-  take form audio-worklet-node
-  take form audio-worklet-node-options
-  take form authenticator-assertion-response
-  take form authenticator-attestation-response
-  take form authenticator-response
-  take form bar-prop
-  take form base-audio-context
-  take form before-unload-event
-  take form binary-data
-  take form biquad-filter-node
-  take form biquad-filter-options
-  take form blob
-  take form blob-event
-  take form blob-event-init
-  take form blob-part
-  take form blob-property-bag
-  take form body-init
-  take form broadcast-channel
-  take form byte-length-queuing-strategy
-  take form cache
-  take form cache-storage
-  take form canvas-gradient
-  take form canvas-pattern
-  take form canvas-rendering-context2-d
-  take form cdata-section
-  take form channel-merger-node
-  take form channel-merger-options
-  take form channel-splitter-node
-  take form channel-splitter-options
-  take form character-data
-  take form client-rect
-  take form clipboard
-  take form clipboard-event
-  take form clipboard-event-init
-  take form clipboard-item
-  take form clipboard-item-data
-  take form clipboard-item-options
-  take form close-event
-  take form close-event-init
-  take form comment
-  take form composition-event
-  take form composition-event-init
-  take form console
-  take form constant-source-node
-  take form constant-source-options
-  take form convolver-node
-  take form convolver-options
-  take form count-queuing-strategy
-  take form credential
-  take form credentials-container
-  take form crypto
-  take form crypto-key
-  take form css-animation
-  take form css-condition-rule
-  take form css-counter-style-rule
-  take form css-font-face-rule
-  take form css-grouping-rule
-  take form css-import-rule
-  take form css-keyframe-rule
-  take form css-keyframes-rule
-  take form css-media-rule
-  take form css-namespace-rule
-  take form css-page-rule
-  take form css-rule
-  take form css-rule-list
-  take form css-style-declaration
-  take form css-style-rule
-  take form css-style-sheet
-  take form css-supports-rule
-  take form css-transition
-  take form custom-element-registry
-  take form custom-event
-  take form custom-event-init
-  take form data-transfer
-  take form data-transfer-item
-  take form data-transfer-item-list
-  take form delay-node
-  take form delay-options
-  take form device-motion-event
-  take form device-motion-event-init
-  take form device-orientation-event
-  take form device-orientation-event-init
-  take form document
-  take form document-fragment
-  take form document-timeline
-  take form document-timeline-options
-  take form document-type
-  take form dom-exception
-  take form dom-implementation
-  take form dom-matrix
-  take form dom-matrix-init
-  take form dom-matrix-read-only
-  take form dom-parser
-  take form dom-point
-  take form dom-point-init
-  take form dom-point-read-only
-  take form dom-quad
-  take form dom-quad-init
-  take form dom-rect
-  take form dom-rect-init
-  take form dom-rect-list
-  take form dom-rect-read-only
-  take form dom-string-list
-  take form dom-string-map
-  take form dom-token-list
-  take form drag-event
-  take form drag-event-init
-  take form dynamics-compressor-node
-  take form dynamics-compressor-options
-  take form element
-  take form error-event
-  take form error-event-init
-  take form event
-  take form event-init
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-source
-  take form event-source-init
-  take form event-target
-  take form external
-  take form file
-  take form file-list
-  take form file-property-bag
-  take form file-reader
-  take form file-system
-  take form file-system-directory-entry
-  take form file-system-directory-reader
-  take form file-system-entry
-  take form file-system-file-entry
-  take form focus-event
-  take form focus-event-init
-  take form font-face
-  take form font-face-descriptors
-  take form font-face-set
-  take form font-face-set-load-event
-  take form font-face-set-load-event-init
-  take form form-data
-  take form form-data-event
-  take form form-data-event-init
-  take form frame-request-callback
-  take form g-lenum
-  take form g-lint64
-  take form gain-node
-  take form gain-options
-  take form gamepad
-  take form gamepad-button
-  take form gamepad-event
-  take form gamepad-event-init
-  take form gamepad-haptic-actuator
-  take form geolocation
-  take form geolocation-coordinates
-  take form geolocation-position
-  take form geolocation-position-error
-  take form hash-change-event
-  take form hash-change-event-init
-  take form headers
-  take form headers-init
-  take form history
-  take form html-all-collection
-  take form html-anchor-element
-  take form html-area-element
-  take form html-audio-element
-  take form html-base-element
-  take form html-body-element
-  take form html-button-element
-  take form html-canvas-element
-  take form html-collection
-  take form html-data-element
-  take form html-data-list-element
-  take form html-details-element
-  take form html-directory-element
-  take form html-div-element
-  take form html-element
-  take form html-embed-element
-  take form html-field-set-element
-  take form html-font-element
-  take form html-form-controls-collection
-  take form html-form-element
-  take form html-frame-element
-  take form html-frame-set-element
-  take form html-head-element
-  take form html-heading-element
-  take form html-html-element
-  take form html-image-element
-  take form html-input-element
-  take form html-label-element
-  take form html-legend-element
-  take form html-link-element
-  take form html-map-element
-  take form html-marquee-element
-  take form html-media-element
-  take form html-menu-element
-  take form html-meta-element
-  take form html-meter-element
-  take form html-mod-element
-  take form html-object-element
-  take form html-opt-group-element
-  take form html-option-element
-  take form html-options-collection
-  take form html-output-element
-  take form html-paragraph-element
-  take form html-param-element
-  take form html-picture-element
-  take form html-pre-element
-  take form html-progress-element
-  take form html-quote-element
-  take form html-script-element
-  take form html-select-element
-  take form html-slot-element
-  take form html-source-element
-  take form html-span-element
-  take form html-style-element
-  take form html-table-caption-element
-  take form html-table-cell-element
-  take form html-table-col-element
-  take form html-table-element
-  take form html-table-row-element
-  take form html-table-section-element
-  take form html-template-element
-  take form html-text-area-element
-  take form html-time-element
-  take form html-title-element
-  take form html-track-element
-  take form html-unknown-element
-  take form html-video-element
-  take form htmlbr-element
-  take form htmld-list-element
-  take form htmlhr-element
-  take form htmli-frame-element
-  take form htmlli-element
-  take form htmlo-list-element
-  take form htmlu-list-element
-  take form idb-cursor
-  take form idb-cursor-with-value
-  take form idb-database
-  take form idb-factory
-  take form idb-index
-  take form idb-key-range
-  take form idb-object-store
-  take form idb-open-db-request
-  take form idb-request
-  take form idb-transaction
-  take form idb-version-change-event
-  take form idb-version-change-event-init
-  take form idle-deadline
-  take form idle-request-callback
-  take form idle-request-options
-  take form iir-filter-node
-  take form iir-filter-options
-  take form image-bitmap
-  take form image-bitmap-options
-  take form image-bitmap-rendering-context
-  take form image-bitmap-source
-  take form image-data
-  take form image-data-settings
-  take form input-event
-  take form input-event-init
-  take form intersection-observer
-  take form intersection-observer-callback
-  take form intersection-observer-entry
-  take form intersection-observer-entry-init
-  take form intersection-observer-init
-  take form keyboard-event
-  take form keyboard-event-init
-  take form keyframe
-  take form keyframe-effect
-  take form keyframe-effect-options
-  take form location
-  take form math-ml-element
-  take form media-capabilities
-  take form media-device-info
-  take form media-devices
-  take form media-element-audio-source-node
-  take form media-element-audio-source-options
-  take form media-encrypted-event
-  take form media-encrypted-event-init
-  take form media-error
-  take form media-key-message-event
-  take form media-key-message-event-init
-  take form media-key-session
-  take form media-key-status-map
-  take form media-key-system-access
-  take form media-keys
-  take form media-list
-  take form media-metadata
-  take form media-metadata-init
-  take form media-query-list
-  take form media-query-list-event
-  take form media-query-list-event-init
-  take form media-recorder
-  take form media-recorder-error-event
-  take form media-recorder-error-event-init
-  take form media-recorder-options
-  take form media-session
-  take form media-source
-  take form media-stream
-  take form media-stream-audio-destination-node
-  take form media-stream-audio-source-node
-  take form media-stream-audio-source-options
-  take form media-stream-track
-  take form media-stream-track-event
-  take form media-stream-track-event-init
-  take form message-channel
-  take form message-event
-  take form message-event-init
-  take form message-port
-  take form mime-type
-  take form mime-type-array
-  take form mouse-event
-  take form mouse-event-init
-  take form mutation-callback
-  take form mutation-event
-  take form mutation-observer
-  take form mutation-record
-  take form named-node-map
-  take form navigator
-  take form network-information
-  take form node
-  take form node-iterator
-  take form node-list
-  take form notification
-  take form notification-options
-  take form notification-permission
-  take form notification-permission-callback
-  take form offline-audio-completion-event
-  take form offline-audio-completion-event-init
-  take form offline-audio-context
-  take form offline-audio-context-options
-  take form on-error-event-handler
-  take form oscillator-node
-  take form oscillator-options
-  take form overconstrained-error
-  take form page-transition-event
-  take form page-transition-event-init
-  take form panner-node
-  take form panner-options
-  take form path2-d
-  take form payment-address
-  take form payment-details-init
-  take form payment-method-change-event
-  take form payment-method-change-event-init
-  take form payment-method-data
-  take form payment-request
-  take form payment-request-update-event
-  take form payment-request-update-event-init
-  take form payment-response
-  take form performance
-  take form performance-entry
-  take form performance-event-timing
-  take form performance-mark
-  take form performance-mark-options
-  take form performance-measure
-  take form performance-navigation
-  take form performance-navigation-timing
-  take form performance-observer
-  take form performance-observer-callback
-  take form performance-observer-entry-list
-  take form performance-paint-timing
-  take form performance-resource-timing
-  take form performance-server-timing
-  take form performance-timing
-  take form periodic-wave
-  take form periodic-wave-options
-  take form permission-status
-  take form permissions
-  take form picture-in-picture-window
-  take form plugin
-  take form plugin-array
-  take form pointer-event
-  take form pointer-event-init
-  take form pop-state-event
-  take form pop-state-event-init
-  take form processing-instruction
-  take form progress-event
-  take form progress-event-init
-  take form promise-rejection-event
-  take form promise-rejection-event-init
-  take form property-indexed-keyframes
-  take form public-key-credential
-  take form push-manager
-  take form push-subscription
-  take form push-subscription-options
-  take form queuing-strategy
-  take form queuing-strategy-init
-  take form radio-node-list
-  take form range
-  take form readable-stream
-  take form readable-stream-default-controller
-  take form readable-stream-default-reader
-  take form remote-playback
-  take form request
-  take form request-info
-  take form request-init
-  take form resize-observer
-  take form resize-observer-callback
-  take form resize-observer-entry
-  take form resize-observer-size
-  take form response
-  take form response-init
-  take form rtc-certificate
-  take form rtc-configuration
-  take form rtc-data-channel
-  take form rtc-data-channel-event
-  take form rtc-data-channel-event-init
-  take form rtc-dtls-transport
-  take form rtc-ice-candidate
-  take form rtc-ice-candidate-init
-  take form rtc-ice-transport
-  take form rtc-peer-connection
-  take form rtc-peer-connection-ice-error-event
-  take form rtc-peer-connection-ice-error-event-init
-  take form rtc-peer-connection-ice-event
-  take form rtc-peer-connection-ice-event-init
-  take form rtc-rtp-capabilities
-  take form rtc-rtp-receiver
-  take form rtc-rtp-sender
-  take form rtc-rtp-transceiver
-  take form rtc-session-description
-  take form rtc-session-description-init
-  take form rtc-stats-report
-  take form rtc-track-event
-  take form rtc-track-event-init
-  take form rtcdtmf-sender
-  take form rtcdtmf-tone-change-event
-  take form rtcdtmf-tone-change-event-init
-  take form screen
-  take form screen-orientation
-  take form script-processor-node
-  take form scroll-to-options
-  take form security-policy-violation-event
-  take form security-policy-violation-event-init
-  take form selection
-  take form service-worker
-  take form service-worker-container
-  take form service-worker-registration
-  take form shadow-root
-  take form shared-worker
-  take form source-buffer
-  take form source-buffer-list
-  take form speech-recognition-alternative
-  take form speech-recognition-error-event
-  take form speech-recognition-error-event-init
-  take form speech-recognition-result
-  take form speech-recognition-result-list
-  take form speech-synthesis
-  take form speech-synthesis-error-event
-  take form speech-synthesis-error-event-init
-  take form speech-synthesis-event
-  take form speech-synthesis-event-init
-  take form speech-synthesis-utterance
-  take form speech-synthesis-voice
-  take form static-range
-  take form static-range-init
-  take form stereo-panner-node
-  take form stereo-panner-options
-  take form storage
-  take form storage-event
-  take form storage-event-init
-  take form storage-manager
-  take form style-media
-  take form style-sheet
-  take form style-sheet-list
-  take form submit-event
-  take form submit-event-init
-  take form subtle-crypto
-  take form svg-angle
-  take form svg-animate-element
-  take form svg-animate-motion-element
-  take form svg-animate-transform-element
-  take form svg-animated-angle
-  take form svg-animated-boolean
-  take form svg-animated-enumeration
-  take form svg-animated-integer
-  take form svg-animated-length
-  take form svg-animated-length-list
-  take form svg-animated-number
-  take form svg-animated-number-list
-  take form svg-animated-preserve-aspect-ratio
-  take form svg-animated-rect
-  take form svg-animated-string
-  take form svg-animated-transform-list
-  take form svg-animation-element
-  take form svg-circle-element
-  take form svg-clip-path-element
-  take form svg-component-transfer-function-element
-  take form svg-cursor-element
-  take form svg-defs-element
-  take form svg-desc-element
-  take form svg-element
-  take form svg-ellipse-element
-  take form svg-filter-element
-  take form svg-foreign-object-element
-  take form svg-geometry-element
-  take form svg-gradient-element
-  take form svg-graphics-element
-  take form svg-image-element
-  take form svg-length
-  take form svg-length-list
-  take form svg-line-element
-  take form svg-linear-gradient-element
-  take form svg-marker-element
-  take form svg-mask-element
-  take form svg-metadata-element
-  take form svg-number
-  take form svg-number-list
-  take form svg-path-element
-  take form svg-pattern-element
-  take form svg-point-list
-  take form svg-polygon-element
-  take form svg-polyline-element
-  take form svg-preserve-aspect-ratio
-  take form svg-radial-gradient-element
-  take form svg-rect-element
-  take form svg-script-element
-  take form svg-set-element
-  take form svg-stop-element
-  take form svg-string-list
-  take form svg-style-element
-  take form svg-switch-element
-  take form svg-symbol-element
-  take form svg-text-content-element
-  take form svg-text-element
-  take form svg-text-path-element
-  take form svg-text-positioning-element
-  take form svg-title-element
-  take form svg-transform
-  take form svg-transform-list
-  take form svg-unit-types
-  take form svg-use-element
-  take form svg-view-element
-  take form svga-element
-  take form svgfe-blend-element
-  take form svgfe-color-matrix-element
-  take form svgfe-component-transfer-element
-  take form svgfe-composite-element
-  take form svgfe-convolve-matrix-element
-  take form svgfe-diffuse-lighting-element
-  take form svgfe-displacement-map-element
-  take form svgfe-distant-light-element
-  take form svgfe-drop-shadow-element
-  take form svgfe-flood-element
-  take form svgfe-func-a-element
-  take form svgfe-func-b-element
-  take form svgfe-func-g-element
-  take form svgfe-func-r-element
-  take form svgfe-gaussian-blur-element
-  take form svgfe-image-element
-  take form svgfe-merge-element
-  take form svgfe-merge-node-element
-  take form svgfe-morphology-element
-  take form svgfe-offset-element
-  take form svgfe-point-light-element
-  take form svgfe-specular-lighting-element
-  take form svgfe-spot-light-element
-  take form svgfe-tile-element
-  take form svgfe-turbulence-element
-  take form svgg-element
-  take form svgm-path-element
-  take form svgsvg-element
-  take form svgt-span-element
-  take form text
-  take form text-decoder
-  take form text-decoder-options
-  take form text-decoder-stream
-  take form text-encoder
-  take form text-encoder-stream
-  take form text-metrics
-  take form text-track
-  take form text-track-cue
-  take form text-track-cue-list
-  take form text-track-list
-  take form time-ranges
-  take form timer-handler
-  take form touch
-  take form touch-event
-  take form touch-event-init
-  take form touch-init
-  take form touch-list
-  take form track-event
-  take form track-event-init
-  take form transferable
-  take form transform-stream
-  take form transform-stream-default-controller
-  take form transformer
-  take form transition-event
-  take form transition-event-init
-  take form tree-walker
-  take form ui-event
-  take form ui-event-init
-  take form underlying-sink
-  take form underlying-source
-  take form url
-  take form url-search-params
-  take form validity-state
-  take form video-playback-quality
-  take form visual-viewport
-  take form void-function
-  take form vtt-cue
-  take form vtt-region
-  take form wave-shaper-node
-  take form wave-shaper-options
-  take form web-gl-active-info
-  take form web-gl-buffer
-  take form web-gl-context-event
-  take form web-gl-context-event-init
-  take form web-gl-framebuffer
-  take form web-gl-program
-  take form web-gl-query
-  take form web-gl-renderbuffer
-  take form web-gl-rendering-context
-  take form web-gl-sampler
-  take form web-gl-shader
-  take form web-gl-shader-precision-format
-  take form web-gl-sync
-  take form web-gl-texture
-  take form web-gl-transform-feedback
-  take form web-gl-uniform-location
-  take form web-gl-vertex-array-object
-  take form web-gl2-rendering-context
-  take form web-socket
-  take form wheel-event
-  take form wheel-event-init
-  take form window
-  take form window-event-map
-  take form window-post-message-options
-  take form window-proxy
-  take form worker
-  take form worker-options
-  take form worklet
-  take form writable-stream
-  take form writable-stream-default-controller
-  take form writable-stream-default-writer
-  take form x-path-evaluator
-  take form x-path-expression
-  take form x-path-result
-  take form xml-document
-  take form xml-http-request
-  take form xml-http-request-event-target
-  take form xml-http-request-upload
-  take form xml-serializer
-  take form xslt-processor
+load @cluesurf/bind/code/browser/dom
+  find abort-controller
+  find abort-signal
+  find abstract-range
+  find add-event-listener-options
+  find algorithm-identifier
+  find analyser-node
+  find analyser-options
+  find animation
+  find animation-effect
+  find animation-event
+  find animation-event-init
+  find animation-playback-event
+  find animation-playback-event-init
+  find animation-timeline
+  find attr
+  find audio-buffer
+  find audio-buffer-options
+  find audio-buffer-source-node
+  find audio-buffer-source-options
+  find audio-context
+  find audio-context-options
+  find audio-destination-node
+  find audio-listener
+  find audio-node
+  find audio-node-options
+  find audio-param
+  find audio-param-map
+  find audio-processing-event
+  find audio-processing-event-init
+  find audio-scheduled-source-node
+  find audio-worklet
+  find audio-worklet-node
+  find audio-worklet-node-options
+  find authenticator-assertion-response
+  find authenticator-attestation-response
+  find authenticator-response
+  find bar-prop
+  find base-audio-context
+  find before-unload-event
+  find binary-data
+  find biquad-filter-node
+  find biquad-filter-options
+  find blob
+  find blob-event
+  find blob-event-init
+  find blob-part
+  find blob-property-bag
+  find body-init
+  find broadcast-channel
+  find byte-length-queuing-strategy
+  find cache
+  find cache-storage
+  find canvas-gradient
+  find canvas-pattern
+  find canvas-rendering-context2-d
+  find cdata-section
+  find channel-merger-node
+  find channel-merger-options
+  find channel-splitter-node
+  find channel-splitter-options
+  find character-data
+  find client-rect
+  find clipboard
+  find clipboard-event
+  find clipboard-event-init
+  find clipboard-item
+  find clipboard-item-data
+  find clipboard-item-options
+  find close-event
+  find close-event-init
+  find comment
+  find composition-event
+  find composition-event-init
+  find console
+  find constant-source-node
+  find constant-source-options
+  find convolver-node
+  find convolver-options
+  find count-queuing-strategy
+  find credential
+  find credentials-container
+  find crypto
+  find crypto-key
+  find css-animation
+  find css-condition-rule
+  find css-counter-style-rule
+  find css-font-face-rule
+  find css-grouping-rule
+  find css-import-rule
+  find css-keyframe-rule
+  find css-keyframes-rule
+  find css-media-rule
+  find css-namespace-rule
+  find css-page-rule
+  find css-rule
+  find css-rule-list
+  find css-style-declaration
+  find css-style-rule
+  find css-style-sheet
+  find css-supports-rule
+  find css-transition
+  find custom-element-registry
+  find custom-event
+  find custom-event-init
+  find data-transfer
+  find data-transfer-item
+  find data-transfer-item-list
+  find delay-node
+  find delay-options
+  find device-motion-event
+  find device-motion-event-init
+  find device-orientation-event
+  find device-orientation-event-init
+  find document
+  find document-fragment
+  find document-timeline
+  find document-timeline-options
+  find document-type
+  find dom-exception
+  find dom-implementation
+  find dom-matrix
+  find dom-matrix-init
+  find dom-matrix-read-only
+  find dom-parser
+  find dom-point
+  find dom-point-init
+  find dom-point-read-only
+  find dom-quad
+  find dom-quad-init
+  find dom-rect
+  find dom-rect-init
+  find dom-rect-list
+  find dom-rect-read-only
+  find dom-string-list
+  find dom-string-map
+  find dom-token-list
+  find drag-event
+  find drag-event-init
+  find dynamics-compressor-node
+  find dynamics-compressor-options
+  find element
+  find error-event
+  find error-event-init
+  find event
+  find event-init
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-source
+  find event-source-init
+  find event-target
+  find external
+  find file
+  find file-list
+  find file-property-bag
+  find file-reader
+  find file-system
+  find file-system-directory-entry
+  find file-system-directory-reader
+  find file-system-entry
+  find file-system-file-entry
+  find focus-event
+  find focus-event-init
+  find font-face
+  find font-face-descriptors
+  find font-face-set
+  find font-face-set-load-event
+  find font-face-set-load-event-init
+  find form-data
+  find form-data-event
+  find form-data-event-init
+  find frame-request-callback
+  find g-lenum
+  find g-lint64
+  find gain-node
+  find gain-options
+  find gamepad
+  find gamepad-button
+  find gamepad-event
+  find gamepad-event-init
+  find gamepad-haptic-actuator
+  find geolocation
+  find geolocation-coordinates
+  find geolocation-position
+  find geolocation-position-error
+  find hash-change-event
+  find hash-change-event-init
+  find headers
+  find headers-init
+  find history
+  find html-all-collection
+  find html-anchor-element
+  find html-area-element
+  find html-audio-element
+  find html-base-element
+  find html-body-element
+  find html-button-element
+  find html-canvas-element
+  find html-collection
+  find html-data-element
+  find html-data-list-element
+  find html-details-element
+  find html-directory-element
+  find html-div-element
+  find html-element
+  find html-embed-element
+  find html-field-set-element
+  find html-font-element
+  find html-form-controls-collection
+  find html-form-element
+  find html-frame-element
+  find html-frame-set-element
+  find html-head-element
+  find html-heading-element
+  find html-html-element
+  find html-image-element
+  find html-input-element
+  find html-label-element
+  find html-legend-element
+  find html-link-element
+  find html-map-element
+  find html-marquee-element
+  find html-media-element
+  find html-menu-element
+  find html-meta-element
+  find html-meter-element
+  find html-mod-element
+  find html-object-element
+  find html-opt-group-element
+  find html-option-element
+  find html-options-collection
+  find html-output-element
+  find html-paragraph-element
+  find html-param-element
+  find html-picture-element
+  find html-pre-element
+  find html-progress-element
+  find html-quote-element
+  find html-script-element
+  find html-select-element
+  find html-slot-element
+  find html-source-element
+  find html-span-element
+  find html-style-element
+  find html-table-caption-element
+  find html-table-cell-element
+  find html-table-col-element
+  find html-table-element
+  find html-table-row-element
+  find html-table-section-element
+  find html-template-element
+  find html-text-area-element
+  find html-time-element
+  find html-title-element
+  find html-track-element
+  find html-unknown-element
+  find html-video-element
+  find htmlbr-element
+  find htmld-list-element
+  find htmlhr-element
+  find htmli-frame-element
+  find htmlli-element
+  find htmlo-list-element
+  find htmlu-list-element
+  find idb-cursor
+  find idb-cursor-with-value
+  find idb-database
+  find idb-factory
+  find idb-index
+  find idb-key-range
+  find idb-object-store
+  find idb-open-db-request
+  find idb-request
+  find idb-transaction
+  find idb-version-change-event
+  find idb-version-change-event-init
+  find idle-deadline
+  find idle-request-callback
+  find idle-request-options
+  find iir-filter-node
+  find iir-filter-options
+  find image-bitmap
+  find image-bitmap-options
+  find image-bitmap-rendering-context
+  find image-bitmap-source
+  find image-data
+  find image-data-settings
+  find input-event
+  find input-event-init
+  find intersection-observer
+  find intersection-observer-callback
+  find intersection-observer-entry
+  find intersection-observer-entry-init
+  find intersection-observer-init
+  find keyboard-event
+  find keyboard-event-init
+  find keyframe
+  find keyframe-effect
+  find keyframe-effect-options
+  find location
+  find math-ml-element
+  find media-capabilities
+  find media-device-info
+  find media-devices
+  find media-element-audio-source-node
+  find media-element-audio-source-options
+  find media-encrypted-event
+  find media-encrypted-event-init
+  find media-error
+  find media-key-message-event
+  find media-key-message-event-init
+  find media-key-session
+  find media-key-status-map
+  find media-key-system-access
+  find media-keys
+  find media-list
+  find media-metadata
+  find media-metadata-init
+  find media-query-list
+  find media-query-list-event
+  find media-query-list-event-init
+  find media-recorder
+  find media-recorder-error-event
+  find media-recorder-error-event-init
+  find media-recorder-options
+  find media-session
+  find media-source
+  find media-stream
+  find media-stream-audio-destination-node
+  find media-stream-audio-source-node
+  find media-stream-audio-source-options
+  find media-stream-track
+  find media-stream-track-event
+  find media-stream-track-event-init
+  find message-channel
+  find message-event
+  find message-event-init
+  find message-port
+  find mime-type
+  find mime-type-array
+  find mouse-event
+  find mouse-event-init
+  find mutation-callback
+  find mutation-event
+  find mutation-observer
+  find mutation-record
+  find named-node-map
+  find navigator
+  find network-information
+  find node
+  find node-iterator
+  find node-list
+  find notification
+  find notification-options
+  find notification-permission
+  find notification-permission-callback
+  find offline-audio-completion-event
+  find offline-audio-completion-event-init
+  find offline-audio-context
+  find offline-audio-context-options
+  find on-error-event-handler
+  find oscillator-node
+  find oscillator-options
+  find overconstrained-error
+  find page-transition-event
+  find page-transition-event-init
+  find panner-node
+  find panner-options
+  find path2-d
+  find payment-address
+  find payment-details-init
+  find payment-method-change-event
+  find payment-method-change-event-init
+  find payment-method-data
+  find payment-request
+  find payment-request-update-event
+  find payment-request-update-event-init
+  find payment-response
+  find performance
+  find performance-entry
+  find performance-event-timing
+  find performance-mark
+  find performance-mark-options
+  find performance-measure
+  find performance-navigation
+  find performance-navigation-timing
+  find performance-observer
+  find performance-observer-callback
+  find performance-observer-entry-list
+  find performance-paint-timing
+  find performance-resource-timing
+  find performance-server-timing
+  find performance-timing
+  find periodic-wave
+  find periodic-wave-options
+  find permission-status
+  find permissions
+  find picture-in-picture-window
+  find plugin
+  find plugin-array
+  find pointer-event
+  find pointer-event-init
+  find pop-state-event
+  find pop-state-event-init
+  find processing-instruction
+  find progress-event
+  find progress-event-init
+  find promise-rejection-event
+  find promise-rejection-event-init
+  find property-indexed-keyframes
+  find public-key-credential
+  find push-manager
+  find push-subscription
+  find push-subscription-options
+  find queuing-strategy
+  find queuing-strategy-init
+  find radio-node-list
+  find range
+  find readable-stream
+  find readable-stream-default-controller
+  find readable-stream-default-reader
+  find remote-playback
+  find request
+  find request-info
+  find request-init
+  find resize-observer
+  find resize-observer-callback
+  find resize-observer-entry
+  find resize-observer-size
+  find response
+  find response-init
+  find rtc-certificate
+  find rtc-configuration
+  find rtc-data-channel
+  find rtc-data-channel-event
+  find rtc-data-channel-event-init
+  find rtc-dtls-transport
+  find rtc-ice-candidate
+  find rtc-ice-candidate-init
+  find rtc-ice-transport
+  find rtc-peer-connection
+  find rtc-peer-connection-ice-error-event
+  find rtc-peer-connection-ice-error-event-init
+  find rtc-peer-connection-ice-event
+  find rtc-peer-connection-ice-event-init
+  find rtc-rtp-capabilities
+  find rtc-rtp-receiver
+  find rtc-rtp-sender
+  find rtc-rtp-transceiver
+  find rtc-session-description
+  find rtc-session-description-init
+  find rtc-stats-report
+  find rtc-track-event
+  find rtc-track-event-init
+  find rtcdtmf-sender
+  find rtcdtmf-tone-change-event
+  find rtcdtmf-tone-change-event-init
+  find screen
+  find screen-orientation
+  find script-processor-node
+  find scroll-to-options
+  find security-policy-violation-event
+  find security-policy-violation-event-init
+  find selection
+  find service-worker
+  find service-worker-container
+  find service-worker-registration
+  find shadow-root
+  find shared-worker
+  find source-buffer
+  find source-buffer-list
+  find speech-recognition-alternative
+  find speech-recognition-error-event
+  find speech-recognition-error-event-init
+  find speech-recognition-result
+  find speech-recognition-result-list
+  find speech-synthesis
+  find speech-synthesis-error-event
+  find speech-synthesis-error-event-init
+  find speech-synthesis-event
+  find speech-synthesis-event-init
+  find speech-synthesis-utterance
+  find speech-synthesis-voice
+  find static-range
+  find static-range-init
+  find stereo-panner-node
+  find stereo-panner-options
+  find storage
+  find storage-event
+  find storage-event-init
+  find storage-manager
+  find style-media
+  find style-sheet
+  find style-sheet-list
+  find submit-event
+  find submit-event-init
+  find subtle-crypto
+  find svg-angle
+  find svg-animate-element
+  find svg-animate-motion-element
+  find svg-animate-transform-element
+  find svg-animated-angle
+  find svg-animated-boolean
+  find svg-animated-enumeration
+  find svg-animated-integer
+  find svg-animated-length
+  find svg-animated-length-list
+  find svg-animated-number
+  find svg-animated-number-list
+  find svg-animated-preserve-aspect-ratio
+  find svg-animated-rect
+  find svg-animated-string
+  find svg-animated-transform-list
+  find svg-animation-element
+  find svg-circle-element
+  find svg-clip-path-element
+  find svg-component-transfer-function-element
+  find svg-cursor-element
+  find svg-defs-element
+  find svg-desc-element
+  find svg-element
+  find svg-ellipse-element
+  find svg-filter-element
+  find svg-foreign-object-element
+  find svg-geometry-element
+  find svg-gradient-element
+  find svg-graphics-element
+  find svg-image-element
+  find svg-length
+  find svg-length-list
+  find svg-line-element
+  find svg-linear-gradient-element
+  find svg-marker-element
+  find svg-mask-element
+  find svg-metadata-element
+  find svg-number
+  find svg-number-list
+  find svg-path-element
+  find svg-pattern-element
+  find svg-point-list
+  find svg-polygon-element
+  find svg-polyline-element
+  find svg-preserve-aspect-ratio
+  find svg-radial-gradient-element
+  find svg-rect-element
+  find svg-script-element
+  find svg-set-element
+  find svg-stop-element
+  find svg-string-list
+  find svg-style-element
+  find svg-switch-element
+  find svg-symbol-element
+  find svg-text-content-element
+  find svg-text-element
+  find svg-text-path-element
+  find svg-text-positioning-element
+  find svg-title-element
+  find svg-transform
+  find svg-transform-list
+  find svg-unit-types
+  find svg-use-element
+  find svg-view-element
+  find svga-element
+  find svgfe-blend-element
+  find svgfe-color-matrix-element
+  find svgfe-component-transfer-element
+  find svgfe-composite-element
+  find svgfe-convolve-matrix-element
+  find svgfe-diffuse-lighting-element
+  find svgfe-displacement-map-element
+  find svgfe-distant-light-element
+  find svgfe-drop-shadow-element
+  find svgfe-flood-element
+  find svgfe-func-a-element
+  find svgfe-func-b-element
+  find svgfe-func-g-element
+  find svgfe-func-r-element
+  find svgfe-gaussian-blur-element
+  find svgfe-image-element
+  find svgfe-merge-element
+  find svgfe-merge-node-element
+  find svgfe-morphology-element
+  find svgfe-offset-element
+  find svgfe-point-light-element
+  find svgfe-specular-lighting-element
+  find svgfe-spot-light-element
+  find svgfe-tile-element
+  find svgfe-turbulence-element
+  find svgg-element
+  find svgm-path-element
+  find svgsvg-element
+  find svgt-span-element
+  find text
+  find text-decoder
+  find text-decoder-options
+  find text-decoder-stream
+  find text-encoder
+  find text-encoder-stream
+  find text-metrics
+  find text-track
+  find text-track-cue
+  find text-track-cue-list
+  find text-track-list
+  find time-ranges
+  find timer-handler
+  find touch
+  find touch-event
+  find touch-event-init
+  find touch-init
+  find touch-list
+  find track-event
+  find track-event-init
+  find transferable
+  find transform-stream
+  find transform-stream-default-controller
+  find transformer
+  find transition-event
+  find transition-event-init
+  find tree-walker
+  find ui-event
+  find ui-event-init
+  find underlying-sink
+  find underlying-source
+  find url
+  find url-search-params
+  find validity-state
+  find video-playback-quality
+  find visual-viewport
+  find void-function
+  find vtt-cue
+  find vtt-region
+  find wave-shaper-node
+  find wave-shaper-options
+  find web-gl-active-info
+  find web-gl-buffer
+  find web-gl-context-event
+  find web-gl-context-event-init
+  find web-gl-framebuffer
+  find web-gl-program
+  find web-gl-query
+  find web-gl-renderbuffer
+  find web-gl-rendering-context
+  find web-gl-sampler
+  find web-gl-shader
+  find web-gl-shader-precision-format
+  find web-gl-sync
+  find web-gl-texture
+  find web-gl-transform-feedback
+  find web-gl-uniform-location
+  find web-gl-vertex-array-object
+  find web-gl2-rendering-context
+  find web-socket
+  find wheel-event
+  find wheel-event-init
+  find window
+  find window-event-map
+  find window-post-message-options
+  find window-proxy
+  find worker
+  find worker-options
+  find worklet
+  find writable-stream
+  find writable-stream-default-controller
+  find writable-stream-default-writer
+  find x-path-evaluator
+  find x-path-expression
+  find x-path-result
+  find xml-document
+  find xml-http-request
+  find xml-http-request-event-target
+  find xml-http-request-upload
+  find xml-serializer
+  find xslt-processor
 
-load @cluesurf/base/code/javascript/es5
-  take form float32-array
-  take form float64-array
-  take form promise
-  take form readonly-array
-  take form record
-  take form uint8-clamped-array
+load @cluesurf/bind/code/javascript/es5
+  find float32-array
+  find float64-array
+  find promise
+  find readonly-array
+  find record
+  find uint8-clamped-array
 
 host node-filter, name <NodeFilter>
   like form

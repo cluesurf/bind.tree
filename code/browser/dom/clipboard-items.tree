@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form clipboard-item
+load @cluesurf/bind/code/browser/dom
+  find clipboard-item
 
 form clipboard-items, name <ClipboardItems>
   like array

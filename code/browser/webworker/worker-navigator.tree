@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form navigator-concurrent-hardware
-  take form navigator-id
-  take form navigator-language
-  take form navigator-on-line
-  take form navigator-storage
-  take form permissions
+load @cluesurf/bind/code/browser/webworker
+  find navigator-concurrent-hardware
+  find navigator-id
+  find navigator-language
+  find navigator-on-line
+  find navigator-storage
+  find permissions
 
 form worker-navigator, name <WorkerNavigator>
   base navigator-concurrent-hardware

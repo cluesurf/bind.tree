@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form extendable-event
-  take form request
-  take form response
+load @cluesurf/bind/code/browser/webworker
+  find extendable-event
+  find request
+  find response
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form fetch-event, name <FetchEvent>
   base extendable-event

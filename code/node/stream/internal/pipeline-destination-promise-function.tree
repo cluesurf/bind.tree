@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form like
-  take form task
+  find like
+  find task
 
-load @cluesurf/base/code/javascript
-  take form async-iterable
-  take form promise
+load @cluesurf/bind/code/javascript
+  find async-iterable
+  find promise
 
 form pipeline-destination-promise-function, name <PipelineDestinationPromiseFunction>
   head t

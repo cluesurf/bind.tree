@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form html-hyperlink-element-utils, name <HTMLHyperlinkElementUtils>
   link hash, name <hash>

@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form buffer-source
-  take form text-decode-options
-  take form text-decoder-common
+load @cluesurf/bind/code/browser/webworker
+  find buffer-source
+  find text-decode-options
+  find text-decoder-common
 
-load @cluesurf/base/code/browser/dom/text-decoder
-  take form text-decoder
+load @cluesurf/bind/code/browser/dom/text-decoder
+  find text-decoder
 
 form text-decoder, name <TextDecoder>
   base text-decoder-common

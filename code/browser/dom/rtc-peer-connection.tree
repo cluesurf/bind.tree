@@ -1,49 +1,49 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form media-stream
-  take form media-stream-track
-  take form rtc-answer-options
-  take form rtc-configuration
-  take form rtc-data-channel
-  take form rtc-data-channel-event
-  take form rtc-data-channel-init
-  take form rtc-ice-candidate-init
-  take form rtc-ice-connection-state
-  take form rtc-ice-gathering-state
-  take form rtc-local-session-description-init
-  take form rtc-offer-options
-  take form rtc-peer-connection-error-callback
-  take form rtc-peer-connection-event-map
-  take form rtc-peer-connection-ice-event
-  take form rtc-peer-connection-state
-  take form rtc-rtp-receiver
-  take form rtc-rtp-sender
-  take form rtc-rtp-transceiver
-  take form rtc-rtp-transceiver-init
-  take form rtc-session-description
-  take form rtc-session-description-callback
-  take form rtc-session-description-init
-  take form rtc-signaling-state
-  take form rtc-stats-report
-  take form rtc-track-event
-  take form void-function
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find media-stream
+  find media-stream-track
+  find rtc-answer-options
+  find rtc-configuration
+  find rtc-data-channel
+  find rtc-data-channel-event
+  find rtc-data-channel-init
+  find rtc-ice-candidate-init
+  find rtc-ice-connection-state
+  find rtc-ice-gathering-state
+  find rtc-local-session-description-init
+  find rtc-offer-options
+  find rtc-peer-connection-error-callback
+  find rtc-peer-connection-event-map
+  find rtc-peer-connection-ice-event
+  find rtc-peer-connection-state
+  find rtc-rtp-receiver
+  find rtc-rtp-sender
+  find rtc-rtp-transceiver
+  find rtc-rtp-transceiver-init
+  find rtc-session-description
+  find rtc-session-description-callback
+  find rtc-session-description-init
+  find rtc-signaling-state
+  find rtc-stats-report
+  find rtc-track-event
+  find void-function
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form rtc-peer-connection, name <RTCPeerConnection>
   base event-target

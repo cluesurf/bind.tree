@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form request-credentials
-  take form worker-type
+load @cluesurf/bind/code/browser/webworker
+  find request-credentials
+  find worker-type
 
-load @cluesurf/base/code/browser/dom/worker-options
-  take form worker-options
+load @cluesurf/bind/code/browser/dom/worker-options
+  find worker-options
 
 form worker-options, name <WorkerOptions>
   link credentials, name <credentials>

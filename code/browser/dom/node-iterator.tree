@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form node
-  take form node-filter
+load @cluesurf/bind/code/browser/dom
+  find node
+  find node-filter
 
 form node-iterator, name <NodeIterator>
   link filter, name <filter>

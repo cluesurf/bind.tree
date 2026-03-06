@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom/dom-token-list
-  take form dom-token-list
+load @cluesurf/bind/code/browser/dom/dom-token-list
+  find dom-token-list
 
 form dom-token-list, name <DOMTokenList>
   task {symbol/iterator}

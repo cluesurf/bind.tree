@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form data-transfer-item-list
-  take form element
-  take form file-list
+load @cluesurf/bind/code/browser/dom
+  find data-transfer-item-list
+  find element
+  find file-list
 
-load @cluesurf/base/code/javascript/es5
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find readonly-array
 
 form data-transfer, name <DataTransfer>
   link drop-effect, name <dropEffect>

@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
 
-load @cluesurf/base/code/browser/webworker
-  take form underlying-sink-abort-callback
-  take form underlying-sink-close-callback
-  take form underlying-sink-start-callback
-  take form underlying-sink-write-callback
+load @cluesurf/bind/code/browser/webworker
+  find underlying-sink-abort-callback
+  find underlying-sink-close-callback
+  find underlying-sink-start-callback
+  find underlying-sink-write-callback
 
-load @cluesurf/base/code/browser/dom/underlying-sink
-  take form underlying-sink
+load @cluesurf/bind/code/browser/dom/underlying-sink
+  find underlying-sink
 
 form underlying-sink, name <UnderlyingSink>
   head w

@@ -1,28 +1,28 @@
 
 load @cluesurf/moon
-  take form any
-  take form form
-  take form or
-  take form task
+  find any
+  find form
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form duplex
-  take form error
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find duplex
+  find error
+  find native-boolean
+  find native-null
+  find native-number
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/node/buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/globals
-  take form array
+load @cluesurf/bind/code/node/globals
+  find array
 
-load @cluesurf/base/code/node/stream/internal
-  take form readable-options
-  take form writable-options
+load @cluesurf/bind/code/node/stream/internal
+  find readable-options
+  find writable-options
 
 form duplex-options, name <DuplexOptions>
   base readable-options

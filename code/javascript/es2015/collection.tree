@@ -1,16 +1,16 @@
 
-bear @cluesurf/base/code/javascript/es2015/collection/map
-bear @cluesurf/base/code/javascript/es2015/collection/readonly-map
-bear @cluesurf/base/code/javascript/es2015/collection/weak-map
-bear @cluesurf/base/code/javascript/es2015/collection/set
-bear @cluesurf/base/code/javascript/es2015/collection/readonly-set
-bear @cluesurf/base/code/javascript/es2015/collection/weak-set
+bear @cluesurf/bind/code/javascript/es2015/collection/map
+bear @cluesurf/bind/code/javascript/es2015/collection/readonly-map
+bear @cluesurf/bind/code/javascript/es2015/collection/weak-map
+bear @cluesurf/bind/code/javascript/es2015/collection/set
+bear @cluesurf/bind/code/javascript/es2015/collection/readonly-set
+bear @cluesurf/bind/code/javascript/es2015/collection/weak-set
 
-load @cluesurf/base/code/javascript/es2015/collection
-  take form map-constructor
-  take form set-constructor
-  take form weak-map-constructor
-  take form weak-set-constructor
+load @cluesurf/bind/code/javascript/es2015/collection
+  find map-constructor
+  find set-constructor
+  find weak-map-constructor
+  find weak-set-constructor
 
 host map, name <Map>
   like map-constructor

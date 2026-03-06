@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form idb-transaction
-  take form idb-transaction-mode
+load @cluesurf/bind/code/browser/webworker
+  find idb-transaction
+  find idb-transaction-mode
 
-load @cluesurf/base/code/browser/webworker/idb-database
-  take form idb-database
+load @cluesurf/bind/code/browser/webworker/idb-database
+  find idb-database
 
 form idb-database, name <IDBDatabase>
   task transaction, name <transaction>

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form key-algorithm
+load @cluesurf/bind/code/browser/webworker
+  find key-algorithm
 
-load @cluesurf/base/code/javascript/es5
-  take form uint8-array
+load @cluesurf/bind/code/javascript/es5
+  find uint8-array
 
 form dh-key-algorithm, name <DhKeyAlgorithm>
   base key-algorithm

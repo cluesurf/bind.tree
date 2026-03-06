@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form function
+load @cluesurf/bind/code/javascript
+  find function
 
 form stat-sync-fn, name <StatSyncFn>
   base function

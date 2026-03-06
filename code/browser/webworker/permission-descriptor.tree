@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form permission-name
+load @cluesurf/bind/code/browser/webworker
+  find permission-name
 
-load @cluesurf/base/code/browser/dom/permission-descriptor
-  take form permission-descriptor
+load @cluesurf/bind/code/browser/dom/permission-descriptor
+  find permission-descriptor
 
 form permission-descriptor, name <PermissionDescriptor>
   link name, name <name>

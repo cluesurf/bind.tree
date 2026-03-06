@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom/navigator-id
-  take form navigator-id
+load @cluesurf/bind/code/browser/dom/navigator-id
+  find navigator-id
 
 form navigator-id, name <NavigatorID>
   link app-code-name, name <appCodeName>

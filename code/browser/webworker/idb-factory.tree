@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form idb-open-db-request
+load @cluesurf/bind/code/browser/webworker
+  find idb-open-db-request
 
-load @cluesurf/base/code/browser/dom/idb-factory
-  take form idb-factory
+load @cluesurf/bind/code/browser/dom/idb-factory
+  find idb-factory
 
 form idb-factory, name <IDBFactory>
   task cmp, name <cmp>

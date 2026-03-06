@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form html-element-event-map
-  take form media-encrypted-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find html-element-event-map
+  find media-encrypted-event
 
 form html-media-element-event-map, name <HTMLMediaElementEventMap>
   base html-element-event-map

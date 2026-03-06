@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form remote-object-id
+load @cluesurf/bind/code/node/inspector/runtime
+  find remote-object-id
 
 form release-object-parameter-type, name <ReleaseObjectParameterType>
   link object-id, name <objectId>

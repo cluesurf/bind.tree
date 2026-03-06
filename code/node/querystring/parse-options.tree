@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-undefined
 
 form parse-options, name <ParseOptions>
   link max-keys, name <maxKeys>

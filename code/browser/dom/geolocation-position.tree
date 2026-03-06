@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-time-stamp
-  take form geolocation-coordinates
+load @cluesurf/bind/code/browser/dom
+  find dom-time-stamp
+  find geolocation-coordinates
 
 form geolocation-position, name <GeolocationPosition>
   link coords, name <coords>

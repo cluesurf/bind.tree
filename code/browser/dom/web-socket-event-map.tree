@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form close-event
-  take form event
-  take form message-event
+load @cluesurf/bind/code/browser/dom
+  find close-event
+  find event
+  find message-event
 
 form web-socket-event-map, name <WebSocketEventMap>
   link close, name <close>

@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-bigint
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find native-bigint
+  find native-number
 
 form read-position, name <ReadPosition>
   like or

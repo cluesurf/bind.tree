@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form performance-event-map, name <PerformanceEventMap>
   link resourcetimingbufferfull, name <resourcetimingbufferfull>

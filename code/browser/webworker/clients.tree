@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form client
-  take form client-query-options
-  take form window-client
+load @cluesurf/bind/code/browser/webworker
+  find client
+  find client-query-options
+  find window-client
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find promise
+  find readonly-array
 
 form clients, name <Clients>
   task claim, name <claim>

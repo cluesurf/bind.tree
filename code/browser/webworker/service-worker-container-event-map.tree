@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
-  take form message-event
+load @cluesurf/bind/code/browser/webworker
+  find event
+  find message-event
 
-load @cluesurf/base/code/browser/dom/service-worker-container-event-map
-  take form service-worker-container-event-map
+load @cluesurf/bind/code/browser/dom/service-worker-container-event-map
+  find service-worker-container-event-map
 
 form service-worker-container-event-map, name <ServiceWorkerContainerEventMap>
   link controllerchange, name <controllerchange>

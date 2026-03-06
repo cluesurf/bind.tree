@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/javascript/es5
-  take form float32-array
+load @cluesurf/bind/code/javascript/es5
+  find float32-array
 
 form audio-buffer, name <AudioBuffer>
   link duration, name <duration>

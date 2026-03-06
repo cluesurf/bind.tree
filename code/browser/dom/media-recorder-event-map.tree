@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form blob-event
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find blob-event
+  find event
 
 form media-recorder-event-map, name <MediaRecorderEventMap>
   link dataavailable, name <dataavailable>

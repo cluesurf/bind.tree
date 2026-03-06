@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom/global
-  take form global
+load @cluesurf/bind/code/browser/dom/global
+  find global
 
 form global, name <Global>
   link value, name <value>

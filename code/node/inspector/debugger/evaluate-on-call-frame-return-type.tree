@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-undefined
-  take form runtime-exception-details
-  take form runtime-remote-object
+load @cluesurf/bind/code/javascript
+  find native-undefined
+  find runtime-exception-details
+  find runtime-remote-object
 
 form evaluate-on-call-frame-return-type, name <EvaluateOnCallFrameReturnType>
   link result, name <result>

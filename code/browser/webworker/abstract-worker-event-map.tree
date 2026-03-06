@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form error-event
+load @cluesurf/bind/code/browser/webworker
+  find error-event
 
-load @cluesurf/base/code/browser/dom/abstract-worker-event-map
-  take form abstract-worker-event-map
+load @cluesurf/bind/code/browser/dom/abstract-worker-event-map
+  find abstract-worker-event-map
 
 form abstract-worker-event-map, name <AbstractWorkerEventMap>
   link error, name <error>

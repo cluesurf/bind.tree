@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-stats
-  take form rtc-stats-ice-candidate-pair-state
+load @cluesurf/bind/code/browser/dom
+  find rtc-stats
+  find rtc-stats-ice-candidate-pair-state
 
 form rtc-ice-candidate-pair-stats, name <RTCIceCandidatePairStats>
   base rtc-stats

@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form g-lenum
+load @cluesurf/bind/code/browser/dom
+  find g-lenum
 
 form oes-texture-half-float, name <OES_texture_half_float>
   link half-float-oes, name <HALF_FLOAT_OES>

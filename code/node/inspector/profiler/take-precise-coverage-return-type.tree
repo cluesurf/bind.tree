@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/node/inspector/profiler
-  take form script-coverage
+load @cluesurf/bind/code/node/inspector/profiler
+  find script-coverage
 
 form take-precise-coverage-return-type, name <TakePreciseCoverageReturnType>
   link result, name <result>

@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form base-audio-context-event-map
-  take form offline-audio-completion-event
+load @cluesurf/bind/code/browser/dom
+  find base-audio-context-event-map
+  find offline-audio-completion-event
 
 form offline-audio-context-event-map, name <OfflineAudioContextEventMap>
   base base-audio-context-event-map

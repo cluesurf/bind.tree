@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form buffer-source
-  take form generic-transform-stream
-  take form readable-stream
-  take form text-decoder-common
-  take form writable-stream
+load @cluesurf/bind/code/browser/webworker
+  find buffer-source
+  find generic-transform-stream
+  find readable-stream
+  find text-decoder-common
+  find writable-stream
 
-load @cluesurf/base/code/browser/dom/text-decoder-stream
-  take form text-decoder-stream
+load @cluesurf/bind/code/browser/dom/text-decoder-stream
+  find text-decoder-stream
 
 form text-decoder-stream, name <TextDecoderStream>
   base generic-transform-stream

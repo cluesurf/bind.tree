@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form hash-algorithm-identifier
-  take form rsa-key-gen-params
+load @cluesurf/bind/code/browser/dom
+  find hash-algorithm-identifier
+  find rsa-key-gen-params
 
 form rsa-hashed-key-gen-params, name <RsaHashedKeyGenParams>
   base rsa-key-gen-params

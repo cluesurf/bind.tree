@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form css-condition-rule
-  take form media-list
+load @cluesurf/bind/code/browser/dom
+  find css-condition-rule
+  find media-list
 
 form css-media-rule, name <CSSMediaRule>
   base css-condition-rule

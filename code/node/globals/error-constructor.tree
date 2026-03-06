@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form error
-  take form function
-  take form native-number
-  take form native-object
-  take form native-undefined
-  take form native-void
-  take form node-js-call-site
+load @cluesurf/bind/code/javascript
+  find array
+  find error
+  find function
+  find native-number
+  find native-object
+  find native-undefined
+  find native-void
+  find node-js-call-site
 
 load @cluesurf/moon
-  take form any
-  take form or
-  take form task
+  find any
+  find or
+  find task
 
 form error-constructor, name <ErrorConstructor>
   link prepare-stack-trace, name <prepareStackTrace>

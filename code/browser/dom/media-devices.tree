@@ -1,28 +1,28 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form display-media-stream-constraints
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form media-device-info
-  take form media-devices-event-map
-  take form media-stream
-  take form media-stream-constraints
-  take form media-track-supported-constraints
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find display-media-stream-constraints
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find media-device-info
+  find media-devices-event-map
+  find media-stream
+  find media-stream-constraints
+  find media-track-supported-constraints
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form media-devices, name <MediaDevices>
   base event-target

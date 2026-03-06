@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form r
+load @cluesurf/bind/code/javascript/native
+  find r
 
 form return-type, name <ReturnType>
   head t

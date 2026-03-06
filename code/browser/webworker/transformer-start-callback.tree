@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom/transformer-start-callback
-  take form transformer-start-callback
+load @cluesurf/bind/code/browser/dom/transformer-start-callback
+  find transformer-start-callback
 
 form transformer-start-callback, name <TransformerStartCallback>
   head o

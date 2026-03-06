@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find native-number
 
 form heap-code-statistics, name <HeapCodeStatistics>
   link code-and-metadata-size, name <code_and_metadata_size>

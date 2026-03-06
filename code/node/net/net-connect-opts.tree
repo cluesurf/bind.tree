@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/net
-  take form ipc-net-connect-opts
-  take form tcp-net-connect-opts
+load @cluesurf/bind/code/node/net
+  find ipc-net-connect-opts
+  find tcp-net-connect-opts
 
 form net-connect-opts, name <NetConnectOpts>
   like or

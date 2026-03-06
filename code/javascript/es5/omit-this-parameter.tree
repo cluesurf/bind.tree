@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/es5
-  take form this-parameter-type
+load @cluesurf/bind/code/javascript/es5
+  find this-parameter-type
 
-load @cluesurf/base/code/javascript/native
-  take form a
-  take form r
+load @cluesurf/bind/code/javascript/native
+  find a
+  find r
 
 form omit-this-parameter, name <OmitThisParameter>
   head t

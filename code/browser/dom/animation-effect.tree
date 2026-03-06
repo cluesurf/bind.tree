@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form computed-effect-timing
-  take form effect-timing
-  take form optional-effect-timing
+load @cluesurf/bind/code/browser/dom
+  find computed-effect-timing
+  find effect-timing
+  find optional-effect-timing
 
 form animation-effect, name <AnimationEffect>
   task get-computed-timing, name <getComputedTiming>

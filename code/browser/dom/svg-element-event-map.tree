@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form document-and-element-event-handlers-event-map
-  take form element-event-map
-  take form global-event-handlers-event-map
+load @cluesurf/bind/code/browser/dom
+  find document-and-element-event-handlers-event-map
+  find element-event-map
+  find global-event-handlers-event-map
 
 form svg-element-event-map, name <SVGElementEventMap>
   base element-event-map

@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form key-algorithm
+load @cluesurf/bind/code/browser/webworker
+  find key-algorithm
 
-load @cluesurf/base/code/browser/dom/aes-key-algorithm
-  take form aes-key-algorithm
+load @cluesurf/bind/code/browser/dom/aes-key-algorithm
+  find aes-key-algorithm
 
 form aes-key-algorithm, name <AesKeyAlgorithm>
   base key-algorithm

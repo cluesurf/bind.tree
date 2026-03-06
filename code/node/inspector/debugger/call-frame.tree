@@ -1,20 +1,20 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-string
-  take form native-undefined
-  take form runtime-remote-object
+load @cluesurf/bind/code/javascript
+  find array
+  find native-string
+  find native-undefined
+  find runtime-remote-object
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/inspector/debugger
-  take form call-frame-id
-  take form location
-  take form scope
+load @cluesurf/bind/code/node/inspector/debugger
+  find call-frame-id
+  find location
+  find scope
 
-load @cluesurf/base/code/node/inspector/debugger/call-frame
-  take form call-frame
+load @cluesurf/bind/code/node/inspector/debugger/call-frame
+  find call-frame
 
 form call-frame, name <CallFrame>
   link call-frame-id, name <callFrameId>

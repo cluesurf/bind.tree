@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form image-bitmap-rendering-context
-  take form offscreen-canvas-rendering-context2-d
-  take form web-gl-rendering-context
-  take form web-gl2-rendering-context
+load @cluesurf/bind/code/browser/webworker
+  find image-bitmap-rendering-context
+  find offscreen-canvas-rendering-context2-d
+  find web-gl-rendering-context
+  find web-gl2-rendering-context
 
 form offscreen-rendering-context, name <OffscreenRenderingContext>
   like or

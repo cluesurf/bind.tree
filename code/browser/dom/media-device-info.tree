@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form media-device-kind
+load @cluesurf/bind/code/browser/dom
+  find media-device-kind
 
 form media-device-info, name <MediaDeviceInfo>
   link device-id, name <deviceId>

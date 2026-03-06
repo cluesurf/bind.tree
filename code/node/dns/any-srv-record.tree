@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/dns
-  take form srv-record
+load @cluesurf/bind/code/node/dns
+  find srv-record
 
 form any-srv-record, name <AnySrvRecord>
   base srv-record

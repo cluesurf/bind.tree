@@ -1,22 +1,22 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form audio-buffer
-  take form base-audio-context
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form offline-audio-completion-event
-  take form offline-audio-context-event-map
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find audio-buffer
+  find base-audio-context
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find offline-audio-completion-event
+  find offline-audio-context-event-map
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form offline-audio-context, name <OfflineAudioContext>
   base base-audio-context

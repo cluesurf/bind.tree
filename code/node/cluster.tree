@@ -1,11 +1,11 @@
 
-bear @cluesurf/base/code/javascript/node/cluster/cluster-settings
-bear @cluesurf/base/code/javascript/node/cluster/address
-bear @cluesurf/base/code/javascript/node/cluster/worker
-bear @cluesurf/base/code/javascript/node/cluster/cluster
+bear @cluesurf/bind/code/javascript/node/cluster/cluster-settings
+bear @cluesurf/bind/code/javascript/node/cluster/address
+bear @cluesurf/bind/code/javascript/node/cluster/worker
+bear @cluesurf/bind/code/javascript/node/cluster/cluster
 
-load @cluesurf/base/code/node/cluster
-  take form cluster
+load @cluesurf/bind/code/node/cluster
+  find cluster
 
 host cluster, name <cluster>
   like cluster

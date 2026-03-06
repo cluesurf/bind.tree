@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form import-value
+load @cluesurf/bind/code/browser/webworker
+  find import-value
 
-load @cluesurf/base/code/javascript/es5
-  take form record
+load @cluesurf/bind/code/javascript/es5
+  find record
 
 form module-imports, name <ModuleImports>
   like record

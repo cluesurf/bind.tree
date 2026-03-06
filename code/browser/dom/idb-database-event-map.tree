@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form idb-version-change-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find idb-version-change-event
 
 form idb-database-event-map, name <IDBDatabaseEventMap>
   link abort, name <abort>

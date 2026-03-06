@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form media-capabilities-decoding-info
-  take form media-capabilities-encoding-info
-  take form media-decoding-configuration
-  take form media-encoding-configuration
+load @cluesurf/bind/code/browser/dom
+  find media-capabilities-decoding-info
+  find media-capabilities-encoding-info
+  find media-decoding-configuration
+  find media-encoding-configuration
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form media-capabilities, name <MediaCapabilities>
   task decoding-info, name <decodingInfo>

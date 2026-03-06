@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form idle-request-options, name <IdleRequestOptions>
   link timeout, name <timeout>

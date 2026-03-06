@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
-  take form rtc-data-channel
+load @cluesurf/bind/code/browser/dom
+  find event-init
+  find rtc-data-channel
 
 form rtc-data-channel-event-init, name <RTCDataChannelEventInit>
   base event-init

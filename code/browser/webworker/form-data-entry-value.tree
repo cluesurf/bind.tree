@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form file
+load @cluesurf/bind/code/browser/webworker
+  find file
 
 form form-data-entry-value, name <FormDataEntryValue>
   like or

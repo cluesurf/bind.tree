@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form character-data
-  take form html-slot-element
-  take form slottable
+load @cluesurf/bind/code/browser/dom
+  find character-data
+  find html-slot-element
+  find slottable
 
 form text, name <Text>
   base character-data

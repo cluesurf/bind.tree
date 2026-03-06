@@ -1,43 +1,43 @@
 
-bear @cluesurf/base/code/javascript/node/zlib/zlib-options
-bear @cluesurf/base/code/javascript/node/zlib/brotli-options
-bear @cluesurf/base/code/javascript/node/zlib/zlib
-bear @cluesurf/base/code/javascript/node/zlib/zlib-params
-bear @cluesurf/base/code/javascript/node/zlib/zlib-reset
-bear @cluesurf/base/code/javascript/node/zlib/brotli-compress
-bear @cluesurf/base/code/javascript/node/zlib/brotli-decompress
-bear @cluesurf/base/code/javascript/node/zlib/gzip
-bear @cluesurf/base/code/javascript/node/zlib/gunzip
-bear @cluesurf/base/code/javascript/node/zlib/deflate
-bear @cluesurf/base/code/javascript/node/zlib/inflate
-bear @cluesurf/base/code/javascript/node/zlib/deflate-raw
-bear @cluesurf/base/code/javascript/node/zlib/inflate-raw
-bear @cluesurf/base/code/javascript/node/zlib/unzip
-bear @cluesurf/base/code/javascript/node/zlib/input-type
-bear @cluesurf/base/code/javascript/node/zlib/compress-callback
-bear @cluesurf/base/code/javascript/node/zlib/constants
+bear @cluesurf/bind/code/javascript/node/zlib/zlib-options
+bear @cluesurf/bind/code/javascript/node/zlib/brotli-options
+bear @cluesurf/bind/code/javascript/node/zlib/zlib
+bear @cluesurf/bind/code/javascript/node/zlib/zlib-params
+bear @cluesurf/bind/code/javascript/node/zlib/zlib-reset
+bear @cluesurf/bind/code/javascript/node/zlib/brotli-compress
+bear @cluesurf/bind/code/javascript/node/zlib/brotli-decompress
+bear @cluesurf/bind/code/javascript/node/zlib/gzip
+bear @cluesurf/bind/code/javascript/node/zlib/gunzip
+bear @cluesurf/bind/code/javascript/node/zlib/deflate
+bear @cluesurf/bind/code/javascript/node/zlib/inflate
+bear @cluesurf/bind/code/javascript/node/zlib/deflate-raw
+bear @cluesurf/bind/code/javascript/node/zlib/inflate-raw
+bear @cluesurf/bind/code/javascript/node/zlib/unzip
+bear @cluesurf/bind/code/javascript/node/zlib/input-type
+bear @cluesurf/bind/code/javascript/node/zlib/compress-callback
+bear @cluesurf/bind/code/javascript/node/zlib/constants
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/zlib
-  take form brotli-compress
-  take form brotli-decompress
-  take form brotli-options
-  take form compress-callback
-  take form deflate
-  take form deflate-raw
-  take form gunzip
-  take form gzip
-  take form inflate
-  take form inflate-raw
-  take form input-type
-  take form unzip
-  take form zlib-options
+load @cluesurf/bind/code/node/zlib
+  find brotli-compress
+  find brotli-decompress
+  find brotli-options
+  find compress-callback
+  find deflate
+  find deflate-raw
+  find gunzip
+  find gzip
+  find inflate
+  find inflate-raw
+  find input-type
+  find unzip
+  find zlib-options
 
 host z-no-flush, name <Z_NO_FLUSH>
   like native-number

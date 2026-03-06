@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom/rsa-other-primes-info
-  take form rsa-other-primes-info
+load @cluesurf/bind/code/browser/dom/rsa-other-primes-info
+  find rsa-other-primes-info
 
 form rsa-other-primes-info, name <RsaOtherPrimesInfo>
   link d, name <d>

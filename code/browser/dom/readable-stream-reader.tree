@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form readable-stream-default-reader
+load @cluesurf/bind/code/browser/dom
+  find readable-stream-default-reader
 
 form readable-stream-reader, name <ReadableStreamReader>
   head t

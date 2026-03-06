@@ -1,23 +1,23 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form algorithm
-  take form hash-algorithm-identifier
+load @cluesurf/bind/code/browser/webworker
+  find algorithm
+  find hash-algorithm-identifier
 
-load @cluesurf/base/code/javascript/es5
-  take form array-buffer
-  take form data-view
-  take form float32-array
-  take form float64-array
-  take form int16-array
-  take form int32-array
-  take form int8-array
-  take form uint16-array
-  take form uint32-array
-  take form uint8-array
-  take form uint8-clamped-array
+load @cluesurf/bind/code/javascript/es5
+  find array-buffer
+  find data-view
+  find float32-array
+  find float64-array
+  find int16-array
+  find int32-array
+  find int8-array
+  find uint16-array
+  find uint32-array
+  find uint8-array
+  find uint8-clamped-array
 
-load @cluesurf/base/code/browser/dom/hkdf-params
-  take form hkdf-params
+load @cluesurf/bind/code/browser/dom/hkdf-params
+  find hkdf-params
 
 form hkdf-params, name <HkdfParams>
   base algorithm

@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/node/zlib
-  take form input-type
-  take form zlib
-  take form zlib-options
-  take form zlib-params
-  take form zlib-reset
+load @cluesurf/bind/code/node/zlib
+  find input-type
+  find zlib
+  find zlib-options
+  find zlib-params
+  find zlib-reset
 
-load @cluesurf/base/code/javascript
-  take form promise
+load @cluesurf/bind/code/javascript
+  find promise
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
 form deflate-raw, name <DeflateRaw>
   base stream-transform

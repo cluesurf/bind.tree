@@ -1,60 +1,60 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form angle-instanced-arrays
-  take form ext-blend-minmax
-  take form ext-frag-depth
-  take form ext-s-rgb
-  take form ext-shader-texture-lod
-  take form ext-texture-filter-anisotropic
-  take form float32-list
-  take form g-lbitfield
-  take form g-lboolean
-  take form g-lclampf
-  take form g-lenum
-  take form g-lfloat
-  take form g-lint
-  take form g-lintptr
-  take form g-lsizei
-  take form g-luint
-  take form oes-element-index-uint
-  take form oes-standard-derivatives
-  take form oes-texture-float
-  take form oes-texture-float-linear
-  take form oes-texture-half-float
-  take form oes-texture-half-float-linear
-  take form oes-vertex-array-object
-  take form offscreen-canvas
-  take form web-gl-active-info
-  take form web-gl-buffer
-  take form web-gl-context-attributes
-  take form web-gl-framebuffer
-  take form web-gl-program
-  take form web-gl-renderbuffer
-  take form web-gl-shader
-  take form web-gl-shader-precision-format
-  take form web-gl-texture
-  take form web-gl-uniform-location
-  take form webgl-color-buffer-float
-  take form webgl-compressed-texture-astc
-  take form webgl-compressed-texture-s3tc
-  take form webgl-compressed-texture-s3tc-srgb
-  take form webgl-debug-renderer-info
-  take form webgl-debug-shaders
-  take form webgl-depth-texture
-  take form webgl-draw-buffers
-  take form webgl-lose-context
+load @cluesurf/bind/code/browser/webworker
+  find angle-instanced-arrays
+  find ext-blend-minmax
+  find ext-frag-depth
+  find ext-s-rgb
+  find ext-shader-texture-lod
+  find ext-texture-filter-anisotropic
+  find float32-list
+  find g-lbitfield
+  find g-lboolean
+  find g-lclampf
+  find g-lenum
+  find g-lfloat
+  find g-lint
+  find g-lintptr
+  find g-lsizei
+  find g-luint
+  find oes-element-index-uint
+  find oes-standard-derivatives
+  find oes-texture-float
+  find oes-texture-float-linear
+  find oes-texture-half-float
+  find oes-texture-half-float-linear
+  find oes-vertex-array-object
+  find offscreen-canvas
+  find web-gl-active-info
+  find web-gl-buffer
+  find web-gl-context-attributes
+  find web-gl-framebuffer
+  find web-gl-program
+  find web-gl-renderbuffer
+  find web-gl-shader
+  find web-gl-shader-precision-format
+  find web-gl-texture
+  find web-gl-uniform-location
+  find webgl-color-buffer-float
+  find webgl-compressed-texture-astc
+  find webgl-compressed-texture-s3tc
+  find webgl-compressed-texture-s3tc-srgb
+  find webgl-debug-renderer-info
+  find webgl-debug-shaders
+  find webgl-depth-texture
+  find webgl-draw-buffers
+  find webgl-lose-context
 
-load @cluesurf/base/code/browser/dom/iterable/web-gl-rendering-context-base
-  take form web-gl-rendering-context-base
+load @cluesurf/bind/code/browser/dom/iterable/web-gl-rendering-context-base
+  find web-gl-rendering-context-base
 
 form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
   link canvas, name <canvas>

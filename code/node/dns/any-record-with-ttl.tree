@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/dns
-  take form any-a-record
-  take form any-aaaa-record
+load @cluesurf/bind/code/node/dns
+  find any-a-record
+  find any-aaaa-record
 
 form any-record-with-ttl, name <AnyRecordWithTtl>
   like or

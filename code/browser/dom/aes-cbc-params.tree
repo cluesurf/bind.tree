@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form algorithm
-  take form buffer-source
+load @cluesurf/bind/code/browser/dom
+  find algorithm
+  find buffer-source
 
 form aes-cbc-params, name <AesCbcParams>
   base algorithm

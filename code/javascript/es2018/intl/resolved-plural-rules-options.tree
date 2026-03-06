@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es2018/intl
-  take form ldml-plural-rule
-  take form plural-rule-type
+load @cluesurf/bind/code/javascript/es2018/intl
+  find ldml-plural-rule
+  find plural-rule-type
 
 form resolved-plural-rules-options, name <ResolvedPluralRulesOptions>
   link locale, name <locale>

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom/notification-action
-  take form notification-action
+load @cluesurf/bind/code/browser/dom/notification-action
+  find notification-action
 
 form notification-action, name <NotificationAction>
   link action, name <action>

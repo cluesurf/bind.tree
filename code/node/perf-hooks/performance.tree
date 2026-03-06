@@ -1,21 +1,21 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-string
-  take form native-void
-  take form performance-node-timing
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-string
+  find native-void
+  find performance-node-timing
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form task
+  find any
+  find like
+  find task
 
-load @cluesurf/base/code/node/perf-hooks
-  take form event-loop-utility-function
-  take form mark-options
-  take form measure-options
-  take form timerify-options
+load @cluesurf/bind/code/node/perf-hooks
+  find event-loop-utility-function
+  find mark-options
+  find measure-options
+  find timerify-options
 
 form performance, name <Performance>
   link node-timing, name <nodeTiming>

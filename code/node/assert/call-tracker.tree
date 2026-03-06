@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-void
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form task
+  find any
+  find like
+  find task
 
-load @cluesurf/base/code/node/assert
-  take form call-tracker-report-information
+load @cluesurf/bind/code/node/assert
+  find call-tracker-report-information
 
 form call-tracker, name <CallTracker>
   task calls, name <calls>

@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form exception-details
-  take form timestamp
+load @cluesurf/bind/code/node/inspector/runtime
+  find exception-details
+  find timestamp
 
 form exception-thrown-event-data-type, name <ExceptionThrownEventDataType>
   link timestamp, name <timestamp>

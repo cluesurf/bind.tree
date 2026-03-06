@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form file-reader
-  take form progress-event
+load @cluesurf/bind/code/browser/dom
+  find file-reader
+  find progress-event
 
 form file-reader-event-map, name <FileReaderEventMap>
   link abort, name <abort>

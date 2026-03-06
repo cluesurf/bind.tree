@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-string
 
 load @cluesurf/moon
-  take form or
+  find or
 
 form outgoing-http-header, name <OutgoingHttpHeader>
   like or

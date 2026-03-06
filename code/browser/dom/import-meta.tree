@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es5/import-meta
-  take form import-meta
+load @cluesurf/bind/code/javascript/es5/import-meta
+  find import-meta
 
 form import-meta, name <ImportMeta>
   link url, name <url>

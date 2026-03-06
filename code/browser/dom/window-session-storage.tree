@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form storage
+load @cluesurf/bind/code/browser/dom
+  find storage
 
 form window-session-storage, name <WindowSessionStorage>
   link session-storage, name <sessionStorage>

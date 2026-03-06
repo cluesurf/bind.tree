@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form media-stream
-  take form rtc-rtp-encoding-parameters
-  take form rtc-rtp-transceiver-direction
+load @cluesurf/bind/code/browser/dom
+  find media-stream
+  find rtc-rtp-encoding-parameters
+  find rtc-rtp-transceiver-direction
 
 form rtc-rtp-transceiver-init, name <RTCRtpTransceiverInit>
   link direction, name <direction>

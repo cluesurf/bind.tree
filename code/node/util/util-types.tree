@@ -1,57 +1,57 @@
 
 load @cluesurf/moon
-  take form any
-  take form form
-  take form like
-  take form never
-  take form or
-  take form test
-  take form unknown
+  find any
+  find form
+  find like
+  find never
+  find or
+  find test
+  find unknown
 
-load @cluesurf/base/code/javascript
-  take form array-buffer
-  take form array-buffer-like
-  take form big-int
-  take form boolean
-  take form data-view
-  take form date
-  take form error
-  take form generator
-  take form generator-function
-  take form i-arguments
-  take form map
-  take form native-boolean
-  take form native-object
-  take form node-js-array-buffer-view
-  take form node-js-typed-array
-  take form number
-  take form promise
-  take form readonly-map
-  take form readonly-set
-  take form reg-exp
-  take form set
-  take form shared-array-buffer
-  take form symbol
-  take form weak-map
-  take form weak-set
-  take form webcrypto-crypto-key
+load @cluesurf/bind/code/javascript
+  find array-buffer
+  find array-buffer-like
+  find big-int
+  find boolean
+  find data-view
+  find date
+  find error
+  find generator
+  find generator-function
+  find i-arguments
+  find map
+  find native-boolean
+  find native-object
+  find node-js-array-buffer-view
+  find node-js-typed-array
+  find number
+  find promise
+  find readonly-map
+  find readonly-set
+  find reg-exp
+  find set
+  find shared-array-buffer
+  find symbol
+  find weak-map
+  find weak-set
+  find webcrypto-crypto-key
 
-load @cluesurf/base/code/node/globals
-  take form big-int64-array
-  take form big-uint64-array
-  take form float32-array
-  take form float64-array
-  take form int16-array
-  take form int32-array
-  take form int8-array
-  take form string
-  take form uint16-array
-  take form uint32-array
-  take form uint8-array
-  take form uint8-clamped-array
+load @cluesurf/bind/code/node/globals
+  find big-int64-array
+  find big-uint64-array
+  find float32-array
+  find float64-array
+  find int16-array
+  find int32-array
+  find int8-array
+  find string
+  find uint16-array
+  find uint32-array
+  find uint8-array
+  find uint8-clamped-array
 
-load @cluesurf/base/code/node/tls
-  take form key-object
+load @cluesurf/bind/code/node/tls
+  find key-object
 
 task is-any-array-buffer, name <isAnyArrayBuffer>
   like native-boolean

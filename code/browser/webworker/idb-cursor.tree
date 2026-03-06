@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-undefined
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-undefined
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form idb-cursor-direction
-  take form idb-index
-  take form idb-object-store
-  take form idb-request
-  take form idb-valid-key
+load @cluesurf/bind/code/browser/webworker
+  find idb-cursor-direction
+  find idb-index
+  find idb-object-store
+  find idb-request
+  find idb-valid-key
 
-load @cluesurf/base/code/browser/dom/idb-cursor
-  take form idb-cursor
+load @cluesurf/bind/code/browser/dom/idb-cursor
+  find idb-cursor
 
 form idb-cursor, name <IDBCursor>
   link direction, name <direction>

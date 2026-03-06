@@ -1,22 +1,22 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form document-and-element-event-handlers
-  take form element
-  take form element-content-editable
-  take form element-css-inline-style
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form global-event-handlers
-  take form html-element-event-map
-  take form html-or-svg-element
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find document-and-element-event-handlers
+  find element
+  find element-content-editable
+  find element-css-inline-style
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find global-event-handlers
+  find html-element-event-map
+  find html-or-svg-element
 
 form html-element, name <HTMLElement>
   base element

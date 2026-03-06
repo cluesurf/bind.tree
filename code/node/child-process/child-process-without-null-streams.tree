@@ -1,14 +1,14 @@
 
 load @cluesurf/moon
-  take form or
-  take form tuple
+  find or
+  find tuple
 
-load @cluesurf/base/code/javascript
-  take form child-process
-  take form native-null
-  take form native-undefined
-  take form readable
-  take form writable
+load @cluesurf/bind/code/javascript
+  find child-process
+  find native-null
+  find native-undefined
+  find readable
+  find writable
 
 form child-process-without-null-streams, name <ChildProcessWithoutNullStreams>
   base child-process

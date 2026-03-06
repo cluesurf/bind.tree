@@ -1,22 +1,22 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form net-lookup-function
-  take form stream-duplex
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-number
+  find native-string
+  find native-undefined
+  find net-lookup-function
+  find stream-duplex
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/tls
-  take form common-connection-options
-  take form psk-callback-negotation
-  take form secure-context-options
+load @cluesurf/bind/code/node/tls
+  find common-connection-options
+  find psk-callback-negotation
+  find secure-context-options
 
 form connection-options, name <ConnectionOptions>
   base secure-context-options

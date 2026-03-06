@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form queuing-strategy-size
+load @cluesurf/bind/code/browser/webworker
+  find queuing-strategy-size
 
-load @cluesurf/base/code/browser/dom/queuing-strategy
-  take form queuing-strategy
+load @cluesurf/bind/code/browser/dom/queuing-strategy
+  find queuing-strategy
 
 form queuing-strategy, name <QueuingStrategy>
   head t

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form extendable-event
+load @cluesurf/bind/code/browser/webworker
+  find extendable-event
 
 form sync-event, name <SyncEvent>
   base extendable-event

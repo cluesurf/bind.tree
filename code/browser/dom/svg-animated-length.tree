@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-length
+load @cluesurf/bind/code/browser/dom
+  find svg-length
 
 form svg-animated-length, name <SVGAnimatedLength>
   link anim-val, name <animVal>

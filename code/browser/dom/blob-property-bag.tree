@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form ending-type
+load @cluesurf/bind/code/browser/dom
+  find ending-type
 
 form blob-property-bag, name <BlobPropertyBag>
   link endings, name <endings>

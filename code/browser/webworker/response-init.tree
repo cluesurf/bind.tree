@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form headers-init
+load @cluesurf/bind/code/browser/webworker
+  find headers-init
 
-load @cluesurf/base/code/browser/dom/response-init
-  take form response-init
+load @cluesurf/bind/code/browser/dom/response-init
+  find response-init
 
 form response-init, name <ResponseInit>
   link headers, name <headers>

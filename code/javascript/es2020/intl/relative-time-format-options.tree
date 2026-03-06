@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript/es2020/intl
-  take form relative-time-format-locale-matcher
-  take form relative-time-format-numeric
-  take form relative-time-format-style
+load @cluesurf/bind/code/javascript/es2020/intl
+  find relative-time-format-locale-matcher
+  find relative-time-format-numeric
+  find relative-time-format-style
 
 form relative-time-format-options, name <RelativeTimeFormatOptions>
   link locale-matcher, name <localeMatcher>

@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-object
+load @cluesurf/bind/code/javascript/native
+  find native-object
 
-load @cluesurf/base/code/javascript/es2015/collection/weak-set
-  take form weak-set
+load @cluesurf/bind/code/javascript/es2015/collection/weak-set
+  find weak-set
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable
 
-load @cluesurf/base/code/javascript/es2015/iterable/weak-set
-  take form weak-set
+load @cluesurf/bind/code/javascript/es2015/iterable/weak-set
+  find weak-set
 
 form weak-set, name <WeakSet>
   head t

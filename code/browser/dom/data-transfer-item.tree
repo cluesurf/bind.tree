@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form file
-  take form file-system-entry
-  take form function-string-callback
+load @cluesurf/bind/code/browser/dom
+  find file
+  find file-system-entry
+  find function-string-callback
 
 form data-transfer-item, name <DataTransferItem>
   link kind, name <kind>

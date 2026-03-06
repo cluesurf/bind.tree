@@ -1,74 +1,74 @@
 
-load @cluesurf/base/code/browser/dom
-  take form html-anchor-element
-  take form html-area-element
-  take form html-audio-element
-  take form html-base-element
-  take form html-body-element
-  take form html-button-element
-  take form html-canvas-element
-  take form html-data-element
-  take form html-data-list-element
-  take form html-details-element
-  take form html-dialog-element
-  take form html-directory-element
-  take form html-div-element
-  take form html-element
-  take form html-embed-element
-  take form html-field-set-element
-  take form html-font-element
-  take form html-form-element
-  take form html-frame-element
-  take form html-frame-set-element
-  take form html-head-element
-  take form html-heading-element
-  take form html-html-element
-  take form html-image-element
-  take form html-input-element
-  take form html-label-element
-  take form html-legend-element
-  take form html-link-element
-  take form html-map-element
-  take form html-marquee-element
-  take form html-menu-element
-  take form html-meta-element
-  take form html-meter-element
-  take form html-mod-element
-  take form html-object-element
-  take form html-opt-group-element
-  take form html-option-element
-  take form html-output-element
-  take form html-paragraph-element
-  take form html-param-element
-  take form html-picture-element
-  take form html-pre-element
-  take form html-progress-element
-  take form html-quote-element
-  take form html-script-element
-  take form html-select-element
-  take form html-slot-element
-  take form html-source-element
-  take form html-span-element
-  take form html-style-element
-  take form html-table-caption-element
-  take form html-table-cell-element
-  take form html-table-col-element
-  take form html-table-element
-  take form html-table-row-element
-  take form html-table-section-element
-  take form html-template-element
-  take form html-text-area-element
-  take form html-time-element
-  take form html-title-element
-  take form html-track-element
-  take form html-video-element
-  take form htmlbr-element
-  take form htmld-list-element
-  take form htmlhr-element
-  take form htmli-frame-element
-  take form htmlli-element
-  take form htmlo-list-element
-  take form htmlu-list-element
+load @cluesurf/bind/code/browser/dom
+  find html-anchor-element
+  find html-area-element
+  find html-audio-element
+  find html-base-element
+  find html-body-element
+  find html-button-element
+  find html-canvas-element
+  find html-data-element
+  find html-data-list-element
+  find html-details-element
+  find html-dialog-element
+  find html-directory-element
+  find html-div-element
+  find html-element
+  find html-embed-element
+  find html-field-set-element
+  find html-font-element
+  find html-form-element
+  find html-frame-element
+  find html-frame-set-element
+  find html-head-element
+  find html-heading-element
+  find html-html-element
+  find html-image-element
+  find html-input-element
+  find html-label-element
+  find html-legend-element
+  find html-link-element
+  find html-map-element
+  find html-marquee-element
+  find html-menu-element
+  find html-meta-element
+  find html-meter-element
+  find html-mod-element
+  find html-object-element
+  find html-opt-group-element
+  find html-option-element
+  find html-output-element
+  find html-paragraph-element
+  find html-param-element
+  find html-picture-element
+  find html-pre-element
+  find html-progress-element
+  find html-quote-element
+  find html-script-element
+  find html-select-element
+  find html-slot-element
+  find html-source-element
+  find html-span-element
+  find html-style-element
+  find html-table-caption-element
+  find html-table-cell-element
+  find html-table-col-element
+  find html-table-element
+  find html-table-row-element
+  find html-table-section-element
+  find html-template-element
+  find html-text-area-element
+  find html-time-element
+  find html-title-element
+  find html-track-element
+  find html-video-element
+  find htmlbr-element
+  find htmld-list-element
+  find htmlhr-element
+  find htmli-frame-element
+  find htmlli-element
+  find htmlo-list-element
+  find htmlu-list-element
 
 form html-element-tag-name-map, name <HTMLElementTagNameMap>
   link a, name <a>

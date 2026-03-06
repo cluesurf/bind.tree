@@ -1,19 +1,19 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-boolean
-  take form native-number
-  take form native-string
-  take form native-undefined
-  take form node-js-readable-stream
-  take form node-js-writable-stream
+load @cluesurf/bind/code/javascript
+  find array
+  find native-boolean
+  find native-number
+  find native-string
+  find native-undefined
+  find node-js-readable-stream
+  find node-js-writable-stream
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/readline
-  take form async-completer
-  take form completer
+load @cluesurf/bind/code/node/readline
+  find async-completer
+  find completer
 
 form read-line-options, name <ReadLineOptions>
   link input, name <input>

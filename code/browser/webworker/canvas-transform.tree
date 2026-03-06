@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-matrix
-  take form dom-matrix2-d-init
+load @cluesurf/bind/code/browser/webworker
+  find dom-matrix
+  find dom-matrix2-d-init
 
-load @cluesurf/base/code/browser/dom/canvas-transform
-  take form canvas-transform
+load @cluesurf/bind/code/browser/dom/canvas-transform
+  find canvas-transform
 
 form canvas-transform, name <CanvasTransform>
   task get-transform, name <getTransform>

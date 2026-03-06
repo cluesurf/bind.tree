@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form audio-buffer
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find audio-buffer
+  find event
 
 form offline-audio-completion-event, name <OfflineAudioCompletionEvent>
   base event

@@ -1,10 +1,10 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/os
-  take form network-interface-info-i-pv4
-  take form network-interface-info-i-pv6
+load @cluesurf/bind/code/node/os
+  find network-interface-info-i-pv4
+  find network-interface-info-i-pv6
 
 form network-interface-info, name <NetworkInterfaceInfo>
   like or

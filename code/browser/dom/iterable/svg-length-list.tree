@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form svg-length
+load @cluesurf/bind/code/browser/dom
+  find svg-length
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/svg-length-list
-  take form svg-length-list
+load @cluesurf/bind/code/browser/dom/svg-length-list
+  find svg-length-list
 
 form svg-length-list, name <SVGLengthList>
   task {symbol/iterator}

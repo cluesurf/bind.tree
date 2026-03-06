@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2017/string/string
-  take form string
+load @cluesurf/bind/code/javascript/es2017/string/string
+  find string
 
 form string, name <String>
   task trim-end, name <trimEnd>

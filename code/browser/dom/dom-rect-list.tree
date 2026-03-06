@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form dom-rect
+load @cluesurf/bind/code/browser/dom
+  find dom-rect
 
 form dom-rect-list, name <DOMRectList>
   link length, name <length>

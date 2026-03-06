@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/browser/dom
-  take form dom-rect-read-only
-  take form element
-  take form resize-observer-size
+load @cluesurf/bind/code/browser/dom
+  find dom-rect-read-only
+  find element
+  find resize-observer-size
 
-load @cluesurf/base/code/javascript/es5
-  take form readonly-array
+load @cluesurf/bind/code/javascript/es5
+  find readonly-array
 
 form resize-observer-entry, name <ResizeObserverEntry>
   link border-box-size, name <borderBoxSize>

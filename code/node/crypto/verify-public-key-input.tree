@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/node/crypto
-  take form public-key-input
-  take form signing-options
+load @cluesurf/bind/code/node/crypto
+  find public-key-input
+  find signing-options
 
 form verify-public-key-input, name <VerifyPublicKeyInput>
   base public-key-input

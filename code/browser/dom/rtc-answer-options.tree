@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-offer-answer-options
+load @cluesurf/bind/code/browser/dom
+  find rtc-offer-answer-options
 
 form rtc-answer-options, name <RTCAnswerOptions>
   base rtc-offer-answer-options

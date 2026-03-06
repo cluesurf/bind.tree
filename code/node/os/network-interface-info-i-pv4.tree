@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/os
-  take form network-interface-base
+load @cluesurf/bind/code/node/os
+  find network-interface-base
 
 form network-interface-info-i-pv4, name <NetworkInterfaceInfoIPv4>
   base network-interface-base

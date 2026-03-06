@@ -1,19 +1,19 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form intl-collator-options
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find intl-collator-options
+  find native-null
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es5
-  take form reg-exp
-  take form reg-exp-match-array
+load @cluesurf/bind/code/javascript/es5
+  find reg-exp
+  find reg-exp-match-array
 
-load @cluesurf/base/code/javascript/es5/string
-  take form string
+load @cluesurf/bind/code/javascript/es5/string
+  find string
 
 form string, name <String>
   link length, name <length>

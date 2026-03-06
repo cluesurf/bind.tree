@@ -1,21 +1,21 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form append-mode
-  take form buffer-source
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form source-buffer-event-map
-  take form time-ranges
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find append-mode
+  find buffer-source
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find source-buffer-event-map
+  find time-ranges
 
 form source-buffer, name <SourceBuffer>
   base event-target

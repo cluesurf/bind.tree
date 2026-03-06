@@ -1,28 +1,28 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form duplex
-  take form error
-  take form http-incoming-message
-  take form http-request-listener
-  take form http-server-response
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-this
-  take form native-void
-  take form tls-tls-socket
+load @cluesurf/bind/code/javascript
+  find array
+  find duplex
+  find error
+  find http-incoming-message
+  find http-request-listener
+  find http-server-response
+  find native-boolean
+  find native-null
+  find native-string
+  find native-this
+  find native-void
+  find tls-tls-socket
 
 load @cluesurf/moon
-  take form any
-  take form or
-  take form task
+  find any
+  find or
+  find task
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/https
-  take form server-options
+load @cluesurf/bind/code/node/https
+  find server-options
 
 form server, name <Server>
   base http-server

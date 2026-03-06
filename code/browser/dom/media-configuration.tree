@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form audio-configuration
-  take form video-configuration
+load @cluesurf/bind/code/browser/dom
+  find audio-configuration
+  find video-configuration
 
 form media-configuration, name <MediaConfiguration>
   link audio, name <audio>

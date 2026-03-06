@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form algorithm
-  take form buffer-source
-  take form hash-algorithm-identifier
+load @cluesurf/bind/code/browser/dom
+  find algorithm
+  find buffer-source
+  find hash-algorithm-identifier
 
 form hkdf-params, name <HkdfParams>
   base algorithm

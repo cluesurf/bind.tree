@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-string
-  take form readonly-array
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-string
+  find readonly-array
 
 form ucs2, name <ucs2>
   task decode, name <decode>

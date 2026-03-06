@@ -1,15 +1,15 @@
 
 load @cluesurf/moon
-  take form form
+  find form
 
-load @cluesurf/base/code/javascript
-  take form cipher
-  take form native-number
-  take form native-this
-  take form node-js-array-buffer-view
+load @cluesurf/bind/code/javascript
+  find cipher
+  find native-number
+  find native-this
+  find node-js-array-buffer-view
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
 form cipher-ccm, name <CipherCCM>
   base cipher

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form rtc-dtls-transport-state
-  take form rtc-stats
+load @cluesurf/bind/code/browser/dom
+  find rtc-dtls-transport-state
+  find rtc-stats
 
 form rtc-transport-stats, name <RTCTransportStats>
   base rtc-stats

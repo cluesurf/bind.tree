@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form html-pre-element
+load @cluesurf/bind/code/browser/dom
+  find html-pre-element
 
 form html-element-deprecated-tag-name-map, name <HTMLElementDeprecatedTagNameMap>
   link listing, name <listing>

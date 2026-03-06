@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form like
-  take form or
-  take form task
+  find like
+  find or
+  find task
 
-load @cluesurf/base/code/javascript
-  take form async-iterable
-  take form iterable
+load @cluesurf/bind/code/javascript
+  find async-iterable
+  find iterable
 
 form pipeline-source-function, name <PipelineSourceFunction>
   head t

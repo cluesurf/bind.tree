@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/browser/dom
-  take form composite-operation-or-auto
+load @cluesurf/bind/code/browser/dom
+  find composite-operation-or-auto
 
 form property-indexed-keyframes, name <PropertyIndexedKeyframes>
   link composite, name <composite>

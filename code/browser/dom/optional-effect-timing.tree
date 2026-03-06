@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form fill-mode
-  take form playback-direction
+load @cluesurf/bind/code/browser/dom
+  find fill-mode
+  find playback-direction
 
 form optional-effect-timing, name <OptionalEffectTiming>
   link delay, name <delay>

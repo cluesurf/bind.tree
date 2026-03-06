@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form task
+  find task
 
-load @cluesurf/base/code/javascript
-  take form native-void
-  take form performance-observer
+load @cluesurf/bind/code/javascript
+  find native-void
+  find performance-observer
 
-load @cluesurf/base/code/node/perf-hooks
-  take form performance-observer-entry-list
+load @cluesurf/bind/code/node/perf-hooks
+  find performance-observer-entry-list
 
 form performance-observer-callback, name <PerformanceObserverCallback>
   like task

@@ -1,29 +1,29 @@
 
-load @cluesurf/base/code/javascript
-  take form address-info
-  take form array
-  take form error
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-symbol
-  take form native-this
-  take form native-void
-  take form readonly-array
-  take form uint8-array
+load @cluesurf/bind/code/javascript
+  find address-info
+  find array
+  find error
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-symbol
+  find native-this
+  find native-void
+  find readonly-array
+  find uint8-array
 
 load @cluesurf/moon
-  take form any
-  take form or
-  take form task
+  find any
+  find or
+  find task
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/dgram
-  take form bind-options
-  take form remote-info
+load @cluesurf/bind/code/node/dgram
+  find bind-options
+  find remote-info
 
 form socket, name <Socket>
   base event-emitter

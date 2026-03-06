@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form array-buffer
-  take form blob
-  take form file-handle
-  take form message-port
-  take form x509-certificate
+load @cluesurf/bind/code/javascript
+  find array-buffer
+  find blob
+  find file-handle
+  find message-port
+  find x509-certificate
 
 form transfer-list-item, name <TransferListItem>
   like or

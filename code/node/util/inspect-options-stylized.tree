@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-string
 
-load @cluesurf/base/code/node/util
-  take form inspect-options
-  take form style
+load @cluesurf/bind/code/node/util
+  find inspect-options
+  find style
 
 form inspect-options-stylized, name <InspectOptionsStylized>
   base inspect-options

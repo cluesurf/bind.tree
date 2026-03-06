@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-string
 
 form rtc-ice-candidate-init, name <RTCIceCandidateInit>
   link candidate, name <candidate>

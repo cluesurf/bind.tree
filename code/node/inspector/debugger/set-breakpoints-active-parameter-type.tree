@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
+load @cluesurf/bind/code/javascript
+  find native-boolean
 
 form set-breakpoints-active-parameter-type, name <SetBreakpointsActiveParameterType>
   link active, name <active>

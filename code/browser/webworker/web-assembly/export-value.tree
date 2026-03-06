@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form global
-  take form memory
-  take form table
+load @cluesurf/bind/code/browser/webworker
+  find global
+  find memory
+  find table
 
-load @cluesurf/base/code/javascript/es5
-  take form function
+load @cluesurf/bind/code/javascript/es5
+  find function
 
 form export-value, name <ExportValue>
   like or

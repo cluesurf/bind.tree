@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form connection-type
-  take form event-target
+load @cluesurf/bind/code/browser/dom
+  find connection-type
+  find event-target
 
 form network-information, name <NetworkInformation>
   base event-target

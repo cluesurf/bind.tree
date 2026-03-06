@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form error-callback
-  take form file-system-entries-callback
+load @cluesurf/bind/code/browser/dom
+  find error-callback
+  find file-system-entries-callback
 
 form file-system-directory-reader, name <FileSystemDirectoryReader>
   task read-entries, name <readEntries>

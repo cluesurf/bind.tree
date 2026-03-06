@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form position-callback
-  take form position-error-callback
-  take form position-options
+load @cluesurf/bind/code/browser/dom
+  find position-callback
+  find position-error-callback
+  find position-options
 
 form geolocation, name <Geolocation>
   task clear-watch, name <clearWatch>

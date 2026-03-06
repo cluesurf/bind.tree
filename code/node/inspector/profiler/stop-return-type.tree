@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/inspector/profiler
-  take form profile
+load @cluesurf/bind/code/node/inspector/profiler
+  find profile
 
 form stop-return-type, name <StopReturnType>
   link profile, name <profile>

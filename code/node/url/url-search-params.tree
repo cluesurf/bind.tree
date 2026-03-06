@@ -1,24 +1,24 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form iterable
-  take form iterable-iterator
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-this
-  take form native-void
-  take form readonly-array
-  take form record
+load @cluesurf/bind/code/javascript
+  find array
+  find iterable
+  find iterable-iterator
+  find native-boolean
+  find native-null
+  find native-string
+  find native-this
+  find native-void
+  find readonly-array
+  find record
 
 load @cluesurf/moon
-  take form like
-  take form or
-  take form task
-  take form tuple
+  find like
+  find or
+  find task
+  find tuple
 
-load @cluesurf/base/code/node/url
-  take form url-search-params
+load @cluesurf/bind/code/node/url
+  find url-search-params
 
 form url-search-params, name <URLSearchParams>
   task append, name <append>

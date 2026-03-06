@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/dom
-  take form constrain-boolean
-  take form constrain-dom-string
-  take form constrain-double
-  take form constrain-u-long
+load @cluesurf/bind/code/browser/dom
+  find constrain-boolean
+  find constrain-dom-string
+  find constrain-double
+  find constrain-u-long
 
 form media-track-constraint-set, name <MediaTrackConstraintSet>
   link aspect-ratio, name <aspectRatio>

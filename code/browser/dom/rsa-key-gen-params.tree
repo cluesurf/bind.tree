@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form algorithm
-  take form big-integer
+load @cluesurf/bind/code/browser/dom
+  find algorithm
+  find big-integer
 
 form rsa-key-gen-params, name <RsaKeyGenParams>
   base algorithm

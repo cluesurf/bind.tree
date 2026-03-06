@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form readable-stream
-  take form writable-stream
+load @cluesurf/bind/code/browser/webworker
+  find readable-stream
+  find writable-stream
 
-load @cluesurf/base/code/browser/dom/transform-stream
-  take form transform-stream
+load @cluesurf/bind/code/browser/dom/transform-stream
+  find transform-stream
 
 form transform-stream, name <TransformStream>
   head i

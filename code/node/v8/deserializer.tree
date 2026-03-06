@@ -1,17 +1,17 @@
 
 load @cluesurf/moon
-  take form any
-  take form tuple
+  find any
+  find tuple
 
-load @cluesurf/base/code/javascript
-  take form array-buffer
-  take form native-boolean
-  take form native-number
-  take form native-void
-  take form node-js-typed-array
+load @cluesurf/bind/code/javascript
+  find array-buffer
+  find native-boolean
+  find native-number
+  find native-void
+  find node-js-typed-array
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
 form deserializer, name <Deserializer>
   task read-header, name <readHeader>

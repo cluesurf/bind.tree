@@ -1,17 +1,17 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
 
-load @cluesurf/base/code/browser/dom
-  take form animation
-  take form get-animations-options
-  take form keyframe
-  take form keyframe-animation-options
-  take form property-indexed-keyframes
+load @cluesurf/bind/code/browser/dom
+  find animation
+  find get-animations-options
+  find keyframe
+  find keyframe-animation-options
+  find property-indexed-keyframes
 
 form animatable, name <Animatable>
   task animate, name <animate>

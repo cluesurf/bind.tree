@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/globals
-  take form relative-indexable
+load @cluesurf/bind/code/node/globals
+  find relative-indexable
 
 form string, name <String>
   base relative-indexable

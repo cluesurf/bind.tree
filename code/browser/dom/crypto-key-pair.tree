@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form crypto-key
+load @cluesurf/bind/code/browser/dom
+  find crypto-key
 
 form crypto-key-pair, name <CryptoKeyPair>
   link private-key, name <privateKey>

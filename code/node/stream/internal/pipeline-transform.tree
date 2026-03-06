@@ -1,20 +1,20 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form async-iterable
-  take form iterable
-  take form node-js-read-write-stream
-  take form st
+load @cluesurf/bind/code/javascript
+  find array
+  find async-iterable
+  find iterable
+  find node-js-read-write-stream
+  find st
 
 load @cluesurf/moon
-  take form any
-  take form like
-  take form or
-  take form task
-  take form test
+  find any
+  find like
+  find or
+  find task
+  find test
 
-load @cluesurf/base/code/node/stream/internal
-  take form pipeline-transform-source
+load @cluesurf/bind/code/node/stream/internal
+  find pipeline-transform-source
 
 form pipeline-transform, name <PipelineTransform>
   head s

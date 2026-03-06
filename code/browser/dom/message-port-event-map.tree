@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form message-event
+load @cluesurf/bind/code/browser/dom
+  find message-event
 
 form message-port-event-map, name <MessagePortEventMap>
   link message, name <message>

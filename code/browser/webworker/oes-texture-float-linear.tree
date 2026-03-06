@@ -1,5 +1,5 @@
 
-load @cluesurf/base/code/browser/dom/oes-texture-float-linear
-  take form oes-texture-float-linear
+load @cluesurf/bind/code/browser/dom/oes-texture-float-linear
+  find oes-texture-float-linear
 
 form oes-texture-float-linear, name <OES_texture_float_linear>

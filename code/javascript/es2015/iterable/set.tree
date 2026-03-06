@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable
+  find iterable-iterator
 
-load @cluesurf/base/code/javascript/es2015/collection/set
-  take form set
+load @cluesurf/bind/code/javascript/es2015/collection/set
+  find set
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/javascript/es2015/iterable/set
-  take form set
+load @cluesurf/bind/code/javascript/es2015/iterable/set
+  find set
 
 form set, name <Set>
   head t

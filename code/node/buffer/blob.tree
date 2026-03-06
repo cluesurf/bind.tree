@@ -1,19 +1,19 @@
 
 load @cluesurf/moon
-  take form or
-  take form unknown
+  find or
+  find unknown
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form array-buffer
-  take form binary-like
-  take form blob
-  take form native-number
-  take form native-string
-  take form promise
+load @cluesurf/bind/code/javascript
+  find array
+  find array-buffer
+  find binary-like
+  find blob
+  find native-number
+  find native-string
+  find promise
 
-load @cluesurf/base/code/node/buffer
-  take form blob-options
+load @cluesurf/bind/code/node/buffer
+  find blob-options
 
 form blob, name <Blob>
   link size, name <size>, like native-number

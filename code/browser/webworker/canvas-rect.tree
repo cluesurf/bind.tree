@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom/canvas-rect
-  take form canvas-rect
+load @cluesurf/bind/code/browser/dom/canvas-rect
+  find canvas-rect
 
 form canvas-rect, name <CanvasRect>
   task clear-rect, name <clearRect>

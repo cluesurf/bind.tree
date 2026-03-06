@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-undefined
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/inspector/profiler
-  take form profile-node
+load @cluesurf/bind/code/node/inspector/profiler
+  find profile-node
 
 form profile, name <Profile>
   link nodes, name <nodes>

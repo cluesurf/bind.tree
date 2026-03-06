@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/browser/dom
-  take form document-and-element-event-handlers-event-map
-  take form event
-  take form global-event-handlers-event-map
+load @cluesurf/bind/code/browser/dom
+  find document-and-element-event-handlers-event-map
+  find event
+  find global-event-handlers-event-map
 
 form document-event-map, name <DocumentEventMap>
   base document-and-element-event-handlers-event-map

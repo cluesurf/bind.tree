@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form offline-audio-context-options, name <OfflineAudioContextOptions>
   link length, name <length>

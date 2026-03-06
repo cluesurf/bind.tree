@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-void
-  take form node-js-array-buffer-view
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-void
+  find node-js-array-buffer-view
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/crypto
-  take form binary-to-text-encoding
+load @cluesurf/bind/code/node/crypto
+  find binary-to-text-encoding
 
 form diffie-hellman, name <DiffieHellman>
   link verify-error, name <verifyError>, like native-number

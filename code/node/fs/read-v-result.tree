@@ -1,8 +1,8 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form node-js-array-buffer-view
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find node-js-array-buffer-view
 
 form read-v-result, name <ReadVResult>
   link bytes-read, name <bytesRead>

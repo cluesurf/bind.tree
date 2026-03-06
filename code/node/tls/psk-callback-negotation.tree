@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form data-view
-  take form native-string
-  take form node-js-typed-array
+load @cluesurf/bind/code/javascript
+  find data-view
+  find native-string
+  find node-js-typed-array
 
 form psk-callback-negotation, name <PSKCallbackNegotation>
   link psk, name <psk>

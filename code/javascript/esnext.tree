@@ -1,7 +1,7 @@
 
-bear @cluesurf/base/code/javascript/es2021
-bear @cluesurf/base/code/javascript/esnext/intl
-bear @cluesurf/base/code/javascript/esnext/promise
-bear @cluesurf/base/code/javascript/esnext/string
-bear @cluesurf/base/code/javascript/esnext/weakref
-bear @cluesurf/base/code/javascript/esnext/full
+bear @cluesurf/bind/code/javascript/es2021
+bear @cluesurf/bind/code/javascript/esnext/intl
+bear @cluesurf/bind/code/javascript/esnext/promise
+bear @cluesurf/bind/code/javascript/esnext/string
+bear @cluesurf/bind/code/javascript/esnext/weakref
+bear @cluesurf/bind/code/javascript/esnext/full

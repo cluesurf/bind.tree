@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form like
-  take form or
+  find like
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find native-string
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
 form key-pair-sync-result, name <KeyPairSyncResult>
   head t1

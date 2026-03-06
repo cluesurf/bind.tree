@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form g-lenum
+load @cluesurf/bind/code/browser/webworker
+  find g-lenum
 
-load @cluesurf/base/code/browser/dom/webgl-compressed-texture-astc
-  take form webgl-compressed-texture-astc
+load @cluesurf/bind/code/browser/dom/webgl-compressed-texture-astc
+  find webgl-compressed-texture-astc
 
 form webgl-compressed-texture-astc, name <WEBGL_compressed_texture_astc>
   link compressed-rgba-astc-10x10-khr, name <COMPRESSED_RGBA_ASTC_10x10_KHR>

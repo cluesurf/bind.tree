@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form animation
-  take form element
-  take form style-sheet-list
+load @cluesurf/bind/code/browser/dom
+  find animation
+  find element
+  find style-sheet-list
 
 form document-or-shadow-root, name <DocumentOrShadowRoot>
   link active-element, name <activeElement>

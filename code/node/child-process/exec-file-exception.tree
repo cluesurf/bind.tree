@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form and
+  find and
 
-load @cluesurf/base/code/javascript
-  take form node-js-errno-exception
+load @cluesurf/bind/code/javascript
+  find node-js-errno-exception
 
-load @cluesurf/base/code/node/child-process
-  take form exec-exception
+load @cluesurf/bind/code/node/child-process
+  find exec-exception
 
 form exec-file-exception, name <ExecFileException>
   like and

@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form and
+  find and
 
-load @cluesurf/base/code/javascript
-  take form http-server-options
-  take form tls-secure-context-options
-  take form tls-tls-options
+load @cluesurf/bind/code/javascript
+  find http-server-options
+  find tls-secure-context-options
+  find tls-tls-options
 
 form server-options, name <ServerOptions>
   like and

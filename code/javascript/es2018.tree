@@ -1,8 +1,8 @@
 
-bear @cluesurf/base/code/javascript/es2017
-bear @cluesurf/base/code/javascript/es2018/asynciterable
-bear @cluesurf/base/code/javascript/es2018/asyncgenerator
-bear @cluesurf/base/code/javascript/es2018/promise
-bear @cluesurf/base/code/javascript/es2018/regexp
-bear @cluesurf/base/code/javascript/es2018/intl
-bear @cluesurf/base/code/javascript/es2018/full
+bear @cluesurf/bind/code/javascript/es2017
+bear @cluesurf/bind/code/javascript/es2018/asynciterable
+bear @cluesurf/bind/code/javascript/es2018/asyncgenerator
+bear @cluesurf/bind/code/javascript/es2018/promise
+bear @cluesurf/bind/code/javascript/es2018/regexp
+bear @cluesurf/bind/code/javascript/es2018/intl
+bear @cluesurf/bind/code/javascript/es2018/full

@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom
-  take form payment-details-modifier
-  take form payment-item
+load @cluesurf/bind/code/browser/dom
+  find payment-details-modifier
+  find payment-item
 
 form payment-details-base, name <PaymentDetailsBase>
   link display-items, name <displayItems>

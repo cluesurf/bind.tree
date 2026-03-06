@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
+load @cluesurf/bind/code/browser/dom
+  find event
 
 form visual-viewport-event-map, name <VisualViewportEventMap>
   link resize, name <resize>

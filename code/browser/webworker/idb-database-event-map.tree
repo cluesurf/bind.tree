@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
-  take form idb-version-change-event
+load @cluesurf/bind/code/browser/webworker
+  find event
+  find idb-version-change-event
 
-load @cluesurf/base/code/browser/dom/idb-database-event-map
-  take form idb-database-event-map
+load @cluesurf/bind/code/browser/dom/idb-database-event-map
+  find idb-database-event-map
 
 form idb-database-event-map, name <IDBDatabaseEventMap>
   link abort, name <abort>

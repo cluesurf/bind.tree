@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form key-algorithm
-  take form rsa-key-algorithm
+load @cluesurf/bind/code/browser/dom
+  find key-algorithm
+  find rsa-key-algorithm
 
 form rsa-hashed-key-algorithm, name <RsaHashedKeyAlgorithm>
   base rsa-key-algorithm

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form child-node
-  take form document
-  take form node
+load @cluesurf/bind/code/browser/dom
+  find child-node
+  find document
+  find node
 
 form document-type, name <DocumentType>
   base node

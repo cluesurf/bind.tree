@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
 
-load @cluesurf/base/code/browser/webworker
-  take form event-init
+load @cluesurf/bind/code/browser/webworker
+  find event-init
 
-load @cluesurf/base/code/browser/dom/idb-version-change-event-init
-  take form idb-version-change-event-init
+load @cluesurf/bind/code/browser/dom/idb-version-change-event-init
+  find idb-version-change-event-init
 
 form idb-version-change-event-init, name <IDBVersionChangeEventInit>
   base event-init

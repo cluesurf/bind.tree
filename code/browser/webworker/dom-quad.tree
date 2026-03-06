@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form dom-point
-  take form dom-rect
+load @cluesurf/bind/code/browser/webworker
+  find dom-point
+  find dom-rect
 
-load @cluesurf/base/code/browser/dom/dom-quad
-  take form dom-quad
+load @cluesurf/bind/code/browser/dom/dom-quad
+  find dom-quad
 
 form dom-quad, name <DOMQuad>
   link p1, name <p1>

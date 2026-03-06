@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form blob
+load @cluesurf/bind/code/browser/webworker
+  find blob
 
-load @cluesurf/base/code/browser/dom/file
-  take form file
+load @cluesurf/bind/code/browser/dom/file
+  find file
 
 form file, name <File>
   base blob

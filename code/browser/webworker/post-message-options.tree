@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/browser/dom/post-message-options
-  take form post-message-options
+load @cluesurf/bind/code/browser/dom/post-message-options
+  find post-message-options
 
 form post-message-options, name <PostMessageOptions>
   link transfer, name <transfer>

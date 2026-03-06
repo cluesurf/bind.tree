@@ -1,11 +1,11 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/crypto
-  take form binary-to-text-encoding
-  take form character-encoding
-  take form legacy-character-encoding
+load @cluesurf/bind/code/node/crypto
+  find binary-to-text-encoding
+  find character-encoding
+  find legacy-character-encoding
 
 form encoding, name <Encoding>
   like or

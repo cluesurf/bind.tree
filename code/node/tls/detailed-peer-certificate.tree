@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/tls
-  take form peer-certificate
+load @cluesurf/bind/code/node/tls
+  find peer-certificate
 
 form detailed-peer-certificate, name <DetailedPeerCertificate>
   base peer-certificate

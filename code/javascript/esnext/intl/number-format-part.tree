@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/esnext/intl
-  take form number-format-part-types
+load @cluesurf/bind/code/javascript/esnext/intl
+  find number-format-part-types
 
 form number-format-part, name <NumberFormatPart>
   link type, name <type>

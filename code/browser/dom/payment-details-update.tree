@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form payment-details-base
-  take form payment-item
+load @cluesurf/bind/code/browser/dom
+  find payment-details-base
+  find payment-item
 
 form payment-details-update, name <PaymentDetailsUpdate>
   base payment-details-base

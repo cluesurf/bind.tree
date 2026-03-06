@@ -1,18 +1,18 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form svg-animated-enumeration
-  take form svg-animated-length
-  take form svg-element
-  take form svg-element-event-map
-  take form svguri-reference
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find svg-animated-enumeration
+  find svg-animated-length
+  find svg-element
+  find svg-element-event-map
+  find svguri-reference
 
 form svg-filter-element, name <SVGFilterElement>
   base svg-element

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/node/http
-  take form incoming-http-headers
+load @cluesurf/bind/code/node/http
+  find incoming-http-headers
 
 form information-event, name <InformationEvent>
   link status-code, name <statusCode>

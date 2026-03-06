@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form speech-synthesis-error-event
-  take form speech-synthesis-event
+load @cluesurf/bind/code/browser/dom
+  find speech-synthesis-error-event
+  find speech-synthesis-event
 
 form speech-synthesis-utterance-event-map, name <SpeechSynthesisUtteranceEventMap>
   link boundary, name <boundary>

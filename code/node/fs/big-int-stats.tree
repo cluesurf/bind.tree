@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form native-bigint
+load @cluesurf/bind/code/javascript
+  find native-bigint
 
-load @cluesurf/base/code/node/fs
-  take form stats-base
+load @cluesurf/bind/code/node/fs
+  find stats-base
 
 form big-int-stats, name <BigIntStats>
   base stats-base

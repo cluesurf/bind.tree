@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form gamepad
+load @cluesurf/bind/code/browser/dom
+  find event
+  find gamepad
 
 form gamepad-event, name <GamepadEvent>
   base event

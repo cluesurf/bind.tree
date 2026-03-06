@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form readable-stream-default-reader
+load @cluesurf/bind/code/browser/webworker
+  find readable-stream-default-reader
 
 form readable-stream-reader, name <ReadableStreamReader>
   head t

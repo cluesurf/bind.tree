@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form like
+  find like
 
-load @cluesurf/base/code/javascript
-  take form node-js-array-buffer-view
+load @cluesurf/bind/code/javascript
+  find node-js-array-buffer-view
 
-load @cluesurf/base/code/node/fs
-  take form read-sync-options
+load @cluesurf/bind/code/node/fs
+  find read-sync-options
 
 form read-async-options, name <ReadAsyncOptions>
   base read-sync-options

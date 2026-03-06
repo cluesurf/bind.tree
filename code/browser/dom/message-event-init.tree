@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
-  take form message-event-source
-  take form message-port
+load @cluesurf/bind/code/browser/dom
+  find event-init
+  find message-event-source
+  find message-port
 
 form message-event-init, name <MessageEventInit>
   base event-init

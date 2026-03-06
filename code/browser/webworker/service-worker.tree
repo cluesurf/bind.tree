@@ -1,27 +1,27 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form abstract-worker
-  take form add-event-listener-options
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form event-target
-  take form post-message-options
-  take form service-worker-event-map
-  take form service-worker-state
-  take form transferable
+load @cluesurf/bind/code/browser/webworker
+  find abstract-worker
+  find add-event-listener-options
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find event-target
+  find post-message-options
+  find service-worker-event-map
+  find service-worker-state
+  find transferable
 
-load @cluesurf/base/code/browser/dom/service-worker
-  take form service-worker
+load @cluesurf/bind/code/browser/dom/service-worker
+  find service-worker
 
 form service-worker, name <ServiceWorker>
   base event-target

@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form scroll-logical-position
-  take form scroll-options
+load @cluesurf/bind/code/browser/dom
+  find scroll-logical-position
+  find scroll-options
 
 form scroll-into-view-options, name <ScrollIntoViewOptions>
   base scroll-options

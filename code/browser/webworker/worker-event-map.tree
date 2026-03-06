@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form abstract-worker-event-map
-  take form message-event
+load @cluesurf/bind/code/browser/webworker
+  find abstract-worker-event-map
+  find message-event
 
-load @cluesurf/base/code/browser/dom/worker-event-map
-  take form worker-event-map
+load @cluesurf/bind/code/browser/dom/worker-event-map
+  find worker-event-map
 
 form worker-event-map, name <WorkerEventMap>
   base abstract-worker-event-map

@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/node/crypto
-  take form private-key-input
-  take form signing-options
+load @cluesurf/bind/code/node/crypto
+  find private-key-input
+  find signing-options
 
 form sign-private-key-input, name <SignPrivateKeyInput>
   base private-key-input

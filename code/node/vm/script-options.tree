@@ -1,17 +1,17 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-boolean
-  take form native-number
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-boolean
+  find native-number
+  find native-undefined
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/vm
-  take form base-options
+load @cluesurf/bind/code/node/vm
+  find base-options
 
 form script-options, name <ScriptOptions>
   base base-options

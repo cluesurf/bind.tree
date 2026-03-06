@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/browser/dom
-  take form device-motion-event
-  take form device-orientation-event
-  take form event
-  take form gamepad-event
-  take form global-event-handlers-event-map
-  take form window-event-handlers-event-map
+load @cluesurf/bind/code/browser/dom
+  find device-motion-event
+  find device-orientation-event
+  find event
+  find gamepad-event
+  find global-event-handlers-event-map
+  find window-event-handlers-event-map
 
 form window-event-map, name <WindowEventMap>
   base global-event-handlers-event-map

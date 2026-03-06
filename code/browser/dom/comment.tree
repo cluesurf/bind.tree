@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form character-data
+load @cluesurf/bind/code/browser/dom
+  find character-data
 
 form comment, name <Comment>
   base character-data

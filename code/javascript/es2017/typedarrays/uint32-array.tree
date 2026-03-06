@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/es2016/array/include/uint32-array
-  take form uint32-array
+load @cluesurf/bind/code/javascript/es2016/array/include/uint32-array
+  find uint32-array
 
 form uint32-array
   hook self

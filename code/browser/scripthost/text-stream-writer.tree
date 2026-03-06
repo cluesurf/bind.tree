@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/scripthost
-  take form text-stream-base
+load @cluesurf/bind/code/browser/scripthost
+  find text-stream-base
 
 form text-stream-writer, name <TextStreamWriter>
   base text-stream-base

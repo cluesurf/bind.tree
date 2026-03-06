@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-undefined
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
 
-load @cluesurf/base/code/browser/dom/readable-stream-default-read-done-result
-  take form readable-stream-default-read-done-result
+load @cluesurf/bind/code/browser/dom/readable-stream-default-read-done-result
+  find readable-stream-default-read-done-result
 
 form readable-stream-default-read-done-result, name <ReadableStreamDefaultReadDoneResult>
   link done, name <done>

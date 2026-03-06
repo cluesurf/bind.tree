@@ -1,73 +1,73 @@
 
-bear @cluesurf/base/code/javascript/node/dns/lookup-options
-bear @cluesurf/base/code/javascript/node/dns/lookup-one-options
-bear @cluesurf/base/code/javascript/node/dns/lookup-all-options
-bear @cluesurf/base/code/javascript/node/dns/lookup-address
-bear @cluesurf/base/code/javascript/node/dns/lookup
-bear @cluesurf/base/code/javascript/node/dns/lookup-service
-bear @cluesurf/base/code/javascript/node/dns/resolve-options
-bear @cluesurf/base/code/javascript/node/dns/resolve-with-ttl-options
-bear @cluesurf/base/code/javascript/node/dns/record-with-ttl
-bear @cluesurf/base/code/javascript/node/dns/any-record-with-ttl
-bear @cluesurf/base/code/javascript/node/dns/any-a-record
-bear @cluesurf/base/code/javascript/node/dns/any-aaaa-record
-bear @cluesurf/base/code/javascript/node/dns/caa-record
-bear @cluesurf/base/code/javascript/node/dns/mx-record
-bear @cluesurf/base/code/javascript/node/dns/any-mx-record
-bear @cluesurf/base/code/javascript/node/dns/naptr-record
-bear @cluesurf/base/code/javascript/node/dns/any-naptr-record
-bear @cluesurf/base/code/javascript/node/dns/soa-record
-bear @cluesurf/base/code/javascript/node/dns/any-soa-record
-bear @cluesurf/base/code/javascript/node/dns/srv-record
-bear @cluesurf/base/code/javascript/node/dns/any-srv-record
-bear @cluesurf/base/code/javascript/node/dns/any-txt-record
-bear @cluesurf/base/code/javascript/node/dns/any-ns-record
-bear @cluesurf/base/code/javascript/node/dns/any-ptr-record
-bear @cluesurf/base/code/javascript/node/dns/any-cname-record
-bear @cluesurf/base/code/javascript/node/dns/any-record
-bear @cluesurf/base/code/javascript/node/dns/resolve
-bear @cluesurf/base/code/javascript/node/dns/resolve4
-bear @cluesurf/base/code/javascript/node/dns/resolve6
-bear @cluesurf/base/code/javascript/node/dns/resolve-cname
-bear @cluesurf/base/code/javascript/node/dns/resolve-caa
-bear @cluesurf/base/code/javascript/node/dns/resolve-mx
-bear @cluesurf/base/code/javascript/node/dns/resolve-naptr
-bear @cluesurf/base/code/javascript/node/dns/resolve-ns
-bear @cluesurf/base/code/javascript/node/dns/resolve-ptr
-bear @cluesurf/base/code/javascript/node/dns/resolve-soa
-bear @cluesurf/base/code/javascript/node/dns/resolve-srv
-bear @cluesurf/base/code/javascript/node/dns/resolve-txt
-bear @cluesurf/base/code/javascript/node/dns/resolve-any
-bear @cluesurf/base/code/javascript/node/dns/resolver-options
-bear @cluesurf/base/code/javascript/node/dns/resolver
+bear @cluesurf/bind/code/javascript/node/dns/lookup-options
+bear @cluesurf/bind/code/javascript/node/dns/lookup-one-options
+bear @cluesurf/bind/code/javascript/node/dns/lookup-all-options
+bear @cluesurf/bind/code/javascript/node/dns/lookup-address
+bear @cluesurf/bind/code/javascript/node/dns/lookup
+bear @cluesurf/bind/code/javascript/node/dns/lookup-service
+bear @cluesurf/bind/code/javascript/node/dns/resolve-options
+bear @cluesurf/bind/code/javascript/node/dns/resolve-with-ttl-options
+bear @cluesurf/bind/code/javascript/node/dns/record-with-ttl
+bear @cluesurf/bind/code/javascript/node/dns/any-record-with-ttl
+bear @cluesurf/bind/code/javascript/node/dns/any-a-record
+bear @cluesurf/bind/code/javascript/node/dns/any-aaaa-record
+bear @cluesurf/bind/code/javascript/node/dns/caa-record
+bear @cluesurf/bind/code/javascript/node/dns/mx-record
+bear @cluesurf/bind/code/javascript/node/dns/any-mx-record
+bear @cluesurf/bind/code/javascript/node/dns/naptr-record
+bear @cluesurf/bind/code/javascript/node/dns/any-naptr-record
+bear @cluesurf/bind/code/javascript/node/dns/soa-record
+bear @cluesurf/bind/code/javascript/node/dns/any-soa-record
+bear @cluesurf/bind/code/javascript/node/dns/srv-record
+bear @cluesurf/bind/code/javascript/node/dns/any-srv-record
+bear @cluesurf/bind/code/javascript/node/dns/any-txt-record
+bear @cluesurf/bind/code/javascript/node/dns/any-ns-record
+bear @cluesurf/bind/code/javascript/node/dns/any-ptr-record
+bear @cluesurf/bind/code/javascript/node/dns/any-cname-record
+bear @cluesurf/bind/code/javascript/node/dns/any-record
+bear @cluesurf/bind/code/javascript/node/dns/resolve
+bear @cluesurf/bind/code/javascript/node/dns/resolve4
+bear @cluesurf/bind/code/javascript/node/dns/resolve6
+bear @cluesurf/bind/code/javascript/node/dns/resolve-cname
+bear @cluesurf/bind/code/javascript/node/dns/resolve-caa
+bear @cluesurf/bind/code/javascript/node/dns/resolve-mx
+bear @cluesurf/bind/code/javascript/node/dns/resolve-naptr
+bear @cluesurf/bind/code/javascript/node/dns/resolve-ns
+bear @cluesurf/bind/code/javascript/node/dns/resolve-ptr
+bear @cluesurf/bind/code/javascript/node/dns/resolve-soa
+bear @cluesurf/bind/code/javascript/node/dns/resolve-srv
+bear @cluesurf/bind/code/javascript/node/dns/resolve-txt
+bear @cluesurf/bind/code/javascript/node/dns/resolve-any
+bear @cluesurf/bind/code/javascript/node/dns/resolver-options
+bear @cluesurf/bind/code/javascript/node/dns/resolver
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
-  take form node-js-errno-exception
-  take form readonly-array
+load @cluesurf/bind/code/javascript
+  find array
+  find native-null
+  find native-number
+  find native-string
+  find native-void
+  find node-js-errno-exception
+  find readonly-array
 
 load @cluesurf/moon
-  take form or
-  take form task
+  find or
+  find task
 
-load @cluesurf/base/code/node/dns
-  take form any-record
-  take form caa-record
-  take form lookup-address
-  take form lookup-all-options
-  take form lookup-one-options
-  take form lookup-options
-  take form mx-record
-  take form naptr-record
-  take form record-with-ttl
-  take form resolve-options
-  take form resolve-with-ttl-options
-  take form soa-record
-  take form srv-record
+load @cluesurf/bind/code/node/dns
+  find any-record
+  find caa-record
+  find lookup-address
+  find lookup-all-options
+  find lookup-one-options
+  find lookup-options
+  find mx-record
+  find naptr-record
+  find record-with-ttl
+  find resolve-options
+  find resolve-with-ttl-options
+  find soa-record
+  find srv-record
 
 host addrconfig, name <ADDRCONFIG>
   like native-number

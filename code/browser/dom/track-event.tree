@@ -1,10 +1,10 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form text-track
+load @cluesurf/bind/code/browser/dom
+  find event
+  find text-track
 
 form track-event, name <TrackEvent>
   base event

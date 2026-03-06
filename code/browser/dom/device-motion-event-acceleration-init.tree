@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-null
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-null
+  find native-number
 
 form device-motion-event-acceleration-init, name <DeviceMotionEventAccelerationInit>
   link x, name <x>

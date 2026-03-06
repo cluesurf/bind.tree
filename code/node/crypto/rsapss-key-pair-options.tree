@@ -1,18 +1,18 @@
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form like
-  take form or
+  find and
+  find form
+  find like
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-number
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-number
+  find native-string
+  find native-undefined
 
-load @cluesurf/base/code/node/crypto
-  take form base-private-key-encoding-options
-  take form key-format
+load @cluesurf/bind/code/node/crypto
+  find base-private-key-encoding-options
+  find key-format
 
 form rsapss-key-pair-options, name <RSAPSSKeyPairOptions>
   head pub-f

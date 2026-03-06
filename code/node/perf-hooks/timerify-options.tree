@@ -1,12 +1,12 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-undefined
 
-load @cluesurf/base/code/node/perf-hooks
-  take form recordable-histogram
+load @cluesurf/bind/code/node/perf-hooks
+  find recordable-histogram
 
 form timerify-options, name <TimerifyOptions>
   link histogram, name <histogram>

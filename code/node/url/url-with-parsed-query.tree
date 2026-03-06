@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/node/querystring
-  take form parsed-url-query
+load @cluesurf/bind/code/node/querystring
+  find parsed-url-query
 
-load @cluesurf/base/code/node/url
-  take form url
+load @cluesurf/bind/code/node/url
+  find url
 
 form url-with-parsed-query, name <UrlWithParsedQuery>
   base url

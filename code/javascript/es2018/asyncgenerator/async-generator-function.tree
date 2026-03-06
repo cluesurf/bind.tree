@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/javascript/es2018/asyncgenerator
-  take form async-generator
+load @cluesurf/bind/code/javascript/es2018/asyncgenerator
+  find async-generator
 
-load @cluesurf/base/code/javascript/es2018/asyncgenerator/async-generator-function
-  take form async-generator-function
+load @cluesurf/bind/code/javascript/es2018/asyncgenerator/async-generator-function
+  find async-generator-function
 
 form async-generator-function, name <AsyncGeneratorFunction>
   link length, name <length>

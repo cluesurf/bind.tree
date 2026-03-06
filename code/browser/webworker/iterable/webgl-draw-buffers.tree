@@ -1,13 +1,13 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-void
 
-load @cluesurf/base/code/browser/webworker
-  take form g-lenum
+load @cluesurf/bind/code/browser/webworker
+  find g-lenum
 
-load @cluesurf/base/code/browser/webworker/webgl-draw-buffers
-  take form webgl-draw-buffers
+load @cluesurf/bind/code/browser/webworker/webgl-draw-buffers
+  find webgl-draw-buffers
 
 form webgl-draw-buffers, name <WEBGL_draw_buffers>
   task draw-buffers-webgl, name <drawBuffersWEBGL>

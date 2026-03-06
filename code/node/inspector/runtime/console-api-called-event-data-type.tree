@@ -1,17 +1,17 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-string
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find array
+  find native-string
+  find native-undefined
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/node/inspector/runtime
-  take form execution-context-id
-  take form remote-object
-  take form stack-trace
-  take form timestamp
+load @cluesurf/bind/code/node/inspector/runtime
+  find execution-context-id
+  find remote-object
+  find stack-trace
+  find timestamp
 
 form console-api-called-event-data-type, name <ConsoleAPICalledEventDataType>
   link type, name <type>

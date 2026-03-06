@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find iterable
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form request-info
+load @cluesurf/bind/code/browser/dom
+  find request-info
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
-load @cluesurf/base/code/browser/dom/cache
-  take form cache
+load @cluesurf/bind/code/browser/dom/cache
+  find cache
 
 form cache, name <Cache>
   task add-all, name <addAll>

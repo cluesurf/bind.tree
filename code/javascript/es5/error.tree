@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es5/error
-  take form error
+load @cluesurf/bind/code/javascript/es5/error
+  find error
 
 form error, name <Error>
   link name, name <name>

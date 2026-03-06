@@ -1,13 +1,13 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
-load @cluesurf/base/code/javascript
-  take form native-null
-  take form native-undefined
+load @cluesurf/bind/code/javascript
+  find native-null
+  find native-undefined
 
-load @cluesurf/base/code/node/child-process
-  take form exec-sync-options
+load @cluesurf/bind/code/node/child-process
+  find exec-sync-options
 
 form exec-sync-options-with-buffer-encoding, name <ExecSyncOptionsWithBufferEncoding>
   base exec-sync-options

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript
-  take form native-number
+load @cluesurf/bind/code/javascript
+  find native-number
 
-load @cluesurf/base/code/node/os
-  take form network-interface-base
+load @cluesurf/bind/code/node/os
+  find network-interface-base
 
 form network-interface-info-i-pv6, name <NetworkInterfaceInfoIPv6>
   base network-interface-base

@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/browser/dom
-  take form touch
+load @cluesurf/bind/code/browser/dom
+  find touch
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/touch-list
-  take form touch-list
+load @cluesurf/bind/code/browser/dom/touch-list
+  find touch-list
 
 form touch-list, name <TouchList>
   task {symbol/iterator}

@@ -1,19 +1,19 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable
+  find iterable-iterator
 
-load @cluesurf/base/code/javascript/es2015/core/array
-  take form array
+load @cluesurf/bind/code/javascript/es2015/core/array
+  find array
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/es5
-  take form array-like
+load @cluesurf/bind/code/javascript/es5
+  find array-like
 
 form array, name <Array>
   head t

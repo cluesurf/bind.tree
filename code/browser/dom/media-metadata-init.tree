@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form media-image
+load @cluesurf/bind/code/browser/dom
+  find media-image
 
 form media-metadata-init, name <MediaMetadataInit>
   link album, name <album>

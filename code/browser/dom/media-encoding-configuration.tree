@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form media-configuration
-  take form media-encoding-type
+load @cluesurf/bind/code/browser/dom
+  find media-configuration
+  find media-encoding-type
 
 form media-encoding-configuration, name <MediaEncodingConfiguration>
   base media-configuration

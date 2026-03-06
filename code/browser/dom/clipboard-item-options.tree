@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/browser/dom
-  take form presentation-style
+load @cluesurf/bind/code/browser/dom
+  find presentation-style
 
 form clipboard-item-options, name <ClipboardItemOptions>
   link presentation-style, name <presentationStyle>

@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form incoming-message
-  take form native-number
-  take form native-void
-  take form node-js-read-only-dict
-  take form socket
+load @cluesurf/bind/code/javascript
+  find array
+  find incoming-message
+  find native-number
+  find native-void
+  find node-js-read-only-dict
+  find socket
 
-load @cluesurf/base/code/node/http
-  take form agent-options
+load @cluesurf/bind/code/node/http
+  find agent-options
 
 form agent, name <Agent>
   link max-free-sockets, name <maxFreeSockets>, like native-number

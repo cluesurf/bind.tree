@@ -1,24 +1,24 @@
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form dirent
-  take form native-null
-  take form native-string
-  take form native-undefined
-  take form promise
+load @cluesurf/bind/code/javascript
+  find array
+  find dirent
+  find native-null
+  find native-string
+  find native-undefined
+  find promise
 
 load @cluesurf/moon
-  take form and
-  take form form
-  take form or
+  find and
+  find form
+  find or
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
-  take form buffer-encoding
+load @cluesurf/bind/code/node/buffer
+  find buffer
+  find buffer-encoding
 
-load @cluesurf/base/code/node/fs
-  take form object-encoding-options
-  take form path-like
+load @cluesurf/bind/code/node/fs
+  find object-encoding-options
+  find path-like
 
 task promisify, name <__promisify__>
   like promise

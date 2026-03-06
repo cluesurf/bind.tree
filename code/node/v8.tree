@@ -1,31 +1,31 @@
 
-bear @cluesurf/base/code/javascript/node/v8/heap-space-info
-bear @cluesurf/base/code/javascript/node/v8/does-zap-code-space-flag
-bear @cluesurf/base/code/javascript/node/v8/heap-info
-bear @cluesurf/base/code/javascript/node/v8/heap-code-statistics
-bear @cluesurf/base/code/javascript/node/v8/serializer
-bear @cluesurf/base/code/javascript/node/v8/default-serializer
-bear @cluesurf/base/code/javascript/node/v8/deserializer
-bear @cluesurf/base/code/javascript/node/v8/default-deserializer
+bear @cluesurf/bind/code/javascript/node/v8/heap-space-info
+bear @cluesurf/bind/code/javascript/node/v8/does-zap-code-space-flag
+bear @cluesurf/bind/code/javascript/node/v8/heap-info
+bear @cluesurf/bind/code/javascript/node/v8/heap-code-statistics
+bear @cluesurf/bind/code/javascript/node/v8/serializer
+bear @cluesurf/bind/code/javascript/node/v8/default-serializer
+bear @cluesurf/bind/code/javascript/node/v8/deserializer
+bear @cluesurf/bind/code/javascript/node/v8/default-deserializer
 
-load @cluesurf/base/code/javascript
-  take form array
-  take form native-number
-  take form native-string
-  take form native-void
-  take form node-js-typed-array
-  take form readable
+load @cluesurf/bind/code/javascript
+  find array
+  find native-number
+  find native-string
+  find native-void
+  find node-js-typed-array
+  find readable
 
 load @cluesurf/moon
-  take form any
+  find any
 
-load @cluesurf/base/code/node/buffer
-  take form buffer
+load @cluesurf/bind/code/node/buffer
+  find buffer
 
-load @cluesurf/base/code/node/v8
-  take form heap-code-statistics
-  take form heap-info
-  take form heap-space-info
+load @cluesurf/bind/code/node/v8
+  find heap-code-statistics
+  find heap-info
+  find heap-space-info
 
 task cached-data-version-tag, name <cachedDataVersionTag>
   like native-number

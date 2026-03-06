@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form tls-socket
+load @cluesurf/bind/code/javascript
+  find tls-socket
 
 form secure-pair, name <SecurePair>
   link encrypted, name <encrypted>

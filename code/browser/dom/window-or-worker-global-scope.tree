@@ -1,29 +1,29 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form cache-storage
-  take form crypto
-  take form idb-factory
-  take form image-bitmap
-  take form image-bitmap-options
-  take form image-bitmap-source
-  take form performance
-  take form request-info
-  take form request-init
-  take form response
-  take form timer-handler
-  take form void-function
+load @cluesurf/bind/code/browser/dom
+  find cache-storage
+  find crypto
+  find idb-factory
+  find image-bitmap
+  find image-bitmap-options
+  find image-bitmap-source
+  find performance
+  find request-info
+  find request-init
+  find response
+  find timer-handler
+  find void-function
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form window-or-worker-global-scope, name <WindowOrWorkerGlobalScope>
   link caches, name <caches>

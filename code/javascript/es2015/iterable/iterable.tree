@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterator
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterator
 
 form iterable, name <Iterable>
   head t

@@ -1,11 +1,11 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-string
 
-load @cluesurf/base/code/browser/dom
-  take form event-init
-  take form security-policy-violation-event-disposition
+load @cluesurf/bind/code/browser/dom
+  find event-init
+  find security-policy-violation-event-disposition
 
 form security-policy-violation-event-init, name <SecurityPolicyViolationEventInit>
   base event-init

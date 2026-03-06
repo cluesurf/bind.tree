@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form event-init
+load @cluesurf/bind/code/browser/webworker
+  find event-init
 
-load @cluesurf/base/code/browser/dom/web-gl-context-event-init
-  take form web-gl-context-event-init
+load @cluesurf/bind/code/browser/dom/web-gl-context-event-init
+  find web-gl-context-event-init
 
 form web-gl-context-event-init, name <WebGLContextEventInit>
   base event-init

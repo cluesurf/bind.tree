@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom/queuing-strategy-init
-  take form queuing-strategy-init
+load @cluesurf/bind/code/browser/dom/queuing-strategy-init
+  find queuing-strategy-init
 
 form queuing-strategy-init, name <QueuingStrategyInit>
   link high-water-mark, name <highWaterMark>

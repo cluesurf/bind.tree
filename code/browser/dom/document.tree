@@ -1,123 +1,123 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
-  take form native-null
-  take form native-number
-  take form native-string
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+  find native-null
+  find native-number
+  find native-string
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form add-event-listener-options
-  take form animation-event
-  take form animation-playback-event
-  take form attr
-  take form audio-processing-event
-  take form before-unload-event
-  take form blob-event
-  take form cdata-section
-  take form clipboard-event
-  take form close-event
-  take form comment
-  take form composition-event
-  take form custom-event
-  take form device-motion-event
-  take form device-orientation-event
-  take form document-and-element-event-handlers
-  take form document-event-map
-  take form document-fragment
-  take form document-or-shadow-root
-  take form document-ready-state
-  take form document-timeline
-  take form document-type
-  take form dom-implementation
-  take form drag-event
-  take form element
-  take form element-creation-options
-  take form error-event
-  take form event
-  take form event-listener-options
-  take form event-listener-or-event-listener-object
-  take form focus-event
-  take form font-face-set-load-event
-  take form font-face-source
-  take form form-data-event
-  take form gamepad-event
-  take form global-event-handlers
-  take form hash-change-event
-  take form html-all-collection
-  take form html-anchor-element
-  take form html-area-element
-  take form html-collection
-  take form html-collection-of
-  take form html-element
-  take form html-element-deprecated-tag-name-map
-  take form html-element-tag-name-map
-  take form html-embed-element
-  take form html-form-element
-  take form html-head-element
-  take form html-image-element
-  take form html-or-svg-script-element
-  take form html-script-element
-  take form idb-version-change-event
-  take form input-event
-  take form keyboard-event
-  take form location
-  take form media-encrypted-event
-  take form media-key-message-event
-  take form media-query-list-event
-  take form media-recorder-error-event
-  take form media-stream-track-event
-  take form message-event
-  take form mouse-event
-  take form mutation-event
-  take form node
-  take form node-filter
-  take form node-iterator
-  take form node-list-of
-  take form non-element-parent-node
-  take form offline-audio-completion-event
-  take form page-transition-event
-  take form parent-node
-  take form payment-method-change-event
-  take form payment-request-update-event
-  take form pointer-event
-  take form pop-state-event
-  take form processing-instruction
-  take form progress-event
-  take form promise-rejection-event
-  take form range
-  take form rtc-data-channel-event
-  take form rtc-peer-connection-ice-error-event
-  take form rtc-peer-connection-ice-event
-  take form rtc-track-event
-  take form rtcdtmf-tone-change-event
-  take form security-policy-violation-event
-  take form selection
-  take form speech-recognition-error-event
-  take form speech-synthesis-error-event
-  take form speech-synthesis-event
-  take form storage-event
-  take form submit-event
-  take form svg-element
-  take form svg-element-tag-name-map
-  take form text
-  take form touch-event
-  take form track-event
-  take form transition-event
-  take form tree-walker
-  take form ui-event
-  take form url
-  take form visibility-state
-  take form web-gl-context-event
-  take form wheel-event
-  take form window-proxy
-  take form x-path-evaluator-base
+load @cluesurf/bind/code/browser/dom
+  find add-event-listener-options
+  find animation-event
+  find animation-playback-event
+  find attr
+  find audio-processing-event
+  find before-unload-event
+  find blob-event
+  find cdata-section
+  find clipboard-event
+  find close-event
+  find comment
+  find composition-event
+  find custom-event
+  find device-motion-event
+  find device-orientation-event
+  find document-and-element-event-handlers
+  find document-event-map
+  find document-fragment
+  find document-or-shadow-root
+  find document-ready-state
+  find document-timeline
+  find document-type
+  find dom-implementation
+  find drag-event
+  find element
+  find element-creation-options
+  find error-event
+  find event
+  find event-listener-options
+  find event-listener-or-event-listener-object
+  find focus-event
+  find font-face-set-load-event
+  find font-face-source
+  find form-data-event
+  find gamepad-event
+  find global-event-handlers
+  find hash-change-event
+  find html-all-collection
+  find html-anchor-element
+  find html-area-element
+  find html-collection
+  find html-collection-of
+  find html-element
+  find html-element-deprecated-tag-name-map
+  find html-element-tag-name-map
+  find html-embed-element
+  find html-form-element
+  find html-head-element
+  find html-image-element
+  find html-or-svg-script-element
+  find html-script-element
+  find idb-version-change-event
+  find input-event
+  find keyboard-event
+  find location
+  find media-encrypted-event
+  find media-key-message-event
+  find media-query-list-event
+  find media-recorder-error-event
+  find media-stream-track-event
+  find message-event
+  find mouse-event
+  find mutation-event
+  find node
+  find node-filter
+  find node-iterator
+  find node-list-of
+  find non-element-parent-node
+  find offline-audio-completion-event
+  find page-transition-event
+  find parent-node
+  find payment-method-change-event
+  find payment-request-update-event
+  find pointer-event
+  find pop-state-event
+  find processing-instruction
+  find progress-event
+  find promise-rejection-event
+  find range
+  find rtc-data-channel-event
+  find rtc-peer-connection-ice-error-event
+  find rtc-peer-connection-ice-event
+  find rtc-track-event
+  find rtcdtmf-tone-change-event
+  find security-policy-violation-event
+  find selection
+  find speech-recognition-error-event
+  find speech-synthesis-error-event
+  find speech-synthesis-event
+  find storage-event
+  find submit-event
+  find svg-element
+  find svg-element-tag-name-map
+  find text
+  find touch-event
+  find track-event
+  find transition-event
+  find tree-walker
+  find ui-event
+  find url
+  find visibility-state
+  find web-gl-context-event
+  find wheel-event
+  find window-proxy
+  find x-path-evaluator-base
 
-load @cluesurf/base/code/javascript/es5
-  take form promise
+load @cluesurf/bind/code/javascript/es5
+  find promise
 
 form document, name <Document>
   base node

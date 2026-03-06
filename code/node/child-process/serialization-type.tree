@@ -1,6 +1,6 @@
 
 load @cluesurf/moon
-  take form or
+  find or
 
 form serialization-type, name <SerializationType>
   like or

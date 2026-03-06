@@ -1,15 +1,15 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/javascript/es2015/iterable
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/es2015/iterable
+  find iterable-iterator
 
-load @cluesurf/base/code/javascript/es2018/regexp
-  take form reg-exp-match-array
+load @cluesurf/bind/code/javascript/es2018/regexp
+  find reg-exp-match-array
 
-load @cluesurf/base/code/javascript/es2018/regexp/reg-exp
-  take form reg-exp
+load @cluesurf/bind/code/javascript/es2018/regexp/reg-exp
+  find reg-exp
 
 form reg-exp, name <RegExp>
   task {symbol/match-all}

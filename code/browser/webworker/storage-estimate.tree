@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/base/code/browser/dom/storage-estimate
-  take form storage-estimate
+load @cluesurf/bind/code/browser/dom/storage-estimate
+  find storage-estimate
 
 form storage-estimate, name <StorageEstimate>
   link quota, name <quota>

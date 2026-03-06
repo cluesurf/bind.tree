@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form iterable-iterator
+load @cluesurf/bind/code/javascript/native
+  find iterable-iterator
 
-load @cluesurf/base/code/browser/dom/mime-type-array
-  take form mime-type-array
+load @cluesurf/bind/code/browser/dom/mime-type-array
+  find mime-type-array
 
 form mime-type-array, name <MimeTypeArray>
   task {symbol/iterator}

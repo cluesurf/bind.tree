@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/node/https
-  take form agent-options
+load @cluesurf/bind/code/node/https
+  find agent-options
 
 form agent, name <Agent>
   base http-agent

@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/webworker
-  take form buffer-source
+load @cluesurf/bind/code/browser/webworker
+  find buffer-source
 
 form push-message-data-init, name <PushMessageDataInit>
   like or

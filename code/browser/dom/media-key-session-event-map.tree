@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form media-key-message-event
+load @cluesurf/bind/code/browser/dom
+  find event
+  find media-key-message-event
 
 form media-key-session-event-map, name <MediaKeySessionEventMap>
   link keystatuseschange, name <keystatuseschange>

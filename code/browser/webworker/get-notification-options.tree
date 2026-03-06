@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-string
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
-load @cluesurf/base/code/browser/dom/get-notification-options
-  take form get-notification-options
+load @cluesurf/bind/code/browser/dom/get-notification-options
+  find get-notification-options
 
 form get-notification-options, name <GetNotificationOptions>
   link tag, name <tag>

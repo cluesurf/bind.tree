@@ -1,12 +1,12 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-boolean
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
-load @cluesurf/base/code/browser/webworker
-  take form web-gl-power-preference
+load @cluesurf/bind/code/browser/webworker
+  find web-gl-power-preference
 
-load @cluesurf/base/code/browser/dom/web-gl-context-attributes
-  take form web-gl-context-attributes
+load @cluesurf/bind/code/browser/dom/web-gl-context-attributes
+  find web-gl-context-attributes
 
 form web-gl-context-attributes, name <WebGLContextAttributes>
   link alpha, name <alpha>

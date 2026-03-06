@@ -1,14 +1,14 @@
 
-load @cluesurf/base/code/javascript/native
-  take form native-number
-  take form native-void
+load @cluesurf/bind/code/javascript/native
+  find native-number
+  find native-void
 
-load @cluesurf/base/code/browser/dom
-  take form audio-param
-  take form base-audio-context
-  take form channel-count-mode
-  take form channel-interpretation
-  take form event-target
+load @cluesurf/bind/code/browser/dom
+  find audio-param
+  find base-audio-context
+  find channel-count-mode
+  find channel-interpretation
+  find event-target
 
 form audio-node, name <AudioNode>
   base event-target

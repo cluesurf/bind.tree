@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form event
-  take form media-stream-track
+load @cluesurf/bind/code/browser/dom
+  find event
+  find media-stream-track
 
 form media-stream-track-event, name <MediaStreamTrackEvent>
   base event

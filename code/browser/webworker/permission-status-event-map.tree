@@ -1,9 +1,9 @@
 
-load @cluesurf/base/code/browser/webworker
-  take form event
+load @cluesurf/bind/code/browser/webworker
+  find event
 
-load @cluesurf/base/code/browser/dom/permission-status-event-map
-  take form permission-status-event-map
+load @cluesurf/bind/code/browser/dom/permission-status-event-map
+  find permission-status-event-map
 
 form permission-status-event-map, name <PermissionStatusEventMap>
   link change, name <change>

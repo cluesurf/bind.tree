@@ -1,9 +1,9 @@
 
-bear @cluesurf/base/code/javascript/esnext/promise/aggregate-error
-bear @cluesurf/base/code/javascript/esnext/promise/promise
+bear @cluesurf/bind/code/javascript/esnext/promise/aggregate-error
+bear @cluesurf/bind/code/javascript/esnext/promise/promise
 
-load @cluesurf/base/code/javascript/esnext/promise
-  take form aggregate-error-constructor
+load @cluesurf/bind/code/javascript/esnext/promise
+  find aggregate-error-constructor
 
 host aggregate-error, name <AggregateError>
   like aggregate-error-constructor

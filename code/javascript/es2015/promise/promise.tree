@@ -1,16 +1,16 @@
 
-load @cluesurf/base/code/javascript
-  take form array
+load @cluesurf/bind/code/javascript
+  find array
 
-load @cluesurf/base/code/javascript/native
-  take form native-void
-  take form u
+load @cluesurf/bind/code/javascript/native
+  find native-void
+  find u
 
-load @cluesurf/base/code/javascript/es5
-  take form promise-like
+load @cluesurf/bind/code/javascript/es5
+  find promise-like
 
-load @cluesurf/base/code/javascript/es2015/iterable/promise
-  take form promise
+load @cluesurf/bind/code/javascript/es2015/iterable/promise
+  find promise
 
 form promise
   hook self

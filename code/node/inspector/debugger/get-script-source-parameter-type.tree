@@ -1,6 +1,6 @@
 
-load @cluesurf/base/code/javascript
-  take form runtime-script-id
+load @cluesurf/bind/code/javascript
+  find runtime-script-id
 
 form get-script-source-parameter-type, name <GetScriptSourceParameterType>
   link script-id, name <scriptId>

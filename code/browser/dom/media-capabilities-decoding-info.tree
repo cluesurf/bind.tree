@@ -1,7 +1,7 @@
 
-load @cluesurf/base/code/browser/dom
-  take form media-capabilities-info
-  take form media-decoding-configuration
+load @cluesurf/bind/code/browser/dom
+  find media-capabilities-info
+  find media-decoding-configuration
 
 form media-capabilities-decoding-info, name <MediaCapabilitiesDecodingInfo>
   base media-capabilities-info
