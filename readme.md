@@ -8,7 +8,7 @@
 
 <h3 align='center'>bind.tree</h3>
 <p align='center'>
-  The TermTree Environment Binding Library
+  The Seed Environment Binding Library
 </p>
 
 <br/>
