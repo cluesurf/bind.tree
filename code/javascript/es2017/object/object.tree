@@ -46,19 +46,7 @@ form object
 
     task get-own-property-descriptors, name <getOwnPropertyDescriptors>
       like and
-        slot self
-        walk link-name-like-list
-          loan
-          like key-list
-            like t
-          take name
-          take p
-          beam self
-            take {name}
-              like typed-property-descriptor
-                like index
-                  like t
-                  like p
+        like any
         like form
           mesh x
             like property-descriptor

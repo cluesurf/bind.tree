@@ -5,11 +5,4 @@ form record, name <Record>
       like any
   head t
 
-  slot self
-  walk link-name-like-list
-    loan like k
-    take name
-    take p
-    beam self
-      take {name}
-        like t
+  like any

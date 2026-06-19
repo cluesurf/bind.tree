@@ -21,30 +21,7 @@ form promise
   hook self
     task all-settled, name <allSettled>
       like promise
-        slot self
-        walk link-name-like-list
-          loan
-          like key-list
-            like t
-          take name
-          take p
-          beam self
-            take {name}
-              like promise-settled-result
-                like test
-                  fork roll
-                    like index
-                      like t
-                      like p
-                    like promise-like
-                      name u
-                    hook true
-                      like u
-                    hook false
-                      like index
-                        like t
-                        like p
-
+        like any
       head t
         base or
           like array

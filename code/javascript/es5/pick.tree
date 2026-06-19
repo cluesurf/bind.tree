@@ -5,13 +5,4 @@ form pick, name <Pick>
     base key-list
       like t
 
-  slot self
-  walk link-name-like-list
-    loan like k
-    take name
-    take p
-    beam self
-      take {name}
-        like index
-          like t
-          like p
+  like any
