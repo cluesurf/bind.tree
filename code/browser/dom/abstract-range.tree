@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find node
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form abstract-range, name <AbstractRange>
   link collapsed, name <collapsed>

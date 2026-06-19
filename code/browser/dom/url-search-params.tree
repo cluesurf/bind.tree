@@ -1,48 +1,51 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form url-search-params, name <URLSearchParams>
   task append, name <append>
+    take name, like native-string
+    take value, like native-string
     like native-void
-
-    take name
-    take value
 
   task delete, name <delete>
+    take name, like native-string
     like native-void
 
-    take name
-
   task get, name <get>
+    take name, like native-string
     like or
       like native-string
       like native-null
 
-    take name
-
   task get-all, name <getAll>
-    like array
+    take name, like native-string
+    like native-array
       like native-string
 
-    take name
-
   task has, name <has>
+    take name, like native-string
     like native-boolean
 
-    take name
-
   task set, name <set>
+    take name, like native-string
+    take value, like native-string
     like native-void
-
-    take name
-    take value
 
   task sort, name <sort>
     like native-void
@@ -51,7 +54,12 @@ form url-search-params, name <URLSearchParams>
     like native-string
 
   task for-each, name <forEach>
-    like native-void
-
     take callbackfn
-    take this-arg, like maybe, like any
+      like task
+        take value, like native-string
+        take key, like native-string
+        take parent, like url-search-params
+        like native-void
+    take this-arg, like maybe
+      like native-any
+    like native-void

@@ -1,32 +1,63 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find add-event-listener-options
-  find dom-exception
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find idb-cursor
-  find idb-index
-  find idb-object-store
-  find idb-request-event-map
-  find idb-request-ready-state
-  find idb-transaction
-
 load @cluesurf/bind/code/browser/dom/idb-request
   find idb-request
+
+load @cluesurf/bind/code/browser/webworker/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/dom-exception
+  find dom-exception
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/webworker/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/webworker/idb-cursor
+  find idb-cursor
+
+load @cluesurf/bind/code/browser/webworker/idb-index
+  find idb-index
+
+load @cluesurf/bind/code/browser/webworker/idb-object-store
+  find idb-object-store
+
+load @cluesurf/bind/code/browser/webworker/idb-request-event-map
+  find idb-request-event-map
+
+load @cluesurf/bind/code/browser/webworker/idb-request-ready-state
+  find idb-request-ready-state
+
+load @cluesurf/bind/code/browser/webworker/idb-transaction
+  find idb-transaction
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form idb-request, name <IDBRequest>
   base event-target
 
   head t
-    fall any
+    back native-any
 
   link error, name <error>
     like or
@@ -35,21 +66,23 @@ form idb-request, name <IDBRequest>
   link onerror, name <onerror>
     like or
       like task
-        like any
-
         take this
-        take ev
+          like idb-request
+            like t
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onsuccess, name <onsuccess>
     like or
       like task
-        like any
-
         take this
-        take ev
+          like idb-request
+            like t
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link ready-state, name <readyState>
     like idb-request-ready-state
   link result, name <result>
@@ -65,53 +98,61 @@ form idb-request, name <IDBRequest>
       like native-null
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like idb-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this
+          like idb-request
+            like t
+        take ev
+          like index
+            like idb-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like idb-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this
+          like idb-request
+            like t
+        take ev
+          like index
+            like idb-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

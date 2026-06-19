@@ -1,52 +1,66 @@
 
+load @cluesurf/bind/code/browser/dom/document
+  find document
+
+load @cluesurf/bind/code/browser/dom/document-fragment
+  find document-fragment
+
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find document
-  find document-fragment
-  find node
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form xslt-processor, name <XSLTProcessor>
   task clear-parameters, name <clearParameters>
     like native-void
 
   task get-parameter, name <getParameter>
-    like any
-
     take namespace-uri
-    take local-name
+      like or
+        like native-string
+        like native-null
+    take local-name, like native-string
+    like native-any
 
   task import-stylesheet, name <importStylesheet>
+    take style, like node
     like native-void
-
-    take style
 
   task remove-parameter, name <removeParameter>
-    like native-void
-
     take namespace-uri
-    take local-name
+      like or
+        like native-string
+        like native-null
+    take local-name, like native-string
+    like native-void
 
   task reset, name <reset>
     like native-void
 
   task set-parameter, name <setParameter>
+    take namespace-uri
+      like or
+        like native-string
+        like native-null
+    take local-name, like native-string
+    take value, like native-any
     like native-void
 
-    take namespace-uri
-    take local-name
-    take value
-
   task transform-to-document, name <transformToDocument>
+    take source, like node
     like document
 
-    take source
-
   task transform-to-fragment, name <transformToFragment>
+    take source, like node
+    take output, like document
     like document-fragment
-
-    take source
-    take output

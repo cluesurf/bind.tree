@@ -1,9 +1,11 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form concat-array, name <ConcatArray>
@@ -13,16 +15,17 @@ form concat-array, name <ConcatArray>
     like native-number
 
   task join, name <join>
+    take separator, like maybe
+      like native-string
     like native-string
 
-    take separator, like maybe, like native-string
-
   task slice, name <slice>
-    like array
+    take start, like maybe
+      like native-number
+    take end, like maybe
+      like native-number
+    like native-array
       like t
 
-    take start, like maybe, like native-number
-    take end, like maybe, like native-number
-
-  mesh n
+  mesh n, like native-number
     like t

@@ -5,22 +5,22 @@ load @cluesurf/bind/code/javascript/native
 form font-face-descriptors, name <FontFaceDescriptors>
   link display, name <display>
     like native-string
-    flex true
+    lock false
   link feature-settings, name <featureSettings>
     like native-string
-    flex true
+    lock false
   link stretch, name <stretch>
     like native-string
-    flex true
+    lock false
   link style, name <style>
     like native-string
-    flex true
+    lock false
   link unicode-range, name <unicodeRange>
     like native-string
-    flex true
+    lock false
   link variant, name <variant>
     like native-string
-    flex true
+    lock false
   link weight, name <weight>
     like native-string
-    flex true
+    lock false

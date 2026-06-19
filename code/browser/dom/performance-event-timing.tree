@@ -1,12 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+  find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/browser/dom/performance-entry
+  find performance-entry
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
 
-load @cluesurf/bind/code/browser/dom
-  find dom-high-res-time-stamp
-  find node
-  find performance-entry
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
 form performance-event-timing, name <PerformanceEventTiming>
   base performance-entry

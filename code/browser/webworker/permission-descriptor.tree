@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find permission-name
-
 load @cluesurf/bind/code/browser/dom/permission-descriptor
   find permission-descriptor
+
+load @cluesurf/bind/code/browser/webworker/permission-name
+  find permission-name
 
 form permission-descriptor, name <PermissionDescriptor>
   link name, name <name>
     like permission-name
-    flex true
+    lock false

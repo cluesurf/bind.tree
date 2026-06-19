@@ -7,4 +7,4 @@ form svg-animated-boolean, name <SVGAnimatedBoolean>
     like native-boolean
   link base-val, name <baseVal>
     like native-boolean
-    flex true
+    lock false

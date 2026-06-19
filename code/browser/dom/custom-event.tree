@@ -1,25 +1,34 @@
 
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find event
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form custom-event, name <CustomEvent>
   base event
 
   head t
-    fall any
+    back native-any
 
   link detail, name <detail>
     like t
 
   task init-custom-event, name <initCustomEvent>
+    take type, like native-string
+    take bubbles, like maybe
+      like native-boolean
+    take cancelable, like maybe
+      like native-boolean
+    take detail, like maybe
+      like t
     like native-void
-
-    take type
-    take bubbles, like maybe, like native-boolean
-    take cancelable, like maybe, like native-boolean
-    take detail, like maybe, like t

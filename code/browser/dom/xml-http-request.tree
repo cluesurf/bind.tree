@@ -1,23 +1,54 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/document
+  find document
+
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/url
+  find url
+
+load @cluesurf/bind/code/browser/dom/xml-http-request-body-init
+  find xml-http-request-body-init
+
+load @cluesurf/bind/code/browser/dom/xml-http-request-event-map
+  find xml-http-request-event-map
+
+load @cluesurf/bind/code/browser/dom/xml-http-request-event-target
+  find xml-http-request-event-target
+
+load @cluesurf/bind/code/browser/dom/xml-http-request-response-type
+  find xml-http-request-response-type
+
+load @cluesurf/bind/code/browser/dom/xml-http-request-upload
+  find xml-http-request-upload
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find document
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find url
-  find xml-http-request-body-init
-  find xml-http-request-event-map
-  find xml-http-request-event-target
-  find xml-http-request-response-type
-  find xml-http-request-upload
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form xml-http-request, name <XMLHttpRequest>
   base xml-http-request-event-target
@@ -25,21 +56,20 @@ form xml-http-request, name <XMLHttpRequest>
   link onreadystatechange, name <onreadystatechange>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like xml-http-request
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link ready-state, name <readyState>
     like native-number
   link response, name <response>
-    like any
+    like native-any
   link response-text, name <responseText>
     like native-string
   link response-type, name <responseType>
     like xml-http-request-response-type
-    flex true
+    lock false
   link response-url, name <responseURL>
     like native-string
   link response-xml, name <responseXML>
@@ -52,12 +82,12 @@ form xml-http-request, name <XMLHttpRequest>
     like native-string
   link timeout, name <timeout>
     like native-number
-    flex true
+    lock false
   link upload, name <upload>
     like xml-http-request-upload
   link with-credentials, name <withCredentials>
     like native-boolean
-    flex true
+    lock false
   link done, name <DONE>
     like native-number
   link headers-received, name <HEADERS_RECEIVED>
@@ -76,104 +106,105 @@ form xml-http-request, name <XMLHttpRequest>
     like native-string
 
   task get-response-header, name <getResponseHeader>
+    take name, like native-string
     like or
       like native-string
       like native-null
 
-    take name
-
   task open, name <open>
+    take method, like native-string
+    take url
+      like or
+        like native-string
+        like url
     like native-void
 
-    take method
-    take url
-
   task open, name <open>
-    like native-void
-
-    take method
+    take method, like native-string
     take url
-    take async
-    take username
-      like maybe
-        like or
-          like native-string
-          like native-null
-    take password
-      like maybe
-        like or
-          like native-string
-          like native-null
+      like or
+        like native-string
+        like url
+    take async, like native-boolean
+    take username, like maybe
+      like or
+        like native-string
+        like native-null
+    take password, like maybe
+      like or
+        like native-string
+        like native-null
+    like native-void
 
   task override-mime-type, name <overrideMimeType>
+    take mime, like native-string
     like native-void
-
-    take mime
 
   task send, name <send>
+    take body, like maybe
+      like or
+        like document
+        like xml-http-request-body-init
+        like native-null
     like native-void
-
-    take body
-      like maybe
-        like or
-          like document
-          like xml-http-request-body-init
-          like native-null
 
   task set-request-header, name <setRequestHeader>
+    take name, like native-string
+    take value, like native-string
     like native-void
-
-    take name
-    take value
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like xml-http-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like xml-http-request
+        take ev
+          like index
+            like xml-http-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like xml-http-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like xml-http-request
+        take ev
+          like index
+            like xml-http-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

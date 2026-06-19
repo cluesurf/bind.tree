@@ -1,16 +1,16 @@
 
+load @cluesurf/bind/code/browser/dom/scroll-options
+  find scroll-options
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find scroll-options
 
 form scroll-to-options, name <ScrollToOptions>
   base scroll-options
 
   link left, name <left>
     like native-number
-    flex true
+    lock false
   link top, name <top>
     like native-number
-    flex true
+    lock false

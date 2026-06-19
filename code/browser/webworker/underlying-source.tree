@@ -1,30 +1,37 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-undefined
-
-load @cluesurf/bind/code/browser/webworker
-  find underlying-source-cancel-callback
-  find underlying-source-pull-callback
-  find underlying-source-start-callback
-
 load @cluesurf/bind/code/browser/dom/underlying-source
   find underlying-source
 
+load @cluesurf/bind/code/browser/webworker/underlying-source-cancel-callback
+  find underlying-source-cancel-callback
+
+load @cluesurf/bind/code/browser/webworker/underlying-source-pull-callback
+  find underlying-source-pull-callback
+
+load @cluesurf/bind/code/browser/webworker/underlying-source-start-callback
+  find underlying-source-start-callback
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
 form underlying-source, name <UnderlyingSource>
   head r
-    fall any
+    back native-any
 
   link cancel, name <cancel>
     like underlying-source-cancel-callback
-    flex true
+    lock false
   link pull, name <pull>
     like underlying-source-pull-callback
       like r
-    flex true
+    lock false
   link start, name <start>
     like underlying-source-start-callback
       like r
-    flex true
+    lock false
   link type, name <type>
     like native-undefined
-    flex true
+    lock false

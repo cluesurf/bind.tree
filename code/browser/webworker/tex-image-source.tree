@@ -1,7 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/image-bitmap
   find image-bitmap
+
+load @cluesurf/bind/code/browser/webworker/image-data
   find image-data
+
+load @cluesurf/bind/code/browser/webworker/offscreen-canvas
   find offscreen-canvas
 
 form tex-image-source, name <TexImageSource>

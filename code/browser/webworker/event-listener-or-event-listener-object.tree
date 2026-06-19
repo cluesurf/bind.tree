@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/event-listener
   find event-listener
+
+load @cluesurf/bind/code/browser/webworker/event-listener-object
   find event-listener-object
 
 form event-listener-or-event-listener-object, name <EventListenerOrEventListenerObject>

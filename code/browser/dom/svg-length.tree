@@ -1,7 +1,11 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form svg-length, name <SVGLength>
@@ -9,13 +13,13 @@ form svg-length, name <SVGLength>
     like native-number
   link value, name <value>
     like native-number
-    flex true
+    lock false
   link value-as-string, name <valueAsString>
     like native-string
-    flex true
+    lock false
   link value-in-specified-units, name <valueInSpecifiedUnits>
     like native-number
-    flex true
+    lock false
   link svg-lengthtype-cm, name <SVG_LENGTHTYPE_CM>
     like native-number
   link svg-lengthtype-ems, name <SVG_LENGTHTYPE_EMS>
@@ -40,12 +44,10 @@ form svg-length, name <SVGLength>
     like native-number
 
   task convert-to-specified-units, name <convertToSpecifiedUnits>
+    take unit-type, like native-number
     like native-void
-
-    take unit-type
 
   task new-value-specified-units, name <newValueSpecifiedUnits>
+    take unit-type, like native-number
+    take value-in-specified-units, like native-number
     like native-void
-
-    take unit-type
-    take value-in-specified-units

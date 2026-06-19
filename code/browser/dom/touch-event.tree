@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/touch-list
+  find touch-list
+
+load @cluesurf/bind/code/browser/dom/ui-event
+  find ui-event
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-
-load @cluesurf/bind/code/browser/dom
-  find touch-list
-  find ui-event
 
 form touch-event, name <TouchEvent>
   base ui-event

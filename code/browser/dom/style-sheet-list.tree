@@ -1,21 +1,22 @@
 
+load @cluesurf/bind/code/browser/dom/css-style-sheet
+  find css-style-sheet
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find css-style-sheet
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form style-sheet-list, name <StyleSheetList>
   link length, name <length>
     like native-number
 
   task item, name <item>
+    take index, like native-number
     like or
       like css-style-sheet
       like native-null
 
-    take index
-
-  mesh index
+  mesh index, like native-number
     like css-style-sheet

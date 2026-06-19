@@ -1,26 +1,51 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find add-event-listener-options
-  find blob
-  find dom-exception
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find file-reader-event-map
-  find progress-event
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer
-
 load @cluesurf/bind/code/browser/dom/file-reader
   find file-reader
+
+load @cluesurf/bind/code/browser/webworker/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/blob
+  find blob
+
+load @cluesurf/bind/code/browser/webworker/dom-exception
+  find dom-exception
+
+load @cluesurf/bind/code/browser/webworker/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/webworker/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/webworker/file-reader-event-map
+  find file-reader-event-map
+
+load @cluesurf/bind/code/browser/webworker/progress-event
+  find progress-event
+
+load @cluesurf/bind/code/javascript/es5/array-buffer
+  find array-buffer
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form file-reader, name <FileReader>
   base event-target
@@ -32,57 +57,63 @@ form file-reader, name <FileReader>
   link onabort, name <onabort>
     like or
       like task
-        like any
-
-        take this
+        take this, like file-reader
         take ev
+          like progress-event
+            like file-reader
+        like native-any
       like native-null
-    flex true
+    lock false
   link onerror, name <onerror>
     like or
       like task
-        like any
-
-        take this
+        take this, like file-reader
         take ev
+          like progress-event
+            like file-reader
+        like native-any
       like native-null
-    flex true
+    lock false
   link onload, name <onload>
     like or
       like task
-        like any
-
-        take this
+        take this, like file-reader
         take ev
+          like progress-event
+            like file-reader
+        like native-any
       like native-null
-    flex true
+    lock false
   link onloadend, name <onloadend>
     like or
       like task
-        like any
-
-        take this
+        take this, like file-reader
         take ev
+          like progress-event
+            like file-reader
+        like native-any
       like native-null
-    flex true
+    lock false
   link onloadstart, name <onloadstart>
     like or
       like task
-        like any
-
-        take this
+        take this, like file-reader
         take ev
+          like progress-event
+            like file-reader
+        like native-any
       like native-null
-    flex true
+    lock false
   link onprogress, name <onprogress>
     like or
       like task
-        like any
-
-        take this
+        take this, like file-reader
         take ev
+          like progress-event
+            like file-reader
+        like native-any
       like native-null
-    flex true
+    lock false
   link ready-state, name <readyState>
     like native-number
   link result, name <result>
@@ -101,74 +132,75 @@ form file-reader, name <FileReader>
     like native-void
 
   task read-as-array-buffer, name <readAsArrayBuffer>
+    take blob, like blob
     like native-void
-
-    take blob
 
   task read-as-binary-string, name <readAsBinaryString>
+    take blob, like blob
     like native-void
-
-    take blob
 
   task read-as-data-url, name <readAsDataURL>
+    take blob, like blob
     like native-void
-
-    take blob
 
   task read-as-text, name <readAsText>
+    take blob, like blob
+    take encoding, like maybe
+      like native-string
     like native-void
-
-    take blob
-    take encoding, like maybe, like native-string
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like file-reader-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like file-reader
+        take ev
+          like index
+            like file-reader-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like file-reader-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like file-reader
+        take ev
+          like index
+            like file-reader-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

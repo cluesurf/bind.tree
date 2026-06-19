@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form idle-request-options, name <IdleRequestOptions>
   link timeout, name <timeout>
     like native-number
-    flex true
+    lock false

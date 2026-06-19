@@ -5,32 +5,37 @@ bear @cluesurf/bind/code/javascript/es2018/intl/plural-rules-options
 bear @cluesurf/bind/code/javascript/es2018/intl/resolved-plural-rules-options
 bear @cluesurf/bind/code/javascript/es2018/intl/plural-rules
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es2018/intl/plural-rules
+  find plural-rules
+
+load @cluesurf/bind/code/javascript/es2018/intl/plural-rules-options
+  find plural-rules-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/es2018/intl
-  find plural-rules
-  find plural-rules-options
-
 host plural-rules, name <PluralRules>
   like form
     hook make
+      take locales, like maybe
+        like or
+          like native-string
+          like native-array
+            like native-string
+      take options, like maybe
+        like plural-rules-options
       like plural-rules
 
-      take locales
-        like maybe
-          like or
-            like native-string
-            like array
-              like native-string
-      take options, like maybe, like plural-rules-options
-
     task supported-locales-of, name <supportedLocalesOf>
-      like array
-        like native-string
-
       take locales
-      take options, like maybe, like plural-rules-options
+        like or
+          like native-string
+          like native-array
+            like native-string
+      take options, like maybe
+        like plural-rules-options
+      like native-array
+        like native-string

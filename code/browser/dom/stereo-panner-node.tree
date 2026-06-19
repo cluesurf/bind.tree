@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/audio-node
   find audio-node
+
+load @cluesurf/bind/code/browser/dom/audio-param
   find audio-param
 
 form stereo-panner-node, name <StereoPannerNode>

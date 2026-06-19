@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/media-key-system-configuration
   find media-key-system-configuration
+
+load @cluesurf/bind/code/browser/dom/media-keys
   find media-keys
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form media-key-system-access, name <MediaKeySystemAccess>
   link key-system, name <keySystem>

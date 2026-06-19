@@ -1,18 +1,38 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/algorithm
   find algorithm
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
+
+load @cluesurf/bind/code/javascript/es5/data-view
   find data-view
+
+load @cluesurf/bind/code/javascript/es5/float32-array
   find float32-array
+
+load @cluesurf/bind/code/javascript/es5/float64-array
   find float64-array
+
+load @cluesurf/bind/code/javascript/es5/int16-array
   find int16-array
+
+load @cluesurf/bind/code/javascript/es5/int32-array
   find int32-array
+
+load @cluesurf/bind/code/javascript/es5/int8-array
   find int8-array
+
+load @cluesurf/bind/code/javascript/es5/uint16-array
   find uint16-array
+
+load @cluesurf/bind/code/javascript/es5/uint32-array
   find uint32-array
+
+load @cluesurf/bind/code/javascript/es5/uint8-array
   find uint8-array
+
+load @cluesurf/bind/code/javascript/es5/uint8-clamped-array
   find uint8-clamped-array
 
 form aes-cfb-params, name <AesCfbParams>
@@ -31,4 +51,4 @@ form aes-cfb-params, name <AesCfbParams>
       like float64-array
       like data-view
       like array-buffer
-    flex true
+    lock false

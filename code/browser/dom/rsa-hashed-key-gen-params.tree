@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/hash-algorithm-identifier
   find hash-algorithm-identifier
+
+load @cluesurf/bind/code/browser/dom/rsa-key-gen-params
   find rsa-key-gen-params
 
 form rsa-hashed-key-gen-params, name <RsaHashedKeyGenParams>
@@ -8,4 +10,4 @@ form rsa-hashed-key-gen-params, name <RsaHashedKeyGenParams>
 
   link hash, name <hash>
     like hash-algorithm-identifier
-    flex true
+    lock false

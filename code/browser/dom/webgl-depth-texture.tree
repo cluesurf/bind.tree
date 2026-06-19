@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/g-lenum
   find g-lenum
 
 form webgl-depth-texture, name <WEBGL_depth_texture>

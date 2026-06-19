@@ -1,25 +1,30 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-unknown
+
+load @cluesurf/bind/code/javascript/u
   find u
 
 form this-parameter-type, name <ThisParameterType>
   head t
 
   like test
-    fork roll
+    stem roll
       like t
       like task
-        like any
-
-        take this
+        take this, name u
         take args
-          like array
-            like any
+          like native-array
+            like native-any
           rest true
+        like native-any
       hook true
         like u
       hook false
-        like unknown
+        like native-unknown

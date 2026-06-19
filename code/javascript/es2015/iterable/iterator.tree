@@ -1,39 +1,41 @@
 
+load @cluesurf/bind/code/javascript/es2015/iterable/iterator-result
+  find iterator-result
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-undefined
-
-load @cluesurf/bind/code/javascript/es2015/iterable
-  find iterator-result
 
 form iterator, name <Iterator>
   head t
   head t-return
-    fall any
+    back native-any
   head t-next
-    fall native-undefined
+    back native-undefined
 
   task next, name <next>
-    like iterator-result
-      like t
-      like t-return
-
     take args
       like or
-        like tuple
-        like tuple
+        like band
+        like band
           like t-next
       rest true
+    like iterator-result
+      like t
+      like t-return
 
   task return, name <return>
+    take value, like maybe
+      like t-return
     like iterator-result
       like t
       like t-return
-
-    take value, like maybe, like t-return
 
   task throw, name <throw>
+    take e, like maybe
+      like native-any
     like iterator-result
       like t
       like t-return
-
-    take e, like maybe, like any

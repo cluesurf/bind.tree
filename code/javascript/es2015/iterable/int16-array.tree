@@ -1,16 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/javascript/es2015/iterable
-  find iterable
+load @cluesurf/bind/code/javascript/es2015/iterable/iterable-iterator
   find iterable-iterator
 
 load @cluesurf/bind/code/javascript/es5/int16-array
   find int16-array
 
-load @cluesurf/bind/code/javascript/es2015/iterable/int16-array
-  find int16-array
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form int16-array, name <Int16Array>
   task {symbol/iterator}
@@ -19,7 +15,7 @@ form int16-array, name <Int16Array>
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like native-number
         like native-number
 
@@ -30,23 +26,3 @@ form int16-array, name <Int16Array>
   task values, name <values>
     like iterable-iterator
       like native-number
-
-form int16-array
-  hook self
-    task from, name <from>
-      like int16-array
-
-      take array-like
-      take mapfn
-        like maybe
-          like task
-            like native-number
-
-            take v
-            take k
-      take this-arg, like maybe, like any
-
-  hook make
-    like int16-array
-
-    take elements

@@ -1,43 +1,99 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/body-init
+  find body-init
+
+load @cluesurf/bind/code/browser/dom/clipboard
+  find clipboard
+
+load @cluesurf/bind/code/browser/dom/credentials-container
+  find credentials-container
+
+load @cluesurf/bind/code/browser/dom/gamepad
+  find gamepad
+
+load @cluesurf/bind/code/browser/dom/geolocation
+  find geolocation
+
+load @cluesurf/bind/code/browser/dom/media-capabilities
+  find media-capabilities
+
+load @cluesurf/bind/code/browser/dom/media-devices
+  find media-devices
+
+load @cluesurf/bind/code/browser/dom/media-key-system-access
+  find media-key-system-access
+
+load @cluesurf/bind/code/browser/dom/media-key-system-configuration
+  find media-key-system-configuration
+
+load @cluesurf/bind/code/browser/dom/media-session
+  find media-session
+
+load @cluesurf/bind/code/browser/dom/navigator-automation-information
+  find navigator-automation-information
+
+load @cluesurf/bind/code/browser/dom/navigator-concurrent-hardware
+  find navigator-concurrent-hardware
+
+load @cluesurf/bind/code/browser/dom/navigator-content-utils
+  find navigator-content-utils
+
+load @cluesurf/bind/code/browser/dom/navigator-cookies
+  find navigator-cookies
+
+load @cluesurf/bind/code/browser/dom/navigator-id
+  find navigator-id
+
+load @cluesurf/bind/code/browser/dom/navigator-language
+  find navigator-language
+
+load @cluesurf/bind/code/browser/dom/navigator-network-information
+  find navigator-network-information
+
+load @cluesurf/bind/code/browser/dom/navigator-on-line
+  find navigator-on-line
+
+load @cluesurf/bind/code/browser/dom/navigator-plugins
+  find navigator-plugins
+
+load @cluesurf/bind/code/browser/dom/navigator-storage
+  find navigator-storage
+
+load @cluesurf/bind/code/browser/dom/permissions
+  find permissions
+
+load @cluesurf/bind/code/browser/dom/service-worker-container
+  find service-worker-container
+
+load @cluesurf/bind/code/browser/dom/share-data
+  find share-data
+
+load @cluesurf/bind/code/browser/dom/url
+  find url
+
+load @cluesurf/bind/code/browser/dom/vibrate-pattern
+  find vibrate-pattern
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find body-init
-  find clipboard
-  find credentials-container
-  find gamepad
-  find geolocation
-  find media-capabilities
-  find media-devices
-  find media-key-system-access
-  find media-key-system-configuration
-  find media-session
-  find navigator-automation-information
-  find navigator-concurrent-hardware
-  find navigator-content-utils
-  find navigator-cookies
-  find navigator-id
-  find navigator-language
-  find navigator-network-information
-  find navigator-on-line
-  find navigator-plugins
-  find navigator-storage
-  find permissions
-  find service-worker-container
-  find share-data
-  find url
-  find vibrate-pattern
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
 
 form navigator, name <Navigator>
   base navigator-automation-information
@@ -77,35 +133,36 @@ form navigator, name <Navigator>
     like service-worker-container
 
   task get-gamepads, name <getGamepads>
-    like array
+    like native-array
       like or
         like gamepad
         like native-null
 
   task request-media-key-system-access, name <requestMediaKeySystemAccess>
+    take key-system, like native-string
+    take supported-configurations
+      like native-array
+        like media-key-system-configuration
     like promise
       like media-key-system-access
 
-    take key-system
-    take supported-configurations
-
   task send-beacon, name <sendBeacon>
+    take url
+      like or
+        like native-string
+        like url
+    take data, like maybe
+      like or
+        like body-init
+        like native-null
     like native-boolean
 
-    take url
-    take data
-      like maybe
-        like or
-          like body-init
-          like native-null
-
   task share, name <share>
+    take data, like maybe
+      like share-data
     like promise
       like native-void
 
-    take data, like maybe, like share-data
-
   task vibrate, name <vibrate>
+    take pattern, like vibrate-pattern
     like native-boolean
-
-    take pattern

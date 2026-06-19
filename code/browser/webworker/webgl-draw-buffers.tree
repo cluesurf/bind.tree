@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/iterable/webgl-draw-buffers
+  find webgl-draw-buffers
+
+load @cluesurf/bind/code/browser/webworker/g-lenum
+  find g-lenum
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find g-lenum
-
-load @cluesurf/bind/code/browser/dom/iterable/webgl-draw-buffers
-  find webgl-draw-buffers
 
 form webgl-draw-buffers, name <WEBGL_draw_buffers>
   link color-attachment0-webgl, name <COLOR_ATTACHMENT0_WEBGL>
@@ -82,6 +82,7 @@ form webgl-draw-buffers, name <WEBGL_draw_buffers>
     like g-lenum
 
   task draw-buffers-webgl, name <drawBuffersWEBGL>
-    like native-void
-
     take buffers
+      like native-array
+        like g-lenum
+    like native-void

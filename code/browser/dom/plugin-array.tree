@@ -1,7 +1,14 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form plugin-array, name <PluginArray>
@@ -9,17 +16,15 @@ form plugin-array, name <PluginArray>
     like native-number
 
   task item, name <item>
-    like any
-
-    take index
+    take index, like native-number
+    like native-any
 
   task named-item, name <namedItem>
-    like any
-
-    take name
+    take name, like native-string
+    like native-any
 
   task refresh, name <refresh>
     like native-void
 
-  mesh index
-    like any
+  mesh index, like native-number
+    like native-any

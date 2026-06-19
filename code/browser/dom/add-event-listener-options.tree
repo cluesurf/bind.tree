@@ -1,20 +1,22 @@
 
+load @cluesurf/bind/code/browser/dom/abort-signal
+  find abort-signal
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-
-load @cluesurf/bind/code/browser/dom
-  find abort-signal
-  find event-listener-options
 
 form add-event-listener-options, name <AddEventListenerOptions>
   base event-listener-options
 
   link once, name <once>
     like native-boolean
-    flex true
+    lock false
   link passive, name <passive>
     like native-boolean
-    flex true
+    lock false
   link signal, name <signal>
     like abort-signal
-    flex true
+    lock false

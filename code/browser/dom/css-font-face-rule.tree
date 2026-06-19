@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/css-rule
   find css-rule
+
+load @cluesurf/bind/code/browser/dom/css-style-declaration
   find css-style-declaration
 
 form css-font-face-rule, name <CSSFontFaceRule>

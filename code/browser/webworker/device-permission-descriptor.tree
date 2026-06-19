@@ -1,19 +1,19 @@
 
+load @cluesurf/bind/code/browser/webworker/permission-descriptor
+  find permission-descriptor
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find permission-descriptor
 
 form device-permission-descriptor, name <DevicePermissionDescriptor>
   base permission-descriptor
 
   link device-id, name <deviceId>
     like native-string
-    flex true
+    lock false
   link name, name <name>
     like or
       text <camera>
       text <microphone>
       text <speaker>
-    flex true
+    lock false

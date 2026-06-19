@@ -1,13 +1,13 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find event-init
 
 form web-gl-context-event-init, name <WebGLContextEventInit>
   base event-init
 
   link status-message, name <statusMessage>
     like native-string
-    flex true
+    lock false

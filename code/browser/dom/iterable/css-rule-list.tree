@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/css-rule
   find css-rule
-
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
 
 load @cluesurf/bind/code/browser/dom/css-rule-list
   find css-rule-list
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
 
 form css-rule-list, name <CSSRuleList>
   task {symbol/iterator}

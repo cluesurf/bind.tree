@@ -1,21 +1,53 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/canvas-compositing
   find canvas-compositing
+
+load @cluesurf/bind/code/browser/dom/canvas-draw-image
   find canvas-draw-image
+
+load @cluesurf/bind/code/browser/dom/canvas-draw-path
   find canvas-draw-path
+
+load @cluesurf/bind/code/browser/dom/canvas-fill-stroke-styles
   find canvas-fill-stroke-styles
+
+load @cluesurf/bind/code/browser/dom/canvas-filters
   find canvas-filters
+
+load @cluesurf/bind/code/browser/dom/canvas-image-data
   find canvas-image-data
+
+load @cluesurf/bind/code/browser/dom/canvas-image-smoothing
   find canvas-image-smoothing
+
+load @cluesurf/bind/code/browser/dom/canvas-path
   find canvas-path
+
+load @cluesurf/bind/code/browser/dom/canvas-path-drawing-styles
   find canvas-path-drawing-styles
+
+load @cluesurf/bind/code/browser/dom/canvas-rect
   find canvas-rect
+
+load @cluesurf/bind/code/browser/dom/canvas-shadow-styles
   find canvas-shadow-styles
+
+load @cluesurf/bind/code/browser/dom/canvas-state
   find canvas-state
+
+load @cluesurf/bind/code/browser/dom/canvas-text
   find canvas-text
+
+load @cluesurf/bind/code/browser/dom/canvas-text-drawing-styles
   find canvas-text-drawing-styles
+
+load @cluesurf/bind/code/browser/dom/canvas-transform
   find canvas-transform
+
+load @cluesurf/bind/code/browser/dom/canvas-user-interface
   find canvas-user-interface
+
+load @cluesurf/bind/code/browser/dom/html-canvas-element
   find html-canvas-element
 
 form canvas-rendering-context2-d, name <CanvasRenderingContext2D>

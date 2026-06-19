@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-
 load @cluesurf/bind/code/browser/dom/text-decoder-options
   find text-decoder-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
 form text-decoder-options, name <TextDecoderOptions>
   link fatal, name <fatal>
     like native-boolean
-    flex true
+    lock false
   link ignore-bom, name <ignoreBOM>
     like native-boolean
-    flex true
+    lock false

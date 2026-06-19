@@ -1,15 +1,25 @@
 
 bear @cluesurf/bind/code/javascript/es2015/collection/map
+bear @cluesurf/bind/code/javascript/es2015/collection/map-constructor
 bear @cluesurf/bind/code/javascript/es2015/collection/readonly-map
 bear @cluesurf/bind/code/javascript/es2015/collection/weak-map
+bear @cluesurf/bind/code/javascript/es2015/collection/weak-map-constructor
 bear @cluesurf/bind/code/javascript/es2015/collection/set
+bear @cluesurf/bind/code/javascript/es2015/collection/set-constructor
 bear @cluesurf/bind/code/javascript/es2015/collection/readonly-set
 bear @cluesurf/bind/code/javascript/es2015/collection/weak-set
+bear @cluesurf/bind/code/javascript/es2015/collection/weak-set-constructor
 
-load @cluesurf/bind/code/javascript/es2015/collection
+load @cluesurf/bind/code/javascript/es2015/collection/map-constructor
   find map-constructor
+
+load @cluesurf/bind/code/javascript/es2015/collection/set-constructor
   find set-constructor
+
+load @cluesurf/bind/code/javascript/es2015/collection/weak-map-constructor
   find weak-map-constructor
+
+load @cluesurf/bind/code/javascript/es2015/collection/weak-set-constructor
   find weak-set-constructor
 
 host map, name <Map>

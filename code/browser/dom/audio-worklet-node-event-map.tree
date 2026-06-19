@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form audio-worklet-node-event-map, name <AudioWorkletNodeEventMap>
   link processorerror, name <processorerror>
     like event
-    flex true
+    lock false

@@ -1,13 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find performance-entry
-
 load @cluesurf/bind/code/browser/dom/performance-resource-timing
   find performance-resource-timing
+
+load @cluesurf/bind/code/browser/webworker/performance-entry
+  find performance-entry
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form performance-resource-timing, name <PerformanceResourceTiming>
   base performance-entry
@@ -48,4 +53,4 @@ form performance-resource-timing, name <PerformanceResourceTiming>
     like native-number
 
   task to-json, name <toJSON>
-    like any
+    like native-any

@@ -1,9 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+  find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find dom-high-res-time-stamp
 
 form performance-entry, name <PerformanceEntry>
   link duration, name <duration>
@@ -16,4 +19,4 @@ form performance-entry, name <PerformanceEntry>
     like dom-high-res-time-stamp
 
   task to-json, name <toJSON>
-    like any
+    like native-any

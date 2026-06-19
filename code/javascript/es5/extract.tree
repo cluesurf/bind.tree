@@ -1,13 +1,16 @@
 
+load @cluesurf/bind/code/javascript/native
+  find native-never
+
 form extract, name <Extract>
   head t
   head u
 
   like test
-    fork roll
+    stem roll
       like t
       like u
       hook true
         like t
       hook false
-        like never
+        like native-never

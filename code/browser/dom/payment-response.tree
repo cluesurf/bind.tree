@@ -1,37 +1,46 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-target
   find event-target
+
+load @cluesurf/bind/code/browser/dom/payment-complete
   find payment-complete
+
+load @cluesurf/bind/code/browser/dom/payment-validation-errors
   find payment-validation-errors
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form payment-response, name <PaymentResponse>
   base event-target
 
   link details, name <details>
-    like any
+    like native-any
   link method-name, name <methodName>
     like native-string
   link request-id, name <requestId>
     like native-string
 
   task complete, name <complete>
+    take result, like maybe
+      like payment-complete
     like promise
       like native-void
-
-    take result, like maybe, like payment-complete
 
   task retry, name <retry>
+    take error-fields, like maybe
+      like payment-validation-errors
     like promise
       like native-void
 
-    take error-fields, like maybe, like payment-validation-errors
-
   task to-json, name <toJSON>
-    like any
+    like native-any

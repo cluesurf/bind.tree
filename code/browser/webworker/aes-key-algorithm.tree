@@ -1,16 +1,16 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find key-algorithm
-
 load @cluesurf/bind/code/browser/dom/aes-key-algorithm
   find aes-key-algorithm
+
+load @cluesurf/bind/code/browser/webworker/key-algorithm
+  find key-algorithm
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form aes-key-algorithm, name <AesKeyAlgorithm>
   base key-algorithm
 
   link length, name <length>
     like native-number
-    flex true
+    lock false

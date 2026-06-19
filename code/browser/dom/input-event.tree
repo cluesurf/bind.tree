@@ -1,16 +1,24 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/data-transfer
+  find data-transfer
+
+load @cluesurf/bind/code/browser/dom/static-range
+  find static-range
+
+load @cluesurf/bind/code/browser/dom/ui-event
+  find ui-event
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find data-transfer
-  find static-range
-  find ui-event
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form input-event, name <InputEvent>
   base ui-event
@@ -29,5 +37,5 @@ form input-event, name <InputEvent>
     like native-boolean
 
   task get-target-ranges, name <getTargetRanges>
-    like array
+    like native-array
       like static-range

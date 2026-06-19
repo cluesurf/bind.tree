@@ -1,157 +1,191 @@
 
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/global
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/instance
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/memory
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/module
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/table
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/global-descriptor
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/memory-descriptor
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/module-export-descriptor
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/module-import-descriptor
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/table-descriptor
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/web-assembly-instantiated-source
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/import-export-kind
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/table-kind
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/value-type
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/export-value
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/exports
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/import-value
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/module-imports
-bear @cluesurf/bind/code/javascript/webworker/web-assembly/imports
+bear @cluesurf/bind/code/browser/webworker/web-assembly/global
+bear @cluesurf/bind/code/browser/webworker/web-assembly/instance
+bear @cluesurf/bind/code/browser/webworker/web-assembly/memory
+bear @cluesurf/bind/code/browser/webworker/web-assembly/module
+bear @cluesurf/bind/code/browser/webworker/web-assembly/table
+bear @cluesurf/bind/code/browser/webworker/web-assembly/global-descriptor
+bear @cluesurf/bind/code/browser/webworker/web-assembly/memory-descriptor
+bear @cluesurf/bind/code/browser/webworker/web-assembly/module-export-descriptor
+bear @cluesurf/bind/code/browser/webworker/web-assembly/module-import-descriptor
+bear @cluesurf/bind/code/browser/webworker/web-assembly/table-descriptor
+bear @cluesurf/bind/code/browser/webworker/web-assembly/web-assembly-instantiated-source
+bear @cluesurf/bind/code/browser/webworker/web-assembly/import-export-kind
+bear @cluesurf/bind/code/browser/webworker/web-assembly/table-kind
+bear @cluesurf/bind/code/browser/webworker/web-assembly/value-type
+bear @cluesurf/bind/code/browser/webworker/web-assembly/export-value
+bear @cluesurf/bind/code/browser/webworker/web-assembly/exports
+bear @cluesurf/bind/code/browser/webworker/web-assembly/import-value
+bear @cluesurf/bind/code/browser/webworker/web-assembly/module-imports
+bear @cluesurf/bind/code/browser/webworker/web-assembly/imports
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/webworker/buffer-source
+  find buffer-source
+
+load @cluesurf/bind/code/browser/webworker/global
+  find global
+
+load @cluesurf/bind/code/browser/webworker/global-descriptor
+  find global-descriptor
+
+load @cluesurf/bind/code/browser/webworker/imports
+  find imports
+
+load @cluesurf/bind/code/browser/webworker/instance
+  find instance
+
+load @cluesurf/bind/code/browser/webworker/memory
+  find memory
+
+load @cluesurf/bind/code/browser/webworker/memory-descriptor
+  find memory-descriptor
+
+load @cluesurf/bind/code/browser/webworker/module
+  find module
+
+load @cluesurf/bind/code/browser/webworker/module-export-descriptor
+  find module-export-descriptor
+
+load @cluesurf/bind/code/browser/webworker/module-import-descriptor
+  find module-import-descriptor
+
+load @cluesurf/bind/code/browser/webworker/response
+  find response
+
+load @cluesurf/bind/code/browser/webworker/table
+  find table
+
+load @cluesurf/bind/code/browser/webworker/table-descriptor
+  find table-descriptor
+
+load @cluesurf/bind/code/browser/webworker/web-assembly-instantiated-source
+  find web-assembly-instantiated-source
+
+load @cluesurf/bind/code/javascript/es5/array-buffer
+  find array-buffer
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/es5/promise-like
+  find promise-like
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find buffer-source
-  find global
-  find global-descriptor
-  find imports
-  find instance
-  find memory
-  find memory-descriptor
-  find module
-  find module-export-descriptor
-  find module-import-descriptor
-  find response
-  find table
-  find table-descriptor
-  find web-assembly-instantiated-source
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer
-  find promise
-  find promise-like
 
 host global, name <Global>
   like form
     link prototype, name <prototype>
       like global
-      flex true
+      lock false
     hook make
+      take descriptor, like global-descriptor
+      take v, like maybe
+        like native-any
       like global
-
-      take descriptor
-      take v, like maybe, like any
 
 host instance, name <Instance>
   like form
     link prototype, name <prototype>
       like instance
-      flex true
+      lock false
     hook make
+      take module, like module
+      take import-object, like maybe
+        like imports
       like instance
-
-      take module
-      take import-object, like maybe, like imports
 
 host memory, name <Memory>
   like form
     link prototype, name <prototype>
       like memory
-      flex true
+      lock false
     hook make
+      take descriptor, like memory-descriptor
       like memory
-
-      take descriptor
 
 host module, name <Module>
   like form
     link prototype, name <prototype>
       like module
-      flex true
+      lock false
     hook make
+      take bytes, like buffer-source
       like module
 
-      take bytes
-
     task custom-sections, name <customSections>
-      like array
+      take module-object, like module
+      take section-name, like native-string
+      like native-array
         like array-buffer
 
-      take module-object
-      take section-name
-
     task exports, name <exports>
-      like array
+      take module-object, like module
+      like native-array
         like module-export-descriptor
 
-      take module-object
-
     task imports, name <imports>
-      like array
+      take module-object, like module
+      like native-array
         like module-import-descriptor
-
-      take module-object
 
 host table, name <Table>
   like form
     link prototype, name <prototype>
       like table
-      flex true
+      lock false
     hook make
+      take descriptor, like table-descriptor
       like table
 
-      take descriptor
-
 task compile, name <compile>
+  take bytes, like buffer-source
   like promise
     like module
-
-  take bytes
 
 task compile-streaming, name <compileStreaming>
+  take source
+    like or
+      like response
+      like promise
+        like response
   like promise
     like module
 
-  take source
-
 task instantiate, name <instantiate>
+  take bytes, like buffer-source
+  take import-object, like maybe
+    like imports
   like promise
     like web-assembly-instantiated-source
 
-  take bytes
-  take import-object, like maybe, like imports
-
 task instantiate, name <instantiate>
+  take module-object, like module
+  take import-object, like maybe
+    like imports
   like promise
     like instance
 
-  take module-object
-  take import-object, like maybe, like imports
-
 task instantiate-streaming, name <instantiateStreaming>
+  take response
+    like or
+      like response
+      like promise-like
+        like response
+  take import-object, like maybe
+    like imports
   like promise
     like web-assembly-instantiated-source
 
-  take response
-  take import-object, like maybe, like imports
-
 task validate, name <validate>
+  take bytes, like buffer-source
   like native-boolean
-
-  take bytes

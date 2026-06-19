@@ -1,17 +1,19 @@
 
+load @cluesurf/bind/code/browser/webworker/extendable-event-init
+  find extendable-event-init
+
+load @cluesurf/bind/code/browser/webworker/notification
+  find notification
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find extendable-event-init
-  find notification
 
 form notification-event-init, name <NotificationEventInit>
   base extendable-event-init
 
   link action, name <action>
     like native-string
-    flex true
+    lock false
   link notification, name <notification>
     like notification
-    flex true
+    lock false

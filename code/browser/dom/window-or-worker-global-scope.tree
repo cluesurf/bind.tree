@@ -1,29 +1,60 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/cache-storage
+  find cache-storage
+
+load @cluesurf/bind/code/browser/dom/crypto
+  find crypto
+
+load @cluesurf/bind/code/browser/dom/idb-factory
+  find idb-factory
+
+load @cluesurf/bind/code/browser/dom/image-bitmap
+  find image-bitmap
+
+load @cluesurf/bind/code/browser/dom/image-bitmap-options
+  find image-bitmap-options
+
+load @cluesurf/bind/code/browser/dom/image-bitmap-source
+  find image-bitmap-source
+
+load @cluesurf/bind/code/browser/dom/performance
+  find performance
+
+load @cluesurf/bind/code/browser/dom/request-info
+  find request-info
+
+load @cluesurf/bind/code/browser/dom/request-init
+  find request-init
+
+load @cluesurf/bind/code/browser/dom/response
+  find response
+
+load @cluesurf/bind/code/browser/dom/timer-handler
+  find timer-handler
+
+load @cluesurf/bind/code/browser/dom/void-function
+  find void-function
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find cache-storage
-  find crypto
-  find idb-factory
-  find image-bitmap
-  find image-bitmap-options
-  find image-bitmap-source
-  find performance
-  find request-info
-  find request-init
-  find response
-  find timer-handler
-  find void-function
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
 
 form window-or-worker-global-scope, name <WindowOrWorkerGlobalScope>
   link caches, name <caches>
@@ -42,71 +73,68 @@ form window-or-worker-global-scope, name <WindowOrWorkerGlobalScope>
     like performance
 
   task atob, name <atob>
+    take data, like native-string
     like native-string
-
-    take data
 
   task btoa, name <btoa>
+    take data, like native-string
     like native-string
 
-    take data
-
   task clear-interval, name <clearInterval>
+    take handle, like maybe
+      like native-number
     like native-void
-
-    take handle, like maybe, like native-number
 
   task clear-timeout, name <clearTimeout>
+    take handle, like maybe
+      like native-number
     like native-void
 
-    take handle, like maybe, like native-number
-
   task create-image-bitmap, name <createImageBitmap>
+    take image, like image-bitmap-source
+    take options, like maybe
+      like image-bitmap-options
     like promise
       like image-bitmap
 
-    take image
-    take options, like maybe, like image-bitmap-options
-
   task create-image-bitmap, name <createImageBitmap>
+    take image, like image-bitmap-source
+    take sx, like native-number
+    take sy, like native-number
+    take sw, like native-number
+    take sh, like native-number
+    take options, like maybe
+      like image-bitmap-options
     like promise
       like image-bitmap
-
-    take image
-    take sx
-    take sy
-    take sw
-    take sh
-    take options, like maybe, like image-bitmap-options
 
   task fetch, name <fetch>
+    take input, like request-info
+    take init, like maybe
+      like request-init
     like promise
       like response
 
-    take input
-    take init, like maybe, like request-init
-
   task queue-microtask, name <queueMicrotask>
+    take callback, like void-function
     like native-void
 
-    take callback
-
   task set-interval, name <setInterval>
-    like native-number
-
-    take handler
-    take timeout, like maybe, like native-number
+    take handler, like timer-handler
+    take timeout, like maybe
+      like native-number
     take arguments
-      like array
-        like any
+      like native-array
+        like native-any
       rest true
+    like native-number
 
   task set-timeout, name <setTimeout>
-    like native-number
-
-    take handler
-    take timeout, like maybe, like native-number
+    take handler, like timer-handler
+    take timeout, like maybe
+      like native-number
     take arguments
-      like array
-        like any
+      like native-array
+        like native-any
       rest true
+    like native-number

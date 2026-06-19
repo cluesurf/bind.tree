@@ -1,15 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/message-event
   find message-event
 
 form event-source-event-map, name <EventSourceEventMap>
   link error, name <error>
     like event
-    flex true
+    lock false
   link message, name <message>
     like message-event
-    flex true
+    lock false
   link open, name <open>
     like event
-    flex true
+    lock false

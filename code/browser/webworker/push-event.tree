@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/webworker/extendable-event
+  find extendable-event
+
+load @cluesurf/bind/code/browser/webworker/push-message-data
+  find push-message-data
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/webworker
-  find extendable-event
-  find push-message-data
 
 form push-event, name <PushEvent>
   base extendable-event

@@ -1,23 +1,26 @@
 
+load @cluesurf/bind/code/browser/dom/buffer-source
+  find buffer-source
+
+load @cluesurf/bind/code/browser/dom/media-key-session
+  find media-key-session
+
+load @cluesurf/bind/code/browser/dom/media-key-session-type
+  find media-key-session-type
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/browser/dom
-  find buffer-source
-  find media-key-session
-  find media-key-session-type
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 form media-keys, name <MediaKeys>
   task create-session, name <createSession>
+    take session-type, like maybe
+      like media-key-session-type
     like media-key-session
 
-    take session-type, like maybe, like media-key-session-type
-
   task set-server-certificate, name <setServerCertificate>
+    take server-certificate, like buffer-source
     like promise
       like native-boolean
-
-    take server-certificate

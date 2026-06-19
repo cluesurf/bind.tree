@@ -1,24 +1,33 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find event
-  find message-event-source
-  find message-port
-
-load @cluesurf/bind/code/javascript/es5
-  find readonly-array
-
 load @cluesurf/bind/code/browser/dom/iterable/message-event
   find message-event
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/message-event-source
+  find message-event-source
+
+load @cluesurf/bind/code/browser/webworker/message-port
+  find message-port
+
+load @cluesurf/bind/code/javascript/es5/readonly-array
+  find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form message-event, name <MessageEvent>
   base event
 
   head t
-    fall any
+    back native-any
 
   link data, name <data>
     like t

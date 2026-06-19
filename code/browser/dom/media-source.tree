@@ -1,22 +1,51 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/end-of-stream-error
+  find end-of-stream-error
+
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/dom/media-source-event-map
+  find media-source-event-map
+
+load @cluesurf/bind/code/browser/dom/ready-state
+  find ready-state
+
+load @cluesurf/bind/code/browser/dom/source-buffer
+  find source-buffer
+
+load @cluesurf/bind/code/browser/dom/source-buffer-list
+  find source-buffer-list
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find end-of-stream-error
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find media-source-event-map
-  find ready-state
-  find source-buffer
-  find source-buffer-list
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form media-source, name <MediaSource>
   base event-target
@@ -25,111 +54,109 @@ form media-source, name <MediaSource>
     like source-buffer-list
   link duration, name <duration>
     like native-number
-    flex true
+    lock false
   link onsourceclose, name <onsourceclose>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like media-source
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onsourceended, name <onsourceended>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like media-source
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onsourceopen, name <onsourceopen>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like media-source
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link ready-state, name <readyState>
     like ready-state
   link source-buffers, name <sourceBuffers>
     like source-buffer-list
 
   task add-source-buffer, name <addSourceBuffer>
+    take type, like native-string
     like source-buffer
-
-    take type
 
   task clear-live-seekable-range, name <clearLiveSeekableRange>
     like native-void
 
   task end-of-stream, name <endOfStream>
+    take error, like maybe
+      like end-of-stream-error
     like native-void
-
-    take error, like maybe, like end-of-stream-error
 
   task remove-source-buffer, name <removeSourceBuffer>
+    take source-buffer, like source-buffer
     like native-void
-
-    take source-buffer
 
   task set-live-seekable-range, name <setLiveSeekableRange>
+    take start, like native-number
+    take end, like native-number
     like native-void
-
-    take start
-    take end
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like media-source-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like media-source
+        take ev
+          like index
+            like media-source-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like media-source-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like media-source
+        take ev
+          like index
+            like media-source-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

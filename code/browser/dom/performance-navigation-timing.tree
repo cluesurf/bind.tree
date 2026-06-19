@@ -1,11 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+  find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/browser/dom/navigation-type
+  find navigation-type
+
+load @cluesurf/bind/code/browser/dom/performance-resource-timing
+  find performance-resource-timing
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find dom-high-res-time-stamp
-  find navigation-type
-  find performance-resource-timing
 
 form performance-navigation-timing, name <PerformanceNavigationTiming>
   base performance-resource-timing
@@ -32,4 +39,4 @@ form performance-navigation-timing, name <PerformanceNavigationTiming>
     like dom-high-res-time-stamp
 
   task to-json, name <toJSON>
-    like any
+    like native-any

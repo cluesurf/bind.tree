@@ -1,14 +1,19 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable
-  find native-number
-  find native-void
-
 load @cluesurf/bind/code/browser/dom/canvas-path-drawing-styles
   find canvas-path-drawing-styles
 
+load @cluesurf/bind/code/javascript/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form canvas-path-drawing-styles, name <CanvasPathDrawingStyles>
   task set-line-dash, name <setLineDash>
-    like native-void
-
     take segments
+      like iterable
+        like native-number
+    like native-void

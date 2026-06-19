@@ -5,7 +5,7 @@ load @cluesurf/bind/code/javascript/native
 form text-encoder-encode-into-result, name <TextEncoderEncodeIntoResult>
   link read, name <read>
     like native-number
-    flex true
+    lock false
   link written, name <written>
     like native-number
-    flex true
+    lock false

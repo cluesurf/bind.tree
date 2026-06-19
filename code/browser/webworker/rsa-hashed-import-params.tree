@@ -1,14 +1,16 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find algorithm
-  find hash-algorithm-identifier
-
 load @cluesurf/bind/code/browser/dom/rsa-hashed-import-params
   find rsa-hashed-import-params
+
+load @cluesurf/bind/code/browser/webworker/algorithm
+  find algorithm
+
+load @cluesurf/bind/code/browser/webworker/hash-algorithm-identifier
+  find hash-algorithm-identifier
 
 form rsa-hashed-import-params, name <RsaHashedImportParams>
   base algorithm
 
   link hash, name <hash>
     like hash-algorithm-identifier
-    flex true
+    lock false

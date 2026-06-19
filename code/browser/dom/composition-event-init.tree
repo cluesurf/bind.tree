@@ -1,13 +1,13 @@
 
+load @cluesurf/bind/code/browser/dom/ui-event-init
+  find ui-event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find ui-event-init
 
 form composition-event-init, name <CompositionEventInit>
   base ui-event-init
 
   link data, name <data>
     like native-string
-    flex true
+    lock false

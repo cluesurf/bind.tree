@@ -1,17 +1,19 @@
 
+load @cluesurf/bind/code/browser/dom/payment-details-base
+  find payment-details-base
+
+load @cluesurf/bind/code/browser/dom/payment-item
+  find payment-item
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find payment-details-base
-  find payment-item
 
 form payment-details-init, name <PaymentDetailsInit>
   base payment-details-base
 
   link id, name <id>
     like native-string
-    flex true
+    lock false
   link total, name <total>
     like payment-item
-    flex true
+    lock false

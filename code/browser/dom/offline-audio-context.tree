@@ -1,22 +1,45 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/audio-buffer
   find audio-buffer
+
+load @cluesurf/bind/code/browser/dom/base-audio-context
   find base-audio-context
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
   find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/offline-audio-completion-event
   find offline-audio-completion-event
+
+load @cluesurf/bind/code/browser/dom/offline-audio-context-event-map
   find offline-audio-context-event-map
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form offline-audio-context, name <OfflineAudioContext>
   base base-audio-context
@@ -26,12 +49,11 @@ form offline-audio-context, name <OfflineAudioContext>
   link oncomplete, name <oncomplete>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like offline-audio-context
+        take ev, like offline-audio-completion-event
+        like native-any
       like native-null
-    flex true
+    lock false
 
   task resume, name <resume>
     like promise
@@ -42,59 +64,62 @@ form offline-audio-context, name <OfflineAudioContext>
       like audio-buffer
 
   task suspend, name <suspend>
+    take suspend-time, like native-number
     like promise
       like native-void
 
-    take suspend-time
+  task add-event-listener, name <addEventListener>
+    head k
+      base link-read
+        like offline-audio-context-event-map
+    take type, like k
+    take listener
+      like task
+        take this, like offline-audio-context
+        take ev
+          like index
+            like offline-audio-context-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    head k
-      base key-list
-        like offline-audio-context-event-map
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
-
-  task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like offline-audio-context-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+      like task
+        take this, like offline-audio-context
+        take ev
+          like index
+            like offline-audio-context-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void
 
   task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options

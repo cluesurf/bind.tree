@@ -1,11 +1,15 @@
 
+load @cluesurf/bind/code/browser/dom/audio-buffer
+  find audio-buffer
+
+load @cluesurf/bind/code/browser/dom/audio-node
+  find audio-node
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
 
-load @cluesurf/bind/code/browser/dom
-  find audio-buffer
-  find audio-node
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
 form convolver-node, name <ConvolverNode>
   base audio-node
@@ -14,7 +18,7 @@ form convolver-node, name <ConvolverNode>
     like or
       like audio-buffer
       like native-null
-    flex true
+    lock false
   link normalize, name <normalize>
     like native-boolean
-    flex true
+    lock false

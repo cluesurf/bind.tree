@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find g-lenum
-
 load @cluesurf/bind/code/browser/dom/oes-standard-derivatives
   find oes-standard-derivatives
+
+load @cluesurf/bind/code/browser/webworker/g-lenum
+  find g-lenum
 
 form oes-standard-derivatives, name <OES_standard_derivatives>
   link fragment-shader-derivative-hint-oes, name <FRAGMENT_SHADER_DERIVATIVE_HINT_OES>

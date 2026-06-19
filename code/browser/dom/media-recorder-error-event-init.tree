@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-exception
   find dom-exception
+
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
 
 form media-recorder-error-event-init, name <MediaRecorderErrorEventInit>
@@ -8,4 +10,4 @@ form media-recorder-error-event-init, name <MediaRecorderErrorEventInit>
 
   link error, name <error>
     like dom-exception
-    flex true
+    lock false

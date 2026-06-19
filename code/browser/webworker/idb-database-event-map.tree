@@ -1,21 +1,23 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find event
-  find idb-version-change-event
-
 load @cluesurf/bind/code/browser/dom/idb-database-event-map
   find idb-database-event-map
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/idb-version-change-event
+  find idb-version-change-event
 
 form idb-database-event-map, name <IDBDatabaseEventMap>
   link abort, name <abort>
     like event
-    flex true
+    lock false
   link close, name <close>
     like event
-    flex true
+    lock false
   link error, name <error>
     like event
-    flex true
+    lock false
   link versionchange, name <versionchange>
     like idb-version-change-event
-    flex true
+    lock false

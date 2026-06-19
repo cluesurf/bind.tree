@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form image-bitmap-rendering-context-settings, name <ImageBitmapRenderingContextSettings>
   link alpha, name <alpha>
     like native-boolean
-    flex true
+    lock false

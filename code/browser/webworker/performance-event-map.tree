@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find event
-
 load @cluesurf/bind/code/browser/dom/performance-event-map
   find performance-event-map
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
 
 form performance-event-map, name <PerformanceEventMap>
   link resourcetimingbufferfull, name <resourcetimingbufferfull>
     like event
-    flex true
+    lock false

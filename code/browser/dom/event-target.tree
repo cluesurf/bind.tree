@@ -1,40 +1,53 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form event-target, name <EventTarget>
   task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
+    take type, like native-string
     take callback
-    take options
-      like maybe
-        like or
-          like add-event-listener-options
-          like native-boolean
+      like or
+        like event-listener-or-event-listener-object
+        like native-null
+    take options, like maybe
+      like or
+        like add-event-listener-options
+        like native-boolean
+    like native-void
 
   task dispatch-event, name <dispatchEvent>
+    take event, like event
     like native-boolean
 
-    take event
-
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
-    take type
+    take type, like native-string
     take callback
-    take options
-      like maybe
-        like or
-          like event-listener-options
-          like native-boolean
+      like or
+        like event-listener-or-event-listener-object
+        like native-null
+    take options, like maybe
+      like or
+        like event-listener-options
+        like native-boolean
+    like native-void

@@ -1,16 +1,21 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-this
-
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/reg-exp-exec-array
   find reg-exp-exec-array
 
-load @cluesurf/bind/code/javascript/es5/reg-exp
-  find reg-exp
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-this
 
 form reg-exp, name <RegExp>
   link source, name <source>
@@ -23,65 +28,17 @@ form reg-exp, name <RegExp>
     like native-boolean
   link last-index, name <lastIndex>
     like native-number
-    flex true
+    lock false
 
   task exec, name <exec>
+    take string, like native-string
     like or
       like reg-exp-exec-array
       like native-null
 
-    take string
-
   task test, name <test>
+    take string, like native-string
     like native-boolean
-
-    take string
 
   task compile, name <compile>
     like native-this
-
-form reg-exp
-  hook self
-    link prototype, name <prototype>
-      like reg-exp
-    link 1, name <$1>
-      like native-string
-      flex true
-    link 2, name <$2>
-      like native-string
-      flex true
-    link 3, name <$3>
-      like native-string
-      flex true
-    link 4, name <$4>
-      like native-string
-      flex true
-    link 5, name <$5>
-      like native-string
-      flex true
-    link 6, name <$6>
-      like native-string
-      flex true
-    link 7, name <$7>
-      like native-string
-      flex true
-    link 8, name <$8>
-      like native-string
-      flex true
-    link 9, name <$9>
-      like native-string
-      flex true
-    link last-match, name <lastMatch>
-      like native-string
-      flex true
-
-  hook make
-    like reg-exp
-
-    take pattern
-
-  hook make
-    like reg-exp
-
-    take pattern
-    take flags, like maybe, like native-string

@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/base-audio-context-event-map
   find base-audio-context-event-map
+
+load @cluesurf/bind/code/browser/dom/offline-audio-completion-event
   find offline-audio-completion-event
 
 form offline-audio-context-event-map, name <OfflineAudioContextEventMap>
@@ -8,4 +10,4 @@ form offline-audio-context-event-map, name <OfflineAudioContextEventMap>
 
   link complete, name <complete>
     like offline-audio-completion-event
-    flex true
+    lock false

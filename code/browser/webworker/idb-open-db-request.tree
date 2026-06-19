@@ -1,21 +1,42 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find add-event-listener-options
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find idb-open-db-request-event-map
-  find idb-request
-  find idb-version-change-event
-
 load @cluesurf/bind/code/browser/dom/idb-open-db-request
   find idb-open-db-request
+
+load @cluesurf/bind/code/browser/webworker/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/webworker/idb-open-db-request-event-map
+  find idb-open-db-request-event-map
+
+load @cluesurf/bind/code/browser/webworker/idb-request
+  find idb-request
+
+load @cluesurf/bind/code/browser/webworker/idb-version-change-event
+  find idb-version-change-event
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form idb-open-db-request, name <IDBOpenDBRequest>
   base idb-request
@@ -23,70 +44,72 @@ form idb-open-db-request, name <IDBOpenDBRequest>
   link onblocked, name <onblocked>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like idb-open-db-request
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onupgradeneeded, name <onupgradeneeded>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like idb-open-db-request
+        take ev, like idb-version-change-event
+        like native-any
       like native-null
-    flex true
+    lock false
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like idb-open-db-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like idb-open-db-request
+        take ev
+          like index
+            like idb-open-db-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like idb-open-db-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like idb-open-db-request
+        take ev
+          like index
+            like idb-open-db-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

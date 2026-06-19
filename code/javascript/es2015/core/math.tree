@@ -1,99 +1,82 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es5/math
+  find math
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/es5/math
-  find math
-
 form math, name <Math>
   task clz32, name <clz32>
+    take x, like native-number
     like native-number
-
-    take x
 
   task imul, name <imul>
+    take x, like native-number
+    take y, like native-number
     like native-number
-
-    take x
-    take y
 
   task sign, name <sign>
+    take x, like native-number
     like native-number
-
-    take x
 
   task log10, name <log10>
+    take x, like native-number
     like native-number
-
-    take x
 
   task log2, name <log2>
+    take x, like native-number
     like native-number
-
-    take x
 
   task log1p, name <log1p>
+    take x, like native-number
     like native-number
-
-    take x
 
   task expm1, name <expm1>
+    take x, like native-number
     like native-number
-
-    take x
 
   task cosh, name <cosh>
+    take x, like native-number
     like native-number
-
-    take x
 
   task sinh, name <sinh>
+    take x, like native-number
     like native-number
-
-    take x
 
   task tanh, name <tanh>
+    take x, like native-number
     like native-number
-
-    take x
 
   task acosh, name <acosh>
+    take x, like native-number
     like native-number
-
-    take x
 
   task asinh, name <asinh>
+    take x, like native-number
     like native-number
-
-    take x
 
   task atanh, name <atanh>
+    take x, like native-number
     like native-number
-
-    take x
 
   task hypot, name <hypot>
-    like native-number
-
     take values
-      like array
+      like native-array
         like native-number
       rest true
+    like native-number
 
   task trunc, name <trunc>
+    take x, like native-number
     like native-number
-
-    take x
 
   task fround, name <fround>
+    take x, like native-number
     like native-number
-
-    take x
 
   task cbrt, name <cbrt>
+    take x, like native-number
     like native-number
-
-    take x

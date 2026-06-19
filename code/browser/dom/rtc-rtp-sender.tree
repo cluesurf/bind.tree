@@ -1,21 +1,33 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/media-stream
+  find media-stream
+
+load @cluesurf/bind/code/browser/dom/media-stream-track
+  find media-stream-track
+
+load @cluesurf/bind/code/browser/dom/rtc-dtls-transport
+  find rtc-dtls-transport
+
+load @cluesurf/bind/code/browser/dom/rtc-rtp-send-parameters
+  find rtc-rtp-send-parameters
+
+load @cluesurf/bind/code/browser/dom/rtc-stats-report
+  find rtc-stats-report
+
+load @cluesurf/bind/code/browser/dom/rtcdtmf-sender
+  find rtcdtmf-sender
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find media-stream
-  find media-stream-track
-  find rtc-dtls-transport
-  find rtc-rtp-send-parameters
-  find rtc-stats-report
-  find rtcdtmf-sender
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
 
 form rtc-rtp-sender, name <RTCRtpSender>
   link dtmf, name <dtmf>
@@ -39,21 +51,21 @@ form rtc-rtp-sender, name <RTCRtpSender>
       like rtc-stats-report
 
   task replace-track, name <replaceTrack>
+    take with-track
+      like or
+        like media-stream-track
+        like native-null
     like promise
       like native-void
-
-    take with-track
 
   task set-parameters, name <setParameters>
+    take parameters, like rtc-rtp-send-parameters
     like promise
       like native-void
 
-    take parameters
-
   task set-streams, name <setStreams>
-    like native-void
-
     take streams
-      like array
+      like native-array
         like media-stream
       rest true
+    like native-void

@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
 load @cluesurf/bind/code/javascript/es5/date-time-format-options
   find date-time-format-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form date-time-format-options, name <DateTimeFormatOptions>
   link date-style, name <dateStyle>
@@ -12,37 +12,37 @@ form date-time-format-options, name <DateTimeFormatOptions>
       text <long>
       text <medium>
       text <short>
-    flex true
+    lock false
   link time-style, name <timeStyle>
     like or
       text <full>
       text <long>
       text <medium>
       text <short>
-    flex true
+    lock false
   link calendar, name <calendar>
     like native-string
-    flex true
+    lock false
   link day-period, name <dayPeriod>
     like or
       text <narrow>
       text <short>
       text <long>
-    flex true
+    lock false
   link numbering-system, name <numberingSystem>
     like native-string
-    flex true
+    lock false
   link hour-cycle, name <hourCycle>
     like or
       text <h11>
       text <h12>
       text <h23>
       text <h24>
-    flex true
+    lock false
   link fractional-second-digits, name <fractionalSecondDigits>
     like or
       text <0>
       text <1>
       text <2>
       text <3>
-    flex true
+    lock false

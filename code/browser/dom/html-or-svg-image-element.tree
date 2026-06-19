@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/html-image-element
   find html-image-element
+
+load @cluesurf/bind/code/browser/dom/svg-image-element
   find svg-image-element
 
 form html-or-svg-image-element, name <HTMLOrSVGImageElement>

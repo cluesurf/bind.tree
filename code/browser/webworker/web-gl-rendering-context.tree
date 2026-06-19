@@ -1,10 +1,12 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find web-gl-rendering-context-base
-  find web-gl-rendering-context-overloads
-
 load @cluesurf/bind/code/browser/dom/web-gl-rendering-context
   find web-gl-rendering-context
+
+load @cluesurf/bind/code/browser/webworker/web-gl-rendering-context-base
+  find web-gl-rendering-context-base
+
+load @cluesurf/bind/code/browser/webworker/web-gl-rendering-context-overloads
+  find web-gl-rendering-context-overloads
 
 form web-gl-rendering-context, name <WebGLRenderingContext>
   base web-gl-rendering-context-base

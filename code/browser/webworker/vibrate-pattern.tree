@@ -1,6 +1,6 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
@@ -8,5 +8,5 @@ load @cluesurf/bind/code/javascript/native
 form vibrate-pattern, name <VibratePattern>
   like or
     like native-number
-    like array
+    like native-array
       like native-number

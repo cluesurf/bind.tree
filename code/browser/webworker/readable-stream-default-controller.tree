@@ -1,15 +1,22 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-  find native-number
-  find native-void
-
 load @cluesurf/bind/code/browser/dom/readable-stream-default-controller
   find readable-stream-default-controller
 
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form readable-stream-default-controller, name <ReadableStreamDefaultController>
   head r
-    fall any
+    back native-any
 
   link desired-size, name <desiredSize>
     like or
@@ -20,11 +27,10 @@ form readable-stream-default-controller, name <ReadableStreamDefaultController>
     like native-void
 
   task enqueue, name <enqueue>
+    take chunk, like r
     like native-void
-
-    take chunk
 
   task error, name <error>
+    take e, like maybe
+      like native-any
     like native-void
-
-    take e, like maybe, like any

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-time-stamp
   find dom-time-stamp
 
 form rtc-certificate-expiration, name <RTCCertificateExpiration>
   link expires, name <expires>
     like dom-time-stamp
-    flex true
+    lock false

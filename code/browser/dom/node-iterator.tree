@@ -1,13 +1,21 @@
 
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/browser/dom/node-filter
+  find node-filter
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find node
-  find node-filter
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form node-iterator, name <NodeIterator>
   link filter, name <filter>

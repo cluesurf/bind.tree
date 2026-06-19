@@ -1,19 +1,19 @@
 
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/path2-d
+  find path2-d
+
 load @cluesurf/bind/code/javascript/native
   find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find element
-  find path2-d
-
 form canvas-user-interface, name <CanvasUserInterface>
   task draw-focus-if-needed, name <drawFocusIfNeeded>
+    take element, like element
     like native-void
-
-    take element
 
   task draw-focus-if-needed, name <drawFocusIfNeeded>
+    take path, like path2-d
+    take element, like element
     like native-void
-
-    take path
-    take element

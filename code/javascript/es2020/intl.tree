@@ -12,35 +12,37 @@ bear @cluesurf/bind/code/javascript/es2020/intl/number-format-options
 bear @cluesurf/bind/code/javascript/es2020/intl/resolved-number-format-options
 bear @cluesurf/bind/code/javascript/es2020/intl/date-time-format-options
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/es2020/intl
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format
   find relative-time-format
+
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-options
   find relative-time-format-options
+
+load @cluesurf/bind/code/javascript/es2020/intl/unicode-bcp47-locale-identifier
   find unicode-bcp47-locale-identifier
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 host relative-time-format, name <RelativeTimeFormat>
   like form
     hook make
+      take locales, like maybe
+        like or
+          like unicode-bcp47-locale-identifier
+          like native-array
+            like unicode-bcp47-locale-identifier
+      take options, like maybe
+        like relative-time-format-options
       like relative-time-format
 
-      take locales
-        like maybe
-          like or
-            like unicode-bcp47-locale-identifier
-            like array
-              like unicode-bcp47-locale-identifier
-      take options, like maybe, like relative-time-format-options
-
     task supported-locales-of, name <supportedLocalesOf>
-      like array
-        like unicode-bcp47-locale-identifier
-
-      take locales
-        like maybe
-          like or
+      take locales, like maybe
+        like or
+          like unicode-bcp47-locale-identifier
+          like native-array
             like unicode-bcp47-locale-identifier
-            like array
-              like unicode-bcp47-locale-identifier
-      take options, like maybe, like relative-time-format-options
+      take options, like maybe
+        like relative-time-format-options
+      like native-array
+        like unicode-bcp47-locale-identifier

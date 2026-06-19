@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form remote-playback-event-map, name <RemotePlaybackEventMap>
   link connect, name <connect>
     like event
-    flex true
+    lock false
   link connecting, name <connecting>
     like event
-    flex true
+    lock false
   link disconnect, name <disconnect>
     like event
-    flex true
+    lock false

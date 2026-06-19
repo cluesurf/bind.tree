@@ -1,16 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/canvas-path
+  find canvas-path
+
+load @cluesurf/bind/code/browser/dom/dom-matrix2-d-init
+  find dom-matrix2-d-init
+
 load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find canvas-path
-  find dom-matrix2-d-init
 
 form path2-d, name <Path2D>
   base canvas-path
 
   task add-path, name <addPath>
+    take path, like path2-d
+    take transform, like maybe
+      like dom-matrix2-d-init
     like native-void
-
-    take path
-    take transform, like maybe, like dom-matrix2-d-init

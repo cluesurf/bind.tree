@@ -1,33 +1,33 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/algorithm
   find algorithm
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/uint8-array
   find uint8-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form concat-params, name <ConcatParams>
   base algorithm
 
   link algorithm-id, name <algorithmId>
     like uint8-array
-    flex true
+    lock false
   link hash, name <hash>
     like or
       like native-string
       like algorithm
-    flex true
+    lock false
   link party-u-info, name <partyUInfo>
     like uint8-array
-    flex true
+    lock false
   link party-v-info, name <partyVInfo>
     like uint8-array
-    flex true
+    lock false
   link private-info, name <privateInfo>
     like uint8-array
-    flex true
+    lock false
   link public-info, name <publicInfo>
     like uint8-array
-    flex true
+    lock false

@@ -1,19 +1,24 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/readable-stream-default-read-result
   find readable-stream-default-read-result
+
+load @cluesurf/bind/code/browser/dom/readable-stream-generic-reader
   find readable-stream-generic-reader
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form readable-stream-default-reader, name <ReadableStreamDefaultReader>
   base readable-stream-generic-reader
 
   head r
-    fall any
+    back native-any
 
   task read, name <read>
     like promise

@@ -1,32 +1,48 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-
-load @cluesurf/bind/code/browser/webworker
-  find subtle-crypto
-
-load @cluesurf/bind/code/javascript/es5
-  find data-view
-  find float32-array
-  find float64-array
-  find int16-array
-  find int32-array
-  find int8-array
-  find uint16-array
-  find uint32-array
-  find uint8-array
-  find uint8-clamped-array
-
 load @cluesurf/bind/code/browser/dom/crypto
   find crypto
+
+load @cluesurf/bind/code/browser/webworker/subtle-crypto
+  find subtle-crypto
+
+load @cluesurf/bind/code/javascript/es5/data-view
+  find data-view
+
+load @cluesurf/bind/code/javascript/es5/float32-array
+  find float32-array
+
+load @cluesurf/bind/code/javascript/es5/float64-array
+  find float64-array
+
+load @cluesurf/bind/code/javascript/es5/int16-array
+  find int16-array
+
+load @cluesurf/bind/code/javascript/es5/int32-array
+  find int32-array
+
+load @cluesurf/bind/code/javascript/es5/int8-array
+  find int8-array
+
+load @cluesurf/bind/code/javascript/es5/uint16-array
+  find uint16-array
+
+load @cluesurf/bind/code/javascript/es5/uint32-array
+  find uint32-array
+
+load @cluesurf/bind/code/javascript/es5/uint8-array
+  find uint8-array
+
+load @cluesurf/bind/code/javascript/es5/uint8-clamped-array
+  find uint8-clamped-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
 form crypto, name <Crypto>
   link subtle, name <subtle>
     like subtle-crypto
 
   task get-random-values, name <getRandomValues>
-    like t
-
     head t
       base or
         like int8-array
@@ -40,5 +56,5 @@ form crypto, name <Crypto>
         like float64-array
         like data-view
         like native-null
-
-    take array
+    take array, like t
+    like t

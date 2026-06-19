@@ -1,33 +1,37 @@
 
+load @cluesurf/bind/code/browser/dom/event-modifier-init
+  find event-modifier-init
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find event-modifier-init
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form keyboard-event-init, name <KeyboardEventInit>
   base event-modifier-init
 
   link char-code, name <charCode>
     like native-number
-    flex true
+    lock false
   link code, name <code>
     like native-string
-    flex true
+    lock false
   link is-composing, name <isComposing>
     like native-boolean
-    flex true
+    lock false
   link key, name <key>
     like native-string
-    flex true
+    lock false
   link key-code, name <keyCode>
     like native-number
-    flex true
+    lock false
   link location, name <location>
     like native-number
-    flex true
+    lock false
   link repeat, name <repeat>
     like native-boolean
-    flex true
+    lock false

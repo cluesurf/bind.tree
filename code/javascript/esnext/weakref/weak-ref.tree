@@ -1,13 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-object
-  find native-undefined
-
 load @cluesurf/bind/code/javascript/es2021/weakref/weak-ref
   find weak-ref
 
-load @cluesurf/bind/code/javascript/esnext/weakref/weak-ref
-  find weak-ref
+load @cluesurf/bind/code/javascript/native
+  find native-object
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
 
 form weak-ref, name <WeakRef>
   head t
@@ -15,24 +14,9 @@ form weak-ref, name <WeakRef>
 
   link {symbol/to-string-tag}
     text <WeakRef>
-    work true
+    read true
 
   task deref, name <deref>
     like or
       like t
       like native-undefined
-
-form weak-ref
-  hook self
-    link prototype, name <prototype>
-      like weak-ref
-        like any
-
-  hook make
-    like weak-ref
-      like t
-
-    head t
-      base native-object
-
-    take target, like maybe, like t

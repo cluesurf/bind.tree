@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find g-lenum
-
 load @cluesurf/bind/code/browser/dom/ext-s-rgb
   find ext-s-rgb
+
+load @cluesurf/bind/code/browser/webworker/g-lenum
+  find g-lenum
 
 form ext-s-rgb, name <EXT_sRGB>
   link framebuffer-attachment-color-encoding-ext

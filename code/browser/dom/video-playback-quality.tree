@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+  find dom-high-res-time-stamp
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find dom-high-res-time-stamp
 
 form video-playback-quality, name <VideoPlaybackQuality>
   link corrupted-video-frames, name <corruptedVideoFrames>

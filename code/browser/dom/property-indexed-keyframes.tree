@@ -1,46 +1,52 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/composite-operation-or-auto
+  find composite-operation-or-auto
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
-  find native-undefined
 
-load @cluesurf/bind/code/browser/dom
-  find composite-operation-or-auto
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
 
 form property-indexed-keyframes, name <PropertyIndexedKeyframes>
   link composite, name <composite>
     like or
       like composite-operation-or-auto
-      like array
+      like native-array
         like composite-operation-or-auto
-    flex true
+    lock false
   link easing, name <easing>
     like or
       like native-string
-      like array
+      like native-array
         like native-string
-    flex true
+    lock false
   link offset, name <offset>
     like or
       like native-number
-      like array
+      like native-array
         like or
           like native-number
           like native-null
-    flex true
+    lock false
 
-  mesh property
+  mesh property, like native-string
     like or
       like native-string
-      like array
+      like native-array
         like native-string
       like native-number
       like native-null
-      like array
+      like native-array
         like or
           like native-number
           like native-null

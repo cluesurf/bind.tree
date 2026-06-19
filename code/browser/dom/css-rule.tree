@@ -1,16 +1,20 @@
 
+load @cluesurf/bind/code/browser/dom/css-style-sheet
+  find css-style-sheet
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find css-style-sheet
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form css-rule, name <CSSRule>
   link css-text, name <cssText>
     like native-string
-    flex true
+    lock false
   link parent-rule, name <parentRule>
     like or
       like css-rule

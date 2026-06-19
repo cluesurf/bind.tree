@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/audio-node
   find audio-node
+
+load @cluesurf/bind/code/browser/dom/over-sample-type
   find over-sample-type
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/float32-array
   find float32-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
 form wave-shaper-node, name <WaveShaperNode>
   base audio-node
@@ -16,7 +18,7 @@ form wave-shaper-node, name <WaveShaperNode>
     like or
       like float32-array
       like native-null
-    flex true
+    lock false
   link oversample, name <oversample>
     like over-sample-type
-    flex true
+    lock false

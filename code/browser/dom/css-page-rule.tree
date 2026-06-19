@@ -1,16 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/css-grouping-rule
+  find css-grouping-rule
+
+load @cluesurf/bind/code/browser/dom/css-style-declaration
+  find css-style-declaration
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find css-grouping-rule
-  find css-style-declaration
 
 form css-page-rule, name <CSSPageRule>
   base css-grouping-rule
 
   link selector-text, name <selectorText>
     like native-string
-    flex true
+    lock false
   link style, name <style>
     like css-style-declaration

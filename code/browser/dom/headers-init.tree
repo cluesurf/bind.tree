@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/headers
+  find headers
+
+load @cluesurf/bind/code/javascript/es5/record
+  find record
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find headers
-
-load @cluesurf/bind/code/javascript/es5
-  find record
-
 form headers-init, name <HeadersInit>
   like or
-    like array
-      like array
+    like native-array
+      like native-array
         like native-string
     like record
       like native-string

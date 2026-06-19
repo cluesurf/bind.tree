@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find error-event
-
 load @cluesurf/bind/code/browser/dom/abstract-worker-event-map
   find abstract-worker-event-map
+
+load @cluesurf/bind/code/browser/webworker/error-event
+  find error-event
 
 form abstract-worker-event-map, name <AbstractWorkerEventMap>
   link error, name <error>
     like error-event
-    flex true
+    lock false

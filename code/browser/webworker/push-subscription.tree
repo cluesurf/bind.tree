@@ -1,21 +1,33 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find push-encryption-key-name
-  find push-subscription-json
-  find push-subscription-options
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer
-  find promise
-
 load @cluesurf/bind/code/browser/dom/push-subscription
   find push-subscription
+
+load @cluesurf/bind/code/browser/webworker/push-encryption-key-name
+  find push-encryption-key-name
+
+load @cluesurf/bind/code/browser/webworker/push-subscription-json
+  find push-subscription-json
+
+load @cluesurf/bind/code/browser/webworker/push-subscription-options
+  find push-subscription-options
+
+load @cluesurf/bind/code/javascript/es5/array-buffer
+  find array-buffer
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form push-subscription, name <PushSubscription>
   link endpoint, name <endpoint>
@@ -28,11 +40,10 @@ form push-subscription, name <PushSubscription>
     like push-subscription-options
 
   task get-key, name <getKey>
+    take name, like push-encryption-key-name
     like or
       like array-buffer
       like native-null
-
-    take name
 
   task to-json, name <toJSON>
     like push-subscription-json

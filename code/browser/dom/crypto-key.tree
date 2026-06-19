@@ -1,14 +1,18 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/key-algorithm
+  find key-algorithm
+
+load @cluesurf/bind/code/browser/dom/key-type
+  find key-type
+
+load @cluesurf/bind/code/browser/dom/key-usage
+  find key-usage
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-
-load @cluesurf/bind/code/browser/dom
-  find key-algorithm
-  find key-type
-  find key-usage
 
 form crypto-key, name <CryptoKey>
   link algorithm, name <algorithm>
@@ -18,5 +22,5 @@ form crypto-key, name <CryptoKey>
   link type, name <type>
     like key-type
   link usages, name <usages>
-    like array
+    like native-array
       like key-usage

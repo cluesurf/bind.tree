@@ -1,12 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/audio-configuration
   find audio-configuration
+
+load @cluesurf/bind/code/browser/dom/video-configuration
   find video-configuration
 
 form media-configuration, name <MediaConfiguration>
   link audio, name <audio>
     like audio-configuration
-    flex true
+    lock false
   link video, name <video>
     like video-configuration
-    flex true
+    lock false

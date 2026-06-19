@@ -1,15 +1,22 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-  find native-number
-  find native-void
-
 load @cluesurf/bind/code/browser/dom/transform-stream-default-controller
   find transform-stream-default-controller
 
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form transform-stream-default-controller, name <TransformStreamDefaultController>
   head o
-    fall any
+    back native-any
 
   link desired-size, name <desiredSize>
     like or
@@ -17,14 +24,13 @@ form transform-stream-default-controller, name <TransformStreamDefaultController
       like native-null
 
   task enqueue, name <enqueue>
+    take chunk, like o
     like native-void
-
-    take chunk
 
   task error, name <error>
+    take reason, like maybe
+      like native-any
     like native-void
-
-    take reason, like maybe, like any
 
   task terminate, name <terminate>
     like native-void

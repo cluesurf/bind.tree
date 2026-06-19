@@ -5,10 +5,10 @@ load @cluesurf/bind/code/javascript/native
 form cache-query-options, name <CacheQueryOptions>
   link ignore-method, name <ignoreMethod>
     like native-boolean
-    flex true
+    lock false
   link ignore-search, name <ignoreSearch>
     like native-boolean
-    flex true
+    lock false
   link ignore-vary, name <ignoreVary>
     like native-boolean
-    flex true
+    lock false

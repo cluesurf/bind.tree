@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
 load @cluesurf/bind/code/javascript/es5/number-format-options
   find number-format-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form number-format-options, name <NumberFormatOptions>
   link compact-display, name <compactDisplay>
     like native-string
-    flex true
+    lock false
   link notation, name <notation>
     like native-string
-    flex true
+    lock false
   link sign-display, name <signDisplay>
     like native-string
-    flex true
+    lock false
   link unit, name <unit>
     like native-string
-    flex true
+    lock false
   link unit-display, name <unitDisplay>
     like native-string
-    flex true
+    lock false

@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form get-animations-options, name <GetAnimationsOptions>
   link subtree, name <subtree>
     like native-boolean
-    flex true
+    lock false

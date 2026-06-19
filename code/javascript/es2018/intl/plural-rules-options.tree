@@ -1,31 +1,31 @@
 
+load @cluesurf/bind/code/javascript/es2018/intl/plural-rule-type
+  find plural-rule-type
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/javascript/es2018/intl
-  find plural-rule-type
 
 form plural-rules-options, name <PluralRulesOptions>
   link locale-matcher, name <localeMatcher>
     like or
       text <lookup>
       text <best fit>
-    flex true
+    lock false
   link type, name <type>
     like plural-rule-type
-    flex true
+    lock false
   link minimum-integer-digits, name <minimumIntegerDigits>
     like native-number
-    flex true
+    lock false
   link minimum-fraction-digits, name <minimumFractionDigits>
     like native-number
-    flex true
+    lock false
   link maximum-fraction-digits, name <maximumFractionDigits>
     like native-number
-    flex true
+    lock false
   link minimum-significant-digits, name <minimumSignificantDigits>
     like native-number
-    flex true
+    lock false
   link maximum-significant-digits, name <maximumSignificantDigits>
     like native-number
-    flex true
+    lock false

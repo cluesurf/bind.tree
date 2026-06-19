@@ -1,16 +1,20 @@
 
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/browser/dom/node-filter
+  find node-filter
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find node
-  find node-filter
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form tree-walker, name <TreeWalker>
   link current-node, name <currentNode>
     like node
-    flex true
+    lock false
   link filter, name <filter>
     like or
       like node-filter

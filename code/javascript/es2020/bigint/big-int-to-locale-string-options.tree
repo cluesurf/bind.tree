@@ -1,33 +1,35 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form big-int-to-locale-string-options, name <BigIntToLocaleStringOptions>
   link locale-matcher, name <localeMatcher>
     like native-string
-    flex true
+    lock false
   link style, name <style>
     like native-string
-    flex true
+    lock false
   link numbering-system, name <numberingSystem>
     like native-string
-    flex true
+    lock false
   link unit, name <unit>
     like native-string
-    flex true
+    lock false
   link unit-display, name <unitDisplay>
     like native-string
-    flex true
+    lock false
   link currency, name <currency>
     like native-string
-    flex true
+    lock false
   link currency-display, name <currencyDisplay>
     like native-string
-    flex true
+    lock false
   link use-grouping, name <useGrouping>
     like native-boolean
-    flex true
+    lock false
   link minimum-integer-digits, name <minimumIntegerDigits>
     like or
       text <1>
@@ -51,7 +53,7 @@ form big-int-to-locale-string-options, name <BigIntToLocaleStringOptions>
       text <19>
       text <20>
       text <21>
-    flex true
+    lock false
   link minimum-fraction-digits, name <minimumFractionDigits>
     like or
       text <0>
@@ -75,7 +77,7 @@ form big-int-to-locale-string-options, name <BigIntToLocaleStringOptions>
       text <18>
       text <19>
       text <20>
-    flex true
+    lock false
   link maximum-fraction-digits, name <maximumFractionDigits>
     like or
       text <0>
@@ -99,7 +101,7 @@ form big-int-to-locale-string-options, name <BigIntToLocaleStringOptions>
       text <18>
       text <19>
       text <20>
-    flex true
+    lock false
   link minimum-significant-digits, name <minimumSignificantDigits>
     like or
       text <1>
@@ -123,7 +125,7 @@ form big-int-to-locale-string-options, name <BigIntToLocaleStringOptions>
       text <19>
       text <20>
       text <21>
-    flex true
+    lock false
   link maximum-significant-digits, name <maximumSignificantDigits>
     like or
       text <1>
@@ -147,10 +149,10 @@ form big-int-to-locale-string-options, name <BigIntToLocaleStringOptions>
       text <19>
       text <20>
       text <21>
-    flex true
+    lock false
   link notation, name <notation>
     like native-string
-    flex true
+    lock false
   link compact-display, name <compactDisplay>
     like native-string
-    flex true
+    lock false

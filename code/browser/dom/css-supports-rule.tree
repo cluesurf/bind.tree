@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/css-condition-rule
   find css-condition-rule
 
 form css-supports-rule, name <CSSSupportsRule>

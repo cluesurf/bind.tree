@@ -1,22 +1,26 @@
 
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-numeric
+  find relative-time-format-numeric
+
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-style
+  find relative-time-format-style
+
+load @cluesurf/bind/code/javascript/es2020/intl/unicode-bcp47-locale-identifier
+  find unicode-bcp47-locale-identifier
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/javascript/es2020/intl
-  find relative-time-format-numeric
-  find relative-time-format-style
-  find unicode-bcp47-locale-identifier
 
 form resolved-relative-time-format-options, name <ResolvedRelativeTimeFormatOptions>
   link locale, name <locale>
     like unicode-bcp47-locale-identifier
-    flex true
+    lock false
   link style, name <style>
     like relative-time-format-style
-    flex true
+    lock false
   link numeric, name <numeric>
     like relative-time-format-numeric
-    flex true
+    lock false
   link numbering-system, name <numberingSystem>
     like native-string
-    flex true
+    lock false

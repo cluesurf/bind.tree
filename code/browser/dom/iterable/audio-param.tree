@@ -1,15 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable
-  find native-number
-
 load @cluesurf/bind/code/browser/dom/audio-param
   find audio-param
 
+load @cluesurf/bind/code/javascript/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
 form audio-param, name <AudioParam>
   task set-value-curve-at-time, name <setValueCurveAtTime>
-    like audio-param
-
     take values
-    take start-time
-    take duration
+      like iterable
+        like native-number
+    take start-time, like native-number
+    take duration, like native-number
+    like audio-param

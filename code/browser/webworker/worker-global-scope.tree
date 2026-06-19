@@ -1,25 +1,54 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/webworker/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/error-event
+  find error-event
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/webworker/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/webworker/promise-rejection-event
+  find promise-rejection-event
+
+load @cluesurf/bind/code/browser/webworker/window-or-worker-global-scope
+  find window-or-worker-global-scope
+
+load @cluesurf/bind/code/browser/webworker/worker-global-scope-event-map
+  find worker-global-scope-event-map
+
+load @cluesurf/bind/code/browser/webworker/worker-location
+  find worker-location
+
+load @cluesurf/bind/code/browser/webworker/worker-navigator
+  find worker-navigator
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/webworker
-  find add-event-listener-options
-  find error-event
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find promise-rejection-event
-  find window-or-worker-global-scope
-  find worker-global-scope-event-map
-  find worker-location
-  find worker-navigator
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form worker-global-scope, name <WorkerGlobalScope>
   base event-target
@@ -32,118 +61,115 @@ form worker-global-scope, name <WorkerGlobalScope>
   link onerror, name <onerror>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like worker-global-scope
+        take ev, like error-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onlanguagechange, name <onlanguagechange>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like worker-global-scope
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onoffline, name <onoffline>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like worker-global-scope
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link ononline, name <ononline>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like worker-global-scope
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onrejectionhandled, name <onrejectionhandled>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like worker-global-scope
+        take ev, like promise-rejection-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onunhandledrejection, name <onunhandledrejection>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like worker-global-scope
+        take ev, like promise-rejection-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link self, name <self>
     like and
       like worker-global-scope
       like global-this
 
   task import-scripts, name <importScripts>
-    like native-void
-
     take urls
-      like array
+      like native-array
         like native-string
       rest true
+    like native-void
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like worker-global-scope-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like worker-global-scope
+        take ev
+          like index
+            like worker-global-scope-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like worker-global-scope-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like worker-global-scope
+        take ev
+          like index
+            like worker-global-scope-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

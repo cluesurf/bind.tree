@@ -1,15 +1,9 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
 load @cluesurf/bind/code/javascript/es2015/iterable/map
   find map
 
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
-  find map-constructor
-
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/map
-  find map
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form map, name <Map>
   head k
@@ -17,10 +11,4 @@ form map, name <Map>
 
   link {symbol/to-string-tag}
     like native-string
-    work true
-
-form map
-  hook self
-    link {symbol/species}
-      like map-constructor
-      work true
+    read true

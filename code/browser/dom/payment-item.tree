@@ -1,18 +1,20 @@
 
+load @cluesurf/bind/code/browser/dom/payment-currency-amount
+  find payment-currency-amount
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find payment-currency-amount
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form payment-item, name <PaymentItem>
   link amount, name <amount>
     like payment-currency-amount
-    flex true
+    lock false
   link label, name <label>
     like native-string
-    flex true
+    lock false
   link pending, name <pending>
     like native-boolean
-    flex true
+    lock false

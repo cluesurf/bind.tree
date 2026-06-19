@@ -1,14 +1,24 @@
 
+load @cluesurf/bind/code/browser/dom/css-rule
+  find css-rule
+
+load @cluesurf/bind/code/browser/dom/css-rule-list
+  find css-rule-list
+
+load @cluesurf/bind/code/browser/dom/style-sheet
+  find style-sheet
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find css-rule
-  find css-rule-list
-  find style-sheet
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form css-style-sheet, name <CSSStyleSheet>
   base style-sheet
@@ -23,24 +33,25 @@ form css-style-sheet, name <CSSStyleSheet>
     like css-rule-list
 
   task add-rule, name <addRule>
+    take selector, like maybe
+      like native-string
+    take style, like maybe
+      like native-string
+    take index, like maybe
+      like native-number
     like native-number
-
-    take selector, like maybe, like native-string
-    take style, like maybe, like native-string
-    take index, like maybe, like native-number
 
   task delete-rule, name <deleteRule>
+    take index, like native-number
     like native-void
-
-    take index
 
   task insert-rule, name <insertRule>
+    take rule, like native-string
+    take index, like maybe
+      like native-number
     like native-number
 
-    take rule
-    take index, like maybe, like native-number
-
   task remove-rule, name <removeRule>
+    take index, like maybe
+      like native-number
     like native-void
-
-    take index, like maybe, like native-number

@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find performance-entry
-
 load @cluesurf/bind/code/browser/dom/performance-measure
   find performance-measure
+
+load @cluesurf/bind/code/browser/webworker/performance-entry
+  find performance-entry
 
 form performance-measure, name <PerformanceMeasure>
   base performance-entry

@@ -1,11 +1,15 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
+load @cluesurf/bind/code/browser/dom/storage
+  find storage
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find event-init
-  find storage
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form storage-event-init, name <StorageEventInit>
   base event-init
@@ -14,22 +18,22 @@ form storage-event-init, name <StorageEventInit>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link new-value, name <newValue>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link old-value, name <oldValue>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link storage-area, name <storageArea>
     like or
       like storage
       like native-null
-    flex true
+    lock false
   link url, name <url>
     like native-string
-    flex true
+    lock false

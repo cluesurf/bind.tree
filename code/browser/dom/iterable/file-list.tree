@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/file
   find file
-
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
 
 load @cluesurf/bind/code/browser/dom/file-list
   find file-list
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
 
 form file-list, name <FileList>
   task {symbol/iterator}

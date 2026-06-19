@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find g-lenum
-
 load @cluesurf/bind/code/browser/dom/ext-blend-minmax
   find ext-blend-minmax
+
+load @cluesurf/bind/code/browser/webworker/g-lenum
+  find g-lenum
 
 form ext-blend-minmax, name <EXT_blend_minmax>
   link max-ext, name <MAX_EXT>

@@ -1,45 +1,45 @@
 
+load @cluesurf/bind/code/browser/dom/url-search-params
+  find url-search-params
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find url-search-params
 
 form url, name <URL>
   link hash, name <hash>
     like native-string
-    flex true
+    lock false
   link host, name <host>
     like native-string
-    flex true
+    lock false
   link hostname, name <hostname>
     like native-string
-    flex true
+    lock false
   link href, name <href>
     like native-string
-    flex true
+    lock false
   link origin, name <origin>
     like native-string
   link password, name <password>
     like native-string
-    flex true
+    lock false
   link pathname, name <pathname>
     like native-string
-    flex true
+    lock false
   link port, name <port>
     like native-string
-    flex true
+    lock false
   link protocol, name <protocol>
     like native-string
-    flex true
+    lock false
   link search, name <search>
     like native-string
-    flex true
+    lock false
   link search-params, name <searchParams>
     like url-search-params
   link username, name <username>
     like native-string
-    flex true
+    lock false
 
   task to-string, name <toString>
     like native-string

@@ -1,58 +1,64 @@
 
+load @cluesurf/bind/code/browser/dom/rtc-stats
+  find rtc-stats
+
+load @cluesurf/bind/code/browser/dom/rtc-stats-ice-candidate-pair-state
+  find rtc-stats-ice-candidate-pair-state
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find rtc-stats
-  find rtc-stats-ice-candidate-pair-state
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form rtc-ice-candidate-pair-stats, name <RTCIceCandidatePairStats>
   base rtc-stats
 
   link available-incoming-bitrate, name <availableIncomingBitrate>
     like native-number
-    flex true
+    lock false
   link available-outgoing-bitrate, name <availableOutgoingBitrate>
     like native-number
-    flex true
+    lock false
   link bytes-received, name <bytesReceived>
     like native-number
-    flex true
+    lock false
   link bytes-sent, name <bytesSent>
     like native-number
-    flex true
+    lock false
   link current-round-trip-time, name <currentRoundTripTime>
     like native-number
-    flex true
+    lock false
   link local-candidate-id, name <localCandidateId>
     like native-string
-    flex true
+    lock false
   link nominated, name <nominated>
     like native-boolean
-    flex true
+    lock false
   link remote-candidate-id, name <remoteCandidateId>
     like native-string
-    flex true
+    lock false
   link requests-received, name <requestsReceived>
     like native-number
-    flex true
+    lock false
   link requests-sent, name <requestsSent>
     like native-number
-    flex true
+    lock false
   link responses-received, name <responsesReceived>
     like native-number
-    flex true
+    lock false
   link responses-sent, name <responsesSent>
     like native-number
-    flex true
+    lock false
   link state, name <state>
     like rtc-stats-ice-candidate-pair-state
-    flex true
+    lock false
   link total-round-trip-time, name <totalRoundTripTime>
     like native-number
-    flex true
+    lock false
   link transport-id, name <transportId>
     like native-string
-    flex true
+    lock false

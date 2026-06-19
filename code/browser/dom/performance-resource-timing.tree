@@ -1,15 +1,24 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/browser/dom/performance-entry
   find performance-entry
+
+load @cluesurf/bind/code/browser/dom/performance-server-timing
   find performance-server-timing
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/readonly-array
   find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form performance-resource-timing, name <PerformanceResourceTiming>
   base performance-entry
@@ -53,4 +62,4 @@ form performance-resource-timing, name <PerformanceResourceTiming>
     like dom-high-res-time-stamp
 
   task to-json, name <toJSON>
-    like any
+    like native-any

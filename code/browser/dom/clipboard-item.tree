@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/blob
   find blob
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/es5/readonly-array
   find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form clipboard-item, name <ClipboardItem>
   link types, name <types>
@@ -15,7 +17,6 @@ form clipboard-item, name <ClipboardItem>
       like native-string
 
   task get-type, name <getType>
+    take type, like native-string
     like promise
       like blob
-
-    take type

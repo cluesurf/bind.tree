@@ -1,16 +1,30 @@
 
+load @cluesurf/bind/code/browser/dom/abstract-range
+  find abstract-range
+
+load @cluesurf/bind/code/browser/dom/document-fragment
+  find document-fragment
+
+load @cluesurf/bind/code/browser/dom/dom-rect
+  find dom-rect
+
+load @cluesurf/bind/code/browser/dom/dom-rect-list
+  find dom-rect-list
+
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find abstract-range
-  find document-fragment
-  find dom-rect
-  find dom-rect-list
-  find node
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form range, name <Range>
   base abstract-range
@@ -33,26 +47,23 @@ form range, name <Range>
     like range
 
   task collapse, name <collapse>
+    take to-start, like maybe
+      like native-boolean
     like native-void
 
-    take to-start, like maybe, like native-boolean
-
   task compare-boundary-points, name <compareBoundaryPoints>
+    take how, like native-number
+    take source-range, like range
     like native-number
-
-    take how
-    take source-range
 
   task compare-point, name <comparePoint>
+    take node, like node
+    take offset, like native-number
     like native-number
 
-    take node
-    take offset
-
   task create-contextual-fragment, name <createContextualFragment>
+    take fragment, like native-string
     like document-fragment
-
-    take fragment
 
   task delete-contents, name <deleteContents>
     like native-void
@@ -70,67 +81,55 @@ form range, name <Range>
     like dom-rect-list
 
   task insert-node, name <insertNode>
+    take node, like node
     like native-void
-
-    take node
 
   task intersects-node, name <intersectsNode>
+    take node, like node
     like native-boolean
-
-    take node
 
   task is-point-in-range, name <isPointInRange>
+    take node, like node
+    take offset, like native-number
     like native-boolean
 
-    take node
-    take offset
-
   task select-node, name <selectNode>
+    take node, like node
     like native-void
-
-    take node
 
   task select-node-contents, name <selectNodeContents>
+    take node, like node
     like native-void
-
-    take node
 
   task set-end, name <setEnd>
+    take node, like node
+    take offset, like native-number
     like native-void
-
-    take node
-    take offset
 
   task set-end-after, name <setEndAfter>
+    take node, like node
     like native-void
-
-    take node
 
   task set-end-before, name <setEndBefore>
+    take node, like node
     like native-void
-
-    take node
 
   task set-start, name <setStart>
+    take node, like node
+    take offset, like native-number
     like native-void
-
-    take node
-    take offset
 
   task set-start-after, name <setStartAfter>
+    take node, like node
     like native-void
-
-    take node
 
   task set-start-before, name <setStartBefore>
+    take node, like node
     like native-void
-
-    take node
 
   task surround-contents, name <surroundContents>
+    take new-parent, like node
     like native-void
-
-    take new-parent
 
   task to-string, name <toString>
     like native-string

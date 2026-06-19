@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/g-luint
   find g-luint
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/uint32-array
   find uint32-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 form uint32-list, name <Uint32List>
   like or
     like uint32-array
-    like array
+    like native-array
       like g-luint

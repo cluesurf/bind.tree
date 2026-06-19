@@ -1,0 +1,23 @@
+
+load @cluesurf/bind/code/javascript/es2015/collection/weak-set-constructor
+  find weak-set-constructor
+
+load @cluesurf/bind/code/javascript/es2015/iterable/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/es2015/iterable/weak-set
+  find weak-set
+
+load @cluesurf/bind/code/javascript/native
+  find native-object
+
+form weak-set-constructor, name <WeakSetConstructor>
+  hook make
+    head t
+      base native-object
+      back native-object
+    take iterable
+      like iterable
+        like t
+    like weak-set
+      like t

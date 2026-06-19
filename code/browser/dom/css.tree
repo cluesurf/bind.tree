@@ -1,20 +1,19 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 task escape, name <escape>
+  take ident, like native-string
   like native-string
 
-  take ident
-
 task supports, name <supports>
+  take property, like native-string
+  take value, like native-string
   like native-boolean
 
-  take property
-  take value
-
 task supports, name <supports>
+  take condition-text, like native-string
   like native-boolean
-
-  take condition-text

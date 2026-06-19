@@ -1,22 +1,26 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find close-event
-  find event
-  find message-event
-
 load @cluesurf/bind/code/browser/dom/web-socket-event-map
   find web-socket-event-map
+
+load @cluesurf/bind/code/browser/webworker/close-event
+  find close-event
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/message-event
+  find message-event
 
 form web-socket-event-map, name <WebSocketEventMap>
   link close, name <close>
     like close-event
-    flex true
+    lock false
   link error, name <error>
     like event
-    flex true
+    lock false
   link message, name <message>
     like message-event
-    flex true
+    lock false
   link open, name <open>
     like event
-    flex true
+    lock false

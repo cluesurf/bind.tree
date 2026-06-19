@@ -1,42 +1,46 @@
 
+load @cluesurf/bind/code/browser/dom/rtc-dtls-transport-state
+  find rtc-dtls-transport-state
+
+load @cluesurf/bind/code/browser/dom/rtc-stats
+  find rtc-stats
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find rtc-dtls-transport-state
-  find rtc-stats
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form rtc-transport-stats, name <RTCTransportStats>
   base rtc-stats
 
   link bytes-received, name <bytesReceived>
     like native-number
-    flex true
+    lock false
   link bytes-sent, name <bytesSent>
     like native-number
-    flex true
+    lock false
   link dtls-cipher, name <dtlsCipher>
     like native-string
-    flex true
+    lock false
   link dtls-state, name <dtlsState>
     like rtc-dtls-transport-state
-    flex true
+    lock false
   link local-certificate-id, name <localCertificateId>
     like native-string
-    flex true
+    lock false
   link remote-certificate-id, name <remoteCertificateId>
     like native-string
-    flex true
+    lock false
   link rtcp-transport-stats-id, name <rtcpTransportStatsId>
     like native-string
-    flex true
+    lock false
   link selected-candidate-pair-id, name <selectedCandidatePairId>
     like native-string
-    flex true
+    lock false
   link srtp-cipher, name <srtpCipher>
     like native-string
-    flex true
+    lock false
   link tls-version, name <tlsVersion>
     like native-string
-    flex true
+    lock false

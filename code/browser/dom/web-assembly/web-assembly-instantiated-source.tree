@@ -1,12 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/instance
   find instance
+
+load @cluesurf/bind/code/browser/dom/module
   find module
 
 form web-assembly-instantiated-source, name <WebAssemblyInstantiatedSource>
   link instance, name <instance>
     like instance
-    flex true
+    lock false
   link module, name <module>
     like module
-    flex true
+    lock false

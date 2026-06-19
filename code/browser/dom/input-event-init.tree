@@ -1,16 +1,24 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/data-transfer
+  find data-transfer
+
+load @cluesurf/bind/code/browser/dom/static-range
+  find static-range
+
+load @cluesurf/bind/code/browser/dom/ui-event-init
+  find ui-event-init
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find data-transfer
-  find static-range
-  find ui-event-init
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form input-event-init, name <InputEventInit>
   base ui-event-init
@@ -19,19 +27,19 @@ form input-event-init, name <InputEventInit>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link data-transfer, name <dataTransfer>
     like or
       like data-transfer
       like native-null
-    flex true
+    lock false
   link input-type, name <inputType>
     like native-string
-    flex true
+    lock false
   link is-composing, name <isComposing>
     like native-boolean
-    flex true
+    lock false
   link target-ranges, name <targetRanges>
-    like array
+    like native-array
       like static-range
-    flex true
+    lock false

@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form canvas-filters, name <CanvasFilters>
   link filter, name <filter>
     like native-string
-    flex true
+    lock false

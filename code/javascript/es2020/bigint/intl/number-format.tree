@@ -1,20 +1,26 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-bigint
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/javascript/es5
-  find resolved-number-format-options
-
 load @cluesurf/bind/code/javascript/es5/number-format
   find number-format
 
+load @cluesurf/bind/code/javascript/es5/resolved-number-format-options
+  find resolved-number-format-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-bigint
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
 form number-format, name <NumberFormat>
   task format, name <format>
-    like native-string
-
     take value
+      like or
+        like native-number
+        like native-bigint
+    like native-string
 
   task resolved-options, name <resolvedOptions>
     like resolved-number-format-options

@@ -1,12 +1,14 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form navigation-preload-state, name <NavigationPreloadState>
   link enabled, name <enabled>
     like native-boolean
-    flex true
+    lock false
   link header-value, name <headerValue>
     like native-string
-    flex true
+    lock false

@@ -1,29 +1,33 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-part
+  find relative-time-format-part
+
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-unit
+  find relative-time-format-unit
+
+load @cluesurf/bind/code/javascript/es2020/intl/resolved-relative-time-format-options
+  find resolved-relative-time-format-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/javascript/es2020/intl
-  find relative-time-format-part
-  find relative-time-format-unit
-  find resolved-relative-time-format-options
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form relative-time-format, name <RelativeTimeFormat>
   task format, name <format>
+    take value, like native-number
+    take unit, like relative-time-format-unit
     like native-string
 
-    take value
-    take unit
-
   task format-to-parts, name <formatToParts>
-    like array
+    take value, like native-number
+    take unit, like relative-time-format-unit
+    like native-array
       like relative-time-format-part
-
-    take value
-    take unit
 
   task resolved-options, name <resolvedOptions>
     like resolved-relative-time-format-options

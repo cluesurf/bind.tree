@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
-  find native-number
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/node
   find node
 
 load @cluesurf/bind/code/browser/dom/node-list-of
   find node-list-of
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form node-list-of, name <NodeListOf>
   head t-node
@@ -19,7 +21,7 @@ form node-list-of, name <NodeListOf>
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like native-number
         like t-node
 

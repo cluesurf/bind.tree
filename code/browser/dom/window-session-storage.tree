@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/storage
   find storage
 
 form window-session-storage, name <WindowSessionStorage>

@@ -1,13 +1,21 @@
 
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+  find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/browser/dom/dom-rect-read-only
+  find dom-rect-read-only
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find dom-high-res-time-stamp
-  find dom-rect-read-only
-  find element
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form intersection-observer-entry, name <IntersectionObserverEntry>
   link bounding-client-rect, name <boundingClientRect>

@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
+load @cluesurf/bind/code/browser/dom/text-track
+  find text-track
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find event-init
-  find text-track
 
 form track-event-init, name <TrackEventInit>
   base event-init
@@ -13,4 +15,4 @@ form track-event-init, name <TrackEventInit>
     like or
       like text-track
       like native-null
-    flex true
+    lock false

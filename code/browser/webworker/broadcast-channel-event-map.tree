@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find message-event
-
 load @cluesurf/bind/code/browser/dom/broadcast-channel-event-map
   find broadcast-channel-event-map
+
+load @cluesurf/bind/code/browser/webworker/message-event
+  find message-event
 
 form broadcast-channel-event-map, name <BroadcastChannelEventMap>
   link message, name <message>
     like message-event
-    flex true
+    lock false
   link messageerror, name <messageerror>
     like message-event
-    flex true
+    lock false

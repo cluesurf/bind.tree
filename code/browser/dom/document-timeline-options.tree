@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
 
 form document-timeline-options, name <DocumentTimelineOptions>
   link origin-time, name <originTime>
     like dom-high-res-time-stamp
-    flex true
+    lock false

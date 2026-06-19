@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/form-data
   find form-data
 
 form form-data-event, name <FormDataEvent>

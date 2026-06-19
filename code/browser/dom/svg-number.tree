@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form svg-number, name <SVGNumber>
   link value, name <value>
     like native-number
-    flex true
+    lock false

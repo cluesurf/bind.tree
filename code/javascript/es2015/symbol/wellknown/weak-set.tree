@@ -1,10 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-object
-  find native-string
-
 load @cluesurf/bind/code/javascript/es2015/iterable/weak-set
   find weak-set
+
+load @cluesurf/bind/code/javascript/native
+  find native-object
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form weak-set, name <WeakSet>
   head t
@@ -12,4 +14,4 @@ form weak-set, name <WeakSet>
 
   link {symbol/to-string-tag}
     like native-string
-    work true
+    read true

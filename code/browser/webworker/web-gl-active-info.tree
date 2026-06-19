@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find g-lenum
-  find g-lint
-
 load @cluesurf/bind/code/browser/dom/web-gl-active-info
   find web-gl-active-info
+
+load @cluesurf/bind/code/browser/webworker/g-lenum
+  find g-lenum
+
+load @cluesurf/bind/code/browser/webworker/g-lint
+  find g-lint
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form web-gl-active-info, name <WebGLActiveInfo>
   link name, name <name>

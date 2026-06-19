@@ -1,16 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find queuing-strategy
-  find queuing-strategy-size
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer-view
-
 load @cluesurf/bind/code/browser/dom/byte-length-queuing-strategy
   find byte-length-queuing-strategy
+
+load @cluesurf/bind/code/browser/webworker/queuing-strategy
+  find queuing-strategy
+
+load @cluesurf/bind/code/browser/webworker/queuing-strategy-size
+  find queuing-strategy-size
+
+load @cluesurf/bind/code/javascript/es5/array-buffer-view
+  find array-buffer-view
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form byte-length-queuing-strategy, name <ByteLengthQueuingStrategy>
   base queuing-strategy

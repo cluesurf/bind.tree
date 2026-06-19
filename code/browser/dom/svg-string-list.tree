@@ -1,7 +1,11 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form svg-string-list, name <SVGStringList>
@@ -11,39 +15,33 @@ form svg-string-list, name <SVGStringList>
     like native-number
 
   task append-item, name <appendItem>
+    take new-item, like native-string
     like native-string
-
-    take new-item
 
   task clear, name <clear>
     like native-void
 
   task get-item, name <getItem>
+    take index, like native-number
     like native-string
-
-    take index
 
   task initialize, name <initialize>
+    take new-item, like native-string
     like native-string
-
-    take new-item
 
   task insert-item-before, name <insertItemBefore>
+    take new-item, like native-string
+    take index, like native-number
     like native-string
-
-    take new-item
-    take index
 
   task remove-item, name <removeItem>
+    take index, like native-number
     like native-string
-
-    take index
 
   task replace-item, name <replaceItem>
+    take new-item, like native-string
+    take index, like native-number
     like native-string
 
-    take new-item
-    take index
-
-  mesh index
+  mesh index, like native-number
     like native-string

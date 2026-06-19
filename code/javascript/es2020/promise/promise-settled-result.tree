@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/javascript/es2020/promise
+load @cluesurf/bind/code/javascript/es2020/promise/promise-fulfilled-result
   find promise-fulfilled-result
+
+load @cluesurf/bind/code/javascript/es2020/promise/promise-rejected-result
   find promise-rejected-result
 
 form promise-settled-result, name <PromiseSettledResult>

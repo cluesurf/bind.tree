@@ -5,7 +5,7 @@ load @cluesurf/bind/code/javascript/native
 form rtc-dtls-fingerprint, name <RTCDtlsFingerprint>
   link algorithm, name <algorithm>
     like native-string
-    flex true
+    lock false
   link value, name <value>
     like native-string
-    flex true
+    lock false

@@ -1,12 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/blob
+  find blob
+
+load @cluesurf/bind/code/browser/dom/buffer-source
+  find buffer-source
+
+load @cluesurf/bind/code/browser/dom/form-data
+  find form-data
+
+load @cluesurf/bind/code/browser/dom/url-search-params
+  find url-search-params
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find blob
-  find buffer-source
-  find form-data
-  find url-search-params
 
 form xml-http-request-body-init, name <XMLHttpRequestBodyInit>
   like or

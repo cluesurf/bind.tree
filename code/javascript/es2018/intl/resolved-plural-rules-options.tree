@@ -1,38 +1,42 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es2018/intl/ldml-plural-rule
+  find ldml-plural-rule
+
+load @cluesurf/bind/code/javascript/es2018/intl/plural-rule-type
+  find plural-rule-type
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/javascript/es2018/intl
-  find ldml-plural-rule
-  find plural-rule-type
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form resolved-plural-rules-options, name <ResolvedPluralRulesOptions>
   link locale, name <locale>
     like native-string
-    flex true
+    lock false
   link plural-categories, name <pluralCategories>
-    like array
+    like native-array
       like ldml-plural-rule
-    flex true
+    lock false
   link type, name <type>
     like plural-rule-type
-    flex true
+    lock false
   link minimum-integer-digits, name <minimumIntegerDigits>
     like native-number
-    flex true
+    lock false
   link minimum-fraction-digits, name <minimumFractionDigits>
     like native-number
-    flex true
+    lock false
   link maximum-fraction-digits, name <maximumFractionDigits>
     like native-number
-    flex true
+    lock false
   link minimum-significant-digits, name <minimumSignificantDigits>
     like native-number
-    flex true
+    lock false
   link maximum-significant-digits, name <maximumSignificantDigits>
     like native-number
-    flex true
+    lock false

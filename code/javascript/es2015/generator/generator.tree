@@ -1,43 +1,48 @@
 
-load @cluesurf/bind/code/javascript/native
+load @cluesurf/bind/code/javascript/iterator
   find iterator
+
+load @cluesurf/bind/code/javascript/iterator-result
   find iterator-result
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-unknown
 
 form generator, name <Generator>
   base iterator
 
   head t
-    fall unknown
+    back native-unknown
   head t-return
-    fall any
+    back native-any
   head t-next
-    fall unknown
+    back native-unknown
 
   task next, name <next>
-    like iterator-result
-      like t
-      like t-return
-
     take args
       like or
-        like tuple
-        like tuple
+        like band
+        like band
           like t-next
       rest true
+    like iterator-result
+      like t
+      like t-return
 
   task return, name <return>
+    take value, like t-return
     like iterator-result
       like t
       like t-return
-
-    take value
 
   task throw, name <throw>
+    take e, like native-any
     like iterator-result
       like t
       like t-return
-
-    take e
 
   task {symbol/iterator}
     like generator

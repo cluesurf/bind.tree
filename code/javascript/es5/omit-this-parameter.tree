@@ -1,35 +1,38 @@
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/a
+  find a
+
+load @cluesurf/bind/code/javascript/es5/this-parameter-type
   find this-parameter-type
 
 load @cluesurf/bind/code/javascript/native
-  find a
+  find native-unknown
+
+load @cluesurf/bind/code/javascript/r
   find r
 
 form omit-this-parameter, name <OmitThisParameter>
   head t
 
   like test
-    fork roll
-      like unknown
+    stem roll
+      like native-unknown
       like this-parameter-type
         like t
       hook true
         like t
       hook false
         like test
-          fork roll
+          stem roll
             like t
             like task
-              name r
-
               take args, name a
                 rest true
+              name r
             hook true
               like task
-                like r
-
                 take args, like a
                   rest true
+                like r
             hook false
               like t

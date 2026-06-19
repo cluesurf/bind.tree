@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
+
+load @cluesurf/bind/code/javascript/es5/array-buffer-view
   find array-buffer-view
 
 form binary-data, name <BinaryData>

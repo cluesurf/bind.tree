@@ -5,10 +5,10 @@ load @cluesurf/bind/code/javascript/native
 form event-init, name <EventInit>
   link bubbles, name <bubbles>
     like native-boolean
-    flex true
+    lock false
   link cancelable, name <cancelable>
     like native-boolean
-    flex true
+    lock false
   link composed, name <composed>
     like native-boolean
-    flex true
+    lock false

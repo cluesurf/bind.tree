@@ -5,7 +5,7 @@ load @cluesurf/bind/code/javascript/native
 form text-decoder-options, name <TextDecoderOptions>
   link fatal, name <fatal>
     like native-boolean
-    flex true
+    lock false
   link ignore-bom, name <ignoreBOM>
     like native-boolean
-    flex true
+    lock false

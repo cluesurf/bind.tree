@@ -1,22 +1,33 @@
 
+load @cluesurf/bind/code/browser/dom/scroll-restoration
+  find scroll-restoration
+
+load @cluesurf/bind/code/browser/dom/url
+  find url
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find scroll-restoration
-  find url
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form history, name <History>
   link length, name <length>
     like native-number
   link scroll-restoration, name <scrollRestoration>
     like scroll-restoration
-    flex true
+    lock false
   link state, name <state>
-    like any
+    like native-any
 
   task back, name <back>
     like native-void
@@ -25,30 +36,26 @@ form history, name <History>
     like native-void
 
   task go, name <go>
+    take delta, like maybe
+      like native-number
     like native-void
-
-    take delta, like maybe, like native-number
 
   task push-state, name <pushState>
+    take data, like native-any
+    take unused, like native-string
+    take url, like maybe
+      like or
+        like native-string
+        like url
+        like native-null
     like native-void
-
-    take data
-    take unused
-    take url
-      like maybe
-        like or
-          like native-string
-          like url
-          like native-null
 
   task replace-state, name <replaceState>
+    take data, like native-any
+    take unused, like native-string
+    take url, like maybe
+      like or
+        like native-string
+        like url
+        like native-null
     like native-void
-
-    take data
-    take unused
-    take url
-      like maybe
-        like or
-          like native-string
-          like url
-          like native-null

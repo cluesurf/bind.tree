@@ -1,23 +1,31 @@
 
+load @cluesurf/bind/code/javascript/es5/object
+  find object
+
+load @cluesurf/bind/code/javascript/es5/typed-property-descriptor
+  find typed-property-descriptor
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-symbol
-  find native-void
-  find t
 
-load @cluesurf/bind/code/javascript/es5
-  find object
-  find typed-property-descriptor
+load @cluesurf/bind/code/javascript/native
+  find native-symbol
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form method-decorator, name <MethodDecorator>
   like task
+    head t
+    take target, like object
+    take property-key
+      like or
+        like native-string
+        like native-symbol
+    take descriptor
+      like typed-property-descriptor
+        like t
     like or
       like typed-property-descriptor
         like t
       like native-void
-
-    head t
-
-    take target
-    take property-key
-    take descriptor

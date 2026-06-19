@@ -1,15 +1,21 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/document
+  find document
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find document
-  find element
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form intersection-observer-init, name <IntersectionObserverInit>
   link root, name <root>
@@ -17,13 +23,13 @@ form intersection-observer-init, name <IntersectionObserverInit>
       like element
       like document
       like native-null
-    flex true
+    lock false
   link root-margin, name <rootMargin>
     like native-string
-    flex true
+    lock false
   link threshold, name <threshold>
     like or
       like native-number
-      like array
+      like native-array
         like native-number
-    flex true
+    lock false

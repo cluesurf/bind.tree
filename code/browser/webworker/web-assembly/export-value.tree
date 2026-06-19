@@ -1,10 +1,14 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/global
   find global
+
+load @cluesurf/bind/code/browser/webworker/memory
   find memory
+
+load @cluesurf/bind/code/browser/webworker/table
   find table
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/function
   find function
 
 form export-value, name <ExportValue>

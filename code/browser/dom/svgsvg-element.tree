@@ -1,43 +1,114 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/dom-matrix
+  find dom-matrix
+
+load @cluesurf/bind/code/browser/dom/dom-matrix2-d-init
+  find dom-matrix2-d-init
+
+load @cluesurf/bind/code/browser/dom/dom-point
+  find dom-point
+
+load @cluesurf/bind/code/browser/dom/dom-point-read-only
+  find dom-point-read-only
+
+load @cluesurf/bind/code/browser/dom/dom-rect
+  find dom-rect
+
+load @cluesurf/bind/code/browser/dom/dom-rect-read-only
+  find dom-rect-read-only
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/node-list-of
+  find node-list-of
+
+load @cluesurf/bind/code/browser/dom/svg-angle
+  find svg-angle
+
+load @cluesurf/bind/code/browser/dom/svg-animated-length
+  find svg-animated-length
+
+load @cluesurf/bind/code/browser/dom/svg-circle-element
+  find svg-circle-element
+
+load @cluesurf/bind/code/browser/dom/svg-element
+  find svg-element
+
+load @cluesurf/bind/code/browser/dom/svg-ellipse-element
+  find svg-ellipse-element
+
+load @cluesurf/bind/code/browser/dom/svg-fit-to-view-box
+  find svg-fit-to-view-box
+
+load @cluesurf/bind/code/browser/dom/svg-graphics-element
+  find svg-graphics-element
+
+load @cluesurf/bind/code/browser/dom/svg-image-element
+  find svg-image-element
+
+load @cluesurf/bind/code/browser/dom/svg-length
+  find svg-length
+
+load @cluesurf/bind/code/browser/dom/svg-line-element
+  find svg-line-element
+
+load @cluesurf/bind/code/browser/dom/svg-number
+  find svg-number
+
+load @cluesurf/bind/code/browser/dom/svg-path-element
+  find svg-path-element
+
+load @cluesurf/bind/code/browser/dom/svg-polygon-element
+  find svg-polygon-element
+
+load @cluesurf/bind/code/browser/dom/svg-polyline-element
+  find svg-polyline-element
+
+load @cluesurf/bind/code/browser/dom/svg-rect-element
+  find svg-rect-element
+
+load @cluesurf/bind/code/browser/dom/svg-text-element
+  find svg-text-element
+
+load @cluesurf/bind/code/browser/dom/svg-transform
+  find svg-transform
+
+load @cluesurf/bind/code/browser/dom/svg-use-element
+  find svg-use-element
+
+load @cluesurf/bind/code/browser/dom/svgsvg-element-event-map
+  find svgsvg-element-event-map
+
+load @cluesurf/bind/code/browser/dom/window-event-handlers
+  find window-event-handlers
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find dom-matrix
-  find dom-matrix2-d-init
-  find dom-point
-  find dom-point-read-only
-  find dom-rect
-  find dom-rect-read-only
-  find element
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find node-list-of
-  find svg-angle
-  find svg-animated-length
-  find svg-circle-element
-  find svg-element
-  find svg-ellipse-element
-  find svg-fit-to-view-box
-  find svg-graphics-element
-  find svg-image-element
-  find svg-length
-  find svg-line-element
-  find svg-number
-  find svg-path-element
-  find svg-polygon-element
-  find svg-polyline-element
-  find svg-rect-element
-  find svg-text-element
-  find svg-transform
-  find svg-use-element
-  find svgsvg-element-event-map
-  find window-event-handlers
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form svgsvg-element, name <SVGSVGElement>
   base svg-graphics-element
@@ -46,7 +117,7 @@ form svgsvg-element, name <SVGSVGElement>
 
   link current-scale, name <currentScale>
     like native-number
-    flex true
+    lock false
   link current-translate, name <currentTranslate>
     like dom-point-read-only
   link height, name <height>
@@ -62,16 +133,14 @@ form svgsvg-element, name <SVGSVGElement>
     like native-boolean
 
   task check-enclosure, name <checkEnclosure>
+    take element, like svg-element
+    take rect, like dom-rect-read-only
     like native-boolean
-
-    take element
-    take rect
 
   task check-intersection, name <checkIntersection>
+    take element, like svg-element
+    take rect, like dom-rect-read-only
     like native-boolean
-
-    take element
-    take rect
 
   task create-svg-angle, name <createSVGAngle>
     like svg-angle
@@ -95,9 +164,9 @@ form svgsvg-element, name <SVGSVGElement>
     like svg-transform
 
   task create-svg-transform-from-matrix, name <createSVGTransformFromMatrix>
+    take matrix, like maybe
+      like dom-matrix2-d-init
     like svg-transform
-
-    take matrix, like maybe, like dom-matrix2-d-init
 
   task deselect-all, name <deselectAll>
     like native-void
@@ -109,11 +178,15 @@ form svgsvg-element, name <SVGSVGElement>
     like native-number
 
   task get-element-by-id, name <getElementById>
+    take element-id, like native-string
     like element
 
-    take element-id
-
   task get-enclosure-list, name <getEnclosureList>
+    take rect, like dom-rect-read-only
+    take reference-element
+      like or
+        like svg-element
+        like native-null
     like node-list-of
       like or
         like svg-circle-element
@@ -126,11 +199,13 @@ form svgsvg-element, name <SVGSVGElement>
         like svg-rect-element
         like svg-text-element
         like svg-use-element
-
-    take rect
-    take reference-element
 
   task get-intersection-list, name <getIntersectionList>
+    take rect, like dom-rect-read-only
+    take reference-element
+      like or
+        like svg-element
+        like native-null
     like node-list-of
       like or
         like svg-circle-element
@@ -143,82 +218,80 @@ form svgsvg-element, name <SVGSVGElement>
         like svg-rect-element
         like svg-text-element
         like svg-use-element
-
-    take rect
-    take reference-element
 
   task pause-animations, name <pauseAnimations>
     like native-void
 
   task set-current-time, name <setCurrentTime>
+    take seconds, like native-number
     like native-void
 
-    take seconds
-
   task suspend-redraw, name <suspendRedraw>
+    take max-wait-milliseconds, like native-number
     like native-number
-
-    take max-wait-milliseconds
 
   task unpause-animations, name <unpauseAnimations>
     like native-void
 
   task unsuspend-redraw, name <unsuspendRedraw>
+    take suspend-handle-id, like native-number
     like native-void
-
-    take suspend-handle-id
 
   task unsuspend-redraw-all, name <unsuspendRedrawAll>
     like native-void
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like svgsvg-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like svgsvg-element
+        take ev
+          like index
+            like svgsvg-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like svgsvg-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like svgsvg-element
+        take ev
+          like index
+            like svgsvg-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

@@ -1,74 +1,77 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-number
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find canvas-fill-rule
-  find path2-d
-
 load @cluesurf/bind/code/browser/dom/canvas-draw-path
   find canvas-draw-path
+
+load @cluesurf/bind/code/browser/webworker/canvas-fill-rule
+  find canvas-fill-rule
+
+load @cluesurf/bind/code/browser/webworker/path2-d
+  find path2-d
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form canvas-draw-path, name <CanvasDrawPath>
   task begin-path, name <beginPath>
     like native-void
 
   task clip, name <clip>
+    take fill-rule, like maybe
+      like canvas-fill-rule
     like native-void
-
-    take fill-rule, like maybe, like canvas-fill-rule
 
   task clip, name <clip>
+    take path, like path2-d
+    take fill-rule, like maybe
+      like canvas-fill-rule
     like native-void
-
-    take path
-    take fill-rule, like maybe, like canvas-fill-rule
 
   task fill, name <fill>
+    take fill-rule, like maybe
+      like canvas-fill-rule
     like native-void
-
-    take fill-rule, like maybe, like canvas-fill-rule
 
   task fill, name <fill>
+    take path, like path2-d
+    take fill-rule, like maybe
+      like canvas-fill-rule
     like native-void
 
-    take path
-    take fill-rule, like maybe, like canvas-fill-rule
+  task is-point-in-path, name <isPointInPath>
+    take x, like native-number
+    take y, like native-number
+    take fill-rule, like maybe
+      like canvas-fill-rule
+    like native-boolean
 
   task is-point-in-path, name <isPointInPath>
+    take path, like path2-d
+    take x, like native-number
+    take y, like native-number
+    take fill-rule, like maybe
+      like canvas-fill-rule
     like native-boolean
-
-    take x
-    take y
-    take fill-rule, like maybe, like canvas-fill-rule
-
-  task is-point-in-path, name <isPointInPath>
-    like native-boolean
-
-    take path
-    take x
-    take y
-    take fill-rule, like maybe, like canvas-fill-rule
 
   task is-point-in-stroke, name <isPointInStroke>
+    take x, like native-number
+    take y, like native-number
     like native-boolean
-
-    take x
-    take y
 
   task is-point-in-stroke, name <isPointInStroke>
+    take path, like path2-d
+    take x, like native-number
+    take y, like native-number
     like native-boolean
-
-    take path
-    take x
-    take y
 
   task stroke, name <stroke>
     like native-void
 
   task stroke, name <stroke>
+    take path, like path2-d
     like native-void
-
-    take path

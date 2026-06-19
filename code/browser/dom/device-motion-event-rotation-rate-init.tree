@@ -1,6 +1,8 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
 
 form device-motion-event-rotation-rate-init, name <DeviceMotionEventRotationRateInit>
@@ -8,14 +10,14 @@ form device-motion-event-rotation-rate-init, name <DeviceMotionEventRotationRate
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link beta, name <beta>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link gamma, name <gamma>
     like or
       like native-number
       like native-null
-    flex true
+    lock false

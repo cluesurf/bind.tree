@@ -1,14 +1,18 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/animation
+  find animation
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/style-sheet-list
+  find style-sheet-list
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find animation
-  find element
-  find style-sheet-list
 
 form document-or-shadow-root, name <DocumentOrShadowRoot>
   link active-element, name <activeElement>
@@ -31,5 +35,5 @@ form document-or-shadow-root, name <DocumentOrShadowRoot>
     like style-sheet-list
 
   task get-animations, name <getAnimations>
-    like array
+    like native-array
       like animation

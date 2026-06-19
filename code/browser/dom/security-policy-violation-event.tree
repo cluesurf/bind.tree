@@ -1,11 +1,15 @@
 
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/security-policy-violation-event-disposition
+  find security-policy-violation-event-disposition
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find event
-  find security-policy-violation-event-disposition
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form security-policy-violation-event, name <SecurityPolicyViolationEvent>
   base event

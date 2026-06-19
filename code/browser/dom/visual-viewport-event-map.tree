@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form visual-viewport-event-map, name <VisualViewportEventMap>
   link resize, name <resize>
     like event
-    flex true
+    lock false
   link scroll, name <scroll>
     like event
-    flex true
+    lock false

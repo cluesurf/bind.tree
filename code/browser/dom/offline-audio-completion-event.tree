@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/audio-buffer
   find audio-buffer
+
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form offline-audio-completion-event, name <OfflineAudioCompletionEvent>

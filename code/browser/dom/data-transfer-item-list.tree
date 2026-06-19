@@ -1,40 +1,45 @@
 
+load @cluesurf/bind/code/browser/dom/data-transfer-item
+  find data-transfer-item
+
+load @cluesurf/bind/code/browser/dom/file
+  find file
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find data-transfer-item
-  find file
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form data-transfer-item-list, name <DataTransferItemList>
   link length, name <length>
     like native-number
 
   task add, name <add>
+    take data, like native-string
+    take type, like native-string
     like or
       like data-transfer-item
       like native-null
-
-    take data
-    take type
 
   task add, name <add>
+    take data, like file
     like or
       like data-transfer-item
       like native-null
-
-    take data
 
   task clear, name <clear>
     like native-void
 
   task remove, name <remove>
+    take index, like native-number
     like native-void
 
-    take index
-
-  mesh index
+  mesh index, like native-number
     like data-transfer-item

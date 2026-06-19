@@ -1,68 +1,70 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/rsa-other-primes-info
+  find rsa-other-primes-info
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find rsa-other-primes-info
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form json-web-key, name <JsonWebKey>
   link alg, name <alg>
     like native-string
-    flex true
+    lock false
   link crv, name <crv>
     like native-string
-    flex true
+    lock false
   link d, name <d>
     like native-string
-    flex true
+    lock false
   link dp, name <dp>
     like native-string
-    flex true
+    lock false
   link dq, name <dq>
     like native-string
-    flex true
+    lock false
   link e, name <e>
     like native-string
-    flex true
+    lock false
   link ext, name <ext>
     like native-boolean
-    flex true
+    lock false
   link k, name <k>
     like native-string
-    flex true
+    lock false
   link key-ops, name <key_ops>
-    like array
+    like native-array
       like native-string
-    flex true
+    lock false
   link kty, name <kty>
     like native-string
-    flex true
+    lock false
   link n, name <n>
     like native-string
-    flex true
+    lock false
   link oth, name <oth>
-    like array
+    like native-array
       like rsa-other-primes-info
-    flex true
+    lock false
   link p, name <p>
     like native-string
-    flex true
+    lock false
   link q, name <q>
     like native-string
-    flex true
+    lock false
   link qi, name <qi>
     like native-string
-    flex true
+    lock false
   link use, name <use>
     like native-string
-    flex true
+    lock false
   link x, name <x>
     like native-string
-    flex true
+    lock false
   link y, name <y>
     like native-string
-    flex true
+    lock false

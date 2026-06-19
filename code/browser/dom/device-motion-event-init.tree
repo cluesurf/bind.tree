@@ -1,24 +1,28 @@
 
+load @cluesurf/bind/code/browser/dom/device-motion-event-acceleration-init
+  find device-motion-event-acceleration-init
+
+load @cluesurf/bind/code/browser/dom/device-motion-event-rotation-rate-init
+  find device-motion-event-rotation-rate-init
+
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find device-motion-event-acceleration-init
-  find device-motion-event-rotation-rate-init
-  find event-init
 
 form device-motion-event-init, name <DeviceMotionEventInit>
   base event-init
 
   link acceleration, name <acceleration>
     like device-motion-event-acceleration-init
-    flex true
+    lock false
   link acceleration-including-gravity, name <accelerationIncludingGravity>
     like device-motion-event-acceleration-init
-    flex true
+    lock false
   link interval, name <interval>
     like native-number
-    flex true
+    lock false
   link rotation-rate, name <rotationRate>
     like device-motion-event-rotation-rate-init
-    flex true
+    lock false

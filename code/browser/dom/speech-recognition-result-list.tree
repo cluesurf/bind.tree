@@ -1,18 +1,17 @@
 
+load @cluesurf/bind/code/browser/dom/speech-recognition-result
+  find speech-recognition-result
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find speech-recognition-result
 
 form speech-recognition-result-list, name <SpeechRecognitionResultList>
   link length, name <length>
     like native-number
 
   task item, name <item>
+    take index, like native-number
     like speech-recognition-result
 
-    take index
-
-  mesh index
+  mesh index, like native-number
     like speech-recognition-result

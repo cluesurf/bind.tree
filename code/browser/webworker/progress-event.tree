@@ -1,22 +1,28 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find event
-  find event-target
-
 load @cluesurf/bind/code/browser/dom/progress-event
   find progress-event
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/event-target
+  find event-target
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form progress-event, name <ProgressEvent>
   base event
 
   head t
     base event-target
-    fall event-target
+    back event-target
 
   link length-computable, name <lengthComputable>
     like native-boolean

@@ -1,17 +1,19 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/payment-details-modifier
   find payment-details-modifier
+
+load @cluesurf/bind/code/browser/dom/payment-item
   find payment-item
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 form payment-details-base, name <PaymentDetailsBase>
   link display-items, name <displayItems>
-    like array
+    like native-array
       like payment-item
-    flex true
+    lock false
   link modifiers, name <modifiers>
-    like array
+    like native-array
       like payment-details-modifier
-    flex true
+    lock false

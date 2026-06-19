@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/rtc-ice-candidate
+  find rtc-ice-candidate
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find event
-  find rtc-ice-candidate
 
 form rtc-peer-connection-ice-event, name <RTCPeerConnectionIceEvent>
   base event

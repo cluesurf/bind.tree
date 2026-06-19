@@ -1,52 +1,25 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-object
+
+load @cluesurf/bind/code/javascript/native
   find native-this
-
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/es2015/collection/weak-set
-  find weak-set
 
 form weak-set, name <WeakSet>
   head t
     base native-object
 
   task add, name <add>
+    take value, like t
     like native-this
 
-    take value
-
   task delete, name <delete>
+    take value, like t
     like native-boolean
-
-    take value
 
   task has, name <has>
+    take value, like t
     like native-boolean
-
-    take value
-
-form weak-set
-  hook self
-    link prototype, name <prototype>
-      like weak-set
-        like native-object
-
-  hook make
-    like weak-set
-      like t
-
-    head t
-      base native-object
-      fall native-object
-
-    take values
-      like maybe
-        like or
-          like array
-            like t
-          like native-null

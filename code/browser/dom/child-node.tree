@@ -1,44 +1,43 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find node
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form child-node, name <ChildNode>
   task after, name <after>
-    like native-void
-
     take nodes
-      like array
+      like native-array
         like or
           like node
           like native-string
       rest true
+    like native-void
 
   task before, name <before>
-    like native-void
-
     take nodes
-      like array
+      like native-array
         like or
           like node
           like native-string
       rest true
+    like native-void
 
   task remove, name <remove>
     like native-void
 
   task replace-with, name <replaceWith>
-    like native-void
-
     take nodes
-      like array
+      like native-array
         like or
           like node
           like native-string
       rest true
+    like native-void

@@ -4,7 +4,7 @@ form readable-stream-default-read-value-result, name <ReadableStreamDefaultReadV
 
   link done, name <done>
     text <false>
-    flex true
+    lock false
   link value, name <value>
     like t
-    flex true
+    lock false

@@ -1,13 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-undefined
-  find native-void
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 load @cluesurf/bind/code/browser/dom/readable-stream-generic-reader
   find readable-stream-generic-reader
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form readable-stream-generic-reader, name <ReadableStreamGenericReader>
   link closed, name <closed>
@@ -15,7 +20,7 @@ form readable-stream-generic-reader, name <ReadableStreamGenericReader>
       like native-undefined
 
   task cancel, name <cancel>
+    take reason, like maybe
+      like native-any
     like promise
       like native-void
-
-    take reason, like maybe, like any

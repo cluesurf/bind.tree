@@ -1,25 +1,6 @@
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/error
   find error
-  find error-constructor
-
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/javascript/es5/syntax-error
-  find syntax-error
 
 form syntax-error, name <SyntaxError>
   base error
-
-form syntax-error
-  hook self
-  base error-constructor
-
-    link prototype, name <prototype>
-      like syntax-error
-
-  hook make
-    like syntax-error
-
-    take message, like maybe, like native-string

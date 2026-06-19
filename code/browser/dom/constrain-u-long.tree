@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/dom/constrain-u-long-range
+  find constrain-u-long-range
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find constrain-u-long-range
 
 form constrain-u-long, name <ConstrainULong>
   like or

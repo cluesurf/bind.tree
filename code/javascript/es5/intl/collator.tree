@@ -1,17 +1,18 @@
 
+load @cluesurf/bind/code/javascript/es5/resolved-collator-options
+  find resolved-collator-options
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/javascript/es5
-  find resolved-collator-options
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form collator, name <Collator>
   task compare, name <compare>
+    take x, like native-string
+    take y, like native-string
     like native-number
-
-    take x
-    take y
 
   task resolved-options, name <resolvedOptions>
     like resolved-collator-options

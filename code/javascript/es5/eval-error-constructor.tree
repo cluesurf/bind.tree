@@ -1,0 +1,20 @@
+
+load @cluesurf/bind/code/javascript/es5/error-constructor
+  find error-constructor
+
+load @cluesurf/bind/code/javascript/es5/eval-error
+  find eval-error
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+form eval-error-constructor, name <EvalErrorConstructor>
+  base error-constructor
+
+  link prototype, name <prototype>
+    like eval-error
+
+  hook make
+    take message, like maybe
+      like native-string
+    like eval-error

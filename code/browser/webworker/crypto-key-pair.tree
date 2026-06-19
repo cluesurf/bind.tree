@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find crypto-key
-
 load @cluesurf/bind/code/browser/dom/crypto-key-pair
   find crypto-key-pair
+
+load @cluesurf/bind/code/browser/webworker/crypto-key
+  find crypto-key
 
 form crypto-key-pair, name <CryptoKeyPair>
   link private-key, name <privateKey>
     like crypto-key
-    flex true
+    lock false
   link public-key, name <publicKey>
     like crypto-key
-    flex true
+    lock false

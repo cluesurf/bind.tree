@@ -1,73 +1,86 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-undefined
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find cache-query-options
-  find request
-  find request-info
-  find response
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-  find readonly-array
-
 load @cluesurf/bind/code/browser/dom/iterable/cache
   find cache
 
+load @cluesurf/bind/code/browser/webworker/cache-query-options
+  find cache-query-options
+
+load @cluesurf/bind/code/browser/webworker/request
+  find request
+
+load @cluesurf/bind/code/browser/webworker/request-info
+  find request-info
+
+load @cluesurf/bind/code/browser/webworker/response
+  find response
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/es5/readonly-array
+  find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form cache, name <Cache>
   task add, name <add>
+    take request, like request-info
     like promise
       like native-void
-
-    take request
 
   task add-all, name <addAll>
+    take requests
+      like native-array
+        like request-info
     like promise
       like native-void
 
-    take requests
-
   task delete, name <delete>
+    take request, like request-info
+    take options, like maybe
+      like cache-query-options
     like promise
       like native-boolean
 
-    take request
-    take options, like maybe, like cache-query-options
-
   task keys, name <keys>
+    take request, like maybe
+      like request-info
+    take options, like maybe
+      like cache-query-options
     like promise
       like readonly-array
         like request
 
-    take request, like maybe, like request-info
-    take options, like maybe, like cache-query-options
-
   task match, name <match>
+    take request, like request-info
+    take options, like maybe
+      like cache-query-options
     like promise
       like or
         like response
         like native-undefined
 
-    take request
-    take options, like maybe, like cache-query-options
-
   task match-all, name <matchAll>
+    take request, like maybe
+      like request-info
+    take options, like maybe
+      like cache-query-options
     like promise
       like readonly-array
         like response
 
-    take request, like maybe, like request-info
-    take options, like maybe, like cache-query-options
-
   task put, name <put>
+    take request, like request-info
+    take response, like response
     like promise
       like native-void
-
-    take request
-    take response

@@ -1,24 +1,40 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es5/concat-array
+  find concat-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
-  find native-this
-  find native-undefined
-  find native-void
 
-load @cluesurf/bind/code/javascript/es5
-  find concat-array
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-this
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
+load @cluesurf/bind/code/javascript/native
+  find native-unknown
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form array, name <Array>
   head t
 
   link length, name <length>
     like native-number
-    flex true
+    lock false
 
   task to-string, name <toString>
     like native-string
@@ -32,42 +48,39 @@ form array, name <Array>
       like native-undefined
 
   task push, name <push>
-    like native-number
-
     take items
-      like array
+      like native-array
         like t
       rest true
+    like native-number
 
   task concat, name <concat>
-    like array
-      like t
-
     take items
-      like array
+      like native-array
         like concat-array
           like t
       rest true
-
-  task concat, name <concat>
-    like array
+    like native-array
       like t
 
+  task concat, name <concat>
     take items
-      like array
+      like native-array
         like or
           like t
           like concat-array
             like t
       rest true
+    like native-array
+      like t
 
   task join, name <join>
+    take separator, like maybe
+      like native-string
     like native-string
 
-    take separator, like maybe, like native-string
-
   task reverse, name <reverse>
-    like array
+    like native-array
       like t
 
   task shift, name <shift>
@@ -76,193 +89,238 @@ form array, name <Array>
       like native-undefined
 
   task slice, name <slice>
-    like array
+    take start, like maybe
+      like native-number
+    take end, like maybe
+      like native-number
+    like native-array
       like t
-
-    take start, like maybe, like native-number
-    take end, like maybe, like native-number
 
   task sort, name <sort>
+    take compare-fn, like maybe
+      like task
+        take a, like t
+        take b, like t
+        like native-number
     like native-this
 
-    take compare-fn
-      like maybe
-        like task
-          like native-number
-
-          take a
-          take b
-
   task splice, name <splice>
-    like array
+    take start, like native-number
+    take delete-count, like maybe
+      like native-number
+    like native-array
       like t
 
-    take start
-    take delete-count, like maybe, like native-number
-
   task splice, name <splice>
-    like array
-      like t
-
-    take start
-    take delete-count
+    take start, like native-number
+    take delete-count, like native-number
     take items
-      like array
+      like native-array
         like t
       rest true
+    like native-array
+      like t
 
   task unshift, name <unshift>
-    like native-number
-
     take items
-      like array
+      like native-array
         like t
       rest true
+    like native-number
 
   task index-of, name <indexOf>
+    take search-element, like t
+    take from-index, like maybe
+      like native-number
     like native-number
-
-    take search-element
-    take from-index, like maybe, like native-number
 
   task last-index-of, name <lastIndexOf>
+    take search-element, like t
+    take from-index, like maybe
+      like native-number
     like native-number
 
-    take search-element
-    take from-index, like maybe, like native-number
-
   task every, name <every>
+    head s
+      base t
+    take predicate
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like native-boolean
+        rank value, like s
+    take this-arg, like maybe
+      like native-any
     like native-boolean
     rank self
-      like array
+      like native-array
         like s
 
-    head s
-      base t
-
-    take predicate
-    take this-arg, like maybe, like any
-
   task every, name <every>
-    like native-boolean
-
     take predicate
-    take this-arg, like maybe, like any
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like native-unknown
+    take this-arg, like maybe
+      like native-any
+    like native-boolean
 
   task some, name <some>
+    take predicate
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like native-unknown
+    take this-arg, like maybe
+      like native-any
     like native-boolean
 
-    take predicate
-    take this-arg, like maybe, like any
-
   task for-each, name <forEach>
+    take callbackfn
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like native-void
+    take this-arg, like maybe
+      like native-any
     like native-void
 
-    take callbackfn
-    take this-arg, like maybe, like any
-
   task map, name <map>
-    like array
+    head u
+    take callbackfn
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like u
+    take this-arg, like maybe
+      like native-any
+    like native-array
       like u
 
-    head u
-
-    take callbackfn
-    take this-arg, like maybe, like any
-
   task filter, name <filter>
-    like array
-      like s
-
     head s
       base t
-
     take predicate
-    take this-arg, like maybe, like any
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like native-boolean
+        rank value, like s
+    take this-arg, like maybe
+      like native-any
+    like native-array
+      like s
 
   task filter, name <filter>
-    like array
-      like t
-
     take predicate
-    take this-arg, like maybe, like any
-
-  task reduce, name <reduce>
-    like t
-
-    take callbackfn
-
-  task reduce, name <reduce>
-    like t
-
-    take callbackfn
-    take initial-value
-
-  task reduce, name <reduce>
-    like u
-
-    head u
-
-    take callbackfn
-    take initial-value
-
-  task reduce-right, name <reduceRight>
-    like t
-
-    take callbackfn
-
-  task reduce-right, name <reduceRight>
-    like t
-
-    take callbackfn
-    take initial-value
-
-  task reduce-right, name <reduceRight>
-    like u
-
-    head u
-
-    take callbackfn
-    take initial-value
-
-  mesh n
-    like t
-
-form array
-  hook self
-    link prototype, name <prototype>
-      like array
-        like any
-
-    task is-array, name <isArray>
-      like native-boolean
-      rank arg
-        like array
-          like any
-
-      take arg
-
-  hook make
-    like array
-      like any
-
-    take array-length, like maybe, like native-number
-
-  hook make
-    like array
+      like task
+        take value, like t
+        take index, like native-number
+        take array
+          like native-array
+            like t
+        like native-unknown
+    take this-arg, like maybe
+      like native-any
+    like native-array
       like t
 
-    head t
-
-    take array-length
-
-  hook make
-    like array
-      like t
-
-    head t
-
-    take items
-      like array
+  task reduce, name <reduce>
+    take callbackfn
+      like task
+        take previous-value, like t
+        take current-value, like t
+        take current-index, like native-number
+        take array
+          like native-array
+            like t
         like t
-      rest true
+    like t
+
+  task reduce, name <reduce>
+    take callbackfn
+      like task
+        take previous-value, like t
+        take current-value, like t
+        take current-index, like native-number
+        take array
+          like native-array
+            like t
+        like t
+    take initial-value, like t
+    like t
+
+  task reduce, name <reduce>
+    head u
+    take callbackfn
+      like task
+        take previous-value, like u
+        take current-value, like t
+        take current-index, like native-number
+        take array
+          like native-array
+            like t
+        like u
+    take initial-value, like u
+    like u
+
+  task reduce-right, name <reduceRight>
+    take callbackfn
+      like task
+        take previous-value, like t
+        take current-value, like t
+        take current-index, like native-number
+        take array
+          like native-array
+            like t
+        like t
+    like t
+
+  task reduce-right, name <reduceRight>
+    take callbackfn
+      like task
+        take previous-value, like t
+        take current-value, like t
+        take current-index, like native-number
+        take array
+          like native-array
+            like t
+        like t
+    take initial-value, like t
+    like t
+
+  task reduce-right, name <reduceRight>
+    head u
+    take callbackfn
+      like task
+        take previous-value, like u
+        take current-value, like t
+        take current-index, like native-number
+        take array
+          like native-array
+            like t
+        like u
+    take initial-value, like u
+    like u
+
+  mesh n, like native-number
+    like t

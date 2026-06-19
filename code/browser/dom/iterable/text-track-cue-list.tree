@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/text-track-cue
   find text-track-cue
-
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
 
 load @cluesurf/bind/code/browser/dom/text-track-cue-list
   find text-track-cue-list
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
 
 form text-track-cue-list, name <TextTrackCueList>
   task {symbol/iterator}

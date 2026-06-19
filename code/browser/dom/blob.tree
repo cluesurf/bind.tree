@@ -1,14 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/readable-stream
   find readable-stream
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
+
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form blob, name <Blob>
   link size, name <size>
@@ -21,11 +25,13 @@ form blob, name <Blob>
       like array-buffer
 
   task slice, name <slice>
+    take start, like maybe
+      like native-number
+    take end, like maybe
+      like native-number
+    take content-type, like maybe
+      like native-string
     like blob
-
-    take start, like maybe, like native-number
-    take end, like maybe, like native-number
-    take content-type, like maybe, like native-string
 
   task stream, name <stream>
     like readable-stream

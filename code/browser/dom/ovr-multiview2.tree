@@ -1,13 +1,21 @@
 
+load @cluesurf/bind/code/browser/dom/g-lenum
+  find g-lenum
+
+load @cluesurf/bind/code/browser/dom/g-lint
+  find g-lint
+
+load @cluesurf/bind/code/browser/dom/g-lsizei
+  find g-lsizei
+
+load @cluesurf/bind/code/browser/dom/web-gl-texture
+  find web-gl-texture
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find g-lenum
-  find g-lint
-  find g-lsizei
-  find web-gl-texture
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form ovr-multiview2, name <OVR_multiview2>
   link framebuffer-attachment-texture-base-view-index-ovr
@@ -22,11 +30,13 @@ form ovr-multiview2, name <OVR_multiview2>
     like g-lenum
 
   task framebuffer-texture-multiview-ovr, name <framebufferTextureMultiviewOVR>
-    like native-void
-
-    take target
-    take attachment
+    take target, like g-lenum
+    take attachment, like g-lenum
     take texture
-    take level
-    take base-view-index
-    take num-views
+      like or
+        like web-gl-texture
+        like native-null
+    take level, like g-lint
+    take base-view-index, like g-lint
+    take num-views, like g-lsizei
+    like native-void

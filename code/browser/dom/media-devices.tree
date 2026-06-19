@@ -1,28 +1,57 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/display-media-stream-constraints
+  find display-media-stream-constraints
+
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/dom/media-device-info
+  find media-device-info
+
+load @cluesurf/bind/code/browser/dom/media-devices-event-map
+  find media-devices-event-map
+
+load @cluesurf/bind/code/browser/dom/media-stream
+  find media-stream
+
+load @cluesurf/bind/code/browser/dom/media-stream-constraints
+  find media-stream-constraints
+
+load @cluesurf/bind/code/browser/dom/media-track-supported-constraints
+  find media-track-supported-constraints
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find display-media-stream-constraints
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find media-device-info
-  find media-devices-event-map
-  find media-stream
-  find media-stream-constraints
-  find media-track-supported-constraints
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
 
 form media-devices, name <MediaDevices>
   base event-target
@@ -30,81 +59,84 @@ form media-devices, name <MediaDevices>
   link ondevicechange, name <ondevicechange>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like media-devices
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
 
   task enumerate-devices, name <enumerateDevices>
     like promise
-      like array
+      like native-array
         like media-device-info
 
   task get-display-media, name <getDisplayMedia>
+    take constraints, like maybe
+      like display-media-stream-constraints
     like promise
       like media-stream
-
-    take constraints, like maybe, like display-media-stream-constraints
 
   task get-supported-constraints, name <getSupportedConstraints>
     like media-track-supported-constraints
 
   task get-user-media, name <getUserMedia>
+    take constraints, like maybe
+      like media-stream-constraints
     like promise
       like media-stream
 
-    take constraints, like maybe, like media-stream-constraints
+  task add-event-listener, name <addEventListener>
+    head k
+      base link-read
+        like media-devices-event-map
+    take type, like k
+    take listener
+      like task
+        take this, like media-devices
+        take ev
+          like index
+            like media-devices-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    head k
-      base key-list
-        like media-devices-event-map
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
-
-  task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like media-devices-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+      like task
+        take this, like media-devices
+        take ev
+          like index
+            like media-devices-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void
 
   task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options

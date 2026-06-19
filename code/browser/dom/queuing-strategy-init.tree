@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form queuing-strategy-init, name <QueuingStrategyInit>
   link high-water-mark, name <highWaterMark>
     like native-number
-    flex true
+    lock false

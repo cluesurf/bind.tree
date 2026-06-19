@@ -1,20 +1,22 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find algorithm
-  find hash-algorithm-identifier
-
 load @cluesurf/bind/code/browser/dom/hmac-import-params
   find hmac-import-params
+
+load @cluesurf/bind/code/browser/webworker/algorithm
+  find algorithm
+
+load @cluesurf/bind/code/browser/webworker/hash-algorithm-identifier
+  find hash-algorithm-identifier
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form hmac-import-params, name <HmacImportParams>
   base algorithm
 
   link hash, name <hash>
     like hash-algorithm-identifier
-    flex true
+    lock false
   link length, name <length>
     like native-number
-    flex true
+    lock false

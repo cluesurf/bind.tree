@@ -1,29 +1,39 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable
-  find native-boolean
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/media-key-system-access
   find media-key-system-access
-  find media-key-system-configuration
 
-load @cluesurf/bind/code/javascript/es5
-  find promise
+load @cluesurf/bind/code/browser/dom/media-key-system-configuration
+  find media-key-system-configuration
 
 load @cluesurf/bind/code/browser/dom/navigator
   find navigator
 
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
 form navigator, name <Navigator>
   task request-media-key-system-access, name <requestMediaKeySystemAccess>
+    take key-system, like native-string
+    take supported-configurations
+      like iterable
+        like media-key-system-configuration
     like promise
       like media-key-system-access
 
-    take key-system
-    take supported-configurations
-
   task vibrate, name <vibrate>
-    like native-boolean
-
     take pattern
+      like iterable
+        like native-number
+    like native-boolean

@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/g-lenum
+  find g-lenum
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find g-lenum
 
 form webgl-compressed-texture-astc, name <WEBGL_compressed_texture_astc>
   link compressed-rgba-astc-10x10-khr, name <COMPRESSED_RGBA_ASTC_10x10_KHR>
@@ -67,5 +67,5 @@ form webgl-compressed-texture-astc, name <WEBGL_compressed_texture_astc>
     like g-lenum
 
   task get-supported-profiles, name <getSupportedProfiles>
-    like array
+    like native-array
       like native-string

@@ -1,12 +1,11 @@
 
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find node
-
 form xml-serializer, name <XMLSerializer>
   task serialize-to-string, name <serializeToString>
+    take root, like node
     like native-string
-
-    take root

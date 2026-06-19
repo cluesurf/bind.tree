@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/extendable-event-init
   find extendable-event-init
+
+load @cluesurf/bind/code/browser/webworker/push-message-data-init
   find push-message-data-init
 
 form push-event-init, name <PushEventInit>
@@ -8,4 +10,4 @@ form push-event-init, name <PushEventInit>
 
   link data, name <data>
     like push-message-data-init
-    flex true
+    lock false

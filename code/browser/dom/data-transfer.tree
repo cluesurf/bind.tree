@@ -1,16 +1,24 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/data-transfer-item-list
   find data-transfer-item-list
+
+load @cluesurf/bind/code/browser/dom/element
   find element
+
+load @cluesurf/bind/code/browser/dom/file-list
   find file-list
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/readonly-array
   find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form data-transfer, name <DataTransfer>
   link drop-effect, name <dropEffect>
@@ -19,7 +27,7 @@ form data-transfer, name <DataTransfer>
       text <copy>
       text <link>
       text <move>
-    flex true
+    lock false
   link effect-allowed, name <effectAllowed>
     like or
       text <none>
@@ -31,7 +39,7 @@ form data-transfer, name <DataTransfer>
       text <move>
       text <all>
       text <uninitialized>
-    flex true
+    lock false
   link files, name <files>
     like file-list
   link items, name <items>
@@ -41,24 +49,21 @@ form data-transfer, name <DataTransfer>
       like native-string
 
   task clear-data, name <clearData>
+    take format, like maybe
+      like native-string
     like native-void
-
-    take format, like maybe, like native-string
 
   task get-data, name <getData>
+    take format, like native-string
     like native-string
 
-    take format
-
   task set-data, name <setData>
+    take format, like native-string
+    take data, like native-string
     like native-void
-
-    take format
-    take data
 
   task set-drag-image, name <setDragImage>
+    take image, like element
+    take x, like native-number
+    take y, like native-number
     like native-void
-
-    take image
-    take x
-    take y

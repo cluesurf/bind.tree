@@ -1,24 +1,28 @@
 
+load @cluesurf/bind/code/browser/dom/audio-node-options
+  find audio-node-options
+
+load @cluesurf/bind/code/browser/dom/oscillator-type
+  find oscillator-type
+
+load @cluesurf/bind/code/browser/dom/periodic-wave
+  find periodic-wave
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find audio-node-options
-  find oscillator-type
-  find periodic-wave
 
 form oscillator-options, name <OscillatorOptions>
   base audio-node-options
 
   link detune, name <detune>
     like native-number
-    flex true
+    lock false
   link frequency, name <frequency>
     like native-number
-    flex true
+    lock false
   link periodic-wave, name <periodicWave>
     like periodic-wave
-    flex true
+    lock false
   link type, name <type>
     like oscillator-type
-    flex true
+    lock false

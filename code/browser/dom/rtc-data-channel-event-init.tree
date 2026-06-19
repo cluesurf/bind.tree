@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
+
+load @cluesurf/bind/code/browser/dom/rtc-data-channel
   find rtc-data-channel
 
 form rtc-data-channel-event-init, name <RTCDataChannelEventInit>
@@ -8,4 +10,4 @@ form rtc-data-channel-event-init, name <RTCDataChannelEventInit>
 
   link channel, name <channel>
     like rtc-data-channel
-    flex true
+    lock false

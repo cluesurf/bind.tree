@@ -1,37 +1,48 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/webworker/client
+  find client
+
+load @cluesurf/bind/code/browser/webworker/extendable-event-init
+  find extendable-event-init
+
+load @cluesurf/bind/code/browser/webworker/message-port
+  find message-port
+
+load @cluesurf/bind/code/browser/webworker/service-worker
+  find service-worker
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/webworker
-  find client
-  find extendable-event-init
-  find message-port
-  find service-worker
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form extendable-message-event-init, name <ExtendableMessageEventInit>
   base extendable-event-init
 
   link data, name <data>
-    like any
-    flex true
+    like native-any
+    lock false
   link last-event-id, name <lastEventId>
     like native-string
-    flex true
+    lock false
   link origin, name <origin>
     like native-string
-    flex true
+    lock false
   link ports, name <ports>
-    like array
+    like native-array
       like message-port
-    flex true
+    lock false
   link source, name <source>
     like or
       like client
       like service-worker
       like message-port
       like native-null
-    flex true
+    lock false

@@ -1,14 +1,14 @@
 
+load @cluesurf/bind/code/browser/dom/rtc-sdp-type
+  find rtc-sdp-type
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find rtc-sdp-type
 
 form rtc-session-description-init, name <RTCSessionDescriptionInit>
   link sdp, name <sdp>
     like native-string
-    flex true
+    lock false
   link type, name <type>
     like rtc-sdp-type
-    flex true
+    lock false

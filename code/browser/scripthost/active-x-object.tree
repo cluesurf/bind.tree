@@ -1,9 +1,11 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form active-x-object, name <ActiveXObject>
   hook make
-    like any
-
-    take s
+    take s, like native-string
+    like native-any

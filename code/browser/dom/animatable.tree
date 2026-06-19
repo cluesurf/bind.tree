@@ -1,31 +1,44 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/animation
+  find animation
+
+load @cluesurf/bind/code/browser/dom/get-animations-options
+  find get-animations-options
+
+load @cluesurf/bind/code/browser/dom/keyframe
+  find keyframe
+
+load @cluesurf/bind/code/browser/dom/keyframe-animation-options
+  find keyframe-animation-options
+
+load @cluesurf/bind/code/browser/dom/property-indexed-keyframes
+  find property-indexed-keyframes
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find animation
-  find get-animations-options
-  find keyframe
-  find keyframe-animation-options
-  find property-indexed-keyframes
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form animatable, name <Animatable>
   task animate, name <animate>
+    take keyframes
+      like or
+        like native-array
+          like keyframe
+        like property-indexed-keyframes
+        like native-null
+    take options, like maybe
+      like or
+        like native-number
+        like keyframe-animation-options
     like animation
 
-    take keyframes
-    take options
-      like maybe
-        like or
-          like native-number
-          like keyframe-animation-options
-
   task get-animations, name <getAnimations>
-    like array
+    take options, like maybe
+      like get-animations-options
+    like native-array
       like animation
-
-    take options, like maybe, like get-animations-options

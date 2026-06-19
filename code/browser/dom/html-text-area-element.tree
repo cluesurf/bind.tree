@@ -1,41 +1,70 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/html-element
+  find html-element
+
+load @cluesurf/bind/code/browser/dom/html-element-event-map
+  find html-element-event-map
+
+load @cluesurf/bind/code/browser/dom/html-form-element
+  find html-form-element
+
+load @cluesurf/bind/code/browser/dom/html-label-element
+  find html-label-element
+
+load @cluesurf/bind/code/browser/dom/node-list-of
+  find node-list-of
+
+load @cluesurf/bind/code/browser/dom/selection-mode
+  find selection-mode
+
+load @cluesurf/bind/code/browser/dom/validity-state
+  find validity-state
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find html-element
-  find html-element-event-map
-  find html-form-element
-  find html-label-element
-  find node-list-of
-  find selection-mode
-  find validity-state
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form html-text-area-element, name <HTMLTextAreaElement>
   base html-element
 
   link autocomplete, name <autocomplete>
     like native-string
-    flex true
+    lock false
   link cols, name <cols>
     like native-number
-    flex true
+    lock false
   link default-value, name <defaultValue>
     like native-string
-    flex true
+    lock false
   link dir-name, name <dirName>
     like native-string
-    flex true
+    lock false
   link disabled, name <disabled>
     like native-boolean
-    flex true
+    lock false
   link form, name <form>
     like or
       like html-form-element
@@ -45,37 +74,37 @@ form html-text-area-element, name <HTMLTextAreaElement>
       like html-label-element
   link max-length, name <maxLength>
     like native-number
-    flex true
+    lock false
   link min-length, name <minLength>
     like native-number
-    flex true
+    lock false
   link name, name <name>
     like native-string
-    flex true
+    lock false
   link placeholder, name <placeholder>
     like native-string
-    flex true
+    lock false
   link read-only, name <readOnly>
     like native-boolean
-    flex true
+    lock false
   link required, name <required>
     like native-boolean
-    flex true
+    lock false
   link rows, name <rows>
     like native-number
-    flex true
+    lock false
   link selection-direction, name <selectionDirection>
     like or
       text <forward>
       text <backward>
       text <none>
-    flex true
+    lock false
   link selection-end, name <selectionEnd>
     like native-number
-    flex true
+    lock false
   link selection-start, name <selectionStart>
     like native-number
-    flex true
+    lock false
   link text-length, name <textLength>
     like native-number
   link type, name <type>
@@ -86,12 +115,12 @@ form html-text-area-element, name <HTMLTextAreaElement>
     like validity-state
   link value, name <value>
     like native-string
-    flex true
+    lock false
   link will-validate, name <willValidate>
     like native-boolean
   link wrap, name <wrap>
     like native-string
-    flex true
+    lock false
 
   task check-validity, name <checkValidity>
     like native-boolean
@@ -103,83 +132,89 @@ form html-text-area-element, name <HTMLTextAreaElement>
     like native-void
 
   task set-custom-validity, name <setCustomValidity>
+    take error, like native-string
     like native-void
-
-    take error
 
   task set-range-text, name <setRangeText>
+    take replacement, like native-string
     like native-void
-
-    take replacement
 
   task set-range-text, name <setRangeText>
+    take replacement, like native-string
+    take start, like native-number
+    take end, like native-number
+    take selection-mode, like maybe
+      like selection-mode
     like native-void
-
-    take replacement
-    take start
-    take end
-    take selection-mode, like maybe, like selection-mode
 
   task set-selection-range, name <setSelectionRange>
-    like native-void
-
     take start
+      like or
+        like native-number
+        like native-null
     take end
-    take direction
-      like maybe
-        like or
-          text <forward>
-          text <backward>
-          text <none>
+      like or
+        like native-number
+        like native-null
+    take direction, like maybe
+      like or
+        text <forward>
+        text <backward>
+        text <none>
+    like native-void
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like html-text-area-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like html-text-area-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

@@ -1,8 +1,17 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form storage, name <Storage>
@@ -13,29 +22,25 @@ form storage, name <Storage>
     like native-void
 
   task get-item, name <getItem>
+    take key, like native-string
     like or
       like native-string
       like native-null
-
-    take key
 
   task key, name <key>
+    take index, like native-number
     like or
       like native-string
       like native-null
 
-    take index
-
   task remove-item, name <removeItem>
+    take key, like native-string
     like native-void
-
-    take key
 
   task set-item, name <setItem>
+    take key, like native-string
+    take value, like native-string
     like native-void
 
-    take key
-    take value
-
-  mesh name
-    like any
+  mesh name, like native-string
+    like native-any

@@ -1,7 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/document-and-element-event-handlers-event-map
   find document-and-element-event-handlers-event-map
+
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/global-event-handlers-event-map
   find global-event-handlers-event-map
 
 form document-event-map, name <DocumentEventMap>
@@ -10,19 +14,19 @@ form document-event-map, name <DocumentEventMap>
 
   link fullscreenchange, name <fullscreenchange>
     like event
-    flex true
+    lock false
   link fullscreenerror, name <fullscreenerror>
     like event
-    flex true
+    lock false
   link pointerlockchange, name <pointerlockchange>
     like event
-    flex true
+    lock false
   link pointerlockerror, name <pointerlockerror>
     like event
-    flex true
+    lock false
   link readystatechange, name <readystatechange>
     like event
-    flex true
+    lock false
   link visibilitychange, name <visibilitychange>
     like event
-    flex true
+    lock false

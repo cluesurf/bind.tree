@@ -1,11 +1,14 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form payment-method-data, name <PaymentMethodData>
   link data, name <data>
-    like any
-    flex true
+    like native-any
+    lock false
   link supported-methods, name <supportedMethods>
     like native-string
-    flex true
+    lock false

@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
 load @cluesurf/bind/code/browser/dom/notification-action
   find notification-action
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form notification-action, name <NotificationAction>
   link action, name <action>
     like native-string
-    flex true
+    lock false
   link icon, name <icon>
     like native-string
-    flex true
+    lock false
   link title, name <title>
     like native-string
-    flex true
+    lock false

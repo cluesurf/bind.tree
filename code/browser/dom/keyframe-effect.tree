@@ -1,46 +1,66 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/animation-effect
+  find animation-effect
+
+load @cluesurf/bind/code/browser/dom/composite-operation
+  find composite-operation
+
+load @cluesurf/bind/code/browser/dom/computed-keyframe
+  find computed-keyframe
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/iteration-composite-operation
+  find iteration-composite-operation
+
+load @cluesurf/bind/code/browser/dom/keyframe
+  find keyframe
+
+load @cluesurf/bind/code/browser/dom/property-indexed-keyframes
+  find property-indexed-keyframes
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find animation-effect
-  find composite-operation
-  find computed-keyframe
-  find element
-  find iteration-composite-operation
-  find keyframe
-  find property-indexed-keyframes
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form keyframe-effect, name <KeyframeEffect>
   base animation-effect
 
   link composite, name <composite>
     like composite-operation
-    flex true
+    lock false
   link iteration-composite, name <iterationComposite>
     like iteration-composite-operation
-    flex true
+    lock false
   link pseudo-element, name <pseudoElement>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link target, name <target>
     like or
       like element
       like native-null
-    flex true
+    lock false
 
   task get-keyframes, name <getKeyframes>
-    like array
+    like native-array
       like computed-keyframe
 
   task set-keyframes, name <setKeyframes>
-    like native-void
-
     take keyframes
+      like or
+        like native-array
+          like keyframe
+        like property-indexed-keyframes
+        like native-null
+    like native-void

@@ -1,12 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/dom-matrix2-d-init
+  find dom-matrix2-d-init
+
+load @cluesurf/bind/code/browser/dom/svg-transform
+  find svg-transform
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find dom-matrix2-d-init
-  find svg-transform
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form svg-transform-list, name <SVGTransformList>
   link length, name <length>
@@ -15,9 +21,8 @@ form svg-transform-list, name <SVGTransformList>
     like native-number
 
   task append-item, name <appendItem>
+    take new-item, like svg-transform
     like svg-transform
-
-    take new-item
 
   task clear, name <clear>
     like native-void
@@ -28,36 +33,31 @@ form svg-transform-list, name <SVGTransformList>
       like native-null
 
   task create-svg-transform-from-matrix, name <createSVGTransformFromMatrix>
+    take matrix, like maybe
+      like dom-matrix2-d-init
     like svg-transform
-
-    take matrix, like maybe, like dom-matrix2-d-init
 
   task get-item, name <getItem>
+    take index, like native-number
     like svg-transform
-
-    take index
 
   task initialize, name <initialize>
+    take new-item, like svg-transform
     like svg-transform
-
-    take new-item
 
   task insert-item-before, name <insertItemBefore>
+    take new-item, like svg-transform
+    take index, like native-number
     like svg-transform
-
-    take new-item
-    take index
 
   task remove-item, name <removeItem>
+    take index, like native-number
     like svg-transform
-
-    take index
 
   task replace-item, name <replaceItem>
+    take new-item, like svg-transform
+    take index, like native-number
     like svg-transform
 
-    take new-item
-    take index
-
-  mesh index
+  mesh index, like native-number
     like svg-transform

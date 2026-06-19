@@ -1,23 +1,11 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
 load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
-  find array-buffer-constructor
-
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array-buffer
-  find array-buffer
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form array-buffer, name <ArrayBuffer>
   link {symbol/to-string-tag}
     like native-string
-    work true
-
-form array-buffer
-  hook self
-    link {symbol/species}
-      like array-buffer-constructor
-      work true
+    read true

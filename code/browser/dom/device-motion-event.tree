@@ -1,12 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/device-motion-event-acceleration
+  find device-motion-event-acceleration
+
+load @cluesurf/bind/code/browser/dom/device-motion-event-rotation-rate
+  find device-motion-event-rotation-rate
+
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find device-motion-event-acceleration
-  find device-motion-event-rotation-rate
-  find event
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form device-motion-event, name <DeviceMotionEvent>
   base event

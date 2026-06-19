@@ -5,13 +5,13 @@ load @cluesurf/bind/code/javascript/native
 form dom-rect-init, name <DOMRectInit>
   link height, name <height>
     like native-number
-    flex true
+    lock false
   link width, name <width>
     like native-number
-    flex true
+    lock false
   link x, name <x>
     like native-number
-    flex true
+    lock false
   link y, name <y>
     like native-number
-    flex true
+    lock false

@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/webworker/blob
+  find blob
+
+load @cluesurf/bind/code/browser/webworker/buffer-source
+  find buffer-source
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find blob
-  find buffer-source
 
 form blob-part, name <BlobPart>
   like or

@@ -1,5 +1,6 @@
 
 bear @cluesurf/bind/code/javascript/es2015/symbol
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/symbol-constructor
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/symbol
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/date
@@ -12,7 +13,9 @@ bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/function
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/generator-function
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/math
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/promise
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/promise-constructor
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/reg-exp
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/reg-exp-constructor
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/string
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array-buffer
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/data-view
@@ -25,3 +28,7 @@ bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/int32-array
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/uint32-array
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/float32-array
 bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/float64-array
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array-constructor
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/map-constructor
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/set-constructor
+bear @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array-buffer-constructor

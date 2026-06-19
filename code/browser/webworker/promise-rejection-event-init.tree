@@ -1,20 +1,23 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find event-init
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 load @cluesurf/bind/code/browser/dom/promise-rejection-event-init
   find promise-rejection-event-init
+
+load @cluesurf/bind/code/browser/webworker/event-init
+  find event-init
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 form promise-rejection-event-init, name <PromiseRejectionEventInit>
   base event-init
 
   link promise, name <promise>
     like promise
-      like any
-    flex true
+      like native-any
+    lock false
   link reason, name <reason>
-    like any
-    flex true
+    like native-any
+    lock false

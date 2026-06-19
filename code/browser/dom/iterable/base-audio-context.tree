@@ -1,26 +1,39 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable
-  find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find iir-filter-node
-  find periodic-wave
-  find periodic-wave-constraints
-
 load @cluesurf/bind/code/browser/dom/base-audio-context
   find base-audio-context
 
+load @cluesurf/bind/code/browser/dom/iir-filter-node
+  find iir-filter-node
+
+load @cluesurf/bind/code/browser/dom/periodic-wave
+  find periodic-wave
+
+load @cluesurf/bind/code/browser/dom/periodic-wave-constraints
+  find periodic-wave-constraints
+
+load @cluesurf/bind/code/javascript/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
 form base-audio-context, name <BaseAudioContext>
   task create-iir-filter, name <createIIRFilter>
+    take feedforward
+      like iterable
+        like native-number
+    take feedback
+      like iterable
+        like native-number
     like iir-filter-node
 
-    take feedforward
-    take feedback
-
   task create-periodic-wave, name <createPeriodicWave>
-    like periodic-wave
-
     take real
+      like iterable
+        like native-number
     take imag
-    take constraints, like maybe, like periodic-wave-constraints
+      like iterable
+        like native-number
+    take constraints, like maybe
+      like periodic-wave-constraints
+    like periodic-wave

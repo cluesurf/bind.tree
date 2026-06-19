@@ -1,20 +1,32 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find device-permission-descriptor
-  find midi-permission-descriptor
-  find permission-descriptor
-  find permission-status
-  find push-permission-descriptor
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 load @cluesurf/bind/code/browser/dom/permissions
   find permissions
 
+load @cluesurf/bind/code/browser/webworker/device-permission-descriptor
+  find device-permission-descriptor
+
+load @cluesurf/bind/code/browser/webworker/midi-permission-descriptor
+  find midi-permission-descriptor
+
+load @cluesurf/bind/code/browser/webworker/permission-descriptor
+  find permission-descriptor
+
+load @cluesurf/bind/code/browser/webworker/permission-status
+  find permission-status
+
+load @cluesurf/bind/code/browser/webworker/push-permission-descriptor
+  find push-permission-descriptor
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
 form permissions, name <Permissions>
   task query, name <query>
+    take permission-desc
+      like or
+        like permission-descriptor
+        like device-permission-descriptor
+        like midi-permission-descriptor
+        like push-permission-descriptor
     like promise
       like permission-status
-
-    take permission-desc

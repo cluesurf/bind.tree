@@ -5,10 +5,10 @@ load @cluesurf/bind/code/javascript/native
 form media-capabilities-info, name <MediaCapabilitiesInfo>
   link power-efficient, name <powerEfficient>
     like native-boolean
-    flex true
+    lock false
   link smooth, name <smooth>
     like native-boolean
-    flex true
+    lock false
   link supported, name <supported>
     like native-boolean
-    flex true
+    lock false

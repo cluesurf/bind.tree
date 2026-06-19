@@ -5,7 +5,7 @@ load @cluesurf/bind/code/javascript/native
 form constrain-boolean-parameters, name <ConstrainBooleanParameters>
   link exact, name <exact>
     like native-boolean
-    flex true
+    lock false
   link ideal, name <ideal>
     like native-boolean
-    flex true
+    lock false

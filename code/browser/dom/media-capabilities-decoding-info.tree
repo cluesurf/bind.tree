@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/media-capabilities-info
   find media-capabilities-info
+
+load @cluesurf/bind/code/browser/dom/media-decoding-configuration
   find media-decoding-configuration
 
 form media-capabilities-decoding-info, name <MediaCapabilitiesDecodingInfo>
@@ -8,4 +10,4 @@ form media-capabilities-decoding-info, name <MediaCapabilitiesDecodingInfo>
 
   link configuration, name <configuration>
     like media-decoding-configuration
-    flex true
+    lock false

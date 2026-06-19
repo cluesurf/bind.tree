@@ -1,7 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-point
   find dom-point
+
+load @cluesurf/bind/code/browser/dom/dom-rect
   find dom-rect
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 form dom-quad, name <DOMQuad>
   link p1, name <p1>
@@ -17,4 +22,4 @@ form dom-quad, name <DOMQuad>
     like dom-rect
 
   task to-json, name <toJSON>
-    like any
+    like native-any

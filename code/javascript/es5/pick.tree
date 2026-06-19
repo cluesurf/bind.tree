@@ -2,7 +2,7 @@
 form pick, name <Pick>
   head t
   head k
-    base key-list
+    base link-read
       like t
 
   like any

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/key-algorithm
   find key-algorithm
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/uint8-array
   find uint8-array
 
 form dh-key-algorithm, name <DhKeyAlgorithm>
@@ -10,7 +10,7 @@ form dh-key-algorithm, name <DhKeyAlgorithm>
 
   link generator, name <generator>
     like uint8-array
-    flex true
+    lock false
   link prime, name <prime>
     like uint8-array
-    flex true
+    lock false

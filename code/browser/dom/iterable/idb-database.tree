@@ -1,18 +1,26 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find idb-transaction
-  find idb-transaction-mode
-
 load @cluesurf/bind/code/browser/dom/idb-database
   find idb-database
 
+load @cluesurf/bind/code/browser/dom/idb-transaction
+  find idb-transaction
+
+load @cluesurf/bind/code/browser/dom/idb-transaction-mode
+  find idb-transaction-mode
+
+load @cluesurf/bind/code/javascript/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
 form idb-database, name <IDBDatabase>
   task transaction, name <transaction>
-    like idb-transaction
-
     take store-names
-    take mode, like maybe, like idb-transaction-mode
+      like or
+        like native-string
+        like iterable
+          like native-string
+    take mode, like maybe
+      like idb-transaction-mode
+    like idb-transaction

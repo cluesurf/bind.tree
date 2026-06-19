@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
 
 form array-buffer-types, name <ArrayBufferTypes>
   link array-buffer, name <ArrayBuffer>
     like array-buffer
-    flex true
+    lock false

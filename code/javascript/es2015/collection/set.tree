@@ -1,16 +1,18 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-this
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/es2015/collection/set
-  find set
 
 form set, name <Set>
   head t
@@ -19,45 +21,29 @@ form set, name <Set>
     like native-number
 
   task add, name <add>
+    take value, like t
     like native-this
-
-    take value
 
   task clear, name <clear>
     like native-void
 
   task delete, name <delete>
+    take value, like t
     like native-boolean
-
-    take value
 
   task for-each, name <forEach>
+    take callbackfn
+      like task
+        take value, like t
+        take value2, like t
+        take set
+          like set
+            like t
+        like native-void
+    take this-arg, like maybe
+      like native-any
     like native-void
 
-    take callbackfn
-    take this-arg, like maybe, like any
-
   task has, name <has>
+    take value, like t
     like native-boolean
-
-    take value
-
-form set
-  hook self
-    link prototype, name <prototype>
-      like set
-        like any
-
-  hook make
-    like set
-      like t
-
-    head t
-      fall any
-
-    take values
-      like maybe
-        like or
-          like array
-            like t
-          like native-null

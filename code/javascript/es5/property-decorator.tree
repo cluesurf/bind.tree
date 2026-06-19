@@ -1,15 +1,21 @@
 
+load @cluesurf/bind/code/javascript/es5/object
+  find object
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-symbol
-  find native-void
 
-load @cluesurf/bind/code/javascript/es5
-  find object
+load @cluesurf/bind/code/javascript/native
+  find native-symbol
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form property-decorator, name <PropertyDecorator>
   like task
-    like native-void
-
-    take target
+    take target, like object
     take property-key
+      like or
+        like native-string
+        like native-symbol
+    like native-void

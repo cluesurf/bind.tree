@@ -1,7 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/blob
   find blob
+
+load @cluesurf/bind/code/browser/webworker/canvas-image-source
   find canvas-image-source
+
+load @cluesurf/bind/code/browser/webworker/image-data
   find image-data
 
 form image-bitmap-source, name <ImageBitmapSource>

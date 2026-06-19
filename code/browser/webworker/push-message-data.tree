@@ -1,12 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/blob
   find blob
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form push-message-data, name <PushMessageData>
   task array-buffer, name <arrayBuffer>
@@ -16,7 +19,7 @@ form push-message-data, name <PushMessageData>
     like blob
 
   task json, name <json>
-    like any
+    like native-any
 
   task text, name <text>
     like native-string

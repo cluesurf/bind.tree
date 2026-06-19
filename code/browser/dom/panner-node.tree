@@ -1,32 +1,40 @@
 
+load @cluesurf/bind/code/browser/dom/audio-node
+  find audio-node
+
+load @cluesurf/bind/code/browser/dom/audio-param
+  find audio-param
+
+load @cluesurf/bind/code/browser/dom/distance-model-type
+  find distance-model-type
+
+load @cluesurf/bind/code/browser/dom/panning-model-type
+  find panning-model-type
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find audio-node
-  find audio-param
-  find distance-model-type
-  find panning-model-type
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form panner-node, name <PannerNode>
   base audio-node
 
   link cone-inner-angle, name <coneInnerAngle>
     like native-number
-    flex true
+    lock false
   link cone-outer-angle, name <coneOuterAngle>
     like native-number
-    flex true
+    lock false
   link cone-outer-gain, name <coneOuterGain>
     like native-number
-    flex true
+    lock false
   link distance-model, name <distanceModel>
     like distance-model-type
-    flex true
+    lock false
   link max-distance, name <maxDistance>
     like native-number
-    flex true
+    lock false
   link orientation-x, name <orientationX>
     like audio-param
   link orientation-y, name <orientationY>
@@ -35,7 +43,7 @@ form panner-node, name <PannerNode>
     like audio-param
   link panning-model, name <panningModel>
     like panning-model-type
-    flex true
+    lock false
   link position-x, name <positionX>
     like audio-param
   link position-y, name <positionY>
@@ -44,21 +52,19 @@ form panner-node, name <PannerNode>
     like audio-param
   link ref-distance, name <refDistance>
     like native-number
-    flex true
+    lock false
   link rolloff-factor, name <rolloffFactor>
     like native-number
-    flex true
+    lock false
 
   task set-orientation, name <setOrientation>
+    take x, like native-number
+    take y, like native-number
+    take z, like native-number
     like native-void
-
-    take x
-    take y
-    take z
 
   task set-position, name <setPosition>
+    take x, like native-number
+    take y, like native-number
+    take z, like native-number
     like native-void
-
-    take x
-    take y
-    take z

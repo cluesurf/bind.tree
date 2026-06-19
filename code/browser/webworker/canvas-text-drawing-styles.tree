@@ -1,25 +1,29 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find canvas-direction
-  find canvas-text-align
-  find canvas-text-baseline
-
 load @cluesurf/bind/code/browser/dom/canvas-text-drawing-styles
   find canvas-text-drawing-styles
+
+load @cluesurf/bind/code/browser/webworker/canvas-direction
+  find canvas-direction
+
+load @cluesurf/bind/code/browser/webworker/canvas-text-align
+  find canvas-text-align
+
+load @cluesurf/bind/code/browser/webworker/canvas-text-baseline
+  find canvas-text-baseline
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form canvas-text-drawing-styles, name <CanvasTextDrawingStyles>
   link direction, name <direction>
     like canvas-direction
-    flex true
+    lock false
   link font, name <font>
     like native-string
-    flex true
+    lock false
   link text-align, name <textAlign>
     like canvas-text-align
-    flex true
+    lock false
   link text-baseline, name <textBaseline>
     like canvas-text-baseline
-    flex true
+    lock false

@@ -1,27 +1,32 @@
 
+load @cluesurf/bind/code/browser/scripthost/text-stream-base
+  find text-stream-base
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/scripthost
-  find text-stream-base
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form text-stream-reader, name <TextStreamReader>
   base text-stream-base
 
   link at-end-of-line, name <AtEndOfLine>
     like native-boolean
-    flex true
+    lock false
   link at-end-of-stream, name <AtEndOfStream>
     like native-boolean
-    flex true
+    lock false
 
   task read, name <Read>
+    take characters, like native-number
     like native-string
-
-    take characters
 
   task read-all, name <ReadAll>
     like native-string
@@ -30,9 +35,8 @@ form text-stream-reader, name <TextStreamReader>
     like native-string
 
   task skip, name <Skip>
+    take characters, like native-number
     like native-void
-
-    take characters
 
   task skip-line, name <SkipLine>
     like native-void

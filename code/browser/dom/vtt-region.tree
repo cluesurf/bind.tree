@@ -1,33 +1,35 @@
 
+load @cluesurf/bind/code/browser/dom/scroll-setting
+  find scroll-setting
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find scroll-setting
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form vtt-region, name <VTTRegion>
   link id, name <id>
     like native-string
-    flex true
+    lock false
   link lines, name <lines>
     like native-number
-    flex true
+    lock false
   link region-anchor-x, name <regionAnchorX>
     like native-number
-    flex true
+    lock false
   link region-anchor-y, name <regionAnchorY>
     like native-number
-    flex true
+    lock false
   link scroll, name <scroll>
     like scroll-setting
-    flex true
+    lock false
   link viewport-anchor-x, name <viewportAnchorX>
     like native-number
-    flex true
+    lock false
   link viewport-anchor-y, name <viewportAnchorY>
     like native-number
-    flex true
+    lock false
   link width, name <width>
     like native-number
-    flex true
+    lock false

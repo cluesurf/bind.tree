@@ -1,38 +1,43 @@
 
+load @cluesurf/bind/code/browser/dom/position-callback
+  find position-callback
+
+load @cluesurf/bind/code/browser/dom/position-error-callback
+  find position-error-callback
+
+load @cluesurf/bind/code/browser/dom/position-options
+  find position-options
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find position-callback
-  find position-error-callback
-  find position-options
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form geolocation, name <Geolocation>
   task clear-watch, name <clearWatch>
+    take watch-id, like native-number
     like native-void
-
-    take watch-id
 
   task get-current-position, name <getCurrentPosition>
+    take success-callback, like position-callback
+    take error-callback, like maybe
+      like or
+        like position-error-callback
+        like native-null
+    take options, like maybe
+      like position-options
     like native-void
 
-    take success-callback
-    take error-callback
-      like maybe
-        like or
-          like position-error-callback
-          like native-null
-    take options, like maybe, like position-options
-
   task watch-position, name <watchPosition>
+    take success-callback, like position-callback
+    take error-callback, like maybe
+      like or
+        like position-error-callback
+        like native-null
+    take options, like maybe
+      like position-options
     like native-number
-
-    take success-callback
-    take error-callback
-      like maybe
-        like or
-          like position-error-callback
-          like native-null
-    take options, like maybe, like position-options

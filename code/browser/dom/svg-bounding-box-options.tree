@@ -5,13 +5,13 @@ load @cluesurf/bind/code/javascript/native
 form svg-bounding-box-options, name <SVGBoundingBoxOptions>
   link clipped, name <clipped>
     like native-boolean
-    flex true
+    lock false
   link fill, name <fill>
     like native-boolean
-    flex true
+    lock false
   link markers, name <markers>
     like native-boolean
-    flex true
+    lock false
   link stroke, name <stroke>
     like native-boolean
-    flex true
+    lock false

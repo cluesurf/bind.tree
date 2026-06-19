@@ -1,19 +1,39 @@
 
+load @cluesurf/bind/code/browser/dom/child-node
+  find child-node
+
+load @cluesurf/bind/code/browser/dom/document
+  find document
+
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/dom/get-root-node-options
+  find get-root-node-options
+
+load @cluesurf/bind/code/browser/dom/html-element
+  find html-element
+
+load @cluesurf/bind/code/browser/dom/node-list-of
+  find node-list-of
+
+load @cluesurf/bind/code/browser/dom/parent-node
+  find parent-node
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find child-node
-  find document
-  find event-target
-  find get-root-node-options
-  find html-element
-  find node-list-of
-  find parent-node
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form node, name <Node>
   base event-target
@@ -53,7 +73,7 @@ form node, name <Node>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link owner-document, name <ownerDocument>
     like or
       like document
@@ -78,7 +98,7 @@ form node, name <Node>
     like or
       like native-string
       like native-null
-    flex true
+    lock false
   link attribute-node, name <ATTRIBUTE_NODE>
     like native-number
   link cdata-section-node, name <CDATA_SECTION_NODE>
@@ -118,90 +138,96 @@ form node, name <Node>
     like native-number
 
   task append-child, name <appendChild>
-    like t
-
     head t
       base node
-
-    take node
+    take node, like t
+    like t
 
   task clone-node, name <cloneNode>
+    take deep, like maybe
+      like native-boolean
     like node
-
-    take deep, like maybe, like native-boolean
 
   task compare-document-position, name <compareDocumentPosition>
+    take other, like node
     like native-number
 
-    take other
-
   task contains, name <contains>
+    take other
+      like or
+        like node
+        like native-null
     like native-boolean
 
-    take other
-
   task get-root-node, name <getRootNode>
+    take options, like maybe
+      like get-root-node-options
     like node
-
-    take options, like maybe, like get-root-node-options
 
   task has-child-nodes, name <hasChildNodes>
     like native-boolean
 
   task insert-before, name <insertBefore>
-    like t
-
     head t
       base node
-
-    take node
+    take node, like t
     take child
+      like or
+        like node
+        like native-null
+    like t
 
   task is-default-namespace, name <isDefaultNamespace>
-    like native-boolean
-
     take namespace
+      like or
+        like native-string
+        like native-null
+    like native-boolean
 
   task is-equal-node, name <isEqualNode>
-    like native-boolean
-
     take other-node
+      like or
+        like node
+        like native-null
+    like native-boolean
 
   task is-same-node, name <isSameNode>
+    take other-node
+      like or
+        like node
+        like native-null
     like native-boolean
 
-    take other-node
-
   task lookup-namespace-uri, name <lookupNamespaceURI>
+    take prefix
+      like or
+        like native-string
+        like native-null
     like or
       like native-string
       like native-null
-
-    take prefix
 
   task lookup-prefix, name <lookupPrefix>
+    take namespace
+      like or
+        like native-string
+        like native-null
     like or
       like native-string
       like native-null
-
-    take namespace
 
   task normalize, name <normalize>
     like native-void
 
   task remove-child, name <removeChild>
-    like t
-
     head t
       base node
-
-    take child
+    take child, like t
+    like t
 
   task replace-child, name <replaceChild>
-    like t
-
     head t
       base node
-
-    take node
-    take child
+    take node, like node
+    take child, like t
+    like t

@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-
 load @cluesurf/bind/code/browser/dom/event-init
   find event-init
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
 form event-init, name <EventInit>
   link bubbles, name <bubbles>
     like native-boolean
-    flex true
+    lock false
   link cancelable, name <cancelable>
     like native-boolean
-    flex true
+    lock false
   link composed, name <composed>
     like native-boolean
-    flex true
+    lock false

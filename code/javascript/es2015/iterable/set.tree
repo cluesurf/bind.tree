@@ -1,16 +1,9 @@
 
-load @cluesurf/bind/code/javascript/es2015/iterable
-  find iterable
-  find iterable-iterator
-
 load @cluesurf/bind/code/javascript/es2015/collection/set
   find set
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-
-load @cluesurf/bind/code/javascript/es2015/iterable/set
-  find set
+load @cluesurf/bind/code/javascript/es2015/iterable/iterable-iterator
+  find iterable-iterator
 
 form set, name <Set>
   head t
@@ -21,7 +14,7 @@ form set, name <Set>
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like t
         like t
 
@@ -32,18 +25,3 @@ form set, name <Set>
   task values, name <values>
     like iterable-iterator
       like t
-
-form set
-  hook self
-  hook make
-    like set
-      like t
-
-    head t
-
-    take iterable
-      like maybe
-        like or
-          like iterable
-            like t
-          like native-null

@@ -1,29 +1,34 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find writable-stream-default-writer
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 load @cluesurf/bind/code/browser/dom/writable-stream
   find writable-stream
 
+load @cluesurf/bind/code/browser/webworker/writable-stream-default-writer
+  find writable-stream-default-writer
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form writable-stream, name <WritableStream>
   head w
-    fall any
+    back native-any
 
   link locked, name <locked>
     like native-boolean
 
   task abort, name <abort>
+    take reason, like maybe
+      like native-any
     like promise
       like native-void
-
-    take reason, like maybe, like any
 
   task get-writer, name <getWriter>
     like writable-stream-default-writer

@@ -5,10 +5,10 @@ load @cluesurf/bind/code/javascript/native
 form svg-preserve-aspect-ratio, name <SVGPreserveAspectRatio>
   link align, name <align>
     like native-number
-    flex true
+    lock false
   link meet-or-slice, name <meetOrSlice>
     like native-number
-    flex true
+    lock false
   link svg-meetorslice-meet, name <SVG_MEETORSLICE_MEET>
     like native-number
   link svg-meetorslice-slice, name <SVG_MEETORSLICE_SLICE>

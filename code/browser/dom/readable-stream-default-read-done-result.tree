@@ -5,7 +5,7 @@ load @cluesurf/bind/code/javascript/native
 form readable-stream-default-read-done-result, name <ReadableStreamDefaultReadDoneResult>
   link done, name <done>
     text <true>
-    flex true
+    lock false
   link value, name <value>
     like native-undefined
-    flex true
+    lock false

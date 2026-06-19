@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/svg-transform
   find svg-transform
-
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
 
 load @cluesurf/bind/code/browser/dom/svg-transform-list
   find svg-transform-list
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
 
 form svg-transform-list, name <SVGTransformList>
   task {symbol/iterator}

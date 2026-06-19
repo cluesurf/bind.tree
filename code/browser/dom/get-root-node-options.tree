@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form get-root-node-options, name <GetRootNodeOptions>
   link composed, name <composed>
     like native-boolean
-    flex true
+    lock false

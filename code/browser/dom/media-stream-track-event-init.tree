@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
+
+load @cluesurf/bind/code/browser/dom/media-stream-track
   find media-stream-track
 
 form media-stream-track-event-init, name <MediaStreamTrackEventInit>
@@ -8,4 +10,4 @@ form media-stream-track-event-init, name <MediaStreamTrackEventInit>
 
   link track, name <track>
     like media-stream-track
-    flex true
+    lock false

@@ -1,19 +1,26 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/url
   find url
+
+load @cluesurf/bind/code/browser/dom/worklet-options
   find worklet-options
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form worklet, name <Worklet>
   task add-module, name <addModule>
+    take module-url
+      like or
+        like native-string
+        like url
+    take options, like maybe
+      like worklet-options
     like promise
       like native-void
-
-    take module-url
-    take options, like maybe, like worklet-options

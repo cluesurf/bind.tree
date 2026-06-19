@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/dom/on-before-unload-event-handler-non-null
+  find on-before-unload-event-handler-non-null
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find on-before-unload-event-handler-non-null
 
 form on-before-unload-event-handler, name <OnBeforeUnloadEventHandler>
   like or

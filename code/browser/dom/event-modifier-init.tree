@@ -1,52 +1,52 @@
 
+load @cluesurf/bind/code/browser/dom/ui-event-init
+  find ui-event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-
-load @cluesurf/bind/code/browser/dom
-  find ui-event-init
 
 form event-modifier-init, name <EventModifierInit>
   base ui-event-init
 
   link alt-key, name <altKey>
     like native-boolean
-    flex true
+    lock false
   link ctrl-key, name <ctrlKey>
     like native-boolean
-    flex true
+    lock false
   link meta-key, name <metaKey>
     like native-boolean
-    flex true
+    lock false
   link modifier-alt-graph, name <modifierAltGraph>
     like native-boolean
-    flex true
+    lock false
   link modifier-caps-lock, name <modifierCapsLock>
     like native-boolean
-    flex true
+    lock false
   link modifier-fn, name <modifierFn>
     like native-boolean
-    flex true
+    lock false
   link modifier-fn-lock, name <modifierFnLock>
     like native-boolean
-    flex true
+    lock false
   link modifier-hyper, name <modifierHyper>
     like native-boolean
-    flex true
+    lock false
   link modifier-num-lock, name <modifierNumLock>
     like native-boolean
-    flex true
+    lock false
   link modifier-scroll-lock, name <modifierScrollLock>
     like native-boolean
-    flex true
+    lock false
   link modifier-super, name <modifierSuper>
     like native-boolean
-    flex true
+    lock false
   link modifier-symbol, name <modifierSymbol>
     like native-boolean
-    flex true
+    lock false
   link modifier-symbol-lock, name <modifierSymbolLock>
     like native-boolean
-    flex true
+    lock false
   link shift-key, name <shiftKey>
     like native-boolean
-    flex true
+    lock false

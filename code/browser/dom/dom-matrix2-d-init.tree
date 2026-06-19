@@ -5,37 +5,37 @@ load @cluesurf/bind/code/javascript/native
 form dom-matrix2-d-init, name <DOMMatrix2DInit>
   link a, name <a>
     like native-number
-    flex true
+    lock false
   link b, name <b>
     like native-number
-    flex true
+    lock false
   link c, name <c>
     like native-number
-    flex true
+    lock false
   link d, name <d>
     like native-number
-    flex true
+    lock false
   link e, name <e>
     like native-number
-    flex true
+    lock false
   link f, name <f>
     like native-number
-    flex true
+    lock false
   link m11, name <m11>
     like native-number
-    flex true
+    lock false
   link m12, name <m12>
     like native-number
-    flex true
+    lock false
   link m21, name <m21>
     like native-number
-    flex true
+    lock false
   link m22, name <m22>
     like native-number
-    flex true
+    lock false
   link m41, name <m41>
     like native-number
-    flex true
+    lock false
   link m42, name <m42>
     like native-number
-    flex true
+    lock false

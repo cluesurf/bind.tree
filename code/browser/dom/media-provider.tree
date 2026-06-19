@@ -1,7 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/blob
   find blob
+
+load @cluesurf/bind/code/browser/dom/media-source
   find media-source
+
+load @cluesurf/bind/code/browser/dom/media-stream
   find media-stream
 
 form media-provider, name <MediaProvider>

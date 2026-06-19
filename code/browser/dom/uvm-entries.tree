@@ -1,10 +1,10 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/uvm-entry
   find uvm-entry
 
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
 form uvm-entries, name <UvmEntries>
-  like array
+  like native-array
     like uvm-entry

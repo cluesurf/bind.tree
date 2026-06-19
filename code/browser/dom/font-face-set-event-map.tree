@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form font-face-set-event-map, name <FontFaceSetEventMap>
   link loading, name <loading>
     like event
-    flex true
+    lock false
   link loadingdone, name <loadingdone>
     like event
-    flex true
+    lock false
   link loadingerror, name <loadingerror>
     like event
-    flex true
+    lock false

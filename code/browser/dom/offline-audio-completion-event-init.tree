@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/audio-buffer
   find audio-buffer
+
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
 
 form offline-audio-completion-event-init, name <OfflineAudioCompletionEventInit>
@@ -8,4 +10,4 @@ form offline-audio-completion-event-init, name <OfflineAudioCompletionEventInit>
 
   link rendered-buffer, name <renderedBuffer>
     like audio-buffer
-    flex true
+    lock false

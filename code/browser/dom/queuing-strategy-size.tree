@@ -1,4 +1,7 @@
 
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 form queuing-strategy-size, name <QueuingStrategySize>
   head t
-    fall any
+    back native-any

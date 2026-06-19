@@ -1,103 +1,127 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/html-collection-of
+  find html-collection-of
+
+load @cluesurf/bind/code/browser/dom/html-element
+  find html-element
+
+load @cluesurf/bind/code/browser/dom/html-element-event-map
+  find html-element-event-map
+
+load @cluesurf/bind/code/browser/dom/html-table-cell-element
+  find html-table-cell-element
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find html-collection-of
-  find html-element
-  find html-element-event-map
-  find html-table-cell-element
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form html-table-row-element, name <HTMLTableRowElement>
   base html-element
 
   link align, name <align>
     like native-string
-    flex true
+    lock false
   link bg-color, name <bgColor>
     like native-string
-    flex true
+    lock false
   link cells, name <cells>
     like html-collection-of
       like html-table-cell-element
   link ch, name <ch>
     like native-string
-    flex true
+    lock false
   link ch-off, name <chOff>
     like native-string
-    flex true
+    lock false
   link row-index, name <rowIndex>
     like native-number
   link section-row-index, name <sectionRowIndex>
     like native-number
   link v-align, name <vAlign>
     like native-string
-    flex true
+    lock false
 
   task delete-cell, name <deleteCell>
+    take index, like native-number
     like native-void
-
-    take index
 
   task insert-cell, name <insertCell>
+    take index, like maybe
+      like native-number
     like html-table-cell-element
 
-    take index, like maybe, like native-number
+  task add-event-listener, name <addEventListener>
+    head k
+      base link-read
+        like html-element-event-map
+    take type, like k
+    take listener
+      like task
+        take this, like html-table-row-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    head k
-      base key-list
-        like html-element-event-map
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
-
-  task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+      like task
+        take this, like html-table-row-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void
 
   task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options

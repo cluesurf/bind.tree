@@ -1,14 +1,24 @@
 
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/storage
+  find storage
+
+load @cluesurf/bind/code/browser/dom/url
+  find url
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find event
-  find storage
-  find url
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form storage-event, name <StorageEvent>
   base event
@@ -33,33 +43,29 @@ form storage-event, name <StorageEvent>
     like native-string
 
   task init-storage-event, name <initStorageEvent>
+    take type, like native-string
+    take bubbles, like maybe
+      like native-boolean
+    take cancelable, like maybe
+      like native-boolean
+    take key, like maybe
+      like or
+        like native-string
+        like native-null
+    take old-value, like maybe
+      like or
+        like native-string
+        like native-null
+    take new-value, like maybe
+      like or
+        like native-string
+        like native-null
+    take url, like maybe
+      like or
+        like native-string
+        like url
+    take storage-area, like maybe
+      like or
+        like storage
+        like native-null
     like native-void
-
-    take type
-    take bubbles, like maybe, like native-boolean
-    take cancelable, like maybe, like native-boolean
-    take key
-      like maybe
-        like or
-          like native-string
-          like native-null
-    take old-value
-      like maybe
-        like or
-          like native-string
-          like native-null
-    take new-value
-      like maybe
-        like or
-          like native-string
-          like native-null
-    take url
-      like maybe
-        like or
-          like native-string
-          like url
-    take storage-area
-      like maybe
-        like or
-          like storage
-          like native-null

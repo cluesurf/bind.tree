@@ -1,18 +1,17 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer
-
 load @cluesurf/bind/code/browser/dom/memory
   find memory
+
+load @cluesurf/bind/code/javascript/es5/array-buffer
+  find array-buffer
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form memory, name <Memory>
   link buffer, name <buffer>
     like array-buffer
 
   task grow, name <grow>
+    take delta, like native-number
     like native-number
-
-    take delta

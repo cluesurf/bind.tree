@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/media-stream-track
   find media-stream-track
 
 form media-stream-track-event, name <MediaStreamTrackEvent>

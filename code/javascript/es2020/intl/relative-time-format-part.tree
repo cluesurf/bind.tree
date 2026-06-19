@@ -1,17 +1,17 @@
 
+load @cluesurf/bind/code/javascript/es2020/intl/relative-time-format-unit
+  find relative-time-format-unit
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/javascript/es2020/intl
-  find relative-time-format-unit
 
 form relative-time-format-part, name <RelativeTimeFormatPart>
   link type, name <type>
     like native-string
-    flex true
+    lock false
   link value, name <value>
     like native-string
-    flex true
+    lock false
   link unit, name <unit>
     like relative-time-format-unit
-    flex true
+    lock false

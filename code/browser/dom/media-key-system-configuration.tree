@@ -1,37 +1,39 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/media-key-system-media-capability
+  find media-key-system-media-capability
+
+load @cluesurf/bind/code/browser/dom/media-keys-requirement
+  find media-keys-requirement
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find media-key-system-media-capability
-  find media-keys-requirement
-
 form media-key-system-configuration, name <MediaKeySystemConfiguration>
   link audio-capabilities, name <audioCapabilities>
-    like array
+    like native-array
       like media-key-system-media-capability
-    flex true
+    lock false
   link distinctive-identifier, name <distinctiveIdentifier>
     like media-keys-requirement
-    flex true
+    lock false
   link init-data-types, name <initDataTypes>
-    like array
+    like native-array
       like native-string
-    flex true
+    lock false
   link label, name <label>
     like native-string
-    flex true
+    lock false
   link persistent-state, name <persistentState>
     like media-keys-requirement
-    flex true
+    lock false
   link session-types, name <sessionTypes>
-    like array
+    like native-array
       like native-string
-    flex true
+    lock false
   link video-capabilities, name <videoCapabilities>
-    like array
+    like native-array
       like media-key-system-media-capability
-    flex true
+    lock false

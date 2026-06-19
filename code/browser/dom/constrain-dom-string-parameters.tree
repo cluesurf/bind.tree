@@ -1,6 +1,6 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
@@ -9,12 +9,12 @@ form constrain-dom-string-parameters, name <ConstrainDOMStringParameters>
   link exact, name <exact>
     like or
       like native-string
-      like array
+      like native-array
         like native-string
-    flex true
+    lock false
   link ideal, name <ideal>
     like or
       like native-string
-      like array
+      like native-array
         like native-string
-    flex true
+    lock false

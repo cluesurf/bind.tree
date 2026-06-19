@@ -1,12 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/media-key-message-event
   find media-key-message-event
 
 form media-key-session-event-map, name <MediaKeySessionEventMap>
   link keystatuseschange, name <keystatuseschange>
     like event
-    flex true
+    lock false
   link message, name <message>
     like media-key-message-event
-    flex true
+    lock false

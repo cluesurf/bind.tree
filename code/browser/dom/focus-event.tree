@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/dom/ui-event
+  find ui-event
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find event-target
-  find ui-event
 
 form focus-event, name <FocusEvent>
   base ui-event

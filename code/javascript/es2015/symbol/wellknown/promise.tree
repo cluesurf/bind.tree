@@ -1,22 +1,13 @@
 
+load @cluesurf/bind/code/javascript/es2015/iterable/promise
+  find promise
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
-  find promise-constructor
-
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/promise
-  find promise
 
 form promise, name <Promise>
   head t
 
   link {symbol/to-string-tag}
     like native-string
-    work true
-
-form promise
-  hook self
-    link {symbol/species}
-      like promise-constructor
-      work true
+    read true

@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/algorithm
   find algorithm
+
+load @cluesurf/bind/code/browser/dom/buffer-source
   find buffer-source
 
 form aes-cbc-params, name <AesCbcParams>
@@ -8,4 +10,4 @@ form aes-cbc-params, name <AesCbcParams>
 
   link iv, name <iv>
     like buffer-source
-    flex true
+    lock false

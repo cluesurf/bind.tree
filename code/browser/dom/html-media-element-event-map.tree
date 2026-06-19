@@ -1,7 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/html-element-event-map
   find html-element-event-map
+
+load @cluesurf/bind/code/browser/dom/media-encrypted-event
   find media-encrypted-event
 
 form html-media-element-event-map, name <HTMLMediaElementEventMap>
@@ -9,7 +13,7 @@ form html-media-element-event-map, name <HTMLMediaElementEventMap>
 
   link encrypted, name <encrypted>
     like media-encrypted-event
-    flex true
+    lock false
   link waitingforkey, name <waitingforkey>
     like event
-    flex true
+    lock false

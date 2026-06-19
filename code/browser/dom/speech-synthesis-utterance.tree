@@ -1,156 +1,178 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/dom/speech-synthesis-error-event
+  find speech-synthesis-error-event
+
+load @cluesurf/bind/code/browser/dom/speech-synthesis-event
+  find speech-synthesis-event
+
+load @cluesurf/bind/code/browser/dom/speech-synthesis-utterance-event-map
+  find speech-synthesis-utterance-event-map
+
+load @cluesurf/bind/code/browser/dom/speech-synthesis-voice
+  find speech-synthesis-voice
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find speech-synthesis-error-event
-  find speech-synthesis-event
-  find speech-synthesis-utterance-event-map
-  find speech-synthesis-voice
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form speech-synthesis-utterance, name <SpeechSynthesisUtterance>
   base event-target
 
   link lang, name <lang>
     like native-string
-    flex true
+    lock false
   link onboundary, name <onboundary>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onend, name <onend>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onerror, name <onerror>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-error-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onmark, name <onmark>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onpause, name <onpause>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onresume, name <onresume>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onstart, name <onstart>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like speech-synthesis-utterance
+        take ev, like speech-synthesis-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link pitch, name <pitch>
     like native-number
-    flex true
+    lock false
   link rate, name <rate>
     like native-number
-    flex true
+    lock false
   link text, name <text>
     like native-string
-    flex true
+    lock false
   link voice, name <voice>
     like or
       like speech-synthesis-voice
       like native-null
-    flex true
+    lock false
   link volume, name <volume>
     like native-number
-    flex true
+    lock false
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like speech-synthesis-utterance-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like speech-synthesis-utterance
+        take ev
+          like index
+            like speech-synthesis-utterance-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like speech-synthesis-utterance-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like speech-synthesis-utterance
+        take ev
+          like index
+            like speech-synthesis-utterance-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

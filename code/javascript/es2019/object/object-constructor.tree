@@ -1,0 +1,38 @@
+
+load @cluesurf/bind/code/javascript/es2015/iterable/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/es2017/object/object-constructor
+  find object-constructor
+
+load @cluesurf/bind/code/javascript/es5/property-key
+  find property-key
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+form object-constructor, name <ObjectConstructor>
+  task from-entries, name <fromEntries>
+    head t
+      back native-any
+    take entries
+      like iterable
+        like band
+          like property-key
+          like t
+    like form
+      mesh k, like native-string
+        like t
+
+  task from-entries, name <fromEntries>
+    take entries
+      like iterable
+        like native-array
+          like native-any
+    like native-any

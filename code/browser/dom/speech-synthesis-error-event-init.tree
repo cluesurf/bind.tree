@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/speech-synthesis-error-code
   find speech-synthesis-error-code
+
+load @cluesurf/bind/code/browser/dom/speech-synthesis-event-init
   find speech-synthesis-event-init
 
 form speech-synthesis-error-event-init, name <SpeechSynthesisErrorEventInit>
@@ -8,4 +10,4 @@ form speech-synthesis-error-event-init, name <SpeechSynthesisErrorEventInit>
 
   link error, name <error>
     like speech-synthesis-error-code
-    flex true
+    lock false

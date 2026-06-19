@@ -1,12 +1,15 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
 load @cluesurf/bind/code/browser/dom/post-message-options
   find post-message-options
 
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
 form post-message-options, name <PostMessageOptions>
   link transfer, name <transfer>
-    like array
-      like any
-    flex true
+    like native-array
+      like native-any
+    lock false

@@ -1,6 +1,6 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
@@ -24,97 +24,80 @@ form math, name <Math>
     like native-number
 
   task abs, name <abs>
+    take x, like native-number
     like native-number
-
-    take x
 
   task acos, name <acos>
+    take x, like native-number
     like native-number
-
-    take x
 
   task asin, name <asin>
+    take x, like native-number
     like native-number
-
-    take x
 
   task atan, name <atan>
+    take x, like native-number
     like native-number
-
-    take x
 
   task atan2, name <atan2>
+    take y, like native-number
+    take x, like native-number
     like native-number
-
-    take y
-    take x
 
   task ceil, name <ceil>
+    take x, like native-number
     like native-number
-
-    take x
 
   task cos, name <cos>
+    take x, like native-number
     like native-number
-
-    take x
 
   task exp, name <exp>
+    take x, like native-number
     like native-number
-
-    take x
 
   task floor, name <floor>
+    take x, like native-number
     like native-number
-
-    take x
 
   task log, name <log>
+    take x, like native-number
     like native-number
-
-    take x
 
   task max, name <max>
-    like native-number
-
     take values
-      like array
+      like native-array
         like native-number
       rest true
+    like native-number
 
   task min, name <min>
-    like native-number
-
     take values
-      like array
+      like native-array
         like native-number
       rest true
-
-  task pow, name <pow>
     like native-number
 
-    take x
-    take y
+  task pow, name <pow>
+    take x, like native-number
+    take y, like native-number
+    like native-number
 
   task random, name <random>
     like native-number
 
   task round, name <round>
+    take x, like native-number
     like native-number
-
-    take x
 
   task sin, name <sin>
+    take x, like native-number
     like native-number
-
-    take x
 
   task sqrt, name <sqrt>
+    take x, like native-number
     like native-number
-
-    take x
 
   task tan, name <tan>
+    take x, like native-number
     like native-number
-
-    take x

@@ -5,10 +5,10 @@ load @cluesurf/bind/code/javascript/native
 form media-position-state, name <MediaPositionState>
   link duration, name <duration>
     like native-number
-    flex true
+    lock false
   link playback-rate, name <playbackRate>
     like native-number
-    flex true
+    lock false
   link position, name <position>
     like native-number
-    flex true
+    lock false

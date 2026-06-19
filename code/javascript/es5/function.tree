@@ -1,66 +1,53 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/javascript/es5/function
-  find function
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form function, name <Function>
   link prototype, name <prototype>
-    like any
-    flex true
+    like native-any
+    lock false
   link length, name <length>
     like native-number
   link arguments, name <arguments>
-    like any
-    flex true
+    like native-any
+    lock false
   link caller, name <caller>
     like function
-    flex true
+    lock false
 
   task apply, name <apply>
-    like any
-
-    take this
-    take this-arg
-    take arg-array, like maybe, like any
+    take this, like function
+    take this-arg, like native-any
+    take arg-array, like maybe
+      like native-any
+    like native-any
 
   task call, name <call>
-    like any
-
-    take this
-    take this-arg
+    take this, like function
+    take this-arg, like native-any
     take arg-array
-      like array
-        like any
+      like native-array
+        like native-any
       rest true
+    like native-any
 
   task bind, name <bind>
-    like any
-
-    take this
-    take this-arg
+    take this, like function
+    take this-arg, like native-any
     take arg-array
-      like array
-        like any
+      like native-array
+        like native-any
       rest true
+    like native-any
 
   task to-string, name <toString>
     like native-string
-
-form function
-  hook self
-    link prototype, name <prototype>
-      like function
-
-  hook make
-    like function
-
-    take args
-      like array
-        like native-string
-      rest true

@@ -1,33 +1,37 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-  find native-number
-  find native-void
-
-load @cluesurf/bind/code/javascript/es5
-  find function
-
 load @cluesurf/bind/code/browser/dom/table
   find table
+
+load @cluesurf/bind/code/javascript/es5/function
+  find function
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form table, name <Table>
   link length, name <length>
     like native-number
 
   task get, name <get>
+    take index, like native-number
     like or
       like function
       like native-null
 
-    take index
-
   task grow, name <grow>
+    take delta, like native-number
     like native-number
 
-    take delta
-
   task set, name <set>
-    like native-void
-
-    take index
+    take index, like native-number
     take value
+      like or
+        like function
+        like native-null
+    like native-void

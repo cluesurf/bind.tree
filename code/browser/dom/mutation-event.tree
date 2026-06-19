@@ -1,14 +1,24 @@
 
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find event
-  find node
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form mutation-event, name <MutationEvent>
   base event
@@ -33,17 +43,21 @@ form mutation-event, name <MutationEvent>
     like native-number
 
   task init-mutation-event, name <initMutationEvent>
+    take type-arg, like native-string
+    take bubbles-arg, like maybe
+      like native-boolean
+    take cancelable-arg, like maybe
+      like native-boolean
+    take related-node-arg, like maybe
+      like or
+        like node
+        like native-null
+    take prev-value-arg, like maybe
+      like native-string
+    take new-value-arg, like maybe
+      like native-string
+    take attr-name-arg, like maybe
+      like native-string
+    take attr-change-arg, like maybe
+      like native-number
     like native-void
-
-    take type-arg
-    take bubbles-arg, like maybe, like native-boolean
-    take cancelable-arg, like maybe, like native-boolean
-    take related-node-arg
-      like maybe
-        like or
-          like node
-          like native-null
-    take prev-value-arg, like maybe, like native-string
-    take new-value-arg, like maybe, like native-string
-    take attr-name-arg, like maybe, like native-string
-    take attr-change-arg, like maybe, like native-number

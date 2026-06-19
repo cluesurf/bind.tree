@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/svg-angle
   find svg-angle
 
 form svg-animated-angle, name <SVGAnimatedAngle>

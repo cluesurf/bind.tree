@@ -5,34 +5,34 @@ load @cluesurf/bind/code/javascript/native
 form media-track-supported-constraints, name <MediaTrackSupportedConstraints>
   link aspect-ratio, name <aspectRatio>
     like native-boolean
-    flex true
+    lock false
   link device-id, name <deviceId>
     like native-boolean
-    flex true
+    lock false
   link echo-cancellation, name <echoCancellation>
     like native-boolean
-    flex true
+    lock false
   link facing-mode, name <facingMode>
     like native-boolean
-    flex true
+    lock false
   link frame-rate, name <frameRate>
     like native-boolean
-    flex true
+    lock false
   link group-id, name <groupId>
     like native-boolean
-    flex true
+    lock false
   link height, name <height>
     like native-boolean
-    flex true
+    lock false
   link sample-rate, name <sampleRate>
     like native-boolean
-    flex true
+    lock false
   link sample-size, name <sampleSize>
     like native-boolean
-    flex true
+    lock false
   link suppress-local-audio-playback, name <suppressLocalAudioPlayback>
     like native-boolean
-    flex true
+    lock false
   link width, name <width>
     like native-boolean
-    flex true
+    lock false

@@ -5,7 +5,7 @@ load @cluesurf/bind/code/javascript/native
 form storage-estimate, name <StorageEstimate>
   link quota, name <quota>
     like native-number
-    flex true
+    lock false
   link usage, name <usage>
     like native-number
-    flex true
+    lock false

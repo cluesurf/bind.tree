@@ -1,18 +1,24 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find generic-transform-stream
-  find readable-stream
-  find text-encoder-common
-  find writable-stream
-
-load @cluesurf/bind/code/javascript/es5
-  find uint8-array
-
 load @cluesurf/bind/code/browser/dom/text-encoder-stream
   find text-encoder-stream
+
+load @cluesurf/bind/code/browser/webworker/generic-transform-stream
+  find generic-transform-stream
+
+load @cluesurf/bind/code/browser/webworker/readable-stream
+  find readable-stream
+
+load @cluesurf/bind/code/browser/webworker/text-encoder-common
+  find text-encoder-common
+
+load @cluesurf/bind/code/browser/webworker/writable-stream
+  find writable-stream
+
+load @cluesurf/bind/code/javascript/es5/uint8-array
+  find uint8-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form text-encoder-stream, name <TextEncoderStream>
   base generic-transform-stream

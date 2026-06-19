@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/g-lint
   find g-lint
 
 form web-gl-shader-precision-format, name <WebGLShaderPrecisionFormat>

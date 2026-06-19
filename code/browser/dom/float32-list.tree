@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/g-lfloat
   find g-lfloat
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/float32-array
   find float32-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 form float32-list, name <Float32List>
   like or
     like float32-array
-    like array
+    like native-array
       like g-lfloat

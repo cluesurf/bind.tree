@@ -1,22 +1,23 @@
 
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/resize-observer-options
+  find resize-observer-options
+
 load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find element
-  find resize-observer-options
 
 form resize-observer, name <ResizeObserver>
   task disconnect, name <disconnect>
     like native-void
 
   task observe, name <observe>
+    take target, like element
+    take options, like maybe
+      like resize-observer-options
     like native-void
-
-    take target
-    take options, like maybe, like resize-observer-options
 
   task unobserve, name <unobserve>
+    take target, like element
     like native-void
-
-    take target

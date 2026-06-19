@@ -1,14 +1,17 @@
 
+load @cluesurf/bind/code/browser/dom/payment-request-update-event
+  find payment-request-update-event
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find payment-request-update-event
 
 form payment-method-change-event, name <PaymentMethodChangeEvent>
   base payment-request-update-event
 
   link method-details, name <methodDetails>
-    like any
+    like native-any
   link method-name, name <methodName>
     like native-string

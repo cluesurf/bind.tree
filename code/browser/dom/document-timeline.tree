@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/animation-timeline
   find animation-timeline
 
 form document-timeline, name <DocumentTimeline>

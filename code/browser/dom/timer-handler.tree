@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/javascript/es5/function
+  find function
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/javascript/es5
-  find function
 
 form timer-handler, name <TimerHandler>
   like or

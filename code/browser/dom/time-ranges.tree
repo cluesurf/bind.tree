@@ -7,11 +7,9 @@ form time-ranges, name <TimeRanges>
     like native-number
 
   task end, name <end>
+    take index, like native-number
     like native-number
-
-    take index
 
   task start, name <start>
+    take index, like native-number
     like native-number
-
-    take index

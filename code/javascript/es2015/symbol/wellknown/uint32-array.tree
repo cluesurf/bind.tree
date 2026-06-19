@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/es2015/iterable/uint32-array
 form uint32-array, name <Uint32Array>
   link {symbol/to-string-tag}
     text <Uint32Array>
-    work true
+    read true

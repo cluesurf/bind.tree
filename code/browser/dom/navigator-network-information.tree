@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/network-information
   find network-information
 
 form navigator-network-information, name <NavigatorNetworkInformation>

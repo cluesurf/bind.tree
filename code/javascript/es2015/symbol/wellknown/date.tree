@@ -1,27 +1,28 @@
 
+load @cluesurf/bind/code/browser/scripthost/date
+  find date
+
 load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form date, name <Date>
   task {symbol/to-primitive}
+    take hint, text <default>
     like native-string
 
-    take hint
-
   task {symbol/to-primitive}
+    take hint, text <string>
     like native-string
 
-    take hint
-
   task {symbol/to-primitive}
+    take hint, text <number>
     like native-number
 
-    take hint
-
   task {symbol/to-primitive}
+    take hint, like native-string
     like or
       like native-string
       like native-number
-
-    take hint

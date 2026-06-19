@@ -1,19 +1,42 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/audio-buffer
+  find audio-buffer
+
+load @cluesurf/bind/code/browser/dom/audio-param
+  find audio-param
+
+load @cluesurf/bind/code/browser/dom/audio-scheduled-source-node
+  find audio-scheduled-source-node
+
+load @cluesurf/bind/code/browser/dom/audio-scheduled-source-node-event-map
+  find audio-scheduled-source-node-event-map
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find audio-buffer
-  find audio-param
-  find audio-scheduled-source-node
-  find audio-scheduled-source-node-event-map
-  find event-listener-options
-  find event-listener-or-event-listener-object
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form audio-buffer-source-node, name <AudioBufferSourceNode>
   base audio-scheduled-source-node
@@ -22,76 +45,82 @@ form audio-buffer-source-node, name <AudioBufferSourceNode>
     like or
       like audio-buffer
       like native-null
-    flex true
+    lock false
   link detune, name <detune>
     like audio-param
   link loop, name <loop>
     like native-boolean
-    flex true
+    lock false
   link loop-end, name <loopEnd>
     like native-number
-    flex true
+    lock false
   link loop-start, name <loopStart>
     like native-number
-    flex true
+    lock false
   link playback-rate, name <playbackRate>
     like audio-param
 
   task start, name <start>
+    take when, like maybe
+      like native-number
+    take offset, like maybe
+      like native-number
+    take duration, like maybe
+      like native-number
     like native-void
-
-    take when, like maybe, like native-number
-    take offset, like maybe, like native-number
-    take duration, like maybe, like native-number
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like audio-scheduled-source-node-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like audio-buffer-source-node
+        take ev
+          like index
+            like audio-scheduled-source-node-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like audio-scheduled-source-node-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like audio-buffer-source-node
+        take ev
+          like index
+            like audio-scheduled-source-node-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

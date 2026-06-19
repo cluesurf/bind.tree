@@ -1,23 +1,27 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/idb-object-store-parameters
+  find idb-object-store-parameters
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/dom/idb-object-store-parameters
-  find idb-object-store-parameters
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form idb-object-store-parameters, name <IDBObjectStoreParameters>
   link auto-increment, name <autoIncrement>
     like native-boolean
-    flex true
+    lock false
   link key-path, name <keyPath>
     like or
       like native-string
-      like array
+      like native-array
         like native-string
       like native-null
-    flex true
+    lock false

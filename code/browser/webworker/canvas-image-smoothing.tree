@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-
-load @cluesurf/bind/code/browser/webworker
-  find image-smoothing-quality
-
 load @cluesurf/bind/code/browser/dom/canvas-image-smoothing
   find canvas-image-smoothing
+
+load @cluesurf/bind/code/browser/webworker/image-smoothing-quality
+  find image-smoothing-quality
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
 form canvas-image-smoothing, name <CanvasImageSmoothing>
   link image-smoothing-enabled, name <imageSmoothingEnabled>
     like native-boolean
-    flex true
+    lock false
   link image-smoothing-quality, name <imageSmoothingQuality>
     like image-smoothing-quality
-    flex true
+    lock false

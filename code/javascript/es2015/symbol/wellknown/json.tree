@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
 load @cluesurf/bind/code/javascript/es5/json
   find json
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form json, name <JSON>
   link {symbol/to-string-tag}
     like native-string
-    work true
+    read true

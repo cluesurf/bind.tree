@@ -1,12 +1,17 @@
 
-load @cluesurf/bind/code/javascript/es2015/iterable
+load @cluesurf/bind/code/javascript/es2015/iterable/iterator-return-result
   find iterator-return-result
+
+load @cluesurf/bind/code/javascript/es2015/iterable/iterator-yield-result
   find iterator-yield-result
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 form iterator-result, name <IteratorResult>
   head t
   head t-return
-    fall any
+    back native-any
 
   like or
     like iterator-yield-result

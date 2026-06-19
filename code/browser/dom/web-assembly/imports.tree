@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/module-imports
   find module-imports
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/record
   find record
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form imports, name <Imports>
   like record

@@ -1,24 +1,28 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-never
+
+load @cluesurf/bind/code/javascript/p
   find p
 
 form parameters, name <Parameters>
   head t
     base task
-      like any
-
-      take args, like any
+      take args, like native-any
         rest true
+      like native-any
 
   like test
-    fork roll
+    stem roll
       like t
       like task
-        like any
-
         take args, name p
           rest true
+        like native-any
       hook true
         like p
       hook false
-        like never
+        like native-never

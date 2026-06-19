@@ -1,32 +1,32 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/font-face-load-status
   find font-face-load-status
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form font-face, name <FontFace>
   link ascent-override, name <ascentOverride>
     like native-string
-    flex true
+    lock false
   link descent-override, name <descentOverride>
     like native-string
-    flex true
+    lock false
   link display, name <display>
     like native-string
-    flex true
+    lock false
   link family, name <family>
     like native-string
-    flex true
+    lock false
   link feature-settings, name <featureSettings>
     like native-string
-    flex true
+    lock false
   link line-gap-override, name <lineGapOverride>
     like native-string
-    flex true
+    lock false
   link loaded, name <loaded>
     like promise
       like font-face
@@ -34,22 +34,22 @@ form font-face, name <FontFace>
     like font-face-load-status
   link stretch, name <stretch>
     like native-string
-    flex true
+    lock false
   link style, name <style>
     like native-string
-    flex true
+    lock false
   link unicode-range, name <unicodeRange>
     like native-string
-    flex true
+    lock false
   link variant, name <variant>
     like native-string
-    flex true
+    lock false
   link variation-settings, name <variationSettings>
     like native-string
-    flex true
+    lock false
   link weight, name <weight>
     like native-string
-    flex true
+    lock false
 
   task load, name <load>
     like promise

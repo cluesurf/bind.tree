@@ -1,39 +1,43 @@
 
+load @cluesurf/bind/code/browser/dom/fill-mode
+  find fill-mode
+
+load @cluesurf/bind/code/browser/dom/playback-direction
+  find playback-direction
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find fill-mode
-  find playback-direction
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form effect-timing, name <EffectTiming>
   link delay, name <delay>
     like native-number
-    flex true
+    lock false
   link direction, name <direction>
     like playback-direction
-    flex true
+    lock false
   link duration, name <duration>
     like or
       like native-number
       like native-string
-    flex true
+    lock false
   link easing, name <easing>
     like native-string
-    flex true
+    lock false
   link end-delay, name <endDelay>
     like native-number
-    flex true
+    lock false
   link fill, name <fill>
     like fill-mode
-    flex true
+    lock false
   link iteration-start, name <iterationStart>
     like native-number
-    flex true
+    lock false
   link iterations, name <iterations>
     like native-number
-    flex true
+    lock false
   link playback-rate, name <playbackRate>
     like native-number
-    flex true
+    lock false

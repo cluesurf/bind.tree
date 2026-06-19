@@ -1,17 +1,19 @@
 
+load @cluesurf/bind/code/browser/dom/algorithm
+  find algorithm
+
+load @cluesurf/bind/code/browser/dom/big-integer
+  find big-integer
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find algorithm
-  find big-integer
 
 form rsa-key-gen-params, name <RsaKeyGenParams>
   base algorithm
 
   link modulus-length, name <modulusLength>
     like native-number
-    flex true
+    lock false
   link public-exponent, name <publicExponent>
     like big-integer
-    flex true
+    lock false

@@ -1,13 +1,18 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/readable-stream
   find readable-stream
+
+load @cluesurf/bind/code/browser/dom/writable-stream
   find writable-stream
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 form transform-stream, name <TransformStream>
   head i
-    fall any
+    back native-any
   head o
-    fall any
+    back native-any
 
   link readable, name <readable>
     like readable-stream

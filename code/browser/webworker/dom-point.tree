@@ -1,25 +1,25 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find dom-point-read-only
-
 load @cluesurf/bind/code/browser/dom/dom-point
   find dom-point
+
+load @cluesurf/bind/code/browser/webworker/dom-point-read-only
+  find dom-point-read-only
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form dom-point, name <DOMPoint>
   base dom-point-read-only
 
   link w, name <w>
     like native-number
-    flex true
+    lock false
   link x, name <x>
     like native-number
-    flex true
+    lock false
   link y, name <y>
     like native-number
-    flex true
+    lock false
   link z, name <z>
     like native-number
-    flex true
+    lock false

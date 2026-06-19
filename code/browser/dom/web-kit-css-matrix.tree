@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-matrix
   find dom-matrix
 
 form web-kit-css-matrix, name <WebKitCSSMatrix>

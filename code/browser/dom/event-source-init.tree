@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form event-source-init, name <EventSourceInit>
   link with-credentials, name <withCredentials>
     like native-boolean
-    flex true
+    lock false

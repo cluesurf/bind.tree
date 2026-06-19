@@ -1,14 +1,24 @@
 
+load @cluesurf/bind/code/browser/dom/audio-param
+  find audio-param
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find audio-param
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form audio-param-map, name <AudioParamMap>
   task for-each, name <forEach>
-    like native-void
-
     take callbackfn
-    take this-arg, like maybe, like any
+      like task
+        take value, like audio-param
+        take key, like native-string
+        take parent, like audio-param-map
+        like native-void
+    take this-arg, like maybe
+      like native-any
+    like native-void

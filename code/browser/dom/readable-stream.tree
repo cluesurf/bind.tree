@@ -1,60 +1,84 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-number
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/readable-stream-default-reader
   find readable-stream-default-reader
+
+load @cluesurf/bind/code/browser/dom/readable-writable-pair
   find readable-writable-pair
+
+load @cluesurf/bind/code/browser/dom/stream-pipe-options
   find stream-pipe-options
+
+load @cluesurf/bind/code/browser/dom/writable-stream
   find writable-stream
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form readable-stream, name <ReadableStream>
   head r
-    fall any
+    back native-any
 
   link locked, name <locked>
     like native-boolean
 
   task cancel, name <cancel>
+    take reason, like maybe
+      like native-any
     like promise
       like native-void
-
-    take reason, like maybe, like any
 
   task get-reader, name <getReader>
     like readable-stream-default-reader
       like r
 
   task pipe-through, name <pipeThrough>
+    head t
+    take transform
+      like readable-writable-pair
+        like t
+        like r
+    take options, like maybe
+      like stream-pipe-options
     like readable-stream
       like t
 
-    head t
-
-    take transform
-    take options, like maybe, like stream-pipe-options
-
   task pipe-to, name <pipeTo>
+    take destination
+      like writable-stream
+        like r
+    take options, like maybe
+      like stream-pipe-options
     like promise
       like native-void
 
-    take destination
-    take options, like maybe, like stream-pipe-options
-
   task tee, name <tee>
-    like tuple
+    like band
       like readable-stream
         like r
       like readable-stream
         like r
 
   task for-each, name <forEach>
-    like native-void
-
     take callbackfn
-    take this-arg, like maybe, like any
+      like task
+        take value, like native-any
+        take key, like native-number
+        take parent
+          like readable-stream
+            like r
+        like native-void
+    take this-arg, like maybe
+      like native-any
+    like native-void

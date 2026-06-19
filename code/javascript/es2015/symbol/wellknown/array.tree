@@ -1,15 +1,9 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-
 load @cluesurf/bind/code/javascript/es2015/iterable/array
   find array
 
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown
-  find array-constructor
-
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
 form array, name <Array>
   head t
@@ -18,28 +12,22 @@ form array, name <Array>
     like form
       link copy-within, name <copyWithin>
         like native-boolean
-        flex true
+        lock false
       link entries, name <entries>
         like native-boolean
-        flex true
+        lock false
       link fill, name <fill>
         like native-boolean
-        flex true
+        lock false
       link find, name <find>
         like native-boolean
-        flex true
+        lock false
       link find-index, name <findIndex>
         like native-boolean
-        flex true
+        lock false
       link keys, name <keys>
         like native-boolean
-        flex true
+        lock false
       link values, name <values>
         like native-boolean
-        flex true
-
-form array
-  hook self
-    link {symbol/species}
-      like array-constructor
-      work true
+        lock false

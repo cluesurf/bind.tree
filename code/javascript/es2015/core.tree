@@ -1,10 +1,13 @@
 
 bear @cluesurf/bind/code/javascript/es2015/core/array
-bear @cluesurf/bind/code/javascript/es2015/core/date
+bear @cluesurf/bind/code/javascript/es2015/core/array-constructor
+bear @cluesurf/bind/code/javascript/es2015/core/date-constructor
 bear @cluesurf/bind/code/javascript/es2015/core/function
 bear @cluesurf/bind/code/javascript/es2015/core/math
-bear @cluesurf/bind/code/javascript/es2015/core/number
-bear @cluesurf/bind/code/javascript/es2015/core/object
+bear @cluesurf/bind/code/javascript/es2015/core/number-constructor
+bear @cluesurf/bind/code/javascript/es2015/core/object-constructor
 bear @cluesurf/bind/code/javascript/es2015/core/readonly-array
 bear @cluesurf/bind/code/javascript/es2015/core/reg-exp
+bear @cluesurf/bind/code/javascript/es2015/core/reg-exp-constructor
 bear @cluesurf/bind/code/javascript/es2015/core/string
+bear @cluesurf/bind/code/javascript/es2015/core/string-constructor

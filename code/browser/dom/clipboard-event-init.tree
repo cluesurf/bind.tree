@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/data-transfer
+  find data-transfer
+
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find data-transfer
-  find event-init
 
 form clipboard-event-init, name <ClipboardEventInit>
   base event-init
@@ -13,4 +15,4 @@ form clipboard-event-init, name <ClipboardEventInit>
     like or
       like data-transfer
       like native-null
-    flex true
+    lock false

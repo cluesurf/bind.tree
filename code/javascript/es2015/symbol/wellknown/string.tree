@@ -1,46 +1,95 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/native
-  find native-null
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/javascript/es5
-  find reg-exp-match-array
-
 load @cluesurf/bind/code/javascript/es2015/iterable/string
   find string
 
+load @cluesurf/bind/code/javascript/es5/reg-exp-match-array
+  find reg-exp-match-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
 form string, name <String>
   task match, name <match>
+    take matcher
+      like form
+        task {symbol/match}
+          take string, like native-string
+          like or
+            like reg-exp-match-array
+            like native-null
+
     like or
       like reg-exp-match-array
       like native-null
 
-    take matcher
-
   task replace, name <replace>
+    take search-value
+      like form
+        task {symbol/replace}
+          take string, like native-string
+          take replace-value, like native-string
+          like native-string
+
+    take replace-value, like native-string
     like native-string
 
-    take search-value
-    take replace-value
-
   task replace, name <replace>
-    like native-string
-
     take search-value
+      like form
+        task {symbol/replace}
+          take string, like native-string
+          take replacer
+            like task
+              take substring, like native-string
+              take args
+                like native-array
+                  like native-any
+                rest true
+              like native-string
+          like native-string
+
     take replacer
+      like task
+        take substring, like native-string
+        take args
+          like native-array
+            like native-any
+          rest true
+        like native-string
+    like native-string
 
   task search, name <search>
+    take searcher
+      like form
+        task {symbol/search}
+          take string, like native-string
+          like native-number
+
     like native-number
 
-    take searcher
-
   task split, name <split>
-    like array
-      like native-string
-
     take splitter
-    take limit, like maybe, like native-number
+      like form
+        task {symbol/split}
+          take string, like native-string
+          take limit, like maybe
+            like native-number
+          like native-array
+            like native-string
+
+    take limit, like maybe
+      like native-number
+    like native-array
+      like native-string

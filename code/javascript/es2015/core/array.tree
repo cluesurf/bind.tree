@@ -1,87 +1,92 @@
 
-load @cluesurf/bind/code/javascript
+load @cluesurf/bind/code/javascript/es5/array
   find array
 
 load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-number
-  find native-this
-  find native-undefined
-  find native-void
+  find native-any
 
-load @cluesurf/bind/code/javascript/es5
-  find array-like
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-this
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
+load @cluesurf/bind/code/javascript/native
+  find native-unknown
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form array, name <Array>
   head t
 
   task find, name <find>
+    head s
+      base t
+    take predicate
+      like task
+        take this, like native-void
+        take value, like t
+        take index, like native-number
+        take obj
+          like native-array
+            like t
+        like native-boolean
+        rank value, like s
+    take this-arg, like maybe
+      like native-any
     like or
       like s
       like native-undefined
 
-    head s
-      base t
-
-    take predicate
-    take this-arg, like maybe, like any
-
   task find, name <find>
+    take predicate
+      like task
+        take value, like t
+        take index, like native-number
+        take obj
+          like native-array
+            like t
+        like native-unknown
+    take this-arg, like maybe
+      like native-any
     like or
       like t
       like native-undefined
 
-    take predicate
-    take this-arg, like maybe, like any
-
   task find-index, name <findIndex>
+    take predicate
+      like task
+        take value, like t
+        take index, like native-number
+        take obj
+          like native-array
+            like t
+        like native-unknown
+    take this-arg, like maybe
+      like native-any
     like native-number
 
-    take predicate
-    take this-arg, like maybe, like any
-
   task fill, name <fill>
+    take value, like t
+    take start, like maybe
+      like native-number
+    take end, like maybe
+      like native-number
     like native-this
-
-    take value
-    take start, like maybe, like native-number
-    take end, like maybe, like native-number
 
   task copy-within, name <copyWithin>
+    take target, like native-number
+    take start, like native-number
+    take end, like maybe
+      like native-number
     like native-this
-
-    take target
-    take start
-    take end, like maybe, like native-number
-
-form array
-  hook self
-    task from, name <from>
-      like array
-        like t
-
-      head t
-
-      take array-like
-
-    task from, name <from>
-      like array
-        like u
-
-      head t
-      head u
-
-      take array-like
-      take mapfn
-      take this-arg, like maybe, like any
-
-    task of, name <of>
-      like array
-        like t
-
-      head t
-
-      take items
-        like array
-          like t
-        rest true

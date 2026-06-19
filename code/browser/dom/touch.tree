@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find event-target
 
 form touch, name <Touch>
   link client-x, name <clientX>

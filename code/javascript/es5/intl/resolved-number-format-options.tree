@@ -1,40 +1,44 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form resolved-number-format-options, name <ResolvedNumberFormatOptions>
   link locale, name <locale>
     like native-string
-    flex true
+    lock false
   link numbering-system, name <numberingSystem>
     like native-string
-    flex true
+    lock false
   link style, name <style>
     like native-string
-    flex true
+    lock false
   link currency, name <currency>
     like native-string
-    flex true
+    lock false
   link currency-display, name <currencyDisplay>
     like native-string
-    flex true
+    lock false
   link minimum-integer-digits, name <minimumIntegerDigits>
     like native-number
-    flex true
+    lock false
   link minimum-fraction-digits, name <minimumFractionDigits>
     like native-number
-    flex true
+    lock false
   link maximum-fraction-digits, name <maximumFractionDigits>
     like native-number
-    flex true
+    lock false
   link minimum-significant-digits, name <minimumSignificantDigits>
     like native-number
-    flex true
+    lock false
   link maximum-significant-digits, name <maximumSignificantDigits>
     like native-number
-    flex true
+    lock false
   link use-grouping, name <useGrouping>
     like native-boolean
-    flex true
+    lock false

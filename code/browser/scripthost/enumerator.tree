@@ -1,15 +1,16 @@
 
 load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-void
-  find safe-array
+  find native-any
 
-load @cluesurf/bind/code/browser/scripthost/enumerator
-  find enumerator
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form enumerator, name <Enumerator>
   head t
-    fall any
+    back native-any
 
   task at-end, name <atEnd>
     like native-boolean
@@ -22,32 +23,3 @@ form enumerator, name <Enumerator>
 
   task move-next, name <moveNext>
     like native-void
-
-form enumerator
-  hook self
-  hook make
-    like enumerator
-      like t
-
-    head t
-      fall any
-
-    take safearray
-
-  hook make
-    like enumerator
-      like t
-
-    head t
-      fall any
-
-    take collection
-
-  hook make
-    like enumerator
-      like t
-
-    head t
-      fall any
-
-    take collection

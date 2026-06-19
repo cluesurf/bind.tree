@@ -2,4 +2,4 @@
 bear @cluesurf/bind/code/javascript/es2020/promise/promise-fulfilled-result
 bear @cluesurf/bind/code/javascript/es2020/promise/promise-rejected-result
 bear @cluesurf/bind/code/javascript/es2020/promise/promise-settled-result
-bear @cluesurf/bind/code/javascript/es2020/promise/promise
+bear @cluesurf/bind/code/javascript/es2020/promise/promise-constructor

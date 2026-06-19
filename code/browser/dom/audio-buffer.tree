@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/javascript/es5/float32-array
+  find float32-array
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-void
 
-load @cluesurf/bind/code/javascript/es5
-  find float32-array
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form audio-buffer, name <AudioBuffer>
   link duration, name <duration>
@@ -17,20 +19,19 @@ form audio-buffer, name <AudioBuffer>
     like native-number
 
   task copy-from-channel, name <copyFromChannel>
+    take destination, like float32-array
+    take channel-number, like native-number
+    take buffer-offset, like maybe
+      like native-number
     like native-void
-
-    take destination
-    take channel-number
-    take buffer-offset, like maybe, like native-number
 
   task copy-to-channel, name <copyToChannel>
+    take source, like float32-array
+    take channel-number, like native-number
+    take buffer-offset, like maybe
+      like native-number
     like native-void
 
-    take source
-    take channel-number
-    take buffer-offset, like maybe, like native-number
-
   task get-channel-data, name <getChannelData>
+    take channel, like native-number
     like float32-array
-
-    take channel

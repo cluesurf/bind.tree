@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find message-event
-
 load @cluesurf/bind/code/browser/dom/message-port-event-map
   find message-port-event-map
+
+load @cluesurf/bind/code/browser/webworker/message-event
+  find message-event
 
 form message-port-event-map, name <MessagePortEventMap>
   link message, name <message>
     like message-event
-    flex true
+    lock false
   link messageerror, name <messageerror>
     like message-event
-    flex true
+    lock false

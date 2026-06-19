@@ -1,13 +1,21 @@
 
+load @cluesurf/bind/code/browser/dom/css-keyframe-rule
+  find css-keyframe-rule
+
+load @cluesurf/bind/code/browser/dom/css-rule
+  find css-rule
+
+load @cluesurf/bind/code/browser/dom/css-rule-list
+  find css-rule-list
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find css-keyframe-rule
-  find css-rule
-  find css-rule-list
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form css-keyframes-rule, name <CSSKeyframesRule>
   base css-rule
@@ -16,21 +24,18 @@ form css-keyframes-rule, name <CSSKeyframesRule>
     like css-rule-list
   link name, name <name>
     like native-string
-    flex true
+    lock false
 
   task append-rule, name <appendRule>
+    take rule, like native-string
     like native-void
-
-    take rule
 
   task delete-rule, name <deleteRule>
+    take select, like native-string
     like native-void
 
-    take select
-
   task find-rule, name <findRule>
+    take select, like native-string
     like or
       like css-keyframe-rule
       like native-null
-
-    take select

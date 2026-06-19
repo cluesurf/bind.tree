@@ -1,28 +1,10 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-object
-
 load @cluesurf/bind/code/javascript/es2015/collection/weak-set
   find weak-set
 
-load @cluesurf/bind/code/javascript/es2015/iterable
-  find iterable
-
-load @cluesurf/bind/code/javascript/es2015/iterable/weak-set
-  find weak-set
+load @cluesurf/bind/code/javascript/native
+  find native-object
 
 form weak-set, name <WeakSet>
   head t
     base native-object
-
-form weak-set
-  hook self
-  hook make
-    like weak-set
-      like t
-
-    head t
-      base native-object
-      fall native-object
-
-    take iterable

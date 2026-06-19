@@ -1,35 +1,37 @@
 
+load @cluesurf/bind/code/browser/dom/effect-timing
+  find effect-timing
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find effect-timing
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form computed-effect-timing, name <ComputedEffectTiming>
   base effect-timing
 
   link active-duration, name <activeDuration>
     like native-number
-    flex true
+    lock false
   link current-iteration, name <currentIteration>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link end-time, name <endTime>
     like native-number
-    flex true
+    lock false
   link local-time, name <localTime>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link progress, name <progress>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link start-time, name <startTime>
     like native-number
-    flex true
+    lock false

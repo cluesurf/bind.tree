@@ -1,51 +1,38 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find safe-array
-
-load @cluesurf/bind/code/browser/scripthost/vb-array
-  find vb-array
 
 form vb-array, name <VBArray>
   head t
-    fall any
+    back native-any
 
   task dimensions, name <dimensions>
     like native-number
 
   task get-item, name <getItem>
-    like t
-
-    take dimension1-index
+    take dimension1-index, like native-number
     take dimension-n-indexes
-      like array
+      like native-array
         like native-number
       rest true
+    like t
 
   task lbound, name <lbound>
+    take dimension, like maybe
+      like native-number
     like native-number
-
-    take dimension, like maybe, like native-number
 
   task ubound, name <ubound>
+    take dimension, like maybe
+      like native-number
     like native-number
 
-    take dimension, like maybe, like native-number
-
   task to-array, name <toArray>
-    like array
+    like native-array
       like t
-
-form vb-array
-  hook self
-  hook make
-    like vb-array
-      like t
-
-    head t
-      fall any
-
-    take safe-array

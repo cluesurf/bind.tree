@@ -1,62 +1,87 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/html-element
+  find html-element
+
+load @cluesurf/bind/code/browser/dom/html-element-event-map
+  find html-element-event-map
+
+load @cluesurf/bind/code/browser/dom/html-form-element
+  find html-form-element
+
+load @cluesurf/bind/code/browser/dom/html-label-element
+  find html-label-element
+
+load @cluesurf/bind/code/browser/dom/node-list-of
+  find node-list-of
+
+load @cluesurf/bind/code/browser/dom/validity-state
+  find validity-state
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find html-element
-  find html-element-event-map
-  find html-form-element
-  find html-label-element
-  find node-list-of
-  find validity-state
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form html-button-element, name <HTMLButtonElement>
   base html-element
 
   link disabled, name <disabled>
     like native-boolean
-    flex true
+    lock false
   link form, name <form>
     like or
       like html-form-element
       like native-null
   link form-action, name <formAction>
     like native-string
-    flex true
+    lock false
   link form-enctype, name <formEnctype>
     like native-string
-    flex true
+    lock false
   link form-method, name <formMethod>
     like native-string
-    flex true
+    lock false
   link form-no-validate, name <formNoValidate>
     like native-boolean
-    flex true
+    lock false
   link form-target, name <formTarget>
     like native-string
-    flex true
+    lock false
   link labels, name <labels>
     like node-list-of
       like html-label-element
   link name, name <name>
     like native-string
-    flex true
+    lock false
   link type, name <type>
     like native-string
-    flex true
+    lock false
   link validation-message, name <validationMessage>
     like native-string
   link validity, name <validity>
     like validity-state
   link value, name <value>
     like native-string
-    flex true
+    lock false
   link will-validate, name <willValidate>
     like native-boolean
 
@@ -67,58 +92,61 @@ form html-button-element, name <HTMLButtonElement>
     like native-boolean
 
   task set-custom-validity, name <setCustomValidity>
+    take error, like native-string
     like native-void
-
-    take error
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like html-button-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like html-button-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

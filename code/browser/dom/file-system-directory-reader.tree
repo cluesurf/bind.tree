@@ -1,14 +1,16 @@
 
+load @cluesurf/bind/code/browser/dom/error-callback
+  find error-callback
+
+load @cluesurf/bind/code/browser/dom/file-system-entries-callback
+  find file-system-entries-callback
+
 load @cluesurf/bind/code/javascript/native
   find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find error-callback
-  find file-system-entries-callback
-
 form file-system-directory-reader, name <FileSystemDirectoryReader>
   task read-entries, name <readEntries>
+    take success-callback, like file-system-entries-callback
+    take error-callback, like maybe
+      like error-callback
     like native-void
-
-    take success-callback
-    take error-callback, like maybe, like error-callback

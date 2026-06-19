@@ -1,15 +1,17 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-string
-
 load @cluesurf/bind/code/browser/dom/canvas-compositing
   find canvas-compositing
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form canvas-compositing, name <CanvasCompositing>
   link global-alpha, name <globalAlpha>
     like native-number
-    flex true
+    lock false
   link global-composite-operation, name <globalCompositeOperation>
     like native-string
-    flex true
+    lock false

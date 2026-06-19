@@ -1,12 +1,26 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/extendable-event
   find extendable-event
+
+load @cluesurf/bind/code/browser/webworker/extendable-message-event
   find extendable-message-event
+
+load @cluesurf/bind/code/browser/webworker/fetch-event
   find fetch-event
+
+load @cluesurf/bind/code/browser/webworker/message-event
   find message-event
+
+load @cluesurf/bind/code/browser/webworker/notification-event
   find notification-event
+
+load @cluesurf/bind/code/browser/webworker/push-event
   find push-event
+
+load @cluesurf/bind/code/browser/webworker/sync-event
   find sync-event
+
+load @cluesurf/bind/code/browser/webworker/worker-global-scope-event-map
   find worker-global-scope-event-map
 
 form service-worker-global-scope-event-map, name <ServiceWorkerGlobalScopeEventMap>
@@ -14,28 +28,28 @@ form service-worker-global-scope-event-map, name <ServiceWorkerGlobalScopeEventM
 
   link activate, name <activate>
     like extendable-event
-    flex true
+    lock false
   link fetch, name <fetch>
     like fetch-event
-    flex true
+    lock false
   link install, name <install>
     like extendable-event
-    flex true
+    lock false
   link message, name <message>
     like extendable-message-event
-    flex true
+    lock false
   link messageerror, name <messageerror>
     like message-event
-    flex true
+    lock false
   link notificationclick, name <notificationclick>
     like notification-event
-    flex true
+    lock false
   link notificationclose, name <notificationclose>
     like notification-event
-    flex true
+    lock false
   link push, name <push>
     like push-event
-    flex true
+    lock false
   link sync, name <sync>
     like sync-event
-    flex true
+    lock false

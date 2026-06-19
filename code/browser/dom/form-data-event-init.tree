@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
+
+load @cluesurf/bind/code/browser/dom/form-data
   find form-data
 
 form form-data-event-init, name <FormDataEventInit>
@@ -8,4 +10,4 @@ form form-data-event-init, name <FormDataEventInit>
 
   link form-data, name <formData>
     like form-data
-    flex true
+    lock false

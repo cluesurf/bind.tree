@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/dom/algorithm
+  find algorithm
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find algorithm
 
 form algorithm-identifier, name <AlgorithmIdentifier>
   like or

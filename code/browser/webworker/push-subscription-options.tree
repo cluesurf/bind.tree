@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer
-
 load @cluesurf/bind/code/browser/dom/push-subscription-options
   find push-subscription-options
+
+load @cluesurf/bind/code/javascript/es5/array-buffer
+  find array-buffer
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
 form push-subscription-options, name <PushSubscriptionOptions>
   link application-server-key, name <applicationServerKey>

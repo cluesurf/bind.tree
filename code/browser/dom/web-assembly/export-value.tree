@@ -1,10 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/global
   find global
+
+load @cluesurf/bind/code/browser/dom/memory
   find memory
+
+load @cluesurf/bind/code/browser/dom/table
   find table
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/function
   find function
 
 form export-value, name <ExportValue>

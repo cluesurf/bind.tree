@@ -1,8 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/canvas-rendering-context2-d
   find canvas-rendering-context2-d
+
+load @cluesurf/bind/code/browser/dom/image-bitmap-rendering-context
   find image-bitmap-rendering-context
+
+load @cluesurf/bind/code/browser/dom/web-gl-rendering-context
   find web-gl-rendering-context
+
+load @cluesurf/bind/code/browser/dom/web-gl2-rendering-context
   find web-gl2-rendering-context
 
 form rendering-context, name <RenderingContext>

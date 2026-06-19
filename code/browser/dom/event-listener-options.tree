@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form event-listener-options, name <EventListenerOptions>
   link capture, name <capture>
     like native-boolean
-    flex true
+    lock false

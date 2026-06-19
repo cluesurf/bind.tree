@@ -1,24 +1,24 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/media-image
   find media-image
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/readonly-array
   find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form media-metadata, name <MediaMetadata>
   link album, name <album>
     like native-string
-    flex true
+    lock false
   link artist, name <artist>
     like native-string
-    flex true
+    lock false
   link artwork, name <artwork>
     like readonly-array
       like media-image
-    flex true
+    lock false
   link title, name <title>
     like native-string
-    flex true
+    lock false

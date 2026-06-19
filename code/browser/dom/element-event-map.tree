@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form element-event-map, name <ElementEventMap>
   link fullscreenchange, name <fullscreenchange>
     like event
-    flex true
+    lock false
   link fullscreenerror, name <fullscreenerror>
     like event
-    flex true
+    lock false

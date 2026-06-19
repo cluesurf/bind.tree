@@ -1,58 +1,55 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form json, name <JSON>
   task parse, name <parse>
-    like any
-
-    take text
-    take reviver
-      like maybe
-        like task
-          like any
-
-          take this
-          take key
-          take value
+    take text, like native-string
+    take reviver, like maybe
+      like task
+        take this, like native-any
+        take key, like native-string
+        take value, like native-any
+        like native-any
+    like native-any
 
   task stringify, name <stringify>
+    take value, like native-any
+    take replacer, like maybe
+      like task
+        take this, like native-any
+        take key, like native-string
+        take value, like native-any
+        like native-any
+    take space, like maybe
+      like or
+        like native-string
+        like native-number
     like native-string
-
-    take value
-    take replacer
-      like maybe
-        like task
-          like any
-
-          take this
-          take key
-          take value
-    take space
-      like maybe
-        like or
-          like native-string
-          like native-number
 
   task stringify, name <stringify>
+    take value, like native-any
+    take replacer, like maybe
+      like or
+        like native-array
+          like or
+            like native-number
+            like native-string
+        like native-null
+    take space, like maybe
+      like or
+        like native-string
+        like native-number
     like native-string
-
-    take value
-    take replacer
-      like maybe
-        like or
-          like array
-            like or
-              like native-number
-              like native-string
-          like native-null
-    take space
-      like maybe
-        like or
-          like native-string
-          like native-number

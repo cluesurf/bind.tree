@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/message-event
   find message-event
+
+load @cluesurf/bind/code/browser/webworker/worker-global-scope-event-map
   find worker-global-scope-event-map
 
 form dedicated-worker-global-scope-event-map, name <DedicatedWorkerGlobalScopeEventMap>
@@ -8,7 +10,7 @@ form dedicated-worker-global-scope-event-map, name <DedicatedWorkerGlobalScopeEv
 
   link message, name <message>
     like message-event
-    flex true
+    lock false
   link messageerror, name <messageerror>
     like message-event
-    flex true
+    lock false

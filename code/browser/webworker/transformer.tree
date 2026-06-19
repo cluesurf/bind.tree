@@ -1,37 +1,44 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-undefined
-
-load @cluesurf/bind/code/browser/webworker
-  find transformer-flush-callback
-  find transformer-start-callback
-  find transformer-transform-callback
-
 load @cluesurf/bind/code/browser/dom/transformer
   find transformer
 
+load @cluesurf/bind/code/browser/webworker/transformer-flush-callback
+  find transformer-flush-callback
+
+load @cluesurf/bind/code/browser/webworker/transformer-start-callback
+  find transformer-start-callback
+
+load @cluesurf/bind/code/browser/webworker/transformer-transform-callback
+  find transformer-transform-callback
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
 form transformer, name <Transformer>
   head i
-    fall any
+    back native-any
   head o
-    fall any
+    back native-any
 
   link flush, name <flush>
     like transformer-flush-callback
       like o
-    flex true
+    lock false
   link readable-type, name <readableType>
     like native-undefined
-    flex true
+    lock false
   link start, name <start>
     like transformer-start-callback
       like o
-    flex true
+    lock false
   link transform, name <transform>
     like transformer-transform-callback
       like i
       like o
-    flex true
+    lock false
   link writable-type, name <writableType>
     like native-undefined
-    flex true
+    lock false

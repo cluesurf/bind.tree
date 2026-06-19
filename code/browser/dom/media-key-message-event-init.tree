@@ -1,9 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
+
+load @cluesurf/bind/code/browser/dom/media-key-message-type
   find media-key-message-type
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
 
 form media-key-message-event-init, name <MediaKeyMessageEventInit>
@@ -11,7 +13,7 @@ form media-key-message-event-init, name <MediaKeyMessageEventInit>
 
   link message, name <message>
     like array-buffer
-    flex true
+    lock false
   link message-type, name <messageType>
     like media-key-message-type
-    flex true
+    lock false

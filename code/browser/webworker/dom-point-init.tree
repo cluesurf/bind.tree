@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
 load @cluesurf/bind/code/browser/dom/dom-point-init
   find dom-point-init
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form dom-point-init, name <DOMPointInit>
   link w, name <w>
     like native-number
-    flex true
+    lock false
   link x, name <x>
     like native-number
-    flex true
+    lock false
   link y, name <y>
     like native-number
-    flex true
+    lock false
   link z, name <z>
     like native-number
-    flex true
+    lock false

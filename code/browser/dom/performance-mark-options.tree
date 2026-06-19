@@ -1,11 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 form performance-mark-options, name <PerformanceMarkOptions>
   link detail, name <detail>
-    like any
-    flex true
+    like native-any
+    lock false
   link start-time, name <startTime>
     like dom-high-res-time-stamp
-    flex true
+    lock false

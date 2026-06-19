@@ -1,13 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/navigation-preload-state
   find navigation-preload-state
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form navigation-preload-manager, name <NavigationPreloadManager>
   task disable, name <disable>
@@ -23,7 +25,6 @@ form navigation-preload-manager, name <NavigationPreloadManager>
       like navigation-preload-state
 
   task set-header-value, name <setHeaderValue>
+    take value, like native-string
     like promise
       like native-void
-
-    take value

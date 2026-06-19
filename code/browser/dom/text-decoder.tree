@@ -1,17 +1,22 @@
 
+load @cluesurf/bind/code/browser/dom/buffer-source
+  find buffer-source
+
+load @cluesurf/bind/code/browser/dom/text-decode-options
+  find text-decode-options
+
+load @cluesurf/bind/code/browser/dom/text-decoder-common
+  find text-decoder-common
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find buffer-source
-  find text-decode-options
-  find text-decoder-common
 
 form text-decoder, name <TextDecoder>
   base text-decoder-common
 
   task decode, name <decode>
+    take input, like maybe
+      like buffer-source
+    take options, like maybe
+      like text-decode-options
     like native-string
-
-    take input, like maybe, like buffer-source
-    take options, like maybe, like text-decode-options

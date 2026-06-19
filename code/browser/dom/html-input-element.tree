@@ -1,92 +1,127 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
   find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/file-list
   find file-list
+
+load @cluesurf/bind/code/browser/dom/file-system-entry
   find file-system-entry
+
+load @cluesurf/bind/code/browser/dom/html-element
   find html-element
+
+load @cluesurf/bind/code/browser/dom/html-element-event-map
   find html-element-event-map
+
+load @cluesurf/bind/code/browser/dom/html-form-element
   find html-form-element
+
+load @cluesurf/bind/code/browser/dom/html-label-element
   find html-label-element
+
+load @cluesurf/bind/code/browser/dom/node-list-of
   find node-list-of
+
+load @cluesurf/bind/code/browser/dom/selection-mode
   find selection-mode
+
+load @cluesurf/bind/code/browser/dom/validity-state
   find validity-state
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/date
   find date
+
+load @cluesurf/bind/code/javascript/es5/readonly-array
   find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form html-input-element, name <HTMLInputElement>
   base html-element
 
   link accept, name <accept>
     like native-string
-    flex true
+    lock false
   link align, name <align>
     like native-string
-    flex true
+    lock false
   link alt, name <alt>
     like native-string
-    flex true
+    lock false
   link autocomplete, name <autocomplete>
     like native-string
-    flex true
+    lock false
   link capture, name <capture>
     like native-string
-    flex true
+    lock false
   link checked, name <checked>
     like native-boolean
-    flex true
+    lock false
   link default-checked, name <defaultChecked>
     like native-boolean
-    flex true
+    lock false
   link default-value, name <defaultValue>
     like native-string
-    flex true
+    lock false
   link dir-name, name <dirName>
     like native-string
-    flex true
+    lock false
   link disabled, name <disabled>
     like native-boolean
-    flex true
+    lock false
   link files, name <files>
     like or
       like file-list
       like native-null
-    flex true
+    lock false
   link form, name <form>
     like or
       like html-form-element
       like native-null
   link form-action, name <formAction>
     like native-string
-    flex true
+    lock false
   link form-enctype, name <formEnctype>
     like native-string
-    flex true
+    lock false
   link form-method, name <formMethod>
     like native-string
-    flex true
+    lock false
   link form-no-validate, name <formNoValidate>
     like native-boolean
-    flex true
+    lock false
   link form-target, name <formTarget>
     like native-string
-    flex true
+    lock false
   link height, name <height>
     like native-number
-    flex true
+    lock false
   link indeterminate, name <indeterminate>
     like native-boolean
-    flex true
+    lock false
   link labels, name <labels>
     like or
       like node-list-of
@@ -98,90 +133,90 @@ form html-input-element, name <HTMLInputElement>
       like native-null
   link max, name <max>
     like native-string
-    flex true
+    lock false
   link max-length, name <maxLength>
     like native-number
-    flex true
+    lock false
   link min, name <min>
     like native-string
-    flex true
+    lock false
   link min-length, name <minLength>
     like native-number
-    flex true
+    lock false
   link multiple, name <multiple>
     like native-boolean
-    flex true
+    lock false
   link name, name <name>
     like native-string
-    flex true
+    lock false
   link pattern, name <pattern>
     like native-string
-    flex true
+    lock false
   link placeholder, name <placeholder>
     like native-string
-    flex true
+    lock false
   link read-only, name <readOnly>
     like native-boolean
-    flex true
+    lock false
   link required, name <required>
     like native-boolean
-    flex true
+    lock false
   link selection-direction, name <selectionDirection>
     like or
       text <forward>
       text <backward>
       text <none>
       like native-null
-    flex true
+    lock false
   link selection-end, name <selectionEnd>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link selection-start, name <selectionStart>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link size, name <size>
     like native-number
-    flex true
+    lock false
   link src, name <src>
     like native-string
-    flex true
+    lock false
   link step, name <step>
     like native-string
-    flex true
+    lock false
   link type, name <type>
     like native-string
-    flex true
+    lock false
   link use-map, name <useMap>
     like native-string
-    flex true
+    lock false
   link validation-message, name <validationMessage>
     like native-string
   link validity, name <validity>
     like validity-state
   link value, name <value>
     like native-string
-    flex true
+    lock false
   link value-as-date, name <valueAsDate>
     like or
       like date
       like native-null
-    flex true
+    lock false
   link value-as-number, name <valueAsNumber>
     like native-number
-    flex true
+    lock false
   link webkit-entries, name <webkitEntries>
     like readonly-array
       like file-system-entry
   link webkitdirectory, name <webkitdirectory>
     like native-boolean
-    flex true
+    lock false
   link width, name <width>
     like native-number
-    flex true
+    lock false
   link will-validate, name <willValidate>
     like native-boolean
 
@@ -195,93 +230,99 @@ form html-input-element, name <HTMLInputElement>
     like native-void
 
   task set-custom-validity, name <setCustomValidity>
+    take error, like native-string
     like native-void
-
-    take error
 
   task set-range-text, name <setRangeText>
+    take replacement, like native-string
     like native-void
-
-    take replacement
 
   task set-range-text, name <setRangeText>
+    take replacement, like native-string
+    take start, like native-number
+    take end, like native-number
+    take selection-mode, like maybe
+      like selection-mode
     like native-void
-
-    take replacement
-    take start
-    take end
-    take selection-mode, like maybe, like selection-mode
 
   task set-selection-range, name <setSelectionRange>
-    like native-void
-
     take start
+      like or
+        like native-number
+        like native-null
     take end
-    take direction
-      like maybe
-        like or
-          text <forward>
-          text <backward>
-          text <none>
+      like or
+        like native-number
+        like native-null
+    take direction, like maybe
+      like or
+        text <forward>
+        text <backward>
+        text <none>
+    like native-void
 
   task step-down, name <stepDown>
+    take n, like maybe
+      like native-number
     like native-void
-
-    take n, like maybe, like native-number
 
   task step-up, name <stepUp>
+    take n, like maybe
+      like native-number
     like native-void
-
-    take n, like maybe, like native-number
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like html-input-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like html-input-element
+        take ev
+          like index
+            like html-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

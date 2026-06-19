@@ -1,16 +1,16 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/constrain-dom-string-parameters
+  find constrain-dom-string-parameters
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find constrain-dom-string-parameters
-
 form constrain-dom-string, name <ConstrainDOMString>
   like or
     like native-string
-    like array
+    like native-array
       like native-string
     like constrain-dom-string-parameters

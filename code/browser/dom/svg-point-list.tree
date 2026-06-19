@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/dom-point
+  find dom-point
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find dom-point
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form svg-point-list, name <SVGPointList>
   link length, name <length>
@@ -13,39 +15,33 @@ form svg-point-list, name <SVGPointList>
     like native-number
 
   task append-item, name <appendItem>
+    take new-item, like dom-point
     like dom-point
-
-    take new-item
 
   task clear, name <clear>
     like native-void
 
   task get-item, name <getItem>
+    take index, like native-number
     like dom-point
-
-    take index
 
   task initialize, name <initialize>
+    take new-item, like dom-point
     like dom-point
-
-    take new-item
 
   task insert-item-before, name <insertItemBefore>
+    take new-item, like dom-point
+    take index, like native-number
     like dom-point
-
-    take new-item
-    take index
 
   task remove-item, name <removeItem>
+    take index, like native-number
     like dom-point
-
-    take index
 
   task replace-item, name <replaceItem>
+    take new-item, like dom-point
+    take index, like native-number
     like dom-point
 
-    take new-item
-    take index
-
-  mesh index
+  mesh index, like native-number
     like dom-point

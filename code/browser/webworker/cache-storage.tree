@@ -1,53 +1,60 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-string
-  find native-undefined
-
-load @cluesurf/bind/code/browser/webworker
-  find cache
-  find multi-cache-query-options
-  find request-info
-  find response
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 load @cluesurf/bind/code/browser/dom/cache-storage
   find cache-storage
 
+load @cluesurf/bind/code/browser/webworker/cache
+  find cache
+
+load @cluesurf/bind/code/browser/webworker/multi-cache-query-options
+  find multi-cache-query-options
+
+load @cluesurf/bind/code/browser/webworker/request-info
+  find request-info
+
+load @cluesurf/bind/code/browser/webworker/response
+  find response
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
 form cache-storage, name <CacheStorage>
   task delete, name <delete>
+    take cache-name, like native-string
     like promise
       like native-boolean
-
-    take cache-name
 
   task has, name <has>
+    take cache-name, like native-string
     like promise
       like native-boolean
-
-    take cache-name
 
   task keys, name <keys>
     like promise
-      like array
+      like native-array
         like native-string
 
   task match, name <match>
+    take request, like request-info
+    take options, like maybe
+      like multi-cache-query-options
     like promise
       like or
         like response
         like native-undefined
 
-    take request
-    take options, like maybe, like multi-cache-query-options
-
   task open, name <open>
+    take cache-name, like native-string
     like promise
       like cache
-
-    take cache-name

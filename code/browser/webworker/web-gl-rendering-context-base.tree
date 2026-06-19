@@ -1,60 +1,153 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/iterable/web-gl-rendering-context-base
+  find web-gl-rendering-context-base
+
+load @cluesurf/bind/code/browser/webworker/angle-instanced-arrays
+  find angle-instanced-arrays
+
+load @cluesurf/bind/code/browser/webworker/ext-blend-minmax
+  find ext-blend-minmax
+
+load @cluesurf/bind/code/browser/webworker/ext-frag-depth
+  find ext-frag-depth
+
+load @cluesurf/bind/code/browser/webworker/ext-s-rgb
+  find ext-s-rgb
+
+load @cluesurf/bind/code/browser/webworker/ext-shader-texture-lod
+  find ext-shader-texture-lod
+
+load @cluesurf/bind/code/browser/webworker/ext-texture-filter-anisotropic
+  find ext-texture-filter-anisotropic
+
+load @cluesurf/bind/code/browser/webworker/float32-list
+  find float32-list
+
+load @cluesurf/bind/code/browser/webworker/g-lbitfield
+  find g-lbitfield
+
+load @cluesurf/bind/code/browser/webworker/g-lboolean
+  find g-lboolean
+
+load @cluesurf/bind/code/browser/webworker/g-lclampf
+  find g-lclampf
+
+load @cluesurf/bind/code/browser/webworker/g-lenum
+  find g-lenum
+
+load @cluesurf/bind/code/browser/webworker/g-lfloat
+  find g-lfloat
+
+load @cluesurf/bind/code/browser/webworker/g-lint
+  find g-lint
+
+load @cluesurf/bind/code/browser/webworker/g-lintptr
+  find g-lintptr
+
+load @cluesurf/bind/code/browser/webworker/g-lsizei
+  find g-lsizei
+
+load @cluesurf/bind/code/browser/webworker/g-luint
+  find g-luint
+
+load @cluesurf/bind/code/browser/webworker/oes-element-index-uint
+  find oes-element-index-uint
+
+load @cluesurf/bind/code/browser/webworker/oes-standard-derivatives
+  find oes-standard-derivatives
+
+load @cluesurf/bind/code/browser/webworker/oes-texture-float
+  find oes-texture-float
+
+load @cluesurf/bind/code/browser/webworker/oes-texture-float-linear
+  find oes-texture-float-linear
+
+load @cluesurf/bind/code/browser/webworker/oes-texture-half-float
+  find oes-texture-half-float
+
+load @cluesurf/bind/code/browser/webworker/oes-texture-half-float-linear
+  find oes-texture-half-float-linear
+
+load @cluesurf/bind/code/browser/webworker/oes-vertex-array-object
+  find oes-vertex-array-object
+
+load @cluesurf/bind/code/browser/webworker/offscreen-canvas
+  find offscreen-canvas
+
+load @cluesurf/bind/code/browser/webworker/web-gl-active-info
+  find web-gl-active-info
+
+load @cluesurf/bind/code/browser/webworker/web-gl-buffer
+  find web-gl-buffer
+
+load @cluesurf/bind/code/browser/webworker/web-gl-context-attributes
+  find web-gl-context-attributes
+
+load @cluesurf/bind/code/browser/webworker/web-gl-framebuffer
+  find web-gl-framebuffer
+
+load @cluesurf/bind/code/browser/webworker/web-gl-program
+  find web-gl-program
+
+load @cluesurf/bind/code/browser/webworker/web-gl-renderbuffer
+  find web-gl-renderbuffer
+
+load @cluesurf/bind/code/browser/webworker/web-gl-shader
+  find web-gl-shader
+
+load @cluesurf/bind/code/browser/webworker/web-gl-shader-precision-format
+  find web-gl-shader-precision-format
+
+load @cluesurf/bind/code/browser/webworker/web-gl-texture
+  find web-gl-texture
+
+load @cluesurf/bind/code/browser/webworker/web-gl-uniform-location
+  find web-gl-uniform-location
+
+load @cluesurf/bind/code/browser/webworker/webgl-color-buffer-float
+  find webgl-color-buffer-float
+
+load @cluesurf/bind/code/browser/webworker/webgl-compressed-texture-astc
+  find webgl-compressed-texture-astc
+
+load @cluesurf/bind/code/browser/webworker/webgl-compressed-texture-s3tc
+  find webgl-compressed-texture-s3tc
+
+load @cluesurf/bind/code/browser/webworker/webgl-compressed-texture-s3tc-srgb
+  find webgl-compressed-texture-s3tc-srgb
+
+load @cluesurf/bind/code/browser/webworker/webgl-debug-renderer-info
+  find webgl-debug-renderer-info
+
+load @cluesurf/bind/code/browser/webworker/webgl-debug-shaders
+  find webgl-debug-shaders
+
+load @cluesurf/bind/code/browser/webworker/webgl-depth-texture
+  find webgl-depth-texture
+
+load @cluesurf/bind/code/browser/webworker/webgl-draw-buffers
+  find webgl-draw-buffers
+
+load @cluesurf/bind/code/browser/webworker/webgl-lose-context
+  find webgl-lose-context
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find angle-instanced-arrays
-  find ext-blend-minmax
-  find ext-frag-depth
-  find ext-s-rgb
-  find ext-shader-texture-lod
-  find ext-texture-filter-anisotropic
-  find float32-list
-  find g-lbitfield
-  find g-lboolean
-  find g-lclampf
-  find g-lenum
-  find g-lfloat
-  find g-lint
-  find g-lintptr
-  find g-lsizei
-  find g-luint
-  find oes-element-index-uint
-  find oes-standard-derivatives
-  find oes-texture-float
-  find oes-texture-float-linear
-  find oes-texture-half-float
-  find oes-texture-half-float-linear
-  find oes-vertex-array-object
-  find offscreen-canvas
-  find web-gl-active-info
-  find web-gl-buffer
-  find web-gl-context-attributes
-  find web-gl-framebuffer
-  find web-gl-program
-  find web-gl-renderbuffer
-  find web-gl-shader
-  find web-gl-shader-precision-format
-  find web-gl-texture
-  find web-gl-uniform-location
-  find webgl-color-buffer-float
-  find webgl-compressed-texture-astc
-  find webgl-compressed-texture-s3tc
-  find webgl-compressed-texture-s3tc-srgb
-  find webgl-debug-renderer-info
-  find webgl-debug-shaders
-  find webgl-depth-texture
-  find webgl-draw-buffers
-  find webgl-lose-context
-
-load @cluesurf/bind/code/browser/dom/iterable/web-gl-rendering-context-base
-  find web-gl-rendering-context-base
 
 form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
   link canvas, name <canvas>
@@ -659,144 +752,135 @@ form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
     like g-lenum
 
   task active-texture, name <activeTexture>
+    take texture, like g-lenum
     like native-void
-
-    take texture
 
   task attach-shader, name <attachShader>
+    take program, like web-gl-program
+    take shader, like web-gl-shader
     like native-void
-
-    take program
-    take shader
 
   task bind-attrib-location, name <bindAttribLocation>
+    take program, like web-gl-program
+    take index, like g-luint
+    take name, like native-string
     like native-void
-
-    take program
-    take index
-    take name
 
   task bind-buffer, name <bindBuffer>
-    like native-void
-
-    take target
+    take target, like g-lenum
     take buffer
+      like or
+        like web-gl-buffer
+        like native-null
+    like native-void
 
   task bind-framebuffer, name <bindFramebuffer>
-    like native-void
-
-    take target
+    take target, like g-lenum
     take framebuffer
+      like or
+        like web-gl-framebuffer
+        like native-null
+    like native-void
 
   task bind-renderbuffer, name <bindRenderbuffer>
-    like native-void
-
-    take target
+    take target, like g-lenum
     take renderbuffer
+      like or
+        like web-gl-renderbuffer
+        like native-null
+    like native-void
 
   task bind-texture, name <bindTexture>
-    like native-void
-
-    take target
+    take target, like g-lenum
     take texture
+      like or
+        like web-gl-texture
+        like native-null
+    like native-void
 
   task blend-color, name <blendColor>
+    take red, like g-lclampf
+    take green, like g-lclampf
+    take blue, like g-lclampf
+    take alpha, like g-lclampf
     like native-void
-
-    take red
-    take green
-    take blue
-    take alpha
 
   task blend-equation, name <blendEquation>
+    take mode, like g-lenum
     like native-void
-
-    take mode
 
   task blend-equation-separate, name <blendEquationSeparate>
+    take mode-rgb, like g-lenum
+    take mode-alpha, like g-lenum
     like native-void
-
-    take mode-rgb
-    take mode-alpha
 
   task blend-func, name <blendFunc>
+    take sfactor, like g-lenum
+    take dfactor, like g-lenum
     like native-void
-
-    take sfactor
-    take dfactor
 
   task blend-func-separate, name <blendFuncSeparate>
+    take src-rgb, like g-lenum
+    take dst-rgb, like g-lenum
+    take src-alpha, like g-lenum
+    take dst-alpha, like g-lenum
     like native-void
-
-    take src-rgb
-    take dst-rgb
-    take src-alpha
-    take dst-alpha
 
   task check-framebuffer-status, name <checkFramebufferStatus>
+    take target, like g-lenum
     like g-lenum
 
-    take target
-
   task clear, name <clear>
+    take mask, like g-lbitfield
     like native-void
-
-    take mask
 
   task clear-color, name <clearColor>
+    take red, like g-lclampf
+    take green, like g-lclampf
+    take blue, like g-lclampf
+    take alpha, like g-lclampf
     like native-void
-
-    take red
-    take green
-    take blue
-    take alpha
 
   task clear-depth, name <clearDepth>
+    take depth, like g-lclampf
     like native-void
-
-    take depth
 
   task clear-stencil, name <clearStencil>
+    take s, like g-lint
     like native-void
-
-    take s
 
   task color-mask, name <colorMask>
+    take red, like g-lboolean
+    take green, like g-lboolean
+    take blue, like g-lboolean
+    take alpha, like g-lboolean
     like native-void
-
-    take red
-    take green
-    take blue
-    take alpha
 
   task compile-shader, name <compileShader>
+    take shader, like web-gl-shader
     like native-void
-
-    take shader
 
   task copy-tex-image2-d, name <copyTexImage2D>
+    take target, like g-lenum
+    take level, like g-lint
+    take internalformat, like g-lenum
+    take x, like g-lint
+    take y, like g-lint
+    take width, like g-lsizei
+    take height, like g-lsizei
+    take border, like g-lint
     like native-void
-
-    take target
-    take level
-    take internalformat
-    take x
-    take y
-    take width
-    take height
-    take border
 
   task copy-tex-sub-image2-d, name <copyTexSubImage2D>
+    take target, like g-lenum
+    take level, like g-lint
+    take xoffset, like g-lint
+    take yoffset, like g-lint
+    take x, like g-lint
+    take y, like g-lint
+    take width, like g-lsizei
+    take height, like g-lsizei
     like native-void
-
-    take target
-    take level
-    take xoffset
-    take yoffset
-    take x
-    take y
-    take width
-    take height
 
   task create-buffer, name <createBuffer>
     like or
@@ -819,11 +903,10 @@ form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
       like native-null
 
   task create-shader, name <createShader>
+    take type, like g-lenum
     like or
       like web-gl-shader
       like native-null
-
-    take type
 
   task create-texture, name <createTexture>
     like or
@@ -831,96 +914,97 @@ form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
       like native-null
 
   task cull-face, name <cullFace>
+    take mode, like g-lenum
     like native-void
-
-    take mode
 
   task delete-buffer, name <deleteBuffer>
-    like native-void
-
     take buffer
+      like or
+        like web-gl-buffer
+        like native-null
+    like native-void
 
   task delete-framebuffer, name <deleteFramebuffer>
-    like native-void
-
     take framebuffer
+      like or
+        like web-gl-framebuffer
+        like native-null
+    like native-void
 
   task delete-program, name <deleteProgram>
-    like native-void
-
     take program
+      like or
+        like web-gl-program
+        like native-null
+    like native-void
 
   task delete-renderbuffer, name <deleteRenderbuffer>
-    like native-void
-
     take renderbuffer
+      like or
+        like web-gl-renderbuffer
+        like native-null
+    like native-void
 
   task delete-shader, name <deleteShader>
-    like native-void
-
     take shader
+      like or
+        like web-gl-shader
+        like native-null
+    like native-void
 
   task delete-texture, name <deleteTexture>
-    like native-void
-
     take texture
+      like or
+        like web-gl-texture
+        like native-null
+    like native-void
 
   task depth-func, name <depthFunc>
+    take func, like g-lenum
     like native-void
-
-    take func
 
   task depth-mask, name <depthMask>
+    take flag, like g-lboolean
     like native-void
-
-    take flag
 
   task depth-range, name <depthRange>
+    take z-near, like g-lclampf
+    take z-far, like g-lclampf
     like native-void
-
-    take z-near
-    take z-far
 
   task detach-shader, name <detachShader>
+    take program, like web-gl-program
+    take shader, like web-gl-shader
     like native-void
-
-    take program
-    take shader
 
   task disable, name <disable>
+    take cap, like g-lenum
     like native-void
-
-    take cap
 
   task disable-vertex-attrib-array, name <disableVertexAttribArray>
+    take index, like g-luint
     like native-void
-
-    take index
 
   task draw-arrays, name <drawArrays>
+    take mode, like g-lenum
+    take first, like g-lint
+    take count, like g-lsizei
     like native-void
-
-    take mode
-    take first
-    take count
 
   task draw-elements, name <drawElements>
+    take mode, like g-lenum
+    take count, like g-lsizei
+    take type, like g-lenum
+    take offset, like g-lintptr
     like native-void
-
-    take mode
-    take count
-    take type
-    take offset
 
   task enable, name <enable>
+    take cap, like g-lenum
     like native-void
-
-    take cap
 
   task enable-vertex-attrib-array, name <enableVertexAttribArray>
+    take index, like g-luint
     like native-void
-
-    take index
 
   task finish, name <finish>
     like native-void
@@ -929,67 +1013,64 @@ form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
     like native-void
 
   task framebuffer-renderbuffer, name <framebufferRenderbuffer>
-    like native-void
-
-    take target
-    take attachment
-    take renderbuffertarget
+    take target, like g-lenum
+    take attachment, like g-lenum
+    take renderbuffertarget, like g-lenum
     take renderbuffer
+      like or
+        like web-gl-renderbuffer
+        like native-null
+    like native-void
 
   task framebuffer-texture2-d, name <framebufferTexture2D>
-    like native-void
-
-    take target
-    take attachment
-    take textarget
+    take target, like g-lenum
+    take attachment, like g-lenum
+    take textarget, like g-lenum
     take texture
-    take level
+      like or
+        like web-gl-texture
+        like native-null
+    take level, like g-lint
+    like native-void
 
   task front-face, name <frontFace>
+    take mode, like g-lenum
     like native-void
-
-    take mode
 
   task generate-mipmap, name <generateMipmap>
+    take target, like g-lenum
     like native-void
 
-    take target
-
   task get-active-attrib, name <getActiveAttrib>
+    take program, like web-gl-program
+    take index, like g-luint
     like or
       like web-gl-active-info
       like native-null
-
-    take program
-    take index
 
   task get-active-uniform, name <getActiveUniform>
+    take program, like web-gl-program
+    take index, like g-luint
     like or
       like web-gl-active-info
       like native-null
 
-    take program
-    take index
-
   task get-attached-shaders, name <getAttachedShaders>
+    take program, like web-gl-program
     like or
-      like array
+      like native-array
         like web-gl-shader
       like native-null
 
-    take program
-
   task get-attrib-location, name <getAttribLocation>
+    take program, like web-gl-program
+    take name, like native-string
     like g-lint
 
-    take program
-    take name
-
   task get-buffer-parameter, name <getBufferParameter>
-    like any
-
-    take target
-    take pname
+    take target, like g-lenum
+    take pname, like g-lenum
+    like native-any
 
   task get-context-attributes, name <getContextAttributes>
     like or
@@ -1000,548 +1081,515 @@ form web-gl-rendering-context-base, name <WebGLRenderingContextBase>
     like g-lenum
 
   task get-extension, name <getExtension>
+    take extension-name, text <EXT_blend_minmax>
     like or
       like ext-blend-minmax
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <EXT_texture_filter_anisotropic>
     like or
       like ext-texture-filter-anisotropic
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <EXT_frag_depth>
     like or
       like ext-frag-depth
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <EXT_shader_texture_lod>
     like or
       like ext-shader-texture-lod
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <EXT_sRGB>
     like or
       like ext-s-rgb
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_vertex_array_object>
     like or
       like oes-vertex-array-object
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_color_buffer_float>
     like or
       like webgl-color-buffer-float
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_compressed_texture_astc>
     like or
       like webgl-compressed-texture-astc
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_compressed_texture_s3tc_srgb>
     like or
       like webgl-compressed-texture-s3tc-srgb
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_debug_shaders>
     like or
       like webgl-debug-shaders
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_draw_buffers>
     like or
       like webgl-draw-buffers
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_lose_context>
     like or
       like webgl-lose-context
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_depth_texture>
     like or
       like webgl-depth-texture
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_debug_renderer_info>
     like or
       like webgl-debug-renderer-info
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <WEBGL_compressed_texture_s3tc>
     like or
       like webgl-compressed-texture-s3tc
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_texture_half_float_linear>
     like or
       like oes-texture-half-float-linear
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_texture_half_float>
     like or
       like oes-texture-half-float
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_texture_float_linear>
     like or
       like oes-texture-float-linear
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_texture_float>
     like or
       like oes-texture-float
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_standard_derivatives>
     like or
       like oes-standard-derivatives
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <OES_element_index_uint>
     like or
       like oes-element-index-uint
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
+    take extension-name, text <ANGLE_instanced_arrays>
     like or
       like angle-instanced-arrays
       like native-null
 
-    take extension-name
-
   task get-extension, name <getExtension>
-    like any
-
-    take extension-name
+    take extension-name, like native-string
+    like native-any
 
   task get-framebuffer-attachment-parameter, name <getFramebufferAttachmentParameter>
-    like any
-
-    take target
-    take attachment
-    take pname
+    take target, like g-lenum
+    take attachment, like g-lenum
+    take pname, like g-lenum
+    like native-any
 
   task get-parameter, name <getParameter>
-    like any
-
-    take pname
+    take pname, like g-lenum
+    like native-any
 
   task get-program-info-log, name <getProgramInfoLog>
+    take program, like web-gl-program
     like or
       like native-string
       like native-null
-
-    take program
 
   task get-program-parameter, name <getProgramParameter>
-    like any
-
-    take program
-    take pname
+    take program, like web-gl-program
+    take pname, like g-lenum
+    like native-any
 
   task get-renderbuffer-parameter, name <getRenderbufferParameter>
-    like any
-
-    take target
-    take pname
+    take target, like g-lenum
+    take pname, like g-lenum
+    like native-any
 
   task get-shader-info-log, name <getShaderInfoLog>
+    take shader, like web-gl-shader
     like or
       like native-string
       like native-null
 
-    take shader
-
   task get-shader-parameter, name <getShaderParameter>
-    like any
-
-    take shader
-    take pname
+    take shader, like web-gl-shader
+    take pname, like g-lenum
+    like native-any
 
   task get-shader-precision-format, name <getShaderPrecisionFormat>
+    take shadertype, like g-lenum
+    take precisiontype, like g-lenum
     like or
       like web-gl-shader-precision-format
       like native-null
 
-    take shadertype
-    take precisiontype
-
   task get-shader-source, name <getShaderSource>
+    take shader, like web-gl-shader
     like or
       like native-string
       like native-null
 
-    take shader
-
   task get-supported-extensions, name <getSupportedExtensions>
     like or
-      like array
+      like native-array
         like native-string
       like native-null
 
   task get-tex-parameter, name <getTexParameter>
-    like any
-
-    take target
-    take pname
+    take target, like g-lenum
+    take pname, like g-lenum
+    like native-any
 
   task get-uniform, name <getUniform>
-    like any
-
-    take program
-    take location
+    take program, like web-gl-program
+    take location, like web-gl-uniform-location
+    like native-any
 
   task get-uniform-location, name <getUniformLocation>
+    take program, like web-gl-program
+    take name, like native-string
     like or
       like web-gl-uniform-location
       like native-null
 
-    take program
-    take name
-
   task get-vertex-attrib, name <getVertexAttrib>
-    like any
-
-    take index
-    take pname
+    take index, like g-luint
+    take pname, like g-lenum
+    like native-any
 
   task get-vertex-attrib-offset, name <getVertexAttribOffset>
+    take index, like g-luint
+    take pname, like g-lenum
     like g-lintptr
 
-    take index
-    take pname
-
   task hint, name <hint>
+    take target, like g-lenum
+    take mode, like g-lenum
     like native-void
 
-    take target
-    take mode
-
   task is-buffer, name <isBuffer>
-    like g-lboolean
-
     take buffer
+      like or
+        like web-gl-buffer
+        like native-null
+    like g-lboolean
 
   task is-context-lost, name <isContextLost>
     like native-boolean
 
   task is-enabled, name <isEnabled>
+    take cap, like g-lenum
     like g-lboolean
-
-    take cap
 
   task is-framebuffer, name <isFramebuffer>
-    like g-lboolean
-
     take framebuffer
+      like or
+        like web-gl-framebuffer
+        like native-null
+    like g-lboolean
 
   task is-program, name <isProgram>
-    like g-lboolean
-
     take program
+      like or
+        like web-gl-program
+        like native-null
+    like g-lboolean
 
   task is-renderbuffer, name <isRenderbuffer>
-    like g-lboolean
-
     take renderbuffer
+      like or
+        like web-gl-renderbuffer
+        like native-null
+    like g-lboolean
 
   task is-shader, name <isShader>
-    like g-lboolean
-
     take shader
+      like or
+        like web-gl-shader
+        like native-null
+    like g-lboolean
 
   task is-texture, name <isTexture>
+    take texture
+      like or
+        like web-gl-texture
+        like native-null
     like g-lboolean
 
-    take texture
-
   task line-width, name <lineWidth>
+    take width, like g-lfloat
     like native-void
-
-    take width
 
   task link-program, name <linkProgram>
+    take program, like web-gl-program
     like native-void
-
-    take program
 
   task pixel-storei, name <pixelStorei>
-    like native-void
-
-    take pname
+    take pname, like g-lenum
     take param
+      like or
+        like g-lint
+        like g-lboolean
+    like native-void
 
   task polygon-offset, name <polygonOffset>
+    take factor, like g-lfloat
+    take units, like g-lfloat
     like native-void
-
-    take factor
-    take units
 
   task renderbuffer-storage, name <renderbufferStorage>
+    take target, like g-lenum
+    take internalformat, like g-lenum
+    take width, like g-lsizei
+    take height, like g-lsizei
     like native-void
-
-    take target
-    take internalformat
-    take width
-    take height
 
   task sample-coverage, name <sampleCoverage>
+    take value, like g-lclampf
+    take invert, like g-lboolean
     like native-void
-
-    take value
-    take invert
 
   task scissor, name <scissor>
+    take x, like g-lint
+    take y, like g-lint
+    take width, like g-lsizei
+    take height, like g-lsizei
     like native-void
-
-    take x
-    take y
-    take width
-    take height
 
   task shader-source, name <shaderSource>
+    take shader, like web-gl-shader
+    take source, like native-string
     like native-void
-
-    take shader
-    take source
 
   task stencil-func, name <stencilFunc>
+    take func, like g-lenum
+    take ref, like g-lint
+    take mask, like g-luint
     like native-void
-
-    take func
-    take ref
-    take mask
 
   task stencil-func-separate, name <stencilFuncSeparate>
+    take face, like g-lenum
+    take func, like g-lenum
+    take ref, like g-lint
+    take mask, like g-luint
     like native-void
-
-    take face
-    take func
-    take ref
-    take mask
 
   task stencil-mask, name <stencilMask>
+    take mask, like g-luint
     like native-void
-
-    take mask
 
   task stencil-mask-separate, name <stencilMaskSeparate>
+    take face, like g-lenum
+    take mask, like g-luint
     like native-void
-
-    take face
-    take mask
 
   task stencil-op, name <stencilOp>
+    take fail, like g-lenum
+    take zfail, like g-lenum
+    take zpass, like g-lenum
     like native-void
-
-    take fail
-    take zfail
-    take zpass
 
   task stencil-op-separate, name <stencilOpSeparate>
+    take face, like g-lenum
+    take fail, like g-lenum
+    take zfail, like g-lenum
+    take zpass, like g-lenum
     like native-void
-
-    take face
-    take fail
-    take zfail
-    take zpass
 
   task tex-parameterf, name <texParameterf>
+    take target, like g-lenum
+    take pname, like g-lenum
+    take param, like g-lfloat
     like native-void
-
-    take target
-    take pname
-    take param
 
   task tex-parameteri, name <texParameteri>
+    take target, like g-lenum
+    take pname, like g-lenum
+    take param, like g-lint
     like native-void
-
-    take target
-    take pname
-    take param
 
   task uniform1f, name <uniform1f>
-    like native-void
-
     take location
-    take x
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lfloat
+    like native-void
 
   task uniform1i, name <uniform1i>
-    like native-void
-
     take location
-    take x
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lint
+    like native-void
 
   task uniform2f, name <uniform2f>
-    like native-void
-
     take location
-    take x
-    take y
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lfloat
+    take y, like g-lfloat
+    like native-void
 
   task uniform2i, name <uniform2i>
-    like native-void
-
     take location
-    take x
-    take y
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lint
+    take y, like g-lint
+    like native-void
 
   task uniform3f, name <uniform3f>
-    like native-void
-
     take location
-    take x
-    take y
-    take z
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lfloat
+    take y, like g-lfloat
+    take z, like g-lfloat
+    like native-void
 
   task uniform3i, name <uniform3i>
-    like native-void
-
     take location
-    take x
-    take y
-    take z
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lint
+    take y, like g-lint
+    take z, like g-lint
+    like native-void
 
   task uniform4f, name <uniform4f>
-    like native-void
-
     take location
-    take x
-    take y
-    take z
-    take w
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lfloat
+    take y, like g-lfloat
+    take z, like g-lfloat
+    take w, like g-lfloat
+    like native-void
 
   task uniform4i, name <uniform4i>
-    like native-void
-
     take location
-    take x
-    take y
-    take z
-    take w
+      like or
+        like web-gl-uniform-location
+        like native-null
+    take x, like g-lint
+    take y, like g-lint
+    take z, like g-lint
+    take w, like g-lint
+    like native-void
 
   task use-program, name <useProgram>
-    like native-void
-
     take program
+      like or
+        like web-gl-program
+        like native-null
+    like native-void
 
   task validate-program, name <validateProgram>
+    take program, like web-gl-program
     like native-void
-
-    take program
 
   task vertex-attrib1f, name <vertexAttrib1f>
+    take index, like g-luint
+    take x, like g-lfloat
     like native-void
-
-    take index
-    take x
 
   task vertex-attrib1fv, name <vertexAttrib1fv>
+    take index, like g-luint
+    take values, like float32-list
     like native-void
-
-    take index
-    take values
 
   task vertex-attrib2f, name <vertexAttrib2f>
+    take index, like g-luint
+    take x, like g-lfloat
+    take y, like g-lfloat
     like native-void
-
-    take index
-    take x
-    take y
 
   task vertex-attrib2fv, name <vertexAttrib2fv>
+    take index, like g-luint
+    take values, like float32-list
     like native-void
-
-    take index
-    take values
 
   task vertex-attrib3f, name <vertexAttrib3f>
+    take index, like g-luint
+    take x, like g-lfloat
+    take y, like g-lfloat
+    take z, like g-lfloat
     like native-void
-
-    take index
-    take x
-    take y
-    take z
 
   task vertex-attrib3fv, name <vertexAttrib3fv>
+    take index, like g-luint
+    take values, like float32-list
     like native-void
-
-    take index
-    take values
 
   task vertex-attrib4f, name <vertexAttrib4f>
+    take index, like g-luint
+    take x, like g-lfloat
+    take y, like g-lfloat
+    take z, like g-lfloat
+    take w, like g-lfloat
     like native-void
-
-    take index
-    take x
-    take y
-    take z
-    take w
 
   task vertex-attrib4fv, name <vertexAttrib4fv>
+    take index, like g-luint
+    take values, like float32-list
     like native-void
-
-    take index
-    take values
 
   task vertex-attrib-pointer, name <vertexAttribPointer>
+    take index, like g-luint
+    take size, like g-lint
+    take type, like g-lenum
+    take normalized, like g-lboolean
+    take stride, like g-lsizei
+    take offset, like g-lintptr
     like native-void
-
-    take index
-    take size
-    take type
-    take normalized
-    take stride
-    take offset
 
   task viewport, name <viewport>
+    take x, like g-lint
+    take y, like g-lint
+    take width, like g-lsizei
+    take height, like g-lsizei
     like native-void
-
-    take x
-    take y
-    take width
-    take height

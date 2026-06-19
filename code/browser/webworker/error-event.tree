@@ -1,13 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find event
-
 load @cluesurf/bind/code/browser/dom/error-event
   find error-event
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form error-event, name <ErrorEvent>
   base event
@@ -15,7 +20,7 @@ form error-event, name <ErrorEvent>
   link colno, name <colno>
     like native-number
   link error, name <error>
-    like any
+    like native-any
   link filename, name <filename>
     like native-string
   link lineno, name <lineno>

@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/webworker/export-value
+  find export-value
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find export-value
 
 form import-value, name <ImportValue>
   like or

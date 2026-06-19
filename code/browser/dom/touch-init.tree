@@ -1,54 +1,56 @@
 
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/dom/touch-type
+  find touch-type
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find event-target
-  find touch-type
 
 form touch-init, name <TouchInit>
   link altitude-angle, name <altitudeAngle>
     like native-number
-    flex true
+    lock false
   link azimuth-angle, name <azimuthAngle>
     like native-number
-    flex true
+    lock false
   link client-x, name <clientX>
     like native-number
-    flex true
+    lock false
   link client-y, name <clientY>
     like native-number
-    flex true
+    lock false
   link force, name <force>
     like native-number
-    flex true
+    lock false
   link identifier, name <identifier>
     like native-number
-    flex true
+    lock false
   link page-x, name <pageX>
     like native-number
-    flex true
+    lock false
   link page-y, name <pageY>
     like native-number
-    flex true
+    lock false
   link radius-x, name <radiusX>
     like native-number
-    flex true
+    lock false
   link radius-y, name <radiusY>
     like native-number
-    flex true
+    lock false
   link rotation-angle, name <rotationAngle>
     like native-number
-    flex true
+    lock false
   link screen-x, name <screenX>
     like native-number
-    flex true
+    lock false
   link screen-y, name <screenY>
     like native-number
-    flex true
+    lock false
   link target, name <target>
     like event-target
-    flex true
+    lock false
   link touch-type, name <touchType>
     like touch-type
-    flex true
+    lock false

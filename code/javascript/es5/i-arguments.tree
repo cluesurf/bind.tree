@@ -1,17 +1,20 @@
 
+load @cluesurf/bind/code/javascript/es5/function
+  find function
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/javascript/es5
-  find function
 
 form i-arguments, name <IArguments>
   link length, name <length>
     like native-number
-    flex true
+    lock false
   link callee, name <callee>
     like function
-    flex true
+    lock false
 
-  mesh index
-    like any
+  mesh index, like native-number
+    like native-any

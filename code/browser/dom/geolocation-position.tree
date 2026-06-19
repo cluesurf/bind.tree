@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-time-stamp
   find dom-time-stamp
+
+load @cluesurf/bind/code/browser/dom/geolocation-coordinates
   find geolocation-coordinates
 
 form geolocation-position, name <GeolocationPosition>

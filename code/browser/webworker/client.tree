@@ -1,15 +1,24 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/webworker/client-types
+  find client-types
+
+load @cluesurf/bind/code/browser/webworker/frame-type
+  find frame-type
+
+load @cluesurf/bind/code/browser/webworker/transferable
+  find transferable
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/webworker
-  find client-types
-  find frame-type
-  find transferable
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form client, name <Client>
   link frame-type, name <frameType>
@@ -22,10 +31,8 @@ form client, name <Client>
     like native-string
 
   task post-message, name <postMessage>
+    take message, like native-any
+    take transfer, like maybe
+      like native-array
+        like transferable
     like native-void
-
-    take message
-    take transfer
-      like maybe
-        like array
-          like transferable

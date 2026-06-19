@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form element-definition-options, name <ElementDefinitionOptions>
   link extends, name <extends>
     like native-string
-    flex true
+    lock false

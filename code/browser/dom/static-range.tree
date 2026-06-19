@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/abstract-range
   find abstract-range
 
 form static-range, name <StaticRange>

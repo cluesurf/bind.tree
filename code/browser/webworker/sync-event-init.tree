@@ -1,17 +1,19 @@
 
+load @cluesurf/bind/code/browser/webworker/extendable-event-init
+  find extendable-event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-string
 
-load @cluesurf/bind/code/browser/webworker
-  find extendable-event-init
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form sync-event-init, name <SyncEventInit>
   base extendable-event-init
 
   link last-chance, name <lastChance>
     like native-boolean
-    flex true
+    lock false
   link tag, name <tag>
     like native-string
-    flex true
+    lock false

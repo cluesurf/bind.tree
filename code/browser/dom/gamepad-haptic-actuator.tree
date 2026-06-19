@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/gamepad-haptic-actuator-type
   find gamepad-haptic-actuator-type
 
 form gamepad-haptic-actuator, name <GamepadHapticActuator>

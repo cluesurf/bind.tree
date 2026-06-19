@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/image-bitmap
   find image-bitmap
+
+load @cluesurf/bind/code/browser/webworker/offscreen-canvas
   find offscreen-canvas
 
 form canvas-image-source, name <CanvasImageSource>

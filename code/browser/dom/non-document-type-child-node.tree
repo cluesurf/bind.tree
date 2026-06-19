@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find element
 
 form non-document-type-child-node, name <NonDocumentTypeChildNode>
   link next-element-sibling, name <nextElementSibling>

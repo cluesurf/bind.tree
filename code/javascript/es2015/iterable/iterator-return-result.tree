@@ -4,7 +4,7 @@ form iterator-return-result, name <IteratorReturnResult>
 
   link done, name <done>
     text <true>
-    flex true
+    lock false
   link value, name <value>
     like t-return
-    flex true
+    lock false

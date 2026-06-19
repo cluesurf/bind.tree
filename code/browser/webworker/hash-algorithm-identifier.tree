@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/algorithm-identifier
   find algorithm-identifier
 
 form hash-algorithm-identifier, name <HashAlgorithmIdentifier>

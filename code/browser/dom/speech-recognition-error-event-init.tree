@@ -1,17 +1,19 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
+load @cluesurf/bind/code/browser/dom/speech-recognition-error-code
+  find speech-recognition-error-code
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find event-init
-  find speech-recognition-error-code
 
 form speech-recognition-error-event-init, name <SpeechRecognitionErrorEventInit>
   base event-init
 
   link error, name <error>
     like speech-recognition-error-code
-    flex true
+    lock false
   link message, name <message>
     like native-string
-    flex true
+    lock false

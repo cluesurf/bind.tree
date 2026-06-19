@@ -1,16 +1,16 @@
 
+load @cluesurf/bind/code/browser/webworker/permission-descriptor
+  find permission-descriptor
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-
-load @cluesurf/bind/code/browser/webworker
-  find permission-descriptor
 
 form push-permission-descriptor, name <PushPermissionDescriptor>
   base permission-descriptor
 
   link name, name <name>
     text <push>
-    flex true
+    lock false
   link user-visible-only, name <userVisibleOnly>
     like native-boolean
-    flex true
+    lock false

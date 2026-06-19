@@ -2,10 +2,13 @@
 load @cluesurf/bind/code/browser/dom/global
   find global
 
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 form global, name <Global>
   link value, name <value>
-    like any
-    flex true
+    like native-any
+    lock false
 
   task value-of, name <valueOf>
-    like any
+    like native-any

@@ -1,10 +1,15 @@
 
+load @cluesurf/bind/code/browser/dom/dom-matrix-init
+  find dom-matrix-init
+
+load @cluesurf/bind/code/browser/dom/dom-point
+  find dom-point
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find dom-matrix-init
-  find dom-point
 
 form dom-point-read-only, name <DOMPointReadOnly>
   link w, name <w>
@@ -17,9 +22,9 @@ form dom-point-read-only, name <DOMPointReadOnly>
     like native-number
 
   task matrix-transform, name <matrixTransform>
+    take matrix, like maybe
+      like dom-matrix-init
     like dom-point
 
-    take matrix, like maybe, like dom-matrix-init
-
   task to-json, name <toJSON>
-    like any
+    like native-any

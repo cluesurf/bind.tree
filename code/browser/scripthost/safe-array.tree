@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/javascript/native
+load @cluesurf/bind/code/javascript/safe-array
   find safe-array
+
+load @cluesurf/bind/code/javascript/t
   find t
 
 form safe-array, name <SafeArray>
@@ -8,5 +10,5 @@ form safe-array, name <SafeArray>
     like safe-array
       like t
 
-  hook self
-    hook make
+form safe-array-constructor
+  hook make

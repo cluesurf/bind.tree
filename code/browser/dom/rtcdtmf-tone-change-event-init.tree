@@ -1,13 +1,13 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find event-init
 
 form rtcdtmf-tone-change-event-init, name <RTCDTMFToneChangeEventInit>
   base event-init
 
   link tone, name <tone>
     like native-string
-    flex true
+    lock false

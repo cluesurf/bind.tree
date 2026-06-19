@@ -1,23 +1,25 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-number
-
-load @cluesurf/bind/code/browser/webworker
-  find event-init
-
 load @cluesurf/bind/code/browser/dom/progress-event-init
   find progress-event-init
+
+load @cluesurf/bind/code/browser/webworker/event-init
+  find event-init
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form progress-event-init, name <ProgressEventInit>
   base event-init
 
   link length-computable, name <lengthComputable>
     like native-boolean
-    flex true
+    lock false
   link loaded, name <loaded>
     like native-number
-    flex true
+    lock false
   link total, name <total>
     like native-number
-    flex true
+    lock false

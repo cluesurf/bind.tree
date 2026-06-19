@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/media-track-constraint-set
   find media-track-constraint-set
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 form media-track-constraints, name <MediaTrackConstraints>
   base media-track-constraint-set
 
   link advanced, name <advanced>
-    like array
+    like native-array
       like media-track-constraint-set
-    flex true
+    lock false

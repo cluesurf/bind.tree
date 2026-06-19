@@ -1,18 +1,18 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form i-text-writer, name <ITextWriter>
   task write, name <Write>
+    take s, like native-string
     like native-void
-
-    take s
 
   task write-line, name <WriteLine>
+    take s, like native-string
     like native-void
-
-    take s
 
   task close, name <Close>
     like native-void

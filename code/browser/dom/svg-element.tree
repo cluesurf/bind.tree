@@ -1,21 +1,48 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/document-and-element-event-handlers
+  find document-and-element-event-handlers
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/element-css-inline-style
+  find element-css-inline-style
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/global-event-handlers
+  find global-event-handlers
+
+load @cluesurf/bind/code/browser/dom/html-or-svg-element
+  find html-or-svg-element
+
+load @cluesurf/bind/code/browser/dom/svg-element-event-map
+  find svg-element-event-map
+
+load @cluesurf/bind/code/browser/dom/svgsvg-element
+  find svgsvg-element
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find document-and-element-event-handlers
-  find element
-  find element-css-inline-style
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find global-event-handlers
-  find html-or-svg-element
-  find svg-element-event-map
-  find svgsvg-element
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form svg-element, name <SVGElement>
   base element
@@ -27,7 +54,7 @@ form svg-element, name <SVGElement>
   base html-or-svg-element
 
   link class-name, name <className>
-    like any
+    like native-any
   link owner-svg-element, name <ownerSVGElement>
     like or
       like svgsvg-element
@@ -38,53 +65,57 @@ form svg-element, name <SVGElement>
       like native-null
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like svg-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like svg-element
+        take ev
+          like index
+            like svg-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like svg-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like svg-element
+        take ev
+          like index
+            like svg-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

@@ -1,35 +1,43 @@
 
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+  find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/browser/dom/dom-rect-init
+  find dom-rect-init
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find dom-high-res-time-stamp
-  find dom-rect-init
-  find element
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form intersection-observer-entry-init, name <IntersectionObserverEntryInit>
   link bounding-client-rect, name <boundingClientRect>
     like dom-rect-init
-    flex true
+    lock false
   link intersection-ratio, name <intersectionRatio>
     like native-number
-    flex true
+    lock false
   link intersection-rect, name <intersectionRect>
     like dom-rect-init
-    flex true
+    lock false
   link is-intersecting, name <isIntersecting>
     like native-boolean
-    flex true
+    lock false
   link root-bounds, name <rootBounds>
     like or
       like dom-rect-init
       like native-null
-    flex true
+    lock false
   link target, name <target>
     like element
-    flex true
+    lock false
   link time, name <time>
     like dom-high-res-time-stamp
-    flex true
+    lock false

@@ -1,22 +1,26 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form audio-configuration, name <AudioConfiguration>
   link bitrate, name <bitrate>
     like native-number
-    flex true
+    lock false
   link channels, name <channels>
     like native-string
-    flex true
+    lock false
   link content-type, name <contentType>
     like native-string
-    flex true
+    lock false
   link samplerate, name <samplerate>
     like native-number
-    flex true
+    lock false
   link spatial-rendering, name <spatialRendering>
     like native-boolean
-    flex true
+    lock false

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form service-worker-registration-event-map, name <ServiceWorkerRegistrationEventMap>
   link updatefound, name <updatefound>
     like event
-    flex true
+    lock false

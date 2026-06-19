@@ -4,7 +4,7 @@ form promise-fulfilled-result, name <PromiseFulfilledResult>
 
   link status, name <status>
     text <fulfilled>
-    flex true
+    lock false
   link value, name <value>
     like t
-    flex true
+    lock false

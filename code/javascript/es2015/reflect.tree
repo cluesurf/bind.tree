@@ -1,106 +1,120 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es2015/core/function
+  find function
+
+load @cluesurf/bind/code/javascript/es5/array-like
+  find array-like
+
+load @cluesurf/bind/code/javascript/es5/property-descriptor
+  find property-descriptor
+
+load @cluesurf/bind/code/javascript/es5/property-key
+  find property-key
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-object
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-symbol
+
+load @cluesurf/bind/code/javascript/native
   find native-undefined
 
-load @cluesurf/bind/code/javascript/es2015/core
-  find function
-
-load @cluesurf/bind/code/javascript/es5
-  find array-like
-  find property-descriptor
-  find property-key
-
 task apply, name <apply>
-  like any
-
-  take target
-  take this-argument
+  take target, like function
+  take this-argument, like native-any
   take arguments-list
+    like array-like
+      like native-any
+  like native-any
 
 task construct, name <construct>
-  like any
-
-  take target
+  take target, like function
   take arguments-list
-  take new-target, like maybe, like function
+    like array-like
+      like native-any
+  take new-target, like maybe
+    like function
+  like native-any
 
 task define-property, name <defineProperty>
+  take target, like native-object
+  take property-key, like property-key
+  take attributes, like property-descriptor
   like native-boolean
-
-  take target
-  take property-key
-  take attributes
 
 task delete-property, name <deleteProperty>
+  take target, like native-object
+  take property-key, like property-key
   like native-boolean
 
-  take target
-  take property-key
-
 task get, name <get>
-  like any
-
-  take target
-  take property-key
-  take receiver, like maybe, like any
+  take target, like native-object
+  take property-key, like property-key
+  take receiver, like maybe
+    like native-any
+  like native-any
 
 task get-own-property-descriptor, name <getOwnPropertyDescriptor>
+  take target, like native-object
+  take property-key, like property-key
   like or
     like property-descriptor
     like native-undefined
 
-  take target
-  take property-key
-
 task get-prototype-of, name <getPrototypeOf>
+  take target, like native-object
   like or
     like native-object
     like native-null
 
-  take target
-
 task has, name <has>
+  take target, like native-object
+  take property-key, like property-key
   like native-boolean
-
-  take target
-  take property-key
 
 task is-extensible, name <isExtensible>
+  take target, like native-object
   like native-boolean
 
-  take target
-
 task own-keys, name <ownKeys>
-  like array
+  take target, like native-object
+  like native-array
     like or
       like native-string
       like native-symbol
 
-  take target
-
 task prevent-extensions, name <preventExtensions>
+  take target, like native-object
   like native-boolean
-
-  take target
 
 task set, name <set>
+  take target, like native-object
+  take property-key, like property-key
+  take value, like native-any
+  take receiver, like maybe
+    like native-any
   like native-boolean
-
-  take target
-  take property-key
-  take value
-  take receiver, like maybe, like any
 
 task set-prototype-of, name <setPrototypeOf>
-  like native-boolean
-
-  take target
+  take target, like native-object
   take proto
+    like or
+      like native-object
+      like native-null
+  like native-boolean

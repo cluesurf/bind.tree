@@ -1,17 +1,19 @@
 
+load @cluesurf/bind/code/javascript/es5/array
+  find array
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/javascript/es5
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form reg-exp-match-array, name <RegExpMatchArray>
   base array
 
   link index, name <index>
     like native-number
-    flex true
+    lock false
   link input, name <input>
     like native-string
-    flex true
+    lock false

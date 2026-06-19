@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form rtc-rtp-coding-parameters, name <RTCRtpCodingParameters>
   link rid, name <rid>
     like native-string
-    flex true
+    lock false

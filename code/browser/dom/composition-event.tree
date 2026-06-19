@@ -1,13 +1,21 @@
 
+load @cluesurf/bind/code/browser/dom/ui-event
+  find ui-event
+
+load @cluesurf/bind/code/browser/dom/window-proxy
+  find window-proxy
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find ui-event
-  find window-proxy
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form composition-event, name <CompositionEvent>
   base ui-event
@@ -16,14 +24,15 @@ form composition-event, name <CompositionEvent>
     like native-string
 
   task init-composition-event, name <initCompositionEvent>
+    take type-arg, like native-string
+    take bubbles-arg, like maybe
+      like native-boolean
+    take cancelable-arg, like maybe
+      like native-boolean
+    take view-arg, like maybe
+      like or
+        like window-proxy
+        like native-null
+    take data-arg, like maybe
+      like native-string
     like native-void
-
-    take type-arg
-    take bubbles-arg, like maybe, like native-boolean
-    take cancelable-arg, like maybe, like native-boolean
-    take view-arg
-      like maybe
-        like or
-          like window-proxy
-          like native-null
-    take data-arg, like maybe, like native-string

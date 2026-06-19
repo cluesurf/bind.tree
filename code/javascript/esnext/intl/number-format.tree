@@ -1,24 +1,24 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/native
-  find native-bigint
-  find native-number
-
-load @cluesurf/bind/code/javascript/esnext/intl
-  find number-format-part
-
 load @cluesurf/bind/code/javascript/es2020/bigint/number-format
   find number-format
 
+load @cluesurf/bind/code/javascript/esnext/intl/number-format-part
+  find number-format-part
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-bigint
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
 form number-format, name <NumberFormat>
   task format-to-parts, name <formatToParts>
-    like array
+    take number, like maybe
+      like or
+        like native-number
+        like native-bigint
+    like native-array
       like number-format-part
-
-    take number
-      like maybe
-        like or
-          like native-number
-          like native-bigint

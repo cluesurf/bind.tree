@@ -1,17 +1,25 @@
 
+load @cluesurf/bind/code/javascript/es5/object
+  find object
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
-  find native-symbol
-  find native-void
 
-load @cluesurf/bind/code/javascript/es5
-  find object
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-symbol
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form parameter-decorator, name <ParameterDecorator>
   like task
-    like native-void
-
-    take target
+    take target, like object
     take property-key
-    take parameter-index
+      like or
+        like native-string
+        like native-symbol
+    take parameter-index, like native-number
+    like native-void

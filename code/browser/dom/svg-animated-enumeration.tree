@@ -7,4 +7,4 @@ form svg-animated-enumeration, name <SVGAnimatedEnumeration>
     like native-number
   link base-val, name <baseVal>
     like native-number
-    flex true
+    lock false

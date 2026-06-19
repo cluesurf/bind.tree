@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/element
   find element
-
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
 
 load @cluesurf/bind/code/browser/dom/html-form-element
   find html-form-element
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
 
 form html-form-element, name <HTMLFormElement>
   task {symbol/iterator}

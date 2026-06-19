@@ -1,15 +1,16 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 task import-scripts, name <importScripts>
-  like native-void
-
   take urls
-    like array
+    like native-array
       like native-string
     rest true
+  like native-void

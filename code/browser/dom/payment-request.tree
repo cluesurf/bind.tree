@@ -1,23 +1,48 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
   find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/event-target
   find event-target
+
+load @cluesurf/bind/code/browser/dom/payment-details-update
   find payment-details-update
+
+load @cluesurf/bind/code/browser/dom/payment-request-event-map
   find payment-request-event-map
+
+load @cluesurf/bind/code/browser/dom/payment-response
   find payment-response
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/es5/promise-like
   find promise-like
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form payment-request, name <PaymentRequest>
   base event-target
@@ -27,12 +52,11 @@ form payment-request, name <PaymentRequest>
   link onpaymentmethodchange, name <onpaymentmethodchange>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like payment-request
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
 
   task abort, name <abort>
     like promise
@@ -43,64 +67,66 @@ form payment-request, name <PaymentRequest>
       like native-boolean
 
   task show, name <show>
+    take details-promise, like maybe
+      like or
+        like payment-details-update
+        like promise-like
+          like payment-details-update
     like promise
       like payment-response
 
-    take details-promise
-      like maybe
-        like or
-          like payment-details-update
-          like promise-like
-            like payment-details-update
+  task add-event-listener, name <addEventListener>
+    head k
+      base link-read
+        like payment-request-event-map
+    take type, like k
+    take listener
+      like task
+        take this, like payment-request
+        take ev
+          like index
+            like payment-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    head k
-      base key-list
-        like payment-request-event-map
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
-
-  task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like payment-request-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+      like task
+        take this, like payment-request
+        take ev
+          like index
+            like payment-request-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void
 
   task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options

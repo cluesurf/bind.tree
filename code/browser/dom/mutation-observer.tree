@@ -1,25 +1,29 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/mutation-observer-init
+  find mutation-observer-init
+
+load @cluesurf/bind/code/browser/dom/mutation-record
+  find mutation-record
+
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find mutation-observer-init
-  find mutation-record
-  find node
 
 form mutation-observer, name <MutationObserver>
   task disconnect, name <disconnect>
     like native-void
 
   task observe, name <observe>
+    take target, like node
+    take options, like maybe
+      like mutation-observer-init
     like native-void
 
-    take target
-    take options, like maybe, like mutation-observer-init
-
   task take-records, name <takeRecords>
-    like array
+    like native-array
       like mutation-record

@@ -1,24 +1,25 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-  find native-undefined
-  find native-void
-
 load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form promise, name <Promise>
   head t
 
   task finally, name <finally>
+    take onfinally, like maybe
+      like or
+        like task
+          like native-void
+        like native-undefined
+        like native-null
     like promise
       like t
-
-    take onfinally
-      like maybe
-        like or
-          like task
-            like native-void
-
-          like native-undefined
-          like native-null

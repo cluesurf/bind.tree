@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form text-track-cue-event-map, name <TextTrackCueEventMap>
   link enter, name <enter>
     like event
-    flex true
+    lock false
   link exit, name <exit>
     like event
-    flex true
+    lock false

@@ -1,25 +1,54 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-undefined
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/buffer-source
   find buffer-source
+
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
   find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/event-target
   find event-target
+
+load @cluesurf/bind/code/browser/dom/media-key-message-event
   find media-key-message-event
+
+load @cluesurf/bind/code/browser/dom/media-key-session-event-map
   find media-key-session-event-map
+
+load @cluesurf/bind/code/browser/dom/media-key-status-map
   find media-key-status-map
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form media-key-session, name <MediaKeySession>
   base event-target
@@ -34,21 +63,19 @@ form media-key-session, name <MediaKeySession>
   link onkeystatuseschange, name <onkeystatuseschange>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like media-key-session
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onmessage, name <onmessage>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like media-key-session
+        take ev, like media-key-message-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link session-id, name <sessionId>
     like native-string
 
@@ -57,76 +84,77 @@ form media-key-session, name <MediaKeySession>
       like native-void
 
   task generate-request, name <generateRequest>
+    take init-data-type, like native-string
+    take init-data, like buffer-source
     like promise
       like native-void
 
-    take init-data-type
-    take init-data
-
   task load, name <load>
+    take session-id, like native-string
     like promise
       like native-boolean
-
-    take session-id
 
   task remove, name <remove>
     like promise
       like native-void
 
   task update, name <update>
+    take response, like buffer-source
     like promise
       like native-void
 
-    take response
+  task add-event-listener, name <addEventListener>
+    head k
+      base link-read
+        like media-key-session-event-map
+    take type, like k
+    take listener
+      like task
+        take this, like media-key-session
+        take ev
+          like index
+            like media-key-session-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    head k
-      base key-list
-        like media-key-session-event-map
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
-
-  task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like media-key-session-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+      like task
+        take this, like media-key-session
+        take ev
+          like index
+            like media-key-session-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void
 
   task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options

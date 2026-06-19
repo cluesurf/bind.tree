@@ -1,14 +1,18 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-null
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/push-permission-state
   find push-permission-state
+
+load @cluesurf/bind/code/browser/dom/push-subscription
   find push-subscription
+
+load @cluesurf/bind/code/browser/dom/push-subscription-options-init
   find push-subscription-options-init
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
 
 form push-manager, name <PushManager>
   task get-subscription, name <getSubscription>
@@ -18,13 +22,13 @@ form push-manager, name <PushManager>
         like native-null
 
   task permission-state, name <permissionState>
+    take options, like maybe
+      like push-subscription-options-init
     like promise
       like push-permission-state
 
-    take options, like maybe, like push-subscription-options-init
-
   task subscribe, name <subscribe>
+    take options, like maybe
+      like push-subscription-options-init
     like promise
       like push-subscription
-
-    take options, like maybe, like push-subscription-options-init

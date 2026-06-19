@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form rtc-rtp-header-extension-capability, name <RTCRtpHeaderExtensionCapability>
   link uri, name <uri>
     like native-string
-    flex true
+    lock false

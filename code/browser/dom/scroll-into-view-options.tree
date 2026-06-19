@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/scroll-logical-position
   find scroll-logical-position
+
+load @cluesurf/bind/code/browser/dom/scroll-options
   find scroll-options
 
 form scroll-into-view-options, name <ScrollIntoViewOptions>
@@ -8,7 +10,7 @@ form scroll-into-view-options, name <ScrollIntoViewOptions>
 
   link block, name <block>
     like scroll-logical-position
-    flex true
+    lock false
   link inline, name <inline>
     like scroll-logical-position
-    flex true
+    lock false

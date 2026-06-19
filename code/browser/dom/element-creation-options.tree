@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form element-creation-options, name <ElementCreationOptions>
   link is, name <is>
     like native-string
-    flex true
+    lock false

@@ -1,424 +1,560 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/html-anchor-element
   find html-anchor-element
+
+load @cluesurf/bind/code/browser/dom/html-area-element
   find html-area-element
+
+load @cluesurf/bind/code/browser/dom/html-audio-element
   find html-audio-element
+
+load @cluesurf/bind/code/browser/dom/html-base-element
   find html-base-element
+
+load @cluesurf/bind/code/browser/dom/html-body-element
   find html-body-element
+
+load @cluesurf/bind/code/browser/dom/html-button-element
   find html-button-element
+
+load @cluesurf/bind/code/browser/dom/html-canvas-element
   find html-canvas-element
+
+load @cluesurf/bind/code/browser/dom/html-data-element
   find html-data-element
+
+load @cluesurf/bind/code/browser/dom/html-data-list-element
   find html-data-list-element
+
+load @cluesurf/bind/code/browser/dom/html-details-element
   find html-details-element
+
+load @cluesurf/bind/code/browser/dom/html-dialog-element
   find html-dialog-element
+
+load @cluesurf/bind/code/browser/dom/html-directory-element
   find html-directory-element
+
+load @cluesurf/bind/code/browser/dom/html-div-element
   find html-div-element
+
+load @cluesurf/bind/code/browser/dom/html-element
   find html-element
+
+load @cluesurf/bind/code/browser/dom/html-embed-element
   find html-embed-element
+
+load @cluesurf/bind/code/browser/dom/html-field-set-element
   find html-field-set-element
+
+load @cluesurf/bind/code/browser/dom/html-font-element
   find html-font-element
+
+load @cluesurf/bind/code/browser/dom/html-form-element
   find html-form-element
+
+load @cluesurf/bind/code/browser/dom/html-frame-element
   find html-frame-element
+
+load @cluesurf/bind/code/browser/dom/html-frame-set-element
   find html-frame-set-element
+
+load @cluesurf/bind/code/browser/dom/html-head-element
   find html-head-element
+
+load @cluesurf/bind/code/browser/dom/html-heading-element
   find html-heading-element
+
+load @cluesurf/bind/code/browser/dom/html-html-element
   find html-html-element
+
+load @cluesurf/bind/code/browser/dom/html-image-element
   find html-image-element
+
+load @cluesurf/bind/code/browser/dom/html-input-element
   find html-input-element
+
+load @cluesurf/bind/code/browser/dom/html-label-element
   find html-label-element
+
+load @cluesurf/bind/code/browser/dom/html-legend-element
   find html-legend-element
+
+load @cluesurf/bind/code/browser/dom/html-link-element
   find html-link-element
+
+load @cluesurf/bind/code/browser/dom/html-map-element
   find html-map-element
+
+load @cluesurf/bind/code/browser/dom/html-marquee-element
   find html-marquee-element
+
+load @cluesurf/bind/code/browser/dom/html-menu-element
   find html-menu-element
+
+load @cluesurf/bind/code/browser/dom/html-meta-element
   find html-meta-element
+
+load @cluesurf/bind/code/browser/dom/html-meter-element
   find html-meter-element
+
+load @cluesurf/bind/code/browser/dom/html-mod-element
   find html-mod-element
+
+load @cluesurf/bind/code/browser/dom/html-object-element
   find html-object-element
+
+load @cluesurf/bind/code/browser/dom/html-opt-group-element
   find html-opt-group-element
+
+load @cluesurf/bind/code/browser/dom/html-option-element
   find html-option-element
+
+load @cluesurf/bind/code/browser/dom/html-output-element
   find html-output-element
+
+load @cluesurf/bind/code/browser/dom/html-paragraph-element
   find html-paragraph-element
+
+load @cluesurf/bind/code/browser/dom/html-param-element
   find html-param-element
+
+load @cluesurf/bind/code/browser/dom/html-picture-element
   find html-picture-element
+
+load @cluesurf/bind/code/browser/dom/html-pre-element
   find html-pre-element
+
+load @cluesurf/bind/code/browser/dom/html-progress-element
   find html-progress-element
+
+load @cluesurf/bind/code/browser/dom/html-quote-element
   find html-quote-element
+
+load @cluesurf/bind/code/browser/dom/html-script-element
   find html-script-element
+
+load @cluesurf/bind/code/browser/dom/html-select-element
   find html-select-element
+
+load @cluesurf/bind/code/browser/dom/html-slot-element
   find html-slot-element
+
+load @cluesurf/bind/code/browser/dom/html-source-element
   find html-source-element
+
+load @cluesurf/bind/code/browser/dom/html-span-element
   find html-span-element
+
+load @cluesurf/bind/code/browser/dom/html-style-element
   find html-style-element
+
+load @cluesurf/bind/code/browser/dom/html-table-caption-element
   find html-table-caption-element
+
+load @cluesurf/bind/code/browser/dom/html-table-cell-element
   find html-table-cell-element
+
+load @cluesurf/bind/code/browser/dom/html-table-col-element
   find html-table-col-element
+
+load @cluesurf/bind/code/browser/dom/html-table-element
   find html-table-element
+
+load @cluesurf/bind/code/browser/dom/html-table-row-element
   find html-table-row-element
+
+load @cluesurf/bind/code/browser/dom/html-table-section-element
   find html-table-section-element
+
+load @cluesurf/bind/code/browser/dom/html-template-element
   find html-template-element
+
+load @cluesurf/bind/code/browser/dom/html-text-area-element
   find html-text-area-element
+
+load @cluesurf/bind/code/browser/dom/html-time-element
   find html-time-element
+
+load @cluesurf/bind/code/browser/dom/html-title-element
   find html-title-element
+
+load @cluesurf/bind/code/browser/dom/html-track-element
   find html-track-element
+
+load @cluesurf/bind/code/browser/dom/html-video-element
   find html-video-element
+
+load @cluesurf/bind/code/browser/dom/htmlbr-element
   find htmlbr-element
+
+load @cluesurf/bind/code/browser/dom/htmld-list-element
   find htmld-list-element
+
+load @cluesurf/bind/code/browser/dom/htmlhr-element
   find htmlhr-element
+
+load @cluesurf/bind/code/browser/dom/htmli-frame-element
   find htmli-frame-element
+
+load @cluesurf/bind/code/browser/dom/htmlli-element
   find htmlli-element
+
+load @cluesurf/bind/code/browser/dom/htmlo-list-element
   find htmlo-list-element
+
+load @cluesurf/bind/code/browser/dom/htmlu-list-element
   find htmlu-list-element
 
 form html-element-tag-name-map, name <HTMLElementTagNameMap>
   link a, name <a>
     like html-anchor-element
-    flex true
+    lock false
   link abbr, name <abbr>
     like html-element
-    flex true
+    lock false
   link address, name <address>
     like html-element
-    flex true
+    lock false
   link area, name <area>
     like html-area-element
-    flex true
+    lock false
   link article, name <article>
     like html-element
-    flex true
+    lock false
   link aside, name <aside>
     like html-element
-    flex true
+    lock false
   link audio, name <audio>
     like html-audio-element
-    flex true
+    lock false
   link b, name <b>
     like html-element
-    flex true
+    lock false
   link base, name <base>
     like html-base-element
-    flex true
+    lock false
   link bdi, name <bdi>
     like html-element
-    flex true
+    lock false
   link bdo, name <bdo>
     like html-element
-    flex true
+    lock false
   link blockquote, name <blockquote>
     like html-quote-element
-    flex true
+    lock false
   link body, name <body>
     like html-body-element
-    flex true
+    lock false
   link br, name <br>
     like htmlbr-element
-    flex true
+    lock false
   link button, name <button>
     like html-button-element
-    flex true
+    lock false
   link canvas, name <canvas>
     like html-canvas-element
-    flex true
+    lock false
   link caption, name <caption>
     like html-table-caption-element
-    flex true
+    lock false
   link cite, name <cite>
     like html-element
-    flex true
+    lock false
   link code, name <code>
     like html-element
-    flex true
+    lock false
   link col, name <col>
     like html-table-col-element
-    flex true
+    lock false
   link colgroup, name <colgroup>
     like html-table-col-element
-    flex true
+    lock false
   link data, name <data>
     like html-data-element
-    flex true
+    lock false
   link datalist, name <datalist>
     like html-data-list-element
-    flex true
+    lock false
   link dd, name <dd>
     like html-element
-    flex true
+    lock false
   link del, name <del>
     like html-mod-element
-    flex true
+    lock false
   link details, name <details>
     like html-details-element
-    flex true
+    lock false
   link dfn, name <dfn>
     like html-element
-    flex true
+    lock false
   link dialog, name <dialog>
     like html-dialog-element
-    flex true
+    lock false
   link dir, name <dir>
     like html-directory-element
-    flex true
+    lock false
   link div, name <div>
     like html-div-element
-    flex true
+    lock false
   link dl, name <dl>
     like htmld-list-element
-    flex true
+    lock false
   link dt, name <dt>
     like html-element
-    flex true
+    lock false
   link em, name <em>
     like html-element
-    flex true
+    lock false
   link embed, name <embed>
     like html-embed-element
-    flex true
+    lock false
   link fieldset, name <fieldset>
     like html-field-set-element
-    flex true
+    lock false
   link figcaption, name <figcaption>
     like html-element
-    flex true
+    lock false
   link figure, name <figure>
     like html-element
-    flex true
+    lock false
   link font, name <font>
     like html-font-element
-    flex true
+    lock false
   link footer, name <footer>
     like html-element
-    flex true
+    lock false
   link form, name <form>
     like html-form-element
-    flex true
+    lock false
   link frame, name <frame>
     like html-frame-element
-    flex true
+    lock false
   link frameset, name <frameset>
     like html-frame-set-element
-    flex true
+    lock false
   link h1, name <h1>
     like html-heading-element
-    flex true
+    lock false
   link h2, name <h2>
     like html-heading-element
-    flex true
+    lock false
   link h3, name <h3>
     like html-heading-element
-    flex true
+    lock false
   link h4, name <h4>
     like html-heading-element
-    flex true
+    lock false
   link h5, name <h5>
     like html-heading-element
-    flex true
+    lock false
   link h6, name <h6>
     like html-heading-element
-    flex true
+    lock false
   link head, name <head>
     like html-head-element
-    flex true
+    lock false
   link header, name <header>
     like html-element
-    flex true
+    lock false
   link hgroup, name <hgroup>
     like html-element
-    flex true
+    lock false
   link hr, name <hr>
     like htmlhr-element
-    flex true
+    lock false
   link html, name <html>
     like html-html-element
-    flex true
+    lock false
   link i, name <i>
     like html-element
-    flex true
+    lock false
   link iframe, name <iframe>
     like htmli-frame-element
-    flex true
+    lock false
   link img, name <img>
     like html-image-element
-    flex true
+    lock false
   link input, name <input>
     like html-input-element
-    flex true
+    lock false
   link ins, name <ins>
     like html-mod-element
-    flex true
+    lock false
   link kbd, name <kbd>
     like html-element
-    flex true
+    lock false
   link label, name <label>
     like html-label-element
-    flex true
+    lock false
   link legend, name <legend>
     like html-legend-element
-    flex true
+    lock false
   link li, name <li>
     like htmlli-element
-    flex true
+    lock false
   link link, name <link>
     like html-link-element
-    flex true
+    lock false
   link main, name <main>
     like html-element
-    flex true
+    lock false
   link map, name <map>
     like html-map-element
-    flex true
+    lock false
   link mark, name <mark>
     like html-element
-    flex true
+    lock false
   link marquee, name <marquee>
     like html-marquee-element
-    flex true
+    lock false
   link menu, name <menu>
     like html-menu-element
-    flex true
+    lock false
   link meta, name <meta>
     like html-meta-element
-    flex true
+    lock false
   link meter, name <meter>
     like html-meter-element
-    flex true
+    lock false
   link nav, name <nav>
     like html-element
-    flex true
+    lock false
   link noscript, name <noscript>
     like html-element
-    flex true
+    lock false
   link object, name <object>
     like html-object-element
-    flex true
+    lock false
   link ol, name <ol>
     like htmlo-list-element
-    flex true
+    lock false
   link optgroup, name <optgroup>
     like html-opt-group-element
-    flex true
+    lock false
   link option, name <option>
     like html-option-element
-    flex true
+    lock false
   link output, name <output>
     like html-output-element
-    flex true
+    lock false
   link p, name <p>
     like html-paragraph-element
-    flex true
+    lock false
   link param, name <param>
     like html-param-element
-    flex true
+    lock false
   link picture, name <picture>
     like html-picture-element
-    flex true
+    lock false
   link pre, name <pre>
     like html-pre-element
-    flex true
+    lock false
   link progress, name <progress>
     like html-progress-element
-    flex true
+    lock false
   link q, name <q>
     like html-quote-element
-    flex true
+    lock false
   link rp, name <rp>
     like html-element
-    flex true
+    lock false
   link rt, name <rt>
     like html-element
-    flex true
+    lock false
   link ruby, name <ruby>
     like html-element
-    flex true
+    lock false
   link s, name <s>
     like html-element
-    flex true
+    lock false
   link samp, name <samp>
     like html-element
-    flex true
+    lock false
   link script, name <script>
     like html-script-element
-    flex true
+    lock false
   link section, name <section>
     like html-element
-    flex true
+    lock false
   link select, name <select>
     like html-select-element
-    flex true
+    lock false
   link slot, name <slot>
     like html-slot-element
-    flex true
+    lock false
   link small, name <small>
     like html-element
-    flex true
+    lock false
   link source, name <source>
     like html-source-element
-    flex true
+    lock false
   link span, name <span>
     like html-span-element
-    flex true
+    lock false
   link strong, name <strong>
     like html-element
-    flex true
+    lock false
   link style, name <style>
     like html-style-element
-    flex true
+    lock false
   link sub, name <sub>
     like html-element
-    flex true
+    lock false
   link summary, name <summary>
     like html-element
-    flex true
+    lock false
   link sup, name <sup>
     like html-element
-    flex true
+    lock false
   link table, name <table>
     like html-table-element
-    flex true
+    lock false
   link tbody, name <tbody>
     like html-table-section-element
-    flex true
+    lock false
   link td, name <td>
     like html-table-cell-element
-    flex true
+    lock false
   link template, name <template>
     like html-template-element
-    flex true
+    lock false
   link textarea, name <textarea>
     like html-text-area-element
-    flex true
+    lock false
   link tfoot, name <tfoot>
     like html-table-section-element
-    flex true
+    lock false
   link th, name <th>
     like html-table-cell-element
-    flex true
+    lock false
   link thead, name <thead>
     like html-table-section-element
-    flex true
+    lock false
   link time, name <time>
     like html-time-element
-    flex true
+    lock false
   link title, name <title>
     like html-title-element
-    flex true
+    lock false
   link tr, name <tr>
     like html-table-row-element
-    flex true
+    lock false
   link track, name <track>
     like html-track-element
-    flex true
+    lock false
   link u, name <u>
     like html-element
-    flex true
+    lock false
   link ul, name <ul>
     like htmlu-list-element
-    flex true
+    lock false
   link var, name <var>
     like html-element
-    flex true
+    lock false
   link video, name <video>
     like html-video-element
-    flex true
+    lock false
   link wbr, name <wbr>
     like html-element
-    flex true
+    lock false

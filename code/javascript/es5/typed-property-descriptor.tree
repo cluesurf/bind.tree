@@ -1,6 +1,8 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form typed-property-descriptor, name <TypedPropertyDescriptor>
@@ -8,24 +10,22 @@ form typed-property-descriptor, name <TypedPropertyDescriptor>
 
   link enumerable, name <enumerable>
     like native-boolean
-    flex true
+    lock false
   link configurable, name <configurable>
     like native-boolean
-    flex true
+    lock false
   link writable, name <writable>
     like native-boolean
-    flex true
+    lock false
   link value, name <value>
     like t
-    flex true
+    lock false
   link get, name <get>
     like task
       like t
-
-    flex true
+    lock false
   link set, name <set>
     like task
+      take value, like t
       like native-void
-
-      take value
-    flex true
+    lock false

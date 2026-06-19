@@ -1,67 +1,65 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-number
-  find native-string
-  find native-undefined
-
 load @cluesurf/bind/code/javascript/es5/string
   find string
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
-load @cluesurf/bind/code/javascript/es5
-  find array-like
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
-load @cluesurf/bind/code/javascript/es2015/core/string
-  find string
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-undefined
 
 form string, name <String>
   task code-point-at, name <codePointAt>
+    take pos, like native-number
     like or
       like native-number
       like native-undefined
 
-    take pos
-
   task includes, name <includes>
+    take search-string, like native-string
+    take position, like maybe
+      like native-number
     like native-boolean
-
-    take search-string
-    take position, like maybe, like native-number
 
   task ends-with, name <endsWith>
+    take search-string, like native-string
+    take end-position, like maybe
+      like native-number
     like native-boolean
 
-    take search-string
-    take end-position, like maybe, like native-number
-
   task normalize, name <normalize>
-    like native-string
-
     take form
-
-  task normalize, name <normalize>
+      like or
+        text <NFC>
+        text <NFD>
+        text <NFKC>
+        text <NFKD>
     like native-string
 
-    take form, like maybe, like native-string
+  task normalize, name <normalize>
+    take form, like maybe
+      like native-string
+    like native-string
 
   task repeat, name <repeat>
+    take count, like native-number
     like native-string
-
-    take count
 
   task starts-with, name <startsWith>
+    take search-string, like native-string
+    take position, like maybe
+      like native-number
     like native-boolean
 
-    take search-string
-    take position, like maybe, like native-number
-
   task anchor, name <anchor>
+    take name, like native-string
     like native-string
-
-    take name
 
   task big, name <big>
     like native-string
@@ -76,27 +74,23 @@ form string, name <String>
     like native-string
 
   task fontcolor, name <fontcolor>
+    take color, like native-string
     like native-string
-
-    take color
 
   task fontsize, name <fontsize>
+    take size, like native-number
     like native-string
-
-    take size
 
   task fontsize, name <fontsize>
+    take size, like native-string
     like native-string
-
-    take size
 
   task italics, name <italics>
     like native-string
 
   task link, name <link>
+    take url, like native-string
     like native-string
-
-    take url
 
   task small, name <small>
     like native-string
@@ -109,22 +103,3 @@ form string, name <String>
 
   task sup, name <sup>
     like native-string
-
-form string
-  hook self
-    task from-code-point, name <fromCodePoint>
-      like native-string
-
-      take code-points
-        like array
-          like native-number
-        rest true
-
-    task raw, name <raw>
-      like native-string
-
-      take template
-      take substitutions
-        like array
-          like any
-        rest true

@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/algorithm
   find algorithm
+
+load @cluesurf/bind/code/browser/dom/hash-algorithm-identifier
   find hash-algorithm-identifier
 
 form ecdsa-params, name <EcdsaParams>
@@ -8,4 +10,4 @@ form ecdsa-params, name <EcdsaParams>
 
   link hash, name <hash>
     like hash-algorithm-identifier
-    flex true
+    lock false

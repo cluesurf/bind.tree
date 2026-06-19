@@ -1,7 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/blob
   find blob
+
+load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
+
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form blob-event, name <BlobEvent>

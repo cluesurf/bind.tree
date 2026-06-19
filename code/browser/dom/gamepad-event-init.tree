@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-init
   find event-init
+
+load @cluesurf/bind/code/browser/dom/gamepad
   find gamepad
 
 form gamepad-event-init, name <GamepadEventInit>
@@ -8,4 +10,4 @@ form gamepad-event-init, name <GamepadEventInit>
 
   link gamepad, name <gamepad>
     like gamepad
-    flex true
+    lock false

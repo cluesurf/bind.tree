@@ -7,4 +7,4 @@ form svg-animated-string, name <SVGAnimatedString>
     like native-string
   link base-val, name <baseVal>
     like native-string
-    flex true
+    lock false

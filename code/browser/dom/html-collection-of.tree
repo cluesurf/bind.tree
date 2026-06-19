@@ -1,12 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/html-collection-base
+  find html-collection-base
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find element
-  find html-collection-base
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form html-collection-of, name <HTMLCollectionOf>
   base html-collection-base
@@ -15,18 +21,16 @@ form html-collection-of, name <HTMLCollectionOf>
     base element
 
   task item, name <item>
+    take index, like native-number
     like or
       like t
       like native-null
-
-    take index
 
   task named-item, name <namedItem>
+    take name, like native-string
     like or
       like t
       like native-null
 
-    take name
-
-  mesh index
+  mesh index, like native-number
     like t

@@ -1,9 +1,9 @@
 
+load @cluesurf/bind/code/browser/webworker/request
+  find request
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find request
 
 form request-info, name <RequestInfo>
   like or

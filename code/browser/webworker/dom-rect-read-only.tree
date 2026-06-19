@@ -1,9 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
 load @cluesurf/bind/code/browser/dom/dom-rect-read-only
   find dom-rect-read-only
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form dom-rect-read-only, name <DOMRectReadOnly>
   link bottom, name <bottom>
@@ -24,4 +27,4 @@ form dom-rect-read-only, name <DOMRectReadOnly>
     like native-number
 
   task to-json, name <toJSON>
-    like any
+    like native-any

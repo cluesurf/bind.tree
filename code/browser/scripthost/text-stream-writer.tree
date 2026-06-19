@@ -1,26 +1,27 @@
 
+load @cluesurf/bind/code/browser/scripthost/text-stream-base
+  find text-stream-base
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/scripthost
-  find text-stream-base
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form text-stream-writer, name <TextStreamWriter>
   base text-stream-base
 
   task write, name <Write>
+    take s, like native-string
     like native-void
-
-    take s
 
   task write-blank-lines, name <WriteBlankLines>
+    take int-lines, like native-number
     like native-void
-
-    take int-lines
 
   task write-line, name <WriteLine>
+    take s, like native-string
     like native-void
-
-    take s

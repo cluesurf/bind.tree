@@ -1,38 +1,69 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/binary-type
   find binary-type
+
+load @cluesurf/bind/code/browser/dom/blob
   find blob
+
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
   find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/event-target
   find event-target
+
+load @cluesurf/bind/code/browser/dom/message-event
   find message-event
+
+load @cluesurf/bind/code/browser/dom/rtc-data-channel-event-map
   find rtc-data-channel-event-map
+
+load @cluesurf/bind/code/browser/dom/rtc-data-channel-state
   find rtc-data-channel-state
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/array-buffer
   find array-buffer
+
+load @cluesurf/bind/code/javascript/es5/array-buffer-view
   find array-buffer-view
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form rtc-data-channel, name <RTCDataChannel>
   base event-target
 
   link binary-type, name <binaryType>
     like binary-type
-    flex true
+    lock false
   link buffered-amount, name <bufferedAmount>
     like native-number
   link buffered-amount-low-threshold, name <bufferedAmountLowThreshold>
     like native-number
-    flex true
+    lock false
   link id, name <id>
     like or
       like native-number
@@ -52,48 +83,43 @@ form rtc-data-channel, name <RTCDataChannel>
   link onbufferedamountlow, name <onbufferedamountlow>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like rtc-data-channel
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onclose, name <onclose>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like rtc-data-channel
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onerror, name <onerror>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like rtc-data-channel
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onmessage, name <onmessage>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like rtc-data-channel
+        take ev, like message-event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onopen, name <onopen>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like rtc-data-channel
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link ordered, name <ordered>
     like native-boolean
   link protocol, name <protocol>
@@ -105,73 +131,73 @@ form rtc-data-channel, name <RTCDataChannel>
     like native-void
 
   task send, name <send>
+    take data, like native-string
     like native-void
-
-    take data
 
   task send, name <send>
+    take data, like blob
     like native-void
-
-    take data
 
   task send, name <send>
+    take data, like array-buffer
     like native-void
-
-    take data
 
   task send, name <send>
+    take data, like array-buffer-view
     like native-void
-
-    take data
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like rtc-data-channel-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like rtc-data-channel
+        take ev
+          like index
+            like rtc-data-channel-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like rtc-data-channel-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like rtc-data-channel
+        take ev
+          like index
+            like rtc-data-channel-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

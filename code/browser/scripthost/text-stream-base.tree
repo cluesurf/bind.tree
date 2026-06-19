@@ -1,15 +1,17 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form text-stream-base, name <TextStreamBase>
   link column, name <Column>
     like native-number
-    flex true
+    lock false
   link line, name <Line>
     like native-number
-    flex true
+    lock false
 
   task close, name <Close>
     like native-void

@@ -1,48 +1,45 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find image-data
-
 load @cluesurf/bind/code/browser/dom/canvas-image-data
   find canvas-image-data
 
+load @cluesurf/bind/code/browser/webworker/image-data
+  find image-data
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form canvas-image-data, name <CanvasImageData>
   task create-image-data, name <createImageData>
+    take sw, like native-number
+    take sh, like native-number
     like image-data
-
-    take sw
-    take sh
 
   task create-image-data, name <createImageData>
+    take imagedata, like image-data
     like image-data
-
-    take imagedata
 
   task get-image-data, name <getImageData>
+    take sx, like native-number
+    take sy, like native-number
+    take sw, like native-number
+    take sh, like native-number
     like image-data
 
-    take sx
-    take sy
-    take sw
-    take sh
-
   task put-image-data, name <putImageData>
+    take imagedata, like image-data
+    take dx, like native-number
+    take dy, like native-number
     like native-void
 
-    take imagedata
-    take dx
-    take dy
-
   task put-image-data, name <putImageData>
+    take imagedata, like image-data
+    take dx, like native-number
+    take dy, like native-number
+    take dirty-x, like native-number
+    take dirty-y, like native-number
+    take dirty-width, like native-number
+    take dirty-height, like native-number
     like native-void
-
-    take imagedata
-    take dx
-    take dy
-    take dirty-x
-    take dirty-y
-    take dirty-width
-    take dirty-height

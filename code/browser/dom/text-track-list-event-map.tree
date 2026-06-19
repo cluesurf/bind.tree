@@ -1,15 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/track-event
   find track-event
 
 form text-track-list-event-map, name <TextTrackListEventMap>
   link addtrack, name <addtrack>
     like track-event
-    flex true
+    lock false
   link change, name <change>
     like event
-    flex true
+    lock false
   link removetrack, name <removetrack>
     like track-event
-    flex true
+    lock false

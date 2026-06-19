@@ -1,22 +1,27 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find readable-stream
-  find writable-stream
-
 load @cluesurf/bind/code/browser/dom/readable-writable-pair
   find readable-writable-pair
 
+load @cluesurf/bind/code/browser/webworker/readable-stream
+  find readable-stream
+
+load @cluesurf/bind/code/browser/webworker/writable-stream
+  find writable-stream
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 form readable-writable-pair, name <ReadableWritablePair>
   head r
-    fall any
+    back native-any
   head w
-    fall any
+    back native-any
 
   link readable, name <readable>
     like readable-stream
       like r
-    flex true
+    lock false
   link writable, name <writable>
     like writable-stream
       like w
-    flex true
+    lock false

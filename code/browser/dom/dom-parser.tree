@@ -1,14 +1,15 @@
 
+load @cluesurf/bind/code/browser/dom/document
+  find document
+
+load @cluesurf/bind/code/browser/dom/dom-parser-supported-type
+  find dom-parser-supported-type
+
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find document
-  find dom-parser-supported-type
-
 form dom-parser, name <DOMParser>
   task parse-from-string, name <parseFromString>
+    take string, like native-string
+    take type, like dom-parser-supported-type
     like document
-
-    take string
-    take type

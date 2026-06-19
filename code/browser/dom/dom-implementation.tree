@@ -1,44 +1,55 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/document
+  find document
+
+load @cluesurf/bind/code/browser/dom/document-type
+  find document-type
+
+load @cluesurf/bind/code/browser/dom/xml-document
+  find xml-document
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find document
-  find document-type
-  find xml-document
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form dom-implementation, name <DOMImplementation>
   task create-document, name <createDocument>
+    take namespace
+      like or
+        like native-string
+        like native-null
+    take qualified-name
+      like or
+        like native-string
+        like native-null
+    take doctype, like maybe
+      like or
+        like document-type
+        like native-null
     like xml-document
 
-    take namespace
-    take qualified-name
-    take doctype
-      like maybe
-        like or
-          like document-type
-          like native-null
-
   task create-document-type, name <createDocumentType>
+    take qualified-name, like native-string
+    take public-id, like native-string
+    take system-id, like native-string
     like document-type
 
-    take qualified-name
-    take public-id
-    take system-id
-
   task create-html-document, name <createHTMLDocument>
+    take title, like maybe
+      like native-string
     like document
 
-    take title, like maybe, like native-string
-
   task has-feature, name <hasFeature>
-    text <true>
-
     take args
-      like array
-        like any
+      like native-array
+        like native-any
       rest true
+    text <true>

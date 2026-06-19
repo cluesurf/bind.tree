@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/key-algorithm
   find key-algorithm
+
+load @cluesurf/bind/code/browser/dom/named-curve
   find named-curve
 
 form ec-key-algorithm, name <EcKeyAlgorithm>
@@ -8,4 +10,4 @@ form ec-key-algorithm, name <EcKeyAlgorithm>
 
   link named-curve, name <namedCurve>
     like named-curve
-    flex true
+    lock false

@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript/es2015/iterable
-  find iterable-iterator
-
 load @cluesurf/bind/code/javascript/es2015/collection/readonly-set
   find readonly-set
+
+load @cluesurf/bind/code/javascript/es2015/iterable/iterable-iterator
+  find iterable-iterator
 
 form readonly-set, name <ReadonlySet>
   head t
@@ -14,7 +14,7 @@ form readonly-set, name <ReadonlySet>
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like t
         like t
 

@@ -1,31 +1,33 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form mutation-observer-init, name <MutationObserverInit>
   link attribute-filter, name <attributeFilter>
-    like array
+    like native-array
       like native-string
-    flex true
+    lock false
   link attribute-old-value, name <attributeOldValue>
     like native-boolean
-    flex true
+    lock false
   link attributes, name <attributes>
     like native-boolean
-    flex true
+    lock false
   link character-data, name <characterData>
     like native-boolean
-    flex true
+    lock false
   link character-data-old-value, name <characterDataOldValue>
     like native-boolean
-    flex true
+    lock false
   link child-list, name <childList>
     like native-boolean
-    flex true
+    lock false
   link subtree, name <subtree>
     like native-boolean
-    flex true
+    lock false

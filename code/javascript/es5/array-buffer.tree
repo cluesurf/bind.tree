@@ -1,36 +1,13 @@
 
 load @cluesurf/bind/code/javascript/native
-  find native-boolean
   find native-number
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer-view
-
-load @cluesurf/bind/code/javascript/es5/array-buffer
-  find array-buffer
 
 form array-buffer, name <ArrayBuffer>
   link byte-length, name <byteLength>
     like native-number
 
   task slice, name <slice>
+    take begin, like native-number
+    take end, like maybe
+      like native-number
     like array-buffer
-
-    take begin
-    take end, like maybe, like native-number
-
-form array-buffer
-  hook self
-    link prototype, name <prototype>
-      like array-buffer
-
-    task is-view, name <isView>
-      like native-boolean
-      rank arg, like array-buffer-view
-
-      take arg
-
-  hook make
-    like array-buffer
-
-    take byte-length

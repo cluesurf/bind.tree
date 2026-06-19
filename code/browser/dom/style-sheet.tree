@@ -1,19 +1,29 @@
 
+load @cluesurf/bind/code/browser/dom/css-style-sheet
+  find css-style-sheet
+
+load @cluesurf/bind/code/browser/dom/element
+  find element
+
+load @cluesurf/bind/code/browser/dom/media-list
+  find media-list
+
+load @cluesurf/bind/code/browser/dom/processing-instruction
+  find processing-instruction
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find css-style-sheet
-  find element
-  find media-list
-  find processing-instruction
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form style-sheet, name <StyleSheet>
   link disabled, name <disabled>
     like native-boolean
-    flex true
+    lock false
   link href, name <href>
     like or
       like native-string

@@ -1,24 +1,26 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find form-data-entry-value
-
 load @cluesurf/bind/code/browser/dom/form-data
   find form-data
+
+load @cluesurf/bind/code/browser/dom/form-data-entry-value
+  find form-data-entry-value
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form form-data, name <FormData>
   task {symbol/iterator}
     like iterable-iterator
-      like tuple
+      like band
         like native-string
         like form-data-entry-value
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like native-string
         like form-data-entry-value
 

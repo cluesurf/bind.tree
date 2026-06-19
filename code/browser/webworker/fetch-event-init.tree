@@ -1,30 +1,35 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/extendable-event-init
   find extendable-event-init
+
+load @cluesurf/bind/code/browser/webworker/request
   find request
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form fetch-event-init, name <FetchEventInit>
   base extendable-event-init
 
   link client-id, name <clientId>
     like native-string
-    flex true
+    lock false
   link preload-response, name <preloadResponse>
     like promise
-      like any
-    flex true
+      like native-any
+    lock false
   link replaces-client-id, name <replacesClientId>
     like native-string
-    flex true
+    lock false
   link request, name <request>
     like request
-    flex true
+    lock false
   link resulting-client-id, name <resultingClientId>
     like native-string
-    flex true
+    lock false

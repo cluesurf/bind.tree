@@ -1,57 +1,75 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/blob
+  find blob
+
+load @cluesurf/bind/code/browser/dom/form-data-entry-value
+  find form-data-entry-value
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find blob
-  find form-data-entry-value
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form form-data, name <FormData>
   task append, name <append>
-    like native-void
-
-    take name
+    take name, like native-string
     take value
-    take file-name, like maybe, like native-string
+      like or
+        like native-string
+        like blob
+    take file-name, like maybe
+      like native-string
+    like native-void
 
   task delete, name <delete>
+    take name, like native-string
     like native-void
 
-    take name
-
   task get, name <get>
+    take name, like native-string
     like or
       like form-data-entry-value
       like native-null
 
-    take name
-
   task get-all, name <getAll>
-    like array
+    take name, like native-string
+    like native-array
       like form-data-entry-value
 
-    take name
-
   task has, name <has>
+    take name, like native-string
     like native-boolean
 
-    take name
-
   task set, name <set>
-    like native-void
-
-    take name
+    take name, like native-string
     take value
-    take file-name, like maybe, like native-string
+      like or
+        like native-string
+        like blob
+    take file-name, like maybe
+      like native-string
+    like native-void
 
   task for-each, name <forEach>
-    like native-void
-
     take callbackfn
-    take this-arg, like maybe, like any
+      like task
+        take value, like form-data-entry-value
+        take key, like native-string
+        take parent, like form-data
+        like native-void
+    take this-arg, like maybe
+      like native-any
+    like native-void

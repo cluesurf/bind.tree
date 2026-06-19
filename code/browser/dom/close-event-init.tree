@@ -1,21 +1,25 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find event-init
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form close-event-init, name <CloseEventInit>
   base event-init
 
   link code, name <code>
     like native-number
-    flex true
+    lock false
   link reason, name <reason>
     like native-string
-    flex true
+    lock false
   link was-clean, name <wasClean>
     like native-boolean
-    flex true
+    lock false

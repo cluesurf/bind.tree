@@ -1,8 +1,14 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
 
 form media-list, name <MediaList>
@@ -10,27 +16,24 @@ form media-list, name <MediaList>
     like native-number
   link media-text, name <mediaText>
     like native-string
-    flex true
+    lock false
 
   task to-string, name <toString>
     like native-string
 
   task append-medium, name <appendMedium>
+    take medium, like native-string
     like native-void
-
-    take medium
 
   task delete-medium, name <deleteMedium>
+    take medium, like native-string
     like native-void
 
-    take medium
-
   task item, name <item>
+    take index, like native-number
     like or
       like native-string
       like native-null
 
-    take index
-
-  mesh index
+  mesh index, like native-number
     like native-string

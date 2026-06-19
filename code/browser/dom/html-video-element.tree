@@ -1,64 +1,87 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event
   find event
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
   find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/html-media-element
   find html-media-element
+
+load @cluesurf/bind/code/browser/dom/html-video-element-event-map
   find html-video-element-event-map
+
+load @cluesurf/bind/code/browser/dom/picture-in-picture-window
   find picture-in-picture-window
+
+load @cluesurf/bind/code/browser/dom/video-playback-quality
   find video-playback-quality
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/promise
   find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form html-video-element, name <HTMLVideoElement>
   base html-media-element
 
   link disable-picture-in-picture, name <disablePictureInPicture>
     like native-boolean
-    flex true
+    lock false
   link height, name <height>
     like native-number
-    flex true
+    lock false
   link onenterpictureinpicture, name <onenterpictureinpicture>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like html-video-element
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link onleavepictureinpicture, name <onleavepictureinpicture>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like html-video-element
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link plays-inline, name <playsInline>
     like native-boolean
-    flex true
+    lock false
   link poster, name <poster>
     like native-string
-    flex true
+    lock false
   link video-height, name <videoHeight>
     like native-number
   link video-width, name <videoWidth>
     like native-number
   link width, name <width>
     like native-number
-    flex true
+    lock false
 
   task get-video-playback-quality, name <getVideoPlaybackQuality>
     like video-playback-quality
@@ -68,53 +91,57 @@ form html-video-element, name <HTMLVideoElement>
       like picture-in-picture-window
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-video-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like html-video-element
+        take ev
+          like index
+            like html-video-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like html-video-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like html-video-element
+        take ev
+          like index
+            like html-video-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

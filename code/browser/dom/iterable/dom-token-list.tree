@@ -1,11 +1,15 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
-  find native-number
-  find native-string
-
 load @cluesurf/bind/code/browser/dom/dom-token-list
   find dom-token-list
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form dom-token-list, name <DOMTokenList>
   task {symbol/iterator}
@@ -14,7 +18,7 @@ form dom-token-list, name <DOMTokenList>
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like native-number
         like native-string
 

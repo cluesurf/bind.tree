@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/algorithm
   find algorithm
+
+load @cluesurf/bind/code/browser/dom/buffer-source
   find buffer-source
 
 form rsa-oaep-params, name <RsaOaepParams>
@@ -8,4 +10,4 @@ form rsa-oaep-params, name <RsaOaepParams>
 
   link label, name <label>
     like buffer-source
-    flex true
+    lock false

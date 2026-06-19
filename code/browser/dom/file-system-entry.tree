@@ -1,13 +1,21 @@
 
+load @cluesurf/bind/code/browser/dom/error-callback
+  find error-callback
+
+load @cluesurf/bind/code/browser/dom/file-system
+  find file-system
+
+load @cluesurf/bind/code/browser/dom/file-system-entry-callback
+  find file-system-entry-callback
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find error-callback
-  find file-system
-  find file-system-entry-callback
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form file-system-entry, name <FileSystemEntry>
   link filesystem, name <filesystem>
@@ -22,7 +30,8 @@ form file-system-entry, name <FileSystemEntry>
     like native-string
 
   task get-parent, name <getParent>
+    take success-callback, like maybe
+      like file-system-entry-callback
+    take error-callback, like maybe
+      like error-callback
     like native-void
-
-    take success-callback, like maybe, like file-system-entry-callback
-    take error-callback, like maybe, like error-callback

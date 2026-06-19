@@ -1,10 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-string
-
 load @cluesurf/bind/code/browser/dom/text-decoder-common
   find text-decoder-common
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form text-decoder-common, name <TextDecoderCommon>
   link encoding, name <encoding>

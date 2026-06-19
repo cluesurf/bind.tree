@@ -1,16 +1,18 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es2015/generator/generator
+  find generator
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/javascript/es2015/generator
-  find generator
-
-load @cluesurf/bind/code/javascript/es2015/generator/generator-function
-  find generator-function
 
 form generator-function, name <GeneratorFunction>
   link length, name <length>
@@ -21,26 +23,8 @@ form generator-function, name <GeneratorFunction>
     like generator
 
   hook make
+    take args
+      like native-array
+        like native-any
+      rest true
     like generator
-
-    take args
-      like array
-        like any
-      rest true
-
-form generator-function
-  hook self
-    link length, name <length>
-      like native-number
-    link name, name <name>
-      like native-string
-    link prototype, name <prototype>
-      like generator-function
-
-  hook make
-    like generator-function
-
-    take args
-      like array
-        like native-string
-      rest true

@@ -1,21 +1,23 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find request-credentials
-  find worker-type
-
 load @cluesurf/bind/code/browser/dom/worker-options
   find worker-options
+
+load @cluesurf/bind/code/browser/webworker/request-credentials
+  find request-credentials
+
+load @cluesurf/bind/code/browser/webworker/worker-type
+  find worker-type
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form worker-options, name <WorkerOptions>
   link credentials, name <credentials>
     like request-credentials
-    flex true
+    lock false
   link name, name <name>
     like native-string
-    flex true
+    lock false
   link type, name <type>
     like worker-type
-    flex true
+    lock false

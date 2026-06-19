@@ -1,22 +1,23 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-void
 
-load @cluesurf/bind/code/javascript/es5
-  find promise
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form sync-manager, name <SyncManager>
   task get-tags, name <getTags>
     like promise
-      like array
+      like native-array
         like native-string
 
   task register, name <register>
+    take tag, like native-string
     like promise
       like native-void
-
-    take tag

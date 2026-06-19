@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form algorithm, name <Algorithm>
   link name, name <name>
     like native-string
-    flex true
+    lock false

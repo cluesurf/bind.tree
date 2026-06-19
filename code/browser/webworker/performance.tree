@@ -1,22 +1,45 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-null
-  find native-number
-  find native-string
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find add-event-listener-options
-  find event
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find event-target
-  find performance-entry-list
-  find performance-event-map
-
 load @cluesurf/bind/code/browser/dom/performance
   find performance
+
+load @cluesurf/bind/code/browser/webworker/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/webworker/event-target
+  find event-target
+
+load @cluesurf/bind/code/browser/webworker/performance-entry-list
+  find performance-entry-list
+
+load @cluesurf/bind/code/browser/webworker/performance-event-map
+  find performance-event-map
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-null
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form performance, name <Performance>
   base event-target
@@ -24,24 +47,23 @@ form performance, name <Performance>
   link onresourcetimingbufferfull, name <onresourcetimingbufferfull>
     like or
       like task
-        like any
-
-        take this
-        take ev
+        take this, like performance
+        take ev, like event
+        like native-any
       like native-null
-    flex true
+    lock false
   link time-origin, name <timeOrigin>
     like native-number
 
   task clear-marks, name <clearMarks>
+    take mark-name, like maybe
+      like native-string
     like native-void
-
-    take mark-name, like maybe, like native-string
 
   task clear-measures, name <clearMeasures>
+    take measure-name, like maybe
+      like native-string
     like native-void
-
-    take measure-name, like maybe, like native-string
 
   task clear-resource-timings, name <clearResourceTimings>
     like native-void
@@ -50,87 +72,89 @@ form performance, name <Performance>
     like performance-entry-list
 
   task get-entries-by-name, name <getEntriesByName>
+    take name, like native-string
+    take type, like maybe
+      like native-string
     like performance-entry-list
-
-    take name
-    take type, like maybe, like native-string
 
   task get-entries-by-type, name <getEntriesByType>
+    take type, like native-string
     like performance-entry-list
 
-    take type
-
   task mark, name <mark>
+    take mark-name, like native-string
     like native-void
-
-    take mark-name
 
   task measure, name <measure>
+    take measure-name, like native-string
+    take start-mark, like maybe
+      like native-string
+    take end-mark, like maybe
+      like native-string
     like native-void
-
-    take measure-name
-    take start-mark, like maybe, like native-string
-    take end-mark, like maybe, like native-string
 
   task now, name <now>
     like native-number
 
   task set-resource-timing-buffer-size, name <setResourceTimingBufferSize>
+    take max-size, like native-number
     like native-void
-
-    take max-size
 
   task to-json, name <toJSON>
-    like any
+    like native-any
 
   task add-event-listener, name <addEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like performance-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
+      like task
+        take this, like performance
+        take ev
+          like index
+            like performance-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like performance-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
-
-  task remove-event-listener, name <removeEventListener>
+      like task
+        take this, like performance
+        take ev
+          like index
+            like performance-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
 
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+  task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void

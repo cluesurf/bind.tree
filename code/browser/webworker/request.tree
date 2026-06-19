@@ -1,21 +1,39 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find abort-signal
-  find body
-  find headers
-  find referrer-policy
-  find request-cache
-  find request-credentials
-  find request-destination
-  find request-mode
-  find request-redirect
-
 load @cluesurf/bind/code/browser/dom/request
   find request
+
+load @cluesurf/bind/code/browser/webworker/abort-signal
+  find abort-signal
+
+load @cluesurf/bind/code/browser/webworker/body
+  find body
+
+load @cluesurf/bind/code/browser/webworker/headers
+  find headers
+
+load @cluesurf/bind/code/browser/webworker/referrer-policy
+  find referrer-policy
+
+load @cluesurf/bind/code/browser/webworker/request-cache
+  find request-cache
+
+load @cluesurf/bind/code/browser/webworker/request-credentials
+  find request-credentials
+
+load @cluesurf/bind/code/browser/webworker/request-destination
+  find request-destination
+
+load @cluesurf/bind/code/browser/webworker/request-mode
+  find request-mode
+
+load @cluesurf/bind/code/browser/webworker/request-redirect
+  find request-redirect
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form request, name <Request>
   base body

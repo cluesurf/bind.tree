@@ -1,9 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/media-device-kind
+  find media-device-kind
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find media-device-kind
 
 form media-device-info, name <MediaDeviceInfo>
   link device-id, name <deviceId>
@@ -16,4 +19,4 @@ form media-device-info, name <MediaDeviceInfo>
     like native-string
 
   task to-json, name <toJSON>
-    like any
+    like native-any

@@ -1,21 +1,25 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/rtc-rtcp-parameters
   find rtc-rtcp-parameters
+
+load @cluesurf/bind/code/browser/dom/rtc-rtp-codec-parameters
   find rtc-rtp-codec-parameters
+
+load @cluesurf/bind/code/browser/dom/rtc-rtp-header-extension-parameters
   find rtc-rtp-header-extension-parameters
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 form rtc-rtp-parameters, name <RTCRtpParameters>
   link codecs, name <codecs>
-    like array
+    like native-array
       like rtc-rtp-codec-parameters
-    flex true
+    lock false
   link header-extensions, name <headerExtensions>
-    like array
+    like native-array
       like rtc-rtp-header-extension-parameters
-    flex true
+    lock false
   link rtcp, name <rtcp>
     like rtc-rtcp-parameters
-    flex true
+    lock false

@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/data-transfer
+  find data-transfer
+
+load @cluesurf/bind/code/browser/dom/mouse-event-init
+  find mouse-event-init
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-
-load @cluesurf/bind/code/browser/dom
-  find data-transfer
-  find mouse-event-init
 
 form drag-event-init, name <DragEventInit>
   base mouse-event-init
@@ -13,4 +15,4 @@ form drag-event-init, name <DragEventInit>
     like or
       like data-transfer
       like native-null
-    flex true
+    lock false

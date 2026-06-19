@@ -1,18 +1,33 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-number
-  find native-string
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-matrix
   find dom-matrix
+
+load @cluesurf/bind/code/browser/dom/dom-matrix-init
   find dom-matrix-init
+
+load @cluesurf/bind/code/browser/dom/dom-point
   find dom-point
+
+load @cluesurf/bind/code/browser/dom/dom-point-init
   find dom-point-init
 
-load @cluesurf/bind/code/javascript/es5
+load @cluesurf/bind/code/javascript/es5/float32-array
   find float32-array
+
+load @cluesurf/bind/code/javascript/es5/float64-array
   find float64-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form dom-matrix-read-only, name <DOMMatrixReadOnly>
   link a, name <a>
@@ -74,64 +89,79 @@ form dom-matrix-read-only, name <DOMMatrixReadOnly>
     like dom-matrix
 
   task multiply, name <multiply>
+    take other, like maybe
+      like dom-matrix-init
     like dom-matrix
-
-    take other, like maybe, like dom-matrix-init
 
   task rotate, name <rotate>
+    take rot-x, like maybe
+      like native-number
+    take rot-y, like maybe
+      like native-number
+    take rot-z, like maybe
+      like native-number
     like dom-matrix
-
-    take rot-x, like maybe, like native-number
-    take rot-y, like maybe, like native-number
-    take rot-z, like maybe, like native-number
 
   task rotate-axis-angle, name <rotateAxisAngle>
+    take x, like maybe
+      like native-number
+    take y, like maybe
+      like native-number
+    take z, like maybe
+      like native-number
+    take angle, like maybe
+      like native-number
     like dom-matrix
-
-    take x, like maybe, like native-number
-    take y, like maybe, like native-number
-    take z, like maybe, like native-number
-    take angle, like maybe, like native-number
 
   task rotate-from-vector, name <rotateFromVector>
+    take x, like maybe
+      like native-number
+    take y, like maybe
+      like native-number
     like dom-matrix
-
-    take x, like maybe, like native-number
-    take y, like maybe, like native-number
 
   task scale, name <scale>
+    take scale-x, like maybe
+      like native-number
+    take scale-y, like maybe
+      like native-number
+    take scale-z, like maybe
+      like native-number
+    take origin-x, like maybe
+      like native-number
+    take origin-y, like maybe
+      like native-number
+    take origin-z, like maybe
+      like native-number
     like dom-matrix
-
-    take scale-x, like maybe, like native-number
-    take scale-y, like maybe, like native-number
-    take scale-z, like maybe, like native-number
-    take origin-x, like maybe, like native-number
-    take origin-y, like maybe, like native-number
-    take origin-z, like maybe, like native-number
 
   task scale3d, name <scale3d>
+    take scale, like maybe
+      like native-number
+    take origin-x, like maybe
+      like native-number
+    take origin-y, like maybe
+      like native-number
+    take origin-z, like maybe
+      like native-number
     like dom-matrix
-
-    take scale, like maybe, like native-number
-    take origin-x, like maybe, like native-number
-    take origin-y, like maybe, like native-number
-    take origin-z, like maybe, like native-number
 
   task scale-non-uniform, name <scaleNonUniform>
+    take scale-x, like maybe
+      like native-number
+    take scale-y, like maybe
+      like native-number
     like dom-matrix
-
-    take scale-x, like maybe, like native-number
-    take scale-y, like maybe, like native-number
 
   task skew-x, name <skewX>
+    take sx, like maybe
+      like native-number
     like dom-matrix
-
-    take sx, like maybe, like native-number
 
   task skew-y, name <skewY>
+    take sy, like maybe
+      like native-number
     like dom-matrix
-
-    take sy, like maybe, like native-number
 
   task to-float32-array, name <toFloat32Array>
     like float32-array
@@ -140,19 +170,21 @@ form dom-matrix-read-only, name <DOMMatrixReadOnly>
     like float64-array
 
   task to-json, name <toJSON>
-    like any
+    like native-any
 
   task transform-point, name <transformPoint>
+    take point, like maybe
+      like dom-point-init
     like dom-point
 
-    take point, like maybe, like dom-point-init
-
   task translate, name <translate>
+    take tx, like maybe
+      like native-number
+    take ty, like maybe
+      like native-number
+    take tz, like maybe
+      like native-number
     like dom-matrix
-
-    take tx, like maybe, like native-number
-    take ty, like maybe, like native-number
-    take tz, like maybe, like native-number
 
   task to-string, name <toString>
     like native-string

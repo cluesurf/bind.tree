@@ -1,19 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/javascript/es2015/iterable
-  find iterable
-  find iterable-iterator
-
 load @cluesurf/bind/code/javascript/es2015/core/array
   find array
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es2015/iterable/iterable-iterator
+  find iterable-iterator
 
-load @cluesurf/bind/code/javascript/es5
-  find array-like
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form array, name <Array>
   head t
@@ -24,7 +17,7 @@ form array, name <Array>
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like native-number
         like t
 
@@ -35,24 +28,3 @@ form array, name <Array>
   task values, name <values>
     like iterable-iterator
       like t
-
-form array
-  hook self
-    task from, name <from>
-      like array
-        like t
-
-      head t
-
-      take iterable
-
-    task from, name <from>
-      like array
-        like u
-
-      head t
-      head u
-
-      take iterable
-      take mapfn
-      take this-arg, like maybe, like any

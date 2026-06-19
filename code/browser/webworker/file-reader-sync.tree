@@ -1,31 +1,28 @@
 
+load @cluesurf/bind/code/browser/webworker/blob
+  find blob
+
+load @cluesurf/bind/code/javascript/es5/array-buffer
+  find array-buffer
+
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/webworker
-  find blob
-
-load @cluesurf/bind/code/javascript/es5
-  find array-buffer
-
 form file-reader-sync, name <FileReaderSync>
   task read-as-array-buffer, name <readAsArrayBuffer>
+    take blob, like blob
     like array-buffer
 
-    take blob
-
   task read-as-binary-string, name <readAsBinaryString>
+    take blob, like blob
     like native-string
-
-    take blob
 
   task read-as-data-url, name <readAsDataURL>
+    take blob, like blob
     like native-string
-
-    take blob
 
   task read-as-text, name <readAsText>
+    take blob, like blob
+    take encoding, like maybe
+      like native-string
     like native-string
-
-    take blob
-    take encoding, like maybe, like native-string

@@ -1,23 +1,25 @@
 
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event-modifier-init
   find event-modifier-init
+
+load @cluesurf/bind/code/browser/dom/touch
   find touch
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 form touch-event-init, name <TouchEventInit>
   base event-modifier-init
 
   link changed-touches, name <changedTouches>
-    like array
+    like native-array
       like touch
-    flex true
+    lock false
   link target-touches, name <targetTouches>
-    like array
+    like native-array
       like touch
-    flex true
+    lock false
   link touches, name <touches>
-    like array
+    like native-array
       like touch
-    flex true
+    lock false

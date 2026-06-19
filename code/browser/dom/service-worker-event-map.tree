@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/abstract-worker-event-map
   find abstract-worker-event-map
+
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form service-worker-event-map, name <ServiceWorkerEventMap>
@@ -8,4 +10,4 @@ form service-worker-event-map, name <ServiceWorkerEventMap>
 
   link statechange, name <statechange>
     like event
-    flex true
+    lock false

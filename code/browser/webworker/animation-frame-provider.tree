@@ -1,21 +1,21 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-  find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find frame-request-callback
-
 load @cluesurf/bind/code/browser/dom/animation-frame-provider
   find animation-frame-provider
 
+load @cluesurf/bind/code/browser/webworker/frame-request-callback
+  find frame-request-callback
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form animation-frame-provider, name <AnimationFrameProvider>
   task cancel-animation-frame, name <cancelAnimationFrame>
+    take handle, like native-number
     like native-void
 
-    take handle
-
   task request-animation-frame, name <requestAnimationFrame>
+    take callback, like frame-request-callback
     like native-number
-
-    take callback

@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/media-configuration
   find media-configuration
+
+load @cluesurf/bind/code/browser/dom/media-encoding-type
   find media-encoding-type
 
 form media-encoding-configuration, name <MediaEncodingConfiguration>
@@ -8,4 +10,4 @@ form media-encoding-configuration, name <MediaEncodingConfiguration>
 
   link type, name <type>
     like media-encoding-type
-    flex true
+    lock false

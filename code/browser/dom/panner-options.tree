@@ -1,54 +1,58 @@
 
+load @cluesurf/bind/code/browser/dom/audio-node-options
+  find audio-node-options
+
+load @cluesurf/bind/code/browser/dom/distance-model-type
+  find distance-model-type
+
+load @cluesurf/bind/code/browser/dom/panning-model-type
+  find panning-model-type
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find audio-node-options
-  find distance-model-type
-  find panning-model-type
 
 form panner-options, name <PannerOptions>
   base audio-node-options
 
   link cone-inner-angle, name <coneInnerAngle>
     like native-number
-    flex true
+    lock false
   link cone-outer-angle, name <coneOuterAngle>
     like native-number
-    flex true
+    lock false
   link cone-outer-gain, name <coneOuterGain>
     like native-number
-    flex true
+    lock false
   link distance-model, name <distanceModel>
     like distance-model-type
-    flex true
+    lock false
   link max-distance, name <maxDistance>
     like native-number
-    flex true
+    lock false
   link orientation-x, name <orientationX>
     like native-number
-    flex true
+    lock false
   link orientation-y, name <orientationY>
     like native-number
-    flex true
+    lock false
   link orientation-z, name <orientationZ>
     like native-number
-    flex true
+    lock false
   link panning-model, name <panningModel>
     like panning-model-type
-    flex true
+    lock false
   link position-x, name <positionX>
     like native-number
-    flex true
+    lock false
   link position-y, name <positionY>
     like native-number
-    flex true
+    lock false
   link position-z, name <positionZ>
     like native-number
-    flex true
+    lock false
   link ref-distance, name <refDistance>
     like native-number
-    flex true
+    lock false
   link rolloff-factor, name <rolloffFactor>
     like native-number
-    flex true
+    lock false

@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find g-lint
-
 load @cluesurf/bind/code/browser/dom/web-gl-shader-precision-format
   find web-gl-shader-precision-format
+
+load @cluesurf/bind/code/browser/webworker/g-lint
+  find g-lint
 
 form web-gl-shader-precision-format, name <WebGLShaderPrecisionFormat>
   link precision, name <precision>

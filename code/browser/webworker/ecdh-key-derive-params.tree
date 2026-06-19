@@ -1,14 +1,16 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find algorithm
-  find crypto-key
-
 load @cluesurf/bind/code/browser/dom/ecdh-key-derive-params
   find ecdh-key-derive-params
+
+load @cluesurf/bind/code/browser/webworker/algorithm
+  find algorithm
+
+load @cluesurf/bind/code/browser/webworker/crypto-key
+  find crypto-key
 
 form ecdh-key-derive-params, name <EcdhKeyDeriveParams>
   base algorithm
 
   link public, name <public>
     like crypto-key
-    flex true
+    lock false

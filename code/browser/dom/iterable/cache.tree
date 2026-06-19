@@ -1,20 +1,23 @@
 
-load @cluesurf/bind/code/javascript/native
-  find iterable
-  find native-void
-
-load @cluesurf/bind/code/browser/dom
-  find request-info
-
-load @cluesurf/bind/code/javascript/es5
-  find promise
-
 load @cluesurf/bind/code/browser/dom/cache
   find cache
 
+load @cluesurf/bind/code/browser/dom/request-info
+  find request-info
+
+load @cluesurf/bind/code/javascript/es5/promise
+  find promise
+
+load @cluesurf/bind/code/javascript/iterable
+  find iterable
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
+
 form cache, name <Cache>
   task add-all, name <addAll>
+    take requests
+      like iterable
+        like request-info
     like promise
       like native-void
-
-    take requests

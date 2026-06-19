@@ -1,16 +1,16 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/javascript/es5/readonly-array
+  find readonly-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/javascript/es5
-  find readonly-array
 
 form template-strings-array, name <TemplateStringsArray>
   base readonly-array
 
   link raw, name <raw>
-    like array
+    like native-array
       like native-string

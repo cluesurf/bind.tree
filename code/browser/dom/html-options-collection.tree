@@ -1,37 +1,47 @@
 
+load @cluesurf/bind/code/browser/dom/html-collection-of
+  find html-collection-of
+
+load @cluesurf/bind/code/browser/dom/html-element
+  find html-element
+
+load @cluesurf/bind/code/browser/dom/html-opt-group-element
+  find html-opt-group-element
+
+load @cluesurf/bind/code/browser/dom/html-option-element
+  find html-option-element
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find html-collection-of
-  find html-element
-  find html-opt-group-element
-  find html-option-element
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form html-options-collection, name <HTMLOptionsCollection>
   base html-collection-of
 
   link length, name <length>
     like native-number
-    flex true
+    lock false
   link selected-index, name <selectedIndex>
     like native-number
-    flex true
+    lock false
 
   task add, name <add>
-    like native-void
-
     take element
-    take before
-      like maybe
-        like or
-          like html-element
-          like native-number
-          like native-null
+      like or
+        like html-option-element
+        like html-opt-group-element
+    take before, like maybe
+      like or
+        like html-element
+        like native-number
+        like native-null
+    like native-void
 
   task remove, name <remove>
+    take index, like native-number
     like native-void
-
-    take index

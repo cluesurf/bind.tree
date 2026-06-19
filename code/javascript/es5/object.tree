@@ -1,29 +1,20 @@
 
+load @cluesurf/bind/code/javascript/es5/function
+  find function
+
+load @cluesurf/bind/code/javascript/es5/property-key
+  find property-key
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-null
-  find native-object
+
+load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-undefined
-
-load @cluesurf/bind/code/javascript/es5
-  find function
-  find property-descriptor
-  find property-descriptor-map
-  find property-key
-  find readonly
-  find this-type
-
-load @cluesurf/bind/code/javascript
-  find array
-
-load @cluesurf/bind/code/javascript/es5/object
-  find object
 
 form object, name <Object>
   link constructor, name <constructor>
     like function
-    flex true
+    lock false
 
   task to-string, name <toString>
     like native-string
@@ -35,132 +26,13 @@ form object, name <Object>
     like object
 
   task has-own-property, name <hasOwnProperty>
+    take v, like property-key
     like native-boolean
-
-    take v
 
   task is-prototype-of, name <isPrototypeOf>
+    take v, like object
     like native-boolean
-
-    take v
 
   task property-is-enumerable, name <propertyIsEnumerable>
+    take v, like property-key
     like native-boolean
-
-    take v
-
-form object
-  hook self
-    link prototype, name <prototype>
-      like object
-
-    task get-prototype-of, name <getPrototypeOf>
-      like any
-
-      take o
-
-    task get-own-property-descriptor, name <getOwnPropertyDescriptor>
-      like or
-        like property-descriptor
-        like native-undefined
-
-      take o
-      take p
-
-    task get-own-property-names, name <getOwnPropertyNames>
-      like array
-        like native-string
-
-      take o
-
-    task create, name <create>
-      like any
-
-      take o
-
-    task create, name <create>
-      like any
-
-      take o
-      take properties
-
-    task define-property, name <defineProperty>
-      like t
-
-      head t
-
-      take o
-      take p
-      take attributes
-
-    task define-properties, name <defineProperties>
-      like t
-
-      head t
-
-      take o
-      take properties
-
-    task seal, name <seal>
-      like t
-
-      head t
-
-      take o
-
-    task freeze, name <freeze>
-      like array
-        like t
-
-      head t
-
-      take a
-
-    task freeze, name <freeze>
-      like t
-
-      head t
-        base function
-
-      take f
-
-    task freeze, name <freeze>
-      like readonly
-        like t
-
-      head t
-
-      take o
-
-    task prevent-extensions, name <preventExtensions>
-      like t
-
-      head t
-
-      take o
-
-    task is-sealed, name <isSealed>
-      like native-boolean
-
-      take o
-
-    task is-frozen, name <isFrozen>
-      like native-boolean
-
-      take o
-
-    task is-extensible, name <isExtensible>
-      like native-boolean
-
-      take o
-
-    task keys, name <keys>
-      like array
-        like native-string
-
-      take o
-
-  hook make
-    like object
-
-    take value, like maybe, like any

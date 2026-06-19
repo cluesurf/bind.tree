@@ -1,6 +1,8 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
 
 form device-motion-event-acceleration-init, name <DeviceMotionEventAccelerationInit>
@@ -8,14 +10,14 @@ form device-motion-event-acceleration-init, name <DeviceMotionEventAccelerationI
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link y, name <y>
     like or
       like native-number
       like native-null
-    flex true
+    lock false
   link z, name <z>
     like or
       like native-number
       like native-null
-    flex true
+    lock false

@@ -1,10 +1,12 @@
 
+load @cluesurf/bind/code/browser/dom/audio-buffer
+  find audio-buffer
+
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find audio-buffer
-  find event
 
 form audio-processing-event, name <AudioProcessingEvent>
   base event

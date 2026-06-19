@@ -1,13 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-  find native-string
-
 load @cluesurf/bind/code/javascript/es5/reg-exp
   find reg-exp
 
-load @cluesurf/bind/code/javascript/es2015/core/reg-exp
-  find reg-exp
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form reg-exp, name <RegExp>
   link flags, name <flags>
@@ -16,11 +15,3 @@ form reg-exp, name <RegExp>
     like native-boolean
   link unicode, name <unicode>
     like native-boolean
-
-form reg-exp
-  hook self
-  hook make
-    like reg-exp
-
-    take pattern
-    take flags, like maybe, like native-string

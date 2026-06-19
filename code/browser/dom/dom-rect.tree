@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/dom-rect-read-only
   find dom-rect-read-only
 
 form dom-rect, name <DOMRect>

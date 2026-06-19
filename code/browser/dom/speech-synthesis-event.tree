@@ -1,11 +1,15 @@
 
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/dom/speech-synthesis-utterance
+  find speech-synthesis-utterance
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find event
-  find speech-synthesis-utterance
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form speech-synthesis-event, name <SpeechSynthesisEvent>
   base event

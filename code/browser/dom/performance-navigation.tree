@@ -1,5 +1,8 @@
 
 load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
   find native-number
 
 form performance-navigation, name <PerformanceNavigation>
@@ -17,4 +20,4 @@ form performance-navigation, name <PerformanceNavigation>
     like native-number
 
   task to-json, name <toJSON>
-    like any
+    like native-any

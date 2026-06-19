@@ -1,19 +1,42 @@
 
+load @cluesurf/bind/code/browser/dom/add-event-listener-options
+  find add-event-listener-options
+
+load @cluesurf/bind/code/browser/dom/dom-point
+  find dom-point
+
+load @cluesurf/bind/code/browser/dom/dom-point-init
+  find dom-point-init
+
+load @cluesurf/bind/code/browser/dom/event-listener-options
+  find event-listener-options
+
+load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+  find event-listener-or-event-listener-object
+
+load @cluesurf/bind/code/browser/dom/svg-animated-number
+  find svg-animated-number
+
+load @cluesurf/bind/code/browser/dom/svg-element-event-map
+  find svg-element-event-map
+
+load @cluesurf/bind/code/browser/dom/svg-graphics-element
+  find svg-graphics-element
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-number
-  find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find add-event-listener-options
-  find dom-point
-  find dom-point-init
-  find event-listener-options
-  find event-listener-or-event-listener-object
-  find svg-animated-number
-  find svg-element-event-map
-  find svg-graphics-element
+load @cluesurf/bind/code/javascript/native
+  find native-number
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
+
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form svg-geometry-element, name <SVGGeometryElement>
   base svg-graphics-element
@@ -22,71 +45,74 @@ form svg-geometry-element, name <SVGGeometryElement>
     like svg-animated-number
 
   task get-point-at-length, name <getPointAtLength>
+    take distance, like native-number
     like dom-point
-
-    take distance
 
   task get-total-length, name <getTotalLength>
     like native-number
 
   task is-point-in-fill, name <isPointInFill>
+    take point, like maybe
+      like dom-point-init
     like native-boolean
-
-    take point, like maybe, like dom-point-init
 
   task is-point-in-stroke, name <isPointInStroke>
+    take point, like maybe
+      like dom-point-init
     like native-boolean
 
-    take point, like maybe, like dom-point-init
+  task add-event-listener, name <addEventListener>
+    head k
+      base link-read
+        like svg-element-event-map
+    take type, like k
+    take listener
+      like task
+        take this, like svg-geometry-element
+        take ev
+          like index
+            like svg-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
+    like native-void
 
   task add-event-listener, name <addEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like add-event-listener-options
     like native-void
-
-    head k
-      base key-list
-        like svg-element-event-map
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
-
-  task add-event-listener, name <addEventListener>
-    like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like add-event-listener-options
 
   task remove-event-listener, name <removeEventListener>
-    like native-void
-
     head k
-      base key-list
+      base link-read
         like svg-element-event-map
-
-    take type
+    take type, like k
     take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options
+      like task
+        take this, like svg-geometry-element
+        take ev
+          like index
+            like svg-element-event-map
+            like k
+        like native-any
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
+    like native-void
 
   task remove-event-listener, name <removeEventListener>
+    take type, like native-string
+    take listener, like event-listener-or-event-listener-object
+    take options, like maybe
+      like or
+        like native-boolean
+        like event-listener-options
     like native-void
-
-    take type
-    take listener
-    take options
-      like maybe
-        like or
-          like native-boolean
-          like event-listener-options

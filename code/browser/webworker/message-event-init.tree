@@ -1,40 +1,49 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/message-event-init
+  find message-event-init
+
+load @cluesurf/bind/code/browser/webworker/event-init
+  find event-init
+
+load @cluesurf/bind/code/browser/webworker/message-event-source
+  find message-event-source
+
+load @cluesurf/bind/code/browser/webworker/message-port
+  find message-port
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/webworker
-  find event-init
-  find message-event-source
-  find message-port
-
-load @cluesurf/bind/code/browser/dom/message-event-init
-  find message-event-init
 
 form message-event-init, name <MessageEventInit>
   base event-init
 
   head t
-    fall any
+    back native-any
 
   link data, name <data>
     like t
-    flex true
+    lock false
   link last-event-id, name <lastEventId>
     like native-string
-    flex true
+    lock false
   link origin, name <origin>
     like native-string
-    flex true
+    lock false
   link ports, name <ports>
-    like array
+    like native-array
       like message-port
-    flex true
+    lock false
   link source, name <source>
     like or
       like message-event-source
       like native-null
-    flex true
+    lock false

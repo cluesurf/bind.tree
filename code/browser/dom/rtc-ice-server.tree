@@ -1,26 +1,26 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/rtc-ice-credential-type
+  find rtc-ice-credential-type
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find rtc-ice-credential-type
-
 form rtc-ice-server, name <RTCIceServer>
   link credential, name <credential>
     like native-string
-    flex true
+    lock false
   link credential-type, name <credentialType>
     like rtc-ice-credential-type
-    flex true
+    lock false
   link urls, name <urls>
     like or
       like native-string
-      like array
+      like native-array
         like native-string
-    flex true
+    lock false
   link username, name <username>
     like native-string
-    flex true
+    lock false

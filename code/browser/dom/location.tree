@@ -1,54 +1,62 @@
 
+load @cluesurf/bind/code/browser/dom/dom-string-list
+  find dom-string-list
+
+load @cluesurf/bind/code/browser/dom/url
+  find url
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find dom-string-list
-  find url
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form location, name <Location>
   link ancestor-origins, name <ancestorOrigins>
     like dom-string-list
   link hash, name <hash>
     like native-string
-    flex true
+    lock false
   link host, name <host>
     like native-string
-    flex true
+    lock false
   link hostname, name <hostname>
     like native-string
-    flex true
+    lock false
   link href, name <href>
     like native-string
-    flex true
+    lock false
   link origin, name <origin>
     like native-string
   link pathname, name <pathname>
     like native-string
-    flex true
+    lock false
   link port, name <port>
     like native-string
-    flex true
+    lock false
   link protocol, name <protocol>
     like native-string
-    flex true
+    lock false
   link search, name <search>
     like native-string
-    flex true
+    lock false
 
   task to-string, name <toString>
     like native-string
 
   task assign, name <assign>
-    like native-void
-
     take url
+      like or
+        like native-string
+        like url
+    like native-void
 
   task reload, name <reload>
     like native-void
 
   task replace, name <replace>
-    like native-void
-
     take url
+      like or
+        like native-string
+        like url
+    like native-void

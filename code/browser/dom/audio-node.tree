@@ -1,27 +1,37 @@
 
+load @cluesurf/bind/code/browser/dom/audio-param
+  find audio-param
+
+load @cluesurf/bind/code/browser/dom/base-audio-context
+  find base-audio-context
+
+load @cluesurf/bind/code/browser/dom/channel-count-mode
+  find channel-count-mode
+
+load @cluesurf/bind/code/browser/dom/channel-interpretation
+  find channel-interpretation
+
+load @cluesurf/bind/code/browser/dom/event-target
+  find event-target
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-void
 
-load @cluesurf/bind/code/browser/dom
-  find audio-param
-  find base-audio-context
-  find channel-count-mode
-  find channel-interpretation
-  find event-target
+load @cluesurf/bind/code/javascript/native
+  find native-void
 
 form audio-node, name <AudioNode>
   base event-target
 
   link channel-count, name <channelCount>
     like native-number
-    flex true
+    lock false
   link channel-count-mode, name <channelCountMode>
     like channel-count-mode
-    flex true
+    lock false
   link channel-interpretation, name <channelInterpretation>
     like channel-interpretation
-    flex true
+    lock false
   link context, name <context>
     like base-audio-context
   link number-of-inputs, name <numberOfInputs>
@@ -30,51 +40,46 @@ form audio-node, name <AudioNode>
     like native-number
 
   task connect, name <connect>
+    take destination-node, like audio-node
+    take output, like maybe
+      like native-number
+    take input, like maybe
+      like native-number
     like audio-node
 
-    take destination-node
-    take output, like maybe, like native-number
-    take input, like maybe, like native-number
-
   task connect, name <connect>
-    like native-void
-
-    take destination-param
-    take output, like maybe, like native-number
-
-  task disconnect, name <disconnect>
+    take destination-param, like audio-param
+    take output, like maybe
+      like native-number
     like native-void
 
   task disconnect, name <disconnect>
     like native-void
 
-    take output
-
   task disconnect, name <disconnect>
+    take output, like native-number
     like native-void
 
-    take destination-node
-
   task disconnect, name <disconnect>
+    take destination-node, like audio-node
     like native-void
 
-    take destination-node
-    take output
-
   task disconnect, name <disconnect>
+    take destination-node, like audio-node
+    take output, like native-number
     like native-void
 
-    take destination-node
-    take output
-    take input
-
   task disconnect, name <disconnect>
+    take destination-node, like audio-node
+    take output, like native-number
+    take input, like native-number
     like native-void
 
-    take destination-param
-
   task disconnect, name <disconnect>
+    take destination-param, like audio-param
     like native-void
 
-    take destination-param
-    take output
+  task disconnect, name <disconnect>
+    take destination-param, like audio-param
+    take output, like native-number
+    like native-void

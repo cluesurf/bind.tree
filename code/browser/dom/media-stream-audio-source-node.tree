@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/audio-node
   find audio-node
+
+load @cluesurf/bind/code/browser/dom/media-stream
   find media-stream
 
 form media-stream-audio-source-node, name <MediaStreamAudioSourceNode>

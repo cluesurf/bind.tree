@@ -1,29 +1,35 @@
 
+load @cluesurf/bind/code/browser/dom/color-space-conversion
+  find color-space-conversion
+
+load @cluesurf/bind/code/browser/dom/image-orientation
+  find image-orientation
+
+load @cluesurf/bind/code/browser/dom/premultiply-alpha
+  find premultiply-alpha
+
+load @cluesurf/bind/code/browser/dom/resize-quality
+  find resize-quality
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-
-load @cluesurf/bind/code/browser/dom
-  find color-space-conversion
-  find image-orientation
-  find premultiply-alpha
-  find resize-quality
 
 form image-bitmap-options, name <ImageBitmapOptions>
   link color-space-conversion, name <colorSpaceConversion>
     like color-space-conversion
-    flex true
+    lock false
   link image-orientation, name <imageOrientation>
     like image-orientation
-    flex true
+    lock false
   link premultiply-alpha, name <premultiplyAlpha>
     like premultiply-alpha
-    flex true
+    lock false
   link resize-height, name <resizeHeight>
     like native-number
-    flex true
+    lock false
   link resize-quality, name <resizeQuality>
     like resize-quality
-    flex true
+    lock false
   link resize-width, name <resizeWidth>
     like native-number
-    flex true
+    lock false

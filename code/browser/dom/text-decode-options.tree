@@ -5,4 +5,4 @@ load @cluesurf/bind/code/javascript/native
 form text-decode-options, name <TextDecodeOptions>
   link stream, name <stream>
     like native-boolean
-    flex true
+    lock false

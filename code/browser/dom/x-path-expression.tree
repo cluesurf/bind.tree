@@ -1,20 +1,23 @@
 
+load @cluesurf/bind/code/browser/dom/node
+  find node
+
+load @cluesurf/bind/code/browser/dom/x-path-result
+  find x-path-result
+
 load @cluesurf/bind/code/javascript/native
   find native-null
-  find native-number
 
-load @cluesurf/bind/code/browser/dom
-  find node
-  find x-path-result
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form x-path-expression, name <XPathExpression>
   task evaluate, name <evaluate>
+    take context-node, like node
+    take type, like maybe
+      like native-number
+    take result, like maybe
+      like or
+        like x-path-result
+        like native-null
     like x-path-result
-
-    take context-node
-    take type, like maybe, like native-number
-    take result
-      like maybe
-        like or
-          like x-path-result
-          like native-null

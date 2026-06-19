@@ -1,18 +1,20 @@
 
+load @cluesurf/bind/code/browser/dom/service-worker-update-via-cache
+  find service-worker-update-via-cache
+
+load @cluesurf/bind/code/browser/dom/worker-type
+  find worker-type
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find service-worker-update-via-cache
-  find worker-type
 
 form registration-options, name <RegistrationOptions>
   link scope, name <scope>
     like native-string
-    flex true
+    lock false
   link type, name <type>
     like worker-type
-    flex true
+    lock false
   link update-via-cache, name <updateViaCache>
     like service-worker-update-via-cache
-    flex true
+    lock false

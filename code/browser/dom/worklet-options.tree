@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/request-credentials
   find request-credentials
 
 form worklet-options, name <WorkletOptions>
   link credentials, name <credentials>
     like request-credentials
-    flex true
+    lock false

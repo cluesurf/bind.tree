@@ -1,10 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-object
-  find native-string
-
 load @cluesurf/bind/code/javascript/es2015/iterable/weak-map
   find weak-map
+
+load @cluesurf/bind/code/javascript/native
+  find native-object
+
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form weak-map, name <WeakMap>
   head k
@@ -13,4 +15,4 @@ form weak-map, name <WeakMap>
 
   link {symbol/to-string-tag}
     like native-string
-    work true
+    read true

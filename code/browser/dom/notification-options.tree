@@ -1,58 +1,69 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/dom-time-stamp
+  find dom-time-stamp
+
+load @cluesurf/bind/code/browser/dom/notification-action
+  find notification-action
+
+load @cluesurf/bind/code/browser/dom/notification-direction
+  find notification-direction
+
+load @cluesurf/bind/code/browser/dom/vibrate-pattern
+  find vibrate-pattern
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find dom-time-stamp
-  find notification-action
-  find notification-direction
-  find vibrate-pattern
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form notification-options, name <NotificationOptions>
   link actions, name <actions>
-    like array
+    like native-array
       like notification-action
-    flex true
+    lock false
   link badge, name <badge>
     like native-string
-    flex true
+    lock false
   link body, name <body>
     like native-string
-    flex true
+    lock false
   link data, name <data>
-    like any
-    flex true
+    like native-any
+    lock false
   link dir, name <dir>
     like notification-direction
-    flex true
+    lock false
   link icon, name <icon>
     like native-string
-    flex true
+    lock false
   link image, name <image>
     like native-string
-    flex true
+    lock false
   link lang, name <lang>
     like native-string
-    flex true
+    lock false
   link renotify, name <renotify>
     like native-boolean
-    flex true
+    lock false
   link require-interaction, name <requireInteraction>
     like native-boolean
-    flex true
+    lock false
   link silent, name <silent>
     like native-boolean
-    flex true
+    lock false
   link tag, name <tag>
     like native-string
-    flex true
+    lock false
   link timestamp, name <timestamp>
     like dom-time-stamp
-    flex true
+    lock false
   link vibrate, name <vibrate>
     like vibrate-pattern
-    flex true
+    lock false

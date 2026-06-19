@@ -1,40 +1,44 @@
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
 
 form media-track-settings, name <MediaTrackSettings>
   link aspect-ratio, name <aspectRatio>
     like native-number
-    flex true
+    lock false
   link device-id, name <deviceId>
     like native-string
-    flex true
+    lock false
   link echo-cancellation, name <echoCancellation>
     like native-boolean
-    flex true
+    lock false
   link facing-mode, name <facingMode>
     like native-string
-    flex true
+    lock false
   link frame-rate, name <frameRate>
     like native-number
-    flex true
+    lock false
   link group-id, name <groupId>
     like native-string
-    flex true
+    lock false
   link height, name <height>
     like native-number
-    flex true
+    lock false
   link restrict-own-audio, name <restrictOwnAudio>
     like native-boolean
-    flex true
+    lock false
   link sample-rate, name <sampleRate>
     like native-number
-    flex true
+    lock false
   link sample-size, name <sampleSize>
     like native-number
-    flex true
+    lock false
   link width, name <width>
     like native-number
-    flex true
+    lock false

@@ -1,26 +1,34 @@
 
-load @cluesurf/bind/code/javascript
-  find array
+load @cluesurf/bind/code/browser/dom/event
+  find event
+
+load @cluesurf/bind/code/browser/webworker/event-target
+  find event-target
+
+load @cluesurf/bind/code/javascript/native
+  find native-array
 
 load @cluesurf/bind/code/javascript/native
   find native-boolean
+
+load @cluesurf/bind/code/javascript/native
   find native-null
+
+load @cluesurf/bind/code/javascript/native
   find native-number
+
+load @cluesurf/bind/code/javascript/native
   find native-string
+
+load @cluesurf/bind/code/javascript/native
   find native-void
-
-load @cluesurf/bind/code/browser/webworker
-  find event-target
-
-load @cluesurf/bind/code/browser/dom/event
-  find event
 
 form event, name <Event>
   link bubbles, name <bubbles>
     like native-boolean
   link cancel-bubble, name <cancelBubble>
     like native-boolean
-    flex true
+    lock false
   link cancelable, name <cancelable>
     like native-boolean
   link composed, name <composed>
@@ -37,7 +45,7 @@ form event, name <Event>
     like native-boolean
   link return-value, name <returnValue>
     like native-boolean
-    flex true
+    lock false
   link src-element, name <srcElement>
     like or
       like event-target
@@ -60,15 +68,16 @@ form event, name <Event>
     like native-number
 
   task composed-path, name <composedPath>
-    like array
+    like native-array
       like event-target
 
   task init-event, name <initEvent>
+    take type, like native-string
+    take bubbles, like maybe
+      like native-boolean
+    take cancelable, like maybe
+      like native-boolean
     like native-void
-
-    take type
-    take bubbles, like maybe, like native-boolean
-    take cancelable, like maybe, like native-boolean
 
   task prevent-default, name <preventDefault>
     like native-void

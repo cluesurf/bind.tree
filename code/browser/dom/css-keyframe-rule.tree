@@ -1,16 +1,18 @@
 
+load @cluesurf/bind/code/browser/dom/css-rule
+  find css-rule
+
+load @cluesurf/bind/code/browser/dom/css-style-declaration
+  find css-style-declaration
+
 load @cluesurf/bind/code/javascript/native
   find native-string
-
-load @cluesurf/bind/code/browser/dom
-  find css-rule
-  find css-style-declaration
 
 form css-keyframe-rule, name <CSSKeyframeRule>
   base css-rule
 
   link key-text, name <keyText>
     like native-string
-    flex true
+    lock false
   link style, name <style>
     like css-style-declaration

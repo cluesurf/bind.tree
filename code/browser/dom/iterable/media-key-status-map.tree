@@ -1,24 +1,26 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/buffer-source
   find buffer-source
-  find media-key-status
 
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
+load @cluesurf/bind/code/browser/dom/media-key-status
+  find media-key-status
 
 load @cluesurf/bind/code/browser/dom/media-key-status-map
   find media-key-status-map
 
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
+
 form media-key-status-map, name <MediaKeyStatusMap>
   task {symbol/iterator}
     like iterable-iterator
-      like tuple
+      like band
         like buffer-source
         like media-key-status
 
   task entries, name <entries>
     like iterable-iterator
-      like tuple
+      like band
         like buffer-source
         like media-key-status
 

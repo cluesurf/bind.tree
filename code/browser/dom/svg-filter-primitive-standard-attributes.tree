@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/svg-animated-length
   find svg-animated-length
+
+load @cluesurf/bind/code/browser/dom/svg-animated-string
   find svg-animated-string
 
 form svg-filter-primitive-standard-attributes, name <SVGFilterPrimitiveStandardAttributes>

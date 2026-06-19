@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-boolean
-
 load @cluesurf/bind/code/browser/dom/text-decode-options
   find text-decode-options
+
+load @cluesurf/bind/code/javascript/native
+  find native-boolean
 
 form text-decode-options, name <TextDecodeOptions>
   link stream, name <stream>
     like native-boolean
-    flex true
+    lock false

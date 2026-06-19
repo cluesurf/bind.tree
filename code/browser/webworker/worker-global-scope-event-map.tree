@@ -1,25 +1,29 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/error-event
   find error-event
+
+load @cluesurf/bind/code/browser/webworker/event
   find event
+
+load @cluesurf/bind/code/browser/webworker/promise-rejection-event
   find promise-rejection-event
 
 form worker-global-scope-event-map, name <WorkerGlobalScopeEventMap>
   link error, name <error>
     like error-event
-    flex true
+    lock false
   link languagechange, name <languagechange>
     like event
-    flex true
+    lock false
   link offline, name <offline>
     like event
-    flex true
+    lock false
   link online, name <online>
     like event
-    flex true
+    lock false
   link rejectionhandled, name <rejectionhandled>
     like promise-rejection-event
-    flex true
+    lock false
   link unhandledrejection, name <unhandledrejection>
     like promise-rejection-event
-    flex true
+    lock false

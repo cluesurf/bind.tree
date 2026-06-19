@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/element
   find element
-
-load @cluesurf/bind/code/javascript/native
-  find iterable-iterator
 
 load @cluesurf/bind/code/browser/dom/html-collection-base
   find html-collection-base
+
+load @cluesurf/bind/code/javascript/iterable-iterator
+  find iterable-iterator
 
 form html-collection-base, name <HTMLCollectionBase>
   task {symbol/iterator}

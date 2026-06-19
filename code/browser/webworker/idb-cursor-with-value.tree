@@ -1,12 +1,15 @@
 
-load @cluesurf/bind/code/browser/webworker
-  find idb-cursor
-
 load @cluesurf/bind/code/browser/dom/idb-cursor-with-value
   find idb-cursor-with-value
+
+load @cluesurf/bind/code/browser/webworker/idb-cursor
+  find idb-cursor
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
 
 form idb-cursor-with-value, name <IDBCursorWithValue>
   base idb-cursor
 
   link value, name <value>
-    like any
+    like native-any

@@ -1,6 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker
+load @cluesurf/bind/code/browser/webworker/algorithm
   find algorithm
+
+load @cluesurf/bind/code/browser/webworker/crypto-key
   find crypto-key
 
 form dh-key-derive-params, name <DhKeyDeriveParams>
@@ -8,4 +10,4 @@ form dh-key-derive-params, name <DhKeyDeriveParams>
 
   link public, name <public>
     like crypto-key
-    flex true
+    lock false

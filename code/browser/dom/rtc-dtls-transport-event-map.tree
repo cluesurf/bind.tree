@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom
+load @cluesurf/bind/code/browser/dom/event
   find event
 
 form rtc-dtls-transport-event-map, name <RTCDtlsTransportEventMap>
   link statechange, name <statechange>
     like event
-    flex true
+    lock false

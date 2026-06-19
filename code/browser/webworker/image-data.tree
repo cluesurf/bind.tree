@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/javascript/native
-  find native-number
-
-load @cluesurf/bind/code/javascript/es5
-  find uint8-clamped-array
-
 load @cluesurf/bind/code/browser/dom/image-data
   find image-data
+
+load @cluesurf/bind/code/javascript/es5/uint8-clamped-array
+  find uint8-clamped-array
+
+load @cluesurf/bind/code/javascript/native
+  find native-number
 
 form image-data, name <ImageData>
   link data, name <data>

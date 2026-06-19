@@ -1,26 +1,31 @@
 
+load @cluesurf/bind/code/browser/dom/event-init
+  find event-init
+
+load @cluesurf/bind/code/javascript/native
+  find native-any
+
 load @cluesurf/bind/code/javascript/native
   find native-number
-  find native-string
 
-load @cluesurf/bind/code/browser/dom
-  find event-init
+load @cluesurf/bind/code/javascript/native
+  find native-string
 
 form error-event-init, name <ErrorEventInit>
   base event-init
 
   link colno, name <colno>
     like native-number
-    flex true
+    lock false
   link error, name <error>
-    like any
-    flex true
+    like native-any
+    lock false
   link filename, name <filename>
     like native-string
-    flex true
+    lock false
   link lineno, name <lineno>
     like native-number
-    flex true
+    lock false
   link message, name <message>
     like native-string
-    flex true
+    lock false
