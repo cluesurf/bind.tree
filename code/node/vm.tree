@@ -1,27 +1,27 @@
 
-bear @cluesurf/bind/code/javascript/node/vm/context
-bear @cluesurf/bind/code/javascript/node/vm/base-options
-bear @cluesurf/bind/code/javascript/node/vm/script-options
-bear @cluesurf/bind/code/javascript/node/vm/running-script-options
-bear @cluesurf/bind/code/javascript/node/vm/compile-function-options
-bear @cluesurf/bind/code/javascript/node/vm/create-context-options
-bear @cluesurf/bind/code/javascript/node/vm/measure-memory-mode
-bear @cluesurf/bind/code/javascript/node/vm/measure-memory-options
-bear @cluesurf/bind/code/javascript/node/vm/memory-measurement
-bear @cluesurf/bind/code/javascript/node/vm/script
+bear @term/bind/code/javascript/node/vm/context
+bear @term/bind/code/javascript/node/vm/base-options
+bear @term/bind/code/javascript/node/vm/script-options
+bear @term/bind/code/javascript/node/vm/running-script-options
+bear @term/bind/code/javascript/node/vm/compile-function-options
+bear @term/bind/code/javascript/node/vm/create-context-options
+bear @term/bind/code/javascript/node/vm/measure-memory-mode
+bear @term/bind/code/javascript/node/vm/measure-memory-options
+bear @term/bind/code/javascript/node/vm/memory-measurement
+bear @term/bind/code/javascript/node/vm/script
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find function
   find native-boolean
   find native-string
   find promise
   find readonly-array
 
-load @cluesurf/bind/code/node/vm
+load @term/bind/code/node/vm
   find compile-function-options
   find context
   find create-context-options

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom/instance
+load @term/bind/code/browser/dom/instance
   find instance
 
-load @cluesurf/bind/code/browser/dom/module
+load @term/bind/code/browser/dom/module
   find module
 
 form web-assembly-instantiated-source, name <WebAssemblyInstantiatedSource>

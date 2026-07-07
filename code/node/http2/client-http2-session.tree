@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-number
@@ -11,16 +11,16 @@ load @cluesurf/bind/code/javascript
   find readonly-array
   find tls-tls-socket
 
-load @cluesurf/moon
+load @term/moon
   find and
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find outgoing-http-headers
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find client-http2-stream
   find client-session-request-options
   find http2-session

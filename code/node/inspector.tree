@@ -1,17 +1,17 @@
 
-bear @cluesurf/bind/code/javascript/node/inspector/inspector-notification
-bear @cluesurf/bind/code/javascript/node/inspector/schema
-bear @cluesurf/bind/code/javascript/node/inspector/runtime
-bear @cluesurf/bind/code/javascript/node/inspector/debugger
-bear @cluesurf/bind/code/javascript/node/inspector/console
-bear @cluesurf/bind/code/javascript/node/inspector/profiler
-bear @cluesurf/bind/code/javascript/node/inspector/heap-profiler
-bear @cluesurf/bind/code/javascript/node/inspector/session
+bear @term/bind/code/javascript/node/inspector/inspector-notification
+bear @term/bind/code/javascript/node/inspector/schema
+bear @term/bind/code/javascript/node/inspector/runtime
+bear @term/bind/code/javascript/node/inspector/debugger
+bear @term/bind/code/javascript/node/inspector/console
+bear @term/bind/code/javascript/node/inspector/profiler
+bear @term/bind/code/javascript/node/inspector/heap-profiler
+bear @term/bind/code/javascript/node/inspector/session
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-number
   find native-string

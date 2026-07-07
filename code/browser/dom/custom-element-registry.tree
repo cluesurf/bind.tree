@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/dom/custom-element-constructor
+load @term/bind/code/browser/dom/custom-element-constructor
   find custom-element-constructor
 
-load @cluesurf/bind/code/browser/dom/element-definition-options
+load @term/bind/code/browser/dom/element-definition-options
   find element-definition-options
 
-load @cluesurf/bind/code/browser/dom/node
+load @term/bind/code/browser/dom/node
   find node
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-undefined
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form custom-element-registry, name <CustomElementRegistry>

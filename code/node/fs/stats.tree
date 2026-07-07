@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find stats-base
 
 form stats, name <Stats>

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript/es5/date
+load @term/bind/code/javascript/es5/date
   find date
 
-load @cluesurf/bind/code/javascript/var-date
+load @term/bind/code/javascript/var-date
   find var-date
 
 form date, name <Date>

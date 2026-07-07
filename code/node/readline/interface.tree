@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find async-iterable-iterator
   find native-boolean
@@ -13,18 +13,18 @@ load @cluesurf/bind/code/javascript
   find node-js-readable-stream
   find node-js-writable-stream
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/events/event-emitter
+load @term/bind/code/node/events/event-emitter
   find abortable
 
-load @cluesurf/bind/code/node/readline
+load @term/bind/code/node/readline
   find async-completer
   find completer
   find cursor-pos

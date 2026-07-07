@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find client-session-options
 
 form secure-client-session-options, name <SecureClientSessionOptions>

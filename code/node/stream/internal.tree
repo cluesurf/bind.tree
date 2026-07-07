@@ -1,32 +1,32 @@
 
-bear @cluesurf/bind/code/javascript/node/stream/internal/stream
-bear @cluesurf/bind/code/javascript/node/stream/internal/stream-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/readable-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/readable
-bear @cluesurf/bind/code/javascript/node/stream/internal/writable-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/writable
-bear @cluesurf/bind/code/javascript/node/stream/internal/duplex-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/duplex
-bear @cluesurf/bind/code/javascript/node/stream/internal/transform-callback
-bear @cluesurf/bind/code/javascript/node/stream/internal/transform-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/transform
-bear @cluesurf/bind/code/javascript/node/stream/internal/pass-through
-bear @cluesurf/bind/code/javascript/node/stream/internal/finished-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/finished
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-source-function
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-source
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-transform
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-transform-source
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-destination-iterable-function
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-destination-promise-function
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-destination
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-callback
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-promise
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline-options
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipeline
-bear @cluesurf/bind/code/javascript/node/stream/internal/pipe
+bear @term/bind/code/javascript/node/stream/internal/stream
+bear @term/bind/code/javascript/node/stream/internal/stream-options
+bear @term/bind/code/javascript/node/stream/internal/readable-options
+bear @term/bind/code/javascript/node/stream/internal/readable
+bear @term/bind/code/javascript/node/stream/internal/writable-options
+bear @term/bind/code/javascript/node/stream/internal/writable
+bear @term/bind/code/javascript/node/stream/internal/duplex-options
+bear @term/bind/code/javascript/node/stream/internal/duplex
+bear @term/bind/code/javascript/node/stream/internal/transform-callback
+bear @term/bind/code/javascript/node/stream/internal/transform-options
+bear @term/bind/code/javascript/node/stream/internal/transform
+bear @term/bind/code/javascript/node/stream/internal/pass-through
+bear @term/bind/code/javascript/node/stream/internal/finished-options
+bear @term/bind/code/javascript/node/stream/internal/finished
+bear @term/bind/code/javascript/node/stream/internal/pipeline-source-function
+bear @term/bind/code/javascript/node/stream/internal/pipeline-source
+bear @term/bind/code/javascript/node/stream/internal/pipeline-transform
+bear @term/bind/code/javascript/node/stream/internal/pipeline-transform-source
+bear @term/bind/code/javascript/node/stream/internal/pipeline-destination-iterable-function
+bear @term/bind/code/javascript/node/stream/internal/pipeline-destination-promise-function
+bear @term/bind/code/javascript/node/stream/internal/pipeline-destination
+bear @term/bind/code/javascript/node/stream/internal/pipeline-callback
+bear @term/bind/code/javascript/node/stream/internal/pipeline-promise
+bear @term/bind/code/javascript/node/stream/internal/pipeline-options
+bear @term/bind/code/javascript/node/stream/internal/pipeline
+bear @term/bind/code/javascript/node/stream/internal/pipe
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find like
@@ -34,7 +34,7 @@ load @cluesurf/moon
   find task
   find test
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-null
   find native-undefined
@@ -46,11 +46,11 @@ load @cluesurf/bind/code/javascript
   find readonly-array
   find stream
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find abort-signal
   find array
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find finished-options
   find pipeline-callback
   find pipeline-destination

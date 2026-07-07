@@ -1,18 +1,18 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find blob
   find native-boolean
   find native-null
   find native-string
   find native-void
 
-load @cluesurf/bind/code/node/querystring
+load @term/bind/code/node/querystring
   find parsed-url-query
 
-load @cluesurf/bind/code/node/url
+load @term/bind/code/node/url
   find url
   find url-search-params
 

@@ -1,21 +1,21 @@
 
-bear @cluesurf/bind/code/javascript/node/util/inspect-options
-bear @cluesurf/bind/code/javascript/node/util/style
-bear @cluesurf/bind/code/javascript/node/util/custom-inspect-function
-bear @cluesurf/bind/code/javascript/node/util/inspect-options-stylized
-bear @cluesurf/bind/code/javascript/node/util/inspect
-bear @cluesurf/bind/code/javascript/node/util/debug-logger-function
-bear @cluesurf/bind/code/javascript/node/util/debug-logger
-bear @cluesurf/bind/code/javascript/node/util/custom-promisify-legacy
-bear @cluesurf/bind/code/javascript/node/util/custom-promisify-symbol
-bear @cluesurf/bind/code/javascript/node/util/custom-promisify
-bear @cluesurf/bind/code/javascript/node/util/promisify
-bear @cluesurf/bind/code/javascript/node/util/text-decoder
-bear @cluesurf/bind/code/javascript/node/util/encode-into-result
-bear @cluesurf/bind/code/javascript/node/util/text-encoder
-bear @cluesurf/bind/code/javascript/node/util/util-types
+bear @term/bind/code/javascript/node/util/inspect-options
+bear @term/bind/code/javascript/node/util/style
+bear @term/bind/code/javascript/node/util/custom-inspect-function
+bear @term/bind/code/javascript/node/util/inspect-options-stylized
+bear @term/bind/code/javascript/node/util/inspect
+bear @term/bind/code/javascript/node/util/debug-logger-function
+bear @term/bind/code/javascript/node/util/debug-logger
+bear @term/bind/code/javascript/node/util/custom-promisify-legacy
+bear @term/bind/code/javascript/node/util/custom-promisify-symbol
+bear @term/bind/code/javascript/node/util/custom-promisify
+bear @term/bind/code/javascript/node/util/promisify
+bear @term/bind/code/javascript/node/util/text-decoder
+bear @term/bind/code/javascript/node/util/encode-into-result
+bear @term/bind/code/javascript/node/util/text-encoder
+bear @term/bind/code/javascript/node/util/util-types
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find date
   find error
@@ -32,7 +32,7 @@ load @cluesurf/bind/code/javascript
   find promise
   find reg-exp
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find or
@@ -40,10 +40,10 @@ load @cluesurf/moon
   find tuple
   find unknown
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/util
+load @term/bind/code/node/util
   find custom-promisify
   find debug-logger
   find debug-logger-function

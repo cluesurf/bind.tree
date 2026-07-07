@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/text-track
+load @term/bind/code/browser/dom/text-track
   find text-track
 
-load @cluesurf/bind/code/browser/dom/text-track-list
+load @term/bind/code/browser/dom/text-track-list
   find text-track-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form text-track-list, name <TextTrackList>

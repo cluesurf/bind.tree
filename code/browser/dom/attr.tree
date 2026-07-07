@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/document
+load @term/bind/code/browser/dom/document
   find document
 
-load @cluesurf/bind/code/browser/dom/element
+load @term/bind/code/browser/dom/element
   find element
 
-load @cluesurf/bind/code/browser/dom/node
+load @term/bind/code/browser/dom/node
   find node
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form attr, name <Attr>

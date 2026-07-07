@@ -1,47 +1,47 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/blob
+load @term/bind/code/browser/dom/blob
   find blob
 
-load @cluesurf/bind/code/browser/dom/dom-exception
+load @term/bind/code/browser/dom/dom-exception
   find dom-exception
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/event-target
+load @term/bind/code/browser/dom/event-target
   find event-target
 
-load @cluesurf/bind/code/browser/dom/file-reader-event-map
+load @term/bind/code/browser/dom/file-reader-event-map
   find file-reader-event-map
 
-load @cluesurf/bind/code/browser/dom/progress-event
+load @term/bind/code/browser/dom/progress-event
   find progress-event
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form file-reader, name <FileReader>

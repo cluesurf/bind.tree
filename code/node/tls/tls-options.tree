@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find data-view
   find native-null
   find native-number
@@ -11,10 +11,10 @@ load @cluesurf/bind/code/javascript
   find node-js-typed-array
   find tls-socket
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/tls
+load @term/bind/code/node/tls
   find common-connection-options
   find secure-context-options
 

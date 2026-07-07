@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-number
   find native-string
   find native-void
   find performance-node-timing
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find task
 
-load @cluesurf/bind/code/node/perf-hooks
+load @term/bind/code/node/perf-hooks
   find event-loop-utility-function
   find mark-options
   find measure-options

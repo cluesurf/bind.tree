@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -8,14 +8,14 @@ load @cluesurf/bind/code/javascript
   find native-undefined
   find native-void
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find uint8-array
 
-load @cluesurf/bind/code/node/tls
+load @term/bind/code/node/tls
   find secure-context
 
 form common-connection-options, name <CommonConnectionOptions>

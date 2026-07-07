@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find ipc-net-connect-opts
   find tcp-net-connect-opts
 

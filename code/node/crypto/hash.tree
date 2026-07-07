@@ -1,13 +1,13 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find hash
   find native-string
   find stream-transform-options
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find binary-like
   find binary-to-text-encoding
   find encoding

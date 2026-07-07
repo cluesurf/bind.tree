@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/webworker/blob
+load @term/bind/code/browser/webworker/blob
   find blob
 
-load @cluesurf/bind/code/browser/webworker/buffer-source
+load @term/bind/code/browser/webworker/buffer-source
   find buffer-source
 
-load @cluesurf/bind/code/browser/webworker/form-data
+load @term/bind/code/browser/webworker/form-data
   find form-data
 
-load @cluesurf/bind/code/browser/webworker/readable-stream
+load @term/bind/code/browser/webworker/readable-stream
   find readable-stream
 
-load @cluesurf/bind/code/browser/webworker/url-search-params
+load @term/bind/code/browser/webworker/url-search-params
   find url-search-params
 
-load @cluesurf/bind/code/javascript/es5/uint8-array
+load @term/bind/code/javascript/es5/uint8-array
   find uint8-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form body-init, name <BodyInit>

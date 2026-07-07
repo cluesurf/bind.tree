@@ -1,32 +1,32 @@
 
-load @cluesurf/bind/code/javascript/es5/array-buffer-like
+load @term/bind/code/javascript/es5/array-buffer-like
   find array-buffer-like
 
-load @cluesurf/bind/code/javascript/es5/array-like
+load @term/bind/code/javascript/es5/array-like
   find array-like
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-this
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-undefined
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-unknown
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form float64-array, name <Float64Array>

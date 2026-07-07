@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/child-process
+load @term/bind/code/node/child-process
   find exec-file-sync-options
 
 form exec-file-sync-options-with-string-encoding, name <ExecFileSyncOptionsWithStringEncoding>

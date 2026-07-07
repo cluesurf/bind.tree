@@ -1,10 +1,10 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-string
 
-load @cluesurf/bind/code/node/path
+load @term/bind/code/node/path
   find format-input-path-object
   find parsed-path
 

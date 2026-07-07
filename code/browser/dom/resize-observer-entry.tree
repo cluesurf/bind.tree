@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom/dom-rect-read-only
+load @term/bind/code/browser/dom/dom-rect-read-only
   find dom-rect-read-only
 
-load @cluesurf/bind/code/browser/dom/element
+load @term/bind/code/browser/dom/element
   find element
 
-load @cluesurf/bind/code/browser/dom/resize-observer-size
+load @term/bind/code/browser/dom/resize-observer-size
   find resize-observer-size
 
-load @cluesurf/bind/code/javascript/es5/readonly-array
+load @term/bind/code/javascript/es5/readonly-array
   find readonly-array
 
 form resize-observer-entry, name <ResizeObserverEntry>

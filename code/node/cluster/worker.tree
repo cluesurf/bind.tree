@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find child-child-process
   find child-message-options
@@ -16,12 +16,12 @@ load @cluesurf/bind/code/javascript
   find net-server
   find net-socket
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/cluster
+load @term/bind/code/node/cluster
   find address
 
 form worker, name <Worker>

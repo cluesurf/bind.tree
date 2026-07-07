@@ -1,13 +1,13 @@
 
-load @cluesurf/bind/code/node/zlib
+load @term/bind/code/node/zlib
   find input-type
   find zlib
   find zlib-options
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find promise
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
 form gunzip, name <Gunzip>

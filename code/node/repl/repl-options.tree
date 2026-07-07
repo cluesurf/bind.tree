@@ -1,19 +1,19 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-string
   find native-undefined
   find node-js-readable-stream
   find node-js-writable-stream
 
-load @cluesurf/bind/code/node/readline
+load @term/bind/code/node/readline
   find async-completer
   find completer
 
-load @cluesurf/bind/code/node/repl
+load @term/bind/code/node/repl
   find repl-eval
   find repl-writer
 

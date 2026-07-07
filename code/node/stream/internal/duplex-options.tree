@@ -1,11 +1,11 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find duplex
   find error
   find native-boolean
@@ -14,13 +14,13 @@ load @cluesurf/bind/code/javascript
   find native-undefined
   find native-void
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find array
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find readable-options
   find writable-options
 

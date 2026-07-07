@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/dom/html-collection-of
+load @term/bind/code/browser/dom/html-collection-of
   find html-collection-of
 
-load @cluesurf/bind/code/browser/dom/html-element
+load @term/bind/code/browser/dom/html-element
   find html-element
 
-load @cluesurf/bind/code/browser/dom/html-opt-group-element
+load @term/bind/code/browser/dom/html-opt-group-element
   find html-opt-group-element
 
-load @cluesurf/bind/code/browser/dom/html-option-element
+load @term/bind/code/browser/dom/html-option-element
   find html-option-element
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form html-options-collection, name <HTMLOptionsCollection>

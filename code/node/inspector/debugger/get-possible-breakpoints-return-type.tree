@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/node/inspector/debugger
+load @term/bind/code/node/inspector/debugger
   find break-location
 
 form get-possible-breakpoints-return-type, name <GetPossibleBreakpointsReturnType>

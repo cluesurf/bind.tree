@@ -1,16 +1,16 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find never
   find or
   find test
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find node-js-writable-stream
   find st
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find pipeline-destination-iterable-function
   find pipeline-destination-promise-function
   find pipeline-transform-source

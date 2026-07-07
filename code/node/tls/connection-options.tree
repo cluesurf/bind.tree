@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-null
   find native-number
   find native-string
@@ -10,10 +10,10 @@ load @cluesurf/bind/code/javascript
   find net-lookup-function
   find stream-duplex
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/tls
+load @term/bind/code/node/tls
   find common-connection-options
   find psk-callback-negotation
   find secure-context-options

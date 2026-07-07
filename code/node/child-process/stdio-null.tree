@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find stream
 
 form stdio-null, name <StdioNull>

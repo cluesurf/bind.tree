@@ -1,10 +1,10 @@
 
-bear @cluesurf/bind/code/javascript/node/assert/assertion-error
-bear @cluesurf/bind/code/javascript/node/assert/call-tracker
-bear @cluesurf/bind/code/javascript/node/assert/call-tracker-report-information
-bear @cluesurf/bind/code/javascript/node/assert/assert-predicate
+bear @term/bind/code/javascript/node/assert/assertion-error
+bear @term/bind/code/javascript/node/assert/call-tracker
+bear @term/bind/code/javascript/node/assert/call-tracker-report-information
+bear @term/bind/code/javascript/node/assert/assert-predicate
 
-load @cluesurf/moon
+load @term/moon
   find and
   find form
   find like
@@ -13,7 +13,7 @@ load @cluesurf/moon
   find task
   find unknown
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find error
   find function
   find native-boolean
@@ -25,7 +25,7 @@ load @cluesurf/bind/code/javascript
   find promise
   find reg-exp
 
-load @cluesurf/bind/code/node/assert
+load @term/bind/code/node/assert
   find assert-predicate
 
 host strict, name <strict>

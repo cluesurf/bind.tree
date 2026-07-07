@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/request-credentials
+load @term/bind/code/browser/dom/request-credentials
   find request-credentials
 
-load @cluesurf/bind/code/browser/dom/worker-type
+load @term/bind/code/browser/dom/worker-type
   find worker-type
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form worker-options, name <WorkerOptions>

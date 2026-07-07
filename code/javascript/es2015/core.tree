@@ -1,13 +1,13 @@
 
-bear @cluesurf/bind/code/javascript/es2015/core/array
-bear @cluesurf/bind/code/javascript/es2015/core/array-constructor
-bear @cluesurf/bind/code/javascript/es2015/core/date-constructor
-bear @cluesurf/bind/code/javascript/es2015/core/function
-bear @cluesurf/bind/code/javascript/es2015/core/math
-bear @cluesurf/bind/code/javascript/es2015/core/number-constructor
-bear @cluesurf/bind/code/javascript/es2015/core/object-constructor
-bear @cluesurf/bind/code/javascript/es2015/core/readonly-array
-bear @cluesurf/bind/code/javascript/es2015/core/reg-exp
-bear @cluesurf/bind/code/javascript/es2015/core/reg-exp-constructor
-bear @cluesurf/bind/code/javascript/es2015/core/string
-bear @cluesurf/bind/code/javascript/es2015/core/string-constructor
+bear @term/bind/code/javascript/es2015/core/array
+bear @term/bind/code/javascript/es2015/core/array-constructor
+bear @term/bind/code/javascript/es2015/core/date-constructor
+bear @term/bind/code/javascript/es2015/core/function
+bear @term/bind/code/javascript/es2015/core/math
+bear @term/bind/code/javascript/es2015/core/number-constructor
+bear @term/bind/code/javascript/es2015/core/object-constructor
+bear @term/bind/code/javascript/es2015/core/readonly-array
+bear @term/bind/code/javascript/es2015/core/reg-exp
+bear @term/bind/code/javascript/es2015/core/reg-exp-constructor
+bear @term/bind/code/javascript/es2015/core/string
+bear @term/bind/code/javascript/es2015/core/string-constructor

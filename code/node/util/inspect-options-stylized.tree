@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
 
-load @cluesurf/bind/code/node/util
+load @term/bind/code/node/util
   find inspect-options
   find style
 

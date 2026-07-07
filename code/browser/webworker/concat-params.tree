@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker/algorithm
+load @term/bind/code/browser/webworker/algorithm
   find algorithm
 
-load @cluesurf/bind/code/javascript/es5/uint8-array
+load @term/bind/code/javascript/es5/uint8-array
   find uint8-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form concat-params, name <ConcatParams>

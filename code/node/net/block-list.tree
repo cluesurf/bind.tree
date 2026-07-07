@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-number
   find native-string
   find native-void
   find socket-address
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find ip-version
 
 form block-list, name <BlockList>

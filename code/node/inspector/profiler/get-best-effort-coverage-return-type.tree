@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/node/inspector/profiler
+load @term/bind/code/node/inspector/profiler
   find script-coverage
 
 form get-best-effort-coverage-return-type, name <GetBestEffortCoverageReturnType>

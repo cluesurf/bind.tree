@@ -1,20 +1,20 @@
 
-bear @cluesurf/bind/code/javascript/node/worker-threads/message-channel
-bear @cluesurf/bind/code/javascript/node/worker-threads/worker-performance
-bear @cluesurf/bind/code/javascript/node/worker-threads/transfer-list-item
-bear @cluesurf/bind/code/javascript/node/worker-threads/message-port
-bear @cluesurf/bind/code/javascript/node/worker-threads/worker-options
-bear @cluesurf/bind/code/javascript/node/worker-threads/resource-limits
-bear @cluesurf/bind/code/javascript/node/worker-threads/worker
-bear @cluesurf/bind/code/javascript/node/worker-threads/broadcast-channel
-bear @cluesurf/bind/code/javascript/node/worker-threads/serializable
+bear @term/bind/code/javascript/node/worker-threads/message-channel
+bear @term/bind/code/javascript/node/worker-threads/worker-performance
+bear @term/bind/code/javascript/node/worker-threads/transfer-list-item
+bear @term/bind/code/javascript/node/worker-threads/message-port
+bear @term/bind/code/javascript/node/worker-threads/worker-options
+bear @term/bind/code/javascript/node/worker-threads/resource-limits
+bear @term/bind/code/javascript/node/worker-threads/worker
+bear @term/bind/code/javascript/node/worker-threads/broadcast-channel
+bear @term/bind/code/javascript/node/worker-threads/serializable
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find message-port
   find native-boolean
   find native-null
@@ -24,10 +24,10 @@ load @cluesurf/bind/code/javascript
   find native-undefined
   find native-void
 
-load @cluesurf/bind/code/node/vm
+load @term/bind/code/node/vm
   find context
 
-load @cluesurf/bind/code/node/worker-threads
+load @term/bind/code/node/worker-threads
   find resource-limits
   find serializable
 

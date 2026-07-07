@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find incoming-message
@@ -13,15 +13,15 @@ load @cluesurf/bind/code/javascript
   find socket
   find stream-duplex
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find request-listener
   find server-options
 

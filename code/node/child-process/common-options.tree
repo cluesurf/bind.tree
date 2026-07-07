@@ -1,13 +1,13 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-number
   find native-undefined
 
-load @cluesurf/bind/code/node/child-process
+load @term/bind/code/node/child-process
   find process-env-options
 
 form common-options, name <CommonOptions>

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/dom-time-stamp
+load @term/bind/code/browser/dom/dom-time-stamp
   find dom-time-stamp
 
-load @cluesurf/bind/code/browser/dom/rtc-dtls-fingerprint
+load @term/bind/code/browser/dom/rtc-dtls-fingerprint
   find rtc-dtls-fingerprint
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
 form rtc-certificate, name <RTCCertificate>

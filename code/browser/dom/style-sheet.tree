@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/dom/css-style-sheet
+load @term/bind/code/browser/dom/css-style-sheet
   find css-style-sheet
 
-load @cluesurf/bind/code/browser/dom/element
+load @term/bind/code/browser/dom/element
   find element
 
-load @cluesurf/bind/code/browser/dom/media-list
+load @term/bind/code/browser/dom/media-list
   find media-list
 
-load @cluesurf/bind/code/browser/dom/processing-instruction
+load @term/bind/code/browser/dom/processing-instruction
   find processing-instruction
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form style-sheet, name <StyleSheet>

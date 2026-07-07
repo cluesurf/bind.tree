@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+load @term/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
 
-load @cluesurf/bind/code/browser/dom/navigation-type
+load @term/bind/code/browser/dom/navigation-type
   find navigation-type
 
-load @cluesurf/bind/code/browser/dom/performance-resource-timing
+load @term/bind/code/browser/dom/performance-resource-timing
   find performance-resource-timing
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form performance-navigation-timing, name <PerformanceNavigationTiming>

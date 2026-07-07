@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/element
+load @term/bind/code/browser/dom/element
   find element
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form non-element-parent-node, name <NonElementParentNode>

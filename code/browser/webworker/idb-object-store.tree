@@ -1,59 +1,59 @@
 
-load @cluesurf/bind/code/browser/dom/iterable/idb-object-store
+load @term/bind/code/browser/dom/iterable/idb-object-store
   find idb-object-store
 
-load @cluesurf/bind/code/browser/webworker/dom-string-list
+load @term/bind/code/browser/webworker/dom-string-list
   find dom-string-list
 
-load @cluesurf/bind/code/browser/webworker/idb-cursor
+load @term/bind/code/browser/webworker/idb-cursor
   find idb-cursor
 
-load @cluesurf/bind/code/browser/webworker/idb-cursor-direction
+load @term/bind/code/browser/webworker/idb-cursor-direction
   find idb-cursor-direction
 
-load @cluesurf/bind/code/browser/webworker/idb-cursor-with-value
+load @term/bind/code/browser/webworker/idb-cursor-with-value
   find idb-cursor-with-value
 
-load @cluesurf/bind/code/browser/webworker/idb-index
+load @term/bind/code/browser/webworker/idb-index
   find idb-index
 
-load @cluesurf/bind/code/browser/webworker/idb-index-parameters
+load @term/bind/code/browser/webworker/idb-index-parameters
   find idb-index-parameters
 
-load @cluesurf/bind/code/browser/webworker/idb-key-range
+load @term/bind/code/browser/webworker/idb-key-range
   find idb-key-range
 
-load @cluesurf/bind/code/browser/webworker/idb-request
+load @term/bind/code/browser/webworker/idb-request
   find idb-request
 
-load @cluesurf/bind/code/browser/webworker/idb-transaction
+load @term/bind/code/browser/webworker/idb-transaction
   find idb-transaction
 
-load @cluesurf/bind/code/browser/webworker/idb-valid-key
+load @term/bind/code/browser/webworker/idb-valid-key
   find idb-valid-key
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-undefined
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form idb-object-store, name <IDBObjectStore>

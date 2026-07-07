@@ -1,10 +1,10 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
   find runtime-call-argument
 
-load @cluesurf/bind/code/node/inspector/debugger
+load @term/bind/code/node/inspector/debugger
   find call-frame-id
 
 form set-variable-value-parameter-type, name <SetVariableValueParameterType>

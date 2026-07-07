@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2015/proxy/proxy-handler
+load @term/bind/code/javascript/es2015/proxy/proxy-handler
   find proxy-handler
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-object
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form proxy-constructor, name <ProxyConstructor>

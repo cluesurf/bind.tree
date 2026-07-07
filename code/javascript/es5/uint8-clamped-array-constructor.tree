@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/javascript/es5/array-buffer-like
+load @term/bind/code/javascript/es5/array-buffer-like
   find array-buffer-like
 
-load @cluesurf/bind/code/javascript/es5/array-like
+load @term/bind/code/javascript/es5/array-like
   find array-like
 
-load @cluesurf/bind/code/javascript/es5/uint8-clamped-array
+load @term/bind/code/javascript/es5/uint8-clamped-array
   find uint8-clamped-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form uint8-clamped-array-constructor, name <Uint8ClampedArrayConstructor>

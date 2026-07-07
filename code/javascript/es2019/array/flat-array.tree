@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2019/array/readonly-array
+load @term/bind/code/javascript/es2019/array/readonly-array
   find readonly-array
 
-load @cluesurf/bind/code/javascript/inner-arr
+load @term/bind/code/javascript/inner-arr
   find inner-arr
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form flat-array, name <FlatArray>

@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find event-emitter
   find function
   find native-void
   find node-js-timer
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find or

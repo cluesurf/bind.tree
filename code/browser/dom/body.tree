@@ -1,32 +1,32 @@
 
-load @cluesurf/bind/code/browser/dom/blob
+load @term/bind/code/browser/dom/blob
   find blob
 
-load @cluesurf/bind/code/browser/dom/form-data
+load @term/bind/code/browser/dom/form-data
   find form-data
 
-load @cluesurf/bind/code/browser/dom/readable-stream
+load @term/bind/code/browser/dom/readable-stream
   find readable-stream
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/es5/uint8-array
+load @term/bind/code/javascript/es5/uint8-array
   find uint8-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form body, name <Body>

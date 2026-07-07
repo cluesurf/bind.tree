@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/node/inspector/schema
+load @term/bind/code/node/inspector/schema
   find domain
 
 form get-domains-return-type, name <GetDomainsReturnType>

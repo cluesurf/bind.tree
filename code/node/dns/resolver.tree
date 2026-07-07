@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
   find native-void
 
-load @cluesurf/bind/code/node/dns
+load @term/bind/code/node/dns
   find resolver-options
 
 form resolver, name <Resolver>

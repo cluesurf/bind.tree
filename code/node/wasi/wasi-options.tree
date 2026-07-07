@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-number
@@ -8,7 +8,7 @@ load @cluesurf/bind/code/javascript
   find native-undefined
   find node-js-dict
 
-load @cluesurf/moon
+load @term/moon
   find or
 
 form wasi-options, name <WASIOptions>

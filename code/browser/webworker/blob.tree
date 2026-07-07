@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/blob
+load @term/bind/code/browser/dom/blob
   find blob
 
-load @cluesurf/bind/code/browser/webworker/readable-stream
+load @term/bind/code/browser/webworker/readable-stream
   find readable-stream
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form blob, name <Blob>

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/idb-key-range
+load @term/bind/code/browser/dom/idb-key-range
   find idb-key-range
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
 form idb-key-range, name <IDBKeyRange>

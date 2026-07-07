@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-string
   find native-undefined
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find secure-server-session-options
 
 form secure-server-options, name <SecureServerOptions>

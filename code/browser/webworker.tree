@@ -1,1003 +1,1003 @@
 
-bear @cluesurf/bind/code/browser/webworker/add-event-listener-options
-bear @cluesurf/bind/code/browser/webworker/aes-cbc-params
-bear @cluesurf/bind/code/browser/webworker/aes-ctr-params
-bear @cluesurf/bind/code/browser/webworker/aes-derived-key-params
-bear @cluesurf/bind/code/browser/webworker/aes-gcm-params
-bear @cluesurf/bind/code/browser/webworker/aes-key-algorithm
-bear @cluesurf/bind/code/browser/webworker/aes-key-gen-params
-bear @cluesurf/bind/code/browser/webworker/algorithm
-bear @cluesurf/bind/code/browser/webworker/blob-property-bag
-bear @cluesurf/bind/code/browser/webworker/cache-query-options
-bear @cluesurf/bind/code/browser/webworker/canvas-rendering-context2-d-settings
-bear @cluesurf/bind/code/browser/webworker/client-query-options
-bear @cluesurf/bind/code/browser/webworker/close-event-init
-bear @cluesurf/bind/code/browser/webworker/crypto-key-pair
-bear @cluesurf/bind/code/browser/webworker/custom-event-init
-bear @cluesurf/bind/code/browser/webworker/dom-matrix2-d-init
-bear @cluesurf/bind/code/browser/webworker/dom-matrix-init
-bear @cluesurf/bind/code/browser/webworker/dom-point-init
-bear @cluesurf/bind/code/browser/webworker/dom-quad-init
-bear @cluesurf/bind/code/browser/webworker/dom-rect-init
-bear @cluesurf/bind/code/browser/webworker/device-permission-descriptor
-bear @cluesurf/bind/code/browser/webworker/ec-key-gen-params
-bear @cluesurf/bind/code/browser/webworker/ec-key-import-params
-bear @cluesurf/bind/code/browser/webworker/ecdh-key-derive-params
-bear @cluesurf/bind/code/browser/webworker/ecdsa-params
-bear @cluesurf/bind/code/browser/webworker/error-event-init
-bear @cluesurf/bind/code/browser/webworker/event-init
-bear @cluesurf/bind/code/browser/webworker/event-listener-options
-bear @cluesurf/bind/code/browser/webworker/event-source-init
-bear @cluesurf/bind/code/browser/webworker/extendable-event-init
-bear @cluesurf/bind/code/browser/webworker/extendable-message-event-init
-bear @cluesurf/bind/code/browser/webworker/fetch-event-init
-bear @cluesurf/bind/code/browser/webworker/file-property-bag
-bear @cluesurf/bind/code/browser/webworker/get-notification-options
-bear @cluesurf/bind/code/browser/webworker/hkdf-params
-bear @cluesurf/bind/code/browser/webworker/hmac-import-params
-bear @cluesurf/bind/code/browser/webworker/hmac-key-gen-params
-bear @cluesurf/bind/code/browser/webworker/idb-index-parameters
-bear @cluesurf/bind/code/browser/webworker/idb-object-store-parameters
-bear @cluesurf/bind/code/browser/webworker/idb-version-change-event-init
-bear @cluesurf/bind/code/browser/webworker/image-bitmap-options
-bear @cluesurf/bind/code/browser/webworker/image-bitmap-rendering-context-settings
-bear @cluesurf/bind/code/browser/webworker/image-encode-options
-bear @cluesurf/bind/code/browser/webworker/import-meta
-bear @cluesurf/bind/code/browser/webworker/json-web-key
-bear @cluesurf/bind/code/browser/webworker/key-algorithm
-bear @cluesurf/bind/code/browser/webworker/message-event-init
-bear @cluesurf/bind/code/browser/webworker/midi-permission-descriptor
-bear @cluesurf/bind/code/browser/webworker/multi-cache-query-options
-bear @cluesurf/bind/code/browser/webworker/navigation-preload-state
-bear @cluesurf/bind/code/browser/webworker/notification-action
-bear @cluesurf/bind/code/browser/webworker/notification-event-init
-bear @cluesurf/bind/code/browser/webworker/notification-options
-bear @cluesurf/bind/code/browser/webworker/pbkdf2-params
-bear @cluesurf/bind/code/browser/webworker/performance-observer-init
-bear @cluesurf/bind/code/browser/webworker/permission-descriptor
-bear @cluesurf/bind/code/browser/webworker/post-message-options
-bear @cluesurf/bind/code/browser/webworker/progress-event-init
-bear @cluesurf/bind/code/browser/webworker/promise-rejection-event-init
-bear @cluesurf/bind/code/browser/webworker/push-event-init
-bear @cluesurf/bind/code/browser/webworker/push-permission-descriptor
-bear @cluesurf/bind/code/browser/webworker/push-subscription-json
-bear @cluesurf/bind/code/browser/webworker/push-subscription-options-init
-bear @cluesurf/bind/code/browser/webworker/queuing-strategy
-bear @cluesurf/bind/code/browser/webworker/queuing-strategy-init
-bear @cluesurf/bind/code/browser/webworker/readable-stream-default-read-done-result
-bear @cluesurf/bind/code/browser/webworker/readable-stream-default-read-value-result
-bear @cluesurf/bind/code/browser/webworker/readable-writable-pair
-bear @cluesurf/bind/code/browser/webworker/registration-options
-bear @cluesurf/bind/code/browser/webworker/request-init
-bear @cluesurf/bind/code/browser/webworker/response-init
-bear @cluesurf/bind/code/browser/webworker/rsa-hashed-import-params
-bear @cluesurf/bind/code/browser/webworker/rsa-hashed-key-gen-params
-bear @cluesurf/bind/code/browser/webworker/rsa-key-gen-params
-bear @cluesurf/bind/code/browser/webworker/rsa-oaep-params
-bear @cluesurf/bind/code/browser/webworker/rsa-other-primes-info
-bear @cluesurf/bind/code/browser/webworker/rsa-pss-params
-bear @cluesurf/bind/code/browser/webworker/storage-estimate
-bear @cluesurf/bind/code/browser/webworker/stream-pipe-options
-bear @cluesurf/bind/code/browser/webworker/sync-event-init
-bear @cluesurf/bind/code/browser/webworker/text-decode-options
-bear @cluesurf/bind/code/browser/webworker/text-decoder-options
-bear @cluesurf/bind/code/browser/webworker/text-encoder-encode-into-result
-bear @cluesurf/bind/code/browser/webworker/transformer
-bear @cluesurf/bind/code/browser/webworker/underlying-sink
-bear @cluesurf/bind/code/browser/webworker/underlying-source
-bear @cluesurf/bind/code/browser/webworker/web-gl-context-attributes
-bear @cluesurf/bind/code/browser/webworker/web-gl-context-event-init
-bear @cluesurf/bind/code/browser/webworker/worker-options
-bear @cluesurf/bind/code/browser/webworker/event-listener
-bear @cluesurf/bind/code/browser/webworker/angle-instanced-arrays
-bear @cluesurf/bind/code/browser/webworker/abort-controller
-bear @cluesurf/bind/code/browser/webworker/abort-signal-event-map
-bear @cluesurf/bind/code/browser/webworker/abort-signal
-bear @cluesurf/bind/code/browser/webworker/abstract-worker-event-map
-bear @cluesurf/bind/code/browser/webworker/abstract-worker
-bear @cluesurf/bind/code/browser/webworker/aes-cfb-params
-bear @cluesurf/bind/code/browser/webworker/aes-cmac-params
-bear @cluesurf/bind/code/browser/webworker/animation-frame-provider
-bear @cluesurf/bind/code/browser/webworker/blob
-bear @cluesurf/bind/code/browser/webworker/body
-bear @cluesurf/bind/code/browser/webworker/broadcast-channel-event-map
-bear @cluesurf/bind/code/browser/webworker/broadcast-channel
-bear @cluesurf/bind/code/browser/webworker/byte-length-queuing-strategy
-bear @cluesurf/bind/code/browser/webworker/cache
-bear @cluesurf/bind/code/browser/webworker/cache-storage
-bear @cluesurf/bind/code/browser/webworker/canvas-compositing
-bear @cluesurf/bind/code/browser/webworker/canvas-draw-image
-bear @cluesurf/bind/code/browser/webworker/canvas-draw-path
-bear @cluesurf/bind/code/browser/webworker/canvas-fill-stroke-styles
-bear @cluesurf/bind/code/browser/webworker/canvas-filters
-bear @cluesurf/bind/code/browser/webworker/canvas-gradient
-bear @cluesurf/bind/code/browser/webworker/canvas-image-data
-bear @cluesurf/bind/code/browser/webworker/canvas-image-smoothing
-bear @cluesurf/bind/code/browser/webworker/canvas-path
-bear @cluesurf/bind/code/browser/webworker/canvas-path-drawing-styles
-bear @cluesurf/bind/code/browser/webworker/canvas-pattern
-bear @cluesurf/bind/code/browser/webworker/canvas-rect
-bear @cluesurf/bind/code/browser/webworker/canvas-shadow-styles
-bear @cluesurf/bind/code/browser/webworker/canvas-state
-bear @cluesurf/bind/code/browser/webworker/canvas-text
-bear @cluesurf/bind/code/browser/webworker/canvas-text-drawing-styles
-bear @cluesurf/bind/code/browser/webworker/canvas-transform
-bear @cluesurf/bind/code/browser/webworker/client
-bear @cluesurf/bind/code/browser/webworker/clients
-bear @cluesurf/bind/code/browser/webworker/close-event
-bear @cluesurf/bind/code/browser/webworker/concat-params
-bear @cluesurf/bind/code/browser/webworker/count-queuing-strategy
-bear @cluesurf/bind/code/browser/webworker/crypto
-bear @cluesurf/bind/code/browser/webworker/crypto-key
-bear @cluesurf/bind/code/browser/webworker/custom-event
-bear @cluesurf/bind/code/browser/webworker/dom-exception
-bear @cluesurf/bind/code/browser/webworker/dom-matrix
-bear @cluesurf/bind/code/browser/webworker/dom-matrix-read-only
-bear @cluesurf/bind/code/browser/webworker/dom-point
-bear @cluesurf/bind/code/browser/webworker/dom-point-read-only
-bear @cluesurf/bind/code/browser/webworker/dom-quad
-bear @cluesurf/bind/code/browser/webworker/dom-rect
-bear @cluesurf/bind/code/browser/webworker/dom-rect-read-only
-bear @cluesurf/bind/code/browser/webworker/dom-string-list
-bear @cluesurf/bind/code/browser/webworker/dedicated-worker-global-scope-event-map
-bear @cluesurf/bind/code/browser/webworker/dedicated-worker-global-scope
-bear @cluesurf/bind/code/browser/webworker/dh-import-key-params
-bear @cluesurf/bind/code/browser/webworker/dh-key-algorithm
-bear @cluesurf/bind/code/browser/webworker/dh-key-derive-params
-bear @cluesurf/bind/code/browser/webworker/dh-key-gen-params
-bear @cluesurf/bind/code/browser/webworker/ext-blend-minmax
-bear @cluesurf/bind/code/browser/webworker/ext-frag-depth
-bear @cluesurf/bind/code/browser/webworker/ext-s-rgb
-bear @cluesurf/bind/code/browser/webworker/ext-shader-texture-lod
-bear @cluesurf/bind/code/browser/webworker/ext-texture-filter-anisotropic
-bear @cluesurf/bind/code/browser/webworker/error-event
-bear @cluesurf/bind/code/browser/webworker/event
-bear @cluesurf/bind/code/browser/webworker/event-listener-object
-bear @cluesurf/bind/code/browser/webworker/event-source-event-map
-bear @cluesurf/bind/code/browser/webworker/event-source
-bear @cluesurf/bind/code/browser/webworker/event-target
-bear @cluesurf/bind/code/browser/webworker/extendable-event
-bear @cluesurf/bind/code/browser/webworker/extendable-message-event
-bear @cluesurf/bind/code/browser/webworker/fetch-event
-bear @cluesurf/bind/code/browser/webworker/file
-bear @cluesurf/bind/code/browser/webworker/file-list
-bear @cluesurf/bind/code/browser/webworker/file-reader-event-map
-bear @cluesurf/bind/code/browser/webworker/file-reader
-bear @cluesurf/bind/code/browser/webworker/file-reader-sync
-bear @cluesurf/bind/code/browser/webworker/form-data
-bear @cluesurf/bind/code/browser/webworker/generic-transform-stream
-bear @cluesurf/bind/code/browser/webworker/headers
-bear @cluesurf/bind/code/browser/webworker/idb-array-key
-bear @cluesurf/bind/code/browser/webworker/idb-cursor
-bear @cluesurf/bind/code/browser/webworker/idb-cursor-with-value
-bear @cluesurf/bind/code/browser/webworker/idb-database-event-map
-bear @cluesurf/bind/code/browser/webworker/idb-database
-bear @cluesurf/bind/code/browser/webworker/idb-factory
-bear @cluesurf/bind/code/browser/webworker/idb-index
-bear @cluesurf/bind/code/browser/webworker/idb-key-range
-bear @cluesurf/bind/code/browser/webworker/idb-object-store
-bear @cluesurf/bind/code/browser/webworker/idb-open-db-request-event-map
-bear @cluesurf/bind/code/browser/webworker/idb-open-db-request
-bear @cluesurf/bind/code/browser/webworker/idb-request-event-map
-bear @cluesurf/bind/code/browser/webworker/idb-request
-bear @cluesurf/bind/code/browser/webworker/idb-transaction-event-map
-bear @cluesurf/bind/code/browser/webworker/idb-transaction
-bear @cluesurf/bind/code/browser/webworker/idb-version-change-event
-bear @cluesurf/bind/code/browser/webworker/image-bitmap
-bear @cluesurf/bind/code/browser/webworker/image-bitmap-rendering-context
-bear @cluesurf/bind/code/browser/webworker/image-data
-bear @cluesurf/bind/code/browser/webworker/message-channel
-bear @cluesurf/bind/code/browser/webworker/message-event
-bear @cluesurf/bind/code/browser/webworker/message-port-event-map
-bear @cluesurf/bind/code/browser/webworker/message-port
-bear @cluesurf/bind/code/browser/webworker/navigation-preload-manager
-bear @cluesurf/bind/code/browser/webworker/navigator-concurrent-hardware
-bear @cluesurf/bind/code/browser/webworker/navigator-id
-bear @cluesurf/bind/code/browser/webworker/navigator-language
-bear @cluesurf/bind/code/browser/webworker/navigator-on-line
-bear @cluesurf/bind/code/browser/webworker/navigator-storage
-bear @cluesurf/bind/code/browser/webworker/notification-event-map
-bear @cluesurf/bind/code/browser/webworker/notification
-bear @cluesurf/bind/code/browser/webworker/notification-event
-bear @cluesurf/bind/code/browser/webworker/oes-element-index-uint
-bear @cluesurf/bind/code/browser/webworker/oes-standard-derivatives
-bear @cluesurf/bind/code/browser/webworker/oes-texture-float
-bear @cluesurf/bind/code/browser/webworker/oes-texture-float-linear
-bear @cluesurf/bind/code/browser/webworker/oes-texture-half-float
-bear @cluesurf/bind/code/browser/webworker/oes-texture-half-float-linear
-bear @cluesurf/bind/code/browser/webworker/oes-vertex-array-object
-bear @cluesurf/bind/code/browser/webworker/offscreen-canvas
-bear @cluesurf/bind/code/browser/webworker/offscreen-canvas-rendering-context2-d
-bear @cluesurf/bind/code/browser/webworker/path2-d
-bear @cluesurf/bind/code/browser/webworker/performance-event-map
-bear @cluesurf/bind/code/browser/webworker/performance
-bear @cluesurf/bind/code/browser/webworker/performance-entry
-bear @cluesurf/bind/code/browser/webworker/performance-mark
-bear @cluesurf/bind/code/browser/webworker/performance-measure
-bear @cluesurf/bind/code/browser/webworker/performance-observer
-bear @cluesurf/bind/code/browser/webworker/performance-observer-entry-list
-bear @cluesurf/bind/code/browser/webworker/performance-resource-timing
-bear @cluesurf/bind/code/browser/webworker/permission-status-event-map
-bear @cluesurf/bind/code/browser/webworker/permission-status
-bear @cluesurf/bind/code/browser/webworker/permissions
-bear @cluesurf/bind/code/browser/webworker/progress-event
-bear @cluesurf/bind/code/browser/webworker/promise-rejection-event
-bear @cluesurf/bind/code/browser/webworker/push-event
-bear @cluesurf/bind/code/browser/webworker/push-manager
-bear @cluesurf/bind/code/browser/webworker/push-message-data
-bear @cluesurf/bind/code/browser/webworker/push-subscription
-bear @cluesurf/bind/code/browser/webworker/push-subscription-options
-bear @cluesurf/bind/code/browser/webworker/readable-stream
-bear @cluesurf/bind/code/browser/webworker/readable-stream-default-controller
-bear @cluesurf/bind/code/browser/webworker/readable-stream-default-reader
-bear @cluesurf/bind/code/browser/webworker/readable-stream-generic-reader
-bear @cluesurf/bind/code/browser/webworker/request
-bear @cluesurf/bind/code/browser/webworker/response
-bear @cluesurf/bind/code/browser/webworker/service-worker-event-map
-bear @cluesurf/bind/code/browser/webworker/service-worker
-bear @cluesurf/bind/code/browser/webworker/service-worker-container-event-map
-bear @cluesurf/bind/code/browser/webworker/service-worker-container
-bear @cluesurf/bind/code/browser/webworker/service-worker-global-scope-event-map
-bear @cluesurf/bind/code/browser/webworker/service-worker-global-scope
-bear @cluesurf/bind/code/browser/webworker/service-worker-registration-event-map
-bear @cluesurf/bind/code/browser/webworker/service-worker-registration
-bear @cluesurf/bind/code/browser/webworker/shared-worker
-bear @cluesurf/bind/code/browser/webworker/shared-worker-global-scope-event-map
-bear @cluesurf/bind/code/browser/webworker/shared-worker-global-scope
-bear @cluesurf/bind/code/browser/webworker/storage-manager
-bear @cluesurf/bind/code/browser/webworker/subtle-crypto
-bear @cluesurf/bind/code/browser/webworker/sync-event
-bear @cluesurf/bind/code/browser/webworker/sync-manager
-bear @cluesurf/bind/code/browser/webworker/text-decoder
-bear @cluesurf/bind/code/browser/webworker/text-decoder-common
-bear @cluesurf/bind/code/browser/webworker/text-decoder-stream
-bear @cluesurf/bind/code/browser/webworker/text-encoder
-bear @cluesurf/bind/code/browser/webworker/text-encoder-common
-bear @cluesurf/bind/code/browser/webworker/text-encoder-stream
-bear @cluesurf/bind/code/browser/webworker/text-metrics
-bear @cluesurf/bind/code/browser/webworker/transform-stream
-bear @cluesurf/bind/code/browser/webworker/transform-stream-default-controller
-bear @cluesurf/bind/code/browser/webworker/url
-bear @cluesurf/bind/code/browser/webworker/url-search-params
-bear @cluesurf/bind/code/browser/webworker/webgl-color-buffer-float
-bear @cluesurf/bind/code/browser/webworker/webgl-compressed-texture-astc
-bear @cluesurf/bind/code/browser/webworker/webgl-compressed-texture-s3tc
-bear @cluesurf/bind/code/browser/webworker/webgl-compressed-texture-s3tc-srgb
-bear @cluesurf/bind/code/browser/webworker/webgl-debug-renderer-info
-bear @cluesurf/bind/code/browser/webworker/webgl-debug-shaders
-bear @cluesurf/bind/code/browser/webworker/webgl-depth-texture
-bear @cluesurf/bind/code/browser/webworker/webgl-draw-buffers
-bear @cluesurf/bind/code/browser/webworker/webgl-lose-context
-bear @cluesurf/bind/code/browser/webworker/web-gl2-rendering-context
-bear @cluesurf/bind/code/browser/webworker/web-gl2-rendering-context-base
-bear @cluesurf/bind/code/browser/webworker/web-gl2-rendering-context-overloads
-bear @cluesurf/bind/code/browser/webworker/web-gl-active-info
-bear @cluesurf/bind/code/browser/webworker/web-gl-buffer
-bear @cluesurf/bind/code/browser/webworker/web-gl-context-event
-bear @cluesurf/bind/code/browser/webworker/web-gl-framebuffer
-bear @cluesurf/bind/code/browser/webworker/web-gl-program
-bear @cluesurf/bind/code/browser/webworker/web-gl-query
-bear @cluesurf/bind/code/browser/webworker/web-gl-renderbuffer
-bear @cluesurf/bind/code/browser/webworker/web-gl-rendering-context
-bear @cluesurf/bind/code/browser/webworker/web-gl-rendering-context-base
-bear @cluesurf/bind/code/browser/webworker/web-gl-rendering-context-overloads
-bear @cluesurf/bind/code/browser/webworker/web-gl-sampler
-bear @cluesurf/bind/code/browser/webworker/web-gl-shader
-bear @cluesurf/bind/code/browser/webworker/web-gl-shader-precision-format
-bear @cluesurf/bind/code/browser/webworker/web-gl-sync
-bear @cluesurf/bind/code/browser/webworker/web-gl-texture
-bear @cluesurf/bind/code/browser/webworker/web-gl-transform-feedback
-bear @cluesurf/bind/code/browser/webworker/web-gl-uniform-location
-bear @cluesurf/bind/code/browser/webworker/web-gl-vertex-array-object
-bear @cluesurf/bind/code/browser/webworker/web-gl-vertex-array-object-oes
-bear @cluesurf/bind/code/browser/webworker/web-socket-event-map
-bear @cluesurf/bind/code/browser/webworker/web-socket
-bear @cluesurf/bind/code/browser/webworker/window-client
-bear @cluesurf/bind/code/browser/webworker/window-or-worker-global-scope
-bear @cluesurf/bind/code/browser/webworker/worker-event-map
-bear @cluesurf/bind/code/browser/webworker/worker
-bear @cluesurf/bind/code/browser/webworker/worker-global-scope-event-map
-bear @cluesurf/bind/code/browser/webworker/worker-global-scope
-bear @cluesurf/bind/code/browser/webworker/worker-location
-bear @cluesurf/bind/code/browser/webworker/worker-navigator
-bear @cluesurf/bind/code/browser/webworker/writable-stream
-bear @cluesurf/bind/code/browser/webworker/writable-stream-default-controller
-bear @cluesurf/bind/code/browser/webworker/writable-stream-default-writer
-bear @cluesurf/bind/code/browser/webworker/xml-http-request-event-map
-bear @cluesurf/bind/code/browser/webworker/xml-http-request
-bear @cluesurf/bind/code/browser/webworker/xml-http-request-event-target-event-map
-bear @cluesurf/bind/code/browser/webworker/xml-http-request-event-target
-bear @cluesurf/bind/code/browser/webworker/xml-http-request-upload
-bear @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
-bear @cluesurf/bind/code/browser/webworker/console
-bear @cluesurf/bind/code/browser/webworker/web-assembly
-bear @cluesurf/bind/code/browser/webworker/frame-request-callback
-bear @cluesurf/bind/code/browser/webworker/on-error-event-handler-non-null
-bear @cluesurf/bind/code/browser/webworker/performance-observer-callback
-bear @cluesurf/bind/code/browser/webworker/queuing-strategy-size
-bear @cluesurf/bind/code/browser/webworker/transformer-flush-callback
-bear @cluesurf/bind/code/browser/webworker/transformer-start-callback
-bear @cluesurf/bind/code/browser/webworker/transformer-transform-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-sink-abort-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-sink-close-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-sink-start-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-sink-write-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-source-cancel-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-source-pull-callback
-bear @cluesurf/bind/code/browser/webworker/underlying-source-start-callback
-bear @cluesurf/bind/code/browser/webworker/void-function
-bear @cluesurf/bind/code/browser/webworker/headers-init
-bear @cluesurf/bind/code/browser/webworker/body-init
-bear @cluesurf/bind/code/browser/webworker/request-info
-bear @cluesurf/bind/code/browser/webworker/blob-part
-bear @cluesurf/bind/code/browser/webworker/dom-high-res-time-stamp
-bear @cluesurf/bind/code/browser/webworker/canvas-image-source
-bear @cluesurf/bind/code/browser/webworker/offscreen-rendering-context
-bear @cluesurf/bind/code/browser/webworker/message-event-source
-bear @cluesurf/bind/code/browser/webworker/image-bitmap-source
-bear @cluesurf/bind/code/browser/webworker/on-error-event-handler
-bear @cluesurf/bind/code/browser/webworker/timer-handler
-bear @cluesurf/bind/code/browser/webworker/performance-entry-list
-bear @cluesurf/bind/code/browser/webworker/push-message-data-init
-bear @cluesurf/bind/code/browser/webworker/readable-stream-reader
-bear @cluesurf/bind/code/browser/webworker/readable-stream-controller
-bear @cluesurf/bind/code/browser/webworker/vibrate-pattern
-bear @cluesurf/bind/code/browser/webworker/algorithm-identifier
-bear @cluesurf/bind/code/browser/webworker/hash-algorithm-identifier
-bear @cluesurf/bind/code/browser/webworker/big-integer
-bear @cluesurf/bind/code/browser/webworker/named-curve
-bear @cluesurf/bind/code/browser/webworker/g-lenum
-bear @cluesurf/bind/code/browser/webworker/g-lboolean
-bear @cluesurf/bind/code/browser/webworker/g-lbitfield
-bear @cluesurf/bind/code/browser/webworker/g-lint
-bear @cluesurf/bind/code/browser/webworker/g-lsizei
-bear @cluesurf/bind/code/browser/webworker/g-lintptr
-bear @cluesurf/bind/code/browser/webworker/g-lsizeiptr
-bear @cluesurf/bind/code/browser/webworker/g-luint
-bear @cluesurf/bind/code/browser/webworker/g-lfloat
-bear @cluesurf/bind/code/browser/webworker/g-lclampf
-bear @cluesurf/bind/code/browser/webworker/tex-image-source
-bear @cluesurf/bind/code/browser/webworker/float32-list
-bear @cluesurf/bind/code/browser/webworker/int32-list
-bear @cluesurf/bind/code/browser/webworker/g-lint64
-bear @cluesurf/bind/code/browser/webworker/g-luint64
-bear @cluesurf/bind/code/browser/webworker/uint32-list
-bear @cluesurf/bind/code/browser/webworker/buffer-source
-bear @cluesurf/bind/code/browser/webworker/dom-time-stamp
-bear @cluesurf/bind/code/browser/webworker/form-data-entry-value
-bear @cluesurf/bind/code/browser/webworker/idb-valid-key
-bear @cluesurf/bind/code/browser/webworker/transferable
-bear @cluesurf/bind/code/browser/webworker/readable-stream-default-read-result
-bear @cluesurf/bind/code/browser/webworker/binary-type
-bear @cluesurf/bind/code/browser/webworker/canvas-direction
-bear @cluesurf/bind/code/browser/webworker/canvas-fill-rule
-bear @cluesurf/bind/code/browser/webworker/canvas-line-cap
-bear @cluesurf/bind/code/browser/webworker/canvas-line-join
-bear @cluesurf/bind/code/browser/webworker/canvas-text-align
-bear @cluesurf/bind/code/browser/webworker/canvas-text-baseline
-bear @cluesurf/bind/code/browser/webworker/client-types
-bear @cluesurf/bind/code/browser/webworker/color-space-conversion
-bear @cluesurf/bind/code/browser/webworker/ending-type
-bear @cluesurf/bind/code/browser/webworker/frame-type
-bear @cluesurf/bind/code/browser/webworker/idb-cursor-direction
-bear @cluesurf/bind/code/browser/webworker/idb-request-ready-state
-bear @cluesurf/bind/code/browser/webworker/idb-transaction-mode
-bear @cluesurf/bind/code/browser/webworker/image-orientation
-bear @cluesurf/bind/code/browser/webworker/image-smoothing-quality
-bear @cluesurf/bind/code/browser/webworker/key-format
-bear @cluesurf/bind/code/browser/webworker/key-type
-bear @cluesurf/bind/code/browser/webworker/key-usage
-bear @cluesurf/bind/code/browser/webworker/notification-direction
-bear @cluesurf/bind/code/browser/webworker/notification-permission
-bear @cluesurf/bind/code/browser/webworker/offscreen-rendering-context-id
-bear @cluesurf/bind/code/browser/webworker/permission-name
-bear @cluesurf/bind/code/browser/webworker/permission-state
-bear @cluesurf/bind/code/browser/webworker/premultiply-alpha
-bear @cluesurf/bind/code/browser/webworker/push-encryption-key-name
-bear @cluesurf/bind/code/browser/webworker/push-permission-state
-bear @cluesurf/bind/code/browser/webworker/referrer-policy
-bear @cluesurf/bind/code/browser/webworker/request-cache
-bear @cluesurf/bind/code/browser/webworker/request-credentials
-bear @cluesurf/bind/code/browser/webworker/request-destination
-bear @cluesurf/bind/code/browser/webworker/request-mode
-bear @cluesurf/bind/code/browser/webworker/request-redirect
-bear @cluesurf/bind/code/browser/webworker/resize-quality
-bear @cluesurf/bind/code/browser/webworker/response-type
-bear @cluesurf/bind/code/browser/webworker/service-worker-state
-bear @cluesurf/bind/code/browser/webworker/service-worker-update-via-cache
-bear @cluesurf/bind/code/browser/webworker/visibility-state
-bear @cluesurf/bind/code/browser/webworker/web-gl-power-preference
-bear @cluesurf/bind/code/browser/webworker/worker-type
-bear @cluesurf/bind/code/browser/webworker/xml-http-request-response-type
-bear @cluesurf/bind/code/browser/webworker/importscripts
-bear @cluesurf/bind/code/browser/webworker/iterable
+bear @term/bind/code/browser/webworker/add-event-listener-options
+bear @term/bind/code/browser/webworker/aes-cbc-params
+bear @term/bind/code/browser/webworker/aes-ctr-params
+bear @term/bind/code/browser/webworker/aes-derived-key-params
+bear @term/bind/code/browser/webworker/aes-gcm-params
+bear @term/bind/code/browser/webworker/aes-key-algorithm
+bear @term/bind/code/browser/webworker/aes-key-gen-params
+bear @term/bind/code/browser/webworker/algorithm
+bear @term/bind/code/browser/webworker/blob-property-bag
+bear @term/bind/code/browser/webworker/cache-query-options
+bear @term/bind/code/browser/webworker/canvas-rendering-context2-d-settings
+bear @term/bind/code/browser/webworker/client-query-options
+bear @term/bind/code/browser/webworker/close-event-init
+bear @term/bind/code/browser/webworker/crypto-key-pair
+bear @term/bind/code/browser/webworker/custom-event-init
+bear @term/bind/code/browser/webworker/dom-matrix2-d-init
+bear @term/bind/code/browser/webworker/dom-matrix-init
+bear @term/bind/code/browser/webworker/dom-point-init
+bear @term/bind/code/browser/webworker/dom-quad-init
+bear @term/bind/code/browser/webworker/dom-rect-init
+bear @term/bind/code/browser/webworker/device-permission-descriptor
+bear @term/bind/code/browser/webworker/ec-key-gen-params
+bear @term/bind/code/browser/webworker/ec-key-import-params
+bear @term/bind/code/browser/webworker/ecdh-key-derive-params
+bear @term/bind/code/browser/webworker/ecdsa-params
+bear @term/bind/code/browser/webworker/error-event-init
+bear @term/bind/code/browser/webworker/event-init
+bear @term/bind/code/browser/webworker/event-listener-options
+bear @term/bind/code/browser/webworker/event-source-init
+bear @term/bind/code/browser/webworker/extendable-event-init
+bear @term/bind/code/browser/webworker/extendable-message-event-init
+bear @term/bind/code/browser/webworker/fetch-event-init
+bear @term/bind/code/browser/webworker/file-property-bag
+bear @term/bind/code/browser/webworker/get-notification-options
+bear @term/bind/code/browser/webworker/hkdf-params
+bear @term/bind/code/browser/webworker/hmac-import-params
+bear @term/bind/code/browser/webworker/hmac-key-gen-params
+bear @term/bind/code/browser/webworker/idb-index-parameters
+bear @term/bind/code/browser/webworker/idb-object-store-parameters
+bear @term/bind/code/browser/webworker/idb-version-change-event-init
+bear @term/bind/code/browser/webworker/image-bitmap-options
+bear @term/bind/code/browser/webworker/image-bitmap-rendering-context-settings
+bear @term/bind/code/browser/webworker/image-encode-options
+bear @term/bind/code/browser/webworker/import-meta
+bear @term/bind/code/browser/webworker/json-web-key
+bear @term/bind/code/browser/webworker/key-algorithm
+bear @term/bind/code/browser/webworker/message-event-init
+bear @term/bind/code/browser/webworker/midi-permission-descriptor
+bear @term/bind/code/browser/webworker/multi-cache-query-options
+bear @term/bind/code/browser/webworker/navigation-preload-state
+bear @term/bind/code/browser/webworker/notification-action
+bear @term/bind/code/browser/webworker/notification-event-init
+bear @term/bind/code/browser/webworker/notification-options
+bear @term/bind/code/browser/webworker/pbkdf2-params
+bear @term/bind/code/browser/webworker/performance-observer-init
+bear @term/bind/code/browser/webworker/permission-descriptor
+bear @term/bind/code/browser/webworker/post-message-options
+bear @term/bind/code/browser/webworker/progress-event-init
+bear @term/bind/code/browser/webworker/promise-rejection-event-init
+bear @term/bind/code/browser/webworker/push-event-init
+bear @term/bind/code/browser/webworker/push-permission-descriptor
+bear @term/bind/code/browser/webworker/push-subscription-json
+bear @term/bind/code/browser/webworker/push-subscription-options-init
+bear @term/bind/code/browser/webworker/queuing-strategy
+bear @term/bind/code/browser/webworker/queuing-strategy-init
+bear @term/bind/code/browser/webworker/readable-stream-default-read-done-result
+bear @term/bind/code/browser/webworker/readable-stream-default-read-value-result
+bear @term/bind/code/browser/webworker/readable-writable-pair
+bear @term/bind/code/browser/webworker/registration-options
+bear @term/bind/code/browser/webworker/request-init
+bear @term/bind/code/browser/webworker/response-init
+bear @term/bind/code/browser/webworker/rsa-hashed-import-params
+bear @term/bind/code/browser/webworker/rsa-hashed-key-gen-params
+bear @term/bind/code/browser/webworker/rsa-key-gen-params
+bear @term/bind/code/browser/webworker/rsa-oaep-params
+bear @term/bind/code/browser/webworker/rsa-other-primes-info
+bear @term/bind/code/browser/webworker/rsa-pss-params
+bear @term/bind/code/browser/webworker/storage-estimate
+bear @term/bind/code/browser/webworker/stream-pipe-options
+bear @term/bind/code/browser/webworker/sync-event-init
+bear @term/bind/code/browser/webworker/text-decode-options
+bear @term/bind/code/browser/webworker/text-decoder-options
+bear @term/bind/code/browser/webworker/text-encoder-encode-into-result
+bear @term/bind/code/browser/webworker/transformer
+bear @term/bind/code/browser/webworker/underlying-sink
+bear @term/bind/code/browser/webworker/underlying-source
+bear @term/bind/code/browser/webworker/web-gl-context-attributes
+bear @term/bind/code/browser/webworker/web-gl-context-event-init
+bear @term/bind/code/browser/webworker/worker-options
+bear @term/bind/code/browser/webworker/event-listener
+bear @term/bind/code/browser/webworker/angle-instanced-arrays
+bear @term/bind/code/browser/webworker/abort-controller
+bear @term/bind/code/browser/webworker/abort-signal-event-map
+bear @term/bind/code/browser/webworker/abort-signal
+bear @term/bind/code/browser/webworker/abstract-worker-event-map
+bear @term/bind/code/browser/webworker/abstract-worker
+bear @term/bind/code/browser/webworker/aes-cfb-params
+bear @term/bind/code/browser/webworker/aes-cmac-params
+bear @term/bind/code/browser/webworker/animation-frame-provider
+bear @term/bind/code/browser/webworker/blob
+bear @term/bind/code/browser/webworker/body
+bear @term/bind/code/browser/webworker/broadcast-channel-event-map
+bear @term/bind/code/browser/webworker/broadcast-channel
+bear @term/bind/code/browser/webworker/byte-length-queuing-strategy
+bear @term/bind/code/browser/webworker/cache
+bear @term/bind/code/browser/webworker/cache-storage
+bear @term/bind/code/browser/webworker/canvas-compositing
+bear @term/bind/code/browser/webworker/canvas-draw-image
+bear @term/bind/code/browser/webworker/canvas-draw-path
+bear @term/bind/code/browser/webworker/canvas-fill-stroke-styles
+bear @term/bind/code/browser/webworker/canvas-filters
+bear @term/bind/code/browser/webworker/canvas-gradient
+bear @term/bind/code/browser/webworker/canvas-image-data
+bear @term/bind/code/browser/webworker/canvas-image-smoothing
+bear @term/bind/code/browser/webworker/canvas-path
+bear @term/bind/code/browser/webworker/canvas-path-drawing-styles
+bear @term/bind/code/browser/webworker/canvas-pattern
+bear @term/bind/code/browser/webworker/canvas-rect
+bear @term/bind/code/browser/webworker/canvas-shadow-styles
+bear @term/bind/code/browser/webworker/canvas-state
+bear @term/bind/code/browser/webworker/canvas-text
+bear @term/bind/code/browser/webworker/canvas-text-drawing-styles
+bear @term/bind/code/browser/webworker/canvas-transform
+bear @term/bind/code/browser/webworker/client
+bear @term/bind/code/browser/webworker/clients
+bear @term/bind/code/browser/webworker/close-event
+bear @term/bind/code/browser/webworker/concat-params
+bear @term/bind/code/browser/webworker/count-queuing-strategy
+bear @term/bind/code/browser/webworker/crypto
+bear @term/bind/code/browser/webworker/crypto-key
+bear @term/bind/code/browser/webworker/custom-event
+bear @term/bind/code/browser/webworker/dom-exception
+bear @term/bind/code/browser/webworker/dom-matrix
+bear @term/bind/code/browser/webworker/dom-matrix-read-only
+bear @term/bind/code/browser/webworker/dom-point
+bear @term/bind/code/browser/webworker/dom-point-read-only
+bear @term/bind/code/browser/webworker/dom-quad
+bear @term/bind/code/browser/webworker/dom-rect
+bear @term/bind/code/browser/webworker/dom-rect-read-only
+bear @term/bind/code/browser/webworker/dom-string-list
+bear @term/bind/code/browser/webworker/dedicated-worker-global-scope-event-map
+bear @term/bind/code/browser/webworker/dedicated-worker-global-scope
+bear @term/bind/code/browser/webworker/dh-import-key-params
+bear @term/bind/code/browser/webworker/dh-key-algorithm
+bear @term/bind/code/browser/webworker/dh-key-derive-params
+bear @term/bind/code/browser/webworker/dh-key-gen-params
+bear @term/bind/code/browser/webworker/ext-blend-minmax
+bear @term/bind/code/browser/webworker/ext-frag-depth
+bear @term/bind/code/browser/webworker/ext-s-rgb
+bear @term/bind/code/browser/webworker/ext-shader-texture-lod
+bear @term/bind/code/browser/webworker/ext-texture-filter-anisotropic
+bear @term/bind/code/browser/webworker/error-event
+bear @term/bind/code/browser/webworker/event
+bear @term/bind/code/browser/webworker/event-listener-object
+bear @term/bind/code/browser/webworker/event-source-event-map
+bear @term/bind/code/browser/webworker/event-source
+bear @term/bind/code/browser/webworker/event-target
+bear @term/bind/code/browser/webworker/extendable-event
+bear @term/bind/code/browser/webworker/extendable-message-event
+bear @term/bind/code/browser/webworker/fetch-event
+bear @term/bind/code/browser/webworker/file
+bear @term/bind/code/browser/webworker/file-list
+bear @term/bind/code/browser/webworker/file-reader-event-map
+bear @term/bind/code/browser/webworker/file-reader
+bear @term/bind/code/browser/webworker/file-reader-sync
+bear @term/bind/code/browser/webworker/form-data
+bear @term/bind/code/browser/webworker/generic-transform-stream
+bear @term/bind/code/browser/webworker/headers
+bear @term/bind/code/browser/webworker/idb-array-key
+bear @term/bind/code/browser/webworker/idb-cursor
+bear @term/bind/code/browser/webworker/idb-cursor-with-value
+bear @term/bind/code/browser/webworker/idb-database-event-map
+bear @term/bind/code/browser/webworker/idb-database
+bear @term/bind/code/browser/webworker/idb-factory
+bear @term/bind/code/browser/webworker/idb-index
+bear @term/bind/code/browser/webworker/idb-key-range
+bear @term/bind/code/browser/webworker/idb-object-store
+bear @term/bind/code/browser/webworker/idb-open-db-request-event-map
+bear @term/bind/code/browser/webworker/idb-open-db-request
+bear @term/bind/code/browser/webworker/idb-request-event-map
+bear @term/bind/code/browser/webworker/idb-request
+bear @term/bind/code/browser/webworker/idb-transaction-event-map
+bear @term/bind/code/browser/webworker/idb-transaction
+bear @term/bind/code/browser/webworker/idb-version-change-event
+bear @term/bind/code/browser/webworker/image-bitmap
+bear @term/bind/code/browser/webworker/image-bitmap-rendering-context
+bear @term/bind/code/browser/webworker/image-data
+bear @term/bind/code/browser/webworker/message-channel
+bear @term/bind/code/browser/webworker/message-event
+bear @term/bind/code/browser/webworker/message-port-event-map
+bear @term/bind/code/browser/webworker/message-port
+bear @term/bind/code/browser/webworker/navigation-preload-manager
+bear @term/bind/code/browser/webworker/navigator-concurrent-hardware
+bear @term/bind/code/browser/webworker/navigator-id
+bear @term/bind/code/browser/webworker/navigator-language
+bear @term/bind/code/browser/webworker/navigator-on-line
+bear @term/bind/code/browser/webworker/navigator-storage
+bear @term/bind/code/browser/webworker/notification-event-map
+bear @term/bind/code/browser/webworker/notification
+bear @term/bind/code/browser/webworker/notification-event
+bear @term/bind/code/browser/webworker/oes-element-index-uint
+bear @term/bind/code/browser/webworker/oes-standard-derivatives
+bear @term/bind/code/browser/webworker/oes-texture-float
+bear @term/bind/code/browser/webworker/oes-texture-float-linear
+bear @term/bind/code/browser/webworker/oes-texture-half-float
+bear @term/bind/code/browser/webworker/oes-texture-half-float-linear
+bear @term/bind/code/browser/webworker/oes-vertex-array-object
+bear @term/bind/code/browser/webworker/offscreen-canvas
+bear @term/bind/code/browser/webworker/offscreen-canvas-rendering-context2-d
+bear @term/bind/code/browser/webworker/path2-d
+bear @term/bind/code/browser/webworker/performance-event-map
+bear @term/bind/code/browser/webworker/performance
+bear @term/bind/code/browser/webworker/performance-entry
+bear @term/bind/code/browser/webworker/performance-mark
+bear @term/bind/code/browser/webworker/performance-measure
+bear @term/bind/code/browser/webworker/performance-observer
+bear @term/bind/code/browser/webworker/performance-observer-entry-list
+bear @term/bind/code/browser/webworker/performance-resource-timing
+bear @term/bind/code/browser/webworker/permission-status-event-map
+bear @term/bind/code/browser/webworker/permission-status
+bear @term/bind/code/browser/webworker/permissions
+bear @term/bind/code/browser/webworker/progress-event
+bear @term/bind/code/browser/webworker/promise-rejection-event
+bear @term/bind/code/browser/webworker/push-event
+bear @term/bind/code/browser/webworker/push-manager
+bear @term/bind/code/browser/webworker/push-message-data
+bear @term/bind/code/browser/webworker/push-subscription
+bear @term/bind/code/browser/webworker/push-subscription-options
+bear @term/bind/code/browser/webworker/readable-stream
+bear @term/bind/code/browser/webworker/readable-stream-default-controller
+bear @term/bind/code/browser/webworker/readable-stream-default-reader
+bear @term/bind/code/browser/webworker/readable-stream-generic-reader
+bear @term/bind/code/browser/webworker/request
+bear @term/bind/code/browser/webworker/response
+bear @term/bind/code/browser/webworker/service-worker-event-map
+bear @term/bind/code/browser/webworker/service-worker
+bear @term/bind/code/browser/webworker/service-worker-container-event-map
+bear @term/bind/code/browser/webworker/service-worker-container
+bear @term/bind/code/browser/webworker/service-worker-global-scope-event-map
+bear @term/bind/code/browser/webworker/service-worker-global-scope
+bear @term/bind/code/browser/webworker/service-worker-registration-event-map
+bear @term/bind/code/browser/webworker/service-worker-registration
+bear @term/bind/code/browser/webworker/shared-worker
+bear @term/bind/code/browser/webworker/shared-worker-global-scope-event-map
+bear @term/bind/code/browser/webworker/shared-worker-global-scope
+bear @term/bind/code/browser/webworker/storage-manager
+bear @term/bind/code/browser/webworker/subtle-crypto
+bear @term/bind/code/browser/webworker/sync-event
+bear @term/bind/code/browser/webworker/sync-manager
+bear @term/bind/code/browser/webworker/text-decoder
+bear @term/bind/code/browser/webworker/text-decoder-common
+bear @term/bind/code/browser/webworker/text-decoder-stream
+bear @term/bind/code/browser/webworker/text-encoder
+bear @term/bind/code/browser/webworker/text-encoder-common
+bear @term/bind/code/browser/webworker/text-encoder-stream
+bear @term/bind/code/browser/webworker/text-metrics
+bear @term/bind/code/browser/webworker/transform-stream
+bear @term/bind/code/browser/webworker/transform-stream-default-controller
+bear @term/bind/code/browser/webworker/url
+bear @term/bind/code/browser/webworker/url-search-params
+bear @term/bind/code/browser/webworker/webgl-color-buffer-float
+bear @term/bind/code/browser/webworker/webgl-compressed-texture-astc
+bear @term/bind/code/browser/webworker/webgl-compressed-texture-s3tc
+bear @term/bind/code/browser/webworker/webgl-compressed-texture-s3tc-srgb
+bear @term/bind/code/browser/webworker/webgl-debug-renderer-info
+bear @term/bind/code/browser/webworker/webgl-debug-shaders
+bear @term/bind/code/browser/webworker/webgl-depth-texture
+bear @term/bind/code/browser/webworker/webgl-draw-buffers
+bear @term/bind/code/browser/webworker/webgl-lose-context
+bear @term/bind/code/browser/webworker/web-gl2-rendering-context
+bear @term/bind/code/browser/webworker/web-gl2-rendering-context-base
+bear @term/bind/code/browser/webworker/web-gl2-rendering-context-overloads
+bear @term/bind/code/browser/webworker/web-gl-active-info
+bear @term/bind/code/browser/webworker/web-gl-buffer
+bear @term/bind/code/browser/webworker/web-gl-context-event
+bear @term/bind/code/browser/webworker/web-gl-framebuffer
+bear @term/bind/code/browser/webworker/web-gl-program
+bear @term/bind/code/browser/webworker/web-gl-query
+bear @term/bind/code/browser/webworker/web-gl-renderbuffer
+bear @term/bind/code/browser/webworker/web-gl-rendering-context
+bear @term/bind/code/browser/webworker/web-gl-rendering-context-base
+bear @term/bind/code/browser/webworker/web-gl-rendering-context-overloads
+bear @term/bind/code/browser/webworker/web-gl-sampler
+bear @term/bind/code/browser/webworker/web-gl-shader
+bear @term/bind/code/browser/webworker/web-gl-shader-precision-format
+bear @term/bind/code/browser/webworker/web-gl-sync
+bear @term/bind/code/browser/webworker/web-gl-texture
+bear @term/bind/code/browser/webworker/web-gl-transform-feedback
+bear @term/bind/code/browser/webworker/web-gl-uniform-location
+bear @term/bind/code/browser/webworker/web-gl-vertex-array-object
+bear @term/bind/code/browser/webworker/web-gl-vertex-array-object-oes
+bear @term/bind/code/browser/webworker/web-socket-event-map
+bear @term/bind/code/browser/webworker/web-socket
+bear @term/bind/code/browser/webworker/window-client
+bear @term/bind/code/browser/webworker/window-or-worker-global-scope
+bear @term/bind/code/browser/webworker/worker-event-map
+bear @term/bind/code/browser/webworker/worker
+bear @term/bind/code/browser/webworker/worker-global-scope-event-map
+bear @term/bind/code/browser/webworker/worker-global-scope
+bear @term/bind/code/browser/webworker/worker-location
+bear @term/bind/code/browser/webworker/worker-navigator
+bear @term/bind/code/browser/webworker/writable-stream
+bear @term/bind/code/browser/webworker/writable-stream-default-controller
+bear @term/bind/code/browser/webworker/writable-stream-default-writer
+bear @term/bind/code/browser/webworker/xml-http-request-event-map
+bear @term/bind/code/browser/webworker/xml-http-request
+bear @term/bind/code/browser/webworker/xml-http-request-event-target-event-map
+bear @term/bind/code/browser/webworker/xml-http-request-event-target
+bear @term/bind/code/browser/webworker/xml-http-request-upload
+bear @term/bind/code/browser/webworker/event-listener-or-event-listener-object
+bear @term/bind/code/browser/webworker/console
+bear @term/bind/code/browser/webworker/web-assembly
+bear @term/bind/code/browser/webworker/frame-request-callback
+bear @term/bind/code/browser/webworker/on-error-event-handler-non-null
+bear @term/bind/code/browser/webworker/performance-observer-callback
+bear @term/bind/code/browser/webworker/queuing-strategy-size
+bear @term/bind/code/browser/webworker/transformer-flush-callback
+bear @term/bind/code/browser/webworker/transformer-start-callback
+bear @term/bind/code/browser/webworker/transformer-transform-callback
+bear @term/bind/code/browser/webworker/underlying-sink-abort-callback
+bear @term/bind/code/browser/webworker/underlying-sink-close-callback
+bear @term/bind/code/browser/webworker/underlying-sink-start-callback
+bear @term/bind/code/browser/webworker/underlying-sink-write-callback
+bear @term/bind/code/browser/webworker/underlying-source-cancel-callback
+bear @term/bind/code/browser/webworker/underlying-source-pull-callback
+bear @term/bind/code/browser/webworker/underlying-source-start-callback
+bear @term/bind/code/browser/webworker/void-function
+bear @term/bind/code/browser/webworker/headers-init
+bear @term/bind/code/browser/webworker/body-init
+bear @term/bind/code/browser/webworker/request-info
+bear @term/bind/code/browser/webworker/blob-part
+bear @term/bind/code/browser/webworker/dom-high-res-time-stamp
+bear @term/bind/code/browser/webworker/canvas-image-source
+bear @term/bind/code/browser/webworker/offscreen-rendering-context
+bear @term/bind/code/browser/webworker/message-event-source
+bear @term/bind/code/browser/webworker/image-bitmap-source
+bear @term/bind/code/browser/webworker/on-error-event-handler
+bear @term/bind/code/browser/webworker/timer-handler
+bear @term/bind/code/browser/webworker/performance-entry-list
+bear @term/bind/code/browser/webworker/push-message-data-init
+bear @term/bind/code/browser/webworker/readable-stream-reader
+bear @term/bind/code/browser/webworker/readable-stream-controller
+bear @term/bind/code/browser/webworker/vibrate-pattern
+bear @term/bind/code/browser/webworker/algorithm-identifier
+bear @term/bind/code/browser/webworker/hash-algorithm-identifier
+bear @term/bind/code/browser/webworker/big-integer
+bear @term/bind/code/browser/webworker/named-curve
+bear @term/bind/code/browser/webworker/g-lenum
+bear @term/bind/code/browser/webworker/g-lboolean
+bear @term/bind/code/browser/webworker/g-lbitfield
+bear @term/bind/code/browser/webworker/g-lint
+bear @term/bind/code/browser/webworker/g-lsizei
+bear @term/bind/code/browser/webworker/g-lintptr
+bear @term/bind/code/browser/webworker/g-lsizeiptr
+bear @term/bind/code/browser/webworker/g-luint
+bear @term/bind/code/browser/webworker/g-lfloat
+bear @term/bind/code/browser/webworker/g-lclampf
+bear @term/bind/code/browser/webworker/tex-image-source
+bear @term/bind/code/browser/webworker/float32-list
+bear @term/bind/code/browser/webworker/int32-list
+bear @term/bind/code/browser/webworker/g-lint64
+bear @term/bind/code/browser/webworker/g-luint64
+bear @term/bind/code/browser/webworker/uint32-list
+bear @term/bind/code/browser/webworker/buffer-source
+bear @term/bind/code/browser/webworker/dom-time-stamp
+bear @term/bind/code/browser/webworker/form-data-entry-value
+bear @term/bind/code/browser/webworker/idb-valid-key
+bear @term/bind/code/browser/webworker/transferable
+bear @term/bind/code/browser/webworker/readable-stream-default-read-result
+bear @term/bind/code/browser/webworker/binary-type
+bear @term/bind/code/browser/webworker/canvas-direction
+bear @term/bind/code/browser/webworker/canvas-fill-rule
+bear @term/bind/code/browser/webworker/canvas-line-cap
+bear @term/bind/code/browser/webworker/canvas-line-join
+bear @term/bind/code/browser/webworker/canvas-text-align
+bear @term/bind/code/browser/webworker/canvas-text-baseline
+bear @term/bind/code/browser/webworker/client-types
+bear @term/bind/code/browser/webworker/color-space-conversion
+bear @term/bind/code/browser/webworker/ending-type
+bear @term/bind/code/browser/webworker/frame-type
+bear @term/bind/code/browser/webworker/idb-cursor-direction
+bear @term/bind/code/browser/webworker/idb-request-ready-state
+bear @term/bind/code/browser/webworker/idb-transaction-mode
+bear @term/bind/code/browser/webworker/image-orientation
+bear @term/bind/code/browser/webworker/image-smoothing-quality
+bear @term/bind/code/browser/webworker/key-format
+bear @term/bind/code/browser/webworker/key-type
+bear @term/bind/code/browser/webworker/key-usage
+bear @term/bind/code/browser/webworker/notification-direction
+bear @term/bind/code/browser/webworker/notification-permission
+bear @term/bind/code/browser/webworker/offscreen-rendering-context-id
+bear @term/bind/code/browser/webworker/permission-name
+bear @term/bind/code/browser/webworker/permission-state
+bear @term/bind/code/browser/webworker/premultiply-alpha
+bear @term/bind/code/browser/webworker/push-encryption-key-name
+bear @term/bind/code/browser/webworker/push-permission-state
+bear @term/bind/code/browser/webworker/referrer-policy
+bear @term/bind/code/browser/webworker/request-cache
+bear @term/bind/code/browser/webworker/request-credentials
+bear @term/bind/code/browser/webworker/request-destination
+bear @term/bind/code/browser/webworker/request-mode
+bear @term/bind/code/browser/webworker/request-redirect
+bear @term/bind/code/browser/webworker/resize-quality
+bear @term/bind/code/browser/webworker/response-type
+bear @term/bind/code/browser/webworker/service-worker-state
+bear @term/bind/code/browser/webworker/service-worker-update-via-cache
+bear @term/bind/code/browser/webworker/visibility-state
+bear @term/bind/code/browser/webworker/web-gl-power-preference
+bear @term/bind/code/browser/webworker/worker-type
+bear @term/bind/code/browser/webworker/xml-http-request-response-type
+bear @term/bind/code/browser/webworker/importscripts
+bear @term/bind/code/browser/webworker/iterable
 
-load @cluesurf/bind/code/browser/webworker/abort-controller
+load @term/bind/code/browser/webworker/abort-controller
   find abort-controller
 
-load @cluesurf/bind/code/browser/webworker/abort-signal
+load @term/bind/code/browser/webworker/abort-signal
   find abort-signal
 
-load @cluesurf/bind/code/browser/webworker/add-event-listener-options
+load @term/bind/code/browser/webworker/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/webworker/blob
+load @term/bind/code/browser/webworker/blob
   find blob
 
-load @cluesurf/bind/code/browser/webworker/blob-part
+load @term/bind/code/browser/webworker/blob-part
   find blob-part
 
-load @cluesurf/bind/code/browser/webworker/blob-property-bag
+load @term/bind/code/browser/webworker/blob-property-bag
   find blob-property-bag
 
-load @cluesurf/bind/code/browser/webworker/body-init
+load @term/bind/code/browser/webworker/body-init
   find body-init
 
-load @cluesurf/bind/code/browser/webworker/broadcast-channel
+load @term/bind/code/browser/webworker/broadcast-channel
   find broadcast-channel
 
-load @cluesurf/bind/code/browser/webworker/byte-length-queuing-strategy
+load @term/bind/code/browser/webworker/byte-length-queuing-strategy
   find byte-length-queuing-strategy
 
-load @cluesurf/bind/code/browser/webworker/cache
+load @term/bind/code/browser/webworker/cache
   find cache
 
-load @cluesurf/bind/code/browser/webworker/cache-storage
+load @term/bind/code/browser/webworker/cache-storage
   find cache-storage
 
-load @cluesurf/bind/code/browser/webworker/canvas-gradient
+load @term/bind/code/browser/webworker/canvas-gradient
   find canvas-gradient
 
-load @cluesurf/bind/code/browser/webworker/canvas-pattern
+load @term/bind/code/browser/webworker/canvas-pattern
   find canvas-pattern
 
-load @cluesurf/bind/code/browser/webworker/client
+load @term/bind/code/browser/webworker/client
   find client
 
-load @cluesurf/bind/code/browser/webworker/clients
+load @term/bind/code/browser/webworker/clients
   find clients
 
-load @cluesurf/bind/code/browser/webworker/close-event
+load @term/bind/code/browser/webworker/close-event
   find close-event
 
-load @cluesurf/bind/code/browser/webworker/close-event-init
+load @term/bind/code/browser/webworker/close-event-init
   find close-event-init
 
-load @cluesurf/bind/code/browser/webworker/console
+load @term/bind/code/browser/webworker/console
   find console
 
-load @cluesurf/bind/code/browser/webworker/count-queuing-strategy
+load @term/bind/code/browser/webworker/count-queuing-strategy
   find count-queuing-strategy
 
-load @cluesurf/bind/code/browser/webworker/crypto
+load @term/bind/code/browser/webworker/crypto
   find crypto
 
-load @cluesurf/bind/code/browser/webworker/crypto-key
+load @term/bind/code/browser/webworker/crypto-key
   find crypto-key
 
-load @cluesurf/bind/code/browser/webworker/custom-event
+load @term/bind/code/browser/webworker/custom-event
   find custom-event
 
-load @cluesurf/bind/code/browser/webworker/custom-event-init
+load @term/bind/code/browser/webworker/custom-event-init
   find custom-event-init
 
-load @cluesurf/bind/code/browser/webworker/dedicated-worker-global-scope
+load @term/bind/code/browser/webworker/dedicated-worker-global-scope
   find dedicated-worker-global-scope
 
-load @cluesurf/bind/code/browser/webworker/dedicated-worker-global-scope-event-map
+load @term/bind/code/browser/webworker/dedicated-worker-global-scope-event-map
   find dedicated-worker-global-scope-event-map
 
-load @cluesurf/bind/code/browser/webworker/dom-exception
+load @term/bind/code/browser/webworker/dom-exception
   find dom-exception
 
-load @cluesurf/bind/code/browser/webworker/dom-matrix
+load @term/bind/code/browser/webworker/dom-matrix
   find dom-matrix
 
-load @cluesurf/bind/code/browser/webworker/dom-matrix-init
+load @term/bind/code/browser/webworker/dom-matrix-init
   find dom-matrix-init
 
-load @cluesurf/bind/code/browser/webworker/dom-matrix-read-only
+load @term/bind/code/browser/webworker/dom-matrix-read-only
   find dom-matrix-read-only
 
-load @cluesurf/bind/code/browser/webworker/dom-point
+load @term/bind/code/browser/webworker/dom-point
   find dom-point
 
-load @cluesurf/bind/code/browser/webworker/dom-point-init
+load @term/bind/code/browser/webworker/dom-point-init
   find dom-point-init
 
-load @cluesurf/bind/code/browser/webworker/dom-point-read-only
+load @term/bind/code/browser/webworker/dom-point-read-only
   find dom-point-read-only
 
-load @cluesurf/bind/code/browser/webworker/dom-quad
+load @term/bind/code/browser/webworker/dom-quad
   find dom-quad
 
-load @cluesurf/bind/code/browser/webworker/dom-quad-init
+load @term/bind/code/browser/webworker/dom-quad-init
   find dom-quad-init
 
-load @cluesurf/bind/code/browser/webworker/dom-rect
+load @term/bind/code/browser/webworker/dom-rect
   find dom-rect
 
-load @cluesurf/bind/code/browser/webworker/dom-rect-init
+load @term/bind/code/browser/webworker/dom-rect-init
   find dom-rect-init
 
-load @cluesurf/bind/code/browser/webworker/dom-rect-read-only
+load @term/bind/code/browser/webworker/dom-rect-read-only
   find dom-rect-read-only
 
-load @cluesurf/bind/code/browser/webworker/dom-string-list
+load @term/bind/code/browser/webworker/dom-string-list
   find dom-string-list
 
-load @cluesurf/bind/code/browser/webworker/error-event
+load @term/bind/code/browser/webworker/error-event
   find error-event
 
-load @cluesurf/bind/code/browser/webworker/error-event-init
+load @term/bind/code/browser/webworker/error-event-init
   find error-event-init
 
-load @cluesurf/bind/code/browser/webworker/event
+load @term/bind/code/browser/webworker/event
   find event
 
-load @cluesurf/bind/code/browser/webworker/event-init
+load @term/bind/code/browser/webworker/event-init
   find event-init
 
-load @cluesurf/bind/code/browser/webworker/event-listener-options
+load @term/bind/code/browser/webworker/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/webworker/event-listener-or-event-listener-object
+load @term/bind/code/browser/webworker/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/webworker/event-source
+load @term/bind/code/browser/webworker/event-source
   find event-source
 
-load @cluesurf/bind/code/browser/webworker/event-source-init
+load @term/bind/code/browser/webworker/event-source-init
   find event-source-init
 
-load @cluesurf/bind/code/browser/webworker/event-target
+load @term/bind/code/browser/webworker/event-target
   find event-target
 
-load @cluesurf/bind/code/browser/webworker/extendable-event
+load @term/bind/code/browser/webworker/extendable-event
   find extendable-event
 
-load @cluesurf/bind/code/browser/webworker/extendable-event-init
+load @term/bind/code/browser/webworker/extendable-event-init
   find extendable-event-init
 
-load @cluesurf/bind/code/browser/webworker/extendable-message-event
+load @term/bind/code/browser/webworker/extendable-message-event
   find extendable-message-event
 
-load @cluesurf/bind/code/browser/webworker/extendable-message-event-init
+load @term/bind/code/browser/webworker/extendable-message-event-init
   find extendable-message-event-init
 
-load @cluesurf/bind/code/browser/webworker/fetch-event
+load @term/bind/code/browser/webworker/fetch-event
   find fetch-event
 
-load @cluesurf/bind/code/browser/webworker/fetch-event-init
+load @term/bind/code/browser/webworker/fetch-event-init
   find fetch-event-init
 
-load @cluesurf/bind/code/browser/webworker/file
+load @term/bind/code/browser/webworker/file
   find file
 
-load @cluesurf/bind/code/browser/webworker/file-list
+load @term/bind/code/browser/webworker/file-list
   find file-list
 
-load @cluesurf/bind/code/browser/webworker/file-property-bag
+load @term/bind/code/browser/webworker/file-property-bag
   find file-property-bag
 
-load @cluesurf/bind/code/browser/webworker/file-reader
+load @term/bind/code/browser/webworker/file-reader
   find file-reader
 
-load @cluesurf/bind/code/browser/webworker/file-reader-sync
+load @term/bind/code/browser/webworker/file-reader-sync
   find file-reader-sync
 
-load @cluesurf/bind/code/browser/webworker/form-data
+load @term/bind/code/browser/webworker/form-data
   find form-data
 
-load @cluesurf/bind/code/browser/webworker/frame-request-callback
+load @term/bind/code/browser/webworker/frame-request-callback
   find frame-request-callback
 
-load @cluesurf/bind/code/browser/webworker/g-lenum
+load @term/bind/code/browser/webworker/g-lenum
   find g-lenum
 
-load @cluesurf/bind/code/browser/webworker/g-lint64
+load @term/bind/code/browser/webworker/g-lint64
   find g-lint64
 
-load @cluesurf/bind/code/browser/webworker/headers
+load @term/bind/code/browser/webworker/headers
   find headers
 
-load @cluesurf/bind/code/browser/webworker/headers-init
+load @term/bind/code/browser/webworker/headers-init
   find headers-init
 
-load @cluesurf/bind/code/browser/webworker/idb-cursor
+load @term/bind/code/browser/webworker/idb-cursor
   find idb-cursor
 
-load @cluesurf/bind/code/browser/webworker/idb-cursor-with-value
+load @term/bind/code/browser/webworker/idb-cursor-with-value
   find idb-cursor-with-value
 
-load @cluesurf/bind/code/browser/webworker/idb-database
+load @term/bind/code/browser/webworker/idb-database
   find idb-database
 
-load @cluesurf/bind/code/browser/webworker/idb-factory
+load @term/bind/code/browser/webworker/idb-factory
   find idb-factory
 
-load @cluesurf/bind/code/browser/webworker/idb-index
+load @term/bind/code/browser/webworker/idb-index
   find idb-index
 
-load @cluesurf/bind/code/browser/webworker/idb-key-range
+load @term/bind/code/browser/webworker/idb-key-range
   find idb-key-range
 
-load @cluesurf/bind/code/browser/webworker/idb-object-store
+load @term/bind/code/browser/webworker/idb-object-store
   find idb-object-store
 
-load @cluesurf/bind/code/browser/webworker/idb-open-db-request
+load @term/bind/code/browser/webworker/idb-open-db-request
   find idb-open-db-request
 
-load @cluesurf/bind/code/browser/webworker/idb-request
+load @term/bind/code/browser/webworker/idb-request
   find idb-request
 
-load @cluesurf/bind/code/browser/webworker/idb-transaction
+load @term/bind/code/browser/webworker/idb-transaction
   find idb-transaction
 
-load @cluesurf/bind/code/browser/webworker/idb-version-change-event
+load @term/bind/code/browser/webworker/idb-version-change-event
   find idb-version-change-event
 
-load @cluesurf/bind/code/browser/webworker/idb-version-change-event-init
+load @term/bind/code/browser/webworker/idb-version-change-event-init
   find idb-version-change-event-init
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap
+load @term/bind/code/browser/webworker/image-bitmap
   find image-bitmap
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap-options
+load @term/bind/code/browser/webworker/image-bitmap-options
   find image-bitmap-options
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap-rendering-context
+load @term/bind/code/browser/webworker/image-bitmap-rendering-context
   find image-bitmap-rendering-context
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap-source
+load @term/bind/code/browser/webworker/image-bitmap-source
   find image-bitmap-source
 
-load @cluesurf/bind/code/browser/webworker/image-data
+load @term/bind/code/browser/webworker/image-data
   find image-data
 
-load @cluesurf/bind/code/browser/webworker/message-channel
+load @term/bind/code/browser/webworker/message-channel
   find message-channel
 
-load @cluesurf/bind/code/browser/webworker/message-event
+load @term/bind/code/browser/webworker/message-event
   find message-event
 
-load @cluesurf/bind/code/browser/webworker/message-event-init
+load @term/bind/code/browser/webworker/message-event-init
   find message-event-init
 
-load @cluesurf/bind/code/browser/webworker/message-port
+load @term/bind/code/browser/webworker/message-port
   find message-port
 
-load @cluesurf/bind/code/browser/webworker/navigation-preload-manager
+load @term/bind/code/browser/webworker/navigation-preload-manager
   find navigation-preload-manager
 
-load @cluesurf/bind/code/browser/webworker/notification
+load @term/bind/code/browser/webworker/notification
   find notification
 
-load @cluesurf/bind/code/browser/webworker/notification-event
+load @term/bind/code/browser/webworker/notification-event
   find notification-event
 
-load @cluesurf/bind/code/browser/webworker/notification-event-init
+load @term/bind/code/browser/webworker/notification-event-init
   find notification-event-init
 
-load @cluesurf/bind/code/browser/webworker/notification-options
+load @term/bind/code/browser/webworker/notification-options
   find notification-options
 
-load @cluesurf/bind/code/browser/webworker/notification-permission
+load @term/bind/code/browser/webworker/notification-permission
   find notification-permission
 
-load @cluesurf/bind/code/browser/webworker/offscreen-canvas
+load @term/bind/code/browser/webworker/offscreen-canvas
   find offscreen-canvas
 
-load @cluesurf/bind/code/browser/webworker/offscreen-canvas-rendering-context2-d
+load @term/bind/code/browser/webworker/offscreen-canvas-rendering-context2-d
   find offscreen-canvas-rendering-context2-d
 
-load @cluesurf/bind/code/browser/webworker/path2-d
+load @term/bind/code/browser/webworker/path2-d
   find path2-d
 
-load @cluesurf/bind/code/browser/webworker/performance
+load @term/bind/code/browser/webworker/performance
   find performance
 
-load @cluesurf/bind/code/browser/webworker/performance-entry
+load @term/bind/code/browser/webworker/performance-entry
   find performance-entry
 
-load @cluesurf/bind/code/browser/webworker/performance-mark
+load @term/bind/code/browser/webworker/performance-mark
   find performance-mark
 
-load @cluesurf/bind/code/browser/webworker/performance-measure
+load @term/bind/code/browser/webworker/performance-measure
   find performance-measure
 
-load @cluesurf/bind/code/browser/webworker/performance-observer
+load @term/bind/code/browser/webworker/performance-observer
   find performance-observer
 
-load @cluesurf/bind/code/browser/webworker/performance-observer-callback
+load @term/bind/code/browser/webworker/performance-observer-callback
   find performance-observer-callback
 
-load @cluesurf/bind/code/browser/webworker/performance-observer-entry-list
+load @term/bind/code/browser/webworker/performance-observer-entry-list
   find performance-observer-entry-list
 
-load @cluesurf/bind/code/browser/webworker/performance-resource-timing
+load @term/bind/code/browser/webworker/performance-resource-timing
   find performance-resource-timing
 
-load @cluesurf/bind/code/browser/webworker/permission-status
+load @term/bind/code/browser/webworker/permission-status
   find permission-status
 
-load @cluesurf/bind/code/browser/webworker/permissions
+load @term/bind/code/browser/webworker/permissions
   find permissions
 
-load @cluesurf/bind/code/browser/webworker/post-message-options
+load @term/bind/code/browser/webworker/post-message-options
   find post-message-options
 
-load @cluesurf/bind/code/browser/webworker/progress-event
+load @term/bind/code/browser/webworker/progress-event
   find progress-event
 
-load @cluesurf/bind/code/browser/webworker/progress-event-init
+load @term/bind/code/browser/webworker/progress-event-init
   find progress-event-init
 
-load @cluesurf/bind/code/browser/webworker/promise-rejection-event
+load @term/bind/code/browser/webworker/promise-rejection-event
   find promise-rejection-event
 
-load @cluesurf/bind/code/browser/webworker/promise-rejection-event-init
+load @term/bind/code/browser/webworker/promise-rejection-event-init
   find promise-rejection-event-init
 
-load @cluesurf/bind/code/browser/webworker/push-event
+load @term/bind/code/browser/webworker/push-event
   find push-event
 
-load @cluesurf/bind/code/browser/webworker/push-event-init
+load @term/bind/code/browser/webworker/push-event-init
   find push-event-init
 
-load @cluesurf/bind/code/browser/webworker/push-manager
+load @term/bind/code/browser/webworker/push-manager
   find push-manager
 
-load @cluesurf/bind/code/browser/webworker/push-message-data
+load @term/bind/code/browser/webworker/push-message-data
   find push-message-data
 
-load @cluesurf/bind/code/browser/webworker/push-subscription
+load @term/bind/code/browser/webworker/push-subscription
   find push-subscription
 
-load @cluesurf/bind/code/browser/webworker/push-subscription-options
+load @term/bind/code/browser/webworker/push-subscription-options
   find push-subscription-options
 
-load @cluesurf/bind/code/browser/webworker/queuing-strategy
+load @term/bind/code/browser/webworker/queuing-strategy
   find queuing-strategy
 
-load @cluesurf/bind/code/browser/webworker/queuing-strategy-init
+load @term/bind/code/browser/webworker/queuing-strategy-init
   find queuing-strategy-init
 
-load @cluesurf/bind/code/browser/webworker/readable-stream
+load @term/bind/code/browser/webworker/readable-stream
   find readable-stream
 
-load @cluesurf/bind/code/browser/webworker/readable-stream-default-controller
+load @term/bind/code/browser/webworker/readable-stream-default-controller
   find readable-stream-default-controller
 
-load @cluesurf/bind/code/browser/webworker/readable-stream-default-reader
+load @term/bind/code/browser/webworker/readable-stream-default-reader
   find readable-stream-default-reader
 
-load @cluesurf/bind/code/browser/webworker/request
+load @term/bind/code/browser/webworker/request
   find request
 
-load @cluesurf/bind/code/browser/webworker/request-info
+load @term/bind/code/browser/webworker/request-info
   find request-info
 
-load @cluesurf/bind/code/browser/webworker/request-init
+load @term/bind/code/browser/webworker/request-init
   find request-init
 
-load @cluesurf/bind/code/browser/webworker/response
+load @term/bind/code/browser/webworker/response
   find response
 
-load @cluesurf/bind/code/browser/webworker/response-init
+load @term/bind/code/browser/webworker/response-init
   find response-init
 
-load @cluesurf/bind/code/browser/webworker/service-worker
+load @term/bind/code/browser/webworker/service-worker
   find service-worker
 
-load @cluesurf/bind/code/browser/webworker/service-worker-container
+load @term/bind/code/browser/webworker/service-worker-container
   find service-worker-container
 
-load @cluesurf/bind/code/browser/webworker/service-worker-global-scope
+load @term/bind/code/browser/webworker/service-worker-global-scope
   find service-worker-global-scope
 
-load @cluesurf/bind/code/browser/webworker/service-worker-registration
+load @term/bind/code/browser/webworker/service-worker-registration
   find service-worker-registration
 
-load @cluesurf/bind/code/browser/webworker/shared-worker
+load @term/bind/code/browser/webworker/shared-worker
   find shared-worker
 
-load @cluesurf/bind/code/browser/webworker/shared-worker-global-scope
+load @term/bind/code/browser/webworker/shared-worker-global-scope
   find shared-worker-global-scope
 
-load @cluesurf/bind/code/browser/webworker/storage-manager
+load @term/bind/code/browser/webworker/storage-manager
   find storage-manager
 
-load @cluesurf/bind/code/browser/webworker/subtle-crypto
+load @term/bind/code/browser/webworker/subtle-crypto
   find subtle-crypto
 
-load @cluesurf/bind/code/browser/webworker/sync-event
+load @term/bind/code/browser/webworker/sync-event
   find sync-event
 
-load @cluesurf/bind/code/browser/webworker/sync-event-init
+load @term/bind/code/browser/webworker/sync-event-init
   find sync-event-init
 
-load @cluesurf/bind/code/browser/webworker/sync-manager
+load @term/bind/code/browser/webworker/sync-manager
   find sync-manager
 
-load @cluesurf/bind/code/browser/webworker/text-decoder
+load @term/bind/code/browser/webworker/text-decoder
   find text-decoder
 
-load @cluesurf/bind/code/browser/webworker/text-decoder-options
+load @term/bind/code/browser/webworker/text-decoder-options
   find text-decoder-options
 
-load @cluesurf/bind/code/browser/webworker/text-decoder-stream
+load @term/bind/code/browser/webworker/text-decoder-stream
   find text-decoder-stream
 
-load @cluesurf/bind/code/browser/webworker/text-encoder
+load @term/bind/code/browser/webworker/text-encoder
   find text-encoder
 
-load @cluesurf/bind/code/browser/webworker/text-encoder-stream
+load @term/bind/code/browser/webworker/text-encoder-stream
   find text-encoder-stream
 
-load @cluesurf/bind/code/browser/webworker/text-metrics
+load @term/bind/code/browser/webworker/text-metrics
   find text-metrics
 
-load @cluesurf/bind/code/browser/webworker/timer-handler
+load @term/bind/code/browser/webworker/timer-handler
   find timer-handler
 
-load @cluesurf/bind/code/browser/webworker/transferable
+load @term/bind/code/browser/webworker/transferable
   find transferable
 
-load @cluesurf/bind/code/browser/webworker/transform-stream
+load @term/bind/code/browser/webworker/transform-stream
   find transform-stream
 
-load @cluesurf/bind/code/browser/webworker/transform-stream-default-controller
+load @term/bind/code/browser/webworker/transform-stream-default-controller
   find transform-stream-default-controller
 
-load @cluesurf/bind/code/browser/webworker/transformer
+load @term/bind/code/browser/webworker/transformer
   find transformer
 
-load @cluesurf/bind/code/browser/webworker/underlying-sink
+load @term/bind/code/browser/webworker/underlying-sink
   find underlying-sink
 
-load @cluesurf/bind/code/browser/webworker/underlying-source
+load @term/bind/code/browser/webworker/underlying-source
   find underlying-source
 
-load @cluesurf/bind/code/browser/webworker/url
+load @term/bind/code/browser/webworker/url
   find url
 
-load @cluesurf/bind/code/browser/webworker/url-search-params
+load @term/bind/code/browser/webworker/url-search-params
   find url-search-params
 
-load @cluesurf/bind/code/browser/webworker/void-function
+load @term/bind/code/browser/webworker/void-function
   find void-function
 
-load @cluesurf/bind/code/browser/webworker/web-gl-active-info
+load @term/bind/code/browser/webworker/web-gl-active-info
   find web-gl-active-info
 
-load @cluesurf/bind/code/browser/webworker/web-gl-buffer
+load @term/bind/code/browser/webworker/web-gl-buffer
   find web-gl-buffer
 
-load @cluesurf/bind/code/browser/webworker/web-gl-context-event
+load @term/bind/code/browser/webworker/web-gl-context-event
   find web-gl-context-event
 
-load @cluesurf/bind/code/browser/webworker/web-gl-context-event-init
+load @term/bind/code/browser/webworker/web-gl-context-event-init
   find web-gl-context-event-init
 
-load @cluesurf/bind/code/browser/webworker/web-gl-framebuffer
+load @term/bind/code/browser/webworker/web-gl-framebuffer
   find web-gl-framebuffer
 
-load @cluesurf/bind/code/browser/webworker/web-gl-program
+load @term/bind/code/browser/webworker/web-gl-program
   find web-gl-program
 
-load @cluesurf/bind/code/browser/webworker/web-gl-query
+load @term/bind/code/browser/webworker/web-gl-query
   find web-gl-query
 
-load @cluesurf/bind/code/browser/webworker/web-gl-renderbuffer
+load @term/bind/code/browser/webworker/web-gl-renderbuffer
   find web-gl-renderbuffer
 
-load @cluesurf/bind/code/browser/webworker/web-gl-rendering-context
+load @term/bind/code/browser/webworker/web-gl-rendering-context
   find web-gl-rendering-context
 
-load @cluesurf/bind/code/browser/webworker/web-gl-sampler
+load @term/bind/code/browser/webworker/web-gl-sampler
   find web-gl-sampler
 
-load @cluesurf/bind/code/browser/webworker/web-gl-shader
+load @term/bind/code/browser/webworker/web-gl-shader
   find web-gl-shader
 
-load @cluesurf/bind/code/browser/webworker/web-gl-shader-precision-format
+load @term/bind/code/browser/webworker/web-gl-shader-precision-format
   find web-gl-shader-precision-format
 
-load @cluesurf/bind/code/browser/webworker/web-gl-sync
+load @term/bind/code/browser/webworker/web-gl-sync
   find web-gl-sync
 
-load @cluesurf/bind/code/browser/webworker/web-gl-texture
+load @term/bind/code/browser/webworker/web-gl-texture
   find web-gl-texture
 
-load @cluesurf/bind/code/browser/webworker/web-gl-transform-feedback
+load @term/bind/code/browser/webworker/web-gl-transform-feedback
   find web-gl-transform-feedback
 
-load @cluesurf/bind/code/browser/webworker/web-gl-uniform-location
+load @term/bind/code/browser/webworker/web-gl-uniform-location
   find web-gl-uniform-location
 
-load @cluesurf/bind/code/browser/webworker/web-gl-vertex-array-object
+load @term/bind/code/browser/webworker/web-gl-vertex-array-object
   find web-gl-vertex-array-object
 
-load @cluesurf/bind/code/browser/webworker/web-gl2-rendering-context
+load @term/bind/code/browser/webworker/web-gl2-rendering-context
   find web-gl2-rendering-context
 
-load @cluesurf/bind/code/browser/webworker/web-socket
+load @term/bind/code/browser/webworker/web-socket
   find web-socket
 
-load @cluesurf/bind/code/browser/webworker/window-client
+load @term/bind/code/browser/webworker/window-client
   find window-client
 
-load @cluesurf/bind/code/browser/webworker/worker
+load @term/bind/code/browser/webworker/worker
   find worker
 
-load @cluesurf/bind/code/browser/webworker/worker-global-scope
+load @term/bind/code/browser/webworker/worker-global-scope
   find worker-global-scope
 
-load @cluesurf/bind/code/browser/webworker/worker-location
+load @term/bind/code/browser/webworker/worker-location
   find worker-location
 
-load @cluesurf/bind/code/browser/webworker/worker-navigator
+load @term/bind/code/browser/webworker/worker-navigator
   find worker-navigator
 
-load @cluesurf/bind/code/browser/webworker/worker-options
+load @term/bind/code/browser/webworker/worker-options
   find worker-options
 
-load @cluesurf/bind/code/browser/webworker/writable-stream
+load @term/bind/code/browser/webworker/writable-stream
   find writable-stream
 
-load @cluesurf/bind/code/browser/webworker/writable-stream-default-controller
+load @term/bind/code/browser/webworker/writable-stream-default-controller
   find writable-stream-default-controller
 
-load @cluesurf/bind/code/browser/webworker/writable-stream-default-writer
+load @term/bind/code/browser/webworker/writable-stream-default-writer
   find writable-stream-default-writer
 
-load @cluesurf/bind/code/browser/webworker/xml-http-request
+load @term/bind/code/browser/webworker/xml-http-request
   find xml-http-request
 
-load @cluesurf/bind/code/browser/webworker/xml-http-request-event-target
+load @term/bind/code/browser/webworker/xml-http-request-event-target
   find xml-http-request-event-target
 
-load @cluesurf/bind/code/browser/webworker/xml-http-request-upload
+load @term/bind/code/browser/webworker/xml-http-request-upload
   find xml-http-request-upload
 
-load @cluesurf/bind/code/javascript/es5/float32-array
+load @term/bind/code/javascript/es5/float32-array
   find float32-array
 
-load @cluesurf/bind/code/javascript/es5/float64-array
+load @term/bind/code/javascript/es5/float64-array
   find float64-array
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/es5/readonly-array
+load @term/bind/code/javascript/es5/readonly-array
   find readonly-array
 
-load @cluesurf/bind/code/javascript/es5/record
+load @term/bind/code/javascript/es5/record
   find record
 
-load @cluesurf/bind/code/javascript/es5/uint8-clamped-array
+load @term/bind/code/javascript/es5/uint8-clamped-array
   find uint8-clamped-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 host abort-controller, name <AbortController>

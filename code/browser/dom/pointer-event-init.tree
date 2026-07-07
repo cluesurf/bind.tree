@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/mouse-event-init
+load @term/bind/code/browser/dom/mouse-event-init
   find mouse-event-init
 
-load @cluesurf/bind/code/browser/dom/pointer-event
+load @term/bind/code/browser/dom/pointer-event
   find pointer-event
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form pointer-event-init, name <PointerEventInit>

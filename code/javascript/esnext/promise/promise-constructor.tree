@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/javascript/es2015/iterable/iterable
+load @term/bind/code/javascript/es2015/iterable/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/es2018/promise/promise
+load @term/bind/code/javascript/es2018/promise/promise
   find promise
 
-load @cluesurf/bind/code/javascript/es2021/promise/promise-constructor
+load @term/bind/code/javascript/es2021/promise/promise-constructor
   find promise-constructor
 
-load @cluesurf/bind/code/javascript/es5/promise-like
+load @term/bind/code/javascript/es5/promise-like
   find promise-like
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
 form promise-constructor, name <PromiseConstructor>

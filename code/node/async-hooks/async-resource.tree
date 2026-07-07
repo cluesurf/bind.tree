@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find async-resource
   find native-number
@@ -7,7 +7,7 @@ load @cluesurf/bind/code/javascript
   find native-this
   find this-arg
 
-load @cluesurf/moon
+load @term/moon
   find and
   find any
   find form
@@ -15,7 +15,7 @@ load @cluesurf/moon
   find or
   find task
 
-load @cluesurf/bind/code/node/async-hooks
+load @term/bind/code/node/async-hooks
   find async-resource-options
 
 form async-resource, name <AsyncResource>

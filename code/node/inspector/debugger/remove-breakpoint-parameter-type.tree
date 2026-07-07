@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/inspector/debugger
+load @term/bind/code/node/inspector/debugger
   find breakpoint-id
 
 form remove-breakpoint-parameter-type, name <RemoveBreakpointParameterType>

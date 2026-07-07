@@ -1,26 +1,26 @@
 
-load @cluesurf/bind/code/browser/dom/animation
+load @term/bind/code/browser/dom/animation
   find animation
 
-load @cluesurf/bind/code/browser/dom/get-animations-options
+load @term/bind/code/browser/dom/get-animations-options
   find get-animations-options
 
-load @cluesurf/bind/code/browser/dom/keyframe
+load @term/bind/code/browser/dom/keyframe
   find keyframe
 
-load @cluesurf/bind/code/browser/dom/keyframe-animation-options
+load @term/bind/code/browser/dom/keyframe-animation-options
   find keyframe-animation-options
 
-load @cluesurf/bind/code/browser/dom/property-indexed-keyframes
+load @term/bind/code/browser/dom/property-indexed-keyframes
   find property-indexed-keyframes
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form animatable, name <Animatable>

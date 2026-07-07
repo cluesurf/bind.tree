@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/attr
+load @term/bind/code/browser/dom/attr
   find attr
 
-load @cluesurf/bind/code/browser/dom/named-node-map
+load @term/bind/code/browser/dom/named-node-map
   find named-node-map
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form named-node-map, name <NamedNodeMap>

@@ -1,14 +1,14 @@
 
-load @cluesurf/moon
+load @term/moon
   find like
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find async-iterable
   find iterable
   find node-js-readable-stream
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find pipeline-source-function
 
 form pipeline-source, name <PipelineSource>

@@ -1,9 +1,9 @@
 
-bear @cluesurf/bind/code/javascript/node/tty/read-stream
-bear @cluesurf/bind/code/javascript/node/tty/direction
-bear @cluesurf/bind/code/javascript/node/tty/write-stream
+bear @term/bind/code/javascript/node/tty/read-stream
+bear @term/bind/code/javascript/node/tty/direction
+bear @term/bind/code/javascript/node/tty/write-stream
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-number
 

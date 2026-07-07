@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/font-face-load-status
+load @term/bind/code/browser/dom/font-face-load-status
   find font-face-load-status
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form font-face, name <FontFace>

@@ -1,11 +1,11 @@
 
-bear @cluesurf/bind/code/javascript/node/module/source-map-payload
-bear @cluesurf/bind/code/javascript/node/module/source-mapping
-bear @cluesurf/bind/code/javascript/node/module/source-map
-bear @cluesurf/bind/code/javascript/node/module/module
-bear @cluesurf/bind/code/javascript/node/module/import-meta
+bear @term/bind/code/javascript/node/module/source-map-payload
+bear @term/bind/code/javascript/node/module/source-mapping
+bear @term/bind/code/javascript/node/module/source-map
+bear @term/bind/code/javascript/node/module/module
+bear @term/bind/code/javascript/node/module/import-meta
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find error
   find native-string
   find native-void

@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -11,18 +11,18 @@ load @cluesurf/bind/code/javascript
   find native-void
   find stream-readable
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find outgoing-http-headers
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find http2-session
   find incoming-http-headers
   find stream-priority-options

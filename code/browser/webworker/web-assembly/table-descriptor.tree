@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/table-descriptor
+load @term/bind/code/browser/dom/table-descriptor
   find table-descriptor
 
-load @cluesurf/bind/code/browser/webworker/table-kind
+load @term/bind/code/browser/webworker/table-kind
   find table-kind
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form table-descriptor, name <TableDescriptor>

@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -9,12 +9,12 @@ load @cluesurf/bind/code/javascript
   find native-void
   find readonly-array
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/worker-threads
+load @term/bind/code/node/worker-threads
   find transfer-list-item
 
 form message-port, name <MessagePort>

@@ -1,24 +1,24 @@
 
-bear @cluesurf/bind/code/javascript/node/tls/certificate
-bear @cluesurf/bind/code/javascript/node/tls/peer-certificate
-bear @cluesurf/bind/code/javascript/node/tls/detailed-peer-certificate
-bear @cluesurf/bind/code/javascript/node/tls/cipher-name-and-protocol
-bear @cluesurf/bind/code/javascript/node/tls/ephemeral-key-info
-bear @cluesurf/bind/code/javascript/node/tls/key-object
-bear @cluesurf/bind/code/javascript/node/tls/pxf-object
-bear @cluesurf/bind/code/javascript/node/tls/tls-socket-options
-bear @cluesurf/bind/code/javascript/node/tls/tls-socket
-bear @cluesurf/bind/code/javascript/node/tls/common-connection-options
-bear @cluesurf/bind/code/javascript/node/tls/tls-options
-bear @cluesurf/bind/code/javascript/node/tls/psk-callback-negotation
-bear @cluesurf/bind/code/javascript/node/tls/connection-options
-bear @cluesurf/bind/code/javascript/node/tls/server
-bear @cluesurf/bind/code/javascript/node/tls/secure-pair
-bear @cluesurf/bind/code/javascript/node/tls/secure-version
-bear @cluesurf/bind/code/javascript/node/tls/secure-context-options
-bear @cluesurf/bind/code/javascript/node/tls/secure-context
+bear @term/bind/code/javascript/node/tls/certificate
+bear @term/bind/code/javascript/node/tls/peer-certificate
+bear @term/bind/code/javascript/node/tls/detailed-peer-certificate
+bear @term/bind/code/javascript/node/tls/cipher-name-and-protocol
+bear @term/bind/code/javascript/node/tls/ephemeral-key-info
+bear @term/bind/code/javascript/node/tls/key-object
+bear @term/bind/code/javascript/node/tls/pxf-object
+bear @term/bind/code/javascript/node/tls/tls-socket-options
+bear @term/bind/code/javascript/node/tls/tls-socket
+bear @term/bind/code/javascript/node/tls/common-connection-options
+bear @term/bind/code/javascript/node/tls/tls-options
+bear @term/bind/code/javascript/node/tls/psk-callback-negotation
+bear @term/bind/code/javascript/node/tls/connection-options
+bear @term/bind/code/javascript/node/tls/server
+bear @term/bind/code/javascript/node/tls/secure-pair
+bear @term/bind/code/javascript/node/tls/secure-version
+bear @term/bind/code/javascript/node/tls/secure-context-options
+bear @term/bind/code/javascript/node/tls/secure-context
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -29,14 +29,14 @@ load @cluesurf/bind/code/javascript
   find readonly-array
   find tls-socket
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/node/https
+load @term/bind/code/node/https
   find server
 
-load @cluesurf/bind/code/node/tls
+load @term/bind/code/node/tls
   find connection-options
   find peer-certificate
   find secure-context

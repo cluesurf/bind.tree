@@ -1,15 +1,15 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-void
   find node-js-read-write-stream
   find node-js-readable-stream
   find node-js-writable-stream
   find promise
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find finished-options
 
 task promisify, name <__promisify__>

@@ -1,98 +1,98 @@
 
-load @cluesurf/bind/code/browser/dom/iterable/web-gl2-rendering-context-base
+load @term/bind/code/browser/dom/iterable/web-gl2-rendering-context-base
   find web-gl2-rendering-context-base
 
-load @cluesurf/bind/code/browser/webworker/float32-list
+load @term/bind/code/browser/webworker/float32-list
   find float32-list
 
-load @cluesurf/bind/code/browser/webworker/g-lbitfield
+load @term/bind/code/browser/webworker/g-lbitfield
   find g-lbitfield
 
-load @cluesurf/bind/code/browser/webworker/g-lboolean
+load @term/bind/code/browser/webworker/g-lboolean
   find g-lboolean
 
-load @cluesurf/bind/code/browser/webworker/g-lenum
+load @term/bind/code/browser/webworker/g-lenum
   find g-lenum
 
-load @cluesurf/bind/code/browser/webworker/g-lfloat
+load @term/bind/code/browser/webworker/g-lfloat
   find g-lfloat
 
-load @cluesurf/bind/code/browser/webworker/g-lint
+load @term/bind/code/browser/webworker/g-lint
   find g-lint
 
-load @cluesurf/bind/code/browser/webworker/g-lint64
+load @term/bind/code/browser/webworker/g-lint64
   find g-lint64
 
-load @cluesurf/bind/code/browser/webworker/g-lintptr
+load @term/bind/code/browser/webworker/g-lintptr
   find g-lintptr
 
-load @cluesurf/bind/code/browser/webworker/g-lsizei
+load @term/bind/code/browser/webworker/g-lsizei
   find g-lsizei
 
-load @cluesurf/bind/code/browser/webworker/g-lsizeiptr
+load @term/bind/code/browser/webworker/g-lsizeiptr
   find g-lsizeiptr
 
-load @cluesurf/bind/code/browser/webworker/g-luint
+load @term/bind/code/browser/webworker/g-luint
   find g-luint
 
-load @cluesurf/bind/code/browser/webworker/g-luint64
+load @term/bind/code/browser/webworker/g-luint64
   find g-luint64
 
-load @cluesurf/bind/code/browser/webworker/int32-list
+load @term/bind/code/browser/webworker/int32-list
   find int32-list
 
-load @cluesurf/bind/code/browser/webworker/tex-image-source
+load @term/bind/code/browser/webworker/tex-image-source
   find tex-image-source
 
-load @cluesurf/bind/code/browser/webworker/uint32-list
+load @term/bind/code/browser/webworker/uint32-list
   find uint32-list
 
-load @cluesurf/bind/code/browser/webworker/web-gl-active-info
+load @term/bind/code/browser/webworker/web-gl-active-info
   find web-gl-active-info
 
-load @cluesurf/bind/code/browser/webworker/web-gl-buffer
+load @term/bind/code/browser/webworker/web-gl-buffer
   find web-gl-buffer
 
-load @cluesurf/bind/code/browser/webworker/web-gl-program
+load @term/bind/code/browser/webworker/web-gl-program
   find web-gl-program
 
-load @cluesurf/bind/code/browser/webworker/web-gl-query
+load @term/bind/code/browser/webworker/web-gl-query
   find web-gl-query
 
-load @cluesurf/bind/code/browser/webworker/web-gl-sampler
+load @term/bind/code/browser/webworker/web-gl-sampler
   find web-gl-sampler
 
-load @cluesurf/bind/code/browser/webworker/web-gl-sync
+load @term/bind/code/browser/webworker/web-gl-sync
   find web-gl-sync
 
-load @cluesurf/bind/code/browser/webworker/web-gl-texture
+load @term/bind/code/browser/webworker/web-gl-texture
   find web-gl-texture
 
-load @cluesurf/bind/code/browser/webworker/web-gl-transform-feedback
+load @term/bind/code/browser/webworker/web-gl-transform-feedback
   find web-gl-transform-feedback
 
-load @cluesurf/bind/code/browser/webworker/web-gl-uniform-location
+load @term/bind/code/browser/webworker/web-gl-uniform-location
   find web-gl-uniform-location
 
-load @cluesurf/bind/code/browser/webworker/web-gl-vertex-array-object
+load @term/bind/code/browser/webworker/web-gl-vertex-array-object
   find web-gl-vertex-array-object
 
-load @cluesurf/bind/code/javascript/es5/array-buffer-view
+load @term/bind/code/javascript/es5/array-buffer-view
   find array-buffer-view
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form web-gl2-rendering-context-base, name <WebGL2RenderingContextBase>

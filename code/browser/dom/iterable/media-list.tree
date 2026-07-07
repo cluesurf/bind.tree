@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/media-list
+load @term/bind/code/browser/dom/media-list
   find media-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form media-list, name <MediaList>

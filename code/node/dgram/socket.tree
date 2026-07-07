@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find address-info
   find array
   find error
@@ -13,15 +13,15 @@ load @cluesurf/bind/code/javascript
   find readonly-array
   find uint8-array
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/dgram
+load @term/bind/code/node/dgram
   find bind-options
   find remote-info
 

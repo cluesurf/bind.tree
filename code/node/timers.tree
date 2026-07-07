@@ -1,7 +1,7 @@
 
-bear @cluesurf/bind/code/javascript/node/timers/timer-options
+bear @term/bind/code/javascript/node/timers/timer-options
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-number
   find native-void
@@ -9,7 +9,7 @@ load @cluesurf/bind/code/javascript
   find node-js-timeout
   find node-js-timer
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find task

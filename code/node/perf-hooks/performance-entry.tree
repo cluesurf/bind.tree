@@ -1,14 +1,14 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
   find unknown
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
   find native-undefined
 
-load @cluesurf/bind/code/node/perf-hooks
+load @term/bind/code/node/perf-hooks
   find entry-type
   find node-gc-performance-detail
 

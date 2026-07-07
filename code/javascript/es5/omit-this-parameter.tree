@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript/a
+load @term/bind/code/javascript/a
   find a
 
-load @cluesurf/bind/code/javascript/es5/this-parameter-type
+load @term/bind/code/javascript/es5/this-parameter-type
   find this-parameter-type
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-unknown
 
-load @cluesurf/bind/code/javascript/r
+load @term/bind/code/javascript/r
   find r
 
 form omit-this-parameter, name <OmitThisParameter>

@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom/dom-matrix
+load @term/bind/code/browser/dom/dom-matrix
   find dom-matrix
 
-load @cluesurf/bind/code/browser/webworker/dom-matrix-init
+load @term/bind/code/browser/webworker/dom-matrix-init
   find dom-matrix-init
 
-load @cluesurf/bind/code/browser/webworker/dom-matrix-read-only
+load @term/bind/code/browser/webworker/dom-matrix-read-only
   find dom-matrix-read-only
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form dom-matrix, name <DOMMatrix>

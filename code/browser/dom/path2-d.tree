@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/canvas-path
+load @term/bind/code/browser/dom/canvas-path
   find canvas-path
 
-load @cluesurf/bind/code/browser/dom/dom-matrix2-d-init
+load @term/bind/code/browser/dom/dom-matrix2-d-init
   find dom-matrix2-d-init
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form path2-d, name <Path2D>

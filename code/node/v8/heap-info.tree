@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
 
-load @cluesurf/bind/code/node/v8
+load @term/bind/code/node/v8
   find does-zap-code-space-flag
 
 form heap-info, name <HeapInfo>

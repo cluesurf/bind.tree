@@ -1,5 +1,5 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find like
@@ -8,7 +8,7 @@ load @cluesurf/moon
   find test
   find unknown
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array-buffer
   find array-buffer-like
   find big-int
@@ -36,7 +36,7 @@ load @cluesurf/bind/code/javascript
   find weak-set
   find webcrypto-crypto-key
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find big-int64-array
   find big-uint64-array
   find float32-array
@@ -50,7 +50,7 @@ load @cluesurf/bind/code/node/globals
   find uint8-array
   find uint8-clamped-array
 
-load @cluesurf/bind/code/node/tls
+load @term/bind/code/node/tls
   find key-object
 
 task is-any-array-buffer, name <isAnyArrayBuffer>

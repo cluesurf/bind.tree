@@ -1,85 +1,85 @@
 
-bear @cluesurf/bind/code/browser/webworker/web-assembly/global
-bear @cluesurf/bind/code/browser/webworker/web-assembly/instance
-bear @cluesurf/bind/code/browser/webworker/web-assembly/memory
-bear @cluesurf/bind/code/browser/webworker/web-assembly/module
-bear @cluesurf/bind/code/browser/webworker/web-assembly/table
-bear @cluesurf/bind/code/browser/webworker/web-assembly/global-descriptor
-bear @cluesurf/bind/code/browser/webworker/web-assembly/memory-descriptor
-bear @cluesurf/bind/code/browser/webworker/web-assembly/module-export-descriptor
-bear @cluesurf/bind/code/browser/webworker/web-assembly/module-import-descriptor
-bear @cluesurf/bind/code/browser/webworker/web-assembly/table-descriptor
-bear @cluesurf/bind/code/browser/webworker/web-assembly/web-assembly-instantiated-source
-bear @cluesurf/bind/code/browser/webworker/web-assembly/import-export-kind
-bear @cluesurf/bind/code/browser/webworker/web-assembly/table-kind
-bear @cluesurf/bind/code/browser/webworker/web-assembly/value-type
-bear @cluesurf/bind/code/browser/webworker/web-assembly/export-value
-bear @cluesurf/bind/code/browser/webworker/web-assembly/exports
-bear @cluesurf/bind/code/browser/webworker/web-assembly/import-value
-bear @cluesurf/bind/code/browser/webworker/web-assembly/module-imports
-bear @cluesurf/bind/code/browser/webworker/web-assembly/imports
+bear @term/bind/code/browser/webworker/web-assembly/global
+bear @term/bind/code/browser/webworker/web-assembly/instance
+bear @term/bind/code/browser/webworker/web-assembly/memory
+bear @term/bind/code/browser/webworker/web-assembly/module
+bear @term/bind/code/browser/webworker/web-assembly/table
+bear @term/bind/code/browser/webworker/web-assembly/global-descriptor
+bear @term/bind/code/browser/webworker/web-assembly/memory-descriptor
+bear @term/bind/code/browser/webworker/web-assembly/module-export-descriptor
+bear @term/bind/code/browser/webworker/web-assembly/module-import-descriptor
+bear @term/bind/code/browser/webworker/web-assembly/table-descriptor
+bear @term/bind/code/browser/webworker/web-assembly/web-assembly-instantiated-source
+bear @term/bind/code/browser/webworker/web-assembly/import-export-kind
+bear @term/bind/code/browser/webworker/web-assembly/table-kind
+bear @term/bind/code/browser/webworker/web-assembly/value-type
+bear @term/bind/code/browser/webworker/web-assembly/export-value
+bear @term/bind/code/browser/webworker/web-assembly/exports
+bear @term/bind/code/browser/webworker/web-assembly/import-value
+bear @term/bind/code/browser/webworker/web-assembly/module-imports
+bear @term/bind/code/browser/webworker/web-assembly/imports
 
-load @cluesurf/bind/code/browser/webworker/buffer-source
+load @term/bind/code/browser/webworker/buffer-source
   find buffer-source
 
-load @cluesurf/bind/code/browser/webworker/global
+load @term/bind/code/browser/webworker/global
   find global
 
-load @cluesurf/bind/code/browser/webworker/global-descriptor
+load @term/bind/code/browser/webworker/global-descriptor
   find global-descriptor
 
-load @cluesurf/bind/code/browser/webworker/imports
+load @term/bind/code/browser/webworker/imports
   find imports
 
-load @cluesurf/bind/code/browser/webworker/instance
+load @term/bind/code/browser/webworker/instance
   find instance
 
-load @cluesurf/bind/code/browser/webworker/memory
+load @term/bind/code/browser/webworker/memory
   find memory
 
-load @cluesurf/bind/code/browser/webworker/memory-descriptor
+load @term/bind/code/browser/webworker/memory-descriptor
   find memory-descriptor
 
-load @cluesurf/bind/code/browser/webworker/module
+load @term/bind/code/browser/webworker/module
   find module
 
-load @cluesurf/bind/code/browser/webworker/module-export-descriptor
+load @term/bind/code/browser/webworker/module-export-descriptor
   find module-export-descriptor
 
-load @cluesurf/bind/code/browser/webworker/module-import-descriptor
+load @term/bind/code/browser/webworker/module-import-descriptor
   find module-import-descriptor
 
-load @cluesurf/bind/code/browser/webworker/response
+load @term/bind/code/browser/webworker/response
   find response
 
-load @cluesurf/bind/code/browser/webworker/table
+load @term/bind/code/browser/webworker/table
   find table
 
-load @cluesurf/bind/code/browser/webworker/table-descriptor
+load @term/bind/code/browser/webworker/table-descriptor
   find table-descriptor
 
-load @cluesurf/bind/code/browser/webworker/web-assembly-instantiated-source
+load @term/bind/code/browser/webworker/web-assembly-instantiated-source
   find web-assembly-instantiated-source
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/es5/promise-like
+load @term/bind/code/javascript/es5/promise-like
   find promise-like
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 host global, name <Global>

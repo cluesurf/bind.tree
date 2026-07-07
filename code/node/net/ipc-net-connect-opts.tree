@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-undefined
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find ipc-socket-connect-opts
   find socket-constructor-opts
 

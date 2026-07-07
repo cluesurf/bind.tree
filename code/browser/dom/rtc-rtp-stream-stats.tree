@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/rtc-stats
+load @term/bind/code/browser/dom/rtc-stats
   find rtc-stats
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form rtc-rtp-stream-stats, name <RTCRtpStreamStats>

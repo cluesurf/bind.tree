@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
 
-load @cluesurf/bind/code/node/perf-hooks
+load @term/bind/code/node/perf-hooks
   find histogram
 
 form interval-histogram, name <IntervalHistogram>

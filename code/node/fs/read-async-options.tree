@@ -1,11 +1,11 @@
 
-load @cluesurf/moon
+load @term/moon
   find like
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find node-js-array-buffer-view
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find read-sync-options
 
 form read-async-options, name <ReadAsyncOptions>

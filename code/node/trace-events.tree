@@ -1,15 +1,15 @@
 
-bear @cluesurf/bind/code/javascript/node/trace-events/tracing
-bear @cluesurf/bind/code/javascript/node/trace-events/create-tracing-options
+bear @term/bind/code/javascript/node/trace-events/tracing
+bear @term/bind/code/javascript/node/trace-events/create-tracing-options
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
   find native-undefined
 
-load @cluesurf/bind/code/node/trace-events
+load @term/bind/code/node/trace-events
   find create-tracing-options
   find tracing
 

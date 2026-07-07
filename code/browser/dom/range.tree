@@ -1,29 +1,29 @@
 
-load @cluesurf/bind/code/browser/dom/abstract-range
+load @term/bind/code/browser/dom/abstract-range
   find abstract-range
 
-load @cluesurf/bind/code/browser/dom/document-fragment
+load @term/bind/code/browser/dom/document-fragment
   find document-fragment
 
-load @cluesurf/bind/code/browser/dom/dom-rect
+load @term/bind/code/browser/dom/dom-rect
   find dom-rect
 
-load @cluesurf/bind/code/browser/dom/dom-rect-list
+load @term/bind/code/browser/dom/dom-rect-list
   find dom-rect-list
 
-load @cluesurf/bind/code/browser/dom/node
+load @term/bind/code/browser/dom/node
   find node
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form range, name <Range>

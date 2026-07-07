@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom/g-lfloat
+load @term/bind/code/browser/dom/g-lfloat
   find g-lfloat
 
-load @cluesurf/bind/code/browser/dom/g-luint
+load @term/bind/code/browser/dom/g-luint
   find g-luint
 
-load @cluesurf/bind/code/browser/dom/web-gl-rendering-context-base
+load @term/bind/code/browser/dom/web-gl-rendering-context-base
   find web-gl-rendering-context-base
 
-load @cluesurf/bind/code/javascript/iterable
+load @term/bind/code/javascript/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form web-gl-rendering-context-base, name <WebGLRenderingContextBase>

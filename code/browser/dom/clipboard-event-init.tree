@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/data-transfer
+load @term/bind/code/browser/dom/data-transfer
   find data-transfer
 
-load @cluesurf/bind/code/browser/dom/event-init
+load @term/bind/code/browser/dom/event-init
   find event-init
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
 form clipboard-event-init, name <ClipboardEventInit>

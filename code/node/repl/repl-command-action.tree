@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
   find native-void
   find repl-server

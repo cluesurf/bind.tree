@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker/export-value
+load @term/bind/code/browser/webworker/export-value
   find export-value
 
-load @cluesurf/bind/code/javascript/es5/record
+load @term/bind/code/javascript/es5/record
   find record
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form exports, name <Exports>

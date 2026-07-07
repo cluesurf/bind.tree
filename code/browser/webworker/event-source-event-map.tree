@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/event-source-event-map
+load @term/bind/code/browser/dom/event-source-event-map
   find event-source-event-map
 
-load @cluesurf/bind/code/browser/webworker/event
+load @term/bind/code/browser/webworker/event
   find event
 
-load @cluesurf/bind/code/browser/webworker/message-event
+load @term/bind/code/browser/webworker/message-event
   find message-event
 
 form event-source-event-map, name <EventSourceEventMap>

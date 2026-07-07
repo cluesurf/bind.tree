@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript/es2015/collection/set-constructor
+load @term/bind/code/javascript/es2015/collection/set-constructor
   find set-constructor
 
-load @cluesurf/bind/code/javascript/es2015/iterable/iterable
+load @term/bind/code/javascript/es2015/iterable/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/es2015/iterable/set
+load @term/bind/code/javascript/es2015/iterable/set
   find set
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
 form set-constructor, name <SetConstructor>

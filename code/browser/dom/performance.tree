@@ -1,62 +1,62 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+load @term/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/event-target
+load @term/bind/code/browser/dom/event-target
   find event-target
 
-load @cluesurf/bind/code/browser/dom/performance-entry-list
+load @term/bind/code/browser/dom/performance-entry-list
   find performance-entry-list
 
-load @cluesurf/bind/code/browser/dom/performance-event-map
+load @term/bind/code/browser/dom/performance-event-map
   find performance-event-map
 
-load @cluesurf/bind/code/browser/dom/performance-mark
+load @term/bind/code/browser/dom/performance-mark
   find performance-mark
 
-load @cluesurf/bind/code/browser/dom/performance-mark-options
+load @term/bind/code/browser/dom/performance-mark-options
   find performance-mark-options
 
-load @cluesurf/bind/code/browser/dom/performance-measure
+load @term/bind/code/browser/dom/performance-measure
   find performance-measure
 
-load @cluesurf/bind/code/browser/dom/performance-measure-options
+load @term/bind/code/browser/dom/performance-measure-options
   find performance-measure-options
 
-load @cluesurf/bind/code/browser/dom/performance-navigation
+load @term/bind/code/browser/dom/performance-navigation
   find performance-navigation
 
-load @cluesurf/bind/code/browser/dom/performance-timing
+load @term/bind/code/browser/dom/performance-timing
   find performance-timing
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form performance, name <Performance>

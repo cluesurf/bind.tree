@@ -1,13 +1,13 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-string
   find node-js-array-buffer-view
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find binary-like
 
 form certificate, name <Certificate>

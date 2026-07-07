@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find http2-server-request
@@ -11,12 +11,12 @@ load @cluesurf/bind/code/javascript
   find native-this
   find native-void
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find http2-server-common
   find incoming-http-headers
   find server-http2-session

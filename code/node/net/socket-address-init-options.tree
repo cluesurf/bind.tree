@@ -1,13 +1,13 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
   find native-undefined
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find ip-version
 
 form socket-address-init-options, name <SocketAddressInitOptions>

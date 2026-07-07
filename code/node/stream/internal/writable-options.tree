@@ -1,11 +1,11 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find error
   find native-boolean
   find native-null
@@ -13,13 +13,13 @@ load @cluesurf/bind/code/javascript
   find native-void
   find writable
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find array
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find stream-options
 
 form writable-options, name <WritableOptions>

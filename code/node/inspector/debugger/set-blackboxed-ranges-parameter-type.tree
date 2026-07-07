@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find runtime-script-id
 
-load @cluesurf/bind/code/node/inspector/debugger
+load @term/bind/code/node/inspector/debugger
   find script-position
 
 form set-blackboxed-ranges-parameter-type, name <SetBlackboxedRangesParameterType>

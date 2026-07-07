@@ -1,56 +1,56 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/display-media-stream-constraints
+load @term/bind/code/browser/dom/display-media-stream-constraints
   find display-media-stream-constraints
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/event-target
+load @term/bind/code/browser/dom/event-target
   find event-target
 
-load @cluesurf/bind/code/browser/dom/media-device-info
+load @term/bind/code/browser/dom/media-device-info
   find media-device-info
 
-load @cluesurf/bind/code/browser/dom/media-devices-event-map
+load @term/bind/code/browser/dom/media-devices-event-map
   find media-devices-event-map
 
-load @cluesurf/bind/code/browser/dom/media-stream
+load @term/bind/code/browser/dom/media-stream
   find media-stream
 
-load @cluesurf/bind/code/browser/dom/media-stream-constraints
+load @term/bind/code/browser/dom/media-stream-constraints
   find media-stream-constraints
 
-load @cluesurf/bind/code/browser/dom/media-track-supported-constraints
+load @term/bind/code/browser/dom/media-track-supported-constraints
   find media-track-supported-constraints
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form media-devices, name <MediaDevices>

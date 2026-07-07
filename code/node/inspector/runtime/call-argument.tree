@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-undefined
 
-load @cluesurf/bind/code/node/inspector/runtime
+load @term/bind/code/node/inspector/runtime
   find remote-object-id
   find unserializable-value
 

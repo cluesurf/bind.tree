@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find runtime-stack-trace-id
 
 form get-stack-trace-parameter-type, name <GetStackTraceParameterType>

@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
   find u
 
-load @cluesurf/bind/code/javascript/es5
+load @term/bind/code/javascript/es5
   find promise-like
 
-load @cluesurf/bind/code/javascript/es2015/iterable/promise
+load @term/bind/code/javascript/es2015/iterable/promise
   find promise
 
 form promise

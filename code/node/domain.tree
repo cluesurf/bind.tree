@@ -1,7 +1,7 @@
 
-bear @cluesurf/bind/code/javascript/node/domain/domain
+bear @term/bind/code/javascript/node/domain/domain
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find domain
 
 task create, name <create>

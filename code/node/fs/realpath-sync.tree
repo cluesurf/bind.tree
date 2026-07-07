@@ -1,14 +1,14 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find buffer-encoding-option
   find encoding-option
   find path-like

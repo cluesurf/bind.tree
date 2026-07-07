@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -14,18 +14,18 @@ load @cluesurf/bind/code/javascript
   find node-js-array-buffer-view
   find tls-tls-socket
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/events
+load @term/bind/code/node/events
   find event-emitter
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find session-state
   find settings
 

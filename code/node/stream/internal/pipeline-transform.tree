@@ -1,19 +1,19 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find async-iterable
   find iterable
   find node-js-read-write-stream
   find st
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find or
   find task
   find test
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find pipeline-transform-source
 
 form pipeline-transform, name <PipelineTransform>

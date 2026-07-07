@@ -1,6 +1,6 @@
 
-bear @cluesurf/bind/code/javascript/es2015
-bear @cluesurf/bind/code/browser/dom
-bear @cluesurf/bind/code/browser/dom/iterable
-bear @cluesurf/bind/code/browser/webworker/importscripts
-bear @cluesurf/bind/code/browser/scripthost
+bear @term/bind/code/javascript/es2015
+bear @term/bind/code/browser/dom
+bear @term/bind/code/browser/dom/iterable
+bear @term/bind/code/browser/webworker/importscripts
+bear @term/bind/code/browser/scripthost

@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-void
   find promise
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find mode
   find path-like
 

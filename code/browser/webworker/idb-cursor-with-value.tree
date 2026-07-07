@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/idb-cursor-with-value
+load @term/bind/code/browser/dom/idb-cursor-with-value
   find idb-cursor-with-value
 
-load @cluesurf/bind/code/browser/webworker/idb-cursor
+load @term/bind/code/browser/webworker/idb-cursor
   find idb-cursor
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
 form idb-cursor-with-value, name <IDBCursorWithValue>

@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/image-bitmap-options
+load @term/bind/code/browser/dom/image-bitmap-options
   find image-bitmap-options
 
-load @cluesurf/bind/code/browser/webworker/color-space-conversion
+load @term/bind/code/browser/webworker/color-space-conversion
   find color-space-conversion
 
-load @cluesurf/bind/code/browser/webworker/image-orientation
+load @term/bind/code/browser/webworker/image-orientation
   find image-orientation
 
-load @cluesurf/bind/code/browser/webworker/premultiply-alpha
+load @term/bind/code/browser/webworker/premultiply-alpha
   find premultiply-alpha
 
-load @cluesurf/bind/code/browser/webworker/resize-quality
+load @term/bind/code/browser/webworker/resize-quality
   find resize-quality
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form image-bitmap-options, name <ImageBitmapOptions>

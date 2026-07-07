@@ -1,13 +1,13 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-number
   find native-undefined
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/inspector/profiler
+load @term/bind/code/node/inspector/profiler
   find profile-node
 
 form profile, name <Profile>

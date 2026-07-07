@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find event-emitter
   find native-boolean
@@ -14,12 +14,12 @@ load @cluesurf/bind/code/javascript
   find node-js-dict
   find worker
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/cluster
+load @term/bind/code/node/cluster
   find address
   find cluster-settings
 

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/dom-string-list
+load @term/bind/code/browser/dom/dom-string-list
   find dom-string-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form dom-string-list, name <DOMStringList>

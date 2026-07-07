@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom/abort-signal-event-map
+load @term/bind/code/browser/dom/abort-signal-event-map
   find abort-signal-event-map
 
-load @cluesurf/bind/code/browser/webworker/event
+load @term/bind/code/browser/webworker/event
   find event
 
 form abort-signal-event-map, name <AbortSignalEventMap>

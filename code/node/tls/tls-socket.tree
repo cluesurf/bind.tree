@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -14,16 +14,16 @@ load @cluesurf/bind/code/javascript
   find net-socket
   find x509-certificate
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/tls
+load @term/bind/code/node/tls
   find cipher-name-and-protocol
   find detailed-peer-certificate
   find ephemeral-key-info

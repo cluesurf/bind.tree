@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript/safe-array
+load @term/bind/code/javascript/safe-array
   find safe-array
 
-load @cluesurf/bind/code/javascript/t
+load @term/bind/code/javascript/t
   find t
 
 form safe-array, name <SafeArray>

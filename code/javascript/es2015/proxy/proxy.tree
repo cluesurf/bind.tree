@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-object
   find native-void
 
-load @cluesurf/bind/code/javascript/es2015/proxy
+load @term/bind/code/javascript/es2015/proxy
   find proxy-handler
 
 form proxy

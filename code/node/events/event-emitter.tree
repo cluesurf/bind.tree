@@ -1,11 +1,11 @@
 
-bear @cluesurf/bind/code/javascript/node/events/event-emitter/abortable
+bear @term/bind/code/javascript/node/events/event-emitter/abortable
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find async-iterable-iterator
   find function
@@ -17,7 +17,7 @@ load @cluesurf/bind/code/javascript
   find node-js-event-emitter
   find promise
 
-load @cluesurf/bind/code/node/events
+load @term/bind/code/node/events
   find dom-event-target
   find event-emitter-options
   find node-event-target

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/javascript/es2015/iterable
+load @term/bind/code/javascript/es2015/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/es5
+load @term/bind/code/javascript/es5
   find promise-like
 
 form promise

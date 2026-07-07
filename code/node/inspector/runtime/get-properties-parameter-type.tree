@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-undefined
 
-load @cluesurf/bind/code/node/inspector/runtime
+load @term/bind/code/node/inspector/runtime
   find remote-object-id
 
 form get-properties-parameter-type, name <GetPropertiesParameterType>

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/browser/dom
+load @term/bind/code/browser/dom
   find html-element
 
 form custom-element

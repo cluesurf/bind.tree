@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript/var-date
+load @term/bind/code/javascript/var-date
   find var-date
 
 form var-date, name <VarDate>

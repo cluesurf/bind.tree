@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/dns
+load @term/bind/code/node/dns
   find soa-record
 
 form any-soa-record, name <AnySoaRecord>

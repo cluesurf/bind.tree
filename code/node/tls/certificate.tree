@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
 
-load @cluesurf/bind/code/node/crypto/certificate
+load @term/bind/code/node/crypto/certificate
   find certificate
 
 form certificate, name <Certificate>

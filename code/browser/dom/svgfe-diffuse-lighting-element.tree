@@ -1,38 +1,38 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/svg-animated-number
+load @term/bind/code/browser/dom/svg-animated-number
   find svg-animated-number
 
-load @cluesurf/bind/code/browser/dom/svg-animated-string
+load @term/bind/code/browser/dom/svg-animated-string
   find svg-animated-string
 
-load @cluesurf/bind/code/browser/dom/svg-element
+load @term/bind/code/browser/dom/svg-element
   find svg-element
 
-load @cluesurf/bind/code/browser/dom/svg-element-event-map
+load @term/bind/code/browser/dom/svg-element-event-map
   find svg-element-event-map
 
-load @cluesurf/bind/code/browser/dom/svg-filter-primitive-standard-attributes
+load @term/bind/code/browser/dom/svg-filter-primitive-standard-attributes
   find svg-filter-primitive-standard-attributes
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form svgfe-diffuse-lighting-element, name <SVGFEDiffuseLightingElement>

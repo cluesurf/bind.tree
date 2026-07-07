@@ -1,11 +1,11 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-undefined
 
-load @cluesurf/bind/code/node/dns
+load @term/bind/code/node/dns
   find lookup-options
 
 form lookup-one-options, name <LookupOneOptions>

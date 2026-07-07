@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
 
-load @cluesurf/bind/code/node/module
+load @term/bind/code/node/module
   find source-map-payload
   find source-mapping
 

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/close-event
+load @term/bind/code/browser/dom/close-event
   find close-event
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/browser/dom/message-event
+load @term/bind/code/browser/dom/message-event
   find message-event
 
 form web-socket-event-map, name <WebSocketEventMap>

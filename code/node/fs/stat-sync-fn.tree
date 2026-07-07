@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find function
 
 form stat-sync-fn, name <StatSyncFn>

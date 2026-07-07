@@ -1,15 +1,15 @@
 
-load @cluesurf/moon
+load @term/moon
   find form
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
   find promise
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find dsa-key-pair-key-object-options
   find dsa-key-pair-options
   find ec-key-pair-key-object-options

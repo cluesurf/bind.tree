@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -11,11 +11,11 @@ load @cluesurf/bind/code/javascript
   find node-js-dict
   find socket
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find incoming-http-headers
 
 form incoming-message, name <IncomingMessage>

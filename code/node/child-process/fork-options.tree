@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find abortable
   find array
   find native-boolean
   find native-string
   find native-undefined
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/child-process
+load @term/bind/code/node/child-process
   find messaging-options
   find process-env-options
   find stdio-options

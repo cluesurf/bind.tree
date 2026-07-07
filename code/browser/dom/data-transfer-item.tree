@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/file
+load @term/bind/code/browser/dom/file
   find file
 
-load @cluesurf/bind/code/browser/dom/file-system-entry
+load @term/bind/code/browser/dom/file-system-entry
   find file-system-entry
 
-load @cluesurf/bind/code/browser/dom/function-string-callback
+load @term/bind/code/browser/dom/function-string-callback
   find function-string-callback
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form data-transfer-item, name <DataTransferItem>

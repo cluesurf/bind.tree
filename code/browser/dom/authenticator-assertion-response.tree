@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/authenticator-response
+load @term/bind/code/browser/dom/authenticator-response
   find authenticator-response
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
 form authenticator-assertion-response, name <AuthenticatorAssertionResponse>

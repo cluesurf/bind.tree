@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -15,13 +15,13 @@ load @cluesurf/bind/code/javascript
   find readable
   find writable
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
   find tuple
 
-load @cluesurf/bind/code/node/child-process
+load @term/bind/code/node/child-process
   find message-options
   find send-handle
   find serializable

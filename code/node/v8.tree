@@ -1,14 +1,14 @@
 
-bear @cluesurf/bind/code/javascript/node/v8/heap-space-info
-bear @cluesurf/bind/code/javascript/node/v8/does-zap-code-space-flag
-bear @cluesurf/bind/code/javascript/node/v8/heap-info
-bear @cluesurf/bind/code/javascript/node/v8/heap-code-statistics
-bear @cluesurf/bind/code/javascript/node/v8/serializer
-bear @cluesurf/bind/code/javascript/node/v8/default-serializer
-bear @cluesurf/bind/code/javascript/node/v8/deserializer
-bear @cluesurf/bind/code/javascript/node/v8/default-deserializer
+bear @term/bind/code/javascript/node/v8/heap-space-info
+bear @term/bind/code/javascript/node/v8/does-zap-code-space-flag
+bear @term/bind/code/javascript/node/v8/heap-info
+bear @term/bind/code/javascript/node/v8/heap-code-statistics
+bear @term/bind/code/javascript/node/v8/serializer
+bear @term/bind/code/javascript/node/v8/default-serializer
+bear @term/bind/code/javascript/node/v8/deserializer
+bear @term/bind/code/javascript/node/v8/default-deserializer
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-number
   find native-string
@@ -16,13 +16,13 @@ load @cluesurf/bind/code/javascript
   find node-js-typed-array
   find readable
 
-load @cluesurf/moon
+load @term/moon
   find any
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/v8
+load @term/bind/code/node/v8
   find heap-code-statistics
   find heap-info
   find heap-space-info

@@ -1,35 +1,35 @@
 
-load @cluesurf/bind/code/browser/dom/element
+load @term/bind/code/browser/dom/element
   find element
 
-load @cluesurf/bind/code/browser/dom/html-collection
+load @term/bind/code/browser/dom/html-collection
   find html-collection
 
-load @cluesurf/bind/code/browser/dom/html-element-tag-name-map
+load @term/bind/code/browser/dom/html-element-tag-name-map
   find html-element-tag-name-map
 
-load @cluesurf/bind/code/browser/dom/node
+load @term/bind/code/browser/dom/node
   find node
 
-load @cluesurf/bind/code/browser/dom/node-list-of
+load @term/bind/code/browser/dom/node-list-of
   find node-list-of
 
-load @cluesurf/bind/code/browser/dom/svg-element-tag-name-map
+load @term/bind/code/browser/dom/svg-element-tag-name-map
   find svg-element-tag-name-map
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form parent-node, name <ParentNode>

@@ -1,5 +1,5 @@
 
-deck @cluesurf/bind
+deck @term/bind
   mark <0.0.1>
   bear code
   head <The Seed Platform Binding Library>

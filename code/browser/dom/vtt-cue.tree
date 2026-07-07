@@ -1,56 +1,56 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/align-setting
+load @term/bind/code/browser/dom/align-setting
   find align-setting
 
-load @cluesurf/bind/code/browser/dom/direction-setting
+load @term/bind/code/browser/dom/direction-setting
   find direction-setting
 
-load @cluesurf/bind/code/browser/dom/document-fragment
+load @term/bind/code/browser/dom/document-fragment
   find document-fragment
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/line-align-setting
+load @term/bind/code/browser/dom/line-align-setting
   find line-align-setting
 
-load @cluesurf/bind/code/browser/dom/line-and-position-setting
+load @term/bind/code/browser/dom/line-and-position-setting
   find line-and-position-setting
 
-load @cluesurf/bind/code/browser/dom/position-align-setting
+load @term/bind/code/browser/dom/position-align-setting
   find position-align-setting
 
-load @cluesurf/bind/code/browser/dom/text-track-cue
+load @term/bind/code/browser/dom/text-track-cue
   find text-track-cue
 
-load @cluesurf/bind/code/browser/dom/text-track-cue-event-map
+load @term/bind/code/browser/dom/text-track-cue-event-map
   find text-track-cue-event-map
 
-load @cluesurf/bind/code/browser/dom/vtt-region
+load @term/bind/code/browser/dom/vtt-region
   find vtt-region
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form vtt-cue, name <VTTCue>

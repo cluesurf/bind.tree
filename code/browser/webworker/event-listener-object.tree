@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/event-listener-object
+load @term/bind/code/browser/dom/event-listener-object
   find event-listener-object
 
-load @cluesurf/bind/code/browser/webworker/event
+load @term/bind/code/browser/webworker/event
   find event
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form event-listener-object, name <EventListenerObject>

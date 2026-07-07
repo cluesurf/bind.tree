@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find function
@@ -9,7 +9,7 @@ load @cluesurf/bind/code/javascript
   find native-void
   find node-js-call-site
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task

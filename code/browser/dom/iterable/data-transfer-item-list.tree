@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/data-transfer-item
+load @term/bind/code/browser/dom/data-transfer-item
   find data-transfer-item
 
-load @cluesurf/bind/code/browser/dom/data-transfer-item-list
+load @term/bind/code/browser/dom/data-transfer-item-list
   find data-transfer-item-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form data-transfer-item-list, name <DataTransferItemList>

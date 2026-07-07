@@ -1,12 +1,12 @@
 
-bear @cluesurf/bind/code/javascript/node/os/constants/signals
-bear @cluesurf/bind/code/javascript/node/os/constants/errno
-bear @cluesurf/bind/code/javascript/node/os/constants/priority
+bear @term/bind/code/javascript/node/os/constants/signals
+bear @term/bind/code/javascript/node/os/constants/errno
+bear @term/bind/code/javascript/node/os/constants/priority
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
 
-load @cluesurf/bind/code/node/os
+load @term/bind/code/node/os
   find signal-constants
 
 host uv-udp-reuseaddr, name <UV_UDP_REUSEADDR>

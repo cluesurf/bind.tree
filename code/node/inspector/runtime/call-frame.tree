@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
 
-load @cluesurf/bind/code/node/inspector/runtime
+load @term/bind/code/node/inspector/runtime
   find script-id
 
 form call-frame, name <CallFrame>

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
 
-load @cluesurf/bind/code/node/fs/stat-options
+load @term/bind/code/node/fs/stat-options
   find stat-options
 
 form stat-options, name <StatOptions>

@@ -1,15 +1,15 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find error
   find native-null
   find native-string
   find native-void
 
-load @cluesurf/bind/code/node/readline
+load @term/bind/code/node/readline
   find completer-result
 
 form async-completer, name <AsyncCompleter>

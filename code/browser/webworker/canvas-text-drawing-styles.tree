@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom/canvas-text-drawing-styles
+load @term/bind/code/browser/dom/canvas-text-drawing-styles
   find canvas-text-drawing-styles
 
-load @cluesurf/bind/code/browser/webworker/canvas-direction
+load @term/bind/code/browser/webworker/canvas-direction
   find canvas-direction
 
-load @cluesurf/bind/code/browser/webworker/canvas-text-align
+load @term/bind/code/browser/webworker/canvas-text-align
   find canvas-text-align
 
-load @cluesurf/bind/code/browser/webworker/canvas-text-baseline
+load @term/bind/code/browser/webworker/canvas-text-baseline
   find canvas-text-baseline
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form canvas-text-drawing-styles, name <CanvasTextDrawingStyles>

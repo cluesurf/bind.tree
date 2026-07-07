@@ -1,38 +1,38 @@
 
-bear @cluesurf/bind/code/javascript/node/net/lookup-function
-bear @cluesurf/bind/code/javascript/node/net/address-info
-bear @cluesurf/bind/code/javascript/node/net/socket-constructor-opts
-bear @cluesurf/bind/code/javascript/node/net/on-read-opts
-bear @cluesurf/bind/code/javascript/node/net/connect-opts
-bear @cluesurf/bind/code/javascript/node/net/tcp-socket-connect-opts
-bear @cluesurf/bind/code/javascript/node/net/ipc-socket-connect-opts
-bear @cluesurf/bind/code/javascript/node/net/socket-connect-opts
-bear @cluesurf/bind/code/javascript/node/net/socket
-bear @cluesurf/bind/code/javascript/node/net/listen-options
-bear @cluesurf/bind/code/javascript/node/net/server-opts
-bear @cluesurf/bind/code/javascript/node/net/server
-bear @cluesurf/bind/code/javascript/node/net/ip-version
-bear @cluesurf/bind/code/javascript/node/net/block-list
-bear @cluesurf/bind/code/javascript/node/net/tcp-net-connect-opts
-bear @cluesurf/bind/code/javascript/node/net/ipc-net-connect-opts
-bear @cluesurf/bind/code/javascript/node/net/net-connect-opts
-bear @cluesurf/bind/code/javascript/node/net/socket-address-init-options
-bear @cluesurf/bind/code/javascript/node/net/socket-address
+bear @term/bind/code/javascript/node/net/lookup-function
+bear @term/bind/code/javascript/node/net/address-info
+bear @term/bind/code/javascript/node/net/socket-constructor-opts
+bear @term/bind/code/javascript/node/net/on-read-opts
+bear @term/bind/code/javascript/node/net/connect-opts
+bear @term/bind/code/javascript/node/net/tcp-socket-connect-opts
+bear @term/bind/code/javascript/node/net/ipc-socket-connect-opts
+bear @term/bind/code/javascript/node/net/socket-connect-opts
+bear @term/bind/code/javascript/node/net/socket
+bear @term/bind/code/javascript/node/net/listen-options
+bear @term/bind/code/javascript/node/net/server-opts
+bear @term/bind/code/javascript/node/net/server
+bear @term/bind/code/javascript/node/net/ip-version
+bear @term/bind/code/javascript/node/net/block-list
+bear @term/bind/code/javascript/node/net/tcp-net-connect-opts
+bear @term/bind/code/javascript/node/net/ipc-net-connect-opts
+bear @term/bind/code/javascript/node/net/net-connect-opts
+bear @term/bind/code/javascript/node/net/socket-address-init-options
+bear @term/bind/code/javascript/node/net/socket-address
 
-load @cluesurf/moon
+load @term/moon
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-number
   find native-string
   find native-void
   find socket
 
-load @cluesurf/bind/code/node/https
+load @term/bind/code/node/https
   find server
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find net-connect-opts
   find server-opts
 

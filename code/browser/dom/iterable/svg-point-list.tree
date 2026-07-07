@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/dom-point
+load @term/bind/code/browser/dom/dom-point
   find dom-point
 
-load @cluesurf/bind/code/browser/dom/svg-point-list
+load @term/bind/code/browser/dom/svg-point-list
   find svg-point-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form svg-point-list, name <SVGPointList>

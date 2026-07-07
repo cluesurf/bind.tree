@@ -1,12 +1,12 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-number
   find native-string
   find native-undefined
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task

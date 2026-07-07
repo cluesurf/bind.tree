@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/dom-high-res-time-stamp
+load @term/bind/code/browser/dom/dom-high-res-time-stamp
   find dom-high-res-time-stamp
 
-load @cluesurf/bind/code/browser/dom/rtc-stats-type
+load @term/bind/code/browser/dom/rtc-stats-type
   find rtc-stats-type
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form rtc-stats, name <RTCStats>

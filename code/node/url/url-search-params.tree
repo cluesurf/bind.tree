@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find iterable
   find iterable-iterator
@@ -11,13 +11,13 @@ load @cluesurf/bind/code/javascript
   find readonly-array
   find record
 
-load @cluesurf/moon
+load @term/moon
   find like
   find or
   find task
   find tuple
 
-load @cluesurf/bind/code/node/url
+load @term/bind/code/node/url
   find url-search-params
 
 form url-search-params, name <URLSearchParams>

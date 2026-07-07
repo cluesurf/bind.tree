@@ -1,21 +1,21 @@
 
-bear @cluesurf/bind/code/javascript/node/dgram/remote-info
-bear @cluesurf/bind/code/javascript/node/dgram/bind-options
-bear @cluesurf/bind/code/javascript/node/dgram/socket-type
-bear @cluesurf/bind/code/javascript/node/dgram/socket-options
-bear @cluesurf/bind/code/javascript/node/dgram/socket
+bear @term/bind/code/javascript/node/dgram/remote-info
+bear @term/bind/code/javascript/node/dgram/bind-options
+bear @term/bind/code/javascript/node/dgram/socket-type
+bear @term/bind/code/javascript/node/dgram/socket-options
+bear @term/bind/code/javascript/node/dgram/socket
 
-load @cluesurf/moon
+load @term/moon
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-void
   find socket
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/dgram
+load @term/bind/code/node/dgram
   find remote-info
   find socket-options
   find socket-type

@@ -1,8 +1,8 @@
 
-bear @cluesurf/bind/code/javascript/node/diagnostics-channel/channel-listener
-bear @cluesurf/bind/code/javascript/node/diagnostics-channel/channel
+bear @term/bind/code/javascript/node/diagnostics-channel/channel-listener
+bear @term/bind/code/javascript/node/diagnostics-channel/channel
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find channel
   find native-boolean
   find native-string

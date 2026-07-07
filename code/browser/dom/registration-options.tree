@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/service-worker-update-via-cache
+load @term/bind/code/browser/dom/service-worker-update-via-cache
   find service-worker-update-via-cache
 
-load @cluesurf/bind/code/browser/dom/worker-type
+load @term/bind/code/browser/dom/worker-type
   find worker-type
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form registration-options, name <RegistrationOptions>

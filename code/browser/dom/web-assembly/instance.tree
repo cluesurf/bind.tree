@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom/exports
+load @term/bind/code/browser/dom/exports
   find exports
 
 form instance, name <Instance>

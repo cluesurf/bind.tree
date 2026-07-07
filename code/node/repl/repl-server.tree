@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find context
   find error
@@ -13,16 +13,16 @@ load @cluesurf/bind/code/javascript
   find node-js-readable-stream
   find node-js-writable-stream
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/readline
+load @term/bind/code/node/readline
   find async-completer
   find completer
 
-load @cluesurf/bind/code/node/repl
+load @term/bind/code/node/repl
   find repl-command
   find repl-command-action
   find repl-eval

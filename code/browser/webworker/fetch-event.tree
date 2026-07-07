@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/webworker/extendable-event
+load @term/bind/code/browser/webworker/extendable-event
   find extendable-event
 
-load @cluesurf/bind/code/browser/webworker/request
+load @term/bind/code/browser/webworker/request
   find request
 
-load @cluesurf/bind/code/browser/webworker/response
+load @term/bind/code/browser/webworker/response
   find response
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form fetch-event, name <FetchEvent>

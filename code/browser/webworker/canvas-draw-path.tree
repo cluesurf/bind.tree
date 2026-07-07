@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/canvas-draw-path
+load @term/bind/code/browser/dom/canvas-draw-path
   find canvas-draw-path
 
-load @cluesurf/bind/code/browser/webworker/canvas-fill-rule
+load @term/bind/code/browser/webworker/canvas-fill-rule
   find canvas-fill-rule
 
-load @cluesurf/bind/code/browser/webworker/path2-d
+load @term/bind/code/browser/webworker/path2-d
   find path2-d
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form canvas-draw-path, name <CanvasDrawPath>

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/global-descriptor
+load @term/bind/code/browser/dom/global-descriptor
   find global-descriptor
 
-load @cluesurf/bind/code/browser/webworker/value-type
+load @term/bind/code/browser/webworker/value-type
   find value-type
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
 form global-descriptor, name <GlobalDescriptor>

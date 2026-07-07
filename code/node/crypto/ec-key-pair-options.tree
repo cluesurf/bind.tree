@@ -1,14 +1,14 @@
 
-load @cluesurf/moon
+load @term/moon
   find and
   find form
   find like
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find base-private-key-encoding-options
   find key-format
 

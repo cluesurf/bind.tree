@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/canvas-image-smoothing
+load @term/bind/code/browser/dom/canvas-image-smoothing
   find canvas-image-smoothing
 
-load @cluesurf/bind/code/browser/webworker/image-smoothing-quality
+load @term/bind/code/browser/webworker/image-smoothing-quality
   find image-smoothing-quality
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
 form canvas-image-smoothing, name <CanvasImageSmoothing>

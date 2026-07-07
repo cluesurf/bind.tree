@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es5/resolved-number-format-options
+load @term/bind/code/javascript/es5/resolved-number-format-options
   find resolved-number-format-options
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form number-format, name <NumberFormat>

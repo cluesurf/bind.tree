@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
 
-load @cluesurf/bind/code/node/util
+load @term/bind/code/node/util
   find inspect-options-stylized
 
 form custom-inspect-function, name <CustomInspectFunction>

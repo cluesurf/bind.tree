@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom/event-init
+load @term/bind/code/browser/dom/event-init
   find event-init
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
 form event-init, name <EventInit>

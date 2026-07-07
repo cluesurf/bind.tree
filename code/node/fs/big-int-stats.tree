@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-bigint
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find stats-base
 
 form big-int-stats, name <BigIntStats>

@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-number
   find native-string
   find promise
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/dns
+load @term/bind/code/node/dns
   find lookup-address
   find lookup-all-options
   find lookup-one-options

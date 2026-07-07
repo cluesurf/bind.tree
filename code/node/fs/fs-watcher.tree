@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-string
   find native-this
   find native-void
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/events
+load @term/bind/code/node/events
   find event-emitter
 
 form fs-watcher, name <FSWatcher>

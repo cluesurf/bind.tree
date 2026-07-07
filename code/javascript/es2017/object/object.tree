@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/es5
+load @term/bind/code/javascript/es5
   find array-like
   find property-descriptor
   find typed-property-descriptor

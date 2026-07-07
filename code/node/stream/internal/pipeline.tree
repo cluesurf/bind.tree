@@ -1,10 +1,10 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-void
   find node-js-read-write-stream
   find node-js-readable-stream
@@ -12,10 +12,10 @@ load @cluesurf/bind/code/javascript
   find promise
   find readonly-array
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find array
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find pipeline-destination
   find pipeline-options
   find pipeline-promise

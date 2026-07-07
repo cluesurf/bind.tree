@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-this
 
-load @cluesurf/bind/code/node/events
+load @term/bind/code/node/events
   find event-emitter
 
 form stat-watcher, name <StatWatcher>

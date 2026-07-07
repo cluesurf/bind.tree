@@ -1,44 +1,44 @@
 
-load @cluesurf/bind/code/browser/dom/g-lboolean
+load @term/bind/code/browser/dom/g-lboolean
   find g-lboolean
 
-load @cluesurf/bind/code/browser/dom/g-lenum
+load @term/bind/code/browser/dom/g-lenum
   find g-lenum
 
-load @cluesurf/bind/code/browser/dom/g-lfloat
+load @term/bind/code/browser/dom/g-lfloat
   find g-lfloat
 
-load @cluesurf/bind/code/browser/dom/g-lint
+load @term/bind/code/browser/dom/g-lint
   find g-lint
 
-load @cluesurf/bind/code/browser/dom/g-lsizei
+load @term/bind/code/browser/dom/g-lsizei
   find g-lsizei
 
-load @cluesurf/bind/code/browser/dom/g-luint
+load @term/bind/code/browser/dom/g-luint
   find g-luint
 
-load @cluesurf/bind/code/browser/dom/web-gl-program
+load @term/bind/code/browser/dom/web-gl-program
   find web-gl-program
 
-load @cluesurf/bind/code/browser/dom/web-gl-uniform-location
+load @term/bind/code/browser/dom/web-gl-uniform-location
   find web-gl-uniform-location
 
-load @cluesurf/bind/code/browser/dom/web-gl2-rendering-context-base
+load @term/bind/code/browser/dom/web-gl2-rendering-context-base
   find web-gl2-rendering-context-base
 
-load @cluesurf/bind/code/javascript/iterable
+load @term/bind/code/javascript/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form web-gl2-rendering-context-base, name <WebGL2RenderingContextBase>

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/multi-cache-query-options
+load @term/bind/code/browser/dom/multi-cache-query-options
   find multi-cache-query-options
 
-load @cluesurf/bind/code/browser/webworker/cache-query-options
+load @term/bind/code/browser/webworker/cache-query-options
   find cache-query-options
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form multi-cache-query-options, name <MultiCacheQueryOptions>

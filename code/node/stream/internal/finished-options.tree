@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-undefined
 
-load @cluesurf/bind/code/node/events/event-emitter
+load @term/bind/code/node/events/event-emitter
   find abortable
 
 form finished-options, name <FinishedOptions>

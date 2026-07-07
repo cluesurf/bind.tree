@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-undefined
@@ -7,10 +7,10 @@ load @cluesurf/bind/code/javascript
   find runtime-stack-trace
   find runtime-stack-trace-id
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/inspector/debugger
+load @term/bind/code/node/inspector/debugger
   find call-frame
 
 form set-script-source-return-type, name <SetScriptSourceReturnType>

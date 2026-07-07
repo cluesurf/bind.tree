@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/browser/dom/request-credentials
+load @term/bind/code/browser/dom/request-credentials
   find request-credentials
 
 form worklet-options, name <WorkletOptions>

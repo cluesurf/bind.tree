@@ -1,9 +1,9 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-null
   find native-number

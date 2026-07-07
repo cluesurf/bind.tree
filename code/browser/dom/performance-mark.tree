@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom/performance-entry
+load @term/bind/code/browser/dom/performance-entry
   find performance-entry
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
 form performance-mark, name <PerformanceMark>

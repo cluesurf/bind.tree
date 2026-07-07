@@ -1,20 +1,20 @@
 
-load @cluesurf/bind/code/browser/dom/oes-vertex-array-object
+load @term/bind/code/browser/dom/oes-vertex-array-object
   find oes-vertex-array-object
 
-load @cluesurf/bind/code/browser/webworker/g-lboolean
+load @term/bind/code/browser/webworker/g-lboolean
   find g-lboolean
 
-load @cluesurf/bind/code/browser/webworker/g-lenum
+load @term/bind/code/browser/webworker/g-lenum
   find g-lenum
 
-load @cluesurf/bind/code/browser/webworker/web-gl-vertex-array-object-oes
+load @term/bind/code/browser/webworker/web-gl-vertex-array-object-oes
   find web-gl-vertex-array-object-oes
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form oes-vertex-array-object, name <OES_vertex_array_object>

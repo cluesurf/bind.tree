@@ -1,125 +1,125 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/analyser-node
+load @term/bind/code/browser/dom/analyser-node
   find analyser-node
 
-load @cluesurf/bind/code/browser/dom/audio-buffer
+load @term/bind/code/browser/dom/audio-buffer
   find audio-buffer
 
-load @cluesurf/bind/code/browser/dom/audio-buffer-source-node
+load @term/bind/code/browser/dom/audio-buffer-source-node
   find audio-buffer-source-node
 
-load @cluesurf/bind/code/browser/dom/audio-context-state
+load @term/bind/code/browser/dom/audio-context-state
   find audio-context-state
 
-load @cluesurf/bind/code/browser/dom/audio-destination-node
+load @term/bind/code/browser/dom/audio-destination-node
   find audio-destination-node
 
-load @cluesurf/bind/code/browser/dom/audio-listener
+load @term/bind/code/browser/dom/audio-listener
   find audio-listener
 
-load @cluesurf/bind/code/browser/dom/audio-worklet
+load @term/bind/code/browser/dom/audio-worklet
   find audio-worklet
 
-load @cluesurf/bind/code/browser/dom/base-audio-context-event-map
+load @term/bind/code/browser/dom/base-audio-context-event-map
   find base-audio-context-event-map
 
-load @cluesurf/bind/code/browser/dom/biquad-filter-node
+load @term/bind/code/browser/dom/biquad-filter-node
   find biquad-filter-node
 
-load @cluesurf/bind/code/browser/dom/channel-merger-node
+load @term/bind/code/browser/dom/channel-merger-node
   find channel-merger-node
 
-load @cluesurf/bind/code/browser/dom/channel-splitter-node
+load @term/bind/code/browser/dom/channel-splitter-node
   find channel-splitter-node
 
-load @cluesurf/bind/code/browser/dom/constant-source-node
+load @term/bind/code/browser/dom/constant-source-node
   find constant-source-node
 
-load @cluesurf/bind/code/browser/dom/convolver-node
+load @term/bind/code/browser/dom/convolver-node
   find convolver-node
 
-load @cluesurf/bind/code/browser/dom/decode-error-callback
+load @term/bind/code/browser/dom/decode-error-callback
   find decode-error-callback
 
-load @cluesurf/bind/code/browser/dom/decode-success-callback
+load @term/bind/code/browser/dom/decode-success-callback
   find decode-success-callback
 
-load @cluesurf/bind/code/browser/dom/delay-node
+load @term/bind/code/browser/dom/delay-node
   find delay-node
 
-load @cluesurf/bind/code/browser/dom/dynamics-compressor-node
+load @term/bind/code/browser/dom/dynamics-compressor-node
   find dynamics-compressor-node
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/event-target
+load @term/bind/code/browser/dom/event-target
   find event-target
 
-load @cluesurf/bind/code/browser/dom/gain-node
+load @term/bind/code/browser/dom/gain-node
   find gain-node
 
-load @cluesurf/bind/code/browser/dom/iir-filter-node
+load @term/bind/code/browser/dom/iir-filter-node
   find iir-filter-node
 
-load @cluesurf/bind/code/browser/dom/oscillator-node
+load @term/bind/code/browser/dom/oscillator-node
   find oscillator-node
 
-load @cluesurf/bind/code/browser/dom/panner-node
+load @term/bind/code/browser/dom/panner-node
   find panner-node
 
-load @cluesurf/bind/code/browser/dom/periodic-wave
+load @term/bind/code/browser/dom/periodic-wave
   find periodic-wave
 
-load @cluesurf/bind/code/browser/dom/periodic-wave-constraints
+load @term/bind/code/browser/dom/periodic-wave-constraints
   find periodic-wave-constraints
 
-load @cluesurf/bind/code/browser/dom/script-processor-node
+load @term/bind/code/browser/dom/script-processor-node
   find script-processor-node
 
-load @cluesurf/bind/code/browser/dom/stereo-panner-node
+load @term/bind/code/browser/dom/stereo-panner-node
   find stereo-panner-node
 
-load @cluesurf/bind/code/browser/dom/wave-shaper-node
+load @term/bind/code/browser/dom/wave-shaper-node
   find wave-shaper-node
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/es5/float32-array
+load @term/bind/code/javascript/es5/float32-array
   find float32-array
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form base-audio-context, name <BaseAudioContext>

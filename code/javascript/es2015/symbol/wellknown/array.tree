@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript/es2015/iterable/array
+load @term/bind/code/javascript/es2015/iterable/array
   find array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
 form array, name <Array>

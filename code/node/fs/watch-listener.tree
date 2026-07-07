@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find like
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-void
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find watch-event-type
 
 form watch-listener, name <WatchListener>

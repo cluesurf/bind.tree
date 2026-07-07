@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find runtime-remote-object
 
 form get-object-by-heap-object-id-return-type, name <GetObjectByHeapObjectIdReturnType>

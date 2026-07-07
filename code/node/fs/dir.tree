@@ -1,9 +1,9 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find async-iterable-iterator
   find dirent
   find native-null
@@ -12,7 +12,7 @@ load @cluesurf/bind/code/javascript
   find node-js-errno-exception
   find promise
 
-load @cluesurf/bind/code/node/fs
+load @term/bind/code/node/fs
   find no-param-callback
 
 form dir, name <Dir>

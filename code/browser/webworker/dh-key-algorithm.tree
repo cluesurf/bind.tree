@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/webworker/key-algorithm
+load @term/bind/code/browser/webworker/key-algorithm
   find key-algorithm
 
-load @cluesurf/bind/code/javascript/es5/uint8-array
+load @term/bind/code/javascript/es5/uint8-array
   find uint8-array
 
 form dh-key-algorithm, name <DhKeyAlgorithm>

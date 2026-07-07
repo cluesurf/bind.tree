@@ -1,62 +1,62 @@
 
-load @cluesurf/bind/code/browser/dom/window-or-worker-global-scope
+load @term/bind/code/browser/dom/window-or-worker-global-scope
   find window-or-worker-global-scope
 
-load @cluesurf/bind/code/browser/webworker/cache-storage
+load @term/bind/code/browser/webworker/cache-storage
   find cache-storage
 
-load @cluesurf/bind/code/browser/webworker/crypto
+load @term/bind/code/browser/webworker/crypto
   find crypto
 
-load @cluesurf/bind/code/browser/webworker/idb-factory
+load @term/bind/code/browser/webworker/idb-factory
   find idb-factory
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap
+load @term/bind/code/browser/webworker/image-bitmap
   find image-bitmap
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap-options
+load @term/bind/code/browser/webworker/image-bitmap-options
   find image-bitmap-options
 
-load @cluesurf/bind/code/browser/webworker/image-bitmap-source
+load @term/bind/code/browser/webworker/image-bitmap-source
   find image-bitmap-source
 
-load @cluesurf/bind/code/browser/webworker/performance
+load @term/bind/code/browser/webworker/performance
   find performance
 
-load @cluesurf/bind/code/browser/webworker/request-info
+load @term/bind/code/browser/webworker/request-info
   find request-info
 
-load @cluesurf/bind/code/browser/webworker/request-init
+load @term/bind/code/browser/webworker/request-init
   find request-init
 
-load @cluesurf/bind/code/browser/webworker/response
+load @term/bind/code/browser/webworker/response
   find response
 
-load @cluesurf/bind/code/browser/webworker/timer-handler
+load @term/bind/code/browser/webworker/timer-handler
   find timer-handler
 
-load @cluesurf/bind/code/browser/webworker/void-function
+load @term/bind/code/browser/webworker/void-function
   find void-function
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form window-or-worker-global-scope, name <WindowOrWorkerGlobalScope>

@@ -1,18 +1,18 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find fs-stats
   find native-boolean
   find native-number
   find native-undefined
   find native-void
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find outgoing-http-headers
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find stat-options
 
 form server-stream-file-response-options, name <ServerStreamFileResponseOptions>

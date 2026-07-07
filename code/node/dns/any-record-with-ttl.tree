@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/dns
+load @term/bind/code/node/dns
   find any-a-record
   find any-aaaa-record
 

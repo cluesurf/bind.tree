@@ -1,11 +1,11 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-undefined
 
-load @cluesurf/bind/code/node/http2
+load @term/bind/code/node/http2
   find session-options
 
 form server-session-options, name <ServerSessionOptions>

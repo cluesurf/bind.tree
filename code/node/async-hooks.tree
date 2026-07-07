@@ -1,15 +1,15 @@
 
-bear @cluesurf/bind/code/javascript/node/async-hooks/hook-callbacks
-bear @cluesurf/bind/code/javascript/node/async-hooks/async-hook
-bear @cluesurf/bind/code/javascript/node/async-hooks/async-resource-options
-bear @cluesurf/bind/code/javascript/node/async-hooks/async-resource
-bear @cluesurf/bind/code/javascript/node/async-hooks/async-local-storage
+bear @term/bind/code/javascript/node/async-hooks/hook-callbacks
+bear @term/bind/code/javascript/node/async-hooks/async-hook
+bear @term/bind/code/javascript/node/async-hooks/async-resource-options
+bear @term/bind/code/javascript/node/async-hooks/async-resource
+bear @term/bind/code/javascript/node/async-hooks/async-local-storage
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-object
 
-load @cluesurf/bind/code/node/async-hooks
+load @term/bind/code/node/async-hooks
   find async-hook
   find hook-callbacks
 

@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom/table
+load @term/bind/code/browser/dom/table
   find table
 
-load @cluesurf/bind/code/javascript/es5/function
+load @term/bind/code/javascript/es5/function
   find function
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form table, name <Table>

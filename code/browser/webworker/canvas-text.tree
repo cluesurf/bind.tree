@@ -1,17 +1,17 @@
 
-load @cluesurf/bind/code/browser/dom/canvas-text
+load @term/bind/code/browser/dom/canvas-text
   find canvas-text
 
-load @cluesurf/bind/code/browser/webworker/text-metrics
+load @term/bind/code/browser/webworker/text-metrics
   find text-metrics
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form canvas-text, name <CanvasText>

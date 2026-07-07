@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom/buffer-source
+load @term/bind/code/browser/dom/buffer-source
   find buffer-source
 
-load @cluesurf/bind/code/browser/dom/media-key-status
+load @term/bind/code/browser/dom/media-key-status
   find media-key-status
 
-load @cluesurf/bind/code/browser/dom/media-key-status-map
+load @term/bind/code/browser/dom/media-key-status-map
   find media-key-status-map
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form media-key-status-map, name <MediaKeyStatusMap>

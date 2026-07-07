@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/https
+load @term/bind/code/node/https
   find agent-options
 
 form agent, name <Agent>

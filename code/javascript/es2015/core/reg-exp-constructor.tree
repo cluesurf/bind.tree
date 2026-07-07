@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2015/core/reg-exp
+load @term/bind/code/javascript/es2015/core/reg-exp
   find reg-exp
 
-load @cluesurf/bind/code/javascript/es5/reg-exp-constructor
+load @term/bind/code/javascript/es5/reg-exp-constructor
   find reg-exp-constructor
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form reg-exp-constructor, name <RegExpConstructor>

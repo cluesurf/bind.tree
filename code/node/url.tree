@@ -1,19 +1,19 @@
 
-bear @cluesurf/bind/code/javascript/node/url/url-object
-bear @cluesurf/bind/code/javascript/node/url/url
-bear @cluesurf/bind/code/javascript/node/url/url-with-parsed-query
-bear @cluesurf/bind/code/javascript/node/url/url-with-string-query
-bear @cluesurf/bind/code/javascript/node/url/url-format-options
-bear @cluesurf/bind/code/javascript/node/url/url-search-params
-bear @cluesurf/bind/code/javascript/node/url/global
+bear @term/bind/code/javascript/node/url/url-object
+bear @term/bind/code/javascript/node/url/url
+bear @term/bind/code/javascript/node/url/url-with-parsed-query
+bear @term/bind/code/javascript/node/url/url-with-string-query
+bear @term/bind/code/javascript/node/url/url-format-options
+bear @term/bind/code/javascript/node/url/url-search-params
+bear @term/bind/code/javascript/node/url/global
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find test
 
-load @cluesurf/bind/code/node/url
+load @term/bind/code/node/url
   find url
   find url-format-options
   find url-object
@@ -21,12 +21,12 @@ load @cluesurf/bind/code/node/url
   find url-with-parsed-query
   find url-with-string-query
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-string
   find native-undefined
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find client-request-args
 
 host url, name <URL>

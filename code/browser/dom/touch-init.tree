@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/event-target
+load @term/bind/code/browser/dom/event-target
   find event-target
 
-load @cluesurf/bind/code/browser/dom/touch-type
+load @term/bind/code/browser/dom/touch-type
   find touch-type
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form touch-init, name <TouchInit>

@@ -1,29 +1,29 @@
 
-load @cluesurf/bind/code/browser/webworker/client
+load @term/bind/code/browser/webworker/client
   find client
 
-load @cluesurf/bind/code/browser/webworker/client-query-options
+load @term/bind/code/browser/webworker/client-query-options
   find client-query-options
 
-load @cluesurf/bind/code/browser/webworker/window-client
+load @term/bind/code/browser/webworker/window-client
   find window-client
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/es5/readonly-array
+load @term/bind/code/javascript/es5/readonly-array
   find readonly-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-undefined
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form clients, name <Clients>

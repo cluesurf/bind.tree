@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript/es2015/collection/weak-set
+load @term/bind/code/javascript/es2015/collection/weak-set
   find weak-set
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-object
 
 form weak-set-constructor, name <WeakSetConstructor>

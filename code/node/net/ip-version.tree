@@ -1,5 +1,5 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
 form ip-version, name <IPVersion>

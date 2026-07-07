@@ -1,7 +1,7 @@
 
-bear @cluesurf/bind/code/javascript/es2018
-bear @cluesurf/bind/code/javascript/es2019/array
-bear @cluesurf/bind/code/javascript/es2019/object
-bear @cluesurf/bind/code/javascript/es2019/string
-bear @cluesurf/bind/code/javascript/es2019/symbol
-bear @cluesurf/bind/code/javascript/es2019/full
+bear @term/bind/code/javascript/es2018
+bear @term/bind/code/javascript/es2019/array
+bear @term/bind/code/javascript/es2019/object
+bear @term/bind/code/javascript/es2019/string
+bear @term/bind/code/javascript/es2019/symbol
+bear @term/bind/code/javascript/es2019/full

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/audio-param
+load @term/bind/code/browser/dom/audio-param
   find audio-param
 
-load @cluesurf/bind/code/javascript/iterable
+load @term/bind/code/javascript/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form audio-param, name <AudioParam>

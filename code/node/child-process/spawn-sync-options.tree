@@ -1,18 +1,18 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-null
   find native-number
   find native-string
   find native-undefined
   find node-js-array-buffer-view
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/child-process
+load @term/bind/code/node/child-process
   find common-spawn-options
 
 form spawn-sync-options, name <SpawnSyncOptions>

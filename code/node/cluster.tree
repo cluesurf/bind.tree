@@ -1,10 +1,10 @@
 
-bear @cluesurf/bind/code/javascript/node/cluster/cluster-settings
-bear @cluesurf/bind/code/javascript/node/cluster/address
-bear @cluesurf/bind/code/javascript/node/cluster/worker
-bear @cluesurf/bind/code/javascript/node/cluster/cluster
+bear @term/bind/code/javascript/node/cluster/cluster-settings
+bear @term/bind/code/javascript/node/cluster/address
+bear @term/bind/code/javascript/node/cluster/worker
+bear @term/bind/code/javascript/node/cluster/cluster
 
-load @cluesurf/bind/code/node/cluster
+load @term/bind/code/node/cluster
   find cluster
 
 host cluster, name <cluster>

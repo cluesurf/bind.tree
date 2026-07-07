@@ -1,36 +1,36 @@
 
-bear @cluesurf/bind/code/javascript/es5/intl/collator-options
-bear @cluesurf/bind/code/javascript/es5/intl/resolved-collator-options
-bear @cluesurf/bind/code/javascript/es5/intl/collator
-bear @cluesurf/bind/code/javascript/es5/intl/number-format-options
-bear @cluesurf/bind/code/javascript/es5/intl/resolved-number-format-options
-bear @cluesurf/bind/code/javascript/es5/intl/number-format
-bear @cluesurf/bind/code/javascript/es5/intl/date-time-format-options
-bear @cluesurf/bind/code/javascript/es5/intl/resolved-date-time-format-options
-bear @cluesurf/bind/code/javascript/es5/intl/date-time-format
+bear @term/bind/code/javascript/es5/intl/collator-options
+bear @term/bind/code/javascript/es5/intl/resolved-collator-options
+bear @term/bind/code/javascript/es5/intl/collator
+bear @term/bind/code/javascript/es5/intl/number-format-options
+bear @term/bind/code/javascript/es5/intl/resolved-number-format-options
+bear @term/bind/code/javascript/es5/intl/number-format
+bear @term/bind/code/javascript/es5/intl/date-time-format-options
+bear @term/bind/code/javascript/es5/intl/resolved-date-time-format-options
+bear @term/bind/code/javascript/es5/intl/date-time-format
 
-load @cluesurf/bind/code/javascript/es5/collator
+load @term/bind/code/javascript/es5/collator
   find collator
 
-load @cluesurf/bind/code/javascript/es5/collator-options
+load @term/bind/code/javascript/es5/collator-options
   find collator-options
 
-load @cluesurf/bind/code/javascript/es5/date-time-format
+load @term/bind/code/javascript/es5/date-time-format
   find date-time-format
 
-load @cluesurf/bind/code/javascript/es5/date-time-format-options
+load @term/bind/code/javascript/es5/date-time-format-options
   find date-time-format-options
 
-load @cluesurf/bind/code/javascript/es5/number-format
+load @term/bind/code/javascript/es5/number-format
   find number-format
 
-load @cluesurf/bind/code/javascript/es5/number-format-options
+load @term/bind/code/javascript/es5/number-format-options
   find number-format-options
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 host collator, name <Collator>

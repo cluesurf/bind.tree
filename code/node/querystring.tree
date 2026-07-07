@@ -1,13 +1,13 @@
 
-bear @cluesurf/bind/code/javascript/node/querystring/stringify-options
-bear @cluesurf/bind/code/javascript/node/querystring/parse-options
-bear @cluesurf/bind/code/javascript/node/querystring/parsed-url-query
-bear @cluesurf/bind/code/javascript/node/querystring/parsed-url-query-input
+bear @term/bind/code/javascript/node/querystring/stringify-options
+bear @term/bind/code/javascript/node/querystring/parse-options
+bear @term/bind/code/javascript/node/querystring/parsed-url-query
+bear @term/bind/code/javascript/node/querystring/parsed-url-query-input
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
 
-load @cluesurf/bind/code/node/querystring
+load @term/bind/code/node/querystring
   find parse-options
   find parsed-url-query
   find parsed-url-query-input

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/algorithm
+load @term/bind/code/browser/dom/algorithm
   find algorithm
 
-load @cluesurf/bind/code/browser/dom/buffer-source
+load @term/bind/code/browser/dom/buffer-source
   find buffer-source
 
-load @cluesurf/bind/code/browser/dom/hash-algorithm-identifier
+load @term/bind/code/browser/dom/hash-algorithm-identifier
   find hash-algorithm-identifier
 
 form hkdf-params, name <HkdfParams>

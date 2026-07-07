@@ -1,5 +1,5 @@
 
-bear @cluesurf/bind/code/javascript/es2015/iterable
-bear @cluesurf/bind/code/javascript/es2015/symbol
-bear @cluesurf/bind/code/javascript/es2020/symbol/wellknown/symbol-constructor
-bear @cluesurf/bind/code/javascript/es2020/symbol/wellknown/reg-exp
+bear @term/bind/code/javascript/es2015/iterable
+bear @term/bind/code/javascript/es2015/symbol
+bear @term/bind/code/javascript/es2020/symbol/wellknown/symbol-constructor
+bear @term/bind/code/javascript/es2020/symbol/wellknown/reg-exp

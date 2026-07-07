@@ -1,15 +1,15 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-number
   find native-string
   find native-undefined
   find promises-file-handle
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer-encoding
 
 form stream-options, name <StreamOptions>

@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find console-message-added-event-data-type
   find debugger-breakpoint-resolved-event-data-type
@@ -104,13 +104,13 @@ load @cluesurf/bind/code/javascript
   find runtime-set-custom-object-formatter-enabled-parameter-type
   find schema-get-domains-return-type
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find task
 
-load @cluesurf/bind/code/node/inspector
+load @term/bind/code/node/inspector
   find inspector-notification
 
 form session, name <Session>

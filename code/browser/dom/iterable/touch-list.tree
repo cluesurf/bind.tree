@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/touch
+load @term/bind/code/browser/dom/touch
   find touch
 
-load @cluesurf/bind/code/browser/dom/touch-list
+load @term/bind/code/browser/dom/touch-list
   find touch-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form touch-list, name <TouchList>

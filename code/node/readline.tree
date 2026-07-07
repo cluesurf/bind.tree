@@ -1,19 +1,19 @@
 
-bear @cluesurf/bind/code/javascript/node/readline/key
-bear @cluesurf/bind/code/javascript/node/readline/interface
-bear @cluesurf/bind/code/javascript/node/readline/read-line
-bear @cluesurf/bind/code/javascript/node/readline/completer
-bear @cluesurf/bind/code/javascript/node/readline/async-completer
-bear @cluesurf/bind/code/javascript/node/readline/completer-result
-bear @cluesurf/bind/code/javascript/node/readline/read-line-options
-bear @cluesurf/bind/code/javascript/node/readline/direction
-bear @cluesurf/bind/code/javascript/node/readline/cursor-pos
+bear @term/bind/code/javascript/node/readline/key
+bear @term/bind/code/javascript/node/readline/interface
+bear @term/bind/code/javascript/node/readline/read-line
+bear @term/bind/code/javascript/node/readline/completer
+bear @term/bind/code/javascript/node/readline/async-completer
+bear @term/bind/code/javascript/node/readline/completer-result
+bear @term/bind/code/javascript/node/readline/read-line-options
+bear @term/bind/code/javascript/node/readline/direction
+bear @term/bind/code/javascript/node/readline/cursor-pos
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find interface
   find native-boolean
   find native-number
@@ -21,7 +21,7 @@ load @cluesurf/bind/code/javascript
   find node-js-readable-stream
   find node-js-writable-stream
 
-load @cluesurf/bind/code/node/readline
+load @term/bind/code/node/readline
   find async-completer
   find completer
   find direction

@@ -1,8 +1,8 @@
 
-load @cluesurf/moon
+load @term/moon
   find like
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find relative-indexable
 
 form array, name <Array>

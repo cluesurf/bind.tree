@@ -1,21 +1,21 @@
 
-bear @cluesurf/bind/code/javascript/node/http/incoming-http-headers
-bear @cluesurf/bind/code/javascript/node/http/outgoing-http-header
-bear @cluesurf/bind/code/javascript/node/http/outgoing-http-headers
-bear @cluesurf/bind/code/javascript/node/http/client-request-args
-bear @cluesurf/bind/code/javascript/node/http/server-options
-bear @cluesurf/bind/code/javascript/node/http/request-listener
-bear @cluesurf/bind/code/javascript/node/http/server
-bear @cluesurf/bind/code/javascript/node/http/outgoing-message
-bear @cluesurf/bind/code/javascript/node/http/server-response
-bear @cluesurf/bind/code/javascript/node/http/information-event
-bear @cluesurf/bind/code/javascript/node/http/client-request
-bear @cluesurf/bind/code/javascript/node/http/incoming-message
-bear @cluesurf/bind/code/javascript/node/http/agent-options
-bear @cluesurf/bind/code/javascript/node/http/agent
-bear @cluesurf/bind/code/javascript/node/http/request-options
+bear @term/bind/code/javascript/node/http/incoming-http-headers
+bear @term/bind/code/javascript/node/http/outgoing-http-header
+bear @term/bind/code/javascript/node/http/outgoing-http-headers
+bear @term/bind/code/javascript/node/http/client-request-args
+bear @term/bind/code/javascript/node/http/server-options
+bear @term/bind/code/javascript/node/http/request-listener
+bear @term/bind/code/javascript/node/http/server
+bear @term/bind/code/javascript/node/http/outgoing-message
+bear @term/bind/code/javascript/node/http/server-response
+bear @term/bind/code/javascript/node/http/information-event
+bear @term/bind/code/javascript/node/http/client-request
+bear @term/bind/code/javascript/node/http/incoming-message
+bear @term/bind/code/javascript/node/http/agent-options
+bear @term/bind/code/javascript/node/http/agent
+bear @term/bind/code/javascript/node/http/request-options
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find agent
   find array
   find client-request
@@ -27,12 +27,12 @@ load @cluesurf/bind/code/javascript
   find server
   find url
 
-load @cluesurf/moon
+load @term/moon
   find form
   find or
   find task
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find request-listener
   find request-options
   find server-options

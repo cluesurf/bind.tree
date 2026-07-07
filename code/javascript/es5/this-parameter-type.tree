@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-unknown
 
-load @cluesurf/bind/code/javascript/u
+load @term/bind/code/javascript/u
   find u
 
 form this-parameter-type, name <ThisParameterType>

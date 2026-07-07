@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-string
 
-load @cluesurf/moon
+load @term/moon
   find tuple
 
 form completer-result, name <CompleterResult>

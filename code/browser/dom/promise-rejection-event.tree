@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
 form promise-rejection-event, name <PromiseRejectionEvent>

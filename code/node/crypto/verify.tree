@@ -1,14 +1,14 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-string
   find node-js-array-buffer-view
   find verify
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find binary-like
   find binary-to-text-encoding
   find encoding

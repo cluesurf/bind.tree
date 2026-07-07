@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/dom-matrix2-d-init
+load @term/bind/code/browser/dom/dom-matrix2-d-init
   find dom-matrix2-d-init
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form dom-matrix-init, name <DOMMatrixInit>

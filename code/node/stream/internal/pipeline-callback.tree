@@ -1,18 +1,18 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find or
   find task
   find test
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-null
   find native-void
   find node-js-errno-exception
   find p
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find pipeline-destination
   find pipeline-destination-promise-function
 

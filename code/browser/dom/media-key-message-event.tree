@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/browser/dom/media-key-message-type
+load @term/bind/code/browser/dom/media-key-message-type
   find media-key-message-type
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
 form media-key-message-event, name <MediaKeyMessageEvent>

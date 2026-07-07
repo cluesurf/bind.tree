@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2015/iterable/iterable-iterator
+load @term/bind/code/javascript/es2015/iterable/iterable-iterator
   find iterable-iterator
 
-load @cluesurf/bind/code/javascript/es5/int16-array
+load @term/bind/code/javascript/es5/int16-array
   find int16-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form int16-array, name <Int16Array>

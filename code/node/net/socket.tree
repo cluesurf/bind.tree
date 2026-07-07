@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find error
   find native-boolean
@@ -10,20 +10,20 @@ load @cluesurf/bind/code/javascript
   find native-undefined
   find native-void
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find uint8-array
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find address-info
   find socket-connect-opts
   find socket-constructor-opts

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/abort-controller
+load @term/bind/code/browser/dom/abort-controller
   find abort-controller
 
-load @cluesurf/bind/code/browser/webworker/abort-signal
+load @term/bind/code/browser/webworker/abort-signal
   find abort-signal
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form abort-controller, name <AbortController>

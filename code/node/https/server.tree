@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find duplex
   find error
@@ -13,15 +13,15 @@ load @cluesurf/bind/code/javascript
   find native-void
   find tls-tls-socket
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/https
+load @term/bind/code/node/https
   find server-options
 
 form server, name <Server>

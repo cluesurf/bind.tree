@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom/abstract-worker-event-map
+load @term/bind/code/browser/dom/abstract-worker-event-map
   find abstract-worker-event-map
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
 form service-worker-event-map, name <ServiceWorkerEventMap>

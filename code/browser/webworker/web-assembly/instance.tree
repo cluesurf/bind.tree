@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/browser/dom/instance
+load @term/bind/code/browser/dom/instance
   find instance
 
-load @cluesurf/bind/code/browser/webworker/exports
+load @term/bind/code/browser/webworker/exports
   find exports
 
 form instance, name <Instance>

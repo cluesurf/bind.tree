@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/css-rule
+load @term/bind/code/browser/dom/css-rule
   find css-rule
 
-load @cluesurf/bind/code/browser/dom/css-rule-list
+load @term/bind/code/browser/dom/css-rule-list
   find css-rule-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form css-rule-list, name <CSSRuleList>

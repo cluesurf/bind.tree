@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/javascript/iterator
+load @term/bind/code/javascript/iterator
   find iterator
 
-load @cluesurf/bind/code/javascript/iterator-result
+load @term/bind/code/javascript/iterator-result
   find iterator-result
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-unknown
 
 form generator, name <Generator>

@@ -1,11 +1,11 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find form
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array-buffer
   find async-generator-function
   find async-iterable
@@ -24,13 +24,13 @@ load @cluesurf/bind/code/javascript
   find promise
   find stream
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find array
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find duplex-options
 
 form duplex, name <Duplex>

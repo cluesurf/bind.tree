@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find incoming-message
   find native-number
@@ -7,7 +7,7 @@ load @cluesurf/bind/code/javascript
   find node-js-read-only-dict
   find socket
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find agent-options
 
 form agent, name <Agent>

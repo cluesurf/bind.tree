@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker/file
+load @term/bind/code/browser/webworker/file
   find file
 
-load @cluesurf/bind/code/browser/webworker/file-list
+load @term/bind/code/browser/webworker/file-list
   find file-list
 
-load @cluesurf/bind/code/javascript/iterable-iterator
+load @term/bind/code/javascript/iterable-iterator
   find iterable-iterator
 
 form file-list, name <FileList>

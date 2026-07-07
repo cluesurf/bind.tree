@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find json-web-key
 
 form json-web-key-input, name <JsonWebKeyInput>

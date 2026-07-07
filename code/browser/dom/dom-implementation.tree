@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/dom/document
+load @term/bind/code/browser/dom/document
   find document
 
-load @cluesurf/bind/code/browser/dom/document-type
+load @term/bind/code/browser/dom/document-type
   find document-type
 
-load @cluesurf/bind/code/browser/dom/xml-document
+load @term/bind/code/browser/dom/xml-document
   find xml-document
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form dom-implementation, name <DOMImplementation>

@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-string
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find connect-opts
 
 form ipc-socket-connect-opts, name <IpcSocketConnectOpts>

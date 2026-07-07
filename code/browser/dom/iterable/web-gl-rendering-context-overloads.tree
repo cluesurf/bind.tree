@@ -1,26 +1,26 @@
 
-load @cluesurf/bind/code/browser/dom/g-lboolean
+load @term/bind/code/browser/dom/g-lboolean
   find g-lboolean
 
-load @cluesurf/bind/code/browser/dom/g-lfloat
+load @term/bind/code/browser/dom/g-lfloat
   find g-lfloat
 
-load @cluesurf/bind/code/browser/dom/g-lint
+load @term/bind/code/browser/dom/g-lint
   find g-lint
 
-load @cluesurf/bind/code/browser/dom/web-gl-rendering-context-overloads
+load @term/bind/code/browser/dom/web-gl-rendering-context-overloads
   find web-gl-rendering-context-overloads
 
-load @cluesurf/bind/code/browser/dom/web-gl-uniform-location
+load @term/bind/code/browser/dom/web-gl-uniform-location
   find web-gl-uniform-location
 
-load @cluesurf/bind/code/javascript/iterable
+load @term/bind/code/javascript/iterable
   find iterable
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form web-gl-rendering-context-overloads, name <WebGLRenderingContextOverloads>

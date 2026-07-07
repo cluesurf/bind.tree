@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/float64-array
+load @term/bind/code/javascript/es2015/symbol/wellknown/float64-array
   find float64-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form float64-array, name <Float64Array>

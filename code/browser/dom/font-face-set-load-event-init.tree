@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/event-init
+load @term/bind/code/browser/dom/event-init
   find event-init
 
-load @cluesurf/bind/code/browser/dom/font-face
+load @term/bind/code/browser/dom/font-face
   find font-face
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-array
 
 form font-face-set-load-event-init, name <FontFaceSetLoadEventInit>

@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-number
   find native-string
   find native-undefined
   find runtime-call-frame
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/node/inspector/profiler
+load @term/bind/code/node/inspector/profiler
   find position-tick-info
 
 form profile-node, name <ProfileNode>

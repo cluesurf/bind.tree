@@ -1,71 +1,71 @@
 
-load @cluesurf/bind/code/browser/dom/add-event-listener-options
+load @term/bind/code/browser/dom/add-event-listener-options
   find add-event-listener-options
 
-load @cluesurf/bind/code/browser/dom/can-play-type-result
+load @term/bind/code/browser/dom/can-play-type-result
   find can-play-type-result
 
-load @cluesurf/bind/code/browser/dom/event
+load @term/bind/code/browser/dom/event
   find event
 
-load @cluesurf/bind/code/browser/dom/event-listener-options
+load @term/bind/code/browser/dom/event-listener-options
   find event-listener-options
 
-load @cluesurf/bind/code/browser/dom/event-listener-or-event-listener-object
+load @term/bind/code/browser/dom/event-listener-or-event-listener-object
   find event-listener-or-event-listener-object
 
-load @cluesurf/bind/code/browser/dom/html-element
+load @term/bind/code/browser/dom/html-element
   find html-element
 
-load @cluesurf/bind/code/browser/dom/html-media-element-event-map
+load @term/bind/code/browser/dom/html-media-element-event-map
   find html-media-element-event-map
 
-load @cluesurf/bind/code/browser/dom/media-encrypted-event
+load @term/bind/code/browser/dom/media-encrypted-event
   find media-encrypted-event
 
-load @cluesurf/bind/code/browser/dom/media-error
+load @term/bind/code/browser/dom/media-error
   find media-error
 
-load @cluesurf/bind/code/browser/dom/media-keys
+load @term/bind/code/browser/dom/media-keys
   find media-keys
 
-load @cluesurf/bind/code/browser/dom/media-provider
+load @term/bind/code/browser/dom/media-provider
   find media-provider
 
-load @cluesurf/bind/code/browser/dom/remote-playback
+load @term/bind/code/browser/dom/remote-playback
   find remote-playback
 
-load @cluesurf/bind/code/browser/dom/text-track
+load @term/bind/code/browser/dom/text-track
   find text-track
 
-load @cluesurf/bind/code/browser/dom/text-track-kind
+load @term/bind/code/browser/dom/text-track-kind
   find text-track-kind
 
-load @cluesurf/bind/code/browser/dom/text-track-list
+load @term/bind/code/browser/dom/text-track-list
   find text-track-list
 
-load @cluesurf/bind/code/browser/dom/time-ranges
+load @term/bind/code/browser/dom/time-ranges
   find time-ranges
 
-load @cluesurf/bind/code/javascript/es5/promise
+load @term/bind/code/javascript/es5/promise
   find promise
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form html-media-element, name <HTMLMediaElement>

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/subtle-crypto
+load @term/bind/code/browser/dom/subtle-crypto
   find subtle-crypto
 
-load @cluesurf/bind/code/javascript/es5/array-buffer-view
+load @term/bind/code/javascript/es5/array-buffer-view
   find array-buffer-view
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
 form crypto, name <Crypto>

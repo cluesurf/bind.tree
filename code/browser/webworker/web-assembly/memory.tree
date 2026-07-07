@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/dom/memory
+load @term/bind/code/browser/dom/memory
   find memory
 
-load @cluesurf/bind/code/javascript/es5/array-buffer
+load @term/bind/code/javascript/es5/array-buffer
   find array-buffer
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form memory, name <Memory>

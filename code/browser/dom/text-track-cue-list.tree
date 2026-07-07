@@ -1,14 +1,14 @@
 
-load @cluesurf/bind/code/browser/dom/text-track-cue
+load @term/bind/code/browser/dom/text-track-cue
   find text-track-cue
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-null
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form text-track-cue-list, name <TextTrackCueList>

@@ -1,23 +1,23 @@
 
-load @cluesurf/bind/code/browser/dom/buffer-source
+load @term/bind/code/browser/dom/buffer-source
   find buffer-source
 
-load @cluesurf/bind/code/browser/dom/media-key-status
+load @term/bind/code/browser/dom/media-key-status
   find media-key-status
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-any
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-undefined
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-void
 
 form media-key-status-map, name <MediaKeyStatusMap>

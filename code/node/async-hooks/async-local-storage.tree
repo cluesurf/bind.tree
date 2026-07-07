@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-undefined
   find native-void
   find t
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find or

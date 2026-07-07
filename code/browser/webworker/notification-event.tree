@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/browser/webworker/extendable-event
+load @term/bind/code/browser/webworker/extendable-event
   find extendable-event
 
-load @cluesurf/bind/code/browser/webworker/notification
+load @term/bind/code/browser/webworker/notification
   find notification
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-string
 
 form notification-event, name <NotificationEvent>

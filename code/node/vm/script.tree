@@ -1,17 +1,17 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-boolean
   find native-string
   find native-undefined
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
 
-load @cluesurf/bind/code/node/vm
+load @term/bind/code/node/vm
   find context
   find running-script-options
   find script-options

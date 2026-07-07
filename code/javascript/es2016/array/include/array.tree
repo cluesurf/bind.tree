@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/array
+load @term/bind/code/javascript/es2015/symbol/wellknown/array
   find array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form array, name <Array>

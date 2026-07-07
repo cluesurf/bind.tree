@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find incoming-message
   find native-number
@@ -8,11 +8,11 @@ load @cluesurf/bind/code/javascript
   find native-void
   find socket
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find outgoing-http-header
   find outgoing-http-headers
 

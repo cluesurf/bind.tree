@@ -1,8 +1,8 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find key-object
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find signing-options
 
 form sign-key-object-input, name <SignKeyObjectInput>

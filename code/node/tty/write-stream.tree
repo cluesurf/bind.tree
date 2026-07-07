@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find array
   find native-boolean
   find native-number
@@ -9,13 +9,13 @@ load @cluesurf/bind/code/javascript
   find native-this
   find native-void
 
-load @cluesurf/moon
+load @term/moon
   find any
   find or
   find task
   find tuple
 
-load @cluesurf/bind/code/node/tty
+load @term/bind/code/node/tty
   find direction
 
 form write-stream, name <WriteStream>

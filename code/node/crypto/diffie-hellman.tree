@@ -1,15 +1,15 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
   find native-void
   find node-js-array-buffer-view
 
-load @cluesurf/bind/code/node/buffer
+load @term/bind/code/node/buffer
   find buffer
   find buffer-encoding
 
-load @cluesurf/bind/code/node/crypto
+load @term/bind/code/node/crypto
   find binary-to-text-encoding
 
 form diffie-hellman, name <DiffieHellman>

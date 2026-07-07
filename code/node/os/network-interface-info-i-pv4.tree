@@ -1,5 +1,5 @@
 
-load @cluesurf/bind/code/node/os
+load @term/bind/code/node/os
   find network-interface-base
 
 form network-interface-info-i-pv4, name <NetworkInterfaceInfoIPv4>

@@ -1,9 +1,9 @@
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-number
   find native-string
 
-load @cluesurf/bind/code/node/net
+load @term/bind/code/node/net
   find ip-version
   find socket-address-init-options
 

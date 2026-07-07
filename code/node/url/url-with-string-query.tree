@@ -1,12 +1,12 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-null
   find native-string
 
-load @cluesurf/bind/code/node/url
+load @term/bind/code/node/url
   find url
 
 form url-with-string-query, name <UrlWithStringQuery>

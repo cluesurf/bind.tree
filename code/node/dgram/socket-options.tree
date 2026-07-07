@@ -1,9 +1,9 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find abortable
   find dns-lookup-one-options
   find native-boolean
@@ -14,7 +14,7 @@ load @cluesurf/bind/code/javascript
   find native-void
   find node-js-errno-exception
 
-load @cluesurf/bind/code/node/dgram
+load @term/bind/code/node/dgram
   find socket-type
 
 form socket-options, name <SocketOptions>

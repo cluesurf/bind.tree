@@ -1,15 +1,15 @@
 
-load @cluesurf/moon
+load @term/moon
   find any
   find like
   find test
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find native-void
   find p
   find promise
 
-load @cluesurf/bind/code/node/stream/internal
+load @term/bind/code/node/stream/internal
   find pipeline-destination
   find pipeline-destination-promise-function
 

@@ -1,9 +1,9 @@
 
-load @cluesurf/moon
+load @term/moon
   find or
   find task
 
-load @cluesurf/bind/code/javascript
+load @term/bind/code/javascript
   find agent
   find error
   find lookup-function
@@ -15,10 +15,10 @@ load @cluesurf/bind/code/javascript
   find native-void
   find socket
 
-load @cluesurf/bind/code/node/globals
+load @term/bind/code/node/globals
   find abort-signal
 
-load @cluesurf/bind/code/node/http
+load @term/bind/code/node/http
   find outgoing-http-headers
 
 form client-request-args, name <ClientRequestArgs>

@@ -1,11 +1,11 @@
 
-load @cluesurf/bind/code/javascript/es2015/symbol/wellknown/int8-array
+load @term/bind/code/javascript/es2015/symbol/wellknown/int8-array
   find int8-array
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-boolean
 
-load @cluesurf/bind/code/javascript/native
+load @term/bind/code/javascript/native
   find native-number
 
 form int8-array, name <Int8Array>
