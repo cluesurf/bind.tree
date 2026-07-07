@@ -10,7 +10,7 @@ bear @term/bind/code/javascript/node/vm/measure-memory-options
 bear @term/bind/code/javascript/node/vm/memory-measurement
 bear @term/bind/code/javascript/node/vm/script
 
-load @term/moon
+load @term/bind
   find any
   find or
 

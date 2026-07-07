@@ -7,7 +7,7 @@ bear @term/bind/code/javascript/node/repl/repl-command
 bear @term/bind/code/javascript/node/repl/repl-server
 bear @term/bind/code/javascript/node/repl/recoverable
 
-load @term/moon
+load @term/bind
   find and
   find form
   find or

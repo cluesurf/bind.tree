@@ -8,7 +8,7 @@ load @term/bind/code/javascript
   find peer-certificate
   find x509-certificate
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/node/buffer

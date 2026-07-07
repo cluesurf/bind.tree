@@ -27,7 +27,7 @@ load @term/bind/code/javascript
   find server
   find url
 
-load @term/moon
+load @term/bind
   find form
   find or
   find task

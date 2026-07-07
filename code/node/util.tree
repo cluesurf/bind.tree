@@ -32,7 +32,7 @@ load @term/bind/code/javascript
   find promise
   find reg-exp
 
-load @term/moon
+load @term/bind
   find any
   find like
   find or

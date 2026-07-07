@@ -9,7 +9,7 @@ load @term/bind/code/javascript
   find native-void
   find readonly-array
 
-load @term/moon
+load @term/bind
   find any
   find or
   find task

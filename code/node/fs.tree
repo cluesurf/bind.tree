@@ -103,7 +103,7 @@ load @term/bind/code/javascript
   find uint8-array
   find write-stream
 
-load @term/moon
+load @term/bind
   find and
   find form
   find like

@@ -11,7 +11,7 @@ load @term/bind/code/javascript
   find readonly-array
   find record
 
-load @term/moon
+load @term/bind
   find like
   find or
   find task

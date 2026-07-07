@@ -43,7 +43,7 @@ bear @term/bind/code/javascript/node/child-process/exec-file-sync-options
 bear @term/bind/code/javascript/node/child-process/exec-file-sync-options-with-string-encoding
 bear @term/bind/code/javascript/node/child-process/exec-file-sync-options-with-buffer-encoding
 
-load @term/moon
+load @term/bind
   find and
   find form
   find or

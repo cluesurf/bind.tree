@@ -9,7 +9,7 @@ load @term/bind/code/javascript
   find native-void
   find url
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/node/module

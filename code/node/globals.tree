@@ -21,7 +21,7 @@ bear @term/bind/code/javascript/node/globals/big-int64-array
 bear @term/bind/code/javascript/node/globals/big-uint64-array
 bear @term/bind/code/javascript/node/globals/global
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

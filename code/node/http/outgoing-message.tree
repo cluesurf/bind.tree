@@ -12,7 +12,7 @@ load @term/bind/code/javascript
   find readonly-array
   find socket
 
-load @term/moon
+load @term/bind
   find or
   find task
   find tuple

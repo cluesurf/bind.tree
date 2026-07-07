@@ -5,7 +5,7 @@ bear @term/bind/code/javascript/node/dgram/socket-type
 bear @term/bind/code/javascript/node/dgram/socket-options
 bear @term/bind/code/javascript/node/dgram/socket
 
-load @term/moon
+load @term/bind
   find task
 
 load @term/bind/code/javascript

@@ -11,7 +11,7 @@ load @term/bind/code/javascript
   find node-js-dict
   find socket
 
-load @term/moon
+load @term/bind
   find or
   find task
 

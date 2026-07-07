@@ -15,7 +15,7 @@ load @term/bind/code/javascript
   find readable
   find writable
 
-load @term/moon
+load @term/bind
   find any
   find or
   find task

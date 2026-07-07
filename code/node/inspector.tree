@@ -8,7 +8,7 @@ bear @term/bind/code/javascript/node/inspector/profiler
 bear @term/bind/code/javascript/node/inspector/heap-profiler
 bear @term/bind/code/javascript/node/inspector/session
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/javascript

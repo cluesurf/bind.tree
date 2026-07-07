@@ -8,7 +8,7 @@ load @term/bind/code/javascript
   find native-void
   find socket
 
-load @term/moon
+load @term/bind
   find or
   find task
 

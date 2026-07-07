@@ -12,7 +12,7 @@ load @term/bind/code/javascript
   find native-void
   find tls-tls-socket
 
-load @term/moon
+load @term/bind
   find any
   find or
   find task

@@ -11,7 +11,7 @@ load @term/bind/code/javascript
   find native-this
   find native-void
 
-load @term/moon
+load @term/bind
   find any
   find or
   find task

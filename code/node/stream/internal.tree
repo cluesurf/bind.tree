@@ -26,7 +26,7 @@ bear @term/bind/code/javascript/node/stream/internal/pipeline-options
 bear @term/bind/code/javascript/node/stream/internal/pipeline
 bear @term/bind/code/javascript/node/stream/internal/pipe
 
-load @term/moon
+load @term/bind
   find any
   find form
   find like

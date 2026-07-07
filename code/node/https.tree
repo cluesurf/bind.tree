@@ -5,7 +5,7 @@ bear @term/bind/code/javascript/node/https/agent-options
 bear @term/bind/code/javascript/node/https/agent
 bear @term/bind/code/javascript/node/https/server
 
-load @term/moon
+load @term/bind
   find or
   find task
 

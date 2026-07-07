@@ -7,7 +7,7 @@ load @term/bind/code/javascript
   find native-undefined
   find promise
 
-load @term/moon
+load @term/bind
   find and
   find form
   find or

@@ -5,7 +5,7 @@ load @term/bind/code/javascript
   find native-undefined
   find runtime-remote-object
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/node/inspector/debugger

@@ -14,7 +14,7 @@ load @term/bind/code/javascript
   find net-socket
   find x509-certificate
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

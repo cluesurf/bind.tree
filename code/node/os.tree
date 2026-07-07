@@ -16,7 +16,7 @@ load @term/bind/code/javascript
   find node-js-dict
   find node-js-platform
 
-load @term/moon
+load @term/bind
   find form
   find or
 

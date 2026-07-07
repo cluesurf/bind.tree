@@ -4,7 +4,7 @@ bear @term/bind/code/javascript/node/assert/call-tracker
 bear @term/bind/code/javascript/node/assert/call-tracker-report-information
 bear @term/bind/code/javascript/node/assert/assert-predicate
 
-load @term/moon
+load @term/bind
   find and
   find form
   find like

@@ -95,9 +95,6 @@ form readonly-array, name <ReadonlyArray>
     take this-arg, like maybe
       like native-any
     like native-boolean
-    rank self
-      like native-array
-        like s
 
   task every, name <every>
     take predicate

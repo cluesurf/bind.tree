@@ -1,7 +1,7 @@
 
 bear @term/bind/code/javascript/node/events/event-emitter/abortable
 
-load @term/moon
+load @term/bind
   find any
   find or
 

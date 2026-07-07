@@ -104,7 +104,7 @@ load @term/bind/code/javascript
   find runtime-set-custom-object-formatter-enabled-parameter-type
   find schema-get-domains-return-type
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

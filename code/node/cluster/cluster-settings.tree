@@ -6,7 +6,7 @@ load @term/bind/code/javascript
   find native-string
   find native-undefined
 
-load @term/moon
+load @term/bind
   find any
   find or
   find task

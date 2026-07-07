@@ -5,7 +5,7 @@ load @term/bind/code/javascript
   find native-void
   find t
 
-load @term/moon
+load @term/bind
   find any
   find like
   find or

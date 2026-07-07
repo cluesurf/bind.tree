@@ -8,7 +8,7 @@ load @term/bind/code/javascript
   find native-undefined
   find native-void
 
-load @term/moon
+load @term/bind
   find or
   find task
 

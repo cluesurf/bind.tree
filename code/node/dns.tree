@@ -50,7 +50,7 @@ load @term/bind/code/javascript
   find node-js-errno-exception
   find readonly-array
 
-load @term/moon
+load @term/bind
   find or
   find task
 

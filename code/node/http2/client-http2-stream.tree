@@ -8,7 +8,7 @@ load @term/bind/code/javascript
   find native-this
   find native-void
 
-load @term/moon
+load @term/bind
   find and
   find any
   find form

@@ -7,7 +7,7 @@ bear @term/bind/code/javascript/node/url/url-format-options
 bear @term/bind/code/javascript/node/url/url-search-params
 bear @term/bind/code/javascript/node/url/global
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

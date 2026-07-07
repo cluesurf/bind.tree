@@ -9,7 +9,7 @@ bear @term/bind/code/javascript/node/readline/read-line-options
 bear @term/bind/code/javascript/node/readline/direction
 bear @term/bind/code/javascript/node/readline/cursor-pos
 
-load @term/moon
+load @term/bind
   find or
   find task
 

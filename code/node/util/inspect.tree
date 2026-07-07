@@ -1,5 +1,5 @@
 
-load @term/moon
+load @term/bind
   find tuple
 
 load @term/bind/code/javascript

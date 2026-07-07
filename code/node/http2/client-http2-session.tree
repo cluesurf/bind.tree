@@ -11,7 +11,7 @@ load @term/bind/code/javascript
   find readonly-array
   find tls-tls-socket
 
-load @term/moon
+load @term/bind
   find and
   find any
   find or

@@ -19,7 +19,7 @@ load @term/bind/code/node/buffer
   find buffer-constructor
   find transcode-encoding
 
-load @term/moon
+load @term/bind
   find form
   find or
 

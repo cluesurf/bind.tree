@@ -2,7 +2,7 @@
 bear @term/bind/code/javascript/node/trace-events/tracing
 bear @term/bind/code/javascript/node/trace-events/create-tracing-options
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/javascript

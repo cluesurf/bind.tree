@@ -7,7 +7,7 @@ load @term/bind/code/javascript
   find runtime-stack-trace
   find runtime-stack-trace-id
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/node/inspector/debugger

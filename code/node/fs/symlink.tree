@@ -1,7 +1,7 @@
 
 bear @term/bind/code/javascript/node/fs/symlink/type
 
-load @term/moon
+load @term/bind
   find or
 
 load @term/bind/code/javascript

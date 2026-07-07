@@ -16,7 +16,7 @@ load @term/bind/code/javascript
   find node-js-typed-array
   find readable
 
-load @term/moon
+load @term/bind
   find any
 
 load @term/bind/code/node/buffer

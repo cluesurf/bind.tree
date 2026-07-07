@@ -11,7 +11,7 @@ load @term/bind/code/javascript
   find tls-tls-socket
   find url-url
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

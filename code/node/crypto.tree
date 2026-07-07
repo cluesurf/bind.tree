@@ -104,7 +104,7 @@ load @term/bind/code/javascript
   find stream-writable-options
   find verify
 
-load @term/moon
+load @term/bind
   find and
   find form
   find like

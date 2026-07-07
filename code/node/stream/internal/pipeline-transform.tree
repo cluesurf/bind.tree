@@ -6,7 +6,7 @@ load @term/bind/code/javascript
   find node-js-read-write-stream
   find st
 
-load @term/moon
+load @term/bind
   find any
   find like
   find or

@@ -1,5 +1,5 @@
 
-load @term/moon
+load @term/bind
   find or
 
 form legacy-character-encoding, name <LegacyCharacterEncoding>

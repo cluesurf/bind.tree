@@ -19,7 +19,7 @@ bear @term/bind/code/javascript/node/net/net-connect-opts
 bear @term/bind/code/javascript/node/net/socket-address-init-options
 bear @term/bind/code/javascript/node/net/socket-address
 
-load @term/moon
+load @term/bind
   find task
 
 load @term/bind/code/javascript

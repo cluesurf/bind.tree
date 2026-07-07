@@ -9,7 +9,7 @@ load @term/bind/code/javascript
   find native-this
   find uint8-array
 
-load @term/moon
+load @term/bind
   find form
   find or
   find tuple

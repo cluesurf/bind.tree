@@ -9,7 +9,7 @@ bear @term/bind/code/javascript/node/worker-threads/worker
 bear @term/bind/code/javascript/node/worker-threads/broadcast-channel
 bear @term/bind/code/javascript/node/worker-threads/serializable
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

@@ -10,7 +10,7 @@ load @term/bind/code/javascript
   find shared-array-buffer
   find uint8-array
 
-load @term/moon
+load @term/bind
   find any
   find form
   find or

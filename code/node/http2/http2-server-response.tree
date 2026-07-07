@@ -16,7 +16,7 @@ load @term/bind/code/javascript
   find stream-readable
   find tls-tls-socket
 
-load @term/moon
+load @term/bind
   find any
   find or
   find task
